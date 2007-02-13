@@ -9,11 +9,17 @@
  * @licence GNU General Public Licence 2.0 or later
  */
 
+if( !defined( 'MEDIAWIKI' ) ) {
+	echo( "not a valid entry point.\n" );
+	die( 1 );
+}
+
+global $IP; #needed when called from the autoloader
+require_once("$IP/includes/UserMailer.php");
+
 /**
  *
  */
-require_once('UserMailer.php');
-
 class SpecialContact extends SpecialPage {
 	
 	/**

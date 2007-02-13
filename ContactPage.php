@@ -10,6 +10,11 @@
  * @licence GNU General Public Licence 2.0 or later
  */
 
+if( !defined( 'MEDIAWIKI' ) ) {
+	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
+	die( 1 );
+}
+
 $wgExtensionCredits['specialpage'][] = array( 
 	'name' => 'Contact', 
 	'author' => 'Daniel Kinzler', 
