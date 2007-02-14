@@ -30,11 +30,15 @@ $wgContactSender = 'apache@' . $wgServerName;
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;
 
 /**
-* load the CategoryTree internationalization file
+* load the ContactPage internationalization file
 */
-function cpLoadMessages() {
-	global $wgLang;
-	
+function loadContactPageI18n() {
+	global $wgLang, $wgMessageCache;
+
+	static $initialized = false;
+
+	if ( $initialized ) return;
+
 	$messages= array();
 	
 	$f= dirname( __FILE__ ) . '/ContactPage.i18n.php';
@@ -43,29 +47,8 @@ function cpLoadMessages() {
 	$f= dirname( __FILE__ ) . '/ContactPage.i18n.' . $wgLang->getCode() . '.php';
 	if ( file_exists( $f ) ) include( $f );
 	
-	return $messages;
-}
-
-/**
-* Get a ContactPage message, "contactpage-" prefix added automatically
-*/
-function cpMsg( $msg /*, ...*/ ) {
-	static $initialized = false;
-	global $wgMessageCache;
-	if ( !$initialized ) {
-		$wgMessageCache->addMessages( cpLoadMessages() );
-		$initialized = true;
-	}
-	if ( $msg === false ) {
-		return null;
-	}
-	$args = func_get_args();
-	$msg = array_shift( $args );
-	if ( $msg == '' ) {
-		return wfMsgReal( $msg, $args );
-	} else {
-		return wfMsgReal( "contactpage-$msg", $args );
-	}
+	$initialized = true;
+	$wgMessageCache->addMessages( $messages );
 }
 
 ?>

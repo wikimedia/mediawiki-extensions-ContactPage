@@ -30,7 +30,7 @@ class SpecialContact extends SpecialPage {
 		SpecialPage::SpecialPage( 'Contact', '', true );
 
 		#inject messages
-		cpMsg(false);
+		loadContactPageI18n();
 	}
 	
 	/**
@@ -101,11 +101,11 @@ class EmailContactForm {
 
 		#TODO: show captcha
 
-		$wgOut->setPagetitle( cpMsg( "title" ) );
-		$wgOut->addWikiText( cpMsg( "pagetext" ) );
+		$wgOut->setPagetitle( wfMsg( "contactpage-title" ) );
+		$wgOut->addWikiText( wfMsg( "contactpage-pagetext" ) );
 
 		if ( $this->subject === "" ) {
-			$this->subject = cpMsg( "defsubject" );
+			$this->subject = wfMsg( "contactpage-defsubject" );
 		}
 
 		#$emf = wfMsg( "emailfrom" );
@@ -116,8 +116,8 @@ class EmailContactForm {
 		$emm = wfMsg( "emailmessage" );
 		$ems = wfMsg( "emailsend" );
 		$emc = wfMsg( "emailccme" );
-		$emfn = cpMsg( "fromname" );
-		$emfa = cpMsg( "fromaddress" );
+		$emfn = wfMsg( "contactpage-fromname" );
+		$emfa = wfMsg( "contactpage-fromaddress" );
 		$encSubject = htmlspecialchars( $this->subject );
 		$encFromName = htmlspecialchars( $this->fromname );
 		$encFromAddress = htmlspecialchars( $this->fromaddress );
@@ -148,7 +148,7 @@ class EmailContactForm {
 <tr>
 <td></td>
 <td align='left'>
-<small>".cpMsg( "formfootnotes" )."</small>
+<small>".wfMsg( "contactpage-formfootnotes" )."</small>
 </td>
 </tr>
 </table>
@@ -179,7 +179,14 @@ class EmailContactForm {
 		if( wfRunHooks( 'ContactForm', array( &$to, &$replyto, &$subject, &$this->text ) ) ) {
 
 			wfDebug( "$fname: sending mail from ".$from->toString()." to ".$to->toString()." replyto ".($replyto==null?'-/-':$replyto->toString())."\n" );
-			$mailResult = userMailer( $to, $from, $subject, $this->text, $replyto ? $replyto->toString() : NULL ); #TODO: staring with MW 1.10, $replyto should be passed as an object
+
+			#HACK: in MW 1.9, replyto must be a string, in MW 1.0, it must be an object!
+			$ver = preg_replace( '![^\d._+]!', '', $GLOBALS['wgVersion'] );
+			$replyaddr = $replyto == null 
+					? NULL : version_compare( $ver, '1.10', '<' ) 
+						? $replyto->toString() : $replyto;
+
+			$mailResult = userMailer( $to, $from, $subject, $this->text, $replyaddr ); 
 
 			if( WikiError::isError( $mailResult ) ) {
 				$wgOut->addHTML( wfMsg( "usermailererror" ) . $mailResult);
