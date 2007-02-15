@@ -10,7 +10,7 @@ creates a special page Special:Contact, which is similar to
 Special:Emailuser, but it has a fixed recipient, and can be used
 anonymously.
 
-<http://meta.wikimedia.org/wiki/Contact_form_extension>
+<http://mediawiki.org/wiki/Extension:ContactPage>
 
 The ContactPage extension was originally written by Daniel Kinzler in 2007
 and is released under the GNU General Public Licence (GPL). It is based on
@@ -19,8 +19,7 @@ The internationalization files contain contributions by several people;
 they are mentioned in each file individually.
 
 
-INSTALLING
---------------------------------------------------------------------------
+== Installing ==
 
 Copy the ContactPage directory into the extensions folder of your 
 MediaWiki installation. Then add the following lines to your
@@ -32,8 +31,8 @@ LocalSettings.php file (near the end):
   $wgContactSender = 'apache@' . $wgServerName;
   $wgContactSenderName = 'Contact Form on ' . $wgSitename;
 
-CONFIGURATION
---------------------------------------------------------------------------
+
+== Configuration ==
 
 $wgContactUser must be the name of a registered wiki user, who has 
 supplied an email address, has user-to-user email enabled, and has
@@ -47,5 +46,3 @@ be an existing mail account.
 $wgContactSenderName is the name associated with the contact sender.
 This will be shown in the recipient's email program.
 
---------------------------------------------------------------------------
-EOF

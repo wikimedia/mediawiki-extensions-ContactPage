@@ -18,7 +18,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array( 
 	'name' => 'Contact', 
 	'author' => 'Daniel Kinzler', 
-	'url' => 'http://meta.wikimedia.org/wiki/Contact_form_extension',
+	'url' => 'http://mediawiki.org/wiki/Extension:ContactPage',
 	'description' => 'contact form for visitors',
 );
 
