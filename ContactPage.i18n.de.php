@@ -10,6 +10,7 @@
  * @licence GNU General Public Licence 2.0 or later
  */
 
+$messages['contact']= 'Kontaktseite';
 $messages['contactpage']= 'Kontaktseite';
 $messages['contactpage-title']= 'Kontakt';
 $messages['contactpage-pagetext']= 'Mit diesem Formular können Sie uns Nachrichten zukommen lassen.';
