@@ -105,7 +105,7 @@ class EmailContactForm {
 		$wgOut->addWikiText( wfMsg( "contactpage-pagetext" ) );
 
 		if ( $this->subject === "" ) {
-			$this->subject = wfMsg( "contactpage-defsubject" );
+			$this->subject = wfMsgForContent( "contactpage-defsubject" );
 		}
 
 		#$emf = wfMsg( "emailfrom" );
@@ -174,7 +174,15 @@ class EmailContactForm {
 		$to = new MailAddress( $this->target );
 		$from = new MailAddress( $wgContactSender, $wgContactSenderName );
 		$replyto = $this->fromaddress ? new MailAddress( $this->fromaddress, $this->fromname ) : NULL; 
-		$subject = $this->subject;
+		$subject = trim( $this->subject );
+
+		if ( $subject === "" ) {
+			$subject = wfMsgForContent( "contactpage-defsubject" );
+		}
+
+		if ( $this->fromname !== "" ) {
+			$subject = wfMsgForContent( "contactpage-subject-and-sender", $subject, $this->fromname );
+		}
 
 		if( wfRunHooks( 'ContactForm', array( &$to, &$replyto, &$subject, &$this->text ) ) ) {
 

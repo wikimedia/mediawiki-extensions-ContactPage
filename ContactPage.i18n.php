@@ -15,6 +15,7 @@ $messages['contactpage']= 'ContactPage';
 $messages['contactpage-title']= 'Contact';
 $messages['contactpage-pagetext']= 'Please use the form below to contact us.';
 $messages['contactpage-defsubject']= 'Contact Message';
+$messages['contactpage-subject-and-sender']= '$1 (from $2)';
 
 $messages['contactpage-fromname']= 'your name *';
 $messages['contactpage-fromaddress']= 'your email **';
