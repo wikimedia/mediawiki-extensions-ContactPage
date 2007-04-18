@@ -39,6 +39,7 @@ class SpecialContact extends SpecialPage {
 	 */
 	function execute( $par ) {
 		global $wgUser, $wgOut, $wgRequest, $wgEnableEmail, $wgContactUser, $wgContactSender;
+		$fname = "SpecialContact::execute";
 	
 		if( !$wgEnableEmail || !$wgContactUser || !$wgContactSender) {
 			$wgOut->showErrorPage( "nosuchspecialpage", "nospecialpagetext" );
@@ -57,11 +58,29 @@ class SpecialContact extends SpecialPage {
 		$f = new EmailContactForm( $nu );
 	
 		if ( "success" == $action ) {
+			wfDebug( "$fname: success.\n" );
 			$f->showSuccess( );
-		} else if ( "submit" == $action && $wgRequest->wasPosted() &&
-			$wgUser->matchEditToken( $wgRequest->getVal( 'wpEditToken' ) ) ) {
-			$f->doSubmit();
+		} else if ( "submit" == $action && $wgRequest->wasPosted() ) {#
+			$token = $wgRequest->getVal( 'wpEditToken' );
+
+			if( $wgUser->isAnon() ) {
+				# Anonymous users may not have a session
+				# open. Check for suffix anyway.
+				$tokenOk = ( EDIT_TOKEN_SUFFIX == $token );
+			} else {
+				$tokenOk = $wgUser->matchEditToken( $token );
+			}
+
+			if ( $tokenOk ) {
+				wfDebug( "$fname: submit\n" );
+				$f->doSubmit();
+			} else {
+				wfDebug( "$fname: bad token (".($wgUser->isAnon()?'anon':'user')."): $token\n" );
+				$wgOut->addWikiText( wfMsg( 'sessionfailure' ) );
+				$f->showForm();
+			}
 		} else {
+			wfDebug( "$fname: form\n" );
 			$f->showForm();
 		}
 	}
@@ -124,7 +143,7 @@ class EmailContactForm {
 
 		$titleObj = SpecialPage::getTitleFor( "Contact" );
 		$action = $titleObj->escapeLocalURL( "action=submit" );
-		$token = $wgUser->editToken();
+		$token = $wgUser->isAnon() ? EDIT_TOKEN_SUFFIX : $wgUser->editToken(); //this kind of sucks, really...
 
 		$wgOut->addHTML( "
 <form id=\"emailuser\" method=\"post\" action=\"{$action}\">
