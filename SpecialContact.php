@@ -144,6 +144,7 @@ class EmailContactForm {
 		$titleObj = SpecialPage::getTitleFor( "Contact" );
 		$action = $titleObj->escapeLocalURL( "action=submit" );
 		$token = $wgUser->isAnon() ? EDIT_TOKEN_SUFFIX : $wgUser->editToken(); //this kind of sucks, really...
+		$token = htmlspecialchars( $token );
 
 		$wgOut->addHTML( "
 <form id=\"emailuser\" method=\"post\" action=\"{$action}\">
