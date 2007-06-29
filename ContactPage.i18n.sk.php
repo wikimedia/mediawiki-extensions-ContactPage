@@ -24,4 +24,4 @@ $messages['contactpage-formfootnotes']= '
 * voliteľné<br />
 ** voliteľné, ale potrebné ak chcete odpoveď
 ';
-?>
+

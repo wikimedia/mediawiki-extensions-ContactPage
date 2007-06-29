@@ -259,4 +259,4 @@ class EmailContactForm {
 		$wgOut->returnToMain( false );
 	}
 }
-?>
+

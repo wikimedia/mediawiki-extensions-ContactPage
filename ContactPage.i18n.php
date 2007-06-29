@@ -24,4 +24,4 @@ $messages['contactpage-formfootnotes']= '
 * optional<br/>
 ** optional but needed if you want an answer
 ';
-?>
+

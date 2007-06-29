@@ -51,4 +51,3 @@ function loadContactPageI18n() {
 	$wgMessageCache->addMessages( $messages );
 }
 
-?>
