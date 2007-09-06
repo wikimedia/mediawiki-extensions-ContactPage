@@ -10,16 +10,15 @@
  * @licence GNU General Public Licence 2.0 or later
  */
 
-$messages['contact']= 'ContactPagina';
-$messages['contactpage']= 'ContactPagina';
-$messages['contactpage-title']= 'Contact';
-$messages['contactpage-pagetext']= 'Gebruik alstublieft het onderstaande formulier om contact met ons op te nemen.';
-$messages['contactpage-defsubject']= 'Contactbericht';
-$messages['contactpage-subject-and-sender']= '$1 (van $2)';
-
-$messages['contactpage-fromname']= 'uw naam *';
-$messages['contactpage-fromaddress']= 'uw e-mailadres **';
-
-$messages['contactpage-formfootnotes']= '
+$messages = array(
+'contact' => 'Neem contact met ons op',
+'contactpage' => 'Contactpagina',
+'contactpage-pagetext' => 'Gebruik alstublieft het onderstaande formulier om contact met ons op te nemen.',
+'contactpage-defsubject' => 'Contactbericht',
+'contactpage-subject-and-sender' => '$1 (van $2)',
+'contactpage-fromname' => 'uw naam *',
+'contactpage-fromaddress' => 'uw e-mailadres **',
+'contactpage-formfootnotes' => '
 * optioneel<br />
-** optioneel, maar noodzakelijk als antwoord gewenst is';
+** optioneel, maar noodzakelijk als antwoord gewenst is',
+);
