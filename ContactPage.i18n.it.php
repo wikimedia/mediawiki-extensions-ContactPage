@@ -6,7 +6,7 @@
  * @package MediaWiki
  * @subpackage Extensions
  * @author Daniel Kinzler, brightbyte.de; BrokenArrow (translation)
- * @copyright © 2007 Daniel Kinzler
+ * @copyright Â© 2007 Daniel Kinzler
  * @licence GNU General Public Licence 2.0 or later
  */
 
