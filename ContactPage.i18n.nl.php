@@ -11,7 +11,7 @@
  */
 
 $messages = array(
-'contact' => 'Neem contact met ons op',
+'contact' => 'Contact met ons opnemen',
 'contactpage' => 'Contactpagina',
 'contactpage-pagetext' => 'Gebruik alstublieft het onderstaande formulier om contact met ons op te nemen.',
 'contactpage-defsubject' => 'Contactbericht',
