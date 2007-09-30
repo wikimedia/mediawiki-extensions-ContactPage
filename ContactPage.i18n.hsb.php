@@ -6,7 +6,7 @@
  * @package MediaWiki
  * @subpackage Extensions
  * @author Daniel Kinzler, brightbyte.de
- * @copyright Â© 2007 Daniel Kinzler, Michawiki and Dundak
+ * @copyright © 2007 Daniel Kinzler, Michawiki and Dundak
  * @licence GNU General Public Licence 2.0 or later
  */
 
