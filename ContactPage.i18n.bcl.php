@@ -13,5 +13,5 @@
 $messages = array(
 'contactpage-subject-and-sender' => '$1 (poon $2)',
 'contactpage-fromname' => 'pangaran mo *',
-'contactpage-fromaddress' => 'e-surat mo **',
+'contactpage-fromaddress' => '\'\'e\'\'-surat mo **',
 );
