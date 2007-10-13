@@ -71,17 +71,13 @@ class SpecialContact extends SpecialPage {
 				$tokenOk = $wgUser->matchEditToken( $token );
 			}
 
-			if ( !$tokenOk ) {
+			if ( $tokenOk ) {
+				wfDebug( "$fname: submit\n" );
+				$f->doSubmit();
+			} else {
 				wfDebug( "$fname: bad token (".($wgUser->isAnon()?'anon':'user')."): $token\n" );
 				$wgOut->addWikiText( wfMsg( 'sessionfailure' ) );
 				$f->showForm();
-			} else if ( !$f->passCaptcha() ) {
-				wfDebug( "$fname: captcha failed" );
-				$wgOut->addWikiText( wfMsg( 'contactpage-captcha-failed' ) ); //TODO: provide a message for this!
-				$f->showForm();
-			} else {
-				wfDebug( "$fname: submit\n" );
-				$f->doSubmit();
 			}
 		} else {
 			wfDebug( "$fname: form\n" );
@@ -105,8 +101,6 @@ class EmailContactForm {
 	 */
 	function EmailContactForm( $target ) {
 		global $wgRequest, $wgUser;
-		global $wgCaptcha, $wgCaptchaTriggers;
-
 		$this->target = $target;
 		$this->text = $wgRequest->getText( 'wpText' );
 		$this->subject = $wgRequest->getText( 'wpSubject' );
@@ -118,12 +112,6 @@ class EmailContactForm {
 		if ($wgUser->isLoggedIn()) {
 			if (!$this->fromname) $this->fromname = $wgUser->getName();
 			if (!$this->fromaddress) $this->fromaddress = $wgUser->getEmail();
-		}
-
-		//prepare captcha if applicable
-		if ( $wgCaptcha && @$wgCaptchaTriggers['contactpage'] ) {
-			$wgCaptcha->trigger = 'contactpage';
-			$wgCaptcha->action = 'contact';
 		}
 	}
 
@@ -188,30 +176,10 @@ class EmailContactForm {
 <textarea name=\"wpText\" rows='20' cols='80' wrap='virtual' style=\"width: 100%;\">" . htmlspecialchars( $this->text ) .
 "</textarea>
 " . wfCheckLabel( $emc, 'wpCCMe', 'wpCCMe', $wgUser->getBoolOption( 'ccmeonemails' ) ) . "<br />
-" . $this->getCaptcha() . "
 <input type='submit' name=\"wpSend\" value=\"{$ems}\" />
 <input type='hidden' name='wpEditToken' value=\"$token\" />
 </form>\n" );
 
-	}
-
-	function getCaptcha() {
-		global $wgCaptcha, $wgCaptchaTriggers;
-		if ( !$wgCaptcha ) return ""; //no captcha installed
-		if ( !@$wgCaptchaTriggers['contactpage'] ) return ""; //don't trigger on contact form
-
-		return "<div class='captcha'>" .
-		$wgCaptcha->getForm() .
-		wfMsgWikiHtml( 'contactpage-captcha' ) .
-		"</div>\n";
-	}
-
-	function passCaptcha() {
-		global $wgCaptcha, $wgCaptchaTriggers;
-		if ( !$wgCaptcha ) return true; //no captcha installed
-		if ( !@$wgCaptchaTriggers['contactpage'] ) return true; //don't trigger on contact form
-
-		return $wgCaptcha->passCaptcha();
 	}
 
 	function doSubmit( ) {

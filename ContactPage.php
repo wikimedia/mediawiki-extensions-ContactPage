@@ -25,8 +25,6 @@ $wgExtensionCredits['specialpage'][] = array(
 $wgAutoloadClasses['SpecialContact'] = dirname( __FILE__ ) . '/SpecialContact.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
 
-$wgHooks['LoadAllMessages'][] = 'loadContactPageI18n';
-
 $wgContactUser = NULL;
 $wgContactSender = 'apache@' . $wgServerName;
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;
@@ -39,7 +37,7 @@ function loadContactPageI18n() {
 
 	static $initialized = false;
 
-	if ( $initialized ) return true;
+	if ( $initialized ) return;
 
 	$messages= array();
 	
@@ -51,7 +49,5 @@ function loadContactPageI18n() {
 	
 	$initialized = true;
 	$wgMessageCache->addMessages( $messages );
-
-	return true;
 }
 
