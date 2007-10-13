@@ -46,3 +46,8 @@ be an existing mail account.
 $wgContactSenderName is the name associated with the contact sender.
 This will be shown in the recipient's email program.
 
+If you are using the ConfirmEdit extension (captchas), you can require
+a captcha test for sending contact messages by using the following:
+
+   $wgCaptchaTriggers['contactpage'] = true;
+
