@@ -25,3 +25,5 @@ $messages['contactpage-formfootnotes']= '
 ** optional but needed if you want an answer
 ';
 
+$messages['contactpage-captcha']= 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])';
+$messages['contactpage-captcha-failed']= 'Captcha test failed! ([[Special:Captcha/help|more info]])';
