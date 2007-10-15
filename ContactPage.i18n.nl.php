@@ -6,7 +6,7 @@
  * @package MediaWiki
  * @subpackage Extensions
  * @author Daniel Kinzler, brightbyte.de
- * @copyright © 2007 Daniel Kinzler, Siebrand Mazeland
+ * @copyright © 2007 Daniel Kinzler, Betawiki users
  * @licence GNU General Public Licence 2.0 or later
  */
 
@@ -22,4 +22,6 @@ $messages = array(
 'contactpage-formfootnotes' => '
 * optioneel<br />
 ** optioneel, maar noodzakelijk als antwoord gewenst is',
+'contactpage-captcha' => 'Om het bericht te versturen, moet je eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
+'contactpage-captcha-failed' => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 );

@@ -21,4 +21,6 @@ $messages = array(
 'contactpage-fromaddress' => 'بريدك الإلكتروني **',
 'contactpage-formfootnotes' => '* اختياري<br/>
 ** اختياري لكن ضروري لو أردت إجابة',
+'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
+'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
