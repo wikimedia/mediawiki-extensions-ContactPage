@@ -20,5 +20,6 @@ $messages = array(
 'contactpage-fromname' => 'twoje imię i nazwisko *',
 'contactpage-fromaddress' => 'twój e-mail **',
 'contactpage-formfootnotes' => '* opcjonalne<br/> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
+'contactpage-captcha' => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
 'contactpage-captcha-failed' => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
 );
