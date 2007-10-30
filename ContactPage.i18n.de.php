@@ -13,18 +13,18 @@
 $messages['contact']= 'Kontaktseite';
 $messages['contactpage']= 'Kontaktseite';
 $messages['contactpage-title']= 'Kontakt';
-$messages['contactpage-pagetext']= 'Mit diesem Formular können Sie uns Nachrichten zukommen lassen.';
+$messages['contactpage-pagetext']= 'Mit diesem Formular kannst du uns Nachrichten zukommen lassen.';
 $messages['contactpage-defsubject']= 'Kontaktnachricht';
 $messages['contactpage-subject-and-sender']= '$1 (von $2)';
 
-$messages['contactpage-fromname']= 'Ihr Name *';
-$messages['contactpage-fromaddress']= 'Ihre E-Mail Adresse **';
+$messages['contactpage-fromname']= 'Dein Name *';
+$messages['contactpage-fromaddress']= 'Deine E-Mail-Adresse **';
 
 $messages['contactpage-formfootnotes']= '
-* optional<br/>
-** optional, wird aber benötigt um Ihnen antworten zu können
+* optional<br />
+** optional, wird aber benötigt, um dir antworten zu können
 ';
 
-$messages['contactpage-captcha']= 'Um die Nachricht senden zu können, lösen Sie bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])';
+$messages['contactpage-captcha']= 'Um die Nachricht senden zu können, löse bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])';
 $messages['contactpage-captcha-failed']= 'Captcha-Test nicht bestanden! ([[Special:Captcha/help|weitere Informationen]])';
 
