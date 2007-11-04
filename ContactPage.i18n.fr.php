@@ -17,9 +17,10 @@ $messages = array(
 'contactpage-defsubject' => 'Message',
 'contactpage-subject-and-sender' => '$1 (de $2)',
 'contactpage-fromname' => 'Votre nom*',
-'contactpage-fromaddress' => 'Votre adresse e-mail**',
+'contactpage-fromaddress' => 'Votre adresse courriel**',
 'contactpage-formfootnotes' => '
 * optionel<br/>
-** optionel mais requis si vous désirez une réponse
-',
+** optionel mais requis si vous désirez une réponse',
+'contactpage-captcha' => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
+'contactpage-captcha-failed' => 'Vous n\'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])',
 );
