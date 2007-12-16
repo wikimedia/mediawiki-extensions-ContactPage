@@ -15,10 +15,9 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
-$wgExtensionCredits['specialpage'][] = array(
-	'name' => 'Contact',
-	'version' => '1.1',
-	'author' => 'Daniel Kinzler',
+$wgExtensionCredits['specialpage'][] = array( 
+	'name' => 'Contact', 
+	'author' => 'Daniel Kinzler', 
 	'url' => 'http://mediawiki.org/wiki/Extension:ContactPage',
 	'description' => 'contact form for visitors',
 );
@@ -43,15 +42,16 @@ function loadContactPageI18n() {
 	if ( $initialized ) return true;
 
 	$messages= array();
-
+	
 	$f= dirname( __FILE__ ) . '/ContactPage.i18n.php';
 	include( $f );
-
+	
 	$f= dirname( __FILE__ ) . '/ContactPage.i18n.' . $wgLang->getCode() . '.php';
 	if ( file_exists( $f ) ) include( $f );
-
+	
 	$initialized = true;
 	$wgMessageCache->addMessages( $messages );
 
 	return true;
 }
+
