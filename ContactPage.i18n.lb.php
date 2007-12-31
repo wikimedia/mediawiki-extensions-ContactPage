@@ -14,7 +14,16 @@
  * @author Robby
  */
 $messages = array(
-	'contactpage-title'       => 'Kontakt',
-	'contactpage-fromname'    => 'Äre Numm *',
-	'contactpage-fromaddress' => 'Är E-mail-Adress **',
+	'contact'                        => 'Kontaktsäit',
+	'contactpage'                    => 'Kontaktsäit',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Mat dësem Formulär kënnt Dir eis kontaktéieren.',
+	'contactpage-defsubject'         => 'Kontakt Message',
+	'contactpage-subject-and-sender' => '$1 (vum $2)',
+	'contactpage-fromname'           => 'Äre Numm *',
+	'contactpage-fromaddress'        => 'Är E-mail-Adress **',
+	'contactpage-formfootnotes'      => '* optional<br />
+** optional, gëtt awer gebraucht fir iech äntwerten ze kënnen',
+	'contactpage-captcha'            => 'Fir e Message ze schécke, léisst w.e.g. dëse Captcha ([[Special:Captcha/help|méi Informatiounen]])',
+	'contactpage-captcha-failed'     => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
 );

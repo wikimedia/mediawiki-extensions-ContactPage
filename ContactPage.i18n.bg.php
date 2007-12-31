@@ -13,7 +13,10 @@
 /** Bulgarian (Български)
  * @author DCLXVI
  */
-/** Bulgarian (Български) */
 $messages = array(
+	'contactpage-defsubject'         => 'Съобщение',
 	'contactpage-subject-and-sender' => '$1 (от $2)',
+	'contactpage-fromname'           => 'вашето име *',
+	'contactpage-fromaddress'        => 'вашата е-поща **',
 );
+
