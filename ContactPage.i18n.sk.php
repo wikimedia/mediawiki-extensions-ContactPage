@@ -10,18 +10,21 @@
  * @licence GNU General Public Licence 2.0 or later
  */
 
-$messages['contact']= 'Kontaktná stránka';
-$messages['contactpage']= 'Kontaktná stránka';
-$messages['contactpage-title']= 'Kontakt';
-$messages['contactpage-pagetext']= 'Prosím, použite tento formulár, aby ste nás kontaktovali.';
-$messages['contactpage-defsubject']= 'Správa';
-$messages['contactpage-subject-and-sender']= '$1 (od $2)';
-
-$messages['contactpage-fromname']= 'vaše meno *';
-$messages['contactpage-fromaddress']= 'váš email **';
-
-$messages['contactpage-formfootnotes']= '
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages = array(
+	'contact'                        => 'Kontaktná stránka',
+	'contactpage'                    => 'Kontaktná stránka',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Prosím, použite tento formulár, aby ste nás kontaktovali.',
+	'contactpage-defsubject'         => 'Správa',
+	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-fromname'           => 'vaše meno *',
+	'contactpage-fromaddress'        => 'váš email **',
+	'contactpage-formfootnotes'      => '
 * voliteľné<br />
-** voliteľné, ale potrebné ak chcete odpoveď
-';
-
+** voliteľné, ale potrebné ak chcete odpoveď',
+	'contactpage-captcha'            => 'Aby ste mohli poslať správu, vyriešte prosím captcha ([[Special:Captcha/help|podrobnosti]])',
+	'contactpage-captcha-failed'     => 'Test captcha bol neúspešný! ([[Special:Captcha/help|podrobnosti]])',
+);
