@@ -98,19 +98,25 @@ $messages['ext'] = array(
 	'contactpage-fromaddress' => 'el tu email **',
 );
 
+/** French (Français)
+ * @author Sherbrooke
+ * @author Grondin
+ * @author לערי ריינהארט
+ */
 $messages['fr'] = array(
-	'contact' => 'Pour nous contacter',
-	'contactpage' => 'Contact',
-	'contactpage-title' => 'Contacter',
-	'contactpage-pagetext' => 'Veuillez utiliser le formulaire ci-dessous pour nous contacter.',
-	'contactpage-defsubject' => 'Message',
+	'contact'                        => 'Pour nous contacter',
+	'contactpage'                    => 'Contact',
+	'contactpage-desc'               => '[[Special:Contact|Formulaire de contact pour les visiteurs]]',
+	'contactpage-title'              => 'Contacter',
+	'contactpage-pagetext'           => 'Veuillez utiliser le formulaire ci-dessous pour nous contacter.',
+	'contactpage-defsubject'         => 'Message',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname' => 'Votre nom*',
-	'contactpage-fromaddress' => 'Votre adresse courriel**',
-	'contactpage-formfootnotes' => '* optionel<br/>
+	'contactpage-fromname'           => 'Votre nom*',
+	'contactpage-fromaddress'        => 'Votre adresse courriel**',
+	'contactpage-formfootnotes'      => '* optionel<br/>
 ** optionel mais requis si vous désirez une réponse',
-	'contactpage-captcha' => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
-	'contactpage-captcha-failed' => 'Vous n\'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])',
+	'contactpage-captcha'            => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
+	'contactpage-captcha-failed'     => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
 );
 
 $messages['gl'] = array(
@@ -144,19 +150,23 @@ $messages['hr'] = array(
 	'contactpage-captcha-failed'     => 'Antispam-test nije uspio! ([[Special:Captcha/help|više informacija]])',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
 $messages['hsb'] = array(
-	'contact' => 'Kontaktna strona',
-	'contactpage' => 'Kontaktna strona',
-	'contactpage-title' => 'Kontakt',
-	'contactpage-pagetext' => 'Prošu wužij tutón formular, zo by nas skontaktował.',
-	'contactpage-defsubject' => 'Kontaktna zdźělenka',
+	'contact'                        => 'Kontaktna strona',
+	'contactpage'                    => 'Kontaktna strona',
+	'contactpage-desc'               => '[[Special:Contact|Kontaktowy formular za wopytarjow]]',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Prošu wužij tutón formular, zo by nas skontaktował.',
+	'contactpage-defsubject'         => 'Kontaktna zdźělenka',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
-	'contactpage-fromname' => 'twoje mjeno *',
-	'contactpage-fromaddress' => 'twoja e-mejlowa adresa **',
-	'contactpage-formfootnotes' => '* opcionalny<br/>
+	'contactpage-fromname'           => 'twoje mjeno *',
+	'contactpage-fromaddress'        => 'twoja e-mejlowa adresa **',
+	'contactpage-formfootnotes'      => '* opcionalny<br/>
 ** opcionalny, je wšak trjeba, zo by so móhła wotmołwa pósłać',
-	'contactpage-captcha' => 'Zo by powěsć pósłać móhł, rozrisaj prošu captchu ([[Special:Captcha/help|dalše informacije]])',
-	'contactpage-captcha-failed' => 'Njejsy captchowy test wobstał! ([[Special:Captcha/help|dalše informacije]])',
+	'contactpage-captcha'            => 'Zo by powěsć pósłać móhł, rozrisaj prošu captchu ([[Special:Captcha/help|dalše informacije]])',
+	'contactpage-captcha-failed'     => 'Njejsy captchowy test wobstał! ([[Special:Captcha/help|dalše informacije]])',
 );
 
 /** Hungarian (Magyar)
@@ -347,6 +357,7 @@ $messages['ru'] = array(
 $messages['sk'] = array(
 	'contact'                        => 'Kontaktná stránka',
 	'contactpage'                    => 'Kontaktná stránka',
+	'contactpage-desc'               => '[[Special:Contact|Kontaktný formulár pre návštevníkov]]',
 	'contactpage-title'              => 'Kontakt',
 	'contactpage-pagetext'           => 'Prosím, použite tento formulár, aby ste nás kontaktovali.',
 	'contactpage-defsubject'         => 'Správa',
