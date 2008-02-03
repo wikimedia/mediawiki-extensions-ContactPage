@@ -2,7 +2,7 @@
 /**
  * Speclial:Contact, a contact form for visitors.
  * Based on SpecialEmailUser.php
- * 
+ *
  * @addtogroup SpecialPage
  * @author Daniel Kinzler, brightbyte.de
  * @copyright © 2007 Daniel Kinzler
@@ -21,42 +21,41 @@ require_once("$IP/includes/UserMailer.php");
  *
  */
 class SpecialContact extends SpecialPage {
-	
+
 	/**
 	 * Constructor
 	 */
 	function __construct() {
 		global $wgOut;
 		SpecialPage::SpecialPage( 'Contact', '', true );
-
-		#inject messages
-		loadContactPageI18n();
 	}
-	
+
 	/**
 	 * Main execution function
 	 * @param $par Parameters passed to the page
 	 */
 	function execute( $par ) {
 		global $wgUser, $wgOut, $wgRequest, $wgEnableEmail, $wgContactUser, $wgContactSender;
+
+		wfLoadExtensionMessages( 'ContactPage' );
 		$fname = "SpecialContact::execute";
-	
+
 		if( !$wgEnableEmail || !$wgContactUser || !$wgContactSender) {
 			$wgOut->showErrorPage( "nosuchspecialpage", "nospecialpagetext" );
 			return;
 		}
-	
+
 		$action = $wgRequest->getVal( 'action' );
-	
+
 		$nu = User::newFromName( $wgContactUser );
 		if( is_null( $nu ) || !$nu->canReceiveEmail() ) {
 			wfDebug( "Target is invalid user or can't receive.\n" );
 			$wgOut->showErrorPage( "noemailtitle", "noemailtext" );
 			return;
 		}
-	
+
 		$f = new EmailContactForm( $nu );
-	
+
 		if ( "success" == $action ) {
 			wfDebug( "$fname: success.\n" );
 			$f->showSuccess( );
@@ -225,7 +224,7 @@ class EmailContactForm {
 
 		$to = new MailAddress( $this->target );
 		$from = new MailAddress( $wgContactSender, $wgContactSenderName );
-		$replyto = $this->fromaddress ? new MailAddress( $this->fromaddress, $this->fromname ) : NULL; 
+		$replyto = $this->fromaddress ? new MailAddress( $this->fromaddress, $this->fromname ) : NULL;
 		$subject = trim( $this->subject );
 
 		if ( $subject === "" ) {
@@ -242,16 +241,16 @@ class EmailContactForm {
 
 			#HACK: in MW 1.9, replyto must be a string, in MW 1.0, it must be an object!
 			$ver = preg_replace( '![^\d._+]!', '', $GLOBALS['wgVersion'] );
-			$replyaddr = $replyto == null 
-					? NULL : version_compare( $ver, '1.10', '<' ) 
+			$replyaddr = $replyto == null
+					? NULL : version_compare( $ver, '1.10', '<' )
 						? $replyto->toString() : $replyto;
 
-			$mailResult = userMailer( $to, $from, $subject, $this->text, $replyaddr ); 
+			$mailResult = userMailer( $to, $from, $subject, $this->text, $replyaddr );
 
 			if( WikiError::isError( $mailResult ) ) {
 				$wgOut->addHTML( wfMsg( "usermailererror" ) . $mailResult);
 			} else {
-				
+
 				// if the user requested a copy of this mail, do this now,
 				// unless they are emailing themselves, in which case one copy of the message is sufficient.
 				if ($this->cc_me && $replyto) {
@@ -260,17 +259,17 @@ class EmailContactForm {
 						wfDebug( "$fname: sending cc mail from ".$from->toString()." to ".$replyto->toString()."\n" );
 						$ccResult = userMailer( $replyto, $from, $cc_subject, $this->text );
 						if( WikiError::isError( $ccResult ) ) {
-							// At this stage, the user's CC mail has failed, but their 
+							// At this stage, the user's CC mail has failed, but their
 							// original mail has succeeded. It's unlikely, but still, what to do?
 							// We can either show them an error, or we can say everything was fine,
-							// or we can say we sort of failed AND sort of succeeded. Of these options, 
+							// or we can say we sort of failed AND sort of succeeded. Of these options,
 							// simply saying there was an error is probably best.
 							$wgOut->addHTML( wfMsg( "usermailererror" ) . $ccResult);
 							return;
 						}
 					}
 				}
-				
+
 				wfDebug( "$fname: success\n" );
 
 				$titleObj = SpecialPage::getTitleFor( "Contact" );
@@ -291,4 +290,3 @@ class EmailContactForm {
 		$wgOut->returnToMain( false );
 	}
 }
-

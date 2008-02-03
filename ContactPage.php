@@ -15,43 +15,20 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
-$wgExtensionCredits['specialpage'][] = array( 
-	'name' => 'Contact', 
-	'author' => 'Daniel Kinzler', 
-	'url' => 'http://mediawiki.org/wiki/Extension:ContactPage',
-	'description' => 'contact form for visitors',
+$wgExtensionCredits['specialpage'][] = array(
+	'name' => 'ContactPage',
+	'version' => '2008-02-03',
+	'author' => 'Daniel Kinzler',
+	'url' => 'http://www.mediawiki.org/wiki/Extension:ContactPage',
+	'description' => 'Contact form for visitors',
+	'descriptionmsg' => 'contactpage-desc',
 );
 
-$wgAutoloadClasses['SpecialContact'] = dirname( __FILE__ ) . '/SpecialContact.php';
+$dir = dirname(__FILE__) . '/';
+$wgExtensionMessagesFiles['ContactPage'] = $dir . 'ContactPage.i18n.php';
+$wgAutoloadClasses['SpecialContact'] = $dir . 'SpecialContact.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
-
-$wgHooks['LoadAllMessages'][] = 'loadContactPageI18n';
 
 $wgContactUser = NULL;
 $wgContactSender = 'apache@' . $wgServerName;
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;
-
-/**
-* load the ContactPage internationalization file
-*/
-function loadContactPageI18n() {
-	global $wgLang, $wgMessageCache;
-
-	static $initialized = false;
-
-	if ( $initialized ) return true;
-
-	$messages= array();
-	
-	$f= dirname( __FILE__ ) . '/ContactPage.i18n.php';
-	include( $f );
-	
-	$f= dirname( __FILE__ ) . '/ContactPage.i18n.' . $wgLang->getCode() . '.php';
-	if ( file_exists( $f ) ) include( $f );
-	
-	$initialized = true;
-	$wgMessageCache->addMessages( $messages );
-
-	return true;
-}
-
