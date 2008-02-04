@@ -326,12 +326,16 @@ $messages['pms'] = array(
 	'contactpage-captcha-failed' => 'Test antirumenta falì! ([[Special:Captcha/help|pì d\'anformassion]])',
 );
 
+/** Portuguese (Português)
+ * @author Malafaya
+ */
 $messages['pt'] = array(
-	'contactpage-defsubject' => 'Mensagem de Contacto',
+	'contactpage-pagetext'           => 'Por favor, use o formulário abaixo para nos contactar.',
+	'contactpage-defsubject'         => 'Mensagem de Contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname' => 'o seu nome *',
-	'contactpage-fromaddress' => 'o seu email **',
-	'contactpage-captcha' => 'Para enviar a mensagem, por favor, resolva o \'\'captcha\'\' ([[{{ns:special}}:Captcha/help|mais informação]])',
+	'contactpage-fromname'           => 'o seu nome *',
+	'contactpage-fromaddress'        => 'o seu email **',
+	'contactpage-captcha'            => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[{{ns:special}}:Captcha/help|mais informação]])",
 );
 
 $messages['rmy'] = array(
