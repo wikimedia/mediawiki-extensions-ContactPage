@@ -119,19 +119,24 @@ $messages['fr'] = array(
 	'contactpage-captcha-failed'     => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
 );
 
+/** Galician (Galego)
+ * @author Xosé
+ * @author Alma
+ */
 $messages['gl'] = array(
-	'contact' => 'Páxina de Contacto',
-	'contactpage' => 'Páxina de Contacto',
-	'contactpage-title' => 'Contacto',
-	'contactpage-pagetext' => 'Use o formulario de embaixo para contactar con nós.',
-	'contactpage-defsubject' => 'Mensaxe de Contacto',
+	'contact'                        => 'Páxina de Contacto',
+	'contactpage'                    => 'Páxina de Contacto',
+	'contactpage-desc'               => '[[Special:Contact|Formulario de contacto para os visitantes]]',
+	'contactpage-title'              => 'Contacto',
+	'contactpage-pagetext'           => 'Use o formulario de embaixo para contactar con nós.',
+	'contactpage-defsubject'         => 'Mensaxe de Contacto',
 	'contactpage-subject-and-sender' => '$1 (desde $2)',
-	'contactpage-fromname' => 'o seu nome *',
-	'contactpage-fromaddress' => 'o seu correo electrónico **',
-	'contactpage-formfootnotes' => '* opcional<br/>
+	'contactpage-fromname'           => 'o seu nome *',
+	'contactpage-fromaddress'        => 'o seu correo electrónico **',
+	'contactpage-formfootnotes'      => '* opcional<br/>
 ** opcional, pero necesario se quere unha resposta',
-	'contactpage-captcha' => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
-	'contactpage-captcha-failed' => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
+	'contactpage-captcha'            => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
+	'contactpage-captcha-failed'     => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
 );
 
 /** Croatian (Hrvatski)
