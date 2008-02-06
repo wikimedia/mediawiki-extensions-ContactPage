@@ -330,12 +330,16 @@ $messages['pms'] = array(
  * @author Malafaya
  */
 $messages['pt'] = array(
+	'contactpage-title'              => 'Contacto',
 	'contactpage-pagetext'           => 'Por favor, use o formulário abaixo para nos contactar.',
 	'contactpage-defsubject'         => 'Mensagem de Contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'o seu nome *',
 	'contactpage-fromaddress'        => 'o seu email **',
+	'contactpage-formfootnotes'      => '* opcional<br />
+** opcional mas necessário se quiser uma resposta',
 	'contactpage-captcha'            => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[{{ns:special}}:Captcha/help|mais informação]])",
+	'contactpage-captcha-failed'     => 'Teste captcha falhou! ([[{{ns:special}}:Captcha/help|mais informação]])',
 );
 
 $messages['rmy'] = array(
