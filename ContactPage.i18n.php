@@ -26,19 +26,23 @@ $messages['en'] = array(
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
 $messages['ar'] = array(
-	'contact' => 'صفحة الاتصال',
-	'contactpage' => 'صفحة الاتصال',
-	'contactpage-title' => 'اتصل',
-	'contactpage-pagetext' => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
-	'contactpage-defsubject' => 'رسالة الاتصال',
+	'contact'                        => 'صفحة الاتصال',
+	'contactpage'                    => 'صفحة الاتصال',
+	'contactpage-desc'               => '[[Special:Contact|استمارة اتصال للزائرين]]',
+	'contactpage-title'              => 'اتصل',
+	'contactpage-pagetext'           => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
+	'contactpage-defsubject'         => 'رسالة الاتصال',
 	'contactpage-subject-and-sender' => '$1 (من $2)',
-	'contactpage-fromname' => 'اسمك *',
-	'contactpage-fromaddress' => 'بريدك الإلكتروني **',
-	'contactpage-formfootnotes' => '* اختياري<br/>
+	'contactpage-fromname'           => 'اسمك *',
+	'contactpage-fromaddress'        => 'بريدك الإلكتروني **',
+	'contactpage-formfootnotes'      => '* اختياري<br/>
 ** اختياري لكن ضروري لو أردت إجابة',
-	'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
-	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
+	'contactpage-captcha'            => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
+	'contactpage-captcha-failed'     => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
 $messages['bcl'] = array(
