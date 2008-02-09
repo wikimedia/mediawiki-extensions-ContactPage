@@ -334,6 +334,7 @@ $messages['pms'] = array(
  * @author Malafaya
  */
 $messages['pt'] = array(
+	'contactpage-desc'               => '[[{{ns:special}}:Contact|Formulário de contacto para visitantes]]',
 	'contactpage-title'              => 'Contacto',
 	'contactpage-pagetext'           => 'Por favor, use o formulário abaixo para nos contactar.',
 	'contactpage-defsubject'         => 'Mensagem de Contacto',
