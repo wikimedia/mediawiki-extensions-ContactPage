@@ -330,6 +330,14 @@ $messages['pms'] = array(
 	'contactpage-captcha-failed' => 'Test antirumenta falì! ([[Special:Captcha/help|pì d\'anformassion]])',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'contactpage-fromname'    => 'ستاسو نوم *',
+	'contactpage-fromaddress' => 'ستاسو برېښناليک **',
+);
+
 /** Portuguese (Português)
  * @author Malafaya
  */
@@ -411,8 +419,16 @@ $messages['stq'] = array(
 	'contactpage-captcha-failed'     => 'Captcha-Test nit besteen! ([[Special:Captcha/help|wiedere Informatione]])',
 );
 
+/** Swedish (Svenska)
+ * @author M.M.S.
+ * @author לערי ריינהארט
+ */
 $messages['sv'] = array(
-	'contact' => 'Kontakta oss',
+	'contact'                        => 'Kontakta oss',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-subject-and-sender' => '$1 (från $2)',
+	'contactpage-fromname'           => 'ditt namn *',
+	'contactpage-fromaddress'        => 'din e-post **',
 );
 
 /** Telugu (తెలుగు)
