@@ -285,6 +285,14 @@ $messages['no'] = array(
 	'contactpage-captcha-failed' => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
 );
 
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'contactpage-fromname'    => 'liena la gago*',
+	'contactpage-fromaddress' => 'email ya gago **',
+);
+
 /** Occitan (Occitan)
  * @author Cedric31
  */
