@@ -299,6 +299,7 @@ $messages['nso'] = array(
 $messages['oc'] = array(
 	'contact'                        => 'Per nos contactar',
 	'contactpage'                    => 'Contacte',
+	'contactpage-desc'               => '[[Special:Contact|Formulari de contact pels visitors]]',
 	'contactpage-title'              => 'Contacte',
 	'contactpage-pagetext'           => 'Utilizatz lo formulari çaijos per nos contactar.',
 	'contactpage-defsubject'         => 'Messatge',
@@ -437,6 +438,8 @@ $messages['sv'] = array(
 	'contactpage-subject-and-sender' => '$1 (från $2)',
 	'contactpage-fromname'           => 'ditt namn *',
 	'contactpage-fromaddress'        => 'din e-post **',
+	'contactpage-formfootnotes'      => '* valfri<br/>
+** valfri men behövs om du vill besvara',
 );
 
 /** Telugu (తెలుగు)
