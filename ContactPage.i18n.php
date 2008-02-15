@@ -83,6 +83,25 @@ $messages['de'] = array(
 	'contactpage-captcha-failed'     => 'Captcha-Test nicht bestanden! ([[Special:Captcha/help|weitere Informationen]])',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'contact'                        => 'Kontaktowy bok',
+	'contactpage'                    => 'Kontaktowy bok',
+	'contactpage-desc'               => '[[Special:Contact|Kontaktowy formular za wobglědowarjow]]',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Pšosym wužyj toś ten formular, aby se z nami  do zwiska stajił.',
+	'contactpage-defsubject'         => 'Kontaktowa powěźenka',
+	'contactpage-subject-and-sender' => '$1 (z $2)',
+	'contactpage-fromname'           => 'Twóje mě *',
+	'contactpage-fromaddress'        => 'Twója e-mailowa adresa **',
+	'contactpage-formfootnotes'      => '* opcionalny<br/>
+** opcionalny, jo pak trěbne, aby śi wótegroniś mógli',
+	'contactpage-captcha'            => 'Aby powěźenku pósłał, rozwěž pšosym toś te captcha ([[Special:Captcha/help|dalšne informacije]])',
+	'contactpage-captcha-failed'     => 'Test captcha njebu wobstaty! ([[Special:Captcha/help|dalšne informacije]])',
+);
+
 $messages['el'] = array(
 	'contact' => 'Σελίδα επαφών',
 	'contactpage' => 'Σελίδα επαφών',
