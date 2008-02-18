@@ -289,19 +289,23 @@ $messages['nl'] = array(
 	'contactpage-captcha-failed' => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 );
 
+/** Norwegian (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
 $messages['no'] = array(
-	'contact' => 'Kontaktside',
-	'contactpage' => 'Kontaktside',
-	'contactpage-title' => 'Kontakt',
-	'contactpage-pagetext' => 'Bruk skjemaet nedenunder for å kontakte oss.',
-	'contactpage-defsubject' => 'Beskjed',
+	'contact'                        => 'Kontaktside',
+	'contactpage'                    => 'Kontaktside',
+	'contactpage-desc'               => '[[Special:Contact|Kontaktskjema for besøkende]]',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Bruk skjemaet nedenunder for å kontakte oss.',
+	'contactpage-defsubject'         => 'Beskjed',
 	'contactpage-subject-and-sender' => '$1 (fra $2)',
-	'contactpage-fromname' => 'ditt navn *',
-	'contactpage-fromaddress' => 'din e-post **',
-	'contactpage-formfootnotes' => '* valgfri<br />
+	'contactpage-fromname'           => 'ditt navn *',
+	'contactpage-fromaddress'        => 'din e-post **',
+	'contactpage-formfootnotes'      => '* valgfri<br />
 ** valgfri, men er nødvendig dersom du vil ha svar',
-	'contactpage-captcha' => 'For å sende beskjeden, løs captcha-oppgaven ([[Special:Captcha/help|mer informasjon]])',
-	'contactpage-captcha-failed' => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-captcha'            => 'For å sende beskjeden, løs captcha-oppgaven ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-captcha-failed'     => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -453,6 +457,7 @@ $messages['stq'] = array(
  */
 $messages['sv'] = array(
 	'contact'                        => 'Kontakta oss',
+	'contactpage'                    => 'KontaktSida',
 	'contactpage-title'              => 'Kontakt',
 	'contactpage-subject-and-sender' => '$1 (från $2)',
 	'contactpage-fromname'           => 'ditt namn *',
@@ -465,7 +470,9 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'contactpage-fromname' => 'మీ పేరు *',
+	'contactpage-title'              => 'సంప్రదించండి',
+	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
+	'contactpage-fromname'           => 'మీ పేరు *',
 );
 
 /** Turkish (Türkçe)
