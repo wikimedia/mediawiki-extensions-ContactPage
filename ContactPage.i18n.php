@@ -65,6 +65,13 @@ $messages['cs'] = array(
 	'contact' => 'Kontakt',
 );
 
+/** Danish (Dansk)
+ * @author M.M.S.
+ */
+$messages['da'] = array(
+	'contactpage-subject-and-sender' => '$1 (fra $2)',
+);
+
 /** German (Deutsch)
  * @author Siebrand
  */
@@ -458,7 +465,9 @@ $messages['stq'] = array(
 $messages['sv'] = array(
 	'contact'                        => 'Kontakta oss',
 	'contactpage'                    => 'KontaktSida',
+	'contactpage-desc'               => '[[Special:Contact|Kontakt sätt för besökare]]',
 	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Var god använd sättet nedan för att kontakta oss.',
 	'contactpage-subject-and-sender' => '$1 (från $2)',
 	'contactpage-fromname'           => 'ditt namn *',
 	'contactpage-fromaddress'        => 'din e-post **',
