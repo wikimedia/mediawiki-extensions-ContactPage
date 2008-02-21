@@ -482,6 +482,7 @@ $messages['te'] = array(
 	'contactpage-title'              => 'సంప్రదించండి',
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
 	'contactpage-fromname'           => 'మీ పేరు *',
+	'contactpage-fromaddress'        => 'మీ ఈ-మెయిల్ **',
 );
 
 /** Turkish (Türkçe)
