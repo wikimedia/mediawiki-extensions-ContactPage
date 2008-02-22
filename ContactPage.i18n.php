@@ -404,6 +404,7 @@ $messages['rmy'] = array(
 $messages['ru'] = array(
 	'contact'                        => 'Страница контакта',
 	'contactpage'                    => 'Страница контакта',
+	'contactpage-desc'               => '[[Special:Contact|Форма для посетителей]]',
 	'contactpage-title'              => 'Контакт',
 	'contactpage-pagetext'           => 'Пожалуйста, используйте данную форму, чтобы связаться с нами.',
 	'contactpage-defsubject'         => 'Сообщение',
