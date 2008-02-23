@@ -128,8 +128,17 @@ $messages['ext'] = array(
 	'contactpage-fromaddress' => 'el tu email **',
 );
 
+/** Finnish (Suomi)
+ * @author Cimon Avaro
+ */
+$messages['fi'] = array(
+	'contactpage-fromname'    => 'nimesi *',
+	'contactpage-fromaddress' => 'sähköpostiosoitteesi **',
+);
+
 /** French (Français)
  * @author Sherbrooke
+ * @author Urhixidur
  * @author Grondin
  * @author לערי ריינהארט
  */
@@ -143,8 +152,8 @@ $messages['fr'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'Votre nom*',
 	'contactpage-fromaddress'        => 'Votre adresse courriel**',
-	'contactpage-formfootnotes'      => '* optionel<br/>
-** optionel mais requis si vous désirez une réponse',
+	'contactpage-formfootnotes'      => '* optionnel<br/>
+** optionnel mais requis si vous désirez une réponse',
 	'contactpage-captcha'            => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
 	'contactpage-captcha-failed'     => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
 );
@@ -152,6 +161,7 @@ $messages['fr'] = array(
 /** Galician (Galego)
  * @author Xosé
  * @author Alma
+ * @author Toliño
  */
 $messages['gl'] = array(
 	'contact'                        => 'Páxina de Contacto',
@@ -163,7 +173,7 @@ $messages['gl'] = array(
 	'contactpage-subject-and-sender' => '$1 (desde $2)',
 	'contactpage-fromname'           => 'o seu nome *',
 	'contactpage-fromaddress'        => 'o seu correo electrónico **',
-	'contactpage-formfootnotes'      => '* opcional<br/>
+	'contactpage-formfootnotes'      => '* opcional<br />
 ** opcional, pero necesario se quere unha resposta',
 	'contactpage-captcha'            => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
 	'contactpage-captcha-failed'     => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
