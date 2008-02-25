@@ -252,6 +252,14 @@ $messages['ja'] = array(
 	'contact' => '連絡先',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author Chhorran
+ */
+$messages['km'] = array(
+	'contactpage-fromname'    => 'ឈ្មោះ របស់អ្នក *',
+	'contactpage-fromaddress' => 'អ៊ីមែវល៍ របស់អ្នក **',
+);
+
 $messages['la'] = array(
 	'contactpage-fromname' => 'Nomen tuum *',
 );
@@ -470,30 +478,37 @@ $messages['stq'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Lejonel
  * @author M.M.S.
  * @author לערי ריינהארט
  */
 $messages['sv'] = array(
-	'contact'                        => 'Kontakta oss',
-	'contactpage'                    => 'KontaktSida',
-	'contactpage-desc'               => '[[Special:Contact|Kontakt sätt för besökare]]',
+	'contact'                        => 'Kontaktsida',
+	'contactpage'                    => 'Kontaktsida',
+	'contactpage-desc'               => '[[Special:Contact|Kontaktformulär för besökare]]',
 	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Var god använd sättet nedan för att kontakta oss.',
+	'contactpage-pagetext'           => 'Använd formuläret härunder för att kontakta oss.',
+	'contactpage-defsubject'         => 'Kontaktmeddelande',
 	'contactpage-subject-and-sender' => '$1 (från $2)',
-	'contactpage-fromname'           => 'ditt namn *',
-	'contactpage-fromaddress'        => 'din e-post **',
-	'contactpage-formfootnotes'      => '* valfri<br/>
-** valfri men behövs om du vill besvara',
+	'contactpage-fromname'           => 'Ditt namn *',
+	'contactpage-fromaddress'        => 'Din e-postadress **',
+	'contactpage-formfootnotes'      => '* kan utelämnas<br />
+** kan utelämnas, men behövs om du vill få svar',
+	'contactpage-captcha'            => 'För att få skicka meddelandet måste du först lösa följande captcha-test ([[Special:Captcha/help|mer information]])',
+	'contactpage-captcha-failed'     => 'Captcha-testet misslyckades! ([[Special:Captcha/help|mer information]])',
 );
 
 /** Telugu (తెలుగు)
  * @author Veeven
  */
 $messages['te'] = array(
+	'contactpage-desc'               => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
 	'contactpage-title'              => 'సంప్రదించండి',
+	'contactpage-pagetext'           => 'మమ్మల్ని సంప్రదించడానికి క్రిందనిచ్చిన ఫారం ఉపయోగించండి.',
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
 	'contactpage-fromname'           => 'మీ పేరు *',
 	'contactpage-fromaddress'        => 'మీ ఈ-మెయిల్ **',
+	'contactpage-captcha-failed'     => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
 );
 
 /** Turkish (Türkçe)
