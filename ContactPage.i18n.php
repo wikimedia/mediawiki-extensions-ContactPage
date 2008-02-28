@@ -248,8 +248,24 @@ $messages['it'] = array(
 ** campo obbligatorio se si richiede una risposta',
 );
 
+/** Japanese (日本語)
+ * @author JtFuruhata
+ * @author לערי ריינהארט
+ */
 $messages['ja'] = array(
-	'contact' => '連絡先',
+	'contact'                        => '連絡先',
+	'contactpage'                    => '連絡先',
+	'contactpage-desc'               => '[[Special:Contact|サイト来訪者向け連絡フォーム]]',
+	'contactpage-title'              => '連絡フォーム',
+	'contactpage-pagetext'           => '以下のフォームを利用すると、私たちにメッセージを送信することができます。',
+	'contactpage-defsubject'         => '連絡事項',
+	'contactpage-subject-and-sender' => '$1 （$2 より）',
+	'contactpage-fromname'           => 'あなたのお名前 *',
+	'contactpage-fromaddress'        => 'あなたの電子メールアドレス **',
+	'contactpage-formfootnotes'      => '* 任意記入<br/>
+** 任意記入ですが、返答が必要な場合は必ずご記入ください',
+	'contactpage-captcha'            => 'メッセージを送信するには、以下のCAPTCHA画像認証が必要です（[[Special:Captcha/help|詳細はこちら]]）',
+	'contactpage-captcha-failed'     => 'CAPTCHA画像認証に失敗しました！（[[Special:Captcha/help|詳細はこちら]]）',
 );
 
 /** Khmer (ភាសាខ្មែរ)
