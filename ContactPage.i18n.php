@@ -20,7 +20,7 @@ $messages['en'] = array(
 	'contactpage-subject-and-sender' => '$1 (from $2)',
 	'contactpage-fromname' => 'your name *',
 	'contactpage-fromaddress' => 'your email **',
-	'contactpage-formfootnotes' => '* optional<br/>
+	'contactpage-formfootnotes' => '* optional<br />
 ** optional but needed if you want an answer',
 	'contactpage-captcha' => 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])',
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
@@ -39,7 +39,7 @@ $messages['ar'] = array(
 	'contactpage-subject-and-sender' => '$1 (من $2)',
 	'contactpage-fromname'           => 'اسمك *',
 	'contactpage-fromaddress'        => 'بريدك الإلكتروني **',
-	'contactpage-formfootnotes'      => '* اختياري<br/>
+	'contactpage-formfootnotes'      => '* اختياري<br />
 ** اختياري لكن ضروري لو أردت إجابة',
 	'contactpage-captcha'            => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
 	'contactpage-captcha-failed'     => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
@@ -103,7 +103,7 @@ $messages['dsb'] = array(
 	'contactpage-subject-and-sender' => '$1 (z $2)',
 	'contactpage-fromname'           => 'Twóje mě *',
 	'contactpage-fromaddress'        => 'Twója e-mailowa adresa **',
-	'contactpage-formfootnotes'      => '* opcionalny<br/>
+	'contactpage-formfootnotes'      => '* opcionalny<br />
 ** opcionalny, jo pak trěbne, aby śi wótegroniś mógli',
 	'contactpage-captcha'            => 'Aby powěźenku pósłał, rozwěž pšosym toś te captcha ([[Special:Captcha/help|dalšne informacije]])',
 	'contactpage-captcha-failed'     => 'Test captcha njebu wobstaty! ([[Special:Captcha/help|dalšne informacije]])',
@@ -152,7 +152,7 @@ $messages['fr'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'Votre nom*',
 	'contactpage-fromaddress'        => 'Votre adresse courriel**',
-	'contactpage-formfootnotes'      => '* optionnel<br/>
+	'contactpage-formfootnotes'      => '* optionnel<br />
 ** optionnel mais requis si vous désirez une réponse',
 	'contactpage-captcha'            => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
 	'contactpage-captcha-failed'     => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
@@ -189,7 +189,7 @@ $messages['hr'] = array(
 	'contactpage-subject-and-sender' => '$1 (od $2)',
 	'contactpage-fromname'           => 'Vaše ime *',
 	'contactpage-fromaddress'        => 'Vaš e-mail **',
-	'contactpage-formfootnotes'      => '* neobavezno<br/>
+	'contactpage-formfootnotes'      => '* neobavezno<br />
 ** neobavezno, ali potrebno ako želite odgovor',
 	'contactpage-captcha'            => 'Da biste poslali poruku, molimo da u svrhu prevencije spama, prepišete simbole ([[Special:Captcha/help|više informacija]])',
 	'contactpage-captcha-failed'     => 'Antispam-test nije uspio! ([[Special:Captcha/help|više informacija]])',
@@ -208,7 +208,7 @@ $messages['hsb'] = array(
 	'contactpage-subject-and-sender' => '$1 (z $2)',
 	'contactpage-fromname'           => 'twoje mjeno *',
 	'contactpage-fromaddress'        => 'twoja e-mejlowa adresa **',
-	'contactpage-formfootnotes'      => '* opcionalny<br/>
+	'contactpage-formfootnotes'      => '* opcionalny<br />
 ** opcionalny, je wšak trjeba, zo by so móhła wotmołwa pósłać',
 	'contactpage-captcha'            => 'Zo by powěsć pósłać móhł, rozrisaj prošu captchu ([[Special:Captcha/help|dalše informacije]])',
 	'contactpage-captcha-failed'     => 'Njejsy captchowy test wobstał! ([[Special:Captcha/help|dalše informacije]])',
@@ -224,7 +224,7 @@ $messages['hu'] = array(
 	'contactpage-defsubject'     => 'Üzenet',
 	'contactpage-fromname'       => 'neved *',
 	'contactpage-fromaddress'    => 'e-mail címed **',
-	'contactpage-formfootnotes'  => '* nem kötelező<br>
+	'contactpage-formfootnotes'  => '* nem kötelező<br />
 * nem kötelező, de add meg, ha választ szeretnél',
 	'contactpage-captcha'        => 'Az üzenet elküldéséhez írd be a képen megjelent szót ([[Special:Captcha/help|további segítség]])',
 	'contactpage-captcha-failed' => 'Captcha teszt nem sikerült! ([[Special:Captcha/help|további segítség]])',
@@ -244,7 +244,7 @@ $messages['it'] = array(
 	'contactpage-subject-and-sender' => '$1 (da $2)',
 	'contactpage-fromname'           => 'nome *',
 	'contactpage-fromaddress'        => 'indirizzo e-mail **',
-	'contactpage-formfootnotes'      => '* campo non obbligatorio<br/>
+	'contactpage-formfootnotes'      => '* campo non obbligatorio<br />
 ** campo obbligatorio se si richiede una risposta',
 );
 
@@ -262,7 +262,7 @@ $messages['ja'] = array(
 	'contactpage-subject-and-sender' => '$1 （$2 より）',
 	'contactpage-fromname'           => 'あなたのお名前 *',
 	'contactpage-fromaddress'        => 'あなたの電子メールアドレス **',
-	'contactpage-formfootnotes'      => '* 任意記入<br/>
+	'contactpage-formfootnotes'      => '* 任意記入<br />
 ** 任意記入ですが、返答が必要な場合は必ずご記入ください',
 	'contactpage-captcha'            => 'メッセージを送信するには、以下のCAPTCHA画像認証が必要です（[[Special:Captcha/help|詳細はこちら]]）',
 	'contactpage-captcha-failed'     => 'CAPTCHA画像認証に失敗しました！（[[Special:Captcha/help|詳細はこちら]]）',
@@ -370,7 +370,7 @@ $messages['oc'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'Vòstre nom*',
 	'contactpage-fromaddress'        => 'Vòstra adreça electronica**',
-	'contactpage-formfootnotes'      => '* opcional<br/> ** opcional mas requesit se desiratz una responsa',
+	'contactpage-formfootnotes'      => '* opcional<br /> ** opcional mas requesit se desiratz una responsa',
 	'contactpage-captcha'            => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
 	'contactpage-captcha-failed'     => 'Avètz pas decodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
 );
@@ -384,7 +384,7 @@ $messages['pl'] = array(
 	'contactpage-subject-and-sender' => '$1 (z $2)',
 	'contactpage-fromname' => 'twoje imię i nazwisko *',
 	'contactpage-fromaddress' => 'twój e-mail **',
-	'contactpage-formfootnotes' => '* opcjonalne<br/> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
+	'contactpage-formfootnotes' => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
 	'contactpage-captcha' => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
 	'contactpage-captcha-failed' => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
 );
@@ -398,7 +398,7 @@ $messages['pms'] = array(
 	'contactpage-subject-and-sender' => '$1 (da $2)',
 	'contactpage-fromname' => 'sò nòm *',
 	'contactpage-fromaddress' => 'soa adrëssa ëd pòsta eletrònica **',
-	'contactpage-formfootnotes' => '* opsional<br/> ** opsional, ma për podej avej d\'arspòsta a venta butelo',
+	'contactpage-formfootnotes' => '* opsional<br /> ** opsional, ma për podej avej d\'arspòsta a venta butelo',
 	'contactpage-captcha' => 'Për mandé via ël messagi, për piasì ch\'arzòlva ël test antirumenta ([[Special:Captcha/help|pì d\'anformassion]])',
 	'contactpage-captcha-failed' => 'Test antirumenta falì! ([[Special:Captcha/help|pì d\'anformassion]])',
 );
@@ -445,7 +445,7 @@ $messages['ru'] = array(
 	'contactpage-subject-and-sender' => '$1 (от $2)',
 	'contactpage-fromname'           => 'ваше имя *',
 	'contactpage-fromaddress'        => 'ваш эл. адрес **',
-	'contactpage-formfootnotes'      => '* необязательно<br/>
+	'contactpage-formfootnotes'      => '* необязательно<br />
 ** необязательно, но требуется для получения ответа',
 	'contactpage-captcha'            => 'Чтобы отправить сообщение, пожалуйста, пройдите проверку CAPTCHA ([[Special:Captcha/help|что это?]])',
 	'contactpage-captcha-failed'     => 'Проверка CAPTCHA не пройдена! ([[Special:Captcha/help|что это?]])',
