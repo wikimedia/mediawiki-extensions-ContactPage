@@ -365,7 +365,7 @@ $messages['oc'] = array(
 	'contactpage'                    => 'Contacte',
 	'contactpage-desc'               => '[[Special:Contact|Formulari de contact pels visitors]]',
 	'contactpage-title'              => 'Contacte',
-	'contactpage-pagetext'           => 'Utilizatz lo formulari çaijos per nos contactar.',
+	'contactpage-pagetext'           => 'Utilizatz lo formulari çaijós per nos contactar.',
 	'contactpage-defsubject'         => 'Messatge',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'Vòstre nom*',
@@ -375,32 +375,38 @@ $messages['oc'] = array(
 	'contactpage-captcha-failed'     => 'Avètz pas decodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
 );
 
+/** Polish (Polski)
+ * @author Derbeth
+ */
 $messages['pl'] = array(
-	'contact' => 'StronaKontaktowa',
-	'contactpage' => 'StronaKontaktowa',
-	'contactpage-title' => 'Kontakt',
-	'contactpage-pagetext' => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
-	'contactpage-defsubject' => 'Wiadomość',
+	'contact'                        => 'StronaKontaktowa',
+	'contactpage'                    => 'StronaKontaktowa',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-pagetext'           => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
+	'contactpage-defsubject'         => 'Wiadomość',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
-	'contactpage-fromname' => 'twoje imię i nazwisko *',
-	'contactpage-fromaddress' => 'twój e-mail **',
-	'contactpage-formfootnotes' => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
-	'contactpage-captcha' => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
-	'contactpage-captcha-failed' => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
+	'contactpage-fromname'           => 'twoje imię i nazwisko *',
+	'contactpage-fromaddress'        => 'twój e-mail **',
+	'contactpage-formfootnotes'      => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
+	'contactpage-captcha'            => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
+	'contactpage-captcha-failed'     => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
 );
 
+/** Piemontèis (Piemontèis)
+ * @author Bèrto 'd Sèra
+ */
 $messages['pms'] = array(
-	'contact' => 'Pàgina ëd contat',
-	'contactpage' => 'Pàgina ëd contat',
-	'contactpage-title' => 'Contat',
-	'contactpage-pagetext' => 'Për piasì, për contatene ch\'a dòvra ël mòdulo ambelessì sota.',
-	'contactpage-defsubject' => 'Messagi',
+	'contact'                        => 'Pàgina ëd contat',
+	'contactpage'                    => 'Pàgina ëd contat',
+	'contactpage-title'              => 'Contat',
+	'contactpage-pagetext'           => "Për piasì, për contatene ch'a dòvra ël mòdulo ambelessì sota.",
+	'contactpage-defsubject'         => 'Messagi',
 	'contactpage-subject-and-sender' => '$1 (da $2)',
-	'contactpage-fromname' => 'sò nòm *',
-	'contactpage-fromaddress' => 'soa adrëssa ëd pòsta eletrònica **',
-	'contactpage-formfootnotes' => '* opsional<br /> ** opsional, ma për podej avej d\'arspòsta a venta butelo',
-	'contactpage-captcha' => 'Për mandé via ël messagi, për piasì ch\'arzòlva ël test antirumenta ([[Special:Captcha/help|pì d\'anformassion]])',
-	'contactpage-captcha-failed' => 'Test antirumenta falì! ([[Special:Captcha/help|pì d\'anformassion]])',
+	'contactpage-fromname'           => 'sò nòm *',
+	'contactpage-fromaddress'        => 'soa adrëssa ëd pòsta eletrònica **',
+	'contactpage-formfootnotes'      => "* opsional<br /> ** opsional, ma për podej avej d'arspòsta a venta butelo",
+	'contactpage-captcha'            => "Për mandé via ël messagi, për piasì ch'arzòlva ël test antirumenta ([[Special:Captcha/help|pì d'anformassion]])",
+	'contactpage-captcha-failed'     => "Test antirumenta falì! ([[Special:Captcha/help|pì d'anformassion]])",
 );
 
 /** Pashto (پښتو)
