@@ -55,14 +55,29 @@ $messages['bcl'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'contactpage-desc'               => '[[Special:Contact|Формуляр за връзка]]',
+	'contactpage-pagetext'           => 'Формулярът по-долу може да бъде използван за връзка с нас.',
 	'contactpage-defsubject'         => 'Съобщение',
 	'contactpage-subject-and-sender' => '$1 (от $2)',
 	'contactpage-fromname'           => 'вашето име *',
 	'contactpage-fromaddress'        => 'вашата е-поща **',
 );
 
+/** Czech (Česky)
+ * @author Matěj Grabovský
+ * @author לערי ריינהארט
+ */
 $messages['cs'] = array(
-	'contact' => 'Kontakt',
+	'contact'                        => 'Kontakt',
+	'contactpage'                    => 'Kontaktní stránka',
+	'contactpage-desc'               => '[[Special:Contact|Kontaktní formulář pro návštěvníky]]',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-defsubject'         => 'Zpráva',
+	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-fromname'           => 'vaše jméno *',
+	'contactpage-fromaddress'        => 'váš email **',
+	'contactpage-formfootnotes'      => '&#042; volitelné<br />
+&#042;&#042; volitelné, ale potřebné pokud chcete odpověď',
 );
 
 /** Danish (Dansk)
@@ -272,8 +287,12 @@ $messages['ja'] = array(
  * @author Chhorran
  */
 $messages['km'] = array(
-	'contactpage-fromname'    => 'ឈ្មោះ របស់អ្នក *',
-	'contactpage-fromaddress' => 'អ៊ីមែវល៍ របស់អ្នក **',
+	'contactpage-desc'               => '[[Special:Contact|បែបបទទាក់ទង សំរាប់អ្នកទស្សនា]]',
+	'contactpage-title'              => 'ទាក់ទង',
+	'contactpage-defsubject'         => 'សារទាក់ទង',
+	'contactpage-subject-and-sender' => '$1 (ផ្ញើ ពី $2)',
+	'contactpage-fromname'           => 'ឈ្មោះ របស់អ្នក *',
+	'contactpage-fromaddress'        => 'អ៊ីមែវល៍ របស់អ្នក **',
 );
 
 $messages['la'] = array(
@@ -527,9 +546,11 @@ $messages['te'] = array(
 	'contactpage-desc'               => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
 	'contactpage-title'              => 'సంప్రదించండి',
 	'contactpage-pagetext'           => 'మమ్మల్ని సంప్రదించడానికి క్రిందనిచ్చిన ఫారం ఉపయోగించండి.',
+	'contactpage-defsubject'         => 'సంప్రదింపు సందేశం',
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
 	'contactpage-fromname'           => 'మీ పేరు *',
 	'contactpage-fromaddress'        => 'మీ ఈ-మెయిల్ **',
+	'contactpage-captcha'            => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
 	'contactpage-captcha-failed'     => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
 );
 
