@@ -543,6 +543,8 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'contact'                        => 'సంప్రదింపుపేజీ',
+	'contactpage'                    => 'సంప్రదింపుపేజీ',
 	'contactpage-desc'               => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
 	'contactpage-title'              => 'సంప్రదించండి',
 	'contactpage-pagetext'           => 'మమ్మల్ని సంప్రదించడానికి క్రిందనిచ్చిన ఫారం ఉపయోగించండి.',
@@ -550,6 +552,8 @@ $messages['te'] = array(
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
 	'contactpage-fromname'           => 'మీ పేరు *',
 	'contactpage-fromaddress'        => 'మీ ఈ-మెయిల్ **',
+	'contactpage-formfootnotes'      => '* ఐచ్చికం<br />
+** ఐచ్చికం కానీ మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి',
 	'contactpage-captcha'            => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
 	'contactpage-captcha-failed'     => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
 );
