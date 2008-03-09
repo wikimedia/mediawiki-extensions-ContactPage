@@ -321,6 +321,14 @@ $messages['mk'] = array(
 	'contact' => 'Контакт',
 );
 
+/** Marathi (मराठी)
+ * @author Mahitgar
+ */
+$messages['mr'] = array(
+	'contactpage-fromname'    => 'तुमचे नाव *',
+	'contactpage-fromaddress' => 'तुमचा विपत्रपत्ता **',
+);
+
 $messages['nap'] = array(
 	'contact' => 'Scrìvece',
 );
