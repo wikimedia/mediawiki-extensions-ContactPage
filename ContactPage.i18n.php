@@ -133,6 +133,14 @@ $messages['el'] = array(
 	'contactpage-fromaddress' => 'το ηλεκτρονικό ταχυδρομείο σας **',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-fromname'           => 'via nomo *',
+);
+
 $messages['es'] = array(
 	'contact' => 'Para contactar',
 );
@@ -440,8 +448,11 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'contactpage-fromname'    => 'ستاسو نوم *',
-	'contactpage-fromaddress' => 'ستاسو برېښناليک **',
+	'contactpage-title'              => 'اړيکه ټينګول',
+	'contactpage-pagetext'           => 'زمونږ سره د اړيکو ټينګولو لپاره، لاندينۍ فورمه وکاروۍ.',
+	'contactpage-subject-and-sender' => '$1 (د $2 لخوا )',
+	'contactpage-fromname'           => 'ستاسو نوم *',
+	'contactpage-fromaddress'        => 'ستاسو برېښليک **',
 );
 
 /** Portuguese (Português)
