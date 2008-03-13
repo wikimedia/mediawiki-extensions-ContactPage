@@ -292,15 +292,19 @@ $messages['ja'] = array(
 );
 
 /** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
  * @author Chhorran
  */
 $messages['km'] = array(
-	'contactpage-desc'               => '[[Special:Contact|បែបបទទាក់ទង សំរាប់អ្នកទស្សនា]]',
+	'contact'                        => 'ទំព័រ​ទំនាក់ទំនង',
+	'contactpage'                    => 'ទំព័រ​ទំនាក់ទំនង',
+	'contactpage-desc'               => '[[Special:Contact|សំនុំបែបបទទាក់ទង​សំរាប់អ្នកទស្សនា]]',
 	'contactpage-title'              => 'ទាក់ទង',
+	'contactpage-pagetext'           => 'សូម​ប្រើ​ប្រាស់​សំនុំបែបបទ​ខាងក្រោម​ ដើម្បី​ទាក់ទងមក​យើងខ្ញុំ។',
 	'contactpage-defsubject'         => 'សារទាក់ទង',
-	'contactpage-subject-and-sender' => '$1 (ផ្ញើ ពី $2)',
-	'contactpage-fromname'           => 'ឈ្មោះ របស់អ្នក *',
-	'contactpage-fromaddress'        => 'អ៊ីមែវល៍ របស់អ្នក **',
+	'contactpage-subject-and-sender' => '$1 (ផ្ញើ​ពី $2)',
+	'contactpage-fromname'           => 'ឈ្មោះ​របស់អ្នក *',
+	'contactpage-fromaddress'        => 'អ៊ីមែល​របស់អ្នក **',
 );
 
 $messages['la'] = array(
@@ -537,6 +541,15 @@ $messages['stq'] = array(
 	'contactpage-captcha-failed'     => 'Captcha-Test nit besteen! ([[Special:Captcha/help|wiedere Informatione]])',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Kandar
+ */
+$messages['su'] = array(
+	'contactpage-pagetext'    => 'Mangga eusian formulir di handap pikeun ngontak ka kami.',
+	'contactpage-fromname'    => 'ngaran anjeun *',
+	'contactpage-fromaddress' => 'surélék anjeun **',
+);
+
 /** Swedish (Svenska)
  * @author Lejonel
  * @author M.M.S.
@@ -575,6 +588,13 @@ $messages['te'] = array(
 ** ఐచ్చికం కానీ మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి',
 	'contactpage-captcha'            => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
 	'contactpage-captcha-failed'     => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
+);
+
+/** Tajik (Тоҷикӣ)
+ * @author Ibrahim
+ */
+$messages['tg'] = array(
+	'contactpage-fromname' => 'номи шумо *',
 );
 
 /** Turkish (Türkçe)
