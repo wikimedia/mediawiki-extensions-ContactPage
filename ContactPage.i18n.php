@@ -139,6 +139,7 @@ $messages['el'] = array(
 $messages['eo'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'via nomo *',
+	'contactpage-fromaddress'        => 'via retadreso **',
 );
 
 $messages['es'] = array(
@@ -334,11 +335,23 @@ $messages['mk'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Kaustubh
  * @author Mahitgar
  */
 $messages['mr'] = array(
-	'contactpage-fromname'    => 'तुमचे नाव *',
-	'contactpage-fromaddress' => 'तुमचा विपत्रपत्ता **',
+	'contact'                        => 'संपर्कपान',
+	'contactpage'                    => 'संपर्कपान',
+	'contactpage-desc'               => '[[Special:Contact|भेट देणार्‍यांसाठी संपर्क अर्ज]]',
+	'contactpage-title'              => 'संपर्क',
+	'contactpage-pagetext'           => 'कृपया आमच्याशी संपर्क साधण्यासाठी खालील अर्ज भरा.',
+	'contactpage-defsubject'         => 'संपर्क संदेश',
+	'contactpage-subject-and-sender' => '$1 ($2 कडून)',
+	'contactpage-fromname'           => 'तुमचे नाव *',
+	'contactpage-fromaddress'        => 'तुमचा विपत्रपत्ता **',
+	'contactpage-formfootnotes'      => '* वैकल्पिक<br />
+** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक',
+	'contactpage-captcha'            => 'हा संदेश पाठविण्यासाठी, कृपया कॅपचा (captcha) सोडवा ([[Special:Captcha/help|अधिक माहिती]])',
+	'contactpage-captcha-failed'     => 'कॅपचा परीक्षा पूर्ण झालेली नाही! ([[Special:Captcha/help|अधिक माहिती]])',
 );
 
 $messages['nap'] = array(
