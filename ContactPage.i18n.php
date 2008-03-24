@@ -137,6 +137,10 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'contact'                        => 'Kontaktpaĝo',
+	'contactpage'                    => 'Kontaktpaĝo',
+	'contactpage-title'              => 'Kontaktu',
+	'contactpage-pagetext'           => 'Bonvolu uzi la suban kamparon por kontakti nin.',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'via nomo *',
 	'contactpage-fromaddress'        => 'via retadreso **',
