@@ -16,12 +16,12 @@ $messages['en'] = array(
 	'contactpage-desc' => '[[Special:Contact|Contact form for visitors]]',
 	'contactpage-title' => 'Contact',
 	'contactpage-pagetext' => 'Please use the form below to contact us.',
-	'contactpage-defsubject' => 'Contact message',
+	'contactpage-defsubject' => 'Contact Message',
 	'contactpage-subject-and-sender' => '$1 (from $2)',
 	'contactpage-fromname' => 'your name *',
-	'contactpage-fromaddress' => 'your e-mail **',
+	'contactpage-fromaddress' => 'your email **',
 	'contactpage-formfootnotes' => '* optional<br />
-** optional, but needed if you want an answer',
+** optional but needed if you want an answer',
 	'contactpage-captcha' => 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])',
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
 );
