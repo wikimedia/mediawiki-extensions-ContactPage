@@ -19,7 +19,7 @@ $messages['en'] = array(
 	'contactpage-defsubject' => 'Contact Message',
 	'contactpage-subject-and-sender' => '$1 (from $2)',
 	'contactpage-fromname' => 'your name *',
-	'contactpage-fromaddress' => 'your email **',
+	'contactpage-fromaddress' => 'your e-mail **',
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional but needed if you want an answer',
 	'contactpage-captcha' => 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])',
