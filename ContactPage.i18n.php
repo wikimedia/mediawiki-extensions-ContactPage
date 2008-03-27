@@ -386,7 +386,7 @@ $messages['nl'] = array(
 	'contactpage-captcha-failed' => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 );
 
-/** Norwegian (‪Norsk (bokmål)‬)
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
@@ -401,7 +401,7 @@ $messages['no'] = array(
 	'contactpage-fromaddress'        => 'din e-post **',
 	'contactpage-formfootnotes'      => '* valgfri<br />
 ** valgfri, men er nødvendig dersom du vil ha svar',
-	'contactpage-captcha'            => 'For å sende beskjeden, løs captcha-oppgaven ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-captcha'            => 'Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])',
 	'contactpage-captcha-failed'     => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
 );
 
