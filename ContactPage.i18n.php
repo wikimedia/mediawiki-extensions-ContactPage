@@ -322,6 +322,7 @@ $messages['la'] = array(
 $messages['lb'] = array(
 	'contact'                        => 'Kontaktsäit',
 	'contactpage'                    => 'Kontaktsäit',
+	'contactpage-desc'               => '[[Special:Contact|Kontakt-Formulair fir Visiteuren]]',
 	'contactpage-title'              => 'Kontakt',
 	'contactpage-pagetext'           => 'Mat dësem Formulär kënnt Dir eis kontaktéieren.',
 	'contactpage-defsubject'         => 'Kontakt Message',
