@@ -611,7 +611,7 @@ $messages['te'] = array(
 /** Tajik (Тоҷикӣ)
  * @author Ibrahim
  */
-$messages['tg'] = array(
+$messages['tg-cyrl'] = array(
 	'contactpage-fromname' => 'номи шумо *',
 );
 
