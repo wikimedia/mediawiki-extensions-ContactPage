@@ -608,11 +608,15 @@ $messages['te'] = array(
 	'contactpage-captcha-failed'     => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
 );
 
-/** Tajik (Тоҷикӣ)
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'contactpage-fromname' => 'номи шумо *',
+	'contactpage-title'              => 'Алоқа',
+	'contactpage-pagetext'           => 'Лутфан барои дар алоқа будан бо мо аз форми зер истифода кунед.',
+	'contactpage-defsubject'         => 'Паёми Алоқа',
+	'contactpage-subject-and-sender' => '$1 (аз $2)',
+	'contactpage-fromname'           => 'номи шумо *',
 );
 
 /** Turkish (Türkçe)
