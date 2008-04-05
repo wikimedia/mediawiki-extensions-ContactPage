@@ -612,11 +612,14 @@ $messages['te'] = array(
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
+	'contact'                        => 'СаҳифаиТамос',
+	'contactpage'                    => 'СаҳифаиТамос',
 	'contactpage-title'              => 'Алоқа',
 	'contactpage-pagetext'           => 'Лутфан барои дар алоқа будан бо мо аз форми зер истифода кунед.',
 	'contactpage-defsubject'         => 'Паёми Алоқа',
 	'contactpage-subject-and-sender' => '$1 (аз $2)',
 	'contactpage-fromname'           => 'номи шумо *',
+	'contactpage-fromaddress'        => 'почтаи электронии шумо **',
 );
 
 /** Turkish (Türkçe)
