@@ -207,6 +207,25 @@ $messages['gl'] = array(
 	'contactpage-captcha-failed'     => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'contact'                        => 'सम्पर्कपॄष्ठ',
+	'contactpage'                    => 'सम्पर्क पॄष्ठ',
+	'contactpage-desc'               => '[[Special:Contact|भेंट देनेवालोंके लिये संपर्क फ़ार्म]]',
+	'contactpage-title'              => 'संपर्क',
+	'contactpage-pagetext'           => 'हमसे संपर्क करने के लिये नीचे दिये गये फ़ार्म का इस्तेमाल करें।',
+	'contactpage-defsubject'         => 'संपर्क संदेश',
+	'contactpage-subject-and-sender' => '$1 ($2 से)',
+	'contactpage-fromname'           => 'आपका नाम *',
+	'contactpage-fromaddress'        => 'आपका इ-मेल **',
+	'contactpage-formfootnotes'      => '* वैकल्पिक<br />
+** वैकल्पिक पर जवाब चाहिये हो तो आवश्यक',
+	'contactpage-captcha'            => 'यह संदेश भेजनेके लिये, कृपया कॅपचा (captcha) सॉल्व करें ([[Special:Captcha/help|अधिक ज़ानकारी]])',
+	'contactpage-captcha-failed'     => 'कॅपचा परिक्षा पूरी नहीं हुई! ([[Special:Captcha/help|अधिक ज़ानकारी]])',
+);
+
 /** Croatian (Hrvatski)
  * @author Dnik
  */
