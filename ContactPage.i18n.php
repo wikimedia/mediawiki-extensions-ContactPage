@@ -5,7 +5,7 @@
  * @addtogroup Extensions
  * @author Daniel Kinzler, brightbyte.de
  * @copyright © 2007 Daniel Kinzler
- * @licence GNU General Public Licence 2.0 or later
+ * @license GNU General Public Licence 2.0 or later
  */
 
 $messages = array();
@@ -103,6 +103,18 @@ $messages['de'] = array(
 ** optional, wird aber benötigt, um dir antworten zu können',
 	'contactpage-captcha'            => 'Um die Nachricht senden zu können, löse bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 	'contactpage-captcha-failed'     => 'Captcha-Test nicht bestanden! ([[Special:Captcha/help|weitere Informationen]])',
+);
+
+/** German - formal address (Deutsch - förmliche Anrede)
+ * @author Raimond Spekking
+ */
+$messages['de-formal'] = array(
+	'contactpage-pagetext'           => 'Mit diesem Formular können Sie uns Nachrichten zukommen lassen.',
+	'contactpage-fromname'           => 'Ihre Name *',
+	'contactpage-fromaddress'        => 'Ihre E-Mail-Adresse **',
+	'contactpage-formfootnotes'      => '* optional<br />
+** optional, wird aber benötigt, um Ihnen antworten zu können',
+	'contactpage-captcha'            => 'Um die Nachricht senden zu können, lösen Sie bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 );
 
 /** Lower Sorbian (Dolnoserbski)
