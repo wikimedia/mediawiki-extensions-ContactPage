@@ -290,8 +290,19 @@ $messages['hu'] = array(
 	'contactpage-captcha-failed' => 'Captcha teszt nem sikerült! ([[Special:Captcha/help|további segítség]])',
 );
 
+/** Icelandic (Íslenska)
+ * @author S.Örvarr.S
+ * @author Jóna Þórunn
+ */
 $messages['is'] = array(
-	'contact' => 'Hafa samband',
+	'contact'                        => 'Hafa samband',
+	'contactpage-title'              => 'Hafa samband',
+	'contactpage-pagetext'           => 'Gjörðu svo vel og notaðu eyðublaðið fyrir neðan til að hafa samband við okkur.',
+	'contactpage-subject-and-sender' => '$1 (frá $2)',
+	'contactpage-fromname'           => 'nafnið þitt *',
+	'contactpage-fromaddress'        => 'netfangið þitt **',
+	'contactpage-formfootnotes'      => '* valfrjálst<br/>
+** valfrjálst en nauðsynlegt ef þú vilt fá svar',
 );
 
 /** Italian (Italiano) */
