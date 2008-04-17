@@ -220,6 +220,14 @@ $messages['gl'] = array(
 	'contactpage-captcha-failed'     => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
 );
 
+/** Manx (Gaelg)
+ * @author MacTire02
+ */
+$messages['gv'] = array(
+	'contactpage-fromname'    => "dt'ennym *",
+	'contactpage-fromaddress' => 'dty phost-L',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
