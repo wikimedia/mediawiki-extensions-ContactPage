@@ -61,6 +61,8 @@ $messages['bg'] = array(
 	'contactpage-subject-and-sender' => '$1 (от $2)',
 	'contactpage-fromname'           => 'вашето име *',
 	'contactpage-fromaddress'        => 'вашата е-поща **',
+	'contactpage-captcha'            => 'За изпращане на съобщение е необходимо да се реши задачата ([[Special:Captcha/help|повече информация]])',
+	'contactpage-captcha-failed'     => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
 );
 
 /** Czech (Česky)
@@ -157,6 +159,8 @@ $messages['eo'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname'           => 'via nomo *',
 	'contactpage-fromaddress'        => 'via retadreso **',
+	'contactpage-formfootnotes'      => '* nedeviga<br />
+** nedeviga sed deviga se vi volas respondon',
 );
 
 $messages['es'] = array(
