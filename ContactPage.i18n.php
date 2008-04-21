@@ -484,7 +484,7 @@ $messages['oc'] = array(
 	'contactpage-fromaddress'        => 'Vòstra adreça electronica**',
 	'contactpage-formfootnotes'      => '* opcional<br /> ** opcional mas requesit se desiratz una responsa',
 	'contactpage-captcha'            => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
-	'contactpage-captcha-failed'     => 'Avètz pas decodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
+	'contactpage-captcha-failed'     => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
 );
 
 /** Polish (Polski)
