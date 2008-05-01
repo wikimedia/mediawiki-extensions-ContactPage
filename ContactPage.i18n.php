@@ -351,6 +351,13 @@ $messages['ja'] = array(
 	'contactpage-captcha-failed'     => 'CAPTCHA画像認証に失敗しました！（[[Special:Captcha/help|詳細はこちら]]）',
 );
 
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'contactpage-fromaddress' => 'e-mail panjenengan **',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author Chhorran
@@ -392,6 +399,14 @@ $messages['lb'] = array(
 
 $messages['mk'] = array(
 	'contact' => 'Контакт',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'contactpage-fromname'    => 'നിങ്ങളുടെ പേര്‌ *',
+	'contactpage-fromaddress' => 'നിങ്ങളുടെ ഇമെയില്‍ വിലാസം **',
 );
 
 /** Marathi (मराठी)
