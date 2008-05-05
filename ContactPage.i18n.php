@@ -355,6 +355,9 @@ $messages['ja'] = array(
  * @author Meursault2004
  */
 $messages['jv'] = array(
+	'contactpage-title'       => 'Kontak',
+	'contactpage-pagetext'    => 'Mangga nganggo formulir sing kapacak ing ngisor iki menawa arep kontak kita.',
+	'contactpage-fromname'    => 'asma panjenengan *',
 	'contactpage-fromaddress' => 'e-mail panjenengan **',
 );
 
