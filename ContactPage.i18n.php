@@ -360,6 +360,8 @@ $messages['jv'] = array(
 	'contactpage-subject-and-sender' => '$1 (saka $2)',
 	'contactpage-fromname'           => 'asma panjenengan *',
 	'contactpage-fromaddress'        => 'e-mail panjenengan **',
+	'contactpage-formfootnotes'      => '* opsional<br />
+** opsional nanging diperlokaké yèn panjenengan perlu wangsulan',
 );
 
 /** Khmer (ភាសាខ្មែរ)
