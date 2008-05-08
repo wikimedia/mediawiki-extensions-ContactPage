@@ -709,16 +709,24 @@ $messages['tr'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Vinhtantran
  * @author Minh Nguyen
  * @author לערי ריינהארט
  */
 $messages['vi'] = array(
 	'contact'                        => 'Liên lạc',
+	'contactpage'                    => 'Liên hệ',
+	'contactpage-desc'               => '[[Special:Contact|Mẫu liên hệ cho khách ghé thăm]]',
 	'contactpage-title'              => 'Liên lạc',
 	'contactpage-pagetext'           => 'Xin hãy sử dụng biểu mẫu ở dưới để liên lạc với chúng tôi.',
+	'contactpage-defsubject'         => 'Tin nhắn liên hệ',
 	'contactpage-subject-and-sender' => '$1 (gửi từ $2)',
 	'contactpage-fromname'           => 'tên bạn *',
 	'contactpage-fromaddress'        => 'địa chỉ thư điện tử của bạn **',
+	'contactpage-formfootnotes'      => '* tùy chọn<br />
+** tùy chọn nhưng cần thiết nêys bạn muốn có câu trả lời',
+	'contactpage-captcha'            => 'Để gửi tin nhắn, xin hãy ghi lại captcha [[Special:Captcha/help|thông tin thêm]])',
+	'contactpage-captcha-failed'     => 'Kiểm tra captcha thất bại! ([[Special:Captcha/help|thông tin thêm]])',
 );
 
 /** Volapük (Volapük)
