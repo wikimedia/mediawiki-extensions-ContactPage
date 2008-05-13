@@ -413,8 +413,11 @@ $messages['mk'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'contactpage-fromname'    => 'നിങ്ങളുടെ പേര്‌ *',
-	'contactpage-fromaddress' => 'നിങ്ങളുടെ ഇമെയില്‍ വിലാസം **',
+	'contactpage-title'              => 'വിലാസം',
+	'contactpage-defsubject'         => 'ബന്ധപ്പെടാനുള്ള സന്ദേശം',
+	'contactpage-subject-and-sender' => '$1 ($2 ല്‍ നിന്ന്)',
+	'contactpage-fromname'           => 'നിങ്ങളുടെ പേര്‌ *',
+	'contactpage-fromaddress'        => 'നിങ്ങളുടെ ഇമെയില്‍ വിലാസം **',
 );
 
 /** Marathi (मराठी)
