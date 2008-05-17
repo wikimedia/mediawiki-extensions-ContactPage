@@ -67,6 +67,13 @@ $messages['bg'] = array(
 	'contactpage-captcha-failed'     => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
 );
 
+/** Catalan (Català)
+ * @author SMP
+ */
+$messages['ca'] = array(
+	'contactpage-title' => 'Contacte',
+);
+
 /** Czech (Česky)
  * @author Matěj Grabovský
  * @author לערי ריינהארט
@@ -380,6 +387,13 @@ $messages['km'] = array(
 	'contactpage-subject-and-sender' => '$1 (ផ្ញើ​ពី $2)',
 	'contactpage-fromname'           => 'ឈ្មោះ​របស់អ្នក *',
 	'contactpage-fromaddress'        => 'អ៊ីមែល​របស់អ្នក **',
+);
+
+/** Korean (한국어)
+ * @author WonRyong
+ */
+$messages['ko'] = array(
+	'contact' => '관리자 연락',
 );
 
 $messages['la'] = array(
