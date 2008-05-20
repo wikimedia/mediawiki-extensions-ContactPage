@@ -26,6 +26,13 @@ $messages['en'] = array(
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Arnobarnard
+ */
+$messages['af'] = array(
+	'contactpage-title' => 'Kontak',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -432,6 +439,8 @@ $messages['ml'] = array(
 	'contactpage-subject-and-sender' => '$1 ($2 ല്‍ നിന്ന്)',
 	'contactpage-fromname'           => 'നിങ്ങളുടെ പേര്‌ *',
 	'contactpage-fromaddress'        => 'നിങ്ങളുടെ ഇമെയില്‍ വിലാസം **',
+	'contactpage-captcha'            => 'സന്ദേശം അയക്കാന്‍, ദയവായി Captcha നിര്‍ദ്ധാരണം ചെയ്യുക. [[Special:Captcha/help|കൂടുതല്‍ വിവരം]]',
+	'contactpage-captcha-failed'     => 'Captcha പരീക്ഷണം പരാജയപ്പെട്ടു! ([[Special:Captcha/help|കൂടുതല്‍ വിവരം]])',
 );
 
 /** Marathi (मराठी)
