@@ -608,7 +608,7 @@ $messages['rmy'] = array(
 );
 
 /** Russian (Русский)
- * @author .:Ajvol:.
+ * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'contact'                        => 'Страница контакта',
