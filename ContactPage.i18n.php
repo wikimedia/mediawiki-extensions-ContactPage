@@ -439,6 +439,8 @@ $messages['ml'] = array(
 	'contactpage-subject-and-sender' => '$1 ($2 ല്‍ നിന്ന്)',
 	'contactpage-fromname'           => 'നിങ്ങളുടെ പേര്‌ *',
 	'contactpage-fromaddress'        => 'നിങ്ങളുടെ ഇമെയില്‍ വിലാസം **',
+	'contactpage-formfootnotes'      => '* നിര്‍‌ബന്ധമില്ല<br />
+** നിര്‍‌ബന്ധമില്ല, പക്ഷെ താങ്കള്‍ക്ക് മറുപടി വേണമെങ്കില്‍ ഇതു ആവശ്യമാണ്‌',
 	'contactpage-captcha'            => 'സന്ദേശം അയക്കാന്‍, ദയവായി Captcha നിര്‍ദ്ധാരണം ചെയ്യുക. [[Special:Captcha/help|കൂടുതല്‍ വിവരം]]',
 	'contactpage-captcha-failed'     => 'Captcha പരീക്ഷണം പരാജയപ്പെട്ടു! ([[Special:Captcha/help|കൂടുതല്‍ വിവരം]])',
 );
