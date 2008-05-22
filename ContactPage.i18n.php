@@ -739,6 +739,13 @@ $messages['tr'] = array(
 	'contactpage-fromaddress' => 'e-postanız *',
 );
 
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'contactpage-desc' => '[[Special:Contact|Modulo de contatto par i visitadori]]',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
  * @author Minh Nguyen
