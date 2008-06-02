@@ -245,7 +245,7 @@ $messages['gl'] = array(
  */
 $messages['gv'] = array(
 	'contactpage-fromname'    => "dt'ennym *",
-	'contactpage-fromaddress' => 'dty phost-L',
+	'contactpage-fromaddress' => 'dty phost-L **',
 );
 
 /** Hindi (हिन्दी)
@@ -473,8 +473,13 @@ $messages['nap'] = array(
  * @author Slomox
  */
 $messages['nds'] = array(
-	'contactpage-title'    => 'Kontakt',
-	'contactpage-fromname' => 'Dien Naam *',
+	'contact'                        => 'Kontaktsied',
+	'contactpage'                    => 'Kontaktsied',
+	'contactpage-title'              => 'Kontakt',
+	'contactpage-defsubject'         => 'Kontaktnaricht',
+	'contactpage-subject-and-sender' => '$1 (vun $2)',
+	'contactpage-fromname'           => 'Dien Naam *',
+	'contactpage-fromaddress'        => 'Dien E-Mail-Adress **',
 );
 
 $messages['nl'] = array(
