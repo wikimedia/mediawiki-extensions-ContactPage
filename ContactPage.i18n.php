@@ -677,11 +677,13 @@ $messages['stq'] = array(
 
 /** Sundanese (Basa Sunda)
  * @author Kandar
+ * @author Irwangatot
  */
 $messages['su'] = array(
-	'contactpage-pagetext'    => 'Mangga eusian formulir di handap pikeun ngontak ka kami.',
-	'contactpage-fromname'    => 'ngaran anjeun *',
-	'contactpage-fromaddress' => 'surélék anjeun **',
+	'contactpage-pagetext'           => 'Mangga eusian formulir di handap pikeun ngontak ka kami.',
+	'contactpage-subject-and-sender' => '$1 (ti $2)',
+	'contactpage-fromname'           => 'ngaran anjeun *',
+	'contactpage-fromaddress'        => 'surélék anjeun **',
 );
 
 /** Swedish (Svenska)
