@@ -545,10 +545,13 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Derbeth
+ * @author Siebrand
+ * @author Wpedzich
  */
 $messages['pl'] = array(
 	'contact'                        => 'StronaKontaktowa',
 	'contactpage'                    => 'StronaKontaktowa',
+	'contactpage-desc'               => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
 	'contactpage-title'              => 'Kontakt',
 	'contactpage-pagetext'           => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
 	'contactpage-defsubject'         => 'Wiadomość',
