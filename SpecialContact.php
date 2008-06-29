@@ -60,8 +60,6 @@ class SpecialContact extends SpecialPage {
 			wfDebug( "$fname: success.\n" );
 			$f->showSuccess( );
 		} else if ( "submit" == $action && $wgRequest->wasPosted() ) {#
-			wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
-
 			$token = $wgRequest->getVal( 'wpEditToken' );
 
 			if( $wgUser->isAnon() ) {
@@ -201,6 +199,8 @@ class EmailContactForm {
 		global $wgCaptcha, $wgCaptchaTriggers;
 		if ( !$wgCaptcha ) return ""; //no captcha installed
 		if ( !@$wgCaptchaTriggers['contactpage'] ) return ""; //don't trigger on contact form
+
+		wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
 
 		return "<div class='captcha'>" .
 		$wgCaptcha->getForm() .
