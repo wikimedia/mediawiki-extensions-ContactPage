@@ -60,6 +60,8 @@ class SpecialContact extends SpecialPage {
 			wfDebug( "$fname: success.\n" );
 			$f->showSuccess( );
 		} else if ( "submit" == $action && $wgRequest->wasPosted() ) {#
+			wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
+
 			$token = $wgRequest->getVal( 'wpEditToken' );
 
 			if( $wgUser->isAnon() ) {
