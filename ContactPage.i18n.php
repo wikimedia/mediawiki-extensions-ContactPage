@@ -248,6 +248,18 @@ $messages['gv'] = array(
 	'contactpage-fromaddress' => 'dty phost-L **',
 );
 
+/** Hebrew (עברית)
+ * @author Agbad
+ */
+$messages['he'] = array(
+	'contactpage-desc'          => '[[Special:Contact|טופס יצירת קשר בשביל מבקרים]]',
+	'contactpage-pagetext'      => 'אנא המשתמש בטופס להלן כדי ליצור עמנו קשר.',
+	'contactpage-fromname'      => 'השם שלך *',
+	'contactpage-fromaddress'   => 'האימייל שלך **',
+	'contactpage-formfootnotes' => '* אופציונאלי<br />
+** אופציונאלי אבל צריך אם ברצונך לקבל תשובה',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
