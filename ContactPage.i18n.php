@@ -250,12 +250,13 @@ $messages['gv'] = array(
 
 /** Hebrew (עברית)
  * @author Agbad
+ * @author Rotemliss
  */
 $messages['he'] = array(
-	'contactpage-desc'          => '[[Special:Contact|טופס יצירת קשר בשביל מבקרים]]',
-	'contactpage-pagetext'      => 'אנא המשתמש בטופס להלן כדי ליצור עמנו קשר.',
-	'contactpage-fromname'      => 'השם שלך *',
-	'contactpage-fromaddress'   => 'האימייל שלך **',
+	'contactpage-desc'          => '[[Special:Contact|טופס יצירת קשר למבקרים]]',
+	'contactpage-pagetext'      => 'אנא השתמשו בטופס שלהלן כדי ליצור עמנו קשר.',
+	'contactpage-fromname'      => 'שמכם *',
+	'contactpage-fromaddress'   => 'כתובת הדוא"ל שלכם **',
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
 ** אופציונאלי אבל צריך אם ברצונך לקבל תשובה',
 );
