@@ -31,5 +31,5 @@ $wgAutoloadClasses['SpecialContact'] = $dir . 'SpecialContact.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
 
 $wgContactUser = NULL;
-$wgContactSender = 'apache@' . $wgServerName;
+$wgContactSender = NULL;
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;

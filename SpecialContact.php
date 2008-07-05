@@ -35,12 +35,12 @@ class SpecialContact extends SpecialPage {
 	 * @param $par Parameters passed to the page
 	 */
 	function execute( $par ) {
-		global $wgUser, $wgOut, $wgRequest, $wgEnableEmail, $wgContactUser, $wgContactSender;
+		global $wgUser, $wgOut, $wgRequest, $wgEnableEmail, $wgContactUser;
 
 		wfLoadExtensionMessages( 'ContactPage' );
 		$fname = "SpecialContact::execute";
 
-		if( !$wgEnableEmail || !$wgContactUser || !$wgContactSender) {
+		if( !$wgEnableEmail || !$wgContactUser ) {
 			$wgOut->showErrorPage( "nosuchspecialpage", "nospecialpagetext" );
 			return;
 		}
@@ -59,7 +59,7 @@ class SpecialContact extends SpecialPage {
 		if ( "success" == $action ) {
 			wfDebug( "$fname: success.\n" );
 			$f->showSuccess( );
-		} else if ( "submit" == $action && $wgRequest->wasPosted() ) {#
+		} else if ( "submit" == $action && $wgRequest->wasPosted() && $f->text !== NULL ) {
 			$token = $wgRequest->getVal( 'wpEditToken' );
 
 			if( $wgUser->isAnon() ) {
@@ -111,6 +111,9 @@ class EmailContactForm {
 		$this->subject = $wgRequest->getText( 'wpSubject' );
 		$this->cc_me = $wgRequest->getBool( 'wpCCMe' );
 
+		if ( $this->text !== NULL ) $this->text = trim( $this->text );
+		if ( $this->text === '' ) $this->text = NULL;
+
 		$this->fromname = $wgRequest->getText( 'wpFromName' );
 		$this->fromaddress = $wgRequest->getText( 'wpFromAddress' );
 
@@ -128,7 +131,7 @@ class EmailContactForm {
 	}
 
 	function showForm() {
-		global $wgOut, $wgUser, $wgContactSender;
+		global $wgOut, $wgUser;
 
 		#TODO: show captcha
 
@@ -139,8 +142,6 @@ class EmailContactForm {
 			$this->subject = wfMsgForContent( "contactpage-defsubject" );
 		}
 
-		#$emf = wfMsg( "emailfrom" );
-		#$sender = $wgContactSender;
 		$emt = wfMsg( "emailto" );
 		$rcpt = $this->target->getName();
 		$emr = wfMsg( "emailsubject" );
@@ -217,17 +218,31 @@ class EmailContactForm {
 	}
 
 	function doSubmit( ) {
-		global $wgOut, $wgContactSender, $wgContactSenderName;
+		global $wgOut;
+		global $wgEnableEmail, $wgUserEmailUseReplyTo, $wgEmergencyContact;
+		global $wgContactUser, $wgContactSender, $wgContactSenderName;
 
-		#TODO: check captcha
+		$csender = $wgContactSender ? $wgContactSender : $wgEmergencyContact;
+		$cname = $wgContactSenderName;
 
 		$fname = 'EmailContactForm::doSubmit';
 
 		wfDebug( "$fname: start\n" );
 
 		$to = new MailAddress( $this->target );
-		$from = new MailAddress( $wgContactSender, $wgContactSenderName );
-		$replyto = $this->fromaddress ? new MailAddress( $this->fromaddress, $this->fromname ) : NULL;
+		$replyto = NULL;
+
+		if ( !$this->fromaddress ) {
+			$from = new MailAddress( $csender, $cname );
+		}
+		else if ( $wgUserEmailUseReplyTo ) {
+			$from = new MailAddress( $csender, $cname );
+			$replyto = new MailAddress( $this->fromaddress, $this->fromname );
+		}
+		else {
+			$from = new MailAddress( $this->fromaddress, $this->fromname );
+		}
+
 		$subject = trim( $this->subject );
 
 		if ( $subject === "" ) {
@@ -237,12 +252,15 @@ class EmailContactForm {
 		if ( $this->fromname !== "" ) {
 			$subject = wfMsgForContent( "contactpage-subject-and-sender", $subject, $this->fromname );
 		}
+		else if ( $this->fromaddress !== "" ) {
+			$subject = wfMsgForContent( "contactpage-subject-and-sender", $subject, $this->fromaddress );
+		}
 
 		if( wfRunHooks( 'ContactForm', array( &$to, &$replyto, &$subject, &$this->text ) ) ) {
 
 			wfDebug( "$fname: sending mail from ".$from->toString()." to ".$to->toString()." replyto ".($replyto==null?'-/-':$replyto->toString())."\n" );
 
-			#HACK: in MW 1.9, replyto must be a string, in MW 1.0, it must be an object!
+			#HACK: in MW 1.9, replyto must be a string, in MW 1.10 it must be an object!
 			$ver = preg_replace( '![^\d._+]!', '', $GLOBALS['wgVersion'] );
 			$replyaddr = $replyto == null
 					? NULL : version_compare( $ver, '1.10', '<' )
