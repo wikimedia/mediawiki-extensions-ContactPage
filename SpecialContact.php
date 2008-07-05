@@ -216,9 +216,14 @@ class EmailContactForm {
 	}
 
 	function getCaptcha() {
-		global $wgCaptcha, $wgCaptchaTriggers;
+		global $wgCaptcha, $wgCaptchaTriggers, $wgUser;
 		if ( !$wgCaptcha ) return ""; //no captcha installed
 		if ( !@$wgCaptchaTriggers['contactpage'] ) return ""; //don't trigger on contact form
+
+		if( $wgUser->isAllowed( 'skipcaptcha' ) ) {
+			wfDebug( "EmailContactForm::getCaptcha: user group allows skipping captcha\n" );
+			return "";
+		}
 
 		wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
 
