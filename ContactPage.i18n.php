@@ -503,20 +503,27 @@ $messages['nds'] = array(
 	'contactpage-fromaddress'        => 'Dien E-Mail-Adress **',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ * @author SPQRobin
+ */
 $messages['nl'] = array(
-	'contact' => 'Contact met ons opnemen',
-	'contactpage' => 'Contactpagina',
-	'contactpage-desc' => '[[Special:Contact|Contactformulier voor bezoekers]]',
-	'contactpage-title' => 'Contact',#identical but defined
-	'contactpage-pagetext' => 'Gebruik alstublieft het onderstaande formulier om contact met ons op te nemen.',
-	'contactpage-defsubject' => 'Contactbericht',
-	'contactpage-subject-and-sender' => '$1 (van $2)',
-	'contactpage-fromname' => 'uw naam *',
-	'contactpage-fromaddress' => 'uw e-mailadres **',
-	'contactpage-formfootnotes' => '* optioneel<br />
+	'contact'                            => 'Contact met ons opnemen',
+	'contactpage'                        => 'Contactpagina',
+	'contactpage-desc'                   => '[[Special:Contact|Contactformulier voor bezoekers]]',
+	'contactpage-title'                  => 'Contact',
+	'contactpage-pagetext'               => 'Gebruik alstublieft het onderstaande formulier om contact met ons op te nemen.',
+	'contactpage-defsubject'             => 'Contactbericht',
+	'contactpage-subject-and-sender'     => '$1 (van $2)',
+	'contactpage-fromname'               => 'uw naam *',
+	'contactpage-fromaddress'            => 'uw e-mailadres **',
+	'contactpage-formfootnotes'          => '* optioneel<br />
 ** optioneel, maar noodzakelijk als antwoord gewenst is',
-	'contactpage-captcha' => 'Om het bericht te versturen, moet je eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
-	'contactpage-captcha-failed' => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
+	'contactpage-fromname-required'      => 'uw naam',
+	'contactpage-fromaddress-required'   => 'uw e-mailadres',
+	'contactpage-formfootnotes-required' => 'Alle velden zijn verplicht.',
+	'contactpage-captcha'                => 'Om het bericht te versturen, moet je eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
+	'contactpage-captcha-failed'         => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
