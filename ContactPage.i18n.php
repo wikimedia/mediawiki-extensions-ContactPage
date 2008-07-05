@@ -22,6 +22,9 @@ $messages['en'] = array(
 	'contactpage-fromaddress' => 'your e-mail **',
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional but needed if you want an answer',
+	'contactpage-fromname-required' => 'your name',
+	'contactpage-fromaddress-required' => 'your e-mail',
+	'contactpage-formfootnotes-required' => 'All fields are required.',
 	'contactpage-captcha' => 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])',
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
 );
@@ -119,6 +122,9 @@ $messages['de'] = array(
 	'contactpage-fromaddress'        => 'Deine E-Mail-Adresse **',
 	'contactpage-formfootnotes'      => '* optional<br />
 ** optional, wird aber benötigt, um dir antworten zu können',
+	'contactpage-fromname-required' => 'Dein Name',
+	'contactpage-fromaddress-required' => 'Deine E-Mail-Adresse',
+	'contactpage-formfootnotes-required' => 'Alle Felder müssen ausgefüllt sein.',
 	'contactpage-captcha'            => 'Um die Nachricht senden zu können, löse bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 	'contactpage-captcha-failed'     => 'Captcha-Test nicht bestanden! ([[Special:Captcha/help|weitere Informationen]])',
 );
@@ -128,10 +134,12 @@ $messages['de'] = array(
  */
 $messages['de-formal'] = array(
 	'contactpage-pagetext'           => 'Mit diesem Formular können Sie uns Nachrichten zukommen lassen.',
-	'contactpage-fromname'           => 'Ihre Name *',
+	'contactpage-fromname'           => 'Ihr Name *',
 	'contactpage-fromaddress'        => 'Ihre E-Mail-Adresse **',
 	'contactpage-formfootnotes'      => '* optional<br />
 ** optional, wird aber benötigt, um Ihnen antworten zu können',
+	'contactpage-fromname-required' => 'Ihr Name',
+	'contactpage-fromaddress-required' => 'Ihre E-Mail-Adresse',
 	'contactpage-captcha'            => 'Um die Nachricht senden zu können, lösen Sie bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 );
 

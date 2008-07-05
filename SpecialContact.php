@@ -59,7 +59,7 @@ class SpecialContact extends SpecialPage {
 		if ( "success" == $action ) {
 			wfDebug( "$fname: success.\n" );
 			$f->showSuccess( );
-		} else if ( "submit" == $action && $wgRequest->wasPosted() && $f->text !== NULL ) {
+		} else if ( "submit" == $action && $wgRequest->wasPosted() && $f->hasAllInfo() ) {
 			$token = $wgRequest->getVal( 'wpEditToken' );
 
 			if( $wgUser->isAnon() ) {
@@ -111,9 +111,6 @@ class EmailContactForm {
 		$this->subject = $wgRequest->getText( 'wpSubject' );
 		$this->cc_me = $wgRequest->getBool( 'wpCCMe' );
 
-		if ( $this->text !== NULL ) $this->text = trim( $this->text );
-		if ( $this->text === '' ) $this->text = NULL;
-
 		$this->fromname = $wgRequest->getText( 'wpFromName' );
 		$this->fromaddress = $wgRequest->getText( 'wpFromAddress' );
 
@@ -130,8 +127,28 @@ class EmailContactForm {
 		}
 	}
 
+	function hasAllInfo() {
+		global $wgContactRequireAll;
+
+		if ( $this->text === NULL ) return false;
+		else $this->text = trim( $this->text );
+		if ( $this->text === '' ) return false;
+
+		if ( $wgContactRequireAll ) {
+			if ( $this->fromname === NULL ) return false;
+			else $this->fromname = trim( $this->fromname );
+			if ( $this->fromname === '' ) return false;
+
+			if ( $this->fromaddress === NULL ) return false;
+			else $this->fromaddress = trim( $this->fromaddress );
+			if ( $this->fromaddress === '' ) return false;
+		}
+
+		return true;
+	}
+
 	function showForm() {
-		global $wgOut, $wgUser;
+		global $wgOut, $wgUser, $wgContactRequireAll;
 
 		#TODO: show captcha
 
@@ -142,14 +159,16 @@ class EmailContactForm {
 			$this->subject = wfMsgForContent( "contactpage-defsubject" );
 		}
 
+		$msgSuffix = $wgContactRequireAll ? '-required' : '';
+
 		$emt = wfMsg( "emailto" );
 		$rcpt = $this->target->getName();
 		$emr = wfMsg( "emailsubject" );
 		$emm = wfMsg( "emailmessage" );
 		$ems = wfMsg( "emailsend" );
 		$emc = wfMsg( "emailccme" );
-		$emfn = wfMsg( "contactpage-fromname" );
-		$emfa = wfMsg( "contactpage-fromaddress" );
+		$emfn = wfMsg( "contactpage-fromname$msgSuffix" );
+		$emfa = wfMsg( "contactpage-fromaddress$msgSuffix" );
 		$encSubject = htmlspecialchars( $this->subject );
 		$encFromName = htmlspecialchars( $this->fromname );
 		$encFromAddress = htmlspecialchars( $this->fromaddress );
@@ -181,7 +200,7 @@ class EmailContactForm {
 <tr>
 <td></td>
 <td align='left'>
-<small>".wfMsg( "contactpage-formfootnotes" )."</small>
+<small>".wfMsg( "contactpage-formfootnotes$msgSuffix" )."</small>
 </td>
 </tr>
 </table>

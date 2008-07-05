@@ -33,3 +33,5 @@ $wgSpecialPages['Contact'] = 'SpecialContact';
 $wgContactUser = NULL;
 $wgContactSender = NULL;
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;
+
+$wgContactRequireAll = false;
