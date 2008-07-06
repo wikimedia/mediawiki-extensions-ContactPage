@@ -104,7 +104,7 @@ class EmailContactForm {
 	 */
 	function EmailContactForm( $target ) {
 		global $wgRequest, $wgUser;
-		global $wgCaptchaClass, $wgCaptchaTriggers;
+		global $wgCaptchaClass;
 
 		$this->target = $target;
 		$this->text = $wgRequest->getText( 'wpText' );
@@ -120,7 +120,7 @@ class EmailContactForm {
 		}
 
 		//prepare captcha if applicable
-		if ( $wgCaptchaClass && @$wgCaptchaTriggers['contactpage'] ) {
+		if ( $this->useCaptcha() ) {
 			$captcha = ConfirmEditHooks::getInstance();
 			$captcha->trigger = 'contactpage';
 			$captcha->action = 'contact';
@@ -215,15 +215,22 @@ class EmailContactForm {
 
 	}
 
-	function getCaptcha() {
-		global $wgCaptcha, $wgCaptchaTriggers, $wgUser;
-		if ( !$wgCaptcha ) return ""; //no captcha installed
-		if ( !@$wgCaptchaTriggers['contactpage'] ) return ""; //don't trigger on contact form
+	function useCaptcha() {
+		global $wgCaptchaClass, $wgCaptchaTriggers, $wgUser;
+		if ( !$wgCaptchaClass ) return false; //no captcha installed
+		if ( !@$wgCaptchaTriggers['contactpage'] ) return false; //don't trigger on contact form
 
 		if( $wgUser->isAllowed( 'skipcaptcha' ) ) {
-			wfDebug( "EmailContactForm::getCaptcha: user group allows skipping captcha\n" );
-			return "";
+			wfDebug( "EmailContactForm::useCaptcha: user group allows skipping captcha\n" );
+			return false;
 		}
+
+		return true;
+	}
+
+	function getCaptcha() {
+		global $wgCaptcha;
+		if ( !$this->useCaptcha() ) return ""; 
 
 		wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
 
@@ -234,9 +241,8 @@ class EmailContactForm {
 	}
 
 	function passCaptcha() {
-		global $wgCaptcha, $wgCaptchaTriggers;
-		if ( !$wgCaptcha ) return true; //no captcha installed
-		if ( !@$wgCaptchaTriggers['contactpage'] ) return true; //don't trigger on contact form
+		global $wgCaptcha;
+		if ( !$this->useCaptcha() ) return true;
 
 		return $wgCaptcha->passCaptcha();
 	}
