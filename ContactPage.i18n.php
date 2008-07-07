@@ -210,21 +210,25 @@ $messages['fi'] = array(
  * @author Urhixidur
  * @author Grondin
  * @author לערי ריינהארט
+ * @author Siebrand
  */
 $messages['fr'] = array(
-	'contact'                        => 'Pour nous contacter',
-	'contactpage'                    => 'Contact',
-	'contactpage-desc'               => '[[Special:Contact|Formulaire de contact pour les visiteurs]]',
-	'contactpage-title'              => 'Contacter',
-	'contactpage-pagetext'           => 'Veuillez utiliser le formulaire ci-dessous pour nous contacter.',
-	'contactpage-defsubject'         => 'Message',
-	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname'           => 'Votre nom*',
-	'contactpage-fromaddress'        => 'Votre adresse courriel**',
-	'contactpage-formfootnotes'      => '* optionnel<br />
+	'contact'                            => 'Pour nous contacter',
+	'contactpage'                        => 'Contact',
+	'contactpage-desc'                   => '[[Special:Contact|Formulaire de contact pour les visiteurs]]',
+	'contactpage-title'                  => 'Contacter',
+	'contactpage-pagetext'               => 'Veuillez utiliser le formulaire ci-dessous pour nous contacter.',
+	'contactpage-defsubject'             => 'Message',
+	'contactpage-subject-and-sender'     => '$1 (de $2)',
+	'contactpage-fromname'               => 'Votre nom*',
+	'contactpage-fromaddress'            => 'Votre adresse courriel**',
+	'contactpage-formfootnotes'          => '* optionnel<br />
 ** optionnel mais requis si vous désirez une réponse',
-	'contactpage-captcha'            => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
-	'contactpage-captcha-failed'     => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
+	'contactpage-fromname-required'      => 'votre nom',
+	'contactpage-fromaddress-required'   => 'votre adresse courriel',
+	'contactpage-formfootnotes-required' => 'Tous les champs sont requis.',
+	'contactpage-captcha'                => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
+	'contactpage-captcha-failed'         => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
 );
 
 /** Galician (Galego)
@@ -233,19 +237,22 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'contact'                        => 'Páxina de Contacto',
-	'contactpage'                    => 'Páxina de Contacto',
-	'contactpage-desc'               => '[[Special:Contact|Formulario de contacto para os visitantes]]',
-	'contactpage-title'              => 'Contacto',
-	'contactpage-pagetext'           => 'Use o formulario de embaixo para contactar con nós.',
-	'contactpage-defsubject'         => 'Mensaxe de Contacto',
-	'contactpage-subject-and-sender' => '$1 (desde $2)',
-	'contactpage-fromname'           => 'o seu nome *',
-	'contactpage-fromaddress'        => 'o seu correo electrónico **',
-	'contactpage-formfootnotes'      => '* opcional<br />
+	'contact'                            => 'Páxina de Contacto',
+	'contactpage'                        => 'Páxina de Contacto',
+	'contactpage-desc'                   => '[[Special:Contact|Formulario de contacto para os visitantes]]',
+	'contactpage-title'                  => 'Contacto',
+	'contactpage-pagetext'               => 'Use o formulario de embaixo para contactar con nós.',
+	'contactpage-defsubject'             => 'Mensaxe de Contacto',
+	'contactpage-subject-and-sender'     => '$1 (desde $2)',
+	'contactpage-fromname'               => 'o seu nome *',
+	'contactpage-fromaddress'            => 'o seu correo electrónico **',
+	'contactpage-formfootnotes'          => '* opcional<br />
 ** opcional, pero necesario se quere unha resposta',
-	'contactpage-captcha'            => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
-	'contactpage-captcha-failed'     => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
+	'contactpage-fromname-required'      => 'o seu nome',
+	'contactpage-fromaddress-required'   => 'o seu correo electrónico',
+	'contactpage-formfootnotes-required' => 'Requírense todos os campos.',
+	'contactpage-captcha'                => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
+	'contactpage-captcha-failed'         => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
 );
 
 /** Manx (Gaelg)
@@ -721,21 +728,25 @@ $messages['su'] = array(
  * @author Lejonel
  * @author M.M.S.
  * @author לערי ריינהארט
+ * @author Boivie
  */
 $messages['sv'] = array(
-	'contact'                        => 'Kontaktsida',
-	'contactpage'                    => 'Kontaktsida',
-	'contactpage-desc'               => '[[Special:Contact|Kontaktformulär för besökare]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Använd formuläret härunder för att kontakta oss.',
-	'contactpage-defsubject'         => 'Kontaktmeddelande',
-	'contactpage-subject-and-sender' => '$1 (från $2)',
-	'contactpage-fromname'           => 'Ditt namn *',
-	'contactpage-fromaddress'        => 'Din e-postadress **',
-	'contactpage-formfootnotes'      => '* kan utelämnas<br />
+	'contact'                            => 'Kontaktsida',
+	'contactpage'                        => 'Kontaktsida',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktformulär för besökare]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Använd formuläret härunder för att kontakta oss.',
+	'contactpage-defsubject'             => 'Kontaktmeddelande',
+	'contactpage-subject-and-sender'     => '$1 (från $2)',
+	'contactpage-fromname'               => 'Ditt namn *',
+	'contactpage-fromaddress'            => 'Din e-postadress **',
+	'contactpage-formfootnotes'          => '* kan utelämnas<br />
 ** kan utelämnas, men behövs om du vill få svar',
-	'contactpage-captcha'            => 'För att få skicka meddelandet måste du först lösa följande captcha-test ([[Special:Captcha/help|mer information]])',
-	'contactpage-captcha-failed'     => 'Captcha-testet misslyckades! ([[Special:Captcha/help|mer information]])',
+	'contactpage-fromname-required'      => 'ditt namn',
+	'contactpage-fromaddress-required'   => 'din e-postadress',
+	'contactpage-formfootnotes-required' => 'Alla fält är obligatoriska.',
+	'contactpage-captcha'                => 'För att få skicka meddelandet måste du först lösa följande captcha-test ([[Special:Captcha/help|mer information]])',
+	'contactpage-captcha-failed'         => 'Captcha-testet misslyckades! ([[Special:Captcha/help|mer information]])',
 );
 
 /** Telugu (తెలుగు)
