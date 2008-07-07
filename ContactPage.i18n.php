@@ -537,19 +537,22 @@ $messages['nl'] = array(
  * @author Jon Harald Søby
  */
 $messages['no'] = array(
-	'contact'                        => 'Kontaktside',
-	'contactpage'                    => 'Kontaktside',
-	'contactpage-desc'               => '[[Special:Contact|Kontaktskjema for besøkende]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Bruk skjemaet nedenunder for å kontakte oss.',
-	'contactpage-defsubject'         => 'Beskjed',
-	'contactpage-subject-and-sender' => '$1 (fra $2)',
-	'contactpage-fromname'           => 'ditt navn *',
-	'contactpage-fromaddress'        => 'din e-post **',
-	'contactpage-formfootnotes'      => '* valgfri<br />
+	'contact'                            => 'Kontaktside',
+	'contactpage'                        => 'Kontaktside',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktskjema for besøkende]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Bruk skjemaet nedenunder for å kontakte oss.',
+	'contactpage-defsubject'             => 'Beskjed',
+	'contactpage-subject-and-sender'     => '$1 (fra $2)',
+	'contactpage-fromname'               => 'ditt navn *',
+	'contactpage-fromaddress'            => 'din e-post **',
+	'contactpage-formfootnotes'          => '* valgfri<br />
 ** valgfri, men er nødvendig dersom du vil ha svar',
-	'contactpage-captcha'            => 'Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])',
-	'contactpage-captcha-failed'     => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-fromname-required'      => 'ditt navn',
+	'contactpage-fromaddress-required'   => 'din e-postadresse',
+	'contactpage-formfootnotes-required' => 'Alle felt er obligatoriske.',
+	'contactpage-captcha'                => 'Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-captcha-failed'         => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
