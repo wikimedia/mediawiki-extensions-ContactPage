@@ -411,17 +411,20 @@ $messages['jv'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  * @author Chhorran
+ * @author Lovekhmer
  */
 $messages['km'] = array(
-	'contact'                        => 'ទំព័រ​ទំនាក់ទំនង',
-	'contactpage'                    => 'ទំព័រ​ទំនាក់ទំនង',
-	'contactpage-desc'               => '[[Special:Contact|សំនុំបែបបទទាក់ទង​សំរាប់អ្នកទស្សនា]]',
-	'contactpage-title'              => 'ទាក់ទង',
-	'contactpage-pagetext'           => 'សូម​ប្រើ​ប្រាស់​សំនុំបែបបទ​ខាងក្រោម​ ដើម្បី​ទាក់ទងមក​យើងខ្ញុំ។',
-	'contactpage-defsubject'         => 'សារទាក់ទង',
-	'contactpage-subject-and-sender' => '$1 (ផ្ញើ​ពី $2)',
-	'contactpage-fromname'           => 'ឈ្មោះ​របស់អ្នក *',
-	'contactpage-fromaddress'        => 'អ៊ីមែល​របស់អ្នក **',
+	'contact'                          => 'ទំព័រ​ទំនាក់ទំនង',
+	'contactpage'                      => 'ទំព័រ​ទំនាក់ទំនង',
+	'contactpage-desc'                 => '[[Special:Contact|សំនុំបែបបទទាក់ទង​សំរាប់អ្នកទស្សនា]]',
+	'contactpage-title'                => 'ទាក់ទង',
+	'contactpage-pagetext'             => 'សូម​ប្រើ​ប្រាស់​សំនុំបែបបទ​ខាងក្រោម​ ដើម្បី​ទាក់ទងមក​យើងខ្ញុំ។',
+	'contactpage-defsubject'           => 'សារទាក់ទង',
+	'contactpage-subject-and-sender'   => '$1 (ផ្ញើ​ពី $2)',
+	'contactpage-fromname'             => 'ឈ្មោះ​របស់អ្នក *',
+	'contactpage-fromaddress'          => 'អ៊ីមែល​របស់អ្នក **',
+	'contactpage-fromname-required'    => 'ឈ្មោះរបស់អ្នក',
+	'contactpage-fromaddress-required' => 'អ៊ីមែលរបស់អ្នក',
 );
 
 /** Korean (한국어)
@@ -756,19 +759,22 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'contact'                        => 'సంప్రదింపుపేజీ',
-	'contactpage'                    => 'సంప్రదింపుపేజీ',
-	'contactpage-desc'               => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
-	'contactpage-title'              => 'సంప్రదించండి',
-	'contactpage-pagetext'           => 'మమ్మల్ని సంప్రదించడానికి క్రిందనిచ్చిన ఫారం ఉపయోగించండి.',
-	'contactpage-defsubject'         => 'సంప్రదింపు సందేశం',
-	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
-	'contactpage-fromname'           => 'మీ పేరు *',
-	'contactpage-fromaddress'        => 'మీ ఈ-మెయిల్ **',
-	'contactpage-formfootnotes'      => '* ఐచ్చికం<br />
+	'contact'                            => 'సంప్రదింపుపేజీ',
+	'contactpage'                        => 'సంప్రదింపుపేజీ',
+	'contactpage-desc'                   => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
+	'contactpage-title'                  => 'సంప్రదించండి',
+	'contactpage-pagetext'               => 'మమ్మల్ని సంప్రదించడానికి క్రిందనిచ్చిన ఫారం ఉపయోగించండి.',
+	'contactpage-defsubject'             => 'సంప్రదింపు సందేశం',
+	'contactpage-subject-and-sender'     => '$1 ($2 నుండి)',
+	'contactpage-fromname'               => 'మీ పేరు *',
+	'contactpage-fromaddress'            => 'మీ ఈ-మెయిల్ **',
+	'contactpage-formfootnotes'          => '* ఐచ్చికం<br />
 ** ఐచ్చికం కానీ మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి',
-	'contactpage-captcha'            => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
-	'contactpage-captcha-failed'     => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
+	'contactpage-fromname-required'      => 'మీ పేరు',
+	'contactpage-fromaddress-required'   => 'మీ ఈ-మెయిల్',
+	'contactpage-formfootnotes-required' => 'అన్ని ఖాళీలు తప్పనిసరి.',
+	'contactpage-captcha'                => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
+	'contactpage-captcha-failed'         => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
 );
 
 /** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
