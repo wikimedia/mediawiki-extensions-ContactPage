@@ -11,8 +11,8 @@
 $messages = array();
 
 $messages['en'] = array(
-	'contact' => 'ContactPage',
-	'contactpage' => 'ContactPage',
+	'contact' => 'Contact page',
+	'contactpage' => 'Contact page',
 	'contactpage-desc' => '[[Special:Contact|Contact form for visitors]]',
 	'contactpage-title' => 'Contact',
 	'contactpage-pagetext' => 'Please use the form below to contact us.',
