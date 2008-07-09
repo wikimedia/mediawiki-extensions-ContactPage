@@ -27,6 +27,8 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $dir = dirname(__FILE__) . '/';
 $wgExtensionMessagesFiles['ContactPage'] = $dir . 'ContactPage.i18n.php';
+$wgExtensionAliasesFiles['ContactPage'] = $dir . 'ContactPage.alias.php';
+
 $wgAutoloadClasses['SpecialContact'] = $dir . 'SpecialContact.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
 
