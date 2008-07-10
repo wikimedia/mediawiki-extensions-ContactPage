@@ -69,16 +69,17 @@ $messages['bcl'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'contactpage-desc'               => '[[Special:Contact|Формуляр за връзка]]',
-	'contactpage-pagetext'           => 'Формулярът по-долу може да бъде използван за връзка с нас.',
-	'contactpage-defsubject'         => 'Съобщение',
-	'contactpage-subject-and-sender' => '$1 (от $2)',
-	'contactpage-fromname'           => 'вашето име *',
-	'contactpage-fromaddress'        => 'вашата е-поща **',
-	'contactpage-formfootnotes'      => '* незадължително<br />
+	'contactpage-desc'                   => '[[Special:Contact|Формуляр за връзка]]',
+	'contactpage-pagetext'               => 'Формулярът по-долу може да бъде използван за връзка с нас.',
+	'contactpage-defsubject'             => 'Съобщение',
+	'contactpage-subject-and-sender'     => '$1 (от $2)',
+	'contactpage-fromname'               => 'вашето име *',
+	'contactpage-fromaddress'            => 'вашата е-поща **',
+	'contactpage-formfootnotes'          => '* незадължително<br />
 ** незадължително, но препоръчително ако желаете отговор',
-	'contactpage-captcha'            => 'За изпращане на съобщение е необходимо да се реши задачата ([[Special:Captcha/help|повече информация]])',
-	'contactpage-captcha-failed'     => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
+	'contactpage-formfootnotes-required' => 'Всички полета са задължителни.',
+	'contactpage-captcha'                => 'За изпращане на съобщение е необходимо да се реши задачата ([[Special:Captcha/help|повече информация]])',
+	'contactpage-captcha-failed'         => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
 );
 
 /** Catalan (Català)
@@ -710,20 +711,23 @@ $messages['ru'] = array(
  * @author Helix84
  */
 $messages['sk'] = array(
-	'contact'                        => 'Kontaktná stránka',
-	'contactpage'                    => 'Kontaktná stránka',
-	'contactpage-desc'               => '[[Special:Contact|Kontaktný formulár pre návštevníkov]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Prosím, použite tento formulár, aby ste nás kontaktovali.',
-	'contactpage-defsubject'         => 'Správa',
-	'contactpage-subject-and-sender' => '$1 (od $2)',
-	'contactpage-fromname'           => 'vaše meno *',
-	'contactpage-fromaddress'        => 'váš email **',
-	'contactpage-formfootnotes'      => '
+	'contact'                            => 'Kontaktná stránka',
+	'contactpage'                        => 'Kontaktná stránka',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktný formulár pre návštevníkov]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Prosím, použite tento formulár, aby ste nás kontaktovali.',
+	'contactpage-defsubject'             => 'Správa',
+	'contactpage-subject-and-sender'     => '$1 (od $2)',
+	'contactpage-fromname'               => 'vaše meno *',
+	'contactpage-fromaddress'            => 'váš email **',
+	'contactpage-formfootnotes'          => '
 * voliteľné<br />
 ** voliteľné, ale potrebné ak chcete odpoveď',
-	'contactpage-captcha'            => 'Aby ste mohli poslať správu, vyriešte prosím captcha ([[Special:Captcha/help|podrobnosti]])',
-	'contactpage-captcha-failed'     => 'Test captcha bol neúspešný! ([[Special:Captcha/help|podrobnosti]])',
+	'contactpage-fromname-required'      => 'vaše meno',
+	'contactpage-fromaddress-required'   => 'váš email',
+	'contactpage-formfootnotes-required' => 'Je povinné vyplniť všetky polia.',
+	'contactpage-captcha'                => 'Aby ste mohli poslať správu, vyriešte prosím captcha ([[Special:Captcha/help|podrobnosti]])',
+	'contactpage-captcha-failed'         => 'Test captcha bol neúspešný! ([[Special:Captcha/help|podrobnosti]])',
 );
 
 /** Albanian (Shqip)
