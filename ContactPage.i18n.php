@@ -41,19 +41,22 @@ $messages['af'] = array(
  * @author Siebrand
  */
 $messages['ar'] = array(
-	'contact'                        => 'صفحة الاتصال',
-	'contactpage'                    => 'صفحة الاتصال',
-	'contactpage-desc'               => '[[Special:Contact|استمارة اتصال للزائرين]]',
-	'contactpage-title'              => 'اتصل',
-	'contactpage-pagetext'           => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
-	'contactpage-defsubject'         => 'رسالة الاتصال',
-	'contactpage-subject-and-sender' => '$1 (من $2)',
-	'contactpage-fromname'           => 'اسمك *',
-	'contactpage-fromaddress'        => 'بريدك الإلكتروني **',
-	'contactpage-formfootnotes'      => '* اختياري<br />
+	'contact'                            => 'صفحة الاتصال',
+	'contactpage'                        => 'صفحة الاتصال',
+	'contactpage-desc'                   => '[[Special:Contact|استمارة اتصال للزائرين]]',
+	'contactpage-title'                  => 'اتصل',
+	'contactpage-pagetext'               => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
+	'contactpage-defsubject'             => 'رسالة الاتصال',
+	'contactpage-subject-and-sender'     => '$1 (من $2)',
+	'contactpage-fromname'               => 'اسمك *',
+	'contactpage-fromaddress'            => 'بريدك الإلكتروني **',
+	'contactpage-formfootnotes'          => '* اختياري<br />
 ** اختياري لكن ضروري لو أردت إجابة',
-	'contactpage-captcha'            => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
-	'contactpage-captcha-failed'     => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
+	'contactpage-fromname-required'      => 'اسمك',
+	'contactpage-fromaddress-required'   => 'بريدك الإلكتروني',
+	'contactpage-formfootnotes-required' => 'كل الحقول مطلوبة',
+	'contactpage-captcha'                => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
+	'contactpage-captcha-failed'         => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
 /** Bikol Central (Bikol Central)
@@ -463,19 +466,22 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'contact'                        => 'Kontaktsäit',
-	'contactpage'                    => 'Kontaktsäit',
-	'contactpage-desc'               => '[[Special:Contact|Kontakt-Formulair fir Visiteuren]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Mat dësem Formulär kënnt Dir eis kontaktéieren.',
-	'contactpage-defsubject'         => 'Kontakt Message',
-	'contactpage-subject-and-sender' => '$1 (vum $2)',
-	'contactpage-fromname'           => 'Äre Numm *',
-	'contactpage-fromaddress'        => 'Är E-mail-Adress **',
-	'contactpage-formfootnotes'      => '* optional<br />
+	'contact'                            => 'Kontaktsäit',
+	'contactpage'                        => 'Kontaktsäit',
+	'contactpage-desc'                   => '[[Special:Contact|Kontakt-Formulair fir Visiteuren]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Mat dësem Formulär kënnt Dir eis kontaktéieren.',
+	'contactpage-defsubject'             => 'Kontakt Message',
+	'contactpage-subject-and-sender'     => '$1 (vum $2)',
+	'contactpage-fromname'               => 'Äre Numm *',
+	'contactpage-fromaddress'            => 'Är E-mail-Adress **',
+	'contactpage-formfootnotes'          => '* optional<br />
 ** optional, gëtt awer gebraucht fir iech äntwerten ze kënnen',
-	'contactpage-captcha'            => 'Fir e Message ze schécke, léisst w.e.g. dëse Captcha ([[Special:Captcha/help|méi Informatiounen]])',
-	'contactpage-captcha-failed'     => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
+	'contactpage-fromname-required'      => 'Äre Numm',
+	'contactpage-fromaddress-required'   => 'Är E-Mailadress',
+	'contactpage-formfootnotes-required' => 'All Felder mussen ausgefëllt ginn.',
+	'contactpage-captcha'                => 'Fir e Message ze schécke, léisst w.e.g. dëse Captcha ([[Special:Captcha/help|méi Informatiounen]])',
+	'contactpage-captcha-failed'         => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
 );
 
 /** Macedonian (Македонски)
