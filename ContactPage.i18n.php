@@ -621,20 +621,24 @@ $messages['oc'] = array(
  * @author Derbeth
  * @author Siebrand
  * @author Wpedzich
+ * @author Maikking
  */
 $messages['pl'] = array(
-	'contact'                        => 'StronaKontaktowa',
-	'contactpage'                    => 'StronaKontaktowa',
-	'contactpage-desc'               => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
-	'contactpage-defsubject'         => 'Wiadomość',
-	'contactpage-subject-and-sender' => '$1 (z $2)',
-	'contactpage-fromname'           => 'twoje imię i nazwisko *',
-	'contactpage-fromaddress'        => 'twój e-mail **',
-	'contactpage-formfootnotes'      => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
-	'contactpage-captcha'            => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
-	'contactpage-captcha-failed'     => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
+	'contact'                            => 'StronaKontaktowa',
+	'contactpage'                        => 'StronaKontaktowa',
+	'contactpage-desc'                   => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
+	'contactpage-defsubject'             => 'Wiadomość',
+	'contactpage-subject-and-sender'     => '$1 (z $2)',
+	'contactpage-fromname'               => 'twoje imię i nazwisko *',
+	'contactpage-fromaddress'            => 'twój e-mail **',
+	'contactpage-formfootnotes'          => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
+	'contactpage-fromname-required'      => 'Twoje imię',
+	'contactpage-fromaddress-required'   => 'Twój e-mail',
+	'contactpage-formfootnotes-required' => 'Wypełnienie wszystkich pól jest obowiązkowe.',
+	'contactpage-captcha'                => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
+	'contactpage-captcha-failed'         => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
 );
 
 /** Piedmontese (Piemontèis)
