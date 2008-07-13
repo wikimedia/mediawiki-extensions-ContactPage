@@ -33,7 +33,7 @@ $aliases['fi'] = array(
  * @author Rotem Liss
  */
 $aliases['he'] = array(
-    'ContactPage' => array( 'יצירת_קשר' ),
+	'ContactPage' => array( 'יצירת_קשר' ),
 );
 
 /** Croatian (Hrvatski) */
@@ -51,11 +51,11 @@ $aliases['nl'] = array(
 	'ContactPage' => array( 'Contactpagina' ),
 );
 
-/** Norwegian (Norsk (bokmål))
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $aliases['no'] = array(
-    'ContactPage' => array( 'Kontakt', 'Kontaktside' ),
+	'ContactPage' => array( 'Kontakt', 'Kontaktside' ),
 );
 
 /** Swedish (Svenska) */
