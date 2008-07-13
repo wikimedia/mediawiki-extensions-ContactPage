@@ -46,6 +46,11 @@ $aliases['ht'] = array(
 	'ContactPage' => array( 'Kontak', 'PajKontak' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lb'] = array(
+	'ContactPage' => array( 'Kontakt' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'ContactPage' => array( 'Contactpagina' ),
