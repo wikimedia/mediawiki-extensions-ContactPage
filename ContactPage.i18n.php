@@ -601,20 +601,24 @@ $messages['nso'] = array(
 
 /** Occitan (Occitan)
  * @author Cedric31
+ * @author Siebrand
  */
 $messages['oc'] = array(
-	'contact'                        => 'Per nos contactar',
-	'contactpage'                    => 'Contacte',
-	'contactpage-desc'               => '[[Special:Contact|Formulari de contact pels visitors]]',
-	'contactpage-title'              => 'Contacte',
-	'contactpage-pagetext'           => 'Utilizatz lo formulari çaijós per nos contactar.',
-	'contactpage-defsubject'         => 'Messatge',
-	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname'           => 'Vòstre nom*',
-	'contactpage-fromaddress'        => 'Vòstra adreça electronica**',
-	'contactpage-formfootnotes'      => '* opcional<br /> ** opcional mas requesit se desiratz una responsa',
-	'contactpage-captcha'            => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
-	'contactpage-captcha-failed'     => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
+	'contact'                            => 'Per nos contactar',
+	'contactpage'                        => 'Contacte',
+	'contactpage-desc'                   => '[[Special:Contact|Formulari de contact pels visitors]]',
+	'contactpage-title'                  => 'Contacte',
+	'contactpage-pagetext'               => 'Utilizatz lo formulari çaijós per nos contactar.',
+	'contactpage-defsubject'             => 'Messatge',
+	'contactpage-subject-and-sender'     => '$1 (de $2)',
+	'contactpage-fromname'               => 'Vòstre nom*',
+	'contactpage-fromaddress'            => 'Vòstra adreça electronica**',
+	'contactpage-formfootnotes'          => '* opcional<br /> ** opcional mas requesit se desiratz una responsa',
+	'contactpage-fromname-required'      => 'vòstre nom',
+	'contactpage-fromaddress-required'   => 'vòstra adreça mail',
+	'contactpage-formfootnotes-required' => 'Totes los camps son requesits.',
+	'contactpage-captcha'                => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
+	'contactpage-captcha-failed'         => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
 );
 
 /** Polish (Polski)
