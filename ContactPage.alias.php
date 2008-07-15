@@ -26,7 +26,7 @@ $aliases['arz'] = array(
 
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
-	'ContactPage' => array( 'Yhteytiedot' ),
+	'ContactPage' => array( 'Yhteystiedot' ),
 );
 
 /** Hebrew (עברית)
