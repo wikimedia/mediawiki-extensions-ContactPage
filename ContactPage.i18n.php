@@ -153,21 +153,25 @@ $messages['de-formal'] = array(
 
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
+ * @author Siebrand
  */
 $messages['dsb'] = array(
-	'contact'                        => 'Kontaktowy bok',
-	'contactpage'                    => 'Kontaktowy bok',
-	'contactpage-desc'               => '[[Special:Contact|Kontaktowy formular za wobglědowarjow]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Pšosym wužyj toś ten formular, aby se z nami  do zwiska stajił.',
-	'contactpage-defsubject'         => 'Kontaktowa powěźenka',
-	'contactpage-subject-and-sender' => '$1 (z $2)',
-	'contactpage-fromname'           => 'Twóje mě *',
-	'contactpage-fromaddress'        => 'Twója e-mailowa adresa **',
-	'contactpage-formfootnotes'      => '* opcionalny<br />
+	'contact'                            => 'Kontaktowy bok',
+	'contactpage'                        => 'Kontaktowy bok',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktowy formular za wobglědowarjow]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Pšosym wužyj toś ten formular, aby se z nami  do zwiska stajił.',
+	'contactpage-defsubject'             => 'Kontaktowa powěźenka',
+	'contactpage-subject-and-sender'     => '$1 (z $2)',
+	'contactpage-fromname'               => 'Twójo mě *',
+	'contactpage-fromaddress'            => 'Twója e-mailowa adresa **',
+	'contactpage-formfootnotes'          => '* opcionalny<br />
 ** opcionalny, jo pak trěbne, aby śi wótegroniś mógli',
-	'contactpage-captcha'            => 'Aby powěźenku pósłał, rozwěž pšosym toś te captcha ([[Special:Captcha/help|dalšne informacije]])',
-	'contactpage-captcha-failed'     => 'Test captcha njebu wobstaty! ([[Special:Captcha/help|dalšne informacije]])',
+	'contactpage-fromname-required'      => 'twójo mě',
+	'contactpage-fromaddress-required'   => 'twója e-mail',
+	'contactpage-formfootnotes-required' => 'Wšykne póla muse wupołnjone byś.',
+	'contactpage-captcha'                => 'Aby powěźenku pósłał, rozwěž pšosym toś te captcha ([[Special:Captcha/help|dalšne informacije]])',
+	'contactpage-captcha-failed'         => 'Test captcha njebu wobstaty! ([[Special:Captcha/help|dalšne informacije]])',
 );
 
 /** Greek (Ελληνικά)
@@ -294,7 +298,7 @@ $messages['he'] = array(
 	'contactpage-fromname'      => 'שמכם *',
 	'contactpage-fromaddress'   => 'כתובת הדוא"ל שלכם **',
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
-** אופציונאלי אבל צריך אם ברצונך לקבל תשובה',
+** אופציונאלי אבל דרוש אם ברצונכם לקבל תשובה',
 );
 
 /** Hindi (हिन्दी)
@@ -336,19 +340,22 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'contact'                        => 'Kontaktna strona',
-	'contactpage'                    => 'Kontaktna strona',
-	'contactpage-desc'               => '[[Special:Contact|Kontaktowy formular za wopytarjow]]',
-	'contactpage-title'              => 'Kontakt',
-	'contactpage-pagetext'           => 'Prošu wužij tutón formular, zo by nas skontaktował.',
-	'contactpage-defsubject'         => 'Kontaktna zdźělenka',
-	'contactpage-subject-and-sender' => '$1 (z $2)',
-	'contactpage-fromname'           => 'twoje mjeno *',
-	'contactpage-fromaddress'        => 'twoja e-mejlowa adresa **',
-	'contactpage-formfootnotes'      => '* opcionalny<br />
+	'contact'                            => 'Kontaktna strona',
+	'contactpage'                        => 'Kontaktna strona',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktowy formular za wopytarjow]]',
+	'contactpage-title'                  => 'Kontakt',
+	'contactpage-pagetext'               => 'Prošu wužij tutón formular, zo by nas skontaktował.',
+	'contactpage-defsubject'             => 'Kontaktna zdźělenka',
+	'contactpage-subject-and-sender'     => '$1 (z $2)',
+	'contactpage-fromname'               => 'twoje mjeno *',
+	'contactpage-fromaddress'            => 'twoja e-mejlowa adresa **',
+	'contactpage-formfootnotes'          => '* opcionalny<br />
 ** opcionalny, je wšak trjeba, zo by so móhła wotmołwa pósłać',
-	'contactpage-captcha'            => 'Zo by powěsć pósłać móhł, rozrisaj prošu captchu ([[Special:Captcha/help|dalše informacije]])',
-	'contactpage-captcha-failed'     => 'Njejsy captchowy test wobstał! ([[Special:Captcha/help|dalše informacije]])',
+	'contactpage-fromname-required'      => 'twoje mjeno',
+	'contactpage-fromaddress-required'   => 'twoja e-mejl',
+	'contactpage-formfootnotes-required' => 'Wšě poła dyrbja wupjelnjene być.',
+	'contactpage-captcha'                => 'Zo by powěsć pósłać móhł, rozrisaj prošu captchu ([[Special:Captcha/help|dalše informacije]])',
+	'contactpage-captcha-failed'         => 'Njejsy captchowy test wobstał! ([[Special:Captcha/help|dalše informacije]])',
 );
 
 /** Hungarian (Magyar)
