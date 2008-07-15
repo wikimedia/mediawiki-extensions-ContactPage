@@ -68,3 +68,8 @@ $aliases['sv'] = array(
 	'ContactPage' => array( 'Kontakt' ),
 );
 
+/** Thai (ไทย) */
+$aliases['th'] = array(
+	'ContactPage' => array( 'ติดต่อ' ),
+);
+
