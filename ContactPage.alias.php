@@ -29,6 +29,11 @@ $aliases['fi'] = array(
 	'ContactPage' => array( 'Yhteystiedot' ),
 );
 
+/** Galician (Galego) */
+$aliases['gl'] = array(
+	'ContactPage' => array( 'Contactar' ),
+);
+
 /** Hebrew (עברית)
  * @author Rotem Liss
  */
