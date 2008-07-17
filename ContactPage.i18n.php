@@ -178,12 +178,15 @@ $messages['dsb'] = array(
  * @author Consta
  */
 $messages['el'] = array(
-	'contact'                        => 'Σελίδα επαφών',
-	'contactpage'                    => 'Σελίδα επαφών',
-	'contactpage-title'              => 'Επαφή',
-	'contactpage-subject-and-sender' => '$1 (από $2)',
-	'contactpage-fromname'           => 'το όνομα σας *',
-	'contactpage-fromaddress'        => 'το ηλεκτρονικό ταχυδρομείο σας **',
+	'contact'                            => 'Σελίδα επαφών',
+	'contactpage'                        => 'Σελίδα επαφών',
+	'contactpage-title'                  => 'Επαφή',
+	'contactpage-subject-and-sender'     => '$1 (από $2)',
+	'contactpage-fromname'               => 'το όνομα σας *',
+	'contactpage-fromaddress'            => 'το ηλεκτρονικό ταχυδρομείο σας **',
+	'contactpage-fromname-required'      => 'το όνομα σας',
+	'contactpage-fromaddress-required'   => 'το ηλεκτρονικό σας ταχυδρομείο',
+	'contactpage-formfootnotes-required' => 'Όλα τα πεδία είναι υποχρεωτικά.',
 );
 
 /** Esperanto (Esperanto)
@@ -389,18 +392,26 @@ $messages['is'] = array(
 ** valfrjálst en nauðsynlegt ef þú vilt fá svar',
 );
 
-/** Italian (Italiano) */
+/** Italian (Italiano)
+ * @author Darth Kule
+ */
 $messages['it'] = array(
-	'contact'                        => 'Contatti',
-	'contactpage'                    => 'Contatti',
-	'contactpage-title'              => 'Contatti',
-	'contactpage-pagetext'           => 'Il modulo riportato di seguito consente di mettersi in contatto con noi.',
-	'contactpage-defsubject'         => 'Messaggio',
-	'contactpage-subject-and-sender' => '$1 (da $2)',
-	'contactpage-fromname'           => 'nome *',
-	'contactpage-fromaddress'        => 'indirizzo e-mail **',
-	'contactpage-formfootnotes'      => '* campo non obbligatorio<br />
+	'contact'                            => 'Contatti',
+	'contactpage'                        => 'Contatti',
+	'contactpage-desc'                   => '[[Special:Contact|Modulo di contatto per gli ospiti]]',
+	'contactpage-title'                  => 'Contatti',
+	'contactpage-pagetext'               => 'Il modulo riportato di seguito consente di mettersi in contatto con noi.',
+	'contactpage-defsubject'             => 'Messaggio',
+	'contactpage-subject-and-sender'     => '$1 (da $2)',
+	'contactpage-fromname'               => 'nome *',
+	'contactpage-fromaddress'            => 'indirizzo e-mail **',
+	'contactpage-formfootnotes'          => '* campo non obbligatorio<br />
 ** campo obbligatorio se si richiede una risposta',
+	'contactpage-fromname-required'      => 'tuo nome',
+	'contactpage-fromaddress-required'   => 'tua e-mail',
+	'contactpage-formfootnotes-required' => 'Tutti i campi sono obbligatori.',
+	'contactpage-captcha'                => 'Per inviare il messaggio, risolvi il captcha ([[Special:Captcha/help|maggiori informazioni]])',
+	'contactpage-captcha-failed'         => 'Test captcha fallito! ([[Special:Captcha/help|maggiori informazioni]])',
 );
 
 /** Japanese (日本語)
@@ -633,6 +644,7 @@ $messages['oc'] = array(
  * @author Siebrand
  * @author Wpedzich
  * @author Maikking
+ * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'contact'                            => 'StronaKontaktowa',
@@ -646,7 +658,7 @@ $messages['pl'] = array(
 	'contactpage-fromaddress'            => 'twój e-mail **',
 	'contactpage-formfootnotes'          => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
 	'contactpage-fromname-required'      => 'Twoje imię',
-	'contactpage-fromaddress-required'   => 'Twój e-mail',
+	'contactpage-fromaddress-required'   => 'Twój adres e-mail',
 	'contactpage-formfootnotes-required' => 'Wypełnienie wszystkich pól jest obowiązkowe.',
 	'contactpage-captcha'                => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
 	'contactpage-captcha-failed'         => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
