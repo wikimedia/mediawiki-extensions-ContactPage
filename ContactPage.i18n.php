@@ -697,11 +697,12 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author Malafaya
+ * @author Siebrand
  */
 $messages['pt'] = array(
 	'contact'                        => 'Página de Contacto',
 	'contactpage'                    => 'Página de Contacto',
-	'contactpage-desc'               => '[[{{ns:special}}:Contact|Formulário de contacto para visitantes]]',
+	'contactpage-desc'               => '[[Special:Contact|Formulário de contacto para visitantes]]',
 	'contactpage-title'              => 'Contacto',
 	'contactpage-pagetext'           => 'Por favor, use o formulário abaixo para nos contactar.',
 	'contactpage-defsubject'         => 'Mensagem de Contacto',
@@ -710,8 +711,8 @@ $messages['pt'] = array(
 	'contactpage-fromaddress'        => 'o seu email **',
 	'contactpage-formfootnotes'      => '* opcional<br />
 ** opcional mas necessário se quiser uma resposta',
-	'contactpage-captcha'            => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[{{ns:special}}:Captcha/help|mais informação]])",
-	'contactpage-captcha-failed'     => 'Teste captcha falhou! ([[{{ns:special}}:Captcha/help|mais informação]])',
+	'contactpage-captcha'            => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
+	'contactpage-captcha-failed'     => 'Teste captcha falhou! ([[Special:Captcha/help|mais informação]])',
 );
 
 /** Romani (Romani)
@@ -879,6 +880,7 @@ $messages['vec'] = array(
  * @author Vinhtantran
  * @author Minh Nguyen
  * @author לערי ריינהארט
+ * @author Siebrand
  */
 $messages['vi'] = array(
 	'contact'                        => 'Liên lạc',
@@ -892,7 +894,7 @@ $messages['vi'] = array(
 	'contactpage-fromaddress'        => 'địa chỉ thư điện tử của bạn **',
 	'contactpage-formfootnotes'      => '* tùy chọn<br />
 ** tùy chọn nhưng cần thiết nêys bạn muốn có câu trả lời',
-	'contactpage-captcha'            => 'Để gửi tin nhắn, xin hãy ghi lại captcha [[Special:Captcha/help|thông tin thêm]])',
+	'contactpage-captcha'            => 'Để gửi tin nhắn, xin hãy ghi lại captcha ([[Special:Captcha/help|thông tin thêm]])',
 	'contactpage-captcha-failed'     => 'Kiểm tra captcha thất bại! ([[Special:Captcha/help|thông tin thêm]])',
 );
 
