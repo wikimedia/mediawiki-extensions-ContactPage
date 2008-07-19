@@ -68,6 +68,11 @@ $aliases['no'] = array(
 	'ContactPage' => array( 'Kontakt', 'Kontaktside' ),
 );
 
+/** Pashto (پښتو) */
+$aliases['ps'] = array(
+	'ContactPage' => array( 'اړيکه، د اړيکو مخ' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'ContactPage' => array( 'Kontakt' ),
