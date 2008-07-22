@@ -73,6 +73,16 @@ $aliases['ps'] = array(
 	'ContactPage' => array( 'اړيکه، د اړيکو مخ' ),
 );
 
+/** Portuguese (Português) */
+$aliases['pt'] = array(
+	'ContactPage' => array( 'Contactar', 'Contatar' ),
+);
+
+/** Brazilian Portuguese (Português do Brasil) */
+$aliases['pt-br'] = array(
+	'ContactPage' => array( 'Contactar', 'Contatar' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'ContactPage' => array( 'Kontakt' ),
