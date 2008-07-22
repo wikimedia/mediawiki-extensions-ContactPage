@@ -722,6 +722,24 @@ $messages['rmy'] = array(
 	'contact' => 'Kontakto',
 );
 
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'contact'                            => 'Pagină de contact',
+	'contactpage'                        => 'Pagină de contact',
+	'contactpage-title'                  => 'Contact',
+	'contactpage-defsubject'             => 'Mesaj de contact',
+	'contactpage-subject-and-sender'     => '$1 (de la $2)',
+	'contactpage-fromname'               => 'numele dumneavoastră *',
+	'contactpage-fromaddress'            => 'adresa dumneavoastră de e-mail **',
+	'contactpage-formfootnotes'          => '* opţional<br />
+** opţională, dar necesară dacă doriţi un răspuns',
+	'contactpage-fromname-required'      => 'numele dumneavoastră',
+	'contactpage-fromaddress-required'   => 'adresa dumneavoastră de e-mail',
+	'contactpage-formfootnotes-required' => 'Toate câmpurile sunt obligatorii.',
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
