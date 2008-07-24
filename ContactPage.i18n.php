@@ -31,9 +31,20 @@ $messages['en'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
+ * @author Naudefj
  */
 $messages['af'] = array(
-	'contactpage-title' => 'Kontak',
+	'contact'                            => 'Kontak bladsy',
+	'contactpage'                        => 'Kontak bladsy',
+	'contactpage-desc'                   => '[[Special:Contact|Kontak vorm vir besoekers]]',
+	'contactpage-title'                  => 'Kontak',
+	'contactpage-defsubject'             => 'Kontak boodskap',
+	'contactpage-subject-and-sender'     => '$1 (van $2)',
+	'contactpage-fromname'               => 'u naam *',
+	'contactpage-fromaddress'            => 'u e-posadres **',
+	'contactpage-fromname-required'      => 'u naam',
+	'contactpage-fromaddress-required'   => 'u e-posadres',
+	'contactpage-formfootnotes-required' => 'Alle velde is verpligtend.',
 );
 
 /** Arabic (العربية)
