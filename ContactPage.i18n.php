@@ -206,6 +206,7 @@ $messages['el'] = array(
 $messages['eo'] = array(
 	'contact'                            => 'Kontaktpaĝo',
 	'contactpage'                        => 'Kontaktpaĝo',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktpaĝo por vizitantoj]]',
 	'contactpage-title'                  => 'Kontakti',
 	'contactpage-pagetext'               => 'Bonvolu uzi la suban kamparon por kontakti nin.',
 	'contactpage-defsubject'             => 'Kontakta Mesaĝo',
