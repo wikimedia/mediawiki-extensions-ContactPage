@@ -129,10 +129,12 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Siebrand
+ * @author Raymond
  */
 $messages['de'] = array(
 	'contact'                            => 'Kontaktseite',
 	'contactpage'                        => 'Kontaktseite',
+	'contactpage-desc'                   => '[[Special:Contact|Kontaktformular für Besucher]]',
 	'contactpage-title'                  => 'Kontakt',
 	'contactpage-pagetext'               => 'Mit diesem Formular kannst du uns Nachrichten zukommen lassen.',
 	'contactpage-defsubject'             => 'Kontaktnachricht',
