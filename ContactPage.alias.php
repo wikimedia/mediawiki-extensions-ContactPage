@@ -16,12 +16,12 @@ $aliases['en'] = array(
 
 /** Arabic (العربية) */
 $aliases['ar'] = array(
-	'ContactPage' => array( 'اتصال', 'صفحة الاتصال' ),
+	'ContactPage' => array( 'اتصال', 'صفحة_الاتصال' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى) */
 $aliases['arz'] = array(
-	'ContactPage' => array( 'اتصال', 'صفحة الاتصال' ),
+	'ContactPage' => array( 'اتصال', 'صفحة_الاتصال' ),
 );
 
 /** Finnish (Suomi) */
