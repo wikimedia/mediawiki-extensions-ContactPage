@@ -91,6 +91,8 @@ $messages['bg'] = array(
 	'contactpage-fromaddress'            => 'вашата е-поща **',
 	'contactpage-formfootnotes'          => '* незадължително<br />
 ** незадължително, но препоръчително ако желаете отговор',
+	'contactpage-fromname-required'      => 'вашето име',
+	'contactpage-fromaddress-required'   => 'вашата е-поща',
 	'contactpage-formfootnotes-required' => 'Всички полета са задължителни.',
 	'contactpage-captcha'                => 'За изпращане на съобщение е необходимо да се реши задачата ([[Special:Captcha/help|повече информация]])',
 	'contactpage-captcha-failed'         => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
