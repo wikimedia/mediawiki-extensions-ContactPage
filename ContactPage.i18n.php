@@ -244,11 +244,12 @@ $messages['ext'] = array(
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Jaakonam
+ * @author Nike
  */
 $messages['fi'] = array(
 	'contact'                            => 'Yhteydenottosivu',
 	'contactpage-title'                  => 'Ota yhteyttä',
-	'contactpage-pagetext'               => 'Käytä alla näkyvää lomaketta ottaaksesi meihin yhteyttä.',
+	'contactpage-pagetext'               => 'Voit ottaa yhteyttä meihin alla olevalla lomakkeella.',
 	'contactpage-defsubject'             => 'Viestisi',
 	'contactpage-subject-and-sender'     => '$1 (lähettäjä: $2)',
 	'contactpage-fromname'               => 'nimesi *',
