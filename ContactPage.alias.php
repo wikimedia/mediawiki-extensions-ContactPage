@@ -11,89 +11,88 @@ $aliases = array();
  * @author Jon Harald Søby
  */
 $aliases['en'] = array(
-    'ContactPage' => array( 'Contact', 'ContactPage' ),
+	'Contact' => array( 'Contact' ),
 );
 
 /** Arabic (العربية)
  * @author Meno25
  */
 $aliases['ar'] = array(
-	'ContactPage' => array( 'اتصال', 'صفحة_الاتصال' ),
+	'Contact' => array( 'اتصال' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى)
  * @author Meno25
  */
 $aliases['arz'] = array(
-	'ContactPage' => array( 'اتصال', 'صفحة_الاتصال' ),
+	'Contact' => array( 'اتصال' ),
 );
 
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
-	'ContactPage' => array( 'Yhteystiedot' ),
+	'Contact' => array( 'Yhteystiedot' ),
 );
 
 /** Galician (Galego) */
 $aliases['gl'] = array(
-	'ContactPage' => array( 'Contactar' ),
+	'Contact' => array( 'Contactar' ),
 );
 
 /** Hebrew (עברית)
  * @author Rotem Liss
  */
 $aliases['he'] = array(
-	'ContactPage' => array( 'יצירת_קשר' ),
+	'Contact' => array( 'יצירת_קשר' ),
 );
 
 /** Croatian (Hrvatski) */
 $aliases['hr'] = array(
-	'ContactPage' => array( 'Konakt' ),
+	'Contact' => array( 'Konakt' ),
 );
 
 /** Haitian (Kreyòl ayisyen) */
 $aliases['ht'] = array(
-	'ContactPage' => array( 'Kontak', 'PajKontak' ),
+	'Contact' => array( 'Kontak' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
-	'ContactPage' => array( 'Kontakt' ),
+	'Contact' => array( 'Kontakt' ),
 );
 
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
-	'ContactPage' => array( 'Contactpagina' ),
+	'Contact' => array( 'Contactpagina' ),
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $aliases['no'] = array(
-	'ContactPage' => array( 'Kontakt', 'Kontaktside' ),
+	'Contact' => array( 'Kontakt', 'Kontaktside' ),
 );
 
 /** Pashto (پښتو) */
 $aliases['ps'] = array(
-	'ContactPage' => array( 'اړيکه، د اړيکو مخ' ),
+	'Contact' => array( 'اړيکه، د اړيکو مخ' ),
 );
 
 /** Portuguese (Português) */
 $aliases['pt'] = array(
-	'ContactPage' => array( 'Contactar', 'Contatar' ),
+	'Contact' => array( 'Contactar', 'Contatar' ),
 );
 
 /** Brazilian Portuguese (Português do Brasil) */
 $aliases['pt-br'] = array(
-	'ContactPage' => array( 'Contactar', 'Contatar' ),
+	'Contact' => array( 'Contactar', 'Contatar' ),
 );
 
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
-	'ContactPage' => array( 'Kontakt' ),
+	'Contact' => array( 'Kontakt' ),
 );
 
 /** Thai (ไทย) */
 $aliases['th'] = array(
-	'ContactPage' => array( 'ติดต่อ' ),
+	'Contact' => array( 'ติดต่อ' ),
 );
-
