@@ -60,6 +60,11 @@ $aliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Low German (Plattdüütsch) */
+$aliases['nds'] = array(
+	'Contact' => array( 'Kuntakt' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Contact' => array( 'Contactpagina' ),
