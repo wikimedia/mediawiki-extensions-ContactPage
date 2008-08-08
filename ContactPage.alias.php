@@ -96,3 +96,4 @@ $aliases['sv'] = array(
 $aliases['th'] = array(
 	'Contact' => array( 'ติดต่อ' ),
 );
+
