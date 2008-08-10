@@ -29,7 +29,9 @@ $messages['en'] = array(
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ * @author Jon Harald Søby
+ */
 $messages['qqq'] = array(
 	'contact' => '{{Identical|ContactPage}}',
 	'contactpage' => '{{Identical|ContactPage}}',
@@ -133,7 +135,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
- * @author Raymond
+ * @author Raimond Spekking
  */
 $messages['de'] = array(
 	'contact' => 'Kontaktseite',
@@ -403,6 +405,28 @@ $messages['hu'] = array(
 * nem kötelező, de add meg, ha választ szeretnél',
 	'contactpage-captcha' => 'Az üzenet elküldéséhez írd be a képen megjelent szót ([[Special:Captcha/help|további segítség]])',
 	'contactpage-captcha-failed' => 'Captcha teszt nem sikerült! ([[Special:Captcha/help|további segítség]])',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'contact' => 'Pagina de contacto',
+	'contactpage' => 'Pagina de contacto',
+	'contactpage-desc' => '[[Special:Contact|Formulario de contacto pro visitatores]]',
+	'contactpage-title' => 'Contacto',
+	'contactpage-pagetext' => 'Per favor usa le formulario infra pro contactar nos.',
+	'contactpage-defsubject' => 'Message de contacto',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-fromname' => 'tu nomine *',
+	'contactpage-fromaddress' => 'tu e-mail **',
+	'contactpage-formfootnotes' => '* optional<br />
+** optional sed necessari si tu vole reciper un responsa',
+	'contactpage-fromname-required' => 'tu nomine',
+	'contactpage-fromaddress-required' => 'tu e-mail',
+	'contactpage-formfootnotes-required' => 'Tote le campos es obligatori.',
+	'contactpage-captcha' => 'Pro inviar le message, per favor resolve le captcha ([[Special:Captcha/help|plus info]])',
+	'contactpage-captcha-failed' => 'Le test captcha falleva! ([[Special:Captcha/help|plus info]])',
 );
 
 /** Icelandic (Íslenska)
