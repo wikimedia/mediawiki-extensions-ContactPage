@@ -31,10 +31,12 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
+ * @author Purodha
  */
 $messages['qqq'] = array(
 	'contact' => '{{Identical|ContactPage}}',
 	'contactpage' => '{{Identical|ContactPage}}',
+	'contactpage-desc' => 'Extension description displayed on [[Special:Version]].',
 );
 
 /** Afrikaans (Afrikaans)
@@ -523,6 +525,33 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'contact' => '관리자 연락',
+);
+
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'contact' => 'Kontak-Sigg',
+	'contactpage' => 'Kontak-Sigg',
+	'contactpage-desc' => '[[Special:Contact|Kontak-Sigg]] för Besöker.',
+	'contactpage-title' => 'Kontak',
+	'contactpage-pagetext' => 'Övver di Sigg hee kanns De dä Wiki-Maacher jet schrieve.',
+	'contactpage-defsubject' => 'Kontak-Sigg fun de {{SITENAME}}',
+	'contactpage-subject-and-sender' => '$1 (fun $2)',
+	'contactpage-fromname' => 'Dinge Name <sup>*</sup>',
+	'contactpage-fromaddress' => 'Ding <i lang="en">e-mail</i> Address <sup>**</sup>',
+	'contactpage-formfootnotes' => '<sup>*</sup> kannze fott lohße
+<br />
+<sup>**</sup> kanze fott lohße, ußer wann De en Antwoot han wells',
+	'contactpage-fromname-required' => 'Dinge Name',
+	'contactpage-fromaddress-required' => 'Ding <i lang="en">e-mail</i> Address',
+	'contactpage-formfootnotes-required' => 'Dat moß all ußjefollt wäde.',
+	'contactpage-captcha' => 'Öm Ding Nohresch ze schecke, don dat Kaptscha endrare.
+([[Special:Captcha/help|Mieh Enfommazjuhne]])',
+	'contactpage-captcha-failed' => 'De Pröfung fum Kaptscha jingk donevve.
+Eß ävver kei Problem.
+Don et einfach norr_ens versöke.
+([[Special:Captcha/help|Mieh Enfommazjuhne]])',
 );
 
 /** Latin (Latina)
