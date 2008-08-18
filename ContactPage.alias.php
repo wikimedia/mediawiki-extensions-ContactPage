@@ -55,6 +55,11 @@ $aliases['ht'] = array(
 	'Contact' => array( 'Kontak' ),
 );
 
+/** Hungarian (Magyar) */
+$aliases['hu'] = array(
+	'Contact' => array( 'Kapcsolat' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
