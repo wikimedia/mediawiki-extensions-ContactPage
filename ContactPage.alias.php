@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Contact' => array( 'اتصال' ),
 );
 
+/** German (Deutsch) */
+$aliases['de'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Contact' => array( 'Yhteystiedot' ),
@@ -70,6 +75,11 @@ $aliases['nds'] = array(
 	'Contact' => array( 'Kuntakt' ),
 );
 
+/** Nedersaksisch (Nedersaksisch) */
+$aliases['nds-nl'] = array(
+	'Contact' => array( 'Kontak' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Contact' => array( 'Contactpagina' ),
@@ -100,6 +110,11 @@ $aliases['pt-br'] = array(
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),
+);
+
+/** Tetum (Tetun) */
+$aliases['tet'] = array(
+	'Contact' => array( 'Kontaktu' ),
 );
 
 /** Thai (ไทย) */
