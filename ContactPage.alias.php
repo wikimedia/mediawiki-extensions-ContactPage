@@ -65,6 +65,16 @@ $aliases['hu'] = array(
 	'Contact' => array( 'Kapcsolat' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$aliases['id'] = array(
+	'Contact' => array( 'Kontak' ),
+);
+
+/** Khmer (ភាសាខ្មែរ) */
+$aliases['km'] = array(
+	'Contact' => array( 'ទំនាក់ទំនង' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),

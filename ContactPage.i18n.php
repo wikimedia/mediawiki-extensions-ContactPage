@@ -328,12 +328,19 @@ $messages['gv'] = array(
  * @author Rotemliss
  */
 $messages['he'] = array(
+	'contact' => 'דף יצירת קשר',
+	'contactpage' => 'דף יצירת קשר',
 	'contactpage-desc' => '[[Special:Contact|טופס יצירת קשר למבקרים]]',
+	'contactpage-title' => 'יצירת קשר',
 	'contactpage-pagetext' => 'אנא השתמשו בטופס שלהלן כדי ליצור עמנו קשר.',
+	'contactpage-defsubject' => 'הודעת יצירת קשר',
+	'contactpage-subject-and-sender' => '$1 (מתוך $2)',
 	'contactpage-fromname' => 'שמכם *',
 	'contactpage-fromaddress' => 'כתובת הדוא"ל שלכם **',
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
 ** אופציונאלי אבל דרוש אם ברצונכם לקבל תשובה',
+	'contactpage-fromname-required' => 'שמכם',
+	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|למידע נוסף]])',
 );
 
 /** Hindi (हिन्दी)
