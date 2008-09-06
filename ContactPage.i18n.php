@@ -79,6 +79,28 @@ $messages['ar'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'contact' => 'صفحة الاتصال',
+	'contactpage' => 'صفحة الاتصال',
+	'contactpage-desc' => '[[Special:Contact|استمارة اتصال للزائرين]]',
+	'contactpage-title' => 'اتصل',
+	'contactpage-pagetext' => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
+	'contactpage-defsubject' => 'رسالة الاتصال',
+	'contactpage-subject-and-sender' => '$1 (من $2)',
+	'contactpage-fromname' => 'اسمك *',
+	'contactpage-fromaddress' => 'بريدك الإلكترونى **',
+	'contactpage-formfootnotes' => '* اختياري<br />
+** اختيارى لكن ضرورى لو أردت إجابة',
+	'contactpage-fromname-required' => 'اسمك',
+	'contactpage-fromaddress-required' => 'بريدك الإلكتروني',
+	'contactpage-formfootnotes-required' => 'كل الحقول مطلوبة',
+	'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
+	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
