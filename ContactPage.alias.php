@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Contact' => array( 'اتصال' ),
 );
 
+/** Assamese (অসমীয়া) */
+$aliases['as'] = array(
+	'Contact' => array( 'যোগাযোগ' ),
+);
+
 /** German (Deutsch) */
 $aliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
