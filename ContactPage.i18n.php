@@ -988,10 +988,13 @@ $messages['tg-cyrl'] = array(
 
 /** Turkish (Türkçe)
  * @author Karduelis
+ * @author Mach
  */
 $messages['tr'] = array(
 	'contactpage-fromname' => 'isminiz *',
 	'contactpage-fromaddress' => 'e-postanız *',
+	'contactpage-fromname-required' => 'adınız',
+	'contactpage-fromaddress-required' => 'e-mail adresiniz',
 );
 
 /** Vèneto (Vèneto)
