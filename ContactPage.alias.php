@@ -57,7 +57,7 @@ $aliases['he'] = array(
 
 /** Croatian (Hrvatski) */
 $aliases['hr'] = array(
-	'Contact' => array( 'Konakt' ),
+	'Contact' => array( 'Kontakt' ),
 );
 
 /** Haitian (Kreyòl ayisyen) */
