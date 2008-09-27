@@ -39,6 +39,13 @@ $messages['qqq'] = array(
 	'contactpage-desc' => 'Extension description displayed on [[Special:Version]].',
 );
 
+/** Säggssch (Säggssch)
+ * @author Thogo
+ */
+$messages['sxu'] = array(
+	'contact' => 'Gondagd',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
