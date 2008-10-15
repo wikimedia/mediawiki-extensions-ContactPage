@@ -661,6 +661,14 @@ $messages['mr'] = array(
 	'contactpage-captcha-failed' => 'कॅपचा परीक्षा पूर्ण झालेली नाही! ([[Special:Captcha/help|अधिक माहिती]])',
 );
 
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'contactpage-fromname-required' => 'эсеть леметь',
+	'contactpage-formfootnotes-required' => 'Весе паксятне эрявикст.',
+);
+
 /** Neapolitan (Nnapulitano)
  * @author Cryptex
  */
