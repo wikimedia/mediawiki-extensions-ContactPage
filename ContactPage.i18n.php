@@ -160,6 +160,14 @@ $messages['cs'] = array(
 &#042;&#042; volitelné, ale potřebné pokud chcete odpověď',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'contactpage-captcha' => 'Er mwyn anfon y neges, byddwch gystal â datrys y pos gwrth-sbam ([[Special:Captcha/help|mwy o wybodaeth]])',
+	'contactpage-captcha-failed' => 'Ni lwyddodd y prawf gwrth-sbam! ([[Special:Captcha/help|mwy o wybodaeth]])',
+);
+
 /** Danish (Dansk) */
 $messages['da'] = array(
 	'contactpage-subject-and-sender' => '$1 (fra $2)',
@@ -342,6 +350,13 @@ $messages['gl'] = array(
 	'contactpage-formfootnotes-required' => 'Requírense todos os campos.',
 	'contactpage-captcha' => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
 	'contactpage-captcha-failed' => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
+);
+
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Omnipaedista
+ */
+$messages['grc'] = array(
+	'contactpage-title' => 'Ἐπαφή',
 );
 
 /** Manx (Gaelg)
