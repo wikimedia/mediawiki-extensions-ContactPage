@@ -85,6 +85,11 @@ $aliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Macedonian (Македонски) */
+$aliases['mk'] = array(
+	'Contact' => array( 'Контакт' ),
+);
+
 /** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
 	'Contact' => array( 'Kuntakt' ),
