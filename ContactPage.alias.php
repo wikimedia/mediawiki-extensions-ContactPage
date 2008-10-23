@@ -112,6 +112,11 @@ $aliases['no'] = array(
 	'Contact' => array( 'Kontakt', 'Kontaktside' ),
 );
 
+/** Polish (Polski) */
+$aliases['pl'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Pashto (پښتو) */
 $aliases['ps'] = array(
 	'Contact' => array( 'اړيکه، د اړيکو مخ' ),

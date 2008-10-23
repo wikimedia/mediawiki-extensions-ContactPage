@@ -852,6 +852,13 @@ $messages['pt'] = array(
 	'contactpage-captcha-failed' => 'Teste captcha falhou! ([[Special:Captcha/help|mais informação]])',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Carla404
+ */
+$messages['pt-br'] = array(
+	'contact' => 'Página de contato',
+);
+
 /** Romani (Romani)
  * @author Desiphral
  */
