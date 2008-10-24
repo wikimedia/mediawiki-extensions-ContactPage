@@ -60,6 +60,11 @@ $aliases['hr'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Upper Sorbian (Hornjoserbsce) */
+$aliases['hsb'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $aliases['ht'] = array(
 	'Contact' => array( 'Kontak' ),
