@@ -370,6 +370,7 @@ $messages['gv'] = array(
 /** Hebrew (עברית)
  * @author Agbad
  * @author Rotemliss
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'contact' => 'דף יצירת קשר',
@@ -384,6 +385,9 @@ $messages['he'] = array(
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
 ** אופציונאלי אבל דרוש אם ברצונכם לקבל תשובה',
 	'contactpage-fromname-required' => 'שמכם',
+	'contactpage-fromaddress-required' => 'הדוא"ל שלכם',
+	'contactpage-formfootnotes-required' => 'כל השדות נחוצים.',
+	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
 	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|למידע נוסף]])',
 );
 
