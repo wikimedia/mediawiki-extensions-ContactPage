@@ -387,8 +387,8 @@ $messages['he'] = array(
 	'contactpage-fromname-required' => 'שמכם',
 	'contactpage-fromaddress-required' => 'הדוא"ל שלכם',
 	'contactpage-formfootnotes-required' => 'כל השדות נחוצים.',
-	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
-	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|למידע נוסף]])',
+	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
+	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|מידע נוסף]])',
 );
 
 /** Hindi (हिन्दी)
