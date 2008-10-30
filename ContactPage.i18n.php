@@ -892,6 +892,7 @@ $messages['ro'] = array(
 );
 
 /** Russian (Русский)
+ * @author Ferrer
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -906,6 +907,9 @@ $messages['ru'] = array(
 	'contactpage-fromaddress' => 'ваш эл. адрес **',
 	'contactpage-formfootnotes' => '* необязательно<br />
 ** необязательно, но требуется для получения ответа',
+	'contactpage-fromname-required' => 'ваше имя',
+	'contactpage-fromaddress-required' => 'ваш адреса электронной почты',
+	'contactpage-formfootnotes-required' => 'Все поля обязательно должны быть заполнены.',
 	'contactpage-captcha' => 'Чтобы отправить сообщение, пожалуйста, пройдите проверку CAPTCHA ([[Special:Captcha/help|что это?]])',
 	'contactpage-captcha-failed' => 'Проверка CAPTCHA не пройдена! ([[Special:Captcha/help|что это?]])',
 );

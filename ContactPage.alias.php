@@ -117,6 +117,11 @@ $aliases['no'] = array(
 	'Contact' => array( 'Kontakt', 'Kontaktside' ),
 );
 
+/** Occitan (Occitan) */
+$aliases['oc'] = array(
+	'Contact' => array( 'Contacte' ),
+);
+
 /** Polish (Polski) */
 $aliases['pl'] = array(
 	'Contact' => array( 'Kontakt' ),
