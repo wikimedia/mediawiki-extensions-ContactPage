@@ -33,6 +33,11 @@ $aliases['as'] = array(
 	'Contact' => array( 'যোগাযোগ' ),
 );
 
+/** Breton (Brezhoneg) */
+$aliases['br'] = array(
+	'Contact' => array( 'Darempred' ),
+);
+
 /** German (Deutsch) */
 $aliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
