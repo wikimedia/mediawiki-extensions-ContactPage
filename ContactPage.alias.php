@@ -38,6 +38,11 @@ $aliases['br'] = array(
 	'Contact' => array( 'Darempred' ),
 );
 
+/** Bosnian (Bosanski) */
+$aliases['bs'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** German (Deutsch) */
 $aliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
