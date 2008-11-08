@@ -791,6 +791,7 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Derbeth
+ * @author Leinad
  * @author Maikking
  * @author Sp5uhe
  * @author Wpedzich
@@ -804,8 +805,8 @@ $messages['pl'] = array(
 	'contactpage-legend' => 'Wyślij e-mail',
 	'contactpage-defsubject' => 'Wiadomość',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
-	'contactpage-fromname' => 'Imię i nazwisko: *',
-	'contactpage-fromaddress' => 'twój e-mail: **',
+	'contactpage-fromname' => 'Imię: *',
+	'contactpage-fromaddress' => 'Twój e-mail: **',
 	'contactpage-formfootnotes' => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
 	'contactpage-fromname-required' => 'Imię:',
 	'contactpage-fromaddress-required' => 'Twój adres e-mail:',
@@ -931,15 +932,16 @@ $messages['sk'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktný formulár pre návštevníkov]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Prosím, použite tento formulár, aby ste nás kontaktovali.',
+	'contactpage-legend' => 'Poslať email',
 	'contactpage-defsubject' => 'Správa',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
-	'contactpage-fromname' => 'vaše meno *',
-	'contactpage-fromaddress' => 'váš email **',
+	'contactpage-fromname' => 'Vaše meno: *',
+	'contactpage-fromaddress' => 'Váš email: **',
 	'contactpage-formfootnotes' => '
 * voliteľné<br />
 ** voliteľné, ale potrebné ak chcete odpoveď',
-	'contactpage-fromname-required' => 'vaše meno',
-	'contactpage-fromaddress-required' => 'váš email',
+	'contactpage-fromname-required' => 'Vaše meno:',
+	'contactpage-fromaddress-required' => 'Váš email:',
 	'contactpage-formfootnotes-required' => 'Je povinné vyplniť všetky polia.',
 	'contactpage-captcha' => 'Aby ste mohli poslať správu, vyriešte prosím captcha ([[Special:Captcha/help|podrobnosti]])',
 	'contactpage-captcha-failed' => 'Test captcha bol neúspešný! ([[Special:Captcha/help|podrobnosti]])',
@@ -1071,12 +1073,16 @@ $messages['vi'] = array(
 	'contactpage-desc' => '[[Special:Contact|Mẫu liên hệ cho khách ghé thăm]]',
 	'contactpage-title' => 'Liên lạc',
 	'contactpage-pagetext' => 'Xin hãy sử dụng biểu mẫu ở dưới để liên lạc với chúng tôi.',
+	'contactpage-legend' => 'Gửi thư điện tử',
 	'contactpage-defsubject' => 'Tin nhắn liên hệ',
 	'contactpage-subject-and-sender' => '$1 (gửi từ $2)',
-	'contactpage-fromname' => 'tên bạn *',
-	'contactpage-fromaddress' => 'địa chỉ thư điện tử của bạn **',
+	'contactpage-fromname' => 'Tên của bạn: *',
+	'contactpage-fromaddress' => 'Thư điện tử của bạn: **',
 	'contactpage-formfootnotes' => '* tùy chọn<br />
-** tùy chọn nhưng cần thiết nêys bạn muốn có câu trả lời',
+** tùy chọn nhưng cần thiết nếu bạn muốn nhận được câu trả lời',
+	'contactpage-fromname-required' => 'Tên của bạn:',
+	'contactpage-fromaddress-required' => 'Thư điện tử của bạn:',
+	'contactpage-formfootnotes-required' => 'Bạn phải điền tất cả các mục.',
 	'contactpage-captcha' => 'Để gửi tin nhắn, xin hãy ghi lại captcha ([[Special:Captcha/help|thông tin thêm]])',
 	'contactpage-captcha-failed' => 'Kiểm tra captcha thất bại! ([[Special:Captcha/help|thông tin thêm]])',
 );
