@@ -989,6 +989,7 @@ $messages['su'] = array(
  * @author Boivie
  * @author Lejonel
  * @author M.M.S.
+ * @author Najami
  * @author לערי ריינהארט
  */
 $messages['sv'] = array(
@@ -997,14 +998,15 @@ $messages['sv'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktformulär för besökare]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Använd formuläret härunder för att kontakta oss.',
+	'contactpage-legend' => 'Skicka e-post',
 	'contactpage-defsubject' => 'Kontaktmeddelande',
 	'contactpage-subject-and-sender' => '$1 (från $2)',
-	'contactpage-fromname' => 'Ditt namn *',
-	'contactpage-fromaddress' => 'Din e-postadress **',
+	'contactpage-fromname' => 'Ditt namn: *',
+	'contactpage-fromaddress' => 'Din e-postadress: **',
 	'contactpage-formfootnotes' => '* kan utelämnas<br />
 ** kan utelämnas, men behövs om du vill få svar',
-	'contactpage-fromname-required' => 'ditt namn',
-	'contactpage-fromaddress-required' => 'din e-postadress',
+	'contactpage-fromname-required' => 'Ditt namn:',
+	'contactpage-fromaddress-required' => 'Din e-postadress:',
 	'contactpage-formfootnotes-required' => 'Alla fält är obligatoriska.',
 	'contactpage-captcha' => 'För att få skicka meddelandet måste du först lösa följande captcha-test ([[Special:Captcha/help|mer information]])',
 	'contactpage-captcha-failed' => 'Captcha-testet misslyckades! ([[Special:Captcha/help|mer information]])',
