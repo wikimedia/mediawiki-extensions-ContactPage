@@ -632,6 +632,7 @@ $messages['lb'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontakt-Formulair fir Visiteuren]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Mat dësem Formulär kënnt Dir eis kontaktéieren.',
+	'contactpage-legend' => 'E-Mail schécken',
 	'contactpage-defsubject' => 'Kontakt Message',
 	'contactpage-subject-and-sender' => '$1 (vum $2)',
 	'contactpage-fromname' => 'Äre Numm: *',
