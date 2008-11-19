@@ -89,6 +89,7 @@ $messages['ar'] = array(
 
 /** Egyptian Spoken Arabic (مصرى)
  * @author Meno25
+ * @author Ramsis II
  */
 $messages['arz'] = array(
 	'contact' => 'صفحة الاتصال',
@@ -96,6 +97,7 @@ $messages['arz'] = array(
 	'contactpage-desc' => '[[Special:Contact|استمارة اتصال للزائرين]]',
 	'contactpage-title' => 'اتصل',
 	'contactpage-pagetext' => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
+	'contactpage-legend' => 'ايعت ايميل',
 	'contactpage-defsubject' => 'رسالة الاتصال',
 	'contactpage-subject-and-sender' => '$1 (من $2)',
 	'contactpage-fromname' => 'اسمك *',
