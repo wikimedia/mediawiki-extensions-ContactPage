@@ -204,12 +204,12 @@ $messages['de'] = array(
  */
 $messages['de-formal'] = array(
 	'contactpage-pagetext' => 'Mit diesem Formular können Sie uns Nachrichten zukommen lassen.',
-	'contactpage-fromname' => 'Ihr Name *',
-	'contactpage-fromaddress' => 'Ihre E-Mail-Adresse **',
+	'contactpage-fromname' => 'Ihr Name: *',
+	'contactpage-fromaddress' => 'Ihre E-Mail-Adresse: **',
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional, wird aber benötigt, um Ihnen antworten zu können',
-	'contactpage-fromname-required' => 'Ihr Name',
-	'contactpage-fromaddress-required' => 'Ihre E-Mail-Adresse',
+	'contactpage-fromname-required' => 'Ihr Name:',
+	'contactpage-fromaddress-required' => 'Ihre E-Mail-Adresse:',
 	'contactpage-captcha' => 'Um die Nachricht senden zu können, lösen Sie bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 );
 
