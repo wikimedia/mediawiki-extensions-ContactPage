@@ -157,6 +157,11 @@ $aliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Swahili (Kiswahili) */
+$aliases['sw'] = array(
+	'Contact' => array( 'Mawasiliano' ),
+);
+
 /** Tetum (Tetun) */
 $aliases['tet'] = array(
 	'Contact' => array( 'Kontaktu' ),
