@@ -179,6 +179,7 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Raimond Spekking
+ * @author Umherirrender
  */
 $messages['de'] = array(
 	'contact' => 'Kontaktseite',
@@ -186,6 +187,7 @@ $messages['de'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktformular für Besucher]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Mit diesem Formular kannst du uns Nachrichten zukommen lassen.',
+	'contactpage-legend' => 'E-Mail absenden',
 	'contactpage-defsubject' => 'Kontaktnachricht',
 	'contactpage-subject-and-sender' => '$1 (von $2)',
 	'contactpage-fromname' => 'Dein Name: *',
@@ -441,6 +443,7 @@ $messages['hsb'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktowy formular za wopytarjow]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Prošu wužij tutón formular, zo by nas skontaktował.',
+	'contactpage-legend' => 'E-mejl pósłać',
 	'contactpage-defsubject' => 'Kontaktna zdźělenka',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
 	'contactpage-fromname' => 'Twoje mjeno: *',
