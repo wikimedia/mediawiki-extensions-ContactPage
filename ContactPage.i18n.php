@@ -224,6 +224,7 @@ $messages['dsb'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktowy formular za wobglědowarjow]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Pšosym wužyj toś ten formular, aby se z nami  do zwiska stajił.',
+	'contactpage-legend' => 'E-mail pósłaś',
 	'contactpage-defsubject' => 'Kontaktowa powěźenka',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
 	'contactpage-fromname' => 'Twójo mě: *',
@@ -857,6 +858,7 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author Malafaya
+ * @author Waldir
  */
 $messages['pt'] = array(
 	'contact' => 'Página de Contacto',
@@ -864,12 +866,16 @@ $messages['pt'] = array(
 	'contactpage-desc' => '[[Special:Contact|Formulário de contacto para visitantes]]',
 	'contactpage-title' => 'Contacto',
 	'contactpage-pagetext' => 'Por favor, use o formulário abaixo para nos contactar.',
+	'contactpage-legend' => 'Enviar e-mail',
 	'contactpage-defsubject' => 'Mensagem de Contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname' => 'o seu nome *',
-	'contactpage-fromaddress' => 'o seu email **',
+	'contactpage-fromname' => 'O seu nome: *',
+	'contactpage-fromaddress' => 'O seu email: **',
 	'contactpage-formfootnotes' => '* opcional<br />
 ** opcional mas necessário se quiser uma resposta',
+	'contactpage-fromname-required' => 'O seu nome:',
+	'contactpage-fromaddress-required' => 'O seu email:',
+	'contactpage-formfootnotes-required' => 'Todos os campos são obrigatórios.',
 	'contactpage-captcha' => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
 	'contactpage-captcha-failed' => 'Teste captcha falhou! ([[Special:Captcha/help|mais informação]])',
 );
