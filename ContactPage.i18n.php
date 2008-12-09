@@ -571,14 +571,15 @@ $messages['jv'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
+ * @author Thearith
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
 	'contact' => 'ទំព័រ​ទំនាក់ទំនង',
 	'contactpage' => 'ទំព័រ​ទំនាក់ទំនង',
-	'contactpage-desc' => '[[Special:Contact|សំនុំបែបបទទាក់ទង​សំរាប់អ្នកទស្សនា]]',
+	'contactpage-desc' => '[[Special:Contact|សំណុំបែបបទទាក់ទង​សម្រាប់អ្នកទស្សនា]]',
 	'contactpage-title' => 'ទាក់ទង',
-	'contactpage-pagetext' => 'សូម​ប្រើ​ប្រាស់​សំនុំបែបបទ​ខាងក្រោម​ ដើម្បី​ទាក់ទងមក​យើងខ្ញុំ។',
+	'contactpage-pagetext' => 'សូម​ប្រើ​ប្រាស់​សំណុំបែបបទ​ខាងក្រោម​ ដើម្បី​ទាក់ទងមក​យើងខ្ញុំ។',
 	'contactpage-legend' => 'ផ្ញើអ៊ីមែល',
 	'contactpage-defsubject' => 'សារទាក់ទង',
 	'contactpage-subject-and-sender' => '$1 (ផ្ញើ​ពី $2)',
