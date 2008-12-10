@@ -58,6 +58,11 @@ $aliases['gl'] = array(
 	'Contact' => array( 'Contactar' ),
 );
 
+/** Swiss German (Alemannisch) */
+$aliases['gsw'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Hebrew (עברית)
  * @author Rotem Liss
  */
