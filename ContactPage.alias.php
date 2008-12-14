@@ -48,6 +48,11 @@ $aliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Greek (Ελληνικά) */
+$aliases['el'] = array(
+	'Contact' => array( 'Επαφή' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Contact' => array( 'Yhteystiedot' ),
