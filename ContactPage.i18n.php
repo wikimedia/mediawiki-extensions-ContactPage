@@ -387,14 +387,15 @@ $messages['he'] = array(
 	'contactpage-desc' => '[[Special:Contact|טופס יצירת קשר למבקרים]]',
 	'contactpage-title' => 'יצירת קשר',
 	'contactpage-pagetext' => 'אנא השתמשו בטופס שלהלן כדי ליצור עמנו קשר.',
+	'contactpage-legend' => 'שלחו דוא"ל',
 	'contactpage-defsubject' => 'הודעת יצירת קשר',
 	'contactpage-subject-and-sender' => '$1 (מתוך $2)',
-	'contactpage-fromname' => 'שמכם *',
-	'contactpage-fromaddress' => 'כתובת הדוא"ל שלכם **',
+	'contactpage-fromname' => 'שמכם: *',
+	'contactpage-fromaddress' => ':כתובת הדוא"ל שלכם **',
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
 ** אופציונאלי אבל דרוש אם ברצונכם לקבל תשובה',
-	'contactpage-fromname-required' => 'שמכם',
-	'contactpage-fromaddress-required' => 'הדוא"ל שלכם',
+	'contactpage-fromname-required' => 'שמכם:',
+	'contactpage-fromaddress-required' => 'הדוא"ל שלכם:',
 	'contactpage-formfootnotes-required' => 'כל השדות נחוצים.',
 	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
 	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|מידע נוסף]])',
@@ -916,6 +917,29 @@ $messages['ro'] = array(
 	'contactpage-captcha' => 'Pentru a trimite mesajul, rezolvă captcha ([[Special:Captcha/help|mai multe detalii]])',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'contact' => 'Pàgene de le condatte',
+	'contactpage' => 'Pàgene de le condatte',
+	'contactpage-desc' => '[[Special:Contact|Form de le condatte pe le visitature]]',
+	'contactpage-title' => 'Condatte',
+	'contactpage-pagetext' => "Pe piacere ause 'u form ca ste aqquà sotte pe ne condattà.",
+	'contactpage-legend' => "Manne 'n'e-mail",
+	'contactpage-defsubject' => "Message d'u condatte",
+	'contactpage-subject-and-sender' => '$1 (da $2)',
+	'contactpage-fromname' => "'U nome tue: *",
+	'contactpage-fromaddress' => "L'e-mail toje: **",
+	'contactpage-formfootnotes' => "* ce vuè<br />
+** ce vué ma abbesogne ce tu vuè cu ave 'na resposte",
+	'contactpage-fromname-required' => "'U nome tue:",
+	'contactpage-fromaddress-required' => "L'e-mail toje:",
+	'contactpage-formfootnotes-required' => 'Tutte le cambe sonde richieste.',
+	'contactpage-captcha' => "Pe mannà 'u messagge, pe piacere resolve 'u captcha ([[Special:Captcha/help|cchiù 'mbormaziune]])",
+	'contactpage-captcha-failed' => "'U test de captcha ha sciute male! ([[Special:Captcha/help|cchiù 'mbormaziune]])",
+);
+
 /** Russian (Русский)
  * @author Ferrer
  * @author Александр Сигачёв
@@ -1035,14 +1059,15 @@ $messages['te'] = array(
 	'contactpage-desc' => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
 	'contactpage-title' => 'సంప్రదించండి',
 	'contactpage-pagetext' => 'మమ్మల్ని సంప్రదించడానికి క్రిందనిచ్చిన ఫారం ఉపయోగించండి.',
+	'contactpage-legend' => 'ఈమెయిలు పంపండి',
 	'contactpage-defsubject' => 'సంప్రదింపు సందేశం',
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
-	'contactpage-fromname' => 'మీ పేరు *',
-	'contactpage-fromaddress' => 'మీ ఈ-మెయిల్ **',
+	'contactpage-fromname' => 'మీ పేరు: *',
+	'contactpage-fromaddress' => 'మీ ఈ-మెయిల్: **',
 	'contactpage-formfootnotes' => '* ఐచ్చికం<br />
 ** ఐచ్చికం కానీ మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి',
-	'contactpage-fromname-required' => 'మీ పేరు',
-	'contactpage-fromaddress-required' => 'మీ ఈ-మెయిల్',
+	'contactpage-fromname-required' => 'మీ పేరు:',
+	'contactpage-fromaddress-required' => 'మీ ఈ-మెయిల్:',
 	'contactpage-formfootnotes-required' => 'అన్ని ఖాళీలు తప్పనిసరి.',
 	'contactpage-captcha' => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
 	'contactpage-captcha-failed' => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
