@@ -958,6 +958,7 @@ $messages['ru'] = array(
 	'contactpage-desc' => '[[Special:Contact|Форма для посетителей]]',
 	'contactpage-title' => 'Контакт',
 	'contactpage-pagetext' => 'Пожалуйста, используйте данную форму, чтобы связаться с нами.',
+	'contactpage-legend' => 'Отправить письмо',
 	'contactpage-defsubject' => 'Сообщение',
 	'contactpage-subject-and-sender' => '$1 (от $2)',
 	'contactpage-fromname' => 'ваше имя *',
