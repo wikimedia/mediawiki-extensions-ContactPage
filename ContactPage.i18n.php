@@ -292,21 +292,24 @@ $messages['ext'] = array(
 
 /** Finnish (Suomi)
  * @author Cimon Avaro
+ * @author Crt
  * @author Jaakonam
  * @author Nike
  */
 $messages['fi'] = array(
 	'contact' => 'Yhteydenottosivu',
+	'contactpage' => 'Yhteydenottosivu',
 	'contactpage-title' => 'Ota yhteyttä',
 	'contactpage-pagetext' => 'Voit ottaa yhteyttä meihin alla olevalla lomakkeella.',
+	'contactpage-legend' => 'Lähetä sähköposti',
 	'contactpage-defsubject' => 'Viestisi',
 	'contactpage-subject-and-sender' => '$1 (lähettäjä: $2)',
-	'contactpage-fromname' => 'nimesi *',
-	'contactpage-fromaddress' => 'sähköpostiosoitteesi **',
+	'contactpage-fromname' => 'Nimesi *',
+	'contactpage-fromaddress' => 'Sähköpostiosoitteesi **',
 	'contactpage-formfootnotes' => '* vapaaehtoinen<br />
 ** vapaaehtoinen mutta tarpeen, jos haluat vastauksen viestiisi',
-	'contactpage-fromname-required' => 'nimesi',
-	'contactpage-fromaddress-required' => 'sähköpostiosoitteesi',
+	'contactpage-fromname-required' => 'Nimesi',
+	'contactpage-fromaddress-required' => 'Sähköpostiosoitteesi',
 	'contactpage-formfootnotes-required' => 'Kaikki kentät ovat pakollisia.',
 );
 
