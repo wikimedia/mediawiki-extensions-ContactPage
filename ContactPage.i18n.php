@@ -262,16 +262,18 @@ $messages['eo'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktpaĝo por vizitantoj]]',
 	'contactpage-title' => 'Kontakti',
 	'contactpage-pagetext' => 'Bonvolu uzi la suban kamparon por kontakti nin.',
+	'contactpage-legend' => 'Sendi retpoŝton',
 	'contactpage-defsubject' => 'Kontakta Mesaĝo',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname' => 'via nomo *',
-	'contactpage-fromaddress' => 'via retadreso **',
+	'contactpage-fromname' => 'Via nomo: *',
+	'contactpage-fromaddress' => 'Via retadreso: **',
 	'contactpage-formfootnotes' => '* nedeviga<br />
 ** nedeviga sed deviga se vi volas respondon',
-	'contactpage-fromname-required' => 'via nomo',
-	'contactpage-fromaddress-required' => 'via retadreso',
+	'contactpage-fromname-required' => 'Via nomo:',
+	'contactpage-fromaddress-required' => 'Via retadreso:',
 	'contactpage-formfootnotes-required' => 'Ĉiuj kampoj estas devigaj.',
 	'contactpage-captcha' => "Sendi la mesaĝon, bonvolu solvi la enigmon de ''captcha'' ([[Special:Captcha/help|plua informo]])",
+	'contactpage-captcha-failed' => 'Malsukcesis Captcha-testo! ([[Special:Captcha/help|plua informo]])',
 );
 
 /** Spanish (Español)
@@ -757,6 +759,29 @@ $messages['nl'] = array(
 	'contactpage-captcha-failed' => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 );
 
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Harald Khan
+ */
+$messages['nn'] = array(
+	'contact' => 'Kontaktsida',
+	'contactpage' => 'Kontaktsida',
+	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for vitjande]]',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Bruk skjemaet nedanfor for å kontakta oss.',
+	'contactpage-legend' => 'Send e-post',
+	'contactpage-defsubject' => 'Melding',
+	'contactpage-subject-and-sender' => '$1 (frå $2)',
+	'contactpage-fromname' => 'Namnet ditt: *',
+	'contactpage-fromaddress' => 'E-postadressa di: **',
+	'contactpage-formfootnotes' => '* valfri<br />
+** valfri, men er naudsynleg dersom du vil ha svar',
+	'contactpage-fromname-required' => 'Namnet ditt:',
+	'contactpage-fromaddress-required' => 'E-postadressa di:',
+	'contactpage-formfootnotes-required' => 'Alle felt er naudsynlege.',
+	'contactpage-captcha' => 'For å senda meldinga, ver venleg og løys captcha-oppgåva ([[Special:Captcha/help|meir informasjon]])',
+	'contactpage-captcha-failed' => 'Captcha-testen feila! ([[Special:Captcha/help|meir informasjon]])',
+);
+
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
@@ -911,18 +936,21 @@ $messages['rmy'] = array(
 $messages['ro'] = array(
 	'contact' => 'Pagină de contact',
 	'contactpage' => 'Pagină de contact',
+	'contactpage-desc' => '[[Special:Contact|Formular de contact pentru vizitatori]]',
 	'contactpage-title' => 'Contact',
 	'contactpage-pagetext' => 'Foloseşte formularul de mai jos pentru a ne contacta.',
+	'contactpage-legend' => 'Trimite e-mail',
 	'contactpage-defsubject' => 'Mesaj de contact',
 	'contactpage-subject-and-sender' => '$1 (de la $2)',
-	'contactpage-fromname' => 'numele dumneavoastră *',
-	'contactpage-fromaddress' => 'adresa dumneavoastră de e-mail **',
+	'contactpage-fromname' => 'Numele dumneavoastră: *',
+	'contactpage-fromaddress' => 'Adresa dumneavoastră de e-mail: **',
 	'contactpage-formfootnotes' => '* opţional<br />
 ** opţională, dar necesară dacă doriţi un răspuns',
-	'contactpage-fromname-required' => 'numele dumneavoastră',
-	'contactpage-fromaddress-required' => 'adresa dumneavoastră de e-mail',
+	'contactpage-fromname-required' => 'Numele dumneavoastră:',
+	'contactpage-fromaddress-required' => 'Adresa dumneavoastră de e-mail:',
 	'contactpage-formfootnotes-required' => 'Toate câmpurile sunt obligatorii.',
 	'contactpage-captcha' => 'Pentru a trimite mesajul, rezolvă captcha ([[Special:Captcha/help|mai multe detalii]])',
+	'contactpage-captcha-failed' => 'Testul captcha a eşuat! ([[Special:Captcha/help|mai multe informaţii]])',
 );
 
 /** Tarandíne (Tarandíne)
