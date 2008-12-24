@@ -616,15 +616,16 @@ $messages['ksh'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontak-Sigg]] för Besöker.',
 	'contactpage-title' => 'Kontak',
 	'contactpage-pagetext' => 'Övver di Sigg hee kanns De dä Wiki-Maacher jet schrieve.',
+	'contactpage-legend' => '<i lang="en">e-mail</i> schecke',
 	'contactpage-defsubject' => 'Kontak-Sigg fun de {{SITENAME}}',
 	'contactpage-subject-and-sender' => '$1 (fun $2)',
-	'contactpage-fromname' => 'Dinge Name <sup>*</sup>',
-	'contactpage-fromaddress' => 'Ding <i lang="en">e-mail</i> Address <sup>**</sup>',
+	'contactpage-fromname' => 'Dinge Name: <sup>*</sup>',
+	'contactpage-fromaddress' => 'Ding <i lang="en">e-mail</i> Address: <sup>**</sup>',
 	'contactpage-formfootnotes' => '<sup>*</sup> kannze fott lohße
 <br />
 <sup>**</sup> kanze fott lohße, ußer wann De en Antwoot han wells',
-	'contactpage-fromname-required' => 'Dinge Name',
-	'contactpage-fromaddress-required' => 'Ding <i lang="en">e-mail</i> Address',
+	'contactpage-fromname-required' => 'Dinge Name:',
+	'contactpage-fromaddress-required' => 'Ding <i lang="en">e-mail</i> Address:',
 	'contactpage-formfootnotes-required' => 'Dat moß all ußjefollt wäde.',
 	'contactpage-captcha' => 'Öm Ding Nohresch ze schecke, don dat Kaptscha endrare.
 ([[Special:Captcha/help|Mieh Enfommazjuhne]])',
