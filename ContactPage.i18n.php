@@ -469,13 +469,20 @@ $messages['hsb'] = array(
  */
 $messages['hu'] = array(
 	'contact' => 'Kapcsolatfelvétel',
+	'contactpage' => 'Kapcsolat',
+	'contactpage-desc' => '[[Special:Contact|Kapcsolatfelvevő oldal látogatóknak]]',
 	'contactpage-title' => 'Kapcsolatfelvétel',
 	'contactpage-pagetext' => 'Az alábbi űrlap kitöltésével küldhetsz nekünk üzenetet.',
+	'contactpage-legend' => 'E-mail küldése',
 	'contactpage-defsubject' => 'Üzenet',
-	'contactpage-fromname' => 'neved *',
-	'contactpage-fromaddress' => 'e-mail címed **',
+	'contactpage-subject-and-sender' => '$1 (küldte: $2)',
+	'contactpage-fromname' => 'Neved: *',
+	'contactpage-fromaddress' => 'E-mail címed: **',
 	'contactpage-formfootnotes' => '* nem kötelező<br />
 * nem kötelező, de add meg, ha választ szeretnél',
+	'contactpage-fromname-required' => 'Neved:',
+	'contactpage-fromaddress-required' => 'E-mail címed:',
+	'contactpage-formfootnotes-required' => 'Az összes mező kitöltése kötelező.',
 	'contactpage-captcha' => 'Az üzenet elküldéséhez írd be a képen megjelent szót ([[Special:Captcha/help|további segítség]])',
 	'contactpage-captcha-failed' => 'Captcha teszt nem sikerült! ([[Special:Captcha/help|további segítség]])',
 );
