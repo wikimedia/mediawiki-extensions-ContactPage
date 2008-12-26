@@ -67,6 +67,7 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'contact' => 'صفحة الاتصال',
@@ -74,14 +75,15 @@ $messages['ar'] = array(
 	'contactpage-desc' => '[[Special:Contact|استمارة اتصال للزائرين]]',
 	'contactpage-title' => 'اتصل',
 	'contactpage-pagetext' => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
+	'contactpage-legend' => 'إرسال بريد إلكتروني',
 	'contactpage-defsubject' => 'رسالة الاتصال',
 	'contactpage-subject-and-sender' => '$1 (من $2)',
-	'contactpage-fromname' => 'اسمك *',
-	'contactpage-fromaddress' => 'بريدك الإلكتروني **',
+	'contactpage-fromname' => 'اسمك: *',
+	'contactpage-fromaddress' => 'بريدك الإلكتروني: **',
 	'contactpage-formfootnotes' => '* اختياري<br />
 ** اختياري لكن ضروري لو أردت إجابة',
-	'contactpage-fromname-required' => 'اسمك',
-	'contactpage-fromaddress-required' => 'بريدك الإلكتروني',
+	'contactpage-fromname-required' => 'اسمك:',
+	'contactpage-fromaddress-required' => 'بريدك الإلكتروني:',
 	'contactpage-formfootnotes-required' => 'كل الحقول مطلوبة',
 	'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
@@ -297,10 +299,12 @@ $messages['ext'] = array(
  * @author Crt
  * @author Jaakonam
  * @author Nike
+ * @author Vililikku
  */
 $messages['fi'] = array(
 	'contact' => 'Yhteydenottosivu',
 	'contactpage' => 'Yhteydenottosivu',
+	'contactpage-desc' => '[[Special:Contact|Yhteydenottolomake vierailijoille]].',
 	'contactpage-title' => 'Ota yhteyttä',
 	'contactpage-pagetext' => 'Voit ottaa yhteyttä meihin alla olevalla lomakkeella.',
 	'contactpage-legend' => 'Lähetä sähköposti',
@@ -313,6 +317,8 @@ $messages['fi'] = array(
 	'contactpage-fromname-required' => 'Nimesi',
 	'contactpage-fromaddress-required' => 'Sähköpostiosoitteesi',
 	'contactpage-formfootnotes-required' => 'Kaikki kentät ovat pakollisia.',
+	'contactpage-captcha' => 'Ratkaise captcha-testi ennen viestin lähettämistä ([[Special:Captcha/help|lisätietoja]])',
+	'contactpage-captcha-failed' => 'Captcha-testi ei onnistunut! ([[Special:Captcha/help|lisätietoja]])',
 );
 
 /** French (Français)
