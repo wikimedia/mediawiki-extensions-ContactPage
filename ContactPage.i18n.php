@@ -608,10 +608,14 @@ $messages['km'] = array(
 );
 
 /** Korean (한국어)
+ * @author Kwj2772
  * @author WonRyong
  */
 $messages['ko'] = array(
 	'contact' => '관리자 연락',
+	'contactpage-legend' => '이메일 보내기',
+	'contactpage-fromname' => '당신의 이름: *',
+	'contactpage-fromaddress' => '당신의 이메일 주소 : **',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -1227,18 +1231,22 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Shinjiman
+ * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'contact' => '聯絡頁面',
 	'contactpage' => '聯絡頁面',
 	'contactpage-title' => '聯絡',
 	'contactpage-pagetext' => '請用以下的表格去聯絡我們。',
+	'contactpage-legend' => '傳送電郵',
 	'contactpage-defsubject' => '聯絡訊息',
 	'contactpage-subject-and-sender' => '$1 (自$2)',
 	'contactpage-fromname' => '您的名字 *',
 	'contactpage-fromaddress' => '您的電郵 **',
 	'contactpage-formfootnotes' => '* 可選<br />
 ** 可選，如果您想回答的話',
+	'contactpage-fromname-required' => '您的名字:',
+	'contactpage-fromaddress-required' => '您的電郵:',
 	'contactpage-captcha' => '要傳送這個訊息，請先解決這個 captcha ([[Special:Captcha/help|更多資訊]])',
 	'contactpage-captcha-failed' => 'Captcha 測試失敗! ([[Special:Captcha/help|更多資訊]])',
 );
