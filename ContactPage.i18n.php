@@ -279,10 +279,35 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Imre
  * @author לערי ריינהארט
  */
 $messages['es'] = array(
 	'contact' => 'Para contactar',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+);
+
+/** Basque (Euskara)
+ * @author Theklan
+ */
+$messages['eu'] = array(
+	'contact' => 'Kontaktu orrialdea',
+	'contactpage' => 'Kontaktu orrialdea',
+	'contactpage-desc' => '[[Berezi:Kontaktu|Bisitarientzako kontaktu formularioa]]',
+	'contactpage-title' => 'Kontaktatu',
+	'contactpage-pagetext' => 'Erabil ezazu beheko formularioa gurekin kontaktatzeko.',
+	'contactpage-legend' => 'E-posta bidali',
+	'contactpage-defsubject' => 'Kontaktu mezua',
+	'contactpage-subject-and-sender' => '$1 ($2(e)k bidalia)',
+	'contactpage-fromname' => 'Zure izena: *',
+	'contactpage-fromaddress' => 'Zure e-posta: **',
+	'contactpage-formfootnotes' => ' * ez da beharrezkoa<br />
+ ** ez da beharrezkoa baina erantzuteko garaian nahitaezkoa da',
+	'contactpage-fromname-required' => 'Zure izena:',
+	'contactpage-fromaddress-required' => 'Zure e-posta:',
+	'contactpage-formfootnotes-required' => 'Esparru guztiak betetzea beharrezkoa da.',
+	'contactpage-captcha' => 'Mezua bidaltzeko captcha jarri behar duzu ([[Berezi:Catpcha/laguntza|info gehiago]])',
+	'contactpage-captcha-failed' => 'Captcha testak huts egin du! ([[Berezi:Captcha/laguntza|info gehiago]])',
 );
 
 /** Extremaduran (Estremeñu)
@@ -731,6 +756,18 @@ $messages['mr'] = array(
 $messages['myv'] = array(
 	'contactpage-fromname-required' => 'эсеть леметь',
 	'contactpage-formfootnotes-required' => 'Весе паксятне эрявикст.',
+);
+
+/** Nahuatl (Nāhuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'contactpage-legend' => 'Tiquihuāz e-mail',
+	'contactpage-subject-and-sender' => '$1 (īhuīcpa $2)',
+	'contactpage-fromname' => 'Motōca: *',
+	'contactpage-fromaddress' => 'Mo e-mail: **',
+	'contactpage-fromname-required' => 'Motōca:',
+	'contactpage-fromaddress-required' => 'Mo e-mail:',
 );
 
 /** Neapolitan (Nnapulitano)
