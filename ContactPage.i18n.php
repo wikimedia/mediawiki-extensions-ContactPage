@@ -529,12 +529,12 @@ $messages['ia'] = array(
 	'contactpage-pagetext' => 'Per favor usa le formulario infra pro contactar nos.',
 	'contactpage-defsubject' => 'Message de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname' => 'tu nomine *',
-	'contactpage-fromaddress' => 'tu e-mail **',
+	'contactpage-fromname' => 'Tu nomine: *',
+	'contactpage-fromaddress' => 'Tu e-mail: **',
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional sed necessari si tu vole reciper un responsa',
-	'contactpage-fromname-required' => 'tu nomine',
-	'contactpage-fromaddress-required' => 'tu e-mail',
+	'contactpage-fromname-required' => 'Tu nomine:',
+	'contactpage-fromaddress-required' => 'Tu e-mail:',
 	'contactpage-formfootnotes-required' => 'Tote le campos es obligatori.',
 	'contactpage-captcha' => 'Pro inviar le message, per favor resolve le captcha ([[Special:Captcha/help|plus info]])',
 	'contactpage-captcha-failed' => 'Le test captcha falleva! ([[Special:Captcha/help|plus info]])',
@@ -615,6 +615,20 @@ $messages['jv'] = array(
 	'contactpage-fromaddress' => 'e-mail panjenengan **',
 	'contactpage-formfootnotes' => '* opsional<br />
 ** opsional nanging diperlokaké yèn panjenengan perlu wangsulan',
+);
+
+/** Georgian (ქართული)
+ * @author Temuri rajavi
+ */
+$messages['ka'] = array(
+	'contact' => 'საკონტაქტო გვერდი',
+	'contactpage' => 'საკონტაქტო გვერდი',
+	'contactpage-title' => 'კონტაქტი',
+	'contactpage-subject-and-sender' => '$1 ($2-სგან)',
+	'contactpage-fromname' => 'თქვენი სახელი: *',
+	'contactpage-fromaddress' => 'თქვენი ელ-ფოსტა: **',
+	'contactpage-fromname-required' => 'თქვენი სახელი:',
+	'contactpage-fromaddress-required' => 'თქვენი ელ-ფოსტა:',
 );
 
 /** Khmer (ភាសាខ្មែរ)
