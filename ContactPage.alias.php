@@ -100,6 +100,11 @@ $aliases['id'] = array(
 	'Contact' => array( 'Kontak' ),
 );
 
+/** Japanese (日本語) */
+$aliases['ja'] = array(
+	'Contact' => array( '連絡先' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'Contact' => array( 'ទំនាក់ទំនង' ),
