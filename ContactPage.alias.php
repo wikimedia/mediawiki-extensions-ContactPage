@@ -162,6 +162,11 @@ $aliases['pt-br'] = array(
 	'Contact' => array( 'Contactar', 'Contatar' ),
 );
 
+/** Romanian (Română) */
+$aliases['ro'] = array(
+	'Contact' => array( 'Contact' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),

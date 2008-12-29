@@ -287,6 +287,19 @@ $messages['es'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 );
 
+/** Estonian (Eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'contactpage-title' => 'Kontakt',
+	'contactpage-legend' => 'Saada e-kiri',
+	'contactpage-fromname' => 'Sinu nimi: *',
+	'contactpage-fromaddress' => 'Sinu e-post: **',
+	'contactpage-fromname-required' => 'Sinu nimi:',
+	'contactpage-fromaddress-required' => 'Sinu e-post:',
+	'contactpage-formfootnotes-required' => 'Nõutav on kõigi väljade täitmine.',
+);
+
 /** Basque (Euskara)
  * @author Theklan
  */
