@@ -120,6 +120,11 @@ $aliases['mk'] = array(
 	'Contact' => array( 'Контакт' ),
 );
 
+/** Maltese (Malti) */
+$aliases['mt'] = array(
+	'Contact' => array( 'Kuntatt' ),
+);
+
 /** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
 	'Contact' => array( 'Kuntakt' ),

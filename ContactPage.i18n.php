@@ -32,10 +32,13 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
+ * @author Lloffiwr
  * @author Purodha
  */
 $messages['qqq'] = array(
-	'contact' => '{{Identical|ContactPage}}',
+	'contact' => "Part of special page 'Contactpage', which is an optional addition to a wiki, added by way of an extension. See [http://www.mediawiki.org/wiki/Extension:ContactPage here] for description of extension.
+
+{{Identical|ContactPage}}",
 	'contactpage' => '{{Identical|ContactPage}}',
 	'contactpage-desc' => 'Extension description displayed on [[Special:Version]].',
 );
@@ -90,6 +93,7 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Ghaly
  * @author Meno25
  * @author Ramsis II
  */
@@ -102,12 +106,12 @@ $messages['arz'] = array(
 	'contactpage-legend' => 'ايعت ايميل',
 	'contactpage-defsubject' => 'رسالة الاتصال',
 	'contactpage-subject-and-sender' => '$1 (من $2)',
-	'contactpage-fromname' => 'اسمك *',
-	'contactpage-fromaddress' => 'بريدك الإلكترونى **',
+	'contactpage-fromname' => 'اسمك*',
+	'contactpage-fromaddress' => 'الايميل بتاعك: **',
 	'contactpage-formfootnotes' => '* اختياري<br />
 ** اختيارى لكن ضرورى لو أردت إجابة',
 	'contactpage-fromname-required' => 'اسمك',
-	'contactpage-fromaddress-required' => 'بريدك الإلكتروني',
+	'contactpage-fromaddress-required' => 'الايميل بتاعك:',
 	'contactpage-formfootnotes-required' => 'كل الحقول مطلوبة',
 	'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
@@ -170,6 +174,21 @@ $messages['cs'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
+	'contact' => 'Tudalen gysylltu',
+	'contactpage' => 'Tudalen gysylltu',
+	'contactpage-desc' => '[[Special:Contact|Ffurlen gysylltu ar gyfer ymwelwyr]]',
+	'contactpage-title' => 'Cysylltu',
+	'contactpage-pagetext' => "Mae croeso i chi ddefnyddio'r ffurflen isod i gysylltu â ni.",
+	'contactpage-legend' => 'Anfon e-bost',
+	'contactpage-defsubject' => 'Neges',
+	'contactpage-subject-and-sender' => '£1 (oddi wrth $2)',
+	'contactpage-fromname' => 'Eich enw: *',
+	'contactpage-fromaddress' => 'Eich cyfeiriad e-bost: **',
+	'contactpage-formfootnotes' => '* dewisol<br />
+** dewisol ond rhaid ei gael er mwyn gallu derbyn ateb',
+	'contactpage-fromname-required' => 'Eich enw:',
+	'contactpage-fromaddress-required' => 'Eich cyfeiriad e-bost:',
+	'contactpage-formfootnotes-required' => 'Rhaid llanw pob maes.',
 	'contactpage-captcha' => 'Er mwyn anfon y neges, byddwch gystal â datrys y pos gwrth-sbam ([[Special:Captcha/help|mwy o wybodaeth]])',
 	'contactpage-captcha-failed' => 'Ni lwyddodd y prawf gwrth-sbam! ([[Special:Captcha/help|mwy o wybodaeth]])',
 );
@@ -1207,14 +1226,28 @@ $messages['tg-cyrl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Karduelis
  * @author Mach
  */
 $messages['tr'] = array(
-	'contactpage-fromname' => 'isminiz *',
-	'contactpage-fromaddress' => 'e-postanız *',
-	'contactpage-fromname-required' => 'adınız',
-	'contactpage-fromaddress-required' => 'e-mail adresiniz',
+	'contact' => 'İrtibat sayfası',
+	'contactpage' => 'İrtibat sayfası',
+	'contactpage-desc' => '[[Special:Contact|Ziyaretçiler için irtibat formu]]',
+	'contactpage-title' => 'İrtibat',
+	'contactpage-pagetext' => 'İrtibat için lütfen aşağıdaki formu kullanın.',
+	'contactpage-legend' => 'E-posta gönderin',
+	'contactpage-defsubject' => 'İrtibat mesajı',
+	'contactpage-subject-and-sender' => "$1 ($2'den)",
+	'contactpage-fromname' => 'İsminiz: *',
+	'contactpage-fromaddress' => 'E-postanız: **',
+	'contactpage-formfootnotes' => '* isteğe bağlı<br />
+** isteğe bağlı ancak cevap istiyorsanız gerekli',
+	'contactpage-fromname-required' => 'Adınız:',
+	'contactpage-fromaddress-required' => 'E-posta adresiniz:',
+	'contactpage-formfootnotes-required' => 'Bütün alanlar gereklidir.',
+	'contactpage-captcha' => "Mesajı göndermek için, lütfen captcha'yı çözün ([[Special:Captcha/help|daha fazla bilgi]])",
+	'contactpage-captcha-failed' => 'Captcha testi başarısız oldu! ([[Special:Captcha/help|daha fazla bilgi]])',
 );
 
 /** Vèneto (Vèneto)
@@ -1251,9 +1284,14 @@ $messages['vi'] = array(
 
 /** Volapük (Volapük)
  * @author Malafaya
+ * @author Smeira
  */
 $messages['vo'] = array(
-	'contactpage-fromname' => 'nem olik *',
+	'contactpage-fromname' => 'Nem olik: *',
+	'contactpage-fromaddress' => 'Ladet leäktronik olik: **',
+	'contactpage-fromname-required' => 'Nem olik:',
+	'contactpage-fromaddress-required' => 'Ladet leäktronik olik:',
+	'contactpage-formfootnotes-required' => 'Fels valik paflagons.',
 );
 
 /** Walloon (Walon)
