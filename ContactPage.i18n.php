@@ -1287,6 +1287,8 @@ $messages['vi'] = array(
  * @author Smeira
  */
 $messages['vo'] = array(
+	'contactpage-legend' => 'Sedön penedi leäktronik',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname' => 'Nem olik: *',
 	'contactpage-fromaddress' => 'Ladet leäktronik olik: **',
 	'contactpage-fromname-required' => 'Nem olik:',
