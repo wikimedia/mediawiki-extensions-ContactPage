@@ -325,7 +325,7 @@ $messages['et'] = array(
 $messages['eu'] = array(
 	'contact' => 'Kontaktu orrialdea',
 	'contactpage' => 'Kontaktu orrialdea',
-	'contactpage-desc' => '[[Berezi:Kontaktu|Bisitarientzako kontaktu formularioa]]',
+	'contactpage-desc' => '[[Special:Contact|Bisitarientzako kontaktu formularioa]]',
 	'contactpage-title' => 'Kontaktatu',
 	'contactpage-pagetext' => 'Erabil ezazu beheko formularioa gurekin kontaktatzeko.',
 	'contactpage-legend' => 'E-posta bidali',
@@ -338,8 +338,8 @@ $messages['eu'] = array(
 	'contactpage-fromname-required' => 'Zure izena:',
 	'contactpage-fromaddress-required' => 'Zure e-posta:',
 	'contactpage-formfootnotes-required' => 'Esparru guztiak betetzea beharrezkoa da.',
-	'contactpage-captcha' => 'Mezua bidaltzeko captcha jarri behar duzu ([[Berezi:Catpcha/laguntza|info gehiago]])',
-	'contactpage-captcha-failed' => 'Captcha testak huts egin du! ([[Berezi:Captcha/laguntza|info gehiago]])',
+	'contactpage-captcha' => 'Mezua bidaltzeko captcha jarri behar duzu ([[Special:Captcha/help|info gehiago]])',
+	'contactpage-captcha-failed' => 'Captcha testak huts egin du! ([[Special:Captcha/help|info gehiago]])',
 );
 
 /** Extremaduran (Estremeñu)
