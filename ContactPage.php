@@ -3,8 +3,8 @@
  * Setup for ContactPage extension, a special page that implements a contact form
  * for use by anonymous visitors.
  *
- * @package MediaWiki
- * @subpackage Extensions
+ * @file
+ * @ingroup Extensions
  * @author Daniel Kinzler, brightbyte.de
  * @copyright © 2007 Daniel Kinzler
  * @licence GNU General Public Licence 2.0 or later

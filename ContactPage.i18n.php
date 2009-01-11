@@ -1,8 +1,9 @@
 <?php
 /**
- * Internationalisation file for extension ContactPage.
+ * Internationalisation file for ContactPage extension.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  * @author Daniel Kinzler, brightbyte.de
  * @copyright © 2007 Daniel Kinzler
  * @license GNU General Public Licence 2.0 or later
@@ -10,6 +11,9 @@
 
 $messages = array();
 
+/** English
+ * @author Daniel Kinzler
+ */
 $messages['en'] = array(
 	'contact' => 'Contact page',
 	'contactpage' => 'Contact page',

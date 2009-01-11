@@ -2,7 +2,8 @@
 /**
  * Aliases for Special:Contact
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $aliases = array();
@@ -55,7 +56,7 @@ $aliases['el'] = array(
 
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
-	'Contact' => array( 'Yhteystiedot' ),
+	'Contact' => array( 'Ota yhteyttä' ),
 );
 
 /** Galician (Galego) */
