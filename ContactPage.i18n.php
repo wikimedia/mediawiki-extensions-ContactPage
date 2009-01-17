@@ -1291,7 +1291,13 @@ $messages['vi'] = array(
  * @author Smeira
  */
 $messages['vo'] = array(
+	'contact' => 'Kosikamapad',
+	'contactpage' => 'Kosikamapad',
+	'contactpage-desc' => 'Kosikamafomet visitanes',
+	'contactpage-title' => 'Kosikam',
+	'contactpage-pagetext' => 'Gebolös fometi dono ad kosikön ko obs.',
 	'contactpage-legend' => 'Sedön penedi leäktronik',
+	'contactpage-defsubject' => 'Kosikamanun',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname' => 'Nem olik: *',
 	'contactpage-fromaddress' => 'Ladet leäktronik olik: **',
