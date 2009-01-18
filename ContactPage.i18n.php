@@ -758,6 +758,14 @@ $messages['lb'] = array(
 	'contactpage-captcha-failed' => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
 );
 
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'contactpage-fromname' => 'Ny anaranao : *',
+	'contactpage-fromaddress' => 'Ny imailakanao : **',
+);
+
 /** Macedonian (Македонски)
  * @author Misos
  */
