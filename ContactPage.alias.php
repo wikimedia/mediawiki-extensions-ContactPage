@@ -56,7 +56,7 @@ $aliases['el'] = array(
 
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
-	'Contact' => array( 'Ota yhteyttä' ),
+	'Contact' => array( 'Yhteystiedot' ),
 );
 
 /** Galician (Galego) */
@@ -104,6 +104,11 @@ $aliases['id'] = array(
 /** Japanese (日本語) */
 $aliases['ja'] = array(
 	'Contact' => array( '連絡先' ),
+);
+
+/** Georgian (ქართული) */
+$aliases['ka'] = array(
+	'Contact' => array( 'კონტაქტი' ),
 );
 
 /** Khmer (ភាសាខ្មែរ) */
@@ -178,6 +183,11 @@ $aliases['ro'] = array(
 	'Contact' => array( 'Contact' ),
 );
 
+/** Sanskrit (संस्कृत) */
+$aliases['sa'] = array(
+	'Contact' => array( 'सम्पर्क' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),
@@ -186,6 +196,11 @@ $aliases['sv'] = array(
 /** Swahili (Kiswahili) */
 $aliases['sw'] = array(
 	'Contact' => array( 'Mawasiliano' ),
+);
+
+/** Telugu (తెలుగు) */
+$aliases['te'] = array(
+	'Contact' => array( 'సంప్రదించు' ),
 );
 
 /** Tetum (Tetun) */
