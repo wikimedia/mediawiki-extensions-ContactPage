@@ -188,6 +188,11 @@ $aliases['sa'] = array(
 	'Contact' => array( 'सम्पर्क' ),
 );
 
+/** Albanian (Shqip) */
+$aliases['sq'] = array(
+	'Contact' => array( 'Kontakto' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),
