@@ -1237,6 +1237,29 @@ $messages['tg-cyrl'] = array(
 	'contactpage-fromaddress' => 'почтаи электронии шумо **',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'contact' => 'Pahina ng pakikipag-ugnayan',
+	'contactpage' => 'Pahina ng pakikipag-ugnayan',
+	'contactpage-desc' => '[[Special:Contact|Pormularyo ng pakikipag-ugnayan para sa mga panauhin]]',
+	'contactpage-title' => 'Makipag-ugnayan',
+	'contactpage-pagetext' => 'Pakigamit ang pormularyo sa ibaba upang makipag-ugnayan sa amin.',
+	'contactpage-legend' => 'Magpadala ng e-liham',
+	'contactpage-defsubject' => 'Mensahe ng pakikipag-ugnayan',
+	'contactpage-subject-and-sender' => '$1 (mula sa $2)',
+	'contactpage-fromname' => 'Pangalan mo: *',
+	'contactpage-fromaddress' => 'E-liham mo: **',
+	'contactpage-formfootnotes' => '* maaaring wala nito<br />
+** maaaring wala nito ngunit kailangan kung kailangan mo ng tugon',
+	'contactpage-fromname-required' => 'Pangalan mo:',
+	'contactpage-fromaddress-required' => 'E-liham mo:',
+	'contactpage-formfootnotes-required' => 'Kailangan ang lahat ng mga hanay.',
+	'contactpage-captcha' => "Upang makapagpadala ng mensahe, pakilutas ang \"hulihin ka\" o ''captcha'' ([[Special:Captcha/help|mas marami pang kabatiran]])",
+	'contactpage-captcha-failed' => 'Nabigo ang captcha! ([[Special:Captcha/help|mas marami pang kabatiran]])',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
