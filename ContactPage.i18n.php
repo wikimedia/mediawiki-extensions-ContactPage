@@ -694,9 +694,19 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'contact' => '관리자 연락',
+	'contactpage-desc' => '[[Special:Contact|방문자가 문의할 수 있도록 문의 양식을 추가]]',
+	'contactpage-title' => '문의하기',
 	'contactpage-legend' => '이메일 보내기',
+	'contactpage-subject-and-sender' => '$1 ($2이(가) 보냄)',
 	'contactpage-fromname' => '당신의 이름: *',
 	'contactpage-fromaddress' => '당신의 이메일 주소 : **',
+	'contactpage-formfootnotes' => '* 선택 사항<br />
+** 선택 사항이지만 답변을 원할 경우에 필요',
+	'contactpage-fromname-required' => '당신의 이름:',
+	'contactpage-fromaddress-required' => '당신의 이메일 주소:',
+	'contactpage-formfootnotes-required' => '모든 칸이 필수입력사항입니다.',
+	'contactpage-captcha' => '메시지를 보내려면 이 캡차를 풀어 주세요 ([[Special:Captcha/help|자세한 정보]])',
+	'contactpage-captcha-failed' => '캡차 검사 실패! ([[Special:Captcha/help|자세한 정보]])',
 );
 
 /** Ripoarisch (Ripoarisch)

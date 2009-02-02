@@ -49,6 +49,11 @@ $aliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Lower Sorbian (Dolnoserbski) */
+$aliases['dsb'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Greek (Ελληνικά) */
 $aliases['el'] = array(
 	'Contact' => array( 'Επαφή' ),
