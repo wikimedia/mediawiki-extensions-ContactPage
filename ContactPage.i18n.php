@@ -440,6 +440,29 @@ $messages['grc'] = array(
 	'contactpage-title' => 'Ἐπαφή',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'contact' => 'Kontaktsyte',
+	'contactpage' => 'Kontaktsyte',
+	'contactpage-desc' => '[[Special:Contact|Kontaktformular fir Bsuecher]]',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Mit däm Formular chasch is Nochrichte schicke.',
+	'contactpage-legend' => 'E-Mail abschicke',
+	'contactpage-defsubject' => 'Kontaktnochricht',
+	'contactpage-subject-and-sender' => '$1 (vu $2)',
+	'contactpage-fromname' => 'Dy Name: *',
+	'contactpage-fromaddress' => 'Dyy E-Mail-Adräss: **',
+	'contactpage-formfootnotes' => '* optional<br />
+** optional, wird aber bruucht wänn du ne Antwort witt',
+	'contactpage-fromname-required' => 'Dyy Name:',
+	'contactpage-fromaddress-required' => 'Dyy E-Mail-Adräss:',
+	'contactpage-formfootnotes-required' => 'Alli Fälder mien uusgfillt syy.',
+	'contactpage-captcha' => 'Zum d Nochricht schicke z chenne, les bitte s Captcha ([[Special:Captcha/help|meh Informatione]])',
+	'contactpage-captcha-failed' => 'Captcha-Tescht nit bstande! ([[Special:Captcha/help|meh Informatione]])',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */

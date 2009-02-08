@@ -121,6 +121,11 @@ $aliases['km'] = array(
 	'Contact' => array( 'ទំនាក់ទំនង' ),
 );
 
+/** Korean (한국어) */
+$aliases['ko'] = array(
+	'Contact' => array( '문의' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
@@ -149,6 +154,11 @@ $aliases['nds-nl'] = array(
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Contact' => array( 'Contactpagina' ),
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+$aliases['nn'] = array(
+	'Contact' => array( 'Kontakt' ),
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
