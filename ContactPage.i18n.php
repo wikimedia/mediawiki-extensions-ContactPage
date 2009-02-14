@@ -265,17 +265,22 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Omnipaedista
  */
 $messages['el'] = array(
 	'contact' => 'Σελίδα επαφών',
 	'contactpage' => 'Σελίδα επαφών',
+	'contactpage-desc' => '[[Special:Contact|Φόρμα επαφής για επισκέπτες]]',
 	'contactpage-title' => 'Επαφή',
+	'contactpage-legend' => 'Αποστολή e-mail',
+	'contactpage-defsubject' => 'Μήνυμα επαφής',
 	'contactpage-subject-and-sender' => '$1 (από $2)',
-	'contactpage-fromname' => 'το όνομα σας *',
-	'contactpage-fromaddress' => 'το ηλεκτρονικό ταχυδρομείο σας **',
-	'contactpage-fromname-required' => 'το όνομα σας',
-	'contactpage-fromaddress-required' => 'το ηλεκτρονικό σας ταχυδρομείο',
+	'contactpage-fromname' => 'Το όνομά σας: *',
+	'contactpage-fromaddress' => 'Το ηλεκτρονικό ταχυδρομείο σας: **',
+	'contactpage-fromname-required' => 'Το όνομά σας:',
+	'contactpage-fromaddress-required' => 'Το ηλεκτρονικό σας ταχυδρομείο:',
 	'contactpage-formfootnotes-required' => 'Όλα τα πεδία είναι υποχρεωτικά.',
+	'contactpage-captcha-failed' => 'Το τεστ Captcha απέτυχε! ([[Special:Captcha/help|περισσότερες πληροφορίες]])',
 );
 
 /** Esperanto (Esperanto)
@@ -302,12 +307,20 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Crazymadlover
  * @author Imre
  * @author לערי ריינהארט
  */
 $messages['es'] = array(
 	'contact' => 'Para contactar',
+	'contactpage' => 'Página de contacto',
+	'contactpage-title' => 'Contactar',
+	'contactpage-legend' => 'Enviar correo electrónico',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-fromname' => 'Su nombre: *',
+	'contactpage-fromaddress' => 'Su correo electrónico: **',
+	'contactpage-fromname-required' => 'Su nombre:',
+	'contactpage-fromaddress-required' => 'Su correo electrónico:',
 );
 
 /** Estonian (Eesti)
