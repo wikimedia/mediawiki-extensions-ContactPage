@@ -101,6 +101,11 @@ $aliases['hu'] = array(
 	'Contact' => array( 'Kapcsolat' ),
 );
 
+/** Interlingua (Interlingua) */
+$aliases['ia'] = array(
+	'Contact' => array( 'Contacto' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'Contact' => array( 'Kontak' ),
@@ -231,5 +236,10 @@ $aliases['tet'] = array(
 /** Thai (ไทย) */
 $aliases['th'] = array(
 	'Contact' => array( 'ติดต่อ' ),
+);
+
+/** Tagalog (Tagalog) */
+$aliases['tl'] = array(
+	'Contact' => array( 'Makipag-ugnayan' ),
 );
 
