@@ -150,6 +150,29 @@ $messages['bg'] = array(
 	'contactpage-captcha-failed' => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'contact' => 'Stranica za kontakt',
+	'contactpage' => 'Stranica za kontakt',
+	'contactpage-desc' => '[[Special:Contact|Kontaktni obrazac za posjetioce]]',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Molimo koristite obrazac ispod da nas kontaktirate.',
+	'contactpage-legend' => 'Pošalji e-mail',
+	'contactpage-defsubject' => 'Poruka kontakta',
+	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-fromname' => 'Vaše ime: *',
+	'contactpage-fromaddress' => 'Vaš e-mail: **',
+	'contactpage-formfootnotes' => '* opcionalno<br />
+** opcionalno ali je poželjno ako želite odgovor',
+	'contactpage-fromname-required' => 'Vaše ime:',
+	'contactpage-fromaddress-required' => 'Vaš e-mail:',
+	'contactpage-formfootnotes-required' => 'Sva polja su neophodna.',
+	'contactpage-captcha' => 'Da bi ste poslali poruku, molimo da riješite captcha ([[Special:Captcha/help|više informacija]])',
+	'contactpage-captcha-failed' => 'Neuspješan captcha test! ([[Special:Captcha/help|više informacija]])',
+);
+
 /** Catalan (Català)
  * @author SMP
  */
@@ -1076,9 +1099,26 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Carla404
+ * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'contact' => 'Página de contato',
+	'contactpage' => 'Página de Contato',
+	'contactpage-desc' => '[[Special:Contact|Formulário de contato para visitantes]]',
+	'contactpage-title' => 'Contato',
+	'contactpage-pagetext' => 'Por favor, use o formulário abaixo para nos contatar.',
+	'contactpage-legend' => 'Enviar e-mail',
+	'contactpage-defsubject' => 'Mensagem de Contato',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-fromname' => 'O seu nome: *',
+	'contactpage-fromaddress' => 'O seu email: **',
+	'contactpage-formfootnotes' => '* opcional<br />
+** opcional, mas necessário se quiser uma resposta',
+	'contactpage-fromname-required' => 'O seu nome:',
+	'contactpage-fromaddress-required' => 'O seu e-mail:',
+	'contactpage-formfootnotes-required' => 'Todos os campos são obrigatórios.',
+	'contactpage-captcha' => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
+	'contactpage-captcha-failed' => 'Teste captcha falhou! ([[Special:Captcha/help|mais informação]])',
 );
 
 /** Romani (Romani)
