@@ -15,9 +15,6 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
-global $IP; #needed when called from the autoloader
-require_once("$IP/includes/UserMailer.php");
-
 /**
  * Provides the contact form
  * @ingroup SpecialPage
@@ -271,16 +268,17 @@ class EmailContactForm {
 
 		wfDebug( __METHOD__ . ": start\n" );
 
-		$to = new MailAddress( $this->target );
-		$replyto = NULL;
+		$targetAddress = new MailAddress( $this->target );
+		$replyto = null;
+		$contactSender = new MailAddress( $csender, $cname );
 
 		if ( !$this->fromaddress ) {
-			$from = new MailAddress( $csender, $cname );
-		} else if ( $wgUserEmailUseReplyTo ) {
-			$from = new MailAddress( $csender, $cname );
-			$replyto = new MailAddress( $this->fromaddress, $this->fromname );
+			$submitterAddress = $contactSender;
 		} else {
-			$from = new MailAddress( $this->fromaddress, $this->fromname );
+			$submitterAddress = new MailAddress( $this->fromaddress, $this->fromname );
+			if ( $wgUserEmailUseReplyTo ) {
+				$replyto = $submitterAddress;
+			}
 		}
 
 		$subject = trim( $this->subject );
@@ -295,47 +293,48 @@ class EmailContactForm {
 			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $this->fromaddress );
 		}
 
-		if( wfRunHooks( 'ContactForm', array( &$to, &$replyto, &$subject, &$this->text ) ) ) {
+		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$this->text ) ) ) {
+			wfDebug( __METHOD__ . ": aborted by hook\n" );
+			return;
+		}
 
-			wfDebug( __METHOD__ . ": sending mail from ".$from->toString()." to ".$to->toString()." replyto ".( $replyto == null ? '-/-' : $replyto->toString() )."\n" );
+		wfDebug( __METHOD__ . ": sending mail from ".$submitterAddress->toString().
+			" to ".$targetAddress->toString().
+			" replyto ".( $replyto == null ? '-/-' : $replyto->toString() )."\n" );
 
-			#HACK: in MW 1.9, replyto must be a string, in MW 1.10 it must be an object!
-			$ver = preg_replace( '![^\d._+]!', '', $GLOBALS['wgVersion'] );
-			$replyaddr = $replyto == null
-					? NULL : version_compare( $ver, '1.10', '<' )
-						? $replyto->toString() : $replyto;
+		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $this->text, $replyto );
 
-			$mailResult = userMailer( $to, $from, $subject, $this->text, $replyaddr );
+		if( WikiError::isError( $mailResult ) ) {
+			$wgOut->addWikiMsg( 'usermailererror' ) . $mailResult->getMessage();
+			wfDebug( __METHOD__ . ": got error from UserMailer: " . $mailResult->getMessage() . "\n" );
+			return;
+		}
 
-			if( WikiError::isError( $mailResult ) ) {
-				$wgOut->addWikiMsg( 'usermailererror' ) . $mailResult->getMessage();
-			} else {
-				// if the user requested a copy of this mail, do this now,
-				// unless they are emailing themselves, in which case one copy of the message is sufficient.
-				if( $this->cc_me && $replyto ) {
-					$cc_subject = wfMsg('emailccsubject', $this->target->getName(), $subject);
-					if( wfRunHooks( 'ContactForm', array( &$from, &$replyto, &$cc_subject, &$this->text ) ) ) {
-						wfDebug( __METHOD__ . ": sending cc mail from ".$from->toString()." to ".$replyto->toString()."\n" );
-						$ccResult = userMailer( $replyto, $from, $cc_subject, $this->text );
-						if( WikiError::isError( $ccResult ) ) {
-							// At this stage, the user's CC mail has failed, but their
-							// original mail has succeeded. It's unlikely, but still, what to do?
-							// We can either show them an error, or we can say everything was fine,
-							// or we can say we sort of failed AND sort of succeeded. Of these options,
-							// simply saying there was an error is probably best.
-							$wgOut->addWikiText( wfMsg( 'usermailererror' ) . $ccResult );
-							return;
-						}
-					}
+		// if the user requested a copy of this mail, do this now,
+		// unless they are emailing themselves, in which case one copy of the message is sufficient.
+		if( $this->cc_me && $this->fromaddress ) {
+			$cc_subject = wfMsg('emailccsubject', $this->target->getName(), $subject);
+			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$this->text ) ) ) {
+				wfDebug( __METHOD__ . ": sending cc mail from ".$contactSender->toString().
+					" to ".$submitterAddress->toString()."\n" );
+				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $this->text );
+				if( WikiError::isError( $ccResult ) ) {
+					// At this stage, the user's CC mail has failed, but their
+					// original mail has succeeded. It's unlikely, but still, what to do?
+					// We can either show them an error, or we can say everything was fine,
+					// or we can say we sort of failed AND sort of succeeded. Of these options,
+					// simply saying there was an error is probably best.
+					$wgOut->addWikiText( wfMsg( 'usermailererror' ) . $ccResult );
+					return;
 				}
-
-				wfDebug( __METHOD__ . ": success\n" );
-
-				$titleObj = SpecialPage::getTitleFor( 'Contact' );
-				$wgOut->redirect( $titleObj->getFullURL( "action=success" ) );
-				wfRunHooks( 'ContactFromComplete', array( $to, $replyto, $subject, $this->text ) );
 			}
 		}
+
+		wfDebug( __METHOD__ . ": success\n" );
+
+		$titleObj = SpecialPage::getTitleFor( 'Contact' );
+		$wgOut->redirect( $titleObj->getFullURL( "action=success" ) );
+		wfRunHooks( 'ContactFromComplete', array( $targetAddress, $replyto, $subject, $this->text ) );
 
 		wfDebug( __METHOD__ . ": end\n" );
 	}
