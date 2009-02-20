@@ -182,6 +182,7 @@ $messages['ca'] = array(
 
 /** Czech (Česky)
  * @author Matěj Grabovský
+ * @author Mormegil
  * @author לערי ריינהארט
  */
 $messages['cs'] = array(
@@ -189,12 +190,19 @@ $messages['cs'] = array(
 	'contactpage' => 'Kontaktní stránka',
 	'contactpage-desc' => '[[Special:Contact|Kontaktní formulář pro návštěvníky]]',
 	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Pomocí níže zobrazeného formuláře se s námi můžete spojit.',
+	'contactpage-legend' => 'Poslat e-mail',
 	'contactpage-defsubject' => 'Zpráva',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
-	'contactpage-fromname' => 'vaše jméno *',
-	'contactpage-fromaddress' => 'váš email **',
+	'contactpage-fromname' => 'Vaše jméno: *',
+	'contactpage-fromaddress' => 'Váš e-mail: **',
 	'contactpage-formfootnotes' => '&#042; volitelné<br />
 &#042;&#042; volitelné, ale potřebné pokud chcete odpověď',
+	'contactpage-fromname-required' => 'Vaše jméno:',
+	'contactpage-fromaddress-required' => 'Váš e-mail:',
+	'contactpage-formfootnotes-required' => 'Všechna pole musí být vyplněna.',
+	'contactpage-captcha' => 'Abyste mohli odeslat zprávu, musíte vyřešit CAPTCHA ([[Special:Captcha/help|vysvětlení]])',
+	'contactpage-captcha-failed' => '{{GENDER:Neuspěl|Neuspěla|Neuspěli}} jste v testu CAPTCHA! ([[Special:Captcha/help|vysvětlení]])',
 );
 
 /** Welsh (Cymraeg)
@@ -332,6 +340,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Imre
+ * @author Sanbec
  * @author לערי ריינהארט
  */
 $messages['es'] = array(
@@ -339,6 +348,7 @@ $messages['es'] = array(
 	'contactpage' => 'Página de contacto',
 	'contactpage-title' => 'Contactar',
 	'contactpage-legend' => 'Enviar correo electrónico',
+	'contactpage-defsubject' => 'Mensaje de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname' => 'Su nombre: *',
 	'contactpage-fromaddress' => 'Su correo electrónico: **',
@@ -450,13 +460,13 @@ $messages['fr'] = array(
  * @author Xosé
  */
 $messages['gl'] = array(
-	'contact' => 'Páxina de Contacto',
-	'contactpage' => 'Páxina de Contacto',
+	'contact' => 'Páxina de contacto',
+	'contactpage' => 'Páxina de contacto',
 	'contactpage-desc' => '[[Special:Contact|Formulario de contacto para os visitantes]]',
 	'contactpage-title' => 'Contacto',
 	'contactpage-pagetext' => 'Use o formulario de embaixo para contactar con nós.',
 	'contactpage-legend' => 'Enviar un correo electrónico',
-	'contactpage-defsubject' => 'Mensaxe de Contacto',
+	'contactpage-defsubject' => 'Mensaxe de contacto',
 	'contactpage-subject-and-sender' => '$1 (desde $2)',
 	'contactpage-fromname' => 'O seu nome: *',
 	'contactpage-fromaddress' => 'O seu correo electrónico: **',
@@ -466,7 +476,7 @@ $messages['gl'] = array(
 	'contactpage-fromaddress-required' => 'O seu correo electrónico:',
 	'contactpage-formfootnotes-required' => 'Requírense todos os campos.',
 	'contactpage-captcha' => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
-	'contactpage-captcha-failed' => 'Fallou a proba Captcha ([[Special:Captcha/help|máis información]])',
+	'contactpage-captcha-failed' => 'Fallou a proba captcha! ([[Special:Captcha/help|máis información]])',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -687,7 +697,7 @@ $messages['ja'] = array(
 	'contactpage-pagetext' => '以下のフォームを利用すると、私たちにメッセージを送信することができます。',
 	'contactpage-legend' => '電子メールを送る',
 	'contactpage-defsubject' => '連絡事項',
-	'contactpage-subject-and-sender' => '$1 （$2 より）',
+	'contactpage-subject-and-sender' => '$1（$2 より）',
 	'contactpage-fromname' => 'あなたのお名前: *',
 	'contactpage-fromaddress' => 'あなたの電子メールアドレス: **',
 	'contactpage-formfootnotes' => '* 任意記入<br />
@@ -937,8 +947,8 @@ $messages['nl'] = array(
 	'contactpage-fromname-required' => 'Uw naam:',
 	'contactpage-fromaddress-required' => 'Uw e-mailadres:',
 	'contactpage-formfootnotes-required' => 'Alle velden zijn verplicht.',
-	'contactpage-captcha' => 'Om het bericht te versturen, moet je eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
-	'contactpage-captcha-failed' => 'Captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
+	'contactpage-captcha' => 'Om het bericht te versturen, moet u eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
+	'contactpage-captcha-failed' => 'De captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
