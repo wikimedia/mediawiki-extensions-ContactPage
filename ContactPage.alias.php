@@ -59,6 +59,11 @@ $aliases['el'] = array(
 	'Contact' => array( 'Επαφή' ),
 );
 
+/** Esperanto (Esperanto) */
+$aliases['eo'] = array(
+	'Contact' => array( 'Kontakti' ),
+);
+
 /** Spanish (Español) */
 $aliases['es'] = array(
 	'Contact' => array( 'Contactar' ),

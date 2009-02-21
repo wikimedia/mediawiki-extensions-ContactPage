@@ -632,6 +632,7 @@ $messages['ia'] = array(
 	'contactpage-desc' => '[[Special:Contact|Formulario de contacto pro visitatores]]',
 	'contactpage-title' => 'Contacto',
 	'contactpage-pagetext' => 'Per favor usa le formulario infra pro contactar nos.',
+	'contactpage-legend' => 'Inviar e-mail',
 	'contactpage-defsubject' => 'Message de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname' => 'Tu nomine: *',
@@ -887,6 +888,29 @@ $messages['mr'] = array(
 	'contactpage-captcha-failed' => 'कॅपचा परीक्षा पूर्ण झालेली नाही! ([[Special:Captcha/help|अधिक माहिती]])',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Aviator
+ */
+$messages['ms'] = array(
+	'contact' => 'Laman hubungan',
+	'contactpage' => 'Laman hubungan',
+	'contactpage-desc' => '[[Special:Contact|Borang hubungan untuk pengunjung]]',
+	'contactpage-title' => 'Hubungi kami',
+	'contactpage-pagetext' => 'Sila gunakan borang di bawah untuk menghubungi kami.',
+	'contactpage-legend' => 'Kirim e-mel',
+	'contactpage-defsubject' => 'Pesanan',
+	'contactpage-subject-and-sender' => '$1 (daripada $2)',
+	'contactpage-fromname' => 'Nama anda: *',
+	'contactpage-fromaddress' => 'E-mel anda: **',
+	'contactpage-formfootnotes' => '* pilihan<br/>
+** perlu diisi jika mahu dibalas',
+	'contactpage-fromname-required' => 'Nama anda:',
+	'contactpage-fromaddress-required' => 'E-mel anda:',
+	'contactpage-formfootnotes-required' => 'Semua ruangan wajib diisi.',
+	'contactpage-captcha' => 'Untuk mengirim pesanan ini, sila selesaikan ujian CAPTCHA yang diberikan ([[Special:Captcha/help|maklumat lanjut]])',
+	'contactpage-captcha-failed' => 'Anda tidak melepasi ujian CAPTCHA! ([[Special:Captcha/help|maklumat lanjut]])',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
@@ -1034,8 +1058,8 @@ $messages['oc'] = array(
  * @author Wpedzich
  */
 $messages['pl'] = array(
-	'contact' => 'StronaKontaktowa',
-	'contactpage' => 'StronaKontaktowa',
+	'contact' => 'Strona kontaktowa',
+	'contactpage' => 'Strona kontaktowa',
 	'contactpage-desc' => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
@@ -1198,12 +1222,12 @@ $messages['ru'] = array(
 	'contactpage-legend' => 'Отправить письмо',
 	'contactpage-defsubject' => 'Сообщение',
 	'contactpage-subject-and-sender' => '$1 (от $2)',
-	'contactpage-fromname' => 'ваше имя *',
-	'contactpage-fromaddress' => 'ваш эл. адрес **',
+	'contactpage-fromname' => 'Ваше имя: *',
+	'contactpage-fromaddress' => 'Ваш адрес эл. почты: **',
 	'contactpage-formfootnotes' => '* необязательно<br />
 ** необязательно, но требуется для получения ответа',
-	'contactpage-fromname-required' => 'ваше имя',
-	'contactpage-fromaddress-required' => 'ваш адреса электронной почты',
+	'contactpage-fromname-required' => 'Ваше имя:',
+	'contactpage-fromaddress-required' => 'Ваш адрес эл. почты:',
 	'contactpage-formfootnotes-required' => 'Все поля обязательно должны быть заполнены.',
 	'contactpage-captcha' => 'Чтобы отправить сообщение, пожалуйста, пройдите проверку CAPTCHA ([[Special:Captcha/help|что это?]])',
 	'contactpage-captcha-failed' => 'Проверка CAPTCHA не пройдена! ([[Special:Captcha/help|что это?]])',
@@ -1386,6 +1410,15 @@ $messages['tr'] = array(
  */
 $messages['vec'] = array(
 	'contactpage-desc' => '[[Special:Contact|Modulo de contatto par i visitadori]]',
+	'contactpage-defsubject' => 'Messajo',
+	'contactpage-subject-and-sender' => '$1 (da $2)',
+	'contactpage-fromname' => 'El to nome: *',
+	'contactpage-fromaddress' => 'La to e-mail: **',
+	'contactpage-formfootnotes' => '* canpo mia obligatorio<br />
+** canpo obligatorio se te voli na risposta',
+	'contactpage-fromname-required' => 'El to nome:',
+	'contactpage-fromaddress-required' => 'La to e-mail:',
+	'contactpage-formfootnotes-required' => 'Tuti i canpi i xe obligatori.',
 );
 
 /** Vietnamese (Tiếng Việt)
