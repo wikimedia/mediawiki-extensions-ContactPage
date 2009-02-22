@@ -130,6 +130,30 @@ $messages['bcl'] = array(
 	'contactpage-fromaddress' => "''e''-surat mo **",
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'contact' => 'Старонка кантакту',
+	'contactpage' => 'Старонка кантакту',
+	'contactpage-desc' => '[[Special:Contact|Кантактная форма для наведвальнікаў]]',
+	'contactpage-title' => 'Кантакт',
+	'contactpage-pagetext' => 'Калі ласка, карыстайцеся формай ніжэй, каб зьвязацца за намі.',
+	'contactpage-legend' => 'Даслаць ліст па электроннай пошце',
+	'contactpage-defsubject' => 'Паведамленьне',
+	'contactpage-subject-and-sender' => '$1 (ад $2)',
+	'contactpage-fromname' => 'Ваша імя: *',
+	'contactpage-fromaddress' => 'Ваш Адрас электроннай пошты: **',
+	'contactpage-formfootnotes' => '* неабавязкова<br />
+** неабавязкова, але патрабуецца, калі Вы жадаеце атрымаць адказ',
+	'contactpage-fromname-required' => 'Ваша імя:',
+	'contactpage-fromaddress-required' => 'Ваш адрас электроннай пошты:',
+	'contactpage-formfootnotes-required' => 'Усе палі павінны быць запоўнены.',
+	'contactpage-captcha' => 'Каб даслаць паведамленьне, калі ласка, прайдзіце праверку CAPTCHA ([[Special:Captcha/help|падрабязьней]])',
+	'contactpage-captcha-failed' => 'Праверка CAPTCHA ня пройдзена! ([[Special:Captcha/help|падрабязьней]])',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  */
@@ -1409,7 +1433,12 @@ $messages['tr'] = array(
  * @author Candalua
  */
 $messages['vec'] = array(
+	'contact' => 'Contatto',
+	'contactpage' => 'Contatto',
 	'contactpage-desc' => '[[Special:Contact|Modulo de contatto par i visitadori]]',
+	'contactpage-title' => 'Contatto',
+	'contactpage-pagetext' => 'Par piaser, par contatarne doparè el mòdulo qua soto.',
+	'contactpage-legend' => 'Manda e-mail',
 	'contactpage-defsubject' => 'Messajo',
 	'contactpage-subject-and-sender' => '$1 (da $2)',
 	'contactpage-fromname' => 'El to nome: *',
@@ -1419,6 +1448,8 @@ $messages['vec'] = array(
 	'contactpage-fromname-required' => 'El to nome:',
 	'contactpage-fromaddress-required' => 'La to e-mail:',
 	'contactpage-formfootnotes-required' => 'Tuti i canpi i xe obligatori.',
+	'contactpage-captcha' => 'Par mandar el messajo, par piaser risolvi el captcha ([[Special:Captcha/help|ulteriori informassion]])',
+	'contactpage-captcha-failed' => 'Test captcha mia riussìo! ([[Special:Captcha/help|ulteriori informassion]])',
 );
 
 /** Vietnamese (Tiếng Việt)
