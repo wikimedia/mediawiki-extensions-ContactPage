@@ -133,18 +133,19 @@ $messages['bcl'] = array(
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Red Winged Duck
  */
 $messages['be-tarask'] = array(
 	'contact' => 'Старонка кантакту',
 	'contactpage' => 'Старонка кантакту',
 	'contactpage-desc' => '[[Special:Contact|Кантактная форма для наведвальнікаў]]',
 	'contactpage-title' => 'Кантакт',
-	'contactpage-pagetext' => 'Калі ласка, карыстайцеся формай ніжэй, каб зьвязацца за намі.',
+	'contactpage-pagetext' => 'Калі ласка, карыстайцеся формай ніжэй, каб зьвязацца з намі.',
 	'contactpage-legend' => 'Даслаць ліст па электроннай пошце',
 	'contactpage-defsubject' => 'Паведамленьне',
 	'contactpage-subject-and-sender' => '$1 (ад $2)',
 	'contactpage-fromname' => 'Ваша імя: *',
-	'contactpage-fromaddress' => 'Ваш Адрас электроннай пошты: **',
+	'contactpage-fromaddress' => 'Ваш адрас электроннай пошты: **',
 	'contactpage-formfootnotes' => '* неабавязкова<br />
 ** неабавязкова, але патрабуецца, калі Вы жадаеце атрымаць адказ',
 	'contactpage-fromname-required' => 'Ваша імя:',
