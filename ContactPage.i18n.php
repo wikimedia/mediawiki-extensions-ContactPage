@@ -203,6 +203,12 @@ $messages['bs'] = array(
  */
 $messages['ca'] = array(
 	'contactpage-title' => 'Contacte',
+	'contactpage-legend' => 'Envia missatge',
+	'contactpage-subject-and-sender' => '$1 (des de $2)',
+	'contactpage-fromname' => 'El vostre nom: *',
+	'contactpage-fromaddress' => 'El vostre correu-e: **',
+	'contactpage-formfootnotes' => '* opcional<br />
+** opcional però necessari si voleu una resposta',
 );
 
 /** Czech (Česky)
@@ -970,10 +976,17 @@ $messages['nds'] = array(
 	'contact' => 'Kontaktsied',
 	'contactpage' => 'Kontaktsied',
 	'contactpage-title' => 'Kontakt',
+	'contactpage-legend' => 'E-Mail afschicken',
 	'contactpage-defsubject' => 'Kontaktnaricht',
 	'contactpage-subject-and-sender' => '$1 (vun $2)',
 	'contactpage-fromname' => 'Dien Naam: *',
 	'contactpage-fromaddress' => 'Dien E-Mail-Adress: **',
+	'contactpage-formfootnotes' => '* optional<br />
+** optional, aver nödig, wenn du en Antwoord hebben wullt',
+	'contactpage-fromname-required' => 'Dien Naam:',
+	'contactpage-fromaddress-required' => 'Dien E-Mail:',
+	'contactpage-formfootnotes-required' => 'All Feller mööt utfüllt warrn.',
+	'contactpage-captcha-failed' => 'Captcha-Test is scheefgahn! ([[Special:Captcha/help|mehr Infos]])',
 );
 
 /** Dutch (Nederlands)
