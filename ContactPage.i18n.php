@@ -869,6 +869,29 @@ $messages['lb'] = array(
 	'contactpage-captcha-failed' => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
 );
 
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$messages['li'] = array(
+	'contact' => 'Kóntak',
+	'contactpage' => 'Kóntakpaasj',
+	'contactpage-desc' => '[[Special:Contact|Kóntakformuleer veur bezeuker]]',
+	'contactpage-title' => 'Kóntak',
+	'contactpage-pagetext' => "Gebroek 't óngerstäöndje formeleer óm kóntak mit ós óp te nömme.",
+	'contactpage-legend' => 'Sjik e-mail',
+	'contactpage-defsubject' => 'Kóntakberich',
+	'contactpage-subject-and-sender' => '$1 (ven $2)',
+	'contactpage-fromname' => 'Diene neaam: *',
+	'contactpage-fromaddress' => 'Die-t e-mailadres: **',
+	'contactpage-formfootnotes' => '* keuzevrie<br />
+** keuzevrie, mer beneudj es antjwaord gewönsj is',
+	'contactpage-fromname-required' => 'Diene naam:',
+	'contactpage-fromaddress-required' => 'Dien e-mailadres:',
+	'contactpage-formfootnotes-required' => 'Al vèljer zeen verplich.',
+	'contactpage-captcha' => 'Óm get te sjikke, mósse de captcha óplósse ([[Special:Captcha/help|mieë weite]])',
+	'contactpage-captcha-failed' => 'Captchatès mislök ([[Special:Captcha/help|mieë weite]])',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
@@ -1269,6 +1292,29 @@ $messages['ru'] = array(
 	'contactpage-formfootnotes-required' => 'Все поля обязательно должны быть заполнены.',
 	'contactpage-captcha' => 'Чтобы отправить сообщение, пожалуйста, пройдите проверку CAPTCHA ([[Special:Captcha/help|что это?]])',
 	'contactpage-captcha-failed' => 'Проверка CAPTCHA не пройдена! ([[Special:Captcha/help|что это?]])',
+);
+
+/** Yakut (Саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'contact' => 'Ситимнэһии сирэйэ',
+	'contactpage' => 'Алтыһыы сирэйэ',
+	'contactpage-desc' => '[[Special:Contact|Ыалдьыттарга аналлаах фуорма]]',
+	'contactpage-title' => 'Контакт',
+	'contactpage-pagetext' => 'Биһигини кытта ситимнэһэргэ бу фуорманы туһан.',
+	'contactpage-legend' => 'Суругу ыыт',
+	'contactpage-defsubject' => 'Сурук',
+	'contactpage-subject-and-sender' => '$1 (от $2)',
+	'contactpage-fromname' => 'Эн аатыҥ: *',
+	'contactpage-fromaddress' => 'Эн эл. почтаҥ аадырыһа: **',
+	'contactpage-formfootnotes' => '* булугуччута суох<br />
+** булугуччута суох гынан баран эппиэт эрэйэр буоллаххына наада',
+	'contactpage-fromname-required' => 'Эн аатыҥ:',
+	'contactpage-fromaddress-required' => 'Эн эл. почтаҥ аадырыһа:',
+	'contactpage-formfootnotes-required' => 'Бары түннүктэр булгуччу толоруллуохтаахтар.',
+	'contactpage-captcha' => 'Сурук ыытарга CAPTCHA бэрэбиэркэтин ааһыахтааххын ([[Special:Captcha/help|ол туһунан сиһилии]])',
+	'contactpage-captcha-failed' => 'CAPTCHA бэрэбиэркэтэ ааһыллыбатах! ([[Special:Captcha/help|ол туһунан сиһилии]])',
 );
 
 /** Slovak (Slovenčina)
