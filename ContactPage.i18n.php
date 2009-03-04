@@ -838,6 +838,13 @@ Don et einfach norr_ens versöke.
 ([[Special:Captcha/help|Mieh Enfommazjuhne]])',
 );
 
+/** Cornish (Kernewek)
+ * @author Kw-Moon
+ */
+$messages['kw'] = array(
+	'contactpage-fromaddress-required' => 'Dha e-bost:',
+);
+
 /** Latin (Latina)
  * @author SPQRobin
  * @author UV
@@ -1124,14 +1131,14 @@ $messages['pl'] = array(
 	'contactpage-desc' => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
-	'contactpage-legend' => 'Wyślij e-mail',
+	'contactpage-legend' => 'Wyślij e‐mail',
 	'contactpage-defsubject' => 'Wiadomość',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
 	'contactpage-fromname' => 'Imię: *',
-	'contactpage-fromaddress' => 'Twój e-mail: **',
+	'contactpage-fromaddress' => 'Twój e‐mail: **',
 	'contactpage-formfootnotes' => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
 	'contactpage-fromname-required' => 'Imię:',
-	'contactpage-fromaddress-required' => 'Twój adres e-mail:',
+	'contactpage-fromaddress-required' => 'Twój adres e‐mail:',
 	'contactpage-formfootnotes-required' => 'Wypełnienie wszystkich pól jest obowiązkowe.',
 	'contactpage-captcha' => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
 	'contactpage-captcha-failed' => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
