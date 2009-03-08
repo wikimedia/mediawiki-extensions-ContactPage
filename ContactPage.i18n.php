@@ -63,13 +63,19 @@ $messages['af'] = array(
 	'contactpage' => 'Kontak bladsy',
 	'contactpage-desc' => '[[Special:Contact|Kontak vorm vir besoekers]]',
 	'contactpage-title' => 'Kontak',
+	'contactpage-pagetext' => 'Gebruik die onderstaande vorm om ons te kontak.',
+	'contactpage-legend' => 'Stuur E-pos',
 	'contactpage-defsubject' => 'Kontak boodskap',
 	'contactpage-subject-and-sender' => '$1 (van $2)',
-	'contactpage-fromname' => 'u naam *',
-	'contactpage-fromaddress' => 'u e-posadres **',
-	'contactpage-fromname-required' => 'u naam',
-	'contactpage-fromaddress-required' => 'u e-posadres',
+	'contactpage-fromname' => 'U naam *',
+	'contactpage-fromaddress' => 'U e-posadres **',
+	'contactpage-formfootnotes' => "* opsioneel<br />
+** opsioneel, maar noodsaaklik as u 'n antwoord wil ontvang",
+	'contactpage-fromname-required' => 'U naam:',
+	'contactpage-fromaddress-required' => 'U e-posadres:',
 	'contactpage-formfootnotes-required' => 'Alle velde is verpligtend.',
+	'contactpage-captcha' => 'Los die captch op voor u die boodskap kan stuur ([[Special:Captcha/help|meer inligting]])',
+	'contactpage-captcha-failed' => 'Die captcha-toets het gefaal! ([[Special:Captcha/help|meer inligting]])',
 );
 
 /** Arabic (العربية)
@@ -1005,7 +1011,9 @@ $messages['nap'] = array(
 $messages['nds'] = array(
 	'contact' => 'Kontaktsied',
 	'contactpage' => 'Kontaktsied',
+	'contactpage-desc' => '[[Special:Contact|Kontaktformular för Besökers]]',
 	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Över dit Formular kannst du uns Narichten tostüern.',
 	'contactpage-legend' => 'E-Mail afschicken',
 	'contactpage-defsubject' => 'Kontaktnaricht',
 	'contactpage-subject-and-sender' => '$1 (vun $2)',
@@ -1016,6 +1024,7 @@ $messages['nds'] = array(
 	'contactpage-fromname-required' => 'Dien Naam:',
 	'contactpage-fromaddress-required' => 'Dien E-Mail:',
 	'contactpage-formfootnotes-required' => 'All Feller mööt utfüllt warrn.',
+	'contactpage-captcha' => 'Dat du dien Naricht afschicken kannst, löös dit Captcha ([[Special:Captcha/help|mehr Infos]])',
 	'contactpage-captcha-failed' => 'Captcha-Test is scheefgahn! ([[Special:Captcha/help|mehr Infos]])',
 );
 
