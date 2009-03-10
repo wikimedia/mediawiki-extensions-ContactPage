@@ -383,14 +383,19 @@ $messages['eo'] = array(
 $messages['es'] = array(
 	'contact' => 'Para contactar',
 	'contactpage' => 'Página de contacto',
+	'contactpage-desc' => '[[Special:Contact|Formulario de contacto para visitantes]]',
 	'contactpage-title' => 'Contactar',
+	'contactpage-pagetext' => 'Por favor use el formulario de abajo para contactarnos.',
 	'contactpage-legend' => 'Enviar correo electrónico',
 	'contactpage-defsubject' => 'Mensaje de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname' => 'Su nombre: *',
 	'contactpage-fromaddress' => 'Su correo electrónico: **',
+	'contactpage-formfootnotes' => '* opcional<br />
+** opcional pero necesario si deseas una respuesta',
 	'contactpage-fromname-required' => 'Su nombre:',
 	'contactpage-fromaddress-required' => 'Su correo electrónico:',
+	'contactpage-formfootnotes-required' => 'Todos los campos son requeridos.',
 );
 
 /** Estonian (Eesti)
