@@ -605,16 +605,24 @@ $messages['hi'] = array(
 
 /** Croatian (Hrvatski)
  * @author Dnik
+ * @author SpeedyGonsales
  */
 $messages['hr'] = array(
+	'contact' => 'Stranica za kontakt',
+	'contactpage' => 'Stranica za kontakt',
+	'contactpage-desc' => '[[Special:Contact|Obrazac za posjetitelje]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Molimo, koristite ovaj obrazac za kontakt s nama.',
+	'contactpage-legend' => 'Pošalji e-mail',
 	'contactpage-defsubject' => 'Poruka za kontakt',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
-	'contactpage-fromname' => 'Vaše ime *',
-	'contactpage-fromaddress' => 'Vaš e-mail **',
+	'contactpage-fromname' => 'Vaše ime: *',
+	'contactpage-fromaddress' => 'Vaš e-mail: **',
 	'contactpage-formfootnotes' => '* neobavezno<br />
 ** neobavezno, ali potrebno ako želite odgovor',
+	'contactpage-fromname-required' => 'Vaše ime:',
+	'contactpage-fromaddress-required' => 'Vaš e-mail:',
+	'contactpage-formfootnotes-required' => 'Sva polja su obvezna.',
 	'contactpage-captcha' => 'Da biste poslali poruku, molimo da u svrhu prevencije spama, prepišete simbole ([[Special:Captcha/help|više informacija]])',
 	'contactpage-captcha-failed' => 'Antispam-test nije uspio! ([[Special:Captcha/help|više informacija]])',
 );
