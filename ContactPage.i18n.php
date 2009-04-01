@@ -340,6 +340,7 @@ $messages['el'] = array(
 	'contactpage' => 'Σελίδα επαφών',
 	'contactpage-desc' => '[[Special:Contact|Φόρμα επαφής για επισκέπτες]]',
 	'contactpage-title' => 'Επαφή',
+	'contactpage-pagetext' => 'Παρακαλούμε χρησιμοποιείστε την παρακάτω φόρμα για να επικοινωνήσετε μαζί μας.',
 	'contactpage-legend' => 'Αποστολή e-mail',
 	'contactpage-defsubject' => 'Μήνυμα επαφής',
 	'contactpage-subject-and-sender' => '$1 (από $2)',
@@ -969,6 +970,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Aurora
  * @author Aviator
  */
 $messages['ms'] = array(
@@ -982,7 +984,7 @@ $messages['ms'] = array(
 	'contactpage-subject-and-sender' => '$1 (daripada $2)',
 	'contactpage-fromname' => 'Nama anda: *',
 	'contactpage-fromaddress' => 'E-mel anda: **',
-	'contactpage-formfootnotes' => '* pilihan<br/>
+	'contactpage-formfootnotes' => '* pilihan<br />
 ** perlu diisi jika mahu dibalas',
 	'contactpage-fromname-required' => 'Nama anda:',
 	'contactpage-fromaddress-required' => 'E-mel anda:',
@@ -1539,6 +1541,17 @@ $messages['vec'] = array(
 	'contactpage-formfootnotes-required' => 'Tuti i canpi i xe obligatori.',
 	'contactpage-captcha' => 'Par mandar el messajo, par piaser risolvi el captcha ([[Special:Captcha/help|ulteriori informassion]])',
 	'contactpage-captcha-failed' => 'Test captcha mia riussìo! ([[Special:Captcha/help|ulteriori informassion]])',
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'contactpage-legend' => 'Oigeta e-kirjeine',
+	'contactpage-defsubject' => 'Tedotuz',
+	'contactpage-subject-and-sender' => '$1 (oigendai: $2)',
+	'contactpage-fromname' => 'Teiden nimi: *',
+	'contactpage-fromaddress' => 'Teiden e-počtan aderes: **',
 );
 
 /** Vietnamese (Tiếng Việt)
