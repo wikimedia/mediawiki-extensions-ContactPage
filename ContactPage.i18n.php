@@ -810,14 +810,18 @@ $messages['km'] = array(
 );
 
 /** Korean (한국어)
+ * @author Ilovesabbath
  * @author Kwj2772
  * @author WonRyong
  */
 $messages['ko'] = array(
 	'contact' => '관리자 연락',
+	'contactpage' => '관리자 연락',
 	'contactpage-desc' => '[[Special:Contact|방문자가 문의할 수 있도록 문의 양식을 추가]]',
 	'contactpage-title' => '문의하기',
+	'contactpage-pagetext' => '저희에게 연락하시려면 아래 양식을 이용해주세요.',
 	'contactpage-legend' => '이메일 보내기',
+	'contactpage-defsubject' => '연락 메시지',
 	'contactpage-subject-and-sender' => '$1 ($2이(가) 보냄)',
 	'contactpage-fromname' => '당신의 이름: *',
 	'contactpage-fromaddress' => '당신의 이메일 주소 : **',
@@ -1627,6 +1631,7 @@ $messages['yue'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
  * @author Shinjiman
+ * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
 	'contact' => '联络页面',
@@ -1636,8 +1641,8 @@ $messages['zh-hans'] = array(
 	'contactpage-legend' => '发送电邮',
 	'contactpage-defsubject' => '联络信息',
 	'contactpage-subject-and-sender' => '$1 (自$2)',
-	'contactpage-fromname' => '您的名字 *',
-	'contactpage-fromaddress' => '您的电邮 **',
+	'contactpage-fromname' => '您的名字： *',
+	'contactpage-fromaddress' => '您的邮箱： **',
 	'contactpage-formfootnotes' => '* 可选<br />
 ** 可选，如果您想回答的话',
 	'contactpage-fromname-required' => '您的名字：',
