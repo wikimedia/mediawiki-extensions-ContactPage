@@ -334,6 +334,7 @@ $messages['dsb'] = array(
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Omnipaedista
+ * @author ZaDiak
  */
 $messages['el'] = array(
 	'contact' => 'Σελίδα επαφών',
@@ -346,6 +347,8 @@ $messages['el'] = array(
 	'contactpage-subject-and-sender' => '$1 (από $2)',
 	'contactpage-fromname' => 'Το όνομά σας: *',
 	'contactpage-fromaddress' => 'Το ηλεκτρονικό ταχυδρομείο σας: **',
+	'contactpage-formfootnotes' => '* προαιρετικό<br />
+** προαιρετικό αλλά απαραίτητο αν θέλεις μια απάντηση',
 	'contactpage-fromname-required' => 'Το όνομά σας:',
 	'contactpage-fromaddress-required' => 'Το ηλεκτρονικό σας ταχυδρομείο:',
 	'contactpage-formfootnotes-required' => 'Όλα τα πεδία είναι υποχρεωτικά.',
