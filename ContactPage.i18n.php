@@ -1386,6 +1386,26 @@ $messages['sq'] = array(
 	'contact' => 'Kumtime',
 );
 
+/** Serbian Cyrillic ekavian (ћирилица)
+ * @author Михајло Анђелковић
+ */
+$messages['sr-ec'] = array(
+	'contactpage-desc' => '[[Special:Contact|Контакт-форма за посетиоце]]',
+	'contactpage-title' => 'Контакт',
+	'contactpage-pagetext' => 'Молимо Вас да користите форму испод да нас контактирате.',
+	'contactpage-legend' => 'Пошаљи имејл',
+	'contactpage-subject-and-sender' => '$1 (од $2)',
+	'contactpage-fromname' => 'Ваше име: *',
+	'contactpage-fromaddress' => 'Ваш мејл: **',
+	'contactpage-formfootnotes' => '* необавезно<br />
+** необавезно, али потребно ако желите да добијете одговор',
+	'contactpage-fromname-required' => 'Ваше име:',
+	'contactpage-fromaddress-required' => 'Ваш мејл:',
+	'contactpage-formfootnotes-required' => 'Сва поља су обавезна.',
+	'contactpage-captcha' => 'Молимо Вас да решите CAPTCHA-у, да бисте послали поруку ([[Special:Captcha/help|више информација]])',
+	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
