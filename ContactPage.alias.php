@@ -74,6 +74,11 @@ $aliases['fi'] = array(
 	'Contact' => array( 'Ota yhteyttä' ),
 );
 
+/** Franco-Provençal (Arpetan) */
+$aliases['frp'] = array(
+	'Contact' => array( 'Contacte' ),
+);
+
 /** Galician (Galego) */
 $aliases['gl'] = array(
 	'Contact' => array( 'Contactar' ),
