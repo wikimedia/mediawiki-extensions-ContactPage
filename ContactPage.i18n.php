@@ -711,7 +711,7 @@ $messages['is'] = array(
 	'contactpage-subject-and-sender' => '$1 (frá $2)',
 	'contactpage-fromname' => 'nafnið þitt *',
 	'contactpage-fromaddress' => 'netfangið þitt **',
-	'contactpage-formfootnotes' => '* valfrjálst<br/>
+	'contactpage-formfootnotes' => '* valfrjálst<br />
 ** valfrjálst en nauðsynlegt ef þú vilt fá svar',
 );
 

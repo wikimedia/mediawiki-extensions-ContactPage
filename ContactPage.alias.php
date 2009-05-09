@@ -146,6 +146,11 @@ $aliases['ko'] = array(
 	'Contact' => array( '문의' ),
 );
 
+/** Ripoarisch (Ripoarisch) */
+$aliases['ksh'] = array(
+	'Contact' => array( 'Kuntak', 'Kumtak', 'Kontak' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
