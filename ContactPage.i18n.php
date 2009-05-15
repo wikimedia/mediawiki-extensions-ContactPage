@@ -206,15 +206,26 @@ $messages['bs'] = array(
 
 /** Catalan (Català)
  * @author SMP
+ * @author Solde
  */
 $messages['ca'] = array(
+	'contact' => 'Pàgina de contacte',
+	'contactpage' => 'Pàgina de contacte',
+	'contactpage-desc' => '[[Special:Contact|Formulari de contacte per als visitants]]',
 	'contactpage-title' => 'Contacte',
+	'contactpage-pagetext' => 'Si us plau, useu el formulari inferior per a contactar-nos.',
 	'contactpage-legend' => 'Envia missatge',
+	'contactpage-defsubject' => 'Missatge de contacte',
 	'contactpage-subject-and-sender' => '$1 (des de $2)',
 	'contactpage-fromname' => 'El vostre nom: *',
 	'contactpage-fromaddress' => 'El vostre correu-e: **',
 	'contactpage-formfootnotes' => '* opcional<br />
 ** opcional però necessari si voleu una resposta',
+	'contactpage-fromname-required' => 'El teu nom:',
+	'contactpage-fromaddress-required' => 'El teu correu electrònic:',
+	'contactpage-formfootnotes-required' => 'Tots els camps són obligatoris.',
+	'contactpage-captcha' => 'Per enviar el missatge, si us plau resoleu el captcha ([[Special:Captcha/help|more info]])',
+	'contactpage-captcha-failed' => 'Captcha erroni! ([[Special:Captcha/help|more info]])',
 );
 
 /** Czech (Česky)
@@ -352,6 +363,7 @@ $messages['el'] = array(
 	'contactpage-fromname-required' => 'Το όνομά σας:',
 	'contactpage-fromaddress-required' => 'Το ηλεκτρονικό σας ταχυδρομείο:',
 	'contactpage-formfootnotes-required' => 'Όλα τα πεδία είναι υποχρεωτικά.',
+	'contactpage-captcha' => 'Για να αποστείλετε αυτό το μήνυμα, παρακαλώ επιλύστε το captcha ([[Special:Captcha/help|βοήθεια]])',
 	'contactpage-captcha-failed' => 'Το τεστ Captcha απέτυχε! ([[Special:Captcha/help|περισσότερες πληροφορίες]])',
 );
 
