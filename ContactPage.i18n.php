@@ -1111,6 +1111,7 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'contact' => 'Kontaktside',
@@ -1118,6 +1119,7 @@ $messages['no'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for besøkende]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Bruk skjemaet nedenunder for å kontakte oss.',
+	'contactpage-legend' => 'Send e-post',
 	'contactpage-defsubject' => 'Beskjed',
 	'contactpage-subject-and-sender' => '$1 (fra $2)',
 	'contactpage-fromname' => 'Ditt navn: *',
