@@ -571,8 +571,8 @@ $messages['gsw'] = array(
  * @author MacTire02
  */
 $messages['gv'] = array(
-	'contactpage-fromname' => "dt'ennym *",
-	'contactpage-fromaddress' => 'dty phost-L **',
+	'contactpage-fromname' => "Dt'ennym: *",
+	'contactpage-fromaddress' => 'Dty phost-L: **',
 );
 
 /** Hebrew (עברית)
