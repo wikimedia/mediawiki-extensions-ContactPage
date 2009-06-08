@@ -161,6 +161,11 @@ $aliases['mk'] = array(
 	'Contact' => array( 'Контакт' ),
 );
 
+/** Marathi (मराठी) */
+$aliases['mr'] = array(
+	'Contact' => array( 'संपर्क' ),
+);
+
 /** Maltese (Malti) */
 $aliases['mt'] = array(
 	'Contact' => array( 'Kuntatt' ),
