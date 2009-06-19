@@ -1173,6 +1173,13 @@ $messages['oc'] = array(
 	'contactpage-captcha-failed' => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'contactpage-fromname-required' => 'Dei Naame:',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author Leinad
