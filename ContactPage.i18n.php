@@ -712,6 +712,14 @@ $messages['ia'] = array(
 	'contactpage-captcha-failed' => 'Le test captcha falleva! ([[Special:Captcha/help|plus info]])',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
+ */
+$messages['id'] = array(
+	'contact' => 'Hubungi kami',
+	'contactpage' => 'Hubungi kami',
+);
+
 /** Icelandic (Íslenska)
  * @author Jóna Þórunn
  * @author S.Örvarr.S
