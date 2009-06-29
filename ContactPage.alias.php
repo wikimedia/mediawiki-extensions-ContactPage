@@ -123,7 +123,7 @@ $aliases['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
-	'Contact' => array( 'Kontak' ),
+	'Contact' => array( 'Hubungi', 'Kontak' ),
 );
 
 /** Japanese (日本語) */
