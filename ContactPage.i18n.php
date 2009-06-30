@@ -786,13 +786,14 @@ $messages['ja'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author Pras
  */
 $messages['jv'] = array(
 	'contactpage-title' => 'Kontak',
 	'contactpage-pagetext' => 'Mangga nganggo formulir sing kapacak ing ngisor iki menawa arep kontak kita.',
 	'contactpage-subject-and-sender' => '$1 (saka $2)',
-	'contactpage-fromname' => 'asma panjenengan *',
-	'contactpage-fromaddress' => 'e-mail panjenengan **',
+	'contactpage-fromname' => 'Asma panjenengan: *',
+	'contactpage-fromaddress' => 'Layang-e panjenengan: **',
 	'contactpage-formfootnotes' => '* opsional<br />
 ** opsional nanging diperlokaké yèn panjenengan perlu wangsulan',
 );
