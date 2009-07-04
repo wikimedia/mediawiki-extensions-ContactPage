@@ -393,6 +393,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Imre
+ * @author Locos epraix
  * @author Sanbec
  * @author לערי ריינהארט
  */
@@ -412,6 +413,8 @@ $messages['es'] = array(
 	'contactpage-fromname-required' => 'Su nombre:',
 	'contactpage-fromaddress-required' => 'Su correo electrónico:',
 	'contactpage-formfootnotes-required' => 'Todos los campos son requeridos.',
+	'contactpage-captcha' => 'Para enviar el mensaje, por favor resuelve el captcha ([[Special:Captcha/help|más información]])',
+	'contactpage-captcha-failed' => '¡Prueba de captcha fallida! ([[Special:Captcha/help|más información]])',
 );
 
 /** Estonian (Eesti)
