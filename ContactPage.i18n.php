@@ -1694,6 +1694,20 @@ $messages['yue'] = array(
 	'contactpage-captcha-failed' => 'Captcha 測試失敗! ([[Special:Captcha/help|更多資訊]])',
 );
 
+/** Zhuang (Vahcuengh)
+ * @author Biŋhai
+ */
+$messages['za'] = array(
+	'contact' => 'Yieb ciepgyaeuj',
+	'contactpage' => 'Yieb ciepgyaeuj',
+	'contactpage-title' => 'Ciepgyaeuj',
+	'contactpage-legend' => 'Fat e-mail',
+	'contactpage-fromname' => 'Mingzcoh mwngz:*',
+	'contactpage-fromaddress' => 'E-mail mwngz:**',
+	'contactpage-fromname-required' => 'Mingzcoh mwngz',
+	'contactpage-fromaddress-required' => 'E-mail mwngz:',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
  * @author Shinjiman
