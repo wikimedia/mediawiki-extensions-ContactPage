@@ -1676,6 +1676,16 @@ $messages['wa'] = array(
 	'contact' => 'Contak',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'contactpage-fromname' => 'אייער נאמען: *',
+	'contactpage-fromaddress' => 'אייער ע-פאסט: **',
+	'contactpage-fromname-required' => 'אייער נאמען:',
+	'contactpage-fromaddress-required' => 'אייער ע-פאסט:',
+);
+
 /** Yue (粵語)
  * @author Shinjiman
  */
