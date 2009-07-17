@@ -950,6 +950,20 @@ $messages['li'] = array(
 	'contactpage-captcha-failed' => 'Captchatès mislök ([[Special:Captcha/help|mieë weite]])',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+$messages['lt'] = array(
+	'contactpage-fromaddress' => 'Jūsų elektroninis paštas: **',
+	'contactpage-formfootnotes' => '* neprivaloma<br /> 
+** neprivaloma, tačiau būtina, jei norite atsakyti',
+	'contactpage-fromname-required' => 'Jūsų vardas:',
+	'contactpage-fromaddress-required' => 'Jūsų elektroninis paštas:',
+	'contactpage-formfootnotes-required' => 'Visi laukai yra privalomi.',
+	'contactpage-captcha' => 'Norėdami siųsti pranešimą, prašome išspręsti captcha ([[Special:Captcha/help|daugiau informacijos]])',
+	'contactpage-captcha-failed' => 'Captcha testas nepavyko! ([[Special:Captcha/help|daugiau informacijos]])',
+);
+
 /** Lazuri Nena (Lazuri Nena)
  * @author Bombola
  */
