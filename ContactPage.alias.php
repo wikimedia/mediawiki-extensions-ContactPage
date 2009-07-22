@@ -233,6 +233,11 @@ $aliases['sa'] = array(
 	'Contact' => array( 'सम्पर्क' ),
 );
 
+/** Slovak (Slovenčina) */
+$aliases['sk'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Albanian (Shqip) */
 $aliases['sq'] = array(
 	'Contact' => array( 'Kontakto' ),
