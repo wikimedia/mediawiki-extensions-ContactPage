@@ -35,6 +35,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Bennylin
  * @author Jon Harald Søby
  * @author Lloffiwr
  * @author Purodha
@@ -45,6 +46,11 @@ $messages['qqq'] = array(
 {{Identical|ContactPage}}",
 	'contactpage' => '{{Identical|ContactPage}}',
 	'contactpage-desc' => 'Extension description displayed on [[Special:Version]].',
+	'contactpage-title' => '{{Identical|Contact}}',
+	'contactpage-legend' => '{{Identical|E-mail}}',
+	'contactpage-defsubject' => '{{Identical|Contact}}',
+	'contactpage-fromaddress' => '{{Identical|E-mail}}',
+	'contactpage-fromaddress-required' => '{{Identical|E-mail}}',
 );
 
 /** Säggssch (Säggssch)
@@ -721,6 +727,21 @@ $messages['ia'] = array(
 $messages['id'] = array(
 	'contact' => 'Hubungi kami',
 	'contactpage' => 'Hubungi kami',
+	'contactpage-desc' => '[[Special:Contact|Formulir hubungi kami untuk pengunjung]]',
+	'contactpage-title' => 'Hubungi',
+	'contactpage-pagetext' => 'Gunakan formulir berikut untuk menghubungi kami',
+	'contactpage-legend' => 'Kirim surel',
+	'contactpage-defsubject' => 'Pesan',
+	'contactpage-subject-and-sender' => '$1 (dari $2)',
+	'contactpage-fromname' => 'Nama Anda: *',
+	'contactpage-fromaddress' => 'Surel Anda: **',
+	'contactpage-formfootnotes' => '* opsional<br />
+** opsional, namun dibutuhkan jika Anda menginginkan jawaban',
+	'contactpage-fromname-required' => 'Nama Anda:',
+	'contactpage-fromaddress-required' => 'Surel Anda:',
+	'contactpage-formfootnotes-required' => 'Semua harus diisi.',
+	'contactpage-captcha' => 'Untuk mengirim pesan, silahkan mengisi Captcha ([[Special:Captcha/help|info]])',
+	'contactpage-captcha-failed' => 'Tes Captcha gagal! ([[Special:Captcha/help|info]])',
 );
 
 /** Icelandic (Íslenska)
