@@ -926,6 +926,7 @@ $messages['la'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Robby
  */
 $messages['lb'] = array(
@@ -933,7 +934,7 @@ $messages['lb'] = array(
 	'contactpage' => 'Kontaktsäit',
 	'contactpage-desc' => '[[Special:Contact|Kontakt-Formulair fir Visiteuren]]',
 	'contactpage-title' => 'Kontakt',
-	'contactpage-pagetext' => 'Mat dësem Formulär kënnt Dir eis kontaktéieren.',
+	'contactpage-pagetext' => 'Mat dësem Formelär kënnt Dir eis kontaktéieren.',
 	'contactpage-legend' => 'E-Mail schécken',
 	'contactpage-defsubject' => 'Kontakt Message',
 	'contactpage-subject-and-sender' => '$1 (vum $2)',
