@@ -1205,7 +1205,7 @@ $messages['nso'] = array(
 $messages['oc'] = array(
 	'contact' => 'Per nos contactar',
 	'contactpage' => 'Contacte',
-	'contactpage-desc' => '[[Special:Contact|Formulari de contact pels visitors]]',
+	'contactpage-desc' => '[[Special:Contact|Formulari de contacte pels visitors]]',
 	'contactpage-title' => 'Contacte',
 	'contactpage-pagetext' => 'Utilizatz lo formulari çaijós per nos contactar.',
 	'contactpage-legend' => 'Mandar un corrièr electronic',
@@ -1485,6 +1485,26 @@ $messages['sr-ec'] = array(
 	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
 );
 
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'contactpage-desc' => '[[Special:Contact|Kontakt-forma za posetioce]]',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Molimo Vas da koristite formu ispod da nas kontaktirate.',
+	'contactpage-legend' => 'Pošalji imejl',
+	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-fromname' => 'Vaše ime: *',
+	'contactpage-fromaddress' => 'Vaš mejl: **',
+	'contactpage-formfootnotes' => '* neobavezno<br />
+** neobavezno, ali potrebno ako želite da dobijete odgovor',
+	'contactpage-fromname-required' => 'Vaše ime:',
+	'contactpage-fromaddress-required' => 'Vaš mejl:',
+	'contactpage-formfootnotes-required' => 'Sva polja su obavezna.',
+	'contactpage-captcha' => 'Molimo Vas da rešite CAPTCHA-u, da biste poslali poruku ([[Special:Captcha/help|više informacija]])',
+	'contactpage-captcha-failed' => 'CAPTCHA test nije prošao! ([[Special:Captcha/help|više informacija]])',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
@@ -1576,6 +1596,27 @@ $messages['tg-cyrl'] = array(
 	'contactpage-subject-and-sender' => '$1 (аз $2)',
 	'contactpage-fromname' => 'номи шумо *',
 	'contactpage-fromaddress' => 'почтаи электронии шумо **',
+);
+
+/** Thai (ไทย)
+ * @author Woraponboonkerd
+ */
+$messages['th'] = array(
+	'contact' => 'หน้าช่องทางการติดต่อ',
+	'contactpage' => 'หน้าช่องทางการติดต่อ',
+	'contactpage-desc' => '[[Special:Contact|แบบฟอร์มการติดต่อสำหรับผู้เยื่ยมชม]]',
+	'contactpage-title' => 'ติดต่ิอ',
+	'contactpage-pagetext' => 'กรุณาใช้แบบฟอร์มด้านล่างนี้เพื่อติดต่อกับเรา',
+	'contactpage-legend' => 'ส่งอีเมล',
+	'contactpage-defsubject' => 'ข้อความติดต่อ',
+	'contactpage-subject-and-sender' => '$1 (จาก $2)',
+	'contactpage-fromname' => 'ชื่อของคุณ: *',
+	'contactpage-fromaddress' => 'อีเมลของคุณ: **',
+	'contactpage-formfootnotes' => '* เป็นข้อมูลเสริม<br />
+** เป็นข้อมูลเสริม แต่จำเป็นต้องกรอกหากต้องการการติดต่อกลับ',
+	'contactpage-fromname-required' => 'ชื่อของคุณ:',
+	'contactpage-fromaddress-required' => 'อีเมลของคุณ:',
+	'contactpage-formfootnotes-required' => 'จำเป็นต้องกรอกทั้งหมด',
 );
 
 /** Tagalog (Tagalog)
