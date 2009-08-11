@@ -435,15 +435,24 @@ $messages['es'] = array(
 
 /** Estonian (Eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'contact' => 'Ühendustvõtmise lehekülg',
+	'contactpage' => 'Ühendustvõtmise lehekülg',
+	'contactpage-desc' => '[[Special:Contact|Ühendustvõtmise vorm külalistele]]',
 	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Palun kasuta all olevat vormi meiega ühenduse võtmiseks.',
 	'contactpage-legend' => 'Saada e-kiri',
 	'contactpage-fromname' => 'Sinu nimi: *',
 	'contactpage-fromaddress' => 'Sinu e-post: **',
+	'contactpage-formfootnotes' => '* valikuline<br />
+** valikuline, kuid vastuse soovi korral vajalik',
 	'contactpage-fromname-required' => 'Sinu nimi:',
 	'contactpage-fromaddress-required' => 'Sinu e-post:',
 	'contactpage-formfootnotes-required' => 'Nõutav on kõigi väljade täitmine.',
+	'contactpage-captcha' => 'Palun läbi teate saatmiseks robotilõks ([[Special:Captcha/help|täpsem teave]])',
+	'contactpage-captcha-failed' => 'Robotilõksu ei õnnestunud läbida! ([[Special:Captcha/help|täpsem teave]])',
 );
 
 /** Basque (Euskara)
@@ -561,6 +570,9 @@ $messages['gl'] = array(
  */
 $messages['grc'] = array(
 	'contactpage-title' => 'Ἐπαφή',
+	'contactpage-subject-and-sender' => '$1 (ἀπὸ $2)',
+	'contactpage-fromname' => 'Τὸ ὄνομά σου: *',
+	'contactpage-fromname-required' => 'Τὸ ὄνομά σου:',
 );
 
 /** Swiss German (Alemannisch)
@@ -928,11 +940,14 @@ $messages['kw'] = array(
 );
 
 /** Latin (Latina)
+ * @author Omnipaedista
  * @author SPQRobin
  * @author UV
  */
 $messages['la'] = array(
+	'contactpage-subject-and-sender' => '$1 (ex $2)',
 	'contactpage-fromname' => 'Nomen tuum: *',
+	'contactpage-fromname-required' => 'Nomen tuum:',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1228,7 +1243,7 @@ $messages['oc'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-fromname' => 'Vòstre nom : *',
 	'contactpage-fromaddress' => 'Vòstra adreça electronica : **',
-	'contactpage-formfootnotes' => '* opcional<br /> ** opcional mas requesit se desiratz una responsa',
+	'contactpage-formfootnotes' => '* opcional<br /> ** opcional mas requerit se desiratz una responsa',
 	'contactpage-fromname-required' => 'Vòstre nom :',
 	'contactpage-fromaddress-required' => 'Vòstra adreça mail :',
 	'contactpage-formfootnotes-required' => 'Totes los camps son requesits.',
