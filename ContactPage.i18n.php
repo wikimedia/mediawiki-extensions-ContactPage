@@ -187,6 +187,16 @@ $messages['bg'] = array(
 	'contactpage-captcha-failed' => 'Captcha-тестът беше неуспешен! ([[Special:Captcha/help|повече информация]])',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'contact' => 'যোগাযোগের পাতা',
+	'contactpage' => 'যোগাযোগের পাতা',
+	'contactpage-title' => 'যোগাযোগ',
+	'contactpage-legend' => 'ই-মেইল পাঠাও',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
@@ -1005,10 +1015,15 @@ $messages['mg'] = array(
 );
 
 /** Macedonian (Македонски)
+ * @author Bjankuloski06
  * @author Misos
  */
 $messages['mk'] = array(
 	'contact' => 'Контакт',
+	'contactpage' => 'Контактна страница',
+	'contactpage-title' => 'Контакт',
+	'contactpage-fromname' => 'Вашето име: *',
+	'contactpage-fromaddress' => 'Вашата е-пошта: **',
 );
 
 /** Malayalam (മലയാളം)
