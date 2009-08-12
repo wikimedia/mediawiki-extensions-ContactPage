@@ -195,6 +195,11 @@ $messages['bn'] = array(
 	'contactpage' => 'যোগাযোগের পাতা',
 	'contactpage-title' => 'যোগাযোগ',
 	'contactpage-legend' => 'ই-মেইল পাঠাও',
+	'contactpage-defsubject' => 'যোগাযোগ বার্তা',
+	'contactpage-fromname' => 'আপনার নাম: *',
+	'contactpage-fromaddress' => 'আপনার ই-মেইল: **',
+	'contactpage-fromname-required' => 'আপনার নাম:',
+	'contactpage-fromaddress-required' => 'আপনার ই-মেইল:',
 );
 
 /** Bosnian (Bosanski)
@@ -1036,9 +1041,21 @@ $messages['mg'] = array(
 $messages['mk'] = array(
 	'contact' => 'Контакт',
 	'contactpage' => 'Контактна страница',
+	'contactpage-desc' => '[[Special:Contact|Контактен образец за посетители]]',
 	'contactpage-title' => 'Контакт',
+	'contactpage-pagetext' => 'Послужете се со образецот подолу за да нè контактирате.',
+	'contactpage-legend' => 'Испрати е-пошта',
+	'contactpage-defsubject' => 'Контактна порака',
+	'contactpage-subject-and-sender' => '$1 (од $2)',
 	'contactpage-fromname' => 'Вашето име: *',
 	'contactpage-fromaddress' => 'Вашата е-пошта: **',
+	'contactpage-formfootnotes' => '* по избор<br />
+** по избор, но неопходно ако сакате да добиете одговор',
+	'contactpage-fromname-required' => 'Вашето име:',
+	'contactpage-fromaddress-required' => 'Вашата е-пошта:',
+	'contactpage-formfootnotes-required' => 'Се бараат сите полиња.',
+	'contactpage-captcha' => 'За да испратите порака, решете ја задачата ([[Special:Captcha/help|повеќе инфо]])',
+	'contactpage-captcha-failed' => 'Контролната задача е неуспешно решена! ([[Special:Captcha/help|повеќе инфо]])',
 );
 
 /** Malayalam (മലയാളം)
