@@ -1854,15 +1854,15 @@ $messages['zh-hans'] = array(
 	'contactpage-pagetext' => '请用以下的表格去联络我们。',
 	'contactpage-legend' => '发送电邮',
 	'contactpage-defsubject' => '联络信息',
-	'contactpage-subject-and-sender' => '$1 (自$2)',
+	'contactpage-subject-and-sender' => '$1 （自$2）',
 	'contactpage-fromname' => '您的名字： *',
 	'contactpage-fromaddress' => '您的邮箱： **',
 	'contactpage-formfootnotes' => '* 可选<br />
 ** 可选，如果您想回答的话',
 	'contactpage-fromname-required' => '您的名字：',
 	'contactpage-fromaddress-required' => '您的电邮：',
-	'contactpage-captcha' => '要传送这个信息，请先解决这个 captcha ([[Special:Captcha/help|更多信息]])',
-	'contactpage-captcha-failed' => 'Captcha 测试失败! ([[Special:Captcha/help|更多信息]])',
+	'contactpage-captcha' => '要传送这个信息，请先解决这个 captcha （[[Special:Captcha/help|更多信息]]）',
+	'contactpage-captcha-failed' => 'Captcha 测试失败! （[[Special:Captcha/help|更多信息]]）',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
@@ -1877,14 +1877,14 @@ $messages['zh-hant'] = array(
 	'contactpage-pagetext' => '請用以下的表格去聯絡我們。',
 	'contactpage-legend' => '傳送電郵',
 	'contactpage-defsubject' => '聯絡訊息',
-	'contactpage-subject-and-sender' => '$1 (自$2)',
+	'contactpage-subject-and-sender' => '$1 （自$2）',
 	'contactpage-fromname' => '您的名字 *',
 	'contactpage-fromaddress' => '您的電郵 **',
 	'contactpage-formfootnotes' => '* 可選<br />
 ** 可選，如果您想回答的話',
 	'contactpage-fromname-required' => '您的名字：',
 	'contactpage-fromaddress-required' => '您的電郵：',
-	'contactpage-captcha' => '要傳送這個訊息，請先解決這個 captcha ([[Special:Captcha/help|更多資訊]])',
-	'contactpage-captcha-failed' => 'Captcha 測試失敗! ([[Special:Captcha/help|更多資訊]])',
+	'contactpage-captcha' => '要傳送這個訊息，請先解決這個 captcha （[[Special:Captcha/help|更多資訊]]）',
+	'contactpage-captcha-failed' => 'Captcha 測試失敗! （[[Special:Captcha/help|更多資訊]]）',
 );
 
