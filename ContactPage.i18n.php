@@ -884,6 +884,14 @@ $messages['km'] = array(
 	'contactpage-fromaddress-required' => 'អ៊ីមែលរបស់អ្នក៖',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'contactpage-fromname' => 'ನಿಮ್ಮ ಹೆಸರು: *',
+	'contactpage-fromname-required' => 'ನಿಮ್ಮ ಹೆಸರು:',
+);
+
 /** Korean (한국어)
  * @author Ilovesabbath
  * @author Kwj2772
@@ -1844,12 +1852,14 @@ $messages['za'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Liangent
  * @author Shinjiman
  * @author Wmr89502270
  */
 $messages['zh-hans'] = array(
 	'contact' => '联络页面',
 	'contactpage' => '联络页面',
+	'contactpage-desc' => '[[Special:Contact|供访问者使用的联系表单]]',
 	'contactpage-title' => '联络',
 	'contactpage-pagetext' => '请用以下的表格去联络我们。',
 	'contactpage-legend' => '发送电邮',
@@ -1861,6 +1871,7 @@ $messages['zh-hans'] = array(
 ** 可选，如果您想回答的话',
 	'contactpage-fromname-required' => '您的名字：',
 	'contactpage-fromaddress-required' => '您的电邮：',
+	'contactpage-formfootnotes-required' => '所有字段都是必需的。',
 	'contactpage-captcha' => '要传送这个信息，请先解决这个 captcha （[[Special:Captcha/help|更多信息]]）',
 	'contactpage-captcha-failed' => 'Captcha 测试失败! （[[Special:Captcha/help|更多信息]]）',
 );
