@@ -66,7 +66,7 @@ $messages['sxu'] = array(
  */
 $messages['af'] = array(
 	'contact' => 'Kontak bladsy',
-	'contactpage' => 'Kontak bladsy',
+	'contactpage' => 'Kontakblad',
 	'contactpage-desc' => '[[Special:Contact|Kontak vorm vir besoekers]]',
 	'contactpage-title' => 'Kontak',
 	'contactpage-pagetext' => 'Gebruik die onderstaande vorm om ons te kontak.',
