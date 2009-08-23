@@ -888,8 +888,11 @@ $messages['km'] = array(
  * @author Nayvik
  */
 $messages['kn'] = array(
+	'contactpage-legend' => 'ಇ-ಅಂಚೆ ಕಳುಹಿಸಿ',
 	'contactpage-fromname' => 'ನಿಮ್ಮ ಹೆಸರು: *',
+	'contactpage-fromaddress' => 'ನಿಮ್ಮ ಇ-ಅಂಚೆ: **',
 	'contactpage-fromname-required' => 'ನಿಮ್ಮ ಹೆಸರು:',
+	'contactpage-fromaddress-required' => 'ನಿಮ್ಮ ಇ-ಅಂಚೆ:',
 );
 
 /** Korean (한국어)
