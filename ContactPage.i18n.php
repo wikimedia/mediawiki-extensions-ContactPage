@@ -1314,17 +1314,23 @@ $messages['pl'] = array(
 
 /** Piedmontese (Piemontèis)
  * @author Bèrto 'd Sèra
+ * @author Dragonòt
  */
 $messages['pms'] = array(
 	'contact' => 'Pàgina ëd contat',
 	'contactpage' => 'Pàgina ëd contat',
+	'contactpage-desc' => "[[Special:Contact|Forma ëd contat për j'anònim]]",
 	'contactpage-title' => 'Contat',
 	'contactpage-pagetext' => "Për piasì, për contatene ch'a dòvra ël mòdulo ambelessì sota.",
+	'contactpage-legend' => 'Manda e-mail',
 	'contactpage-defsubject' => 'Messagi',
 	'contactpage-subject-and-sender' => '$1 (da $2)',
-	'contactpage-fromname' => 'sò nòm *',
-	'contactpage-fromaddress' => 'soa adrëssa ëd pòsta eletrònica **',
+	'contactpage-fromname' => 'Tò nòm: *',
+	'contactpage-fromaddress' => 'Toa e-mail: **',
 	'contactpage-formfootnotes' => "* opsional<br /> ** opsional, ma për podej avej d'arspòsta a venta butelo",
+	'contactpage-fromname-required' => 'Tò nòm:',
+	'contactpage-fromaddress-required' => 'Toa e-mail:',
+	'contactpage-formfootnotes-required' => 'Tùit ij camp a son obligatòri.',
 	'contactpage-captcha' => "Për mandé via ël messagi, për piasì ch'arzòlva ël test antirumenta ([[Special:Captcha/help|pì d'anformassion]])",
 	'contactpage-captcha-failed' => "Test antirumenta falì! ([[Special:Captcha/help|pì d'anformassion]])",
 );
