@@ -297,9 +297,27 @@ $messages['cy'] = array(
 	'contactpage-captcha-failed' => 'Ni lwyddodd y prawf gwrth-sbam! ([[Special:Captcha/help|mwy o wybodaeth]])',
 );
 
-/** Danish (Dansk) */
+/** Danish (Dansk)
+ * @author Byrial
+ */
 $messages['da'] = array(
+	'contact' => 'Kontaktside',
+	'contactpage' => 'Kontaktside',
+	'contactpage-desc' => '[[Special:Contact|Kontaktformular for besøgende]]',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Brug formularen herunder til at kontakte os.',
+	'contactpage-legend' => 'Send e-mail',
+	'contactpage-defsubject' => 'Kontaktbesked',
 	'contactpage-subject-and-sender' => '$1 (fra $2)',
+	'contactpage-fromname' => 'Dit navn: *',
+	'contactpage-fromaddress' => 'Din e-mail-adresse: **',
+	'contactpage-formfootnotes' => '* valgfrit<br />
+** valgfrit, men er nødvendig hvis du ønsker at få svar',
+	'contactpage-fromname-required' => 'Dit navn:',
+	'contactpage-fromaddress-required' => 'Din e-mail-adresse:',
+	'contactpage-formfootnotes-required' => 'Alle felter er obligatoriske.',
+	'contactpage-captcha' => 'Løs venligst captcha-opgaven for at sende beskeden ([[Special:Captcha/help|mere information]])',
+	'contactpage-captcha-failed' => 'Captcha-prøven mislykkedes! ([[Special:Captcha/help|mere information]])',
 );
 
 /** German (Deutsch)
