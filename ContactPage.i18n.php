@@ -60,6 +60,16 @@ $messages['sxu'] = array(
 	'contact' => 'Gondagd',
 );
 
+/** Lazuri Nena (Lazuri Nena)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'contactpage-fromname' => 'Skani coxo: *',
+	'contactpage-fromaddress' => 'Skani e-mail: **',
+	'contactpage-fromname-required' => 'Skani coxo:',
+	'contactpage-fromaddress-required' => 'Skani e-mail:',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -1045,16 +1055,6 @@ $messages['lt'] = array(
 	'contactpage-captcha-failed' => 'Captcha testas nepavyko! ([[Special:Captcha/help|daugiau informacijos]])',
 );
 
-/** Lazuri Nena (Lazuri Nena)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'contactpage-fromname' => 'Skani coxo: *',
-	'contactpage-fromaddress' => 'Skani e-mail: **',
-	'contactpage-fromname-required' => 'Skani coxo:',
-	'contactpage-fromaddress-required' => 'Skani e-mail:',
-);
-
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
@@ -1360,11 +1360,14 @@ $messages['ps'] = array(
 	'contactpage-desc' => '[[Special:Contact|د کتونکو لپاره د اړيکو فورمه]]',
 	'contactpage-title' => 'اړيکه ټينګول',
 	'contactpage-pagetext' => 'زمونږ سره د اړيکو ټينګولو لپاره، لاندينۍ فورمه وکاروۍ.',
+	'contactpage-legend' => 'برېښليک لېږل',
 	'contactpage-subject-and-sender' => '$1 (د $2 لخوا )',
-	'contactpage-fromname' => 'ستاسو نوم *',
-	'contactpage-fromaddress' => 'ستاسو برېښليک **',
+	'contactpage-fromname' => 'ستاسې نوم: *',
+	'contactpage-fromaddress' => 'ستاسې برېښليک: **',
 	'contactpage-formfootnotes' => '* ستاسو د خوښې کړنه<br />
 ** دا ستاسو د خوښې کړنه ده خو که چېرته تاسو يو ځواب غواړی نو بيا پکار ده چې ډک شي',
+	'contactpage-fromname-required' => 'ستاسې نوم:',
+	'contactpage-fromaddress-required' => 'ستاسې برېښليک:',
 );
 
 /** Portuguese (Português)
