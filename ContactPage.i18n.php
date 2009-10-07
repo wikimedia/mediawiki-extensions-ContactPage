@@ -976,11 +976,12 @@ Don et einfach norr_ens versöke.
 ([[Special:Captcha/help|Mieh Enfommazjuhne]])',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
+ * @author Kernoweger
  * @author Kw-Moon
  */
 $messages['kw'] = array(
-	'contactpage-fromaddress-required' => 'Dha e-bost:',
+	'contactpage-fromaddress-required' => 'Agas e-bost:',
 );
 
 /** Latin (Latina)
