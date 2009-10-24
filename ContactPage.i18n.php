@@ -368,6 +368,25 @@ $messages['de-formal'] = array(
 	'contactpage-captcha' => 'Um die Nachricht senden zu können, lösen Sie bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 );
 
+/** Zazaki (Zazaki)
+ * @author Xoser
+ */
+$messages['diq'] = array(
+	'contact' => 'Pelê kontakî',
+	'contactpage' => 'Pelê kontakî',
+	'contactpage-desc' => '[[Special:Contact|Qe meymanan enformasyonê kontakî]]',
+	'contactpage-title' => 'Kontak',
+	'contactpage-pagetext' => 'Qe ma rê kontak kerdişî rê, ma rica kenê ena form sero kar bike.',
+	'contactpage-legend' => 'Yew e-mail bişirav',
+	'contactpage-defsubject' => 'Mesajê kontakî',
+	'contactpage-subject-and-sender' => '$1 ($2 ra)',
+	'contactpage-fromname' => 'Nameyê tu: *',
+	'contactpage-fromaddress' => 'E-maîlê tu: **',
+	'contactpage-fromname-required' => 'Nameyê tu:',
+	'contactpage-fromaddress-required' => 'E-maîlê tu:',
+	'contactpage-formfootnotes-required' => 'Ti gani qutiyanê hemî de biker.',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
