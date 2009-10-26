@@ -382,9 +382,13 @@ $messages['diq'] = array(
 	'contactpage-subject-and-sender' => '$1 ($2 ra)',
 	'contactpage-fromname' => 'Nameyê tu: *',
 	'contactpage-fromaddress' => 'E-maîlê tu: **',
+	'contactpage-formfootnotes' => '* opsiyonal<br />
+** opsiyonal feqet beno gani eka ti yew cewap biwazo',
 	'contactpage-fromname-required' => 'Nameyê tu:',
 	'contactpage-fromaddress-required' => 'E-maîlê tu:',
 	'contactpage-formfootnotes-required' => 'Ti gani qutiyanê hemî de biker.',
+	'contactpage-captcha' => 'Qe mesaj şawitîşî, ma rica keno problemê captchayî hal biko ([[Special:Captcha/help|enformasyonê bînî]])',
+	'contactpage-captcha-failed' => 'Testê Captchayî nibiyo! ([[Special:Captcha/help|enformasyonê bînî]])',
 );
 
 /** Lower Sorbian (Dolnoserbski)
