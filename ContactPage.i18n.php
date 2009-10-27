@@ -1043,6 +1043,7 @@ $messages['lb'] = array(
 );
 
 /** Limburgish (Limburgs)
+ * @author Aelske
  * @author Ooswesthoesbes
  */
 $messages['li'] = array(
@@ -1054,13 +1055,13 @@ $messages['li'] = array(
 	'contactpage-legend' => 'Sjik e-mail',
 	'contactpage-defsubject' => 'Kóntakberich',
 	'contactpage-subject-and-sender' => '$1 (ven $2)',
-	'contactpage-fromname' => 'Diene neaam: *',
+	'contactpage-fromname' => 'Diene naam: *',
 	'contactpage-fromaddress' => 'Die-t e-mailadres: **',
 	'contactpage-formfootnotes' => '* keuzevrie<br />
 ** keuzevrie, mer beneudj es antjwaord gewönsj is',
 	'contactpage-fromname-required' => 'Diene naam:',
 	'contactpage-fromaddress-required' => 'Dien e-mailadres:',
-	'contactpage-formfootnotes-required' => 'Al vèljer zeen verplich.',
+	'contactpage-formfootnotes-required' => 'Alle velder zin verplich.',
 	'contactpage-captcha' => 'Óm get te sjikke, mósse de captcha óplósse ([[Special:Captcha/help|mieë weite]])',
 	'contactpage-captcha-failed' => 'Captchatès mislök ([[Special:Captcha/help|mieë weite]])',
 );
