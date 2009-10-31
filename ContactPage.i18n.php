@@ -212,6 +212,16 @@ $messages['bn'] = array(
 	'contactpage-fromaddress-required' => 'আপনার ই-মেইল:',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'contactpage-legend' => 'Kas ur postel',
+	'contactpage-fromname' => "Hoc'h anv : *",
+	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
+	'contactpage-fromname-required' => "Hoc'h anv :",
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
