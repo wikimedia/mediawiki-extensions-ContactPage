@@ -1356,7 +1356,7 @@ $messages['pdc'] = array(
  * @author Wpedzich
  */
 $messages['pl'] = array(
-	'contact' => 'Strona kontaktowa',
+	'contact' => 'Kontakt',
 	'contactpage' => 'Strona kontaktowa',
 	'contactpage-desc' => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
 	'contactpage-title' => 'Kontakt',
