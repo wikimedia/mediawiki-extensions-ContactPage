@@ -213,6 +213,7 @@ $messages['bn'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fohanno
  * @author Fulup
  */
 $messages['br'] = array(
@@ -220,6 +221,8 @@ $messages['br'] = array(
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
 	'contactpage-fromname-required' => "Hoc'h anv :",
+	'contactpage-fromaddress-required' => "Ho chomlec'h postel :",
+	'contactpage-formfootnotes-required' => 'Rekis eo an holl vaeziennoù.',
 );
 
 /** Bosnian (Bosanski)
