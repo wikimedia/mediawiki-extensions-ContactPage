@@ -60,16 +60,6 @@ $messages['sxu'] = array(
 	'contact' => 'Gondagd',
 );
 
-/** Lazuri Nena (Lazuri Nena)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'contactpage-fromname' => 'Skani coxo: *',
-	'contactpage-fromaddress' => 'Skani e-mail: **',
-	'contactpage-fromname-required' => 'Skani coxo:',
-	'contactpage-fromaddress-required' => 'Skani e-mail:',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
