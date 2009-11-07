@@ -1408,6 +1408,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
  */
@@ -1427,8 +1428,8 @@ $messages['pt'] = array(
 	'contactpage-fromname-required' => 'O seu nome:',
 	'contactpage-fromaddress-required' => 'O seu email:',
 	'contactpage-formfootnotes-required' => 'Todos os campos são obrigatórios.',
-	'contactpage-captcha' => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
-	'contactpage-captcha-failed' => 'Teste captcha falhou! ([[Special:Captcha/help|mais informação]])',
+	'contactpage-captcha' => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informações]])",
+	'contactpage-captcha-failed' => "O teste ''captcha'' falhou! ([[Special:Captcha/help|mais informações]])",
 );
 
 /** Brazilian Portuguese (Português do Brasil)
