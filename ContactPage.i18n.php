@@ -1338,6 +1338,8 @@ $messages['oc'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'contactpage-subject-and-sender' => '$1 (vun $2)',
+	'contactpage-fromname' => 'Dei Naame: *',
 	'contactpage-fromname-required' => 'Dei Naame:',
 );
 
@@ -1788,6 +1790,14 @@ $messages['tr'] = array(
 	'contactpage-formfootnotes-required' => 'Bütün alanlar gereklidir.',
 	'contactpage-captcha' => "Mesajı göndermek için, lütfen captcha'yı çözün ([[Special:Captcha/help|daha fazla bilgi]])",
 	'contactpage-captcha-failed' => 'Captcha testi başarısız oldu! ([[Special:Captcha/help|daha fazla bilgi]])',
+);
+
+/** Ukrainian (Українська)
+ * @author Prima klasy4na
+ */
+$messages['uk'] = array(
+	'contactpage-desc' => '[[Special:Contact|Форма для відвідувачів]]',
+	'contactpage-title' => 'Контакт',
 );
 
 /** Vèneto (Vèneto)
