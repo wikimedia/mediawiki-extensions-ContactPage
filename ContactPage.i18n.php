@@ -825,6 +825,13 @@ $messages['id'] = array(
 	'contactpage-captcha-failed' => 'Tes Captcha gagal! ([[Special:Captcha/help|info]])',
 );
 
+/** Ido (Ido)
+ * @author Malafaya
+ */
+$messages['io'] = array(
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+);
+
 /** Icelandic (Íslenska)
  * @author Jóna Þórunn
  * @author S.Örvarr.S
