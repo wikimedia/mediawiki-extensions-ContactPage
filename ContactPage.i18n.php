@@ -207,6 +207,7 @@ $messages['bn'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
+	'contactpage-title' => 'Darempred',
 	'contactpage-legend' => 'Kas ur postel',
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
