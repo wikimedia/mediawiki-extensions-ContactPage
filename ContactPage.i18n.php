@@ -205,10 +205,14 @@ $messages['bn'] = array(
 /** Breton (Brezhoneg)
  * @author Fohanno
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
+	'contact' => 'Darempred',
+	'contactpage' => 'Darempred',
 	'contactpage-title' => 'Darempred',
 	'contactpage-legend' => 'Kas ur postel',
+	'contactpage-subject-and-sender' => '$1 (eus $2)',
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
 	'contactpage-fromname-required' => "Hoc'h anv :",
