@@ -916,6 +916,7 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author BRUTE
  * @author Temuri rajavi
  */
 $messages['ka'] = array(
@@ -927,6 +928,9 @@ $messages['ka'] = array(
 	'contactpage-fromaddress' => 'თქვენი ელ-ფოსტა: **',
 	'contactpage-fromname-required' => 'თქვენი სახელი:',
 	'contactpage-fromaddress-required' => 'თქვენი ელ-ფოსტა:',
+	'contactpage-formfootnotes-required' => 'ყველა ველი სავალდებულოა.',
+	'contactpage-captcha' => 'ამ შეტყობინების გასაგზავნად, გთოვთ გაიარეთ captcha- შემოწმება ([[Special:Captcha/help|რა არის ეს?]])',
+	'contactpage-captcha-failed' => 'Captcha-ს შემოწმება ჩავარდა! ([[Special:Captcha/help|რა არის ეს?]])',
 );
 
 /** Khmer (ភាសាខ្មែរ)
