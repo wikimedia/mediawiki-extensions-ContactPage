@@ -212,6 +212,7 @@ $messages['br'] = array(
 	'contactpage' => 'Darempred',
 	'contactpage-title' => 'Darempred',
 	'contactpage-legend' => 'Kas ur postel',
+	'contactpage-defsubject' => 'Kemenadenn',
 	'contactpage-subject-and-sender' => '$1 (eus $2)',
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
