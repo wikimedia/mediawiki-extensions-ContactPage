@@ -509,6 +509,7 @@ $messages['et'] = array(
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Palun kasuta all olevat vormi meiega ühenduse võtmiseks.',
 	'contactpage-legend' => 'Saada e-kiri',
+	'contactpage-defsubject' => 'Sõnum',
 	'contactpage-fromname' => 'Sinu nimi: *',
 	'contactpage-fromaddress' => 'Sinu e-post: **',
 	'contactpage-formfootnotes' => '* valikuline<br />
@@ -1759,6 +1760,17 @@ $messages['th'] = array(
 	'contactpage-fromname-required' => 'ชื่อของคุณ:',
 	'contactpage-fromaddress-required' => 'อีเมลของคุณ:',
 	'contactpage-formfootnotes-required' => 'จำเป็นต้องกรอกทั้งหมด',
+);
+
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'contactpage-legend' => 'E-poçta iber',
+	'contactpage-fromname' => 'Adyňyz: *',
+	'contactpage-fromaddress' => 'E-poçtaňyz: **',
+	'contactpage-fromname-required' => 'Adyňyz:',
+	'contactpage-fromaddress-required' => 'E-poçtaňyz:',
 );
 
 /** Tagalog (Tagalog)
