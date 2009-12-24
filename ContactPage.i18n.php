@@ -1766,11 +1766,18 @@ $messages['th'] = array(
  * @author Hanberke
  */
 $messages['tk'] = array(
+	'contact' => 'Kontakt sahypasy',
+	'contactpage' => 'Kontakt sahypasy',
+	'contactpage-title' => 'Kontakt',
 	'contactpage-legend' => 'E-poçta iber',
+	'contactpage-defsubject' => 'Kontakt habarlaşygy',
 	'contactpage-fromname' => 'Adyňyz: *',
 	'contactpage-fromaddress' => 'E-poçtaňyz: **',
+	'contactpage-formfootnotes' => '* islege görä<br />
+** islege görä, ýöne jogap isleýän bolsaňyz gerek',
 	'contactpage-fromname-required' => 'Adyňyz:',
 	'contactpage-fromaddress-required' => 'E-poçtaňyz:',
+	'contactpage-formfootnotes-required' => 'Ähli meýdançalar hökmanydyr.',
 );
 
 /** Tagalog (Tagalog)
@@ -1827,6 +1834,13 @@ $messages['tr'] = array(
 $messages['uk'] = array(
 	'contactpage-desc' => '[[Special:Contact|Форма для відвідувачів]]',
 	'contactpage-title' => 'Контакт',
+	'contactpage-pagetext' => "Будь ласка, використовуйте дану форму, щоб зв'язатися з нами.",
+	'contactpage-legend' => 'Надіслати листа електронною поштою',
+	'contactpage-subject-and-sender' => '$1 (з $2)',
+	'contactpage-fromname' => "Ваше ім'я: *",
+	'contactpage-fromaddress' => 'Ваша адреса електронної пошти: **',
+	'contactpage-fromname-required' => "Ваше ім'я:",
+	'contactpage-fromaddress-required' => 'Ваша електронна пошта:',
 );
 
 /** Vèneto (Vèneto)
