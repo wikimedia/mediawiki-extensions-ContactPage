@@ -169,9 +169,13 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (Български)
  * @author DCLXVI
+ * @author Turin
  */
 $messages['bg'] = array(
+	'contact' => 'Страница за контакт',
+	'contactpage' => 'Страница за контакт',
 	'contactpage-desc' => '[[Special:Contact|Формуляр за връзка]]',
+	'contactpage-title' => 'Контакт',
 	'contactpage-pagetext' => 'Формулярът по-долу може да бъде използван за връзка с нас.',
 	'contactpage-legend' => 'Изпращане на е-писмо',
 	'contactpage-defsubject' => 'Съобщение',
@@ -210,15 +214,21 @@ $messages['bn'] = array(
 $messages['br'] = array(
 	'contact' => 'Darempred',
 	'contactpage' => 'Darempred',
+	'contactpage-desc' => '[[Special:Contact|Furmskrid mont e darempred evit ar weladennerien]]',
 	'contactpage-title' => 'Darempred',
+	'contactpage-pagetext' => 'Mar plij implijit ar furmskrid da-heul evit mont e darempred ganeomp.',
 	'contactpage-legend' => 'Kas ur postel',
 	'contactpage-defsubject' => 'Kemenadenn',
 	'contactpage-subject-and-sender' => '$1 (eus $2)',
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
+	'contactpage-formfootnotes' => "* diret<br />
+** diret, met ezhomm 'zo dioutañ m'ho peus c'hoant ur respont.",
 	'contactpage-fromname-required' => "Hoc'h anv :",
 	'contactpage-fromaddress-required' => "Ho chomlec'h postel :",
 	'contactpage-formfootnotes-required' => 'Rekis eo an holl vaeziennoù.',
+	'contactpage-captcha' => 'Evit kas ar gemenadenn, diskoulmit ar kaptcha ([[Special:Captcha/help|titouroù, sikour]])',
+	'contactpage-captcha-failed' => "N'ho peus ket diskoulmet ar kaptcha ! ([[Special:Captcha/help|titouroù, sikour]])",
 );
 
 /** Bosnian (Bosanski)
@@ -1768,9 +1778,12 @@ $messages['th'] = array(
 $messages['tk'] = array(
 	'contact' => 'Kontakt sahypasy',
 	'contactpage' => 'Kontakt sahypasy',
+	'contactpage-desc' => '[[Special:Contact|Zyýaratçylar üçin kontakt formy]]',
 	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Biziň bilen habarlaşmak üçin aşakdaky formy ulanyň.',
 	'contactpage-legend' => 'E-poçta iber',
 	'contactpage-defsubject' => 'Kontakt habarlaşygy',
+	'contactpage-subject-and-sender' => '$1 ($2-dan/den)',
 	'contactpage-fromname' => 'Adyňyz: *',
 	'contactpage-fromaddress' => 'E-poçtaňyz: **',
 	'contactpage-formfootnotes' => '* islege görä<br />
@@ -1778,6 +1791,8 @@ $messages['tk'] = array(
 	'contactpage-fromname-required' => 'Adyňyz:',
 	'contactpage-fromaddress-required' => 'E-poçtaňyz:',
 	'contactpage-formfootnotes-required' => 'Ähli meýdançalar hökmanydyr.',
+	'contactpage-captcha' => 'Habarlaşygy ibermek üçin, captcha-ny çözüň ([[Special:Captcha/help|has köp maglumat]])',
+	'contactpage-captcha-failed' => 'Captcha synagy şowsuz! ([[Special:Captcha/help|has köp maglumat]])',
 );
 
 /** Tagalog (Tagalog)
@@ -1829,18 +1844,27 @@ $messages['tr'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author NickK
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
+	'contact' => "Сторінка зв'язку",
+	'contactpage' => 'Сторінка контакту',
 	'contactpage-desc' => '[[Special:Contact|Форма для відвідувачів]]',
 	'contactpage-title' => 'Контакт',
-	'contactpage-pagetext' => "Будь ласка, використовуйте дану форму, щоб зв'язатися з нами.",
+	'contactpage-pagetext' => "Будь ласка, використовуйте цю форму, щоб зв'язатися з нами.",
 	'contactpage-legend' => 'Надіслати листа електронною поштою',
+	'contactpage-defsubject' => 'Повідомлення',
 	'contactpage-subject-and-sender' => '$1 (з $2)',
 	'contactpage-fromname' => "Ваше ім'я: *",
 	'contactpage-fromaddress' => 'Ваша адреса електронної пошти: **',
+	'contactpage-formfootnotes' => "* необов'язково<br />
+** необов'язково, але потрібно, якщо ви хочете отримати відповідь",
 	'contactpage-fromname-required' => "Ваше ім'я:",
 	'contactpage-fromaddress-required' => 'Ваша електронна пошта:',
+	'contactpage-formfootnotes-required' => "Усі поля є обов'язковими.",
+	'contactpage-captcha' => "Щоб відправити повідомлення, будь ласка, розв'яжіть captcha ([[Special:Captcha/help|докладніше]])",
+	'contactpage-captcha-failed' => "Captcha розв'язана неправильно! ([[Special:Captcha/help|докладніше]])",
 );
 
 /** Vèneto (Vèneto)
@@ -1999,12 +2023,14 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Gzdavidwong
+ * @author Liangent
  * @author Shinjiman
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'contact' => '聯絡頁面',
 	'contactpage' => '聯絡頁面',
+	'contactpage-desc' => '[[Special:Contact|供訪問者使用的聯繫表單]]',
 	'contactpage-title' => '聯絡',
 	'contactpage-pagetext' => '請用以下的表格去聯絡我們。',
 	'contactpage-legend' => '傳送電郵',
@@ -2016,6 +2042,7 @@ $messages['zh-hant'] = array(
 ** 可選，如果您想回答的話',
 	'contactpage-fromname-required' => '您的名字：',
 	'contactpage-fromaddress-required' => '您的電郵：',
+	'contactpage-formfootnotes-required' => '所有字段都是必需的。',
 	'contactpage-captcha' => '要傳送這個訊息，請先解決這個 captcha （[[Special:Captcha/help|更多資訊]]）',
 	'contactpage-captcha-failed' => 'Captcha 測試失敗! （[[Special:Captcha/help|更多資訊]]）',
 );
