@@ -1751,6 +1751,18 @@ $messages['tg-cyrl'] = array(
 	'contactpage-fromaddress' => 'почтаи электронии шумо **',
 );
 
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'contact' => 'SahifaiTamos',
+	'contactpage' => 'SahifaiTamos',
+	'contactpage-title' => 'Aloqa',
+	'contactpage-pagetext' => 'Lutfan baroi dar aloqa budan bo mo az formi zer istifoda kuned.',
+	'contactpage-defsubject' => 'Pajomi Aloqa',
+	'contactpage-subject-and-sender' => '$1 (az $2)',
+);
+
 /** Thai (ไทย)
  * @author Woraponboonkerd
  */
@@ -2011,7 +2023,7 @@ $messages['zh-hans'] = array(
 	'contactpage-defsubject' => '联络信息',
 	'contactpage-subject-and-sender' => '$1 （自$2）',
 	'contactpage-fromname' => '您的名字： *',
-	'contactpage-fromaddress' => '您的邮箱： **',
+	'contactpage-fromaddress' => '您的邮箱：**',
 	'contactpage-formfootnotes' => '* 可选<br />
 ** 可选，如果您想回答的话',
 	'contactpage-fromname-required' => '您的名字：',
@@ -2036,8 +2048,8 @@ $messages['zh-hant'] = array(
 	'contactpage-legend' => '傳送電郵',
 	'contactpage-defsubject' => '聯絡訊息',
 	'contactpage-subject-and-sender' => '$1 （自$2）',
-	'contactpage-fromname' => '您的名字 *',
-	'contactpage-fromaddress' => '您的電郵 **',
+	'contactpage-fromname' => '您的名字： *',
+	'contactpage-fromaddress' => '您的郵箱：**',
 	'contactpage-formfootnotes' => '* 可選<br />
 ** 可選，如果您想回答的話',
 	'contactpage-fromname-required' => '您的名字：',
