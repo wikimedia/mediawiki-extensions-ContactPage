@@ -616,6 +616,27 @@ $messages['fr'] = array(
 	'contactpage-captcha-failed' => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'contact' => 'Por sè veriér vers nos',
+	'contactpage' => 'Contacte',
+	'contactpage-desc' => '[[Special:Contact|Formulèro de contacte por los visitors]].',
+	'contactpage-title' => 'Contacte',
+	'contactpage-pagetext' => 'Volyéd utilisar lo formulèro ce-desot por vos veriér vers nos.',
+	'contactpage-legend' => 'Mandar un mèssâjo',
+	'contactpage-defsubject' => 'Mèssâjo',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-fromname' => 'Voutron nom : *',
+	'contactpage-fromaddress' => 'Voutra adrèce èlèctronica : **',
+	'contactpage-formfootnotes' => '* u chouèx<br />
+** u chouèx mas nècèssèro se vos voléd una rèponsa',
+	'contactpage-fromname-required' => 'Voutron nom :',
+	'contactpage-fromaddress-required' => 'Voutra adrèce èlèctronica :',
+	'contactpage-formfootnotes-required' => 'Tôs los champs sont nècèssèros.',
+);
+
 /** Galician (Galego)
  * @author Alma
  * @author Toliño
