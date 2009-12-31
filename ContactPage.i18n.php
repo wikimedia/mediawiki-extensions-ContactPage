@@ -635,6 +635,8 @@ $messages['frp'] = array(
 	'contactpage-fromname-required' => 'Voutron nom :',
 	'contactpage-fromaddress-required' => 'Voutra adrèce èlèctronica :',
 	'contactpage-formfootnotes-required' => 'Tôs los champs sont nècèssèros.',
+	'contactpage-captcha' => 'Por mandar lo mèssâjo, volyéd trovar la solucion du captch·a ([[Special:Captcha/help|éde]])',
+	'contactpage-captcha-failed' => 'Vos éd pas dècodâ lo captch·a ! ([[Special:Captcha/help|éde]])',
 );
 
 /** Galician (Galego)
@@ -1785,6 +1787,7 @@ $messages['tg-latn'] = array(
 );
 
 /** Thai (ไทย)
+ * @author Harley Hartwell
  * @author Woraponboonkerd
  */
 $messages['th'] = array(
@@ -1803,6 +1806,8 @@ $messages['th'] = array(
 	'contactpage-fromname-required' => 'ชื่อของคุณ:',
 	'contactpage-fromaddress-required' => 'อีเมลของคุณ:',
 	'contactpage-formfootnotes-required' => 'จำเป็นต้องกรอกทั้งหมด',
+	'contactpage-captcha' => 'กรุณาแก้ CAPTCHA ต่อไปนี้เพื่อส่งข้อความ ([[Special:Captcha/help|ข้อมูลเพิ่มเติม]])',
+	'contactpage-captcha-failed' => 'ไม่ผ่านการทดสอบ CAPTCHA ([[Special:Captcha/help|ข้อมูลเพิ่มเติม]])',
 );
 
 /** Turkmen (Türkmençe)
