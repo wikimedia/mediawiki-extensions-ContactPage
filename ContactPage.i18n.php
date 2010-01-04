@@ -968,6 +968,7 @@ $messages['ka'] = array(
 	'contact' => 'საკონტაქტო გვერდი',
 	'contactpage' => 'საკონტაქტო გვერდი',
 	'contactpage-title' => 'კონტაქტი',
+	'contactpage-legend' => 'e-mail-ის გაგზავნა',
 	'contactpage-subject-and-sender' => '$1 ($2-სგან)',
 	'contactpage-fromname' => 'თქვენი სახელი: *',
 	'contactpage-fromaddress' => 'თქვენი ელ-ფოსტა: **',
