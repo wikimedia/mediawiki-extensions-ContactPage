@@ -15,6 +15,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
+// Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'ContactPage',
@@ -24,15 +25,25 @@ $wgExtensionCredits['specialpage'][] = array(
 	'descriptionmsg' => 'contactpage-desc',
 );
 
-$dir = dirname(__FILE__) . '/';
+// Set up the new special page
+$dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['ContactPage'] = $dir . 'ContactPage.i18n.php';
 $wgExtensionAliasesFiles['ContactPage'] = $dir . 'ContactPage.alias.php';
 
 $wgAutoloadClasses['SpecialContact'] = $dir . 'SpecialContact.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
 
-$wgContactUser = NULL;
-$wgContactSender = NULL;
+# Configuration
+// Name of a registered wiki user who will receive the mails
+$wgContactUser = null;
+// E-mail address used as the sender of the contact email, if the visitor does
+// not supply an email address. Defaults to $wgEmergencyContact.
+$wgContactSender = null;
+
+// The name to be used with $wgContactSender.
+// This will be shown in the recipient's e-mail program
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;
 
+// If true, users will be required to supply a name and an e-mail address
+// on Special:Contact.
 $wgContactRequireAll = false;
