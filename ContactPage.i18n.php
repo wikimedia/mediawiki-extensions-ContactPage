@@ -1461,10 +1461,13 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'contact' => 'د اړيکو مخ',
+	'contactpage' => 'د اړيکو مخ',
 	'contactpage-desc' => '[[Special:Contact|د کتونکو لپاره د اړيکو فورمه]]',
 	'contactpage-title' => 'اړيکه ټينګول',
 	'contactpage-pagetext' => 'زمونږ سره د اړيکو ټينګولو لپاره، لاندينۍ فورمه وکاروۍ.',
 	'contactpage-legend' => 'برېښليک لېږل',
+	'contactpage-defsubject' => 'د اړيکې پيغام',
 	'contactpage-subject-and-sender' => '$1 (د $2 لخوا )',
 	'contactpage-fromname' => 'ستاسې نوم: *',
 	'contactpage-fromaddress' => 'ستاسې برېښليک: **',
