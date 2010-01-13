@@ -1099,11 +1099,11 @@ $messages['lb'] = array(
 	'contactpage-legend' => 'E-Mail schécken',
 	'contactpage-defsubject' => 'Kontakt Message',
 	'contactpage-subject-and-sender' => '$1 (vum $2)',
-	'contactpage-fromname' => 'Äre Numm: *',
+	'contactpage-fromname' => 'Ären Numm: *',
 	'contactpage-fromaddress' => 'Är E-mail-Adress: **',
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional, gëtt awer gebraucht fir iech äntwerten ze kënnen',
-	'contactpage-fromname-required' => 'Äre Numm:',
+	'contactpage-fromname-required' => 'Ären Numm:',
 	'contactpage-fromaddress-required' => 'Är E-Mailadress:',
 	'contactpage-formfootnotes-required' => 'All Felder mussen ausgefëllt ginn.',
 	'contactpage-captcha' => 'Fir e Message ze schécke, léisst w.e.g. dëse Captcha ([[Special:Captcha/help|méi Informatiounen]])',
