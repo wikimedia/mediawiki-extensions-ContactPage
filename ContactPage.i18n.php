@@ -871,7 +871,7 @@ $messages['id'] = array(
 	'contactpage-fromname-required' => 'Nama Anda:',
 	'contactpage-fromaddress-required' => 'Surel Anda:',
 	'contactpage-formfootnotes-required' => 'Semua harus diisi.',
-	'contactpage-captcha' => 'Untuk mengirim pesan, silahkan mengisi Captcha ([[Special:Captcha/help|info]])',
+	'contactpage-captcha' => 'Untuk mengirim pesan, silakan mengisi Captcha ([[Special:Captcha/help|info]])',
 	'contactpage-captcha-failed' => 'Tes Captcha gagal! ([[Special:Captcha/help|info]])',
 );
 
