@@ -1922,6 +1922,22 @@ $messages['uk'] = array(
 	'contactpage-captcha-failed' => "Captcha розв'язана неправильно! ([[Special:Captcha/help|докладніше]])",
 );
 
+/** Urdu (اردو)
+ * @author محبوب عالم
+ */
+$messages['ur'] = array(
+	'contact' => 'صفحۂ رابطہ',
+	'contactpage' => 'صفحۂ رابطہ',
+	'contactpage-title' => 'رابطہ کریں',
+	'contactpage-pagetext' => 'ہم سے رابطہ کرنے کیلئے درج ذیل تشکیلہ استعمال کریں',
+	'contactpage-defsubject' => 'پیغام',
+	'contactpage-fromname' => 'آپ کا نام: *',
+	'contactpage-fromaddress' => 'آپکا برقی پتہ: **',
+	'contactpage-fromname-required' => 'آپکا نام:',
+	'contactpage-fromaddress-required' => 'آپکا برقی پتہ:',
+	'contactpage-formfootnotes-required' => 'تمام جگہیں پُر کرنا ضروری ہیں.',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
