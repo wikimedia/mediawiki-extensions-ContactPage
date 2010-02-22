@@ -21,7 +21,6 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'ContactPage',
 	'author' => 'Daniel Kinzler',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:ContactPage',
-	'description' => 'Contact form for visitors',
 	'descriptionmsg' => 'contactpage-desc',
 );
 
