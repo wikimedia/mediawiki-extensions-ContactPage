@@ -296,6 +296,7 @@ class EmailContactForm {
 
 		$csender = $wgContactSender ? $wgContactSender : $wgEmergencyContact;
 		$cname = $wgContactSenderName;
+		$senderIP = wfGetIP();
 
 		wfDebug( __METHOD__ . ": start\n" );
 
@@ -319,9 +320,11 @@ class EmailContactForm {
 		}
 
 		if ( $this->fromname !== '' ) {
-			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $this->fromname );
+			$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromname, $senderIP );
 		} elseif ( $this->fromaddress !== '' ) {
-			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $this->fromaddress );
+			$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromaddress, $senderIP );
+		} else {
+			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $senderIP );
 		}
 
 		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$this->text ) ) ) {
