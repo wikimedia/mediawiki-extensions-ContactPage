@@ -63,16 +63,6 @@ $messages['sxu'] = array(
 	'contact' => 'Gondagd',
 );
 
-/** Laz (Laz)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'contactpage-fromname' => 'Skani coxo: *',
-	'contactpage-fromaddress' => 'Skani e-mail: **',
-	'contactpage-fromname-required' => 'Skani coxo:',
-	'contactpage-fromaddress-required' => 'Skani e-mail:',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -844,6 +834,7 @@ $messages['ia'] = array(
 	'contactpage-legend' => 'Inviar e-mail',
 	'contactpage-defsubject' => 'Message de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
 	'contactpage-fromname' => 'Tu nomine: *',
 	'contactpage-fromaddress' => 'Tu e-mail: **',
 	'contactpage-formfootnotes' => '* optional<br />
@@ -1149,6 +1140,16 @@ $messages['lt'] = array(
 	'contactpage-formfootnotes-required' => 'Visi laukai yra privalomi.',
 	'contactpage-captcha' => 'Norėdami siųsti pranešimą, prašome išspręsti captcha ([[Special:Captcha/help|daugiau informacijos]])',
 	'contactpage-captcha-failed' => 'Captcha testas nepavyko! ([[Special:Captcha/help|daugiau informacijos]])',
+);
+
+/** Laz (Laz)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'contactpage-fromname' => 'Skani coxo: *',
+	'contactpage-fromaddress' => 'Skani e-mail: **',
+	'contactpage-fromname-required' => 'Skani coxo:',
+	'contactpage-fromaddress-required' => 'Skani e-mail:',
 );
 
 /** Malagasy (Malagasy)
@@ -1597,6 +1598,7 @@ $messages['ru'] = array(
 	'contactpage-legend' => 'Отправить письмо',
 	'contactpage-defsubject' => 'Сообщение',
 	'contactpage-subject-and-sender' => '$1 (от $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (от $2 с адреса $3)',
 	'contactpage-fromname' => 'Ваше имя: *',
 	'contactpage-fromaddress' => 'Ваш адрес эл. почты: **',
 	'contactpage-formfootnotes' => '* необязательно<br />
@@ -1915,6 +1917,7 @@ $messages['uk'] = array(
 	'contactpage-legend' => 'Надіслати листа електронною поштою',
 	'contactpage-defsubject' => 'Повідомлення',
 	'contactpage-subject-and-sender' => '$1 (з $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (від $2 з $3)',
 	'contactpage-fromname' => "Ваше ім'я: *",
 	'contactpage-fromaddress' => 'Ваша адреса електронної пошти: **',
 	'contactpage-formfootnotes' => "* необов'язково<br />
