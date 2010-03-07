@@ -223,6 +223,7 @@ $messages['br'] = array(
 	'contactpage-legend' => 'Kas ur postel',
 	'contactpage-defsubject' => 'Kemenadenn',
 	'contactpage-subject-and-sender' => '$1 (eus $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (eus $2 da $3)',
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
 	'contactpage-formfootnotes' => "* diret<br />
@@ -295,6 +296,7 @@ $messages['cs'] = array(
 	'contactpage-legend' => 'Poslat e-mail',
 	'contactpage-defsubject' => 'Zpráva',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (od $2 z $3)',
 	'contactpage-fromname' => 'Vaše jméno: *',
 	'contactpage-fromaddress' => 'Váš e-mail: **',
 	'contactpage-formfootnotes' => '&#042; volitelné<br />
@@ -595,6 +597,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Grondin
+ * @author IAlex
  * @author Sherbrooke
  * @author Urhixidur
  * @author לערי ריינהארט
@@ -608,6 +611,7 @@ $messages['fr'] = array(
 	'contactpage-legend' => 'Envoyer un courriel',
 	'contactpage-defsubject' => 'Message',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 à $3)',
 	'contactpage-fromname' => 'Votre nom : *',
 	'contactpage-fromaddress' => 'Votre adresse courriel : **',
 	'contactpage-formfootnotes' => '* optionnel<br />
@@ -655,7 +659,8 @@ $messages['gl'] = array(
 	'contactpage-pagetext' => 'Use o formulario de embaixo para contactar con nós.',
 	'contactpage-legend' => 'Enviar un correo electrónico',
 	'contactpage-defsubject' => 'Mensaxe de contacto',
-	'contactpage-subject-and-sender' => '$1 (desde $2)',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
 	'contactpage-fromname' => 'O seu nome: *',
 	'contactpage-fromaddress' => 'O seu correo electrónico: **',
 	'contactpage-formfootnotes' => '* opcional<br />
@@ -1093,6 +1098,7 @@ $messages['lb'] = array(
 	'contactpage-legend' => 'E-Mail schécken',
 	'contactpage-defsubject' => 'Kontakt Message',
 	'contactpage-subject-and-sender' => '$1 (vum $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (vum $2 iwwer $3)',
 	'contactpage-fromname' => 'Ären Numm: *',
 	'contactpage-fromaddress' => 'Är E-mail-Adress: **',
 	'contactpage-formfootnotes' => '* optional<br />
@@ -1173,6 +1179,7 @@ $messages['mk'] = array(
 	'contactpage-legend' => 'Испрати е-пошта',
 	'contactpage-defsubject' => 'Контактна порака',
 	'contactpage-subject-and-sender' => '$1 (од $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (од $2 од адресата $3)',
 	'contactpage-fromname' => 'Вашето име: *',
 	'contactpage-fromaddress' => 'Вашата е-пошта: **',
 	'contactpage-formfootnotes' => '* по избор<br />
@@ -1363,6 +1370,7 @@ $messages['no'] = array(
 	'contactpage-legend' => 'Send e-post',
 	'contactpage-defsubject' => 'Beskjed',
 	'contactpage-subject-and-sender' => '$1 (fra $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (fra $2 på $3)',
 	'contactpage-fromname' => 'Ditt navn: *',
 	'contactpage-fromaddress' => 'Din e-postadresse: **',
 	'contactpage-formfootnotes' => '* valgfri<br />
