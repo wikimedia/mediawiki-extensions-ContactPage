@@ -320,10 +320,18 @@ class EmailContactForm {
 		}
 
 		if ( $this->fromname !== '' ) {
-			$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromname, $senderIP );
+			if ( $wgContactIncludeIP ) {
+				$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromname, $senderIP );
+			} else {
+				$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $this->fromname );
+			}
 		} elseif ( $this->fromaddress !== '' ) {
-			$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromaddress, $senderIP );
-		} else {
+			if ( $wgContactIncludeIP ) {
+				$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromaddress, $senderIP );
+			} else {
+				$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $this->fromaddress );
+			}
+		} else if ( $wgContactIncludeIP ) {
 			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $senderIP );
 		}
 
