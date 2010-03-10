@@ -159,6 +159,7 @@ $messages['be-tarask'] = array(
 	'contactpage-legend' => 'Даслаць ліст па электроннай пошце',
 	'contactpage-defsubject' => 'Паведамленьне',
 	'contactpage-subject-and-sender' => '$1 (ад $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (ад $2 з $3)',
 	'contactpage-fromname' => 'Ваша імя: *',
 	'contactpage-fromaddress' => 'Ваш адрас электроннай пошты: **',
 	'contactpage-formfootnotes' => '* неабавязкова<br />
