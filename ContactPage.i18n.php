@@ -795,6 +795,7 @@ $messages['hsb'] = array(
 	'contactpage-legend' => 'E-mejl pósłać',
 	'contactpage-defsubject' => 'Kontaktna zdźělenka',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (wot $2 na $3)',
 	'contactpage-fromname' => 'Twoje mjeno: *',
 	'contactpage-fromaddress' => 'Twoja e-mejlowa adresa: **',
 	'contactpage-formfootnotes' => '* opcionalny<br />
