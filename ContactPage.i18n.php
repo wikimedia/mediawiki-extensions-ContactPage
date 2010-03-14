@@ -216,8 +216,8 @@ $messages['bn'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
-	'contact' => 'Darempred',
-	'contactpage' => 'Darempred',
+	'contact' => 'Mont e darempred',
+	'contactpage' => 'Pajenn daremprediñ',
 	'contactpage-desc' => '[[Special:Contact|Furmskrid mont e darempred evit ar weladennerien]]',
 	'contactpage-title' => 'Darempred',
 	'contactpage-pagetext' => 'Mar plij implijit ar furmskrid da-heul evit mont e darempred ganeomp.',
@@ -368,6 +368,7 @@ $messages['de'] = array(
 	'contactpage-legend' => 'E-Mail absenden',
 	'contactpage-defsubject' => 'Kontaktnachricht',
 	'contactpage-subject-and-sender' => '$1 (von $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (von $2 mit der IP-Adresse $3)',
 	'contactpage-fromname' => 'Dein Name: *',
 	'contactpage-fromaddress' => 'Deine E-Mail-Adresse: **',
 	'contactpage-formfootnotes' => '* optional<br />
