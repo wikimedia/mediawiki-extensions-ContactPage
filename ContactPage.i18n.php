@@ -539,6 +539,7 @@ $messages['et'] = array(
 );
 
 /** Basque (Euskara)
+ * @author An13sa
  * @author Theklan
  */
 $messages['eu'] = array(
@@ -550,6 +551,7 @@ $messages['eu'] = array(
 	'contactpage-legend' => 'E-posta bidali',
 	'contactpage-defsubject' => 'Kontaktu mezua',
 	'contactpage-subject-and-sender' => '$1 ($2(e)k bidalia)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2-k bidalia, $3-(r)ekin)',
 	'contactpage-fromname' => 'Zure izena: *',
 	'contactpage-fromaddress' => 'Zure e-posta: **',
 	'contactpage-formfootnotes' => ' * ez da beharrezkoa<br />
