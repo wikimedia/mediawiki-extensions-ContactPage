@@ -429,6 +429,7 @@ $messages['dsb'] = array(
 	'contactpage-legend' => 'E-mail pósłaś',
 	'contactpage-defsubject' => 'Kontaktowa powěźenka',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (wót $2 na $3)',
 	'contactpage-fromname' => 'Twójo mě: *',
 	'contactpage-fromaddress' => 'Twója e-mailowa adresa: **',
 	'contactpage-formfootnotes' => '* opcionalny<br />
