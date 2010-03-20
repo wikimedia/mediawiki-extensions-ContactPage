@@ -1410,6 +1410,7 @@ $messages['oc'] = array(
 	'contactpage-legend' => 'Mandar un corrièr electronic',
 	'contactpage-defsubject' => 'Messatge',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
 	'contactpage-fromname' => 'Vòstre nom : *',
 	'contactpage-fromaddress' => 'Vòstra adreça electronica : **',
 	'contactpage-formfootnotes' => '* opcional<br /> ** opcional mas requerit se desiratz una responsa',
