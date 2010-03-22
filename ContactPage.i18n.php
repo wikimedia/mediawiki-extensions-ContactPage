@@ -813,6 +813,7 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Glanthor Reviol
  */
 $messages['hu'] = array(
 	'contact' => 'Kapcsolatfelvétel',
@@ -823,6 +824,7 @@ $messages['hu'] = array(
 	'contactpage-legend' => 'E-mail küldése',
 	'contactpage-defsubject' => 'Üzenet',
 	'contactpage-subject-and-sender' => '$1 (küldte: $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (feladó: $2, $3)',
 	'contactpage-fromname' => 'Neved: *',
 	'contactpage-fromaddress' => 'E-mail címed: **',
 	'contactpage-formfootnotes' => '* nem kötelező<br />
