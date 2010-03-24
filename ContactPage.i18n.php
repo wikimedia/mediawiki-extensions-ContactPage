@@ -478,6 +478,7 @@ $messages['eo'] = array(
 	'contactpage-legend' => 'Sendi retpoŝton',
 	'contactpage-defsubject' => 'Kontakta Mesaĝo',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 ĉe $3)',
 	'contactpage-fromname' => 'Via nomo: *',
 	'contactpage-fromaddress' => 'Via retadreso: **',
 	'contactpage-formfootnotes' => '* nedeviga<br />
