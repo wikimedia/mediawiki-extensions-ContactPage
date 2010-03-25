@@ -1679,6 +1679,21 @@ $messages['sk'] = array(
 	'contactpage-captcha-failed' => 'Test captcha bol neúspešný! ([[Special:Captcha/help|podrobnosti]])',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'contact' => 'Stik z nami',
+	'contactpage' => 'Kontaktna stran',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Prosimo, uporabite spodnji obrazec za kontakt z nami.',
+	'contactpage-defsubject' => 'Kontaktno sporočilo',
+	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-fromname' => 'Vaše ime: *',
+	'contactpage-fromname-required' => 'Vaše ime:',
+	'contactpage-formfootnotes-required' => 'Potrebno je izpolniti vsa polja.',
+);
+
 /** Albanian (Shqip)
  * @author Dori
  */
