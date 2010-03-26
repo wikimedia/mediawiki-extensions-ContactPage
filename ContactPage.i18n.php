@@ -248,6 +248,7 @@ $messages['bs'] = array(
 	'contactpage-legend' => 'Pošalji e-mail',
 	'contactpage-defsubject' => 'Poruka kontakta',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (od $2 sa $3)',
 	'contactpage-fromname' => 'Vaše ime: *',
 	'contactpage-fromaddress' => 'Vaš e-mail: **',
 	'contactpage-formfootnotes' => '* opcionalno<br />
