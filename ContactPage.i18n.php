@@ -323,6 +323,7 @@ $messages['cy'] = array(
 	'contactpage-legend' => 'Anfon e-bost',
 	'contactpage-defsubject' => 'Neges',
 	'contactpage-subject-and-sender' => '$1 (oddi wrth $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (oddi wrth $2 ar $3)',
 	'contactpage-fromname' => 'Eich enw: *',
 	'contactpage-fromaddress' => 'Eich cyfeiriad e-bost: **',
 	'contactpage-formfootnotes' => '* dewisol<br />
@@ -441,6 +442,7 @@ $messages['dsb'] = array(
 	'contactpage-formfootnotes-required' => 'Wšykne póla muse wupołnjone byś.',
 	'contactpage-captcha' => 'Aby powěźenku pósłał, rozwěž pšosym toś te captcha ([[Special:Captcha/help|dalšne informacije]])',
 	'contactpage-captcha-failed' => 'Test captcha njebu wobstaty! ([[Special:Captcha/help|dalšne informacije]])',
+	'contactpage-includeip' => 'Móju IP-adresu w toś tej powěźeńce zapśěgnuś.',
 );
 
 /** Greek (Ελληνικά)
@@ -496,6 +498,7 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Imre
  * @author Locos epraix
+ * @author Peter17
  * @author Sanbec
  * @author לערי ריינהארט
  */
@@ -508,6 +511,7 @@ $messages['es'] = array(
 	'contactpage-legend' => 'Enviar correo electrónico',
 	'contactpage-defsubject' => 'Mensaje de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
 	'contactpage-fromname' => 'Su nombre: *',
 	'contactpage-fromaddress' => 'Su correo electrónico: **',
 	'contactpage-formfootnotes' => '* opcional<br />
@@ -812,6 +816,7 @@ $messages['hsb'] = array(
 	'contactpage-formfootnotes-required' => 'Wšě poła dyrbja wupjelnjene być.',
 	'contactpage-captcha' => 'Zo by powěsć pósłać móhł, rozrisaj prošu captchu ([[Special:Captcha/help|dalše informacije]])',
 	'contactpage-captcha-failed' => 'Njejsy captchowy test wobstał! ([[Special:Captcha/help|dalše informacije]])',
+	'contactpage-includeip' => 'Moju IP-adresu w tutej powěsći zapřijeć.',
 );
 
 /** Hungarian (Magyar)
@@ -1484,6 +1489,7 @@ $messages['pms'] = array(
 	'contactpage-formfootnotes-required' => 'Tùit ij camp a son obligatòri.',
 	'contactpage-captcha' => "Për mandé via ël messagi, për piasì ch'arzòlva ël test antirumenta ([[Special:Captcha/help|pì d'anformassion]])",
 	'contactpage-captcha-failed' => "Test antirumenta falì! ([[Special:Captcha/help|pì d'anformassion]])",
+	'contactpage-includeip' => 'Anclud mia adrëssa IP an sto mëssagi-sì',
 );
 
 /** Pashto (پښتو)
@@ -1633,6 +1639,7 @@ $messages['ru'] = array(
 	'contactpage-formfootnotes-required' => 'Все поля обязательно должны быть заполнены.',
 	'contactpage-captcha' => 'Чтобы отправить сообщение, пожалуйста, пройдите проверку CAPTCHA ([[Special:Captcha/help|что это?]])',
 	'contactpage-captcha-failed' => 'Проверка CAPTCHA не пройдена! ([[Special:Captcha/help|что это?]])',
+	'contactpage-includeip' => 'Включить мой IP-адрес в это сообщение.',
 );
 
 /** Yakut (Саха тыла)
