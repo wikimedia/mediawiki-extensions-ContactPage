@@ -47,5 +47,5 @@ $wgContactSenderName = 'Contact Form on ' . $wgSitename;
 // on Special:Contact.
 $wgContactRequireAll = false;
 
-// If true, the IP address of the submitter will be put in the subject line
+// If true, the form will include a checkbox offering to put the IP address of the submitter in the subject line
 $wgContactIncludeIP = false;

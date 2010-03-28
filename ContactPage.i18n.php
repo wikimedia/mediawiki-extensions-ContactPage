@@ -33,6 +33,7 @@ $messages['en'] = array(
 	'contactpage-formfootnotes-required' => 'All fields are required.',
 	'contactpage-captcha' => 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])',
 	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
+	'contactpage-includeip' => 'Include my IP address in this message.',
 );
 
 /** Message documentation (Message documentation)
@@ -1344,6 +1345,7 @@ $messages['nl'] = array(
 	'contactpage-formfootnotes-required' => 'Alle velden zijn verplicht.',
 	'contactpage-captcha' => 'Om het bericht te versturen, moet u eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
 	'contactpage-captcha-failed' => 'De captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
+	'contactpage-includeip' => 'Stuur mijn IP-adres mee met dit bericht.',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
