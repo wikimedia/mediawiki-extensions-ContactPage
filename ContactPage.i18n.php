@@ -150,6 +150,7 @@ $messages['bcl'] = array(
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'contact' => 'Старонка кантакту',
@@ -170,6 +171,7 @@ $messages['be-tarask'] = array(
 	'contactpage-formfootnotes-required' => 'Усе палі павінны быць запоўнены.',
 	'contactpage-captcha' => 'Каб даслаць паведамленьне, калі ласка, прайдзіце праверку CAPTCHA ([[Special:Captcha/help|падрабязьней]])',
 	'contactpage-captcha-failed' => 'Праверка CAPTCHA ня пройдзена! ([[Special:Captcha/help|падрабязьней]])',
+	'contactpage-includeip' => 'Дадаць мой IP-адрас у гэтае паведамленьне.',
 );
 
 /** Bulgarian (Български)
@@ -333,6 +335,7 @@ $messages['cy'] = array(
 	'contactpage-formfootnotes-required' => 'Rhaid llanw pob maes.',
 	'contactpage-captcha' => 'Er mwyn anfon y neges, byddwch gystal â datrys y pos gwrth-sbam ([[Special:Captcha/help|mwy o wybodaeth]])',
 	'contactpage-captcha-failed' => 'Ni lwyddodd y prawf gwrth-sbam! ([[Special:Captcha/help|mwy o wybodaeth]])',
+	'contactpage-includeip' => 'Cynnwys fy nghyfeiriad IP yn y neges hon.',
 );
 
 /** Danish (Dansk)
@@ -492,6 +495,7 @@ $messages['eo'] = array(
 	'contactpage-formfootnotes-required' => 'Ĉiuj kampoj estas devigaj.',
 	'contactpage-captcha' => "Sendi la mesaĝon, bonvolu solvi la enigmon de ''captcha'' ([[Special:Captcha/help|plua informo]])",
 	'contactpage-captcha-failed' => 'Malsukcesis Captcha-testo! ([[Special:Captcha/help|plua informo]])',
+	'contactpage-includeip' => 'Inkluzivi mian IP-adreson en ĉi tiu mesaĝo',
 );
 
 /** Spanish (Español)
@@ -610,6 +614,7 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Grondin
  * @author IAlex
+ * @author Peter17
  * @author Sherbrooke
  * @author Urhixidur
  * @author לערי ריינהארט
@@ -633,6 +638,7 @@ $messages['fr'] = array(
 	'contactpage-formfootnotes-required' => 'Tous les champs sont requis.',
 	'contactpage-captcha' => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
 	'contactpage-captcha-failed' => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
+	'contactpage-includeip' => 'Inclure mon adresse IP dans ce message.',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -682,6 +688,7 @@ $messages['gl'] = array(
 	'contactpage-formfootnotes-required' => 'Requírense todos os campos.',
 	'contactpage-captcha' => 'Para enviar unha mensaxe, resolva o captcha ([[Special:Captcha/help|máis información]])',
 	'contactpage-captcha-failed' => 'Fallou a proba captcha! ([[Special:Captcha/help|máis información]])',
+	'contactpage-includeip' => 'Incluír o meu enderezo IP nesta mensaxe.',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -716,6 +723,7 @@ $messages['gsw'] = array(
 	'contactpage-formfootnotes-required' => 'Alli Fälder mien uusgfillt syy.',
 	'contactpage-captcha' => 'Zum d Nochricht schicke z chenne, les bitte s Captcha ([[Special:Captcha/help|meh Informatione]])',
 	'contactpage-captcha-failed' => 'Captcha-Tescht nit bstande! ([[Special:Captcha/help|meh Informatione]])',
+	'contactpage-includeip' => 'Myy IP-Adräss in die Nochricht yysetze.',
 );
 
 /** Manx (Gaelg)
@@ -842,6 +850,7 @@ $messages['hu'] = array(
 	'contactpage-formfootnotes-required' => 'Az összes mező kitöltése kötelező.',
 	'contactpage-captcha' => 'Az üzenet elküldéséhez írd be a képen megjelent szót ([[Special:Captcha/help|további segítség]])',
 	'contactpage-captcha-failed' => 'Captcha teszt nem sikerült! ([[Special:Captcha/help|további segítség]])',
+	'contactpage-includeip' => 'Tüntesd fel az IP-címemet az üzenetben.',
 );
 
 /** Interlingua (Interlingua)
@@ -1206,6 +1215,7 @@ $messages['mk'] = array(
 	'contactpage-formfootnotes-required' => 'Се бараат сите полиња.',
 	'contactpage-captcha' => 'За да испратите порака, решете ја задачата ([[Special:Captcha/help|повеќе инфо]])',
 	'contactpage-captcha-failed' => 'Контролната задача е неуспешно решена! ([[Special:Captcha/help|повеќе инфо]])',
+	'contactpage-includeip' => 'Вклучи ја мојата IP-адреса во оваа порака.',
 );
 
 /** Malayalam (മലയാളം)
@@ -1231,6 +1241,7 @@ $messages['ml'] = array(
 	'contactpage-formfootnotes-required' => 'എല്ലാ ഫീൽഡുകളും പൂരിപ്പിച്ചിരിക്കണം.',
 	'contactpage-captcha' => 'സന്ദേശം അയക്കാന്‍, ദയവായി Captcha നിര്‍ദ്ധാരണം ചെയ്യുക. [[Special:Captcha/help|കൂടുതല്‍ വിവരം]]',
 	'contactpage-captcha-failed' => 'Captcha പരീക്ഷണം പരാജയപ്പെട്ടു! ([[Special:Captcha/help|കൂടുതല്‍ വിവരം]])',
+	'contactpage-includeip' => 'ഈ സന്ദേശത്തിൽ എന്റെ ഐ.പി. വിലാസവും ചേർക്കുക.',
 );
 
 /** Marathi (मराठी)
@@ -1536,6 +1547,7 @@ $messages['pt'] = array(
 	'contactpage-formfootnotes-required' => 'Todos os campos são obrigatórios.',
 	'contactpage-captcha' => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informações]])",
 	'contactpage-captcha-failed' => "O teste ''captcha'' falhou! ([[Special:Captcha/help|mais informações]])",
+	'contactpage-includeip' => 'Incluir o meu endereço IP nesta mensagem.',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
