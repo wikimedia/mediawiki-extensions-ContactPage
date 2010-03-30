@@ -875,6 +875,7 @@ $messages['ia'] = array(
 	'contactpage-formfootnotes-required' => 'Tote le campos es obligatori.',
 	'contactpage-captcha' => 'Pro inviar le message, per favor resolve le captcha ([[Special:Captcha/help|plus info]])',
 	'contactpage-captcha-failed' => 'Le test captcha falleva! ([[Special:Captcha/help|plus info]])',
+	'contactpage-includeip' => 'Includer mi adresse IP in iste message.',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1134,6 +1135,7 @@ $messages['lb'] = array(
 	'contactpage-formfootnotes-required' => 'All Felder mussen ausgefëllt ginn.',
 	'contactpage-captcha' => 'Fir e Message ze schécke, léisst w.e.g. dëse Captcha ([[Special:Captcha/help|méi Informatiounen]])',
 	'contactpage-captcha-failed' => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
+	'contactpage-includeip' => 'Meng IP-Adress an dëse Message drasetzen',
 );
 
 /** Limburgish (Limburgs)
