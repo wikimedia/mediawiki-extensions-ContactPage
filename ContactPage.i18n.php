@@ -1470,6 +1470,7 @@ $messages['pl'] = array(
 	'contactpage-legend' => 'Wyślij e‐mail',
 	'contactpage-defsubject' => 'Wiadomość',
 	'contactpage-subject-and-sender' => '$1 (z $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (od $2 z $3)',
 	'contactpage-fromname' => 'Imię: *',
 	'contactpage-fromaddress' => 'Twój e‐mail: **',
 	'contactpage-formfootnotes' => '* opcjonalne<br /> ** opcjonalne, ale wymagane, jeśli chcesz otrzymać odpowiedź',
@@ -1478,6 +1479,7 @@ $messages['pl'] = array(
 	'contactpage-formfootnotes-required' => 'Wypełnienie wszystkich pól jest obowiązkowe.',
 	'contactpage-captcha' => 'Aby wysłać wiadomosć wypełnij podane tu zadanie ([[Special:Captcha/help|wyjaśnienie]])',
 	'contactpage-captcha-failed' => 'Aby wysłać tę wiadomość, prosimy rozwiązać to zadanie ([[Special:Captcha/help|objaśnienie]])',
+	'contactpage-includeip' => 'Dodaj do tej wiadomości informację o moim adresie IP.',
 );
 
 /** Piedmontese (Piemontèis)
