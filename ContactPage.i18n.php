@@ -525,6 +525,7 @@ $messages['es'] = array(
 	'contactpage-formfootnotes-required' => 'Todos los campos son requeridos.',
 	'contactpage-captcha' => 'Para enviar el mensaje, por favor resuelve el captcha ([[Special:Captcha/help|más información]])',
 	'contactpage-captcha-failed' => '¡Prueba de captcha fallida! ([[Special:Captcha/help|más información]])',
+	'contactpage-includeip' => 'Incluir mi dirección IP en este mensaje',
 );
 
 /** Estonian (Eesti)
