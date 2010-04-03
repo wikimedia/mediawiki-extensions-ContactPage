@@ -1717,8 +1717,12 @@ $messages['sl'] = array(
 	'contactpage-defsubject' => 'Kontaktno sporočilo',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
 	'contactpage-fromname' => 'Vaše ime: *',
+	'contactpage-formfootnotes' => '* izbirno<br />
+** izbirno, vendar potrebno, če želite odgovor',
 	'contactpage-fromname-required' => 'Vaše ime:',
 	'contactpage-formfootnotes-required' => 'Potrebno je izpolniti vsa polja.',
+	'contactpage-captcha' => 'Za pošiljanje sporočila prosimo razrešite captcha ([[Special:Captcha/help|več informacij]])',
+	'contactpage-captcha-failed' => 'Preizkus captcha je spodletel! ([[Special:Captcha/help|več informacij]])',
 );
 
 /** Albanian (Shqip)
