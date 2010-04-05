@@ -237,6 +237,7 @@ $messages['br'] = array(
 	'contactpage-formfootnotes-required' => 'Rekis eo an holl vaeziennoù.',
 	'contactpage-captcha' => 'Evit kas ar gemenadenn, diskoulmit ar kaptcha ([[Special:Captcha/help|titouroù, sikour]])',
 	'contactpage-captcha-failed' => "N'ho peus ket diskoulmet ar kaptcha ! ([[Special:Captcha/help|titouroù, sikour]])",
+	'contactpage-includeip' => "Merkañ ma chomlec'h IP er postel-mañ.",
 );
 
 /** Bosnian (Bosanski)
