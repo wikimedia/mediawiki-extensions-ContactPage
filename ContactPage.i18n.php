@@ -952,6 +952,7 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fryed-peach
  * @author JtFuruhata
+ * @author Naohiro19
  * @author לערי ריינהארט
  */
 $messages['ja'] = array(
@@ -972,6 +973,7 @@ $messages['ja'] = array(
 	'contactpage-formfootnotes-required' => 'すべての欄が必須です。',
 	'contactpage-captcha' => 'メッセージを送信するには、以下のCAPTCHA画像認証が必要です([[Special:Captcha/help|詳細はこちら]])',
 	'contactpage-captcha-failed' => 'CAPTCHA画像認証に失敗しました！([[Special:Captcha/help|詳細はこちら]])',
+	'contactpage-includeip' => 'このメッセージに自分のIPアドレスを含める',
 );
 
 /** Javanese (Basa Jawa)
