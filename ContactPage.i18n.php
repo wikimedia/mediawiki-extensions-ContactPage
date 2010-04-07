@@ -926,6 +926,7 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Civvì
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -937,6 +938,7 @@ $messages['it'] = array(
 	'contactpage-legend' => 'Invia e-mail',
 	'contactpage-defsubject' => 'Messaggio',
 	'contactpage-subject-and-sender' => '$1 (da $2)',
+	'contactpage-subject-and-sender-withip' => "$1 (da $2 all'indirizzo $3)",
 	'contactpage-fromname' => 'Nome: *',
 	'contactpage-fromaddress' => 'Indirizzo e-mail: **',
 	'contactpage-formfootnotes' => '* campo non obbligatorio<br />
@@ -946,6 +948,7 @@ $messages['it'] = array(
 	'contactpage-formfootnotes-required' => 'Tutti i campi sono obbligatori.',
 	'contactpage-captcha' => 'Per inviare il messaggio, risolvi il captcha ([[Special:Captcha/help|maggiori informazioni]])',
 	'contactpage-captcha-failed' => 'Test captcha fallito! ([[Special:Captcha/help|maggiori informazioni]])',
+	'contactpage-includeip' => 'Includi il mio indirizzo IP in questo messaggio.',
 );
 
 /** Japanese (日本語)
@@ -1239,14 +1242,14 @@ $messages['ml'] = array(
 	'contactpage-subject-and-sender' => '$1 (അയച്ചത് $2)',
 	'contactpage-subject-and-sender-withip' => '$1 ($3 എന്ന വിലാസത്തിൽനിന്നുള്ള $2)',
 	'contactpage-fromname' => 'താങ്കളുടെ പേര്‌: *',
-	'contactpage-fromaddress' => 'താങ്കളുടെ ഇമെയില്‍ വിലാസം: **',
-	'contactpage-formfootnotes' => '* നിര്‍‌ബന്ധമില്ല<br />
-** നിര്‍‌ബന്ധമില്ല, പക്ഷെ താങ്കള്‍ക്ക് മറുപടി വേണമെങ്കില്‍ ഇതു ആവശ്യമാണ്‌',
+	'contactpage-fromaddress' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം: **',
+	'contactpage-formfootnotes' => '* നിർ‌ബന്ധമില്ല<br />
+** നിർ‌ബന്ധമില്ല, പക്ഷെ താങ്കൾക്ക് മറുപടി വേണമെങ്കിൽ ഇതു ആവശ്യമാണ്‌',
 	'contactpage-fromname-required' => 'താങ്കളുടെ പേര്:',
 	'contactpage-fromaddress-required' => 'താങ്കളുടെ ഇമെയിൽ:',
 	'contactpage-formfootnotes-required' => 'എല്ലാ ഫീൽഡുകളും പൂരിപ്പിച്ചിരിക്കണം.',
-	'contactpage-captcha' => 'സന്ദേശം അയക്കാന്‍, ദയവായി Captcha നിര്‍ദ്ധാരണം ചെയ്യുക. [[Special:Captcha/help|കൂടുതല്‍ വിവരം]]',
-	'contactpage-captcha-failed' => 'Captcha പരീക്ഷണം പരാജയപ്പെട്ടു! ([[Special:Captcha/help|കൂടുതല്‍ വിവരം]])',
+	'contactpage-captcha' => 'സന്ദേശം അയക്കാൻ, ദയവായി Captcha നിർദ്ധാരണം ചെയ്യുക. [[Special:Captcha/help|കൂടുതൽ വിവരം]]',
+	'contactpage-captcha-failed' => 'Captcha പരീക്ഷണം പരാജയപ്പെട്ടു! ([[Special:Captcha/help|കൂടുതൽ വിവരം]])',
 	'contactpage-includeip' => 'ഈ സന്ദേശത്തിൽ എന്റെ ഐ.പി. വിലാസവും ചേർക്കുക.',
 );
 
@@ -1416,6 +1419,7 @@ $messages['no'] = array(
 	'contactpage-formfootnotes-required' => 'Alle felt er obligatoriske.',
 	'contactpage-captcha' => 'Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])',
 	'contactpage-captcha-failed' => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-includeip' => 'Inkluder IP-adressen min i denne meldingen.',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
