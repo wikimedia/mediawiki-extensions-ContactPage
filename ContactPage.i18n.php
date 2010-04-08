@@ -363,6 +363,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author LWChris
  * @author Raimond Spekking
  * @author Umherirrender
  */
@@ -385,6 +386,7 @@ $messages['de'] = array(
 	'contactpage-formfootnotes-required' => 'Alle Felder müssen ausgefüllt sein.',
 	'contactpage-captcha' => 'Um die Nachricht senden zu können, löse bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
 	'contactpage-captcha-failed' => 'Captcha-Test nicht bestanden! ([[Special:Captcha/help|weitere Informationen]])',
+	'contactpage-includeip' => 'Meine IP-Adresse in diese Nachricht einfügen.',
 );
 
 /** German (formal address) (Deutsch (Sie-Form))
