@@ -969,6 +969,7 @@ $messages['ja'] = array(
 	'contactpage-legend' => '電子メールを送る',
 	'contactpage-defsubject' => '連絡事項',
 	'contactpage-subject-and-sender' => '$1($2 より)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2 が $3 から送信)',
 	'contactpage-fromname' => 'あなたのお名前: *',
 	'contactpage-fromaddress' => 'あなたの電子メールアドレス: **',
 	'contactpage-formfootnotes' => '* 任意記入<br />
@@ -1072,6 +1073,7 @@ $messages['ko'] = array(
 	'contactpage-formfootnotes-required' => '모든 칸이 필수입력사항입니다.',
 	'contactpage-captcha' => '메시지를 보내려면 이 캡차를 풀어 주세요 ([[Special:Captcha/help|자세한 정보]])',
 	'contactpage-captcha-failed' => '캡차 검사 실패! ([[Special:Captcha/help|자세한 정보]])',
+	'contactpage-includeip' => '이 메시지에 내 IP 주소를 포함하기',
 );
 
 /** Ripoarisch (Ripoarisch)
