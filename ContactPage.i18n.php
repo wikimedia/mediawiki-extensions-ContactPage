@@ -453,8 +453,10 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Dada
  * @author Omnipaedista
  * @author ZaDiak
+ * @author Περίεργος
  */
 $messages['el'] = array(
 	'contact' => 'Σελίδα επαφών',
@@ -465,6 +467,7 @@ $messages['el'] = array(
 	'contactpage-legend' => 'Αποστολή e-mail',
 	'contactpage-defsubject' => 'Μήνυμα επαφής',
 	'contactpage-subject-and-sender' => '$1 (από $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (από $2 σε $3)',
 	'contactpage-fromname' => 'Το όνομά σας: *',
 	'contactpage-fromaddress' => 'Το ηλεκτρονικό ταχυδρομείο σας: **',
 	'contactpage-formfootnotes' => '* προαιρετικό<br />
@@ -474,6 +477,7 @@ $messages['el'] = array(
 	'contactpage-formfootnotes-required' => 'Όλα τα πεδία είναι υποχρεωτικά.',
 	'contactpage-captcha' => 'Για να αποστείλετε αυτό το μήνυμα, παρακαλώ επιλύστε το captcha ([[Special:Captcha/help|βοήθεια]])',
 	'contactpage-captcha-failed' => 'Το τεστ Captcha απέτυχε! ([[Special:Captcha/help|περισσότερες πληροφορίες]])',
+	'contactpage-includeip' => 'Συμπεριλάβετε τη διεύθυνση IP μου σε αυτό το μήνυμα',
 );
 
 /** Esperanto (Esperanto)
