@@ -888,6 +888,7 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Iwan Novirion
  */
 $messages['id'] = array(
 	'contact' => 'Hubungi kami',
@@ -898,6 +899,7 @@ $messages['id'] = array(
 	'contactpage-legend' => 'Kirim surel',
 	'contactpage-defsubject' => 'Pesan',
 	'contactpage-subject-and-sender' => '$1 (dari $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (dari $2 pada $3)',
 	'contactpage-fromname' => 'Nama Anda: *',
 	'contactpage-fromaddress' => 'Surel Anda: **',
 	'contactpage-formfootnotes' => '* opsional<br />
@@ -907,6 +909,7 @@ $messages['id'] = array(
 	'contactpage-formfootnotes-required' => 'Semua harus diisi.',
 	'contactpage-captcha' => 'Untuk mengirim pesan, silakan mengisi Captcha ([[Special:Captcha/help|info]])',
 	'contactpage-captcha-failed' => 'Tes Captcha gagal! ([[Special:Captcha/help|info]])',
+	'contactpage-includeip' => 'Sertakan alamat IP saya di pesan ini.',
 );
 
 /** Ido (Ido)
