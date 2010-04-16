@@ -1729,9 +1729,9 @@ $messages['sk'] = array(
  */
 $messages['sl'] = array(
 	'contact' => 'Stik z nami',
-	'contactpage' => 'Kontaktna stran',
+	'contactpage' => 'Stik z nami',
 	'contactpage-title' => 'Kontakt',
-	'contactpage-pagetext' => 'Prosimo, uporabite spodnji obrazec za kontakt z nami.',
+	'contactpage-pagetext' => 'Prosimo, uporabite spodnji obrazec za stik z nami.',
 	'contactpage-defsubject' => 'Kontaktno sporočilo',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
 	'contactpage-fromname' => 'Vaše ime: *',
@@ -1966,6 +1966,7 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Homonihilis
  * @author Joseph
  * @author Karduelis
  * @author Mach
@@ -1988,6 +1989,7 @@ $messages['tr'] = array(
 	'contactpage-formfootnotes-required' => 'Bütün alanlar gereklidir.',
 	'contactpage-captcha' => "Mesajı göndermek için, lütfen captcha'yı çözün ([[Special:Captcha/help|daha fazla bilgi]])",
 	'contactpage-captcha-failed' => 'Captcha testi başarısız oldu! ([[Special:Captcha/help|daha fazla bilgi]])',
+	'contactpage-includeip' => 'Mesaja IP adresimi ekle.',
 );
 
 /** Ukrainian (Українська)
