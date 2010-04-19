@@ -1992,6 +1992,13 @@ $messages['tr'] = array(
 	'contactpage-includeip' => 'Mesaja IP adresimi ekle.',
 );
 
+/** Udmurt (Удмурт)
+ * @author Kaganer
+ */
+$messages['udm'] = array(
+	'contactpage-defsubject' => 'Ивортон',
+);
+
 /** Ukrainian (Українська)
  * @author NickK
  * @author Prima klasy4na
