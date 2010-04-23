@@ -312,6 +312,7 @@ $messages['cs'] = array(
 	'contactpage-formfootnotes-required' => 'Všechna pole musí být vyplněna.',
 	'contactpage-captcha' => 'Abyste mohli odeslat zprávu, musíte vyřešit CAPTCHA ([[Special:Captcha/help|vysvětlení]])',
 	'contactpage-captcha-failed' => '{{GENDER:Neuspěl|Neuspěla|Neuspěli}} jste v testu CAPTCHA! ([[Special:Captcha/help|vysvětlení]])',
+	'contactpage-includeip' => 'Přiložit ke zprávě mou IP adresu.',
 );
 
 /** Welsh (Cymraeg)
