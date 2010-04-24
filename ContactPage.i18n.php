@@ -1072,6 +1072,7 @@ $messages['ko'] = array(
 	'contactpage-legend' => '이메일 보내기',
 	'contactpage-defsubject' => '연락 메시지',
 	'contactpage-subject-and-sender' => '$1 ($2이(가) 보냄)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2가 $3에서 보냄)',
 	'contactpage-fromname' => '당신의 이름: *',
 	'contactpage-fromaddress' => '당신의 이메일 주소 : **',
 	'contactpage-formfootnotes' => '* 선택 사항<br />
