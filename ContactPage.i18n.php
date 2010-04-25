@@ -225,7 +225,7 @@ $messages['br'] = array(
 	'contactpage-title' => 'Darempred',
 	'contactpage-pagetext' => 'Mar plij implijit ar furmskrid da-heul evit mont e darempred ganeomp.',
 	'contactpage-legend' => 'Kas ur postel',
-	'contactpage-defsubject' => 'Kemenadenn',
+	'contactpage-defsubject' => 'Kemennadenn daremprediñ',
 	'contactpage-subject-and-sender' => '$1 (eus $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (eus $2 da $3)',
 	'contactpage-fromname' => "Hoc'h anv : *",
@@ -1464,6 +1464,7 @@ $messages['oc'] = array(
 	'contactpage-formfootnotes-required' => 'Totes los camps son requesits.',
 	'contactpage-captcha' => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
 	'contactpage-captcha-failed' => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
+	'contactpage-includeip' => 'Inclure mon adreça IP dins aquel messatge.',
 );
 
 /** Deitsch (Deitsch)
