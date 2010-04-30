@@ -2005,6 +2005,7 @@ $messages['udm'] = array(
 /** Ukrainian (Українська)
  * @author NickK
  * @author Prima klasy4na
+ * @author Тест
  */
 $messages['uk'] = array(
 	'contact' => "Сторінка зв'язку",
@@ -2025,6 +2026,7 @@ $messages['uk'] = array(
 	'contactpage-formfootnotes-required' => "Усі поля є обов'язковими.",
 	'contactpage-captcha' => "Щоб відправити повідомлення, будь ласка, розв'яжіть captcha ([[Special:Captcha/help|докладніше]])",
 	'contactpage-captcha-failed' => "Captcha розв'язана неправильно! ([[Special:Captcha/help|докладніше]])",
+	'contactpage-includeip' => 'Додати мою IP-адресу до цього повідомлення.',
 );
 
 /** Urdu (اردو)
