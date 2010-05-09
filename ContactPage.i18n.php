@@ -2103,6 +2103,7 @@ $messages['vi'] = array(
 	'contactpage-formfootnotes-required' => 'Bạn phải điền tất cả các mục.',
 	'contactpage-captcha' => 'Để gửi tin nhắn, xin hãy ghi lại captcha ([[Special:Captcha/help|thông tin thêm]])',
 	'contactpage-captcha-failed' => 'Kiểm tra captcha thất bại! ([[Special:Captcha/help|thông tin thêm]])',
+	'contactpage-includeip' => 'Bao gồm địa chỉ IP của tôi trong thư này.',
 );
 
 /** Volapük (Volapük)
