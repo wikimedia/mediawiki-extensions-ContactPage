@@ -582,6 +582,7 @@ $messages['eu'] = array(
 	'contactpage-formfootnotes-required' => 'Esparru guztiak betetzea beharrezkoa da.',
 	'contactpage-captcha' => 'Mezua bidaltzeko captcha jarri behar duzu ([[Special:Captcha/help|info gehiago]])',
 	'contactpage-captcha-failed' => 'Captcha testak huts egin du! ([[Special:Captcha/help|info gehiago]])',
+	'contactpage-includeip' => 'Nire IP helbidea mezu honetan sartu.',
 );
 
 /** Extremaduran (Estremeñu)
