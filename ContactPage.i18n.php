@@ -1580,6 +1580,7 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (Português do Brasil)
  * @author Carla404
  * @author Eduardo.mps
+ * @author Giro720
  */
 $messages['pt-br'] = array(
 	'contact' => 'Página de contato',
@@ -1590,6 +1591,7 @@ $messages['pt-br'] = array(
 	'contactpage-legend' => 'Enviar e-mail',
 	'contactpage-defsubject' => 'Mensagem de Contato',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2, endereço $3)',
 	'contactpage-fromname' => 'O seu nome: *',
 	'contactpage-fromaddress' => 'O seu email: **',
 	'contactpage-formfootnotes' => '* opcional<br />
@@ -1599,6 +1601,7 @@ $messages['pt-br'] = array(
 	'contactpage-formfootnotes-required' => 'Todos os campos são obrigatórios.',
 	'contactpage-captcha' => "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
 	'contactpage-captcha-failed' => 'Teste captcha falhou! ([[Special:Captcha/help|mais informação]])',
+	'contactpage-includeip' => 'Incluir o meu endereço IP nesta mensagem.',
 );
 
 /** Romani (Romani)
