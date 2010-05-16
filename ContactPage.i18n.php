@@ -2207,6 +2207,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Gzdavidwong
+ * @author Horacewai2
  * @author Liangent
  * @author Shinjiman
  * @author Wrightbus
@@ -2220,6 +2221,7 @@ $messages['zh-hant'] = array(
 	'contactpage-legend' => '傳送電郵',
 	'contactpage-defsubject' => '聯絡訊息',
 	'contactpage-subject-and-sender' => '$1 （自$2）',
+	'contactpage-subject-and-sender-withip' => '$1 (由$2在$3)',
 	'contactpage-fromname' => '您的名字： *',
 	'contactpage-fromaddress' => '您的郵箱：**',
 	'contactpage-formfootnotes' => '* 可選<br />
@@ -2229,5 +2231,6 @@ $messages['zh-hant'] = array(
 	'contactpage-formfootnotes-required' => '所有字段都是必需的。',
 	'contactpage-captcha' => '要傳送這個訊息，請先解決這個 captcha （[[Special:Captcha/help|更多資訊]]）',
 	'contactpage-captcha-failed' => 'Captcha 測試失敗! （[[Special:Captcha/help|更多資訊]]）',
+	'contactpage-includeip' => '在此郵件中包含我的IP位置資料。',
 );
 
