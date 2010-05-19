@@ -1620,19 +1620,19 @@ $messages['ro'] = array(
 	'contactpage' => 'Pagină de contact',
 	'contactpage-desc' => '[[Special:Contact|Formular de contact pentru vizitatori]]',
 	'contactpage-title' => 'Contact',
-	'contactpage-pagetext' => 'Foloseşte formularul de mai jos pentru a ne contacta.',
+	'contactpage-pagetext' => 'Folosește formularul de mai jos pentru a ne contacta.',
 	'contactpage-legend' => 'Trimite e-mail',
 	'contactpage-defsubject' => 'Mesaj de contact',
 	'contactpage-subject-and-sender' => '$1 (de la $2)',
 	'contactpage-fromname' => 'Numele dumneavoastră: *',
 	'contactpage-fromaddress' => 'Adresa dumneavoastră de e-mail: **',
-	'contactpage-formfootnotes' => '* opţional<br />
-** opţională, dar necesară dacă doriţi un răspuns',
+	'contactpage-formfootnotes' => '* opțional<br />
+** opțională, dar necesară dacă doriți un răspuns',
 	'contactpage-fromname-required' => 'Numele dumneavoastră:',
 	'contactpage-fromaddress-required' => 'Adresa dumneavoastră de e-mail:',
 	'contactpage-formfootnotes-required' => 'Toate câmpurile sunt obligatorii.',
 	'contactpage-captcha' => 'Pentru a trimite mesajul, rezolvă captcha ([[Special:Captcha/help|mai multe detalii]])',
-	'contactpage-captcha-failed' => 'Testul captcha a eşuat! ([[Special:Captcha/help|mai multe informaţii]])',
+	'contactpage-captcha-failed' => 'Testul captcha a eșuat! ([[Special:Captcha/help|mai multe informații]])',
 );
 
 /** Tarandíne (Tarandíne)
@@ -1737,17 +1737,23 @@ $messages['sk'] = array(
 $messages['sl'] = array(
 	'contact' => 'Stik z nami',
 	'contactpage' => 'Stik z nami',
+	'contactpage-desc' => '[[Special:Contact|Kontaktni obrazec za obiskovalce]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Prosimo, uporabite spodnji obrazec za stik z nami.',
+	'contactpage-legend' => 'Pošljite e-pošto',
 	'contactpage-defsubject' => 'Kontaktno sporočilo',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (od $2 iz $3)',
 	'contactpage-fromname' => 'Vaše ime: *',
+	'contactpage-fromaddress' => 'Vaš e-poštni naslov: **',
 	'contactpage-formfootnotes' => '* izbirno<br />
 ** izbirno, vendar potrebno, če želite odgovor',
 	'contactpage-fromname-required' => 'Vaše ime:',
+	'contactpage-fromaddress-required' => 'Vaš e-poštni naslov:',
 	'contactpage-formfootnotes-required' => 'Potrebno je izpolniti vsa polja.',
 	'contactpage-captcha' => 'Za pošiljanje sporočila prosimo razrešite captcha ([[Special:Captcha/help|več informacij]])',
 	'contactpage-captcha-failed' => 'Preizkus captcha je spodletel! ([[Special:Captcha/help|več informacij]])',
+	'contactpage-includeip' => 'Vključi moj IP-naslov v tem sporočilu.',
 );
 
 /** Albanian (Shqip)
@@ -1828,6 +1834,7 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author Boivie
+ * @author Dafer45
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
@@ -1851,6 +1858,7 @@ $messages['sv'] = array(
 	'contactpage-formfootnotes-required' => 'Alla fält är obligatoriska.',
 	'contactpage-captcha' => 'För att få skicka meddelandet måste du först lösa följande captcha-test ([[Special:Captcha/help|mer information]])',
 	'contactpage-captcha-failed' => 'Captcha-testet misslyckades! ([[Special:Captcha/help|mer information]])',
+	'contactpage-includeip' => 'Inkludera min IP-adress i detta meddelande.',
 );
 
 /** Telugu (తెలుగు)
