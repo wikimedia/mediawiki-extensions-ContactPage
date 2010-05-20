@@ -88,6 +88,27 @@ $messages['af'] = array(
 	'contactpage-captcha-failed' => 'Die captcha-toets het gefaal! ([[Special:Captcha/help|meer inligting]])',
 );
 
+/** Gheg Albanian (Gegë)
+ * @author Mdupont
+ */
+$messages['aln'] = array(
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Ju lutem përdorni formularin e mëposhtëm për të na kontaktoni.',
+	'contactpage-legend' => 'Dergo e-mail',
+	'contactpage-defsubject' => 'mesazh Kontakt',
+	'contactpage-subject-and-sender' => '$1 (nga $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (prej $2 në $3)',
+	'contactpage-fromname' => 'Emri juaj: *',
+	'contactpage-fromaddress' => 'Your e-mail: **',
+	'contactpage-formfootnotes' => '* Opcionale <br /> ** Dëshirë por e nevojshme qoftë se dëshironi një përgjigje',
+	'contactpage-fromname-required' => 'Emri juaj:',
+	'contactpage-fromaddress-required' => 'Your e-mail:',
+	'contactpage-formfootnotes-required' => 'Të gjitha fushat janë të kërkuara.',
+	'contactpage-captcha' => 'Për të dërguar mesazh, ju lutem zgjidh captcha ([[Special:Captcha/help|më shumë informacion]])',
+	'contactpage-captcha-failed' => 'Captcha test i dështuar! ([[Special:Captcha/help|më shumë informacion]])',
+	'contactpage-includeip' => 'Përfshini IP adresa ime ne kete mesazh.',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  * @author OsamaK
