@@ -1990,6 +1990,7 @@ $messages['tl'] = array(
 	'contactpage-legend' => 'Magpadala ng e-liham',
 	'contactpage-defsubject' => 'Mensahe ng pakikipag-ugnayan',
 	'contactpage-subject-and-sender' => '$1 (mula sa $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (mula sa $2 na nasa $3)',
 	'contactpage-fromname' => 'Pangalan mo: *',
 	'contactpage-fromaddress' => 'E-liham mo: **',
 	'contactpage-formfootnotes' => '* maaaring wala nito<br />
@@ -1999,6 +2000,7 @@ $messages['tl'] = array(
 	'contactpage-formfootnotes-required' => 'Kailangan ang lahat ng mga hanay.',
 	'contactpage-captcha' => "Upang makapagpadala ng mensahe, pakilutas ang \"hulihin ka\" o ''captcha'' ([[Special:Captcha/help|mas marami pang kabatiran]])",
 	'contactpage-captcha-failed' => 'Nabigo ang captcha! ([[Special:Captcha/help|mas marami pang kabatiran]])',
+	'contactpage-includeip' => 'Isama ang aking adres ng IP sa mensaheng ito.',
 );
 
 /** Turkish (Türkçe)
