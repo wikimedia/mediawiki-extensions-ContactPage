@@ -1046,6 +1046,7 @@ $messages['ka'] = array(
 	'contactpage-formfootnotes-required' => 'ყველა ველი სავალდებულოა.',
 	'contactpage-captcha' => 'ამ შეტყობინების გასაგზავნად, გთოვთ გაიარეთ captcha- შემოწმება ([[Special:Captcha/help|რა არის ეს?]])',
 	'contactpage-captcha-failed' => 'Captcha-ს შემოწმება ჩავარდა! ([[Special:Captcha/help|რა არის ეს?]])',
+	'contactpage-includeip' => 'მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.',
 );
 
 /** Khmer (ភាសាខ្មែរ)
