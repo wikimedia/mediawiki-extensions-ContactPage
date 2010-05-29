@@ -1855,6 +1855,7 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Ainali
  * @author Boivie
  * @author Dafer45
  * @author Lejonel
@@ -1871,6 +1872,7 @@ $messages['sv'] = array(
 	'contactpage-legend' => 'Skicka e-post',
 	'contactpage-defsubject' => 'Kontaktmeddelande',
 	'contactpage-subject-and-sender' => '$1 (från $2)',
+	'contactpage-subject-and-sender-withip' => ' $1 (från $2 till $3)',
 	'contactpage-fromname' => 'Ditt namn: *',
 	'contactpage-fromaddress' => 'Din e-postadress: **',
 	'contactpage-formfootnotes' => '* kan utelämnas<br />
