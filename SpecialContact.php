@@ -230,11 +230,11 @@ class EmailContactForm {
 					Xml::textarea( 'wpText', $this->text, 80, 20, array( 'id' => 'wpText' ) ) .
 				'</td>
 			</tr>';
-			if ( $wgContactIncludeIP ) {
+			if ( $wgContactIncludeIP && $wgUser->isLoggedIn() ) {
 				$form .= '<tr>
 					<td></td>
 					<td class="mw-input">' .
-						Xml::checkLabel( wfMsg( 'contactpage-includeip' ), 'wpIncludeIP', 'wpIncludeIP', $wgUser->isAnon() ) .
+						Xml::checkLabel( wfMsg( 'contactpage-includeip' ), 'wpIncludeIP', 'wpIncludeIP', false ) .
 					'</td>
 				</tr>';
 			}
@@ -300,7 +300,7 @@ class EmailContactForm {
 	}
 
 	function doSubmit() {
-		global $wgOut;
+		global $wgOut, $wgUser;
 		global $wgEnableEmail, $wgUserEmailUseReplyTo, $wgEmergencyContact;
 		global $wgContactUser, $wgContactSender, $wgContactSenderName, $wgContactIncludeIP;
 
@@ -329,7 +329,7 @@ class EmailContactForm {
 			$subject = wfMsgForContent( 'contactpage-defsubject' );
 		}
 
-		$includeIP = $wgContactIncludeIP && $this->includeIP;
+		$includeIP = $wgContactIncludeIP && ( $this->includeIP || $wgUser->isAnon() );
 		if ( $this->fromname !== '' ) {
 			if ( $includeIP ) {
 				$subject = wfMsgForContent( 'contactpage-subject-and-sender-withip', $subject, $this->fromname, $senderIP );
