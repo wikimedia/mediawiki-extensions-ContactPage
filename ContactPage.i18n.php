@@ -2228,6 +2228,7 @@ $messages['zh-hans'] = array(
 	'contactpage-legend' => '发送电邮',
 	'contactpage-defsubject' => '联络信息',
 	'contactpage-subject-and-sender' => '$1 （自$2）',
+	'contactpage-subject-and-sender-withip' => '$1 (由$2在$3)',
 	'contactpage-fromname' => '您的名字： *',
 	'contactpage-fromaddress' => '您的邮箱：**',
 	'contactpage-formfootnotes' => '* 可选<br />
@@ -2237,6 +2238,7 @@ $messages['zh-hans'] = array(
 	'contactpage-formfootnotes-required' => '所有字段都是必需的。',
 	'contactpage-captcha' => '要传送这个信息，请先解决这个 captcha （[[Special:Captcha/help|更多信息]]）',
 	'contactpage-captcha-failed' => 'Captcha 测试失败! （[[Special:Captcha/help|更多信息]]）',
+	'contactpage-includeip' => '在此邮件中包含我的IP位置资料。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
