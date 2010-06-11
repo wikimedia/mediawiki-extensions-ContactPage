@@ -940,6 +940,9 @@ $messages['id'] = array(
  */
 $messages['io'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
+	'contactpage-fromname' => 'Vua nomo: *',
+	'contactpage-fromaddress' => 'Vua e-posto: **',
 );
 
 /** Icelandic (Íslenska)
