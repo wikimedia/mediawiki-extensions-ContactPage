@@ -1709,6 +1709,13 @@ $messages['ru'] = array(
 	'contactpage-includeip' => 'Включить мой IP-адрес в это сообщение.',
 );
 
+/** Rusyn (русиньскый язык)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'contactpage-title' => 'Контакт',
+);
+
 /** Yakut (Саха тыла)
  * @author HalanTul
  */
