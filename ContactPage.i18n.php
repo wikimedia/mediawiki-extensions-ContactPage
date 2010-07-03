@@ -242,9 +242,9 @@ $messages['bn'] = array(
 $messages['br'] = array(
 	'contact' => 'Mont e darempred',
 	'contactpage' => 'Pajenn daremprediñ',
-	'contactpage-desc' => '[[Special:Contact|Furmskrid mont e darempred evit ar weladennerien]]',
+	'contactpage-desc' => '[[Special:Contact|Furmskrid mont e darempred evit ar gweladennerien]]',
 	'contactpage-title' => 'Darempred',
-	'contactpage-pagetext' => 'Mar plij implijit ar furmskrid da-heul evit mont e darempred ganeomp.',
+	'contactpage-pagetext' => 'Mar plij implijit ar furmskrid dindan evit dont e darempred ganeomp.',
 	'contactpage-legend' => 'Kas ur postel',
 	'contactpage-defsubject' => 'Kemennadenn daremprediñ',
 	'contactpage-subject-and-sender' => '$1 (eus $2)',
@@ -252,12 +252,12 @@ $messages['br'] = array(
 	'contactpage-fromname' => "Hoc'h anv : *",
 	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
 	'contactpage-formfootnotes' => "* diret<br />
-** diret, met ezhomm 'zo dioutañ m'ho peus c'hoant ur respont.",
+** diret, met rekis mar fell deoc'h e vefe respontet deoc'h.",
 	'contactpage-fromname-required' => "Hoc'h anv :",
 	'contactpage-fromaddress-required' => "Ho chomlec'h postel :",
 	'contactpage-formfootnotes-required' => 'Rekis eo an holl vaeziennoù.',
-	'contactpage-captcha' => 'Evit kas ar gemenadenn, diskoulmit ar kaptcha ([[Special:Captcha/help|titouroù, sikour]])',
-	'contactpage-captcha-failed' => "N'ho peus ket diskoulmet ar kaptcha ! ([[Special:Captcha/help|titouroù, sikour]])",
+	'contactpage-captcha' => "Evit kas ar gemennadenn, diskoulmit ar c'haptcha ([[Special:Captcha/help|gouzout hiroc'h]])",
+	'contactpage-captcha-failed' => "N'hoc'h eus ket diskoulmet ar c'haptcha ! ([[Special:Captcha/help|gouzout hiroc'h]])",
 	'contactpage-includeip' => "Merkañ ma chomlec'h IP er postel-mañ.",
 );
 
@@ -437,6 +437,7 @@ $messages['diq'] = array(
 	'contactpage-legend' => 'Yew e-mail bişirav',
 	'contactpage-defsubject' => 'Mesajê kontakî',
 	'contactpage-subject-and-sender' => '$1 ($2 ra)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2 ra $3 de)',
 	'contactpage-fromname' => 'Nameyê tu: *',
 	'contactpage-fromaddress' => 'E-maîlê tu: **',
 	'contactpage-formfootnotes' => '* opsiyonal<br />
@@ -446,6 +447,7 @@ $messages['diq'] = array(
 	'contactpage-formfootnotes-required' => 'Ti gani qutiyanê hemî de biker.',
 	'contactpage-captcha' => 'Qe mesaj şawitîşî, ma rica keno problemê captchayî hal biko ([[Special:Captcha/help|enformasyonê bînî]])',
 	'contactpage-captcha-failed' => 'Testê Captchayî nibiyo! ([[Special:Captcha/help|enformasyonê bînî]])',
+	'contactpage-includeip' => 'Ena mesaj de adresê IP mi de bike.',
 );
 
 /** Lower Sorbian (Dolnoserbski)
