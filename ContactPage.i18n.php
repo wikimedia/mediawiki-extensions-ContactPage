@@ -622,6 +622,7 @@ $messages['ext'] = array(
  * @author Crt
  * @author Jaakonam
  * @author Nike
+ * @author Silvonen
  * @author Vililikku
  */
 $messages['fi'] = array(
@@ -642,6 +643,7 @@ $messages['fi'] = array(
 	'contactpage-formfootnotes-required' => 'Kaikki kentät ovat pakollisia.',
 	'contactpage-captcha' => 'Ratkaise captcha-testi ennen viestin lähettämistä ([[Special:Captcha/help|lisätietoja]])',
 	'contactpage-captcha-failed' => 'Captcha-testi ei onnistunut! ([[Special:Captcha/help|lisätietoja]])',
+	'contactpage-includeip' => 'Sisällytä IP-osoitteeni tähän viestiin.',
 );
 
 /** French (Français)
