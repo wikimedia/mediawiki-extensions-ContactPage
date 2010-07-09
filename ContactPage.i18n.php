@@ -2026,6 +2026,7 @@ $messages['tl'] = array(
  * @author Joseph
  * @author Karduelis
  * @author Mach
+ * @author Manco Capac
  */
 $messages['tr'] = array(
 	'contact' => 'İrtibat sayfası',
@@ -2036,6 +2037,7 @@ $messages['tr'] = array(
 	'contactpage-legend' => 'E-posta gönderin',
 	'contactpage-defsubject' => 'İrtibat mesajı',
 	'contactpage-subject-and-sender' => "$1 ($2'den)",
+	'contactpage-subject-and-sender-withip' => "$1 ($3'teki $2'den)",
 	'contactpage-fromname' => 'İsminiz: *',
 	'contactpage-fromaddress' => 'E-postanız: **',
 	'contactpage-formfootnotes' => '* isteğe bağlı<br />
