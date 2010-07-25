@@ -1677,6 +1677,7 @@ $messages['roa-tara'] = array(
 	'contactpage-legend' => "Manne 'n'e-mail",
 	'contactpage-defsubject' => "Message d'u condatte",
 	'contactpage-subject-and-sender' => '$1 (da $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (da $2 a le $3)',
 	'contactpage-fromname' => "'U nome tue: *",
 	'contactpage-fromaddress' => "L'e-mail toje: **",
 	'contactpage-formfootnotes' => "* ce vuè<br />
@@ -1686,6 +1687,7 @@ $messages['roa-tara'] = array(
 	'contactpage-formfootnotes-required' => 'Tutte le cambe sonde richieste.',
 	'contactpage-captcha' => "Pe mannà 'u messagge, pe piacere resolve 'u captcha ([[Special:Captcha/help|cchiù 'mbormaziune]])",
 	'contactpage-captcha-failed' => "'U test de captcha ha sciute male! ([[Special:Captcha/help|cchiù 'mbormaziune]])",
+	'contactpage-includeip' => "Inglude l'indirizze UP mije sus a stu messagge.",
 );
 
 /** Russian (Русский)
