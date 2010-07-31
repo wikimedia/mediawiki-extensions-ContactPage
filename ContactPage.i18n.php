@@ -793,7 +793,7 @@ $messages['he'] = array(
 	'contactpage-formfootnotes-required' => 'כל השדות נחוצים.',
 	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
 	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|מידע נוסף]])',
-	'contactpage-includeip' => 'לכלול את כתובת ה־IP שלי בהודעה הזאת.',
+	'contactpage-includeip' => 'הכללת כתובת ה־IP שלי בהודעה זו.',
 );
 
 /** Hindi (हिन्दी)
