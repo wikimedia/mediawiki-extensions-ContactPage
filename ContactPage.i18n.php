@@ -38,6 +38,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Bennylin
+ * @author EugeneZelenko
  * @author Jon Harald Søby
  * @author Lloffiwr
  * @author Purodha
@@ -53,7 +54,9 @@ $messages['qqq'] = array(
 	'contactpage-defsubject' => 'Default subject for sent e-mail. {{Identical|Contact}}',
 	'contactpage-subject-and-sender' => 'Subject with sender included. $1 is the original subject, $2 is a user name, e-mail address or IP address.',
 	'contactpage-subject-and-sender-withip' => 'Subject with sender and IP included. $1 is the original subject, $2 is a user name or e-mail address, $3 is an IP address.',
+	'contactpage-fromname' => '{{Identical|Your name}}',
 	'contactpage-fromaddress' => '{{Identical|E-mail}}',
+	'contactpage-fromname-required' => '{{Identical|Your name}}',
 	'contactpage-fromaddress-required' => '{{Identical|E-mail}}',
 );
 
