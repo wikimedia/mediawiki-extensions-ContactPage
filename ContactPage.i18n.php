@@ -1292,8 +1292,8 @@ $messages['ml'] = array(
 	'contactpage-subject-and-sender-withip' => '$1 ($3 എന്ന വിലാസത്തിൽനിന്നുള്ള $2)',
 	'contactpage-fromname' => 'താങ്കളുടെ പേര്‌: *',
 	'contactpage-fromaddress' => 'താങ്കളുടെ ഇമെയിൽ വിലാസം: **',
-	'contactpage-formfootnotes' => '* നിർ‌ബന്ധമില്ല<br />
-** നിർ‌ബന്ധമില്ല, പക്ഷെ താങ്കൾക്ക് മറുപടി വേണമെങ്കിൽ ഇതു ആവശ്യമാണ്‌',
+	'contactpage-formfootnotes' => '* നിർബന്ധമില്ല<br />
+** നിർബന്ധമില്ല, പക്ഷെ താങ്കൾക്ക് മറുപടി വേണമെങ്കിൽ ഇതു ആവശ്യമാണ്‌',
 	'contactpage-fromname-required' => 'താങ്കളുടെ പേര്:',
 	'contactpage-fromaddress-required' => 'താങ്കളുടെ ഇമെയിൽ:',
 	'contactpage-formfootnotes-required' => 'എല്ലാ ഫീൽഡുകളും പൂരിപ്പിച്ചിരിക്കണം.',
