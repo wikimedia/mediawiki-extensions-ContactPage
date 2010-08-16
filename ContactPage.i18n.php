@@ -620,6 +620,27 @@ $messages['ext'] = array(
 	'contactpage-fromaddress' => 'el tu email **',
 );
 
+/** Persian (فارسی)
+ * @author Wayiran
+ */
+$messages['fa'] = array(
+	'contact' => 'صفحهٔ تماس',
+	'contactpage' => 'صفحه تماس',
+	'contactpage-desc' => '[[ویژه:تماس|تماس برای بازدیدکنندگان]]',
+	'contactpage-title' => 'تماس',
+	'contactpage-pagetext' => 'لطفاً از فرم زیر برای تماس با ما استفاده کنید.',
+	'contactpage-legend' => 'فرستادن رایانامه',
+	'contactpage-defsubject' => 'پیام تماس',
+	'contactpage-fromname' => 'نام شما: *',
+	'contactpage-fromaddress' => 'رایانامه شما: **',
+	'contactpage-fromname-required' => 'نام شما:',
+	'contactpage-fromaddress-required' => 'رایانامه شما:',
+	'contactpage-formfootnotes-required' => 'همهٔ گزینه‌ها الزامی هستند.',
+	'contactpage-captcha' => 'برای فرستادن پیام، لطفاً کپچا را حل کنید ([[ویژه:کپچا/راهنما|اطلاعات بیش‌تر]])',
+	'contactpage-captcha-failed' => 'آزمون کپچا شکست خورد! ([[ویژه:کپچا/راهنما|اطلاعات بیش‌تر]])',
+	'contactpage-includeip' => 'نشانی آی‌پی من را با این پیغام ضمیمه کن.',
+);
+
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
