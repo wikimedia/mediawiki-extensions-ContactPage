@@ -621,6 +621,7 @@ $messages['ext'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Ladsgroup
  * @author Wayiran
  */
@@ -633,8 +634,11 @@ $messages['fa'] = array(
 	'contactpage-legend' => 'فرستادن رایانامه',
 	'contactpage-defsubject' => 'پیام تماس',
 	'contactpage-subject-and-sender' => '$1 (از $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (از $2 در $3)',
 	'contactpage-fromname' => 'نام شما: *',
 	'contactpage-fromaddress' => 'رایانامه شما: **',
+	'contactpage-formfootnotes' => '* اختیاری <br />
+** اختیاری است اما اگر پاسخی می‌خواهید مورد نیاز است',
 	'contactpage-fromname-required' => 'نام شما:',
 	'contactpage-fromaddress-required' => 'رایانامه شما:',
 	'contactpage-formfootnotes-required' => 'همهٔ گزینه‌ها الزامی هستند.',
