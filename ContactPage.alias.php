@@ -15,268 +15,226 @@ $aliases['en'] = array(
 	'Contact' => array( 'Contact' ),
 );
 
-/** Arabic (العربية) */
 $aliases['ar'] = array(
-	'Contact' => array( 'اتصال' ),
+	'Contact'   => array( 'اتصال' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
 $aliases['arz'] = array(
-	'Contact' => array( 'اتصال' ),
+	'Contact'   => array( 'اتصال' ),
 );
 
-/** Assamese (অসমীয়া) */
 $aliases['as'] = array(
-	'Contact' => array( 'যোগাযোগ' ),
+	'Contact'   => array( 'যোগাযোগ' ),
 );
 
-/** Breton (Brezhoneg) */
 $aliases['br'] = array(
-	'Contact' => array( 'Darempred' ),
+	'Contact'   => array( 'Darempred' ),
 );
 
-/** Bosnian (Bosanski) */
 $aliases['bs'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** German (Deutsch) */
 $aliases['de'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
 $aliases['dsb'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Greek (Ελληνικά) */
 $aliases['el'] = array(
-	'Contact' => array( 'Επαφή' ),
+	'Contact'   => array( 'Επαφή' ),
 );
 
-/** Esperanto (Esperanto) */
 $aliases['eo'] = array(
-	'Contact' => array( 'Kontakti' ),
+	'Contact'   => array( 'Kontakti' ),
 );
 
-/** Spanish (Español) */
 $aliases['es'] = array(
-	'Contact' => array( 'Contactar', 'Contacto' ),
+	'Contact'   => array( 'Contactar', 'Contacto' ),
 );
 
-/** Finnish (Suomi) */
+$aliases['fa'] = array(
+	'Contact'   => array( 'تماس' ),
+);
+
 $aliases['fi'] = array(
-	'Contact' => array( 'Ota yhteyttä' ),
+	'Contact'   => array( 'Ota_yhteyttä' ),
 );
 
-/** Franco-Provençal (Arpetan) */
 $aliases['frp'] = array(
-	'Contact' => array( 'Contacte' ),
+	'Contact'   => array( 'Contacte' ),
 );
 
-/** Galician (Galego) */
 $aliases['gl'] = array(
-	'Contact' => array( 'Contactar' ),
+	'Contact'   => array( 'Contactar' ),
 );
 
-/** Swiss German (Alemannisch) */
 $aliases['gsw'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Hebrew (עברית) */
 $aliases['he'] = array(
-	'Contact' => array( 'יצירת_קשר' ),
+	'Contact'   => array( 'יצירת_קשר' ),
 );
 
-/** Croatian (Hrvatski) */
 $aliases['hr'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
 $aliases['hsb'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Haitian (Kreyòl ayisyen) */
 $aliases['ht'] = array(
-	'Contact' => array( 'Kontak' ),
+	'Contact'   => array( 'Kontak' ),
 );
 
-/** Hungarian (Magyar) */
 $aliases['hu'] = array(
-	'Contact' => array( 'Kapcsolat' ),
+	'Contact'   => array( 'Kapcsolat' ),
 );
 
-/** Interlingua (Interlingua) */
 $aliases['ia'] = array(
-	'Contact' => array( 'Contacto' ),
+	'Contact'   => array( 'Contacto' ),
 );
 
-/** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
-	'Contact' => array( 'Hubungi', 'Kontak' ),
+	'Contact'   => array( 'Hubungi', 'Kontak' ),
 );
 
-/** Italian (Italiano) */
 $aliases['it'] = array(
-	'Contact' => array( 'Contatti' ),
+	'Contact'   => array( 'Contatti' ),
 );
 
-/** Japanese (日本語) */
 $aliases['ja'] = array(
-	'Contact' => array( '連絡先' ),
+	'Contact'   => array( '連絡先' ),
 );
 
-/** Georgian (ქართული) */
 $aliases['ka'] = array(
-	'Contact' => array( 'კონტაქტი' ),
+	'Contact'   => array( 'კონტაქტი' ),
 );
 
-/** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
-	'Contact' => array( 'ទំនាក់ទំនង' ),
+	'Contact'   => array( 'ទំនាក់ទំនង' ),
 );
 
-/** Korean (한국어) */
 $aliases['ko'] = array(
-	'Contact' => array( '문의' ),
+	'Contact'   => array( '문의' ),
 );
 
-/** Colognian (Ripoarisch) */
 $aliases['ksh'] = array(
-	'Contact' => array( 'Kuntak', 'Kumtak', 'Kontak' ),
+	'Contact'   => array( 'Kuntak', 'Kumtak', 'Kontak' ),
 );
 
-/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lad'] = array(
+	'Contact'   => array( 'Tener_dar_i_aver' ),
+);
+
 $aliases['lb'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Macedonian (Македонски) */
 $aliases['mk'] = array(
-	'Contact' => array( 'Контакт' ),
+	'Contact'   => array( 'Контакт' ),
 );
 
-/** Malayalam (മലയാളം) */
 $aliases['ml'] = array(
-	'Contact' => array( 'ബന്ധപ്പെടുക' ),
+	'Contact'   => array( 'ബന്ധപ്പെടുക' ),
 );
 
-/** Marathi (मराठी) */
 $aliases['mr'] = array(
-	'Contact' => array( 'संपर्क' ),
+	'Contact'   => array( 'संपर्क' ),
 );
 
-/** Maltese (Malti) */
 $aliases['mt'] = array(
-	'Contact' => array( 'Kuntatt' ),
+	'Contact'   => array( 'Kuntatt' ),
 );
 
-/** Low German (Plattdüütsch) */
 $aliases['nds'] = array(
-	'Contact' => array( 'Kuntakt' ),
+	'Contact'   => array( 'Kuntakt' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
 $aliases['nds-nl'] = array(
-	'Contact' => array( 'Kontak' ),
+	'Contact'   => array( 'Kontak' ),
 );
 
-/** Dutch (Nederlands) */
 $aliases['nl'] = array(
-	'Contact' => array( 'Contactpagina' ),
+	'Contact'   => array( 'Contactpagina' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $aliases['nn'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
 $aliases['no'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Occitan (Occitan) */
 $aliases['oc'] = array(
-	'Contact' => array( 'Contacte' ),
+	'Contact'   => array( 'Contacte' ),
 );
 
-/** Polish (Polski) */
 $aliases['pl'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Pashto (پښتو) */
 $aliases['ps'] = array(
-	'Contact' => array( 'اړيکه، د اړيکو مخ' ),
+	'Contact'   => array( 'اړيکه،_د_اړيکو_مخ' ),
 );
 
-/** Portuguese (Português) */
 $aliases['pt'] = array(
-	'Contact' => array( 'Contactar' ),
+	'Contact'   => array( 'Contactar' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
 $aliases['pt-br'] = array(
-	'Contact' => array( 'Contactar', 'Contatar' ),
+	'Contact'   => array( 'Contactar', 'Contatar' ),
 );
 
-/** Sanskrit (संस्कृत) */
 $aliases['sa'] = array(
-	'Contact' => array( 'सम्पर्क' ),
+	'Contact'   => array( 'सम्पर्क' ),
 );
 
-/** Slovak (Slovenčina) */
 $aliases['sk'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Albanian (Shqip) */
 $aliases['sq'] = array(
-	'Contact' => array( 'Kontakto' ),
+	'Contact'   => array( 'Kontakto' ),
 );
 
-/** Swedish (Svenska) */
 $aliases['sv'] = array(
-	'Contact' => array( 'Kontakt' ),
+	'Contact'   => array( 'Kontakt' ),
 );
 
-/** Swahili (Kiswahili) */
 $aliases['sw'] = array(
-	'Contact' => array( 'Mawasiliano' ),
+	'Contact'   => array( 'Mawasiliano' ),
 );
 
-/** Telugu (తెలుగు) */
 $aliases['te'] = array(
-	'Contact' => array( 'సంప్రదించు' ),
+	'Contact'   => array( 'సంప్రదించు' ),
 );
 
-/** Tetum (Tetun) */
 $aliases['tet'] = array(
-	'Contact' => array( 'Kontaktu' ),
+	'Contact'   => array( 'Kontaktu' ),
 );
 
-/** Thai (ไทย) */
 $aliases['th'] = array(
-	'Contact' => array( 'ติดต่อ' ),
+	'Contact'   => array( 'ติดต่อ' ),
 );
 
-/** Tagalog (Tagalog) */
 $aliases['tl'] = array(
-	'Contact' => array( 'Makipag-ugnayan' ),
+	'Contact'   => array( 'Makipag-ugnayan' ),
 );
 
-/** Turkish (Türkçe) */
 $aliases['tr'] = array(
-	'Contact' => array( 'İrtibat' ),
+	'Contact'   => array( 'İrtibat' ),
 );
 
-/** Vietnamese (Tiếng Việt) */
 $aliases['vi'] = array(
-	'Contact' => array( 'Liên hệ' ),
+	'Contact'   => array( 'Liên_hệ' ),
 );
 
+$aliases['zh-hant'] = array(
+	'Contact'   => array( '聯絡' ),
+);
