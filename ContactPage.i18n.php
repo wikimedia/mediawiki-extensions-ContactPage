@@ -1234,6 +1234,7 @@ $messages['li'] = array(
 	'contactpage-legend' => 'Sjik e-mail',
 	'contactpage-defsubject' => 'Kóntakberich',
 	'contactpage-subject-and-sender' => '$1 (ven $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (van $2 op $3)',
 	'contactpage-fromname' => 'Diene naam: *',
 	'contactpage-fromaddress' => 'Die-t e-mailadres: **',
 	'contactpage-formfootnotes' => '* keuzevrie<br />
