@@ -1677,6 +1677,7 @@ $messages['rmy'] = array(
 /** Romanian (Română)
  * @author KlaudiuMihaila
  * @author Mihai
+ * @author Minisarm
  */
 $messages['ro'] = array(
 	'contact' => 'Pagină de contact',
@@ -1687,6 +1688,7 @@ $messages['ro'] = array(
 	'contactpage-legend' => 'Trimite e-mail',
 	'contactpage-defsubject' => 'Mesaj de contact',
 	'contactpage-subject-and-sender' => '$1 (de la $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de la $2 la $3)',
 	'contactpage-fromname' => 'Numele dumneavoastră: *',
 	'contactpage-fromaddress' => 'Adresa dumneavoastră de e-mail: **',
 	'contactpage-formfootnotes' => '* opțional<br />
@@ -1696,6 +1698,7 @@ $messages['ro'] = array(
 	'contactpage-formfootnotes-required' => 'Toate câmpurile sunt obligatorii.',
 	'contactpage-captcha' => 'Pentru a trimite mesajul, rezolvă captcha ([[Special:Captcha/help|mai multe detalii]])',
 	'contactpage-captcha-failed' => 'Testul captcha a eșuat! ([[Special:Captcha/help|mai multe informații]])',
+	'contactpage-includeip' => 'Include-mi adresa IP în acest mesaj.',
 );
 
 /** Tarandíne (Tarandíne)
