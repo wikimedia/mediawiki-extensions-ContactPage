@@ -53,7 +53,7 @@ class SpecialContact extends SpecialPage {
 		}
 
 		// Blocked users cannot use the contact form.
-		if ( $wgUser->isBlocked() ) {
+		if ( $wgUser->isAllowed( 'sendemail' ) ) {
 			$wgOut->setPageTitle( wfMsg( 'blockedtitle' ) );
 			$wgOut->setRobotPolicy( 'noindex,nofollow' );
 			$wgOut->setArticleRelated( false );
