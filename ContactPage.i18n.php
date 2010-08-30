@@ -286,6 +286,7 @@ $messages['bs'] = array(
 	'contactpage-formfootnotes-required' => 'Sva polja su neophodna.',
 	'contactpage-captcha' => 'Da bi ste poslali poruku, molimo da riješite captcha ([[Special:Captcha/help|više informacija]])',
 	'contactpage-captcha-failed' => 'Neuspješan captcha test! ([[Special:Captcha/help|više informacija]])',
+	'contactpage-includeip' => 'Uključi moju IP adresu u ovu poruku.',
 );
 
 /** Catalan (Català)
