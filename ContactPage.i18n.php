@@ -1504,8 +1504,8 @@ $messages['no'] = array(
  * @author Mohau
  */
 $messages['nso'] = array(
-	'contactpage-fromname' => 'liena la gago*',
-	'contactpage-fromaddress' => 'email ya gago **',
+	'contactpage-fromname' => 'Leina la gago: *',
+	'contactpage-fromaddress' => 'Email aterese ya gago: **',
 );
 
 /** Occitan (Occitan)
