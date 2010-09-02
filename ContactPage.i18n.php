@@ -849,6 +849,7 @@ $messages['hi'] = array(
 /** Croatian (Hrvatski)
  * @author Dnik
  * @author SpeedyGonsales
+ * @author Tivek
  */
 $messages['hr'] = array(
 	'contact' => 'Stranica za kontakt',
@@ -859,6 +860,7 @@ $messages['hr'] = array(
 	'contactpage-legend' => 'Pošalji e-mail',
 	'contactpage-defsubject' => 'Poruka za kontakt',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (od $2 s $3)',
 	'contactpage-fromname' => 'Vaše ime: *',
 	'contactpage-fromaddress' => 'Vaš e-mail: **',
 	'contactpage-formfootnotes' => '* neobavezno<br />
@@ -868,6 +870,7 @@ $messages['hr'] = array(
 	'contactpage-formfootnotes-required' => 'Sva polja su obvezna.',
 	'contactpage-captcha' => 'Da biste poslali poruku, molimo da u svrhu prevencije spama, prepišete simbole ([[Special:Captcha/help|više informacija]])',
 	'contactpage-captcha-failed' => 'Antispam-test nije uspio! ([[Special:Captcha/help|više informacija]])',
+	'contactpage-includeip' => 'Priloži moju IP adresu u ovu poruku.',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
