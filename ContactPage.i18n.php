@@ -1367,6 +1367,7 @@ $messages['ms'] = array(
 	'contactpage-legend' => 'Kirim e-mel',
 	'contactpage-defsubject' => 'Pesanan',
 	'contactpage-subject-and-sender' => '$1 (daripada $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (daripada $2 di alamat $3)',
 	'contactpage-fromname' => 'Nama anda: *',
 	'contactpage-fromaddress' => 'E-mel anda: **',
 	'contactpage-formfootnotes' => '* pilihan<br />
@@ -1376,6 +1377,7 @@ $messages['ms'] = array(
 	'contactpage-formfootnotes-required' => 'Semua ruangan wajib diisi.',
 	'contactpage-captcha' => 'Untuk mengirim pesanan ini, sila selesaikan ujian CAPTCHA yang diberikan ([[Special:Captcha/help|maklumat lanjut]])',
 	'contactpage-captcha-failed' => 'Anda tidak melepasi ujian CAPTCHA! ([[Special:Captcha/help|maklumat lanjut]])',
+	'contactpage-includeip' => 'Sertakan alamat IP saya dalam pesanan ini.',
 );
 
 /** Erzya (Эрзянь)
