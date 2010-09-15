@@ -1108,10 +1108,15 @@ $messages['km'] = array(
 	'contactpage-legend' => 'ផ្ញើអ៊ីមែល',
 	'contactpage-defsubject' => 'សារទាក់ទង',
 	'contactpage-subject-and-sender' => '$1 (ផ្ញើ​ពី $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (ផ្ញើពី $2 នៅ $3)',
 	'contactpage-fromname' => 'ឈ្មោះ​​របស់អ្នក៖ *',
 	'contactpage-fromaddress' => 'អ៊ីមែល​​របស់អ្នក៖ **',
+	'contactpage-formfootnotes' => '* ដាក់មិនដាក់ក៏បាន<br />
+** ដាក់មិនដាក់ក៏បានដែរ តែបើសិនជាអ្នកចង់បានចំលើយតបសូមដាក់',
 	'contactpage-fromname-required' => 'ឈ្មោះរបស់អ្នក៖',
 	'contactpage-fromaddress-required' => 'អ៊ីមែលរបស់អ្នក៖',
+	'contactpage-formfootnotes-required' => 'តំរូវអោយបំពេលគ្រប់ប្រលោះ',
+	'contactpage-includeip' => 'បញ្ចូលអាសយដ្ឋានIPរបស់ខ្ញុំទៅក្នុងសារនេះ។',
 );
 
 /** Kannada (ಕನ್ನಡ)
@@ -1164,6 +1169,7 @@ $messages['ksh'] = array(
 	'contactpage-legend' => '<i lang="en">e-mail</i> schecke',
 	'contactpage-defsubject' => 'Kontak-Sigg fun de {{SITENAME}}',
 	'contactpage-subject-and-sender' => '$1 (fun $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (vum $2 met dä IP-Addräß $3)',
 	'contactpage-fromname' => 'Dinge Name: <sup>*</sup>',
 	'contactpage-fromaddress' => 'Ding <i lang="en">e-mail</i> Address: <sup>**</sup>',
 	'contactpage-formfootnotes' => '<sup>*</sup> kannze fott lohße
@@ -1178,6 +1184,7 @@ $messages['ksh'] = array(
 Eß ävver kei Problem.
 Don et einfach norr_ens versöke.
 ([[Special:Captcha/help|Mieh Enfommazjuhne]])',
+	'contactpage-includeip' => 'Donn ming <i lang="en">IP</i>-Addräß en heh di Nohreesch erin.',
 );
 
 /** Cornish (Kernewek)
