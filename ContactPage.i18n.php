@@ -1765,7 +1765,7 @@ $messages['ru'] = array(
 	'contactpage-includeip' => 'Включить мой IP-адрес в это сообщение.',
 );
 
-/** Rusyn (русиньскый язык)
+/** Rusyn (Русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
