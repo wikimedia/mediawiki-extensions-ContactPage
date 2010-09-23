@@ -2101,6 +2101,31 @@ $messages['tr'] = array(
 	'contactpage-includeip' => 'Mesaja IP adresimi ekle.',
 );
 
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ильнар
+ */
+$messages['tt-cyrl'] = array(
+	'contact' => 'Элемтә бите',
+	'contactpage' => 'Элемтә бите',
+	'contactpage-desc' => '[[Special:Contact|Караучылар өчен форма]]',
+	'contactpage-title' => 'Элемтә',
+	'contactpage-pagetext' => 'Зинһар, астагы форманы безнең белән элемтәгә керү өчен кулланыгыз.',
+	'contactpage-legend' => 'Хат җибәрү',
+	'contactpage-defsubject' => 'Хат',
+	'contactpage-subject-and-sender' => '$1 ($2 башлап)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2  $3 юлламасыннан)',
+	'contactpage-fromname' => 'Сезнең исемегез: *',
+	'contactpage-fromaddress' => 'Сезнең эл. почта юлламагыз: **',
+	'contactpage-formfootnotes' => '* мәҗбүри түгел<br />
+** мәҗбүри түгел, ләкин сезгә җавап бирү өчен кирәк',
+	'contactpage-fromname-required' => 'Сезнең исемегез:',
+	'contactpage-fromaddress-required' => 'Сезнең эл. почта юлламагыз:',
+	'contactpage-formfootnotes-required' => 'Барлык кырлар да тутырылган булырга тиеш.',
+	'contactpage-captcha' => 'Хатны җибәрү өчен, зинһар, CAPTCHA тикшерүен узыгыз ([[Special:Captcha/help|нәрсә бу?]])',
+	'contactpage-captcha-failed' => 'CAPTCHA тикшерүе үтмәде! ([[Special:Captcha/help|нәрсә бу?]])',
+	'contactpage-includeip' => 'Минем IP-юлламаны бу хат белән җибәрергә.',
+);
+
 /** Udmurt (Удмурт)
  * @author Kaganer
  */
