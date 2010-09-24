@@ -1391,7 +1391,10 @@ $messages['ms'] = array(
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
-	'contactpage-fromname-required' => 'эсеть леметь',
+	'contactpage-legend' => 'Кучомс е-сёрма',
+	'contactpage-fromname' => 'Эсеть леметь: *',
+	'contactpage-fromaddress' => 'Эсеть е-сёрмат: **',
+	'contactpage-fromname-required' => 'Эсеть леметь:',
 	'contactpage-formfootnotes-required' => 'Весе паксятне эрявикст.',
 );
 
