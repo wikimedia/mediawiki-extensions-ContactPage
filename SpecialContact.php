@@ -321,10 +321,10 @@ class EmailContactForm {
 
 	function doSubmit() {
 		global $wgOut, $wgUser;
-		global $wgEnableEmail, $wgUserEmailUseReplyTo, $wgEmergencyContact;
+		global $wgEnableEmail, $wgUserEmailUseReplyTo, $wgPasswordSender;
 		global $wgContactUser, $wgContactSender, $wgContactSenderName, $wgContactIncludeIP;
 
-		$csender = $wgContactSender ? $wgContactSender : $wgEmergencyContact;
+		$csender = $wgContactSender ? $wgContactSender : $wgPasswordSender;
 		$cname = $wgContactSenderName;
 		$senderIP = wfGetIP();
 
