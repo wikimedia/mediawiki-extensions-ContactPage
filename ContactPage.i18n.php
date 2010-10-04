@@ -2191,6 +2191,7 @@ $messages['vec'] = array(
 	'contactpage-legend' => 'Manda e-mail',
 	'contactpage-defsubject' => 'Messajo',
 	'contactpage-subject-and-sender' => '$1 (da $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (da $2 a $3)',
 	'contactpage-fromname' => 'El to nome: *',
 	'contactpage-fromaddress' => 'La to e-mail: **',
 	'contactpage-formfootnotes' => '* canpo mia obligatorio<br />
