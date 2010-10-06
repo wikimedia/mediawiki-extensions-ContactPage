@@ -665,6 +665,7 @@ $messages['fi'] = array(
 	'contactpage-legend' => 'Lähetä sähköposti',
 	'contactpage-defsubject' => 'Viestisi',
 	'contactpage-subject-and-sender' => '$1 (lähettäjä: $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (käyttäjältä $2 osoitteesta $3)',
 	'contactpage-fromname' => 'Nimesi *',
 	'contactpage-fromaddress' => 'Sähköpostiosoitteesi **',
 	'contactpage-formfootnotes' => '* vapaaehtoinen<br />
@@ -1123,7 +1124,11 @@ $messages['km'] = array(
  * @author Nayvik
  */
 $messages['kn'] = array(
+	'contact' => 'ಸಂಪರ್ಕ ಪುಟ',
+	'contactpage' => 'ಸಂಪರ್ಕ ಪುಟ',
+	'contactpage-title' => 'ಸಂಪರ್ಕ',
 	'contactpage-legend' => 'ಇ-ಅಂಚೆ ಕಳುಹಿಸಿ',
+	'contactpage-defsubject' => 'ಸಂಪರ್ಕ ಸಂದೇಶ',
 	'contactpage-fromname' => 'ನಿಮ್ಮ ಹೆಸರು: *',
 	'contactpage-fromaddress' => 'ನಿಮ್ಮ ಇ-ಅಂಚೆ: **',
 	'contactpage-fromname-required' => 'ನಿಮ್ಮ ಹೆಸರು:',
