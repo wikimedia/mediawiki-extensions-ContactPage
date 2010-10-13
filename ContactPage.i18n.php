@@ -1959,6 +1959,17 @@ $messages['sv'] = array(
 	'contactpage-includeip' => 'Inkludera min IP-adress i detta meddelande.',
 );
 
+/** Tamil (தமிழ்)
+ * @author TRYPPN
+ */
+$messages['ta'] = array(
+	'contactpage-legend' => 'மின்னஞ்சலை அனுப்பவும்',
+	'contactpage-fromname' => 'தங்களது பெயர்: *',
+	'contactpage-fromaddress' => 'தங்களது மின்னஞ்சல்: **',
+	'contactpage-fromname-required' => 'தங்களது பெயர்:',
+	'contactpage-fromaddress-required' => 'தங்களது மின்னஞ்சல்:',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -1971,6 +1982,7 @@ $messages['te'] = array(
 	'contactpage-legend' => 'ఈమెయిలు పంపండి',
 	'contactpage-defsubject' => 'సంప్రదింపు సందేశం',
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
+	'contactpage-subject-and-sender-withip' => '$1 ($3 వద్ద $2 నుండి)',
 	'contactpage-fromname' => 'మీ పేరు: *',
 	'contactpage-fromaddress' => 'మీ ఈ-మెయిల్: **',
 	'contactpage-formfootnotes' => '* ఐచ్చికం<br />
@@ -1980,6 +1992,7 @@ $messages['te'] = array(
 	'contactpage-formfootnotes-required' => 'అన్ని ఖాళీలు తప్పనిసరి.',
 	'contactpage-captcha' => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
 	'contactpage-captcha-failed' => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
+	'contactpage-includeip' => 'ఈ సందేశంలో నా ఐపీ చిరునామాని చేర్చు.',
 );
 
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
