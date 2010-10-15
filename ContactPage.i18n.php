@@ -2219,6 +2219,7 @@ $messages['vec'] = array(
 	'contactpage-formfootnotes-required' => 'Tuti i canpi i xe obligatori.',
 	'contactpage-captcha' => 'Par mandar el messajo, par piaser risolvi el captcha ([[Special:Captcha/help|ulteriori informassion]])',
 	'contactpage-captcha-failed' => 'Test captcha mia riussìo! ([[Special:Captcha/help|ulteriori informassion]])',
+	'contactpage-includeip' => 'Includi el me indirisso IP in sto messajo.',
 );
 
 /** Veps (Vepsan kel')
