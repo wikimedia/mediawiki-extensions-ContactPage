@@ -80,6 +80,7 @@ $messages['af'] = array(
 	'contactpage-legend' => 'Stuur E-pos',
 	'contactpage-defsubject' => 'Kontak boodskap',
 	'contactpage-subject-and-sender' => '$1 (van $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (van $2 op $3)',
 	'contactpage-fromname' => 'U naam *',
 	'contactpage-fromaddress' => 'U e-posadres **',
 	'contactpage-formfootnotes' => "* opsioneel<br />
@@ -89,6 +90,7 @@ $messages['af'] = array(
 	'contactpage-formfootnotes-required' => 'Alle velde is verpligtend.',
 	'contactpage-captcha' => 'Los die captch op voor u die boodskap kan stuur ([[Special:Captcha/help|meer inligting]])',
 	'contactpage-captcha-failed' => 'Die captcha-toets het gefaal! ([[Special:Captcha/help|meer inligting]])',
+	'contactpage-includeip' => 'Sluit my IP-adres by die boodskap in.',
 );
 
 /** Gheg Albanian (Gegë)
