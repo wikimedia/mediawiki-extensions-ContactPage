@@ -1475,6 +1475,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Nghtwlkr
  */
 $messages['nn'] = array(
 	'contact' => 'Kontaktsida',
@@ -1485,6 +1486,7 @@ $messages['nn'] = array(
 	'contactpage-legend' => 'Send e-post',
 	'contactpage-defsubject' => 'Melding',
 	'contactpage-subject-and-sender' => '$1 (frå $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (frå $2 på $3)',
 	'contactpage-fromname' => 'Namnet ditt: *',
 	'contactpage-fromaddress' => 'E-postadressa di: **',
 	'contactpage-formfootnotes' => '* valfri<br />
@@ -1794,6 +1796,7 @@ $messages['sah'] = array(
 	'contactpage-legend' => 'Суругу ыыт',
 	'contactpage-defsubject' => 'Сурук',
 	'contactpage-subject-and-sender' => '$1 (от $2)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2, $3 аадырыстан)',
 	'contactpage-fromname' => 'Эн аатыҥ: *',
 	'contactpage-fromaddress' => 'Эн эл. почтаҥ аадырыһа: **',
 	'contactpage-formfootnotes' => '* булугуччута суох<br />
@@ -1803,6 +1806,7 @@ $messages['sah'] = array(
 	'contactpage-formfootnotes-required' => 'Бары түннүктэр булгуччу толоруллуохтаахтар.',
 	'contactpage-captcha' => 'Сурук ыытарга CAPTCHA бэрэбиэркэтин ааһыахтааххын ([[Special:Captcha/help|ол туһунан сиһилии]])',
 	'contactpage-captcha-failed' => 'CAPTCHA бэрэбиэркэтэ ааһыллыбатах! ([[Special:Captcha/help|ол туһунан сиһилии]])',
+	'contactpage-includeip' => 'Мин IP-бын бу биллэриккэ киллэр.',
 );
 
 /** Slovak (Slovenčina)
