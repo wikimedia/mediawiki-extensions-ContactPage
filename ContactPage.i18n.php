@@ -163,6 +163,27 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
+/** Bashkir (Башҡорт)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'contact' => 'Бәйләнеш бите',
+	'contactpage' => 'Бәйләнеш бите',
+	'contactpage-desc' => '[[Special:Contact|Ҡараусылар өсөн форма]]',
+	'contactpage-title' => 'Бәйләнеш',
+	'contactpage-legend' => 'Э-хат ебәрергә',
+	'contactpage-defsubject' => 'Хәбәр',
+	'contactpage-subject-and-sender' => '$1 ($2 башлап)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2  $3 адресынан)',
+	'contactpage-fromname' => 'Исемегеҙ: *',
+	'contactpage-fromaddress' => 'Электрон почта адресығыҙ: **',
+	'contactpage-formfootnotes' => '* мәжбүри түгел<br />
+** мәжбүри түгел, ләкин һеҙгә яуап биреү өсөн кәрәк',
+	'contactpage-fromname-required' => 'Исемегеҙ:',
+	'contactpage-fromaddress-required' => 'Эл. почта адресығыҙ:',
+	'contactpage-formfootnotes-required' => 'Бөтә юлдар ҙа тултырылырға тейеш',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
@@ -304,6 +325,7 @@ $messages['ca'] = array(
 	'contactpage-legend' => 'Envia missatge',
 	'contactpage-defsubject' => 'Missatge de contacte',
 	'contactpage-subject-and-sender' => '$1 (des de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
 	'contactpage-fromname' => 'El vostre nom: *',
 	'contactpage-fromaddress' => 'El vostre correu-e: **',
 	'contactpage-formfootnotes' => '* opcional<br />
