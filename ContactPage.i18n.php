@@ -1803,7 +1803,16 @@ $messages['ru'] = array(
  * @author Gazeb
  */
 $messages['rue'] = array(
+	'contact' => 'Контакт',
+	'contactpage' => 'Сторінка контакту',
+	'contactpage-desc' => '[[Special:Contact|Контактный формуларь про навщівників]]',
 	'contactpage-title' => 'Контакт',
+	'contactpage-subject-and-sender' => '$1 (з $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (од $2 з $3)',
+	'contactpage-fromname' => 'Ваше імя: *',
+	'contactpage-fromaddress' => 'Ваша адреса ел. пошты: **',
+	'contactpage-fromname-required' => 'Ваше імя:',
+	'contactpage-fromaddress-required' => 'Ваша адреса ел. пошты:',
 );
 
 /** Yakut (Саха тыла)
