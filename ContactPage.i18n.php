@@ -744,6 +744,7 @@ $messages['frp'] = array(
 	'contactpage-legend' => 'Mandar un mèssâjo',
 	'contactpage-defsubject' => 'Mèssâjo',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
 	'contactpage-fromname' => 'Voutron nom : *',
 	'contactpage-fromaddress' => 'Voutra adrèce èlèctronica : **',
 	'contactpage-formfootnotes' => '* u chouèx<br />
