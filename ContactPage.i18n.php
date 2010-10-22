@@ -138,6 +138,16 @@ $messages['ar'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'contactpage-subject-and-sender' => '$1 (ܡܢ $2)',
+	'contactpage-fromname' => 'ܫܡܐ ܕܝܠܟ: *',
+	'contactpage-fromname-required' => 'ܫܡܐ ܕܝܠܟ:',
+	'contactpage-fromaddress-required' => 'ܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ ܕܝܠܟ:',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Ghaly
  * @author Meno25
@@ -1853,6 +1863,7 @@ $messages['sk'] = array(
 	'contactpage-legend' => 'Poslať email',
 	'contactpage-defsubject' => 'Správa',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (od $2 z $3)',
 	'contactpage-fromname' => 'Vaše meno: *',
 	'contactpage-fromaddress' => 'Váš email: **',
 	'contactpage-formfootnotes' => '
@@ -1863,6 +1874,7 @@ $messages['sk'] = array(
 	'contactpage-formfootnotes-required' => 'Je povinné vyplniť všetky polia.',
 	'contactpage-captcha' => 'Aby ste mohli poslať správu, vyriešte prosím captcha ([[Special:Captcha/help|podrobnosti]])',
 	'contactpage-captcha-failed' => 'Test captcha bol neúspešný! ([[Special:Captcha/help|podrobnosti]])',
+	'contactpage-includeip' => 'Vložiť k tejto správe moju IP adresu.',
 );
 
 /** Slovenian (Slovenščina)
@@ -2095,6 +2107,7 @@ $messages['tk'] = array(
 	'contactpage-legend' => 'E-poçta iber',
 	'contactpage-defsubject' => 'Kontakt habarlaşygy',
 	'contactpage-subject-and-sender' => '$1 ($2-dan/den)',
+	'contactpage-subject-and-sender-withip' => '$1 (gelýän ýeri: $3 IP adresindäki $2 )',
 	'contactpage-fromname' => 'Adyňyz: *',
 	'contactpage-fromaddress' => 'E-poçtaňyz: **',
 	'contactpage-formfootnotes' => '* islege görä<br />
