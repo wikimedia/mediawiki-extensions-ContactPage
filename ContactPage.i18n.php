@@ -851,6 +851,7 @@ $messages['he'] = array(
 	'contactpage-legend' => 'שליחת דוא"ל',
 	'contactpage-defsubject' => 'הודעת יצירת קשר',
 	'contactpage-subject-and-sender' => '$1 (מתוך $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (מ{{grammar:תחילית|$2}} מהכתובת $3)',
 	'contactpage-fromname' => 'שמכם: *',
 	'contactpage-fromaddress' => 'כתובת הדוא"ל שלכם: **',
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
@@ -1818,12 +1819,21 @@ $messages['rue'] = array(
 	'contactpage' => 'Сторінка контакту',
 	'contactpage-desc' => '[[Special:Contact|Контактный формуларь про навщівників]]',
 	'contactpage-title' => 'Контакт',
+	'contactpage-pagetext' => 'За помочі ниже указаного формуларя ся з нами можете споїти.',
+	'contactpage-legend' => 'Послати ел. пошту',
+	'contactpage-defsubject' => 'Повідомлїня',
 	'contactpage-subject-and-sender' => '$1 (з $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (од $2 з $3)',
 	'contactpage-fromname' => 'Ваше імя: *',
 	'contactpage-fromaddress' => 'Ваша адреса ел. пошты: **',
+	'contactpage-formfootnotes' => '&#042; волительны<br />
+&#042;&#042; волительны, але потрібны кідь хочете одповідь',
 	'contactpage-fromname-required' => 'Ваше імя:',
 	'contactpage-fromaddress-required' => 'Ваша адреса ел. пошты:',
+	'contactpage-formfootnotes-required' => 'Вшыткы поля мусять быти выповнены.',
+	'contactpage-captcha' => 'Жебы сьте могли одослати повідомлїня, мусите вырїшытиt CAPTCHA ([[Special:Captcha/help|пояснїня]])',
+	'contactpage-captcha-failed' => '{{GENDER:Не перешов|Не перешла|Не перешли}} сьте у тестї CAPTCHA! ([[Special:Captcha/help|пояснїня]])',
+	'contactpage-includeip' => 'Приложыти ку повідомлїню мою IP адресу.',
 );
 
 /** Yakut (Саха тыла)
@@ -2117,6 +2127,7 @@ $messages['tk'] = array(
 	'contactpage-formfootnotes-required' => 'Ähli meýdançalar hökmanydyr.',
 	'contactpage-captcha' => 'Habarlaşygy ibermek üçin, captcha-ny çözüň ([[Special:Captcha/help|has köp maglumat]])',
 	'contactpage-captcha-failed' => 'Captcha synagy şowsuz! ([[Special:Captcha/help|has köp maglumat]])',
+	'contactpage-includeip' => 'Bu habara meniň IP adresimi goş.',
 );
 
 /** Tagalog (Tagalog)
