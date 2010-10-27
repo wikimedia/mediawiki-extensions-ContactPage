@@ -174,6 +174,7 @@ $messages['arz'] = array(
 );
 
 /** Bashkir (Башҡорт)
+ * @author Assele
  * @author Haqmar
  */
 $messages['ba'] = array(
@@ -181,6 +182,7 @@ $messages['ba'] = array(
 	'contactpage' => 'Бәйләнеш бите',
 	'contactpage-desc' => '[[Special:Contact|Ҡараусылар өсөн форма]]',
 	'contactpage-title' => 'Бәйләнеш',
+	'contactpage-pagetext' => 'Зинһар, беҙҙең менән бәйләнешкә кереү өсөн, түбәндәге форманы ҡулланығыҙ.',
 	'contactpage-legend' => 'Э-хат ебәрергә',
 	'contactpage-defsubject' => 'Хәбәр',
 	'contactpage-subject-and-sender' => '$1 ($2 башлап)',
@@ -192,6 +194,9 @@ $messages['ba'] = array(
 	'contactpage-fromname-required' => 'Исемегеҙ:',
 	'contactpage-fromaddress-required' => 'Эл. почта адресығыҙ:',
 	'contactpage-formfootnotes-required' => 'Бөтә юлдар ҙа тултырылырға тейеш',
+	'contactpage-captcha' => 'Хәбәрҙе ебәрер өсөн, зинһар, captcha  тикшерегеҙ ([[Special:Captcha/help|тулыраҡ мәғлүмәт]])',
+	'contactpage-captcha-failed' => 'Captcha тикшереүе уңышһыҙ! ([[Special:Captcha/help|тулыраҡ мәғлүмәт]])',
+	'contactpage-includeip' => 'Был хәбәргә минең IP адресты өҫтәргә.',
 );
 
 /** Bikol Central (Bikol Central)
