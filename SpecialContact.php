@@ -36,8 +36,6 @@ class SpecialContact extends SpecialPage {
 	public function execute( $par ) {
 		global $wgUser, $wgOut, $wgRequest, $wgEnableEmail, $wgContactUser;
 
-		wfLoadExtensionMessages( 'ContactPage' );
-
 		if( !$wgEnableEmail || !$wgContactUser ) {
 			$wgOut->showErrorPage( 'nosuchspecialpage', 'nospecialpagetext' );
 			return;
