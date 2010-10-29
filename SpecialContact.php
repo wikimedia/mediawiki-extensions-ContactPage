@@ -270,7 +270,7 @@ class EmailContactForm {
 					Xml::submitButton( wfMsg( 'emailsend' ), array( 'name' => 'wpSend', 'accesskey' => 's' ) ) .
 				'</td>
 			</tr>' .
-			Xml::hidden( 'wpEditToken', $token ) .
+			Html::hidden( 'wpEditToken', $token ) .
 			Xml::closeElement( 'table' ) .
 			Xml::closeElement( 'fieldset' ) .
 			Xml::closeElement( 'form' );
