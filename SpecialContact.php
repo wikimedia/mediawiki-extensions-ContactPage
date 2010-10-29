@@ -120,7 +120,6 @@ class EmailContactForm {
 	 */
 	function __construct( $target ) {
 		global $wgRequest, $wgUser;
-		global $wgCaptchaClass;
 
 		$this->target = $target;
 		$this->text = $wgRequest->getText( 'wpText' );
@@ -319,8 +318,8 @@ class EmailContactForm {
 
 	function doSubmit() {
 		global $wgOut, $wgUser;
-		global $wgEnableEmail, $wgUserEmailUseReplyTo, $wgPasswordSender;
-		global $wgContactUser, $wgContactSender, $wgContactSenderName, $wgContactIncludeIP;
+		global $wgUserEmailUseReplyTo, $wgPasswordSender;
+		global $wgContactSender, $wgContactSenderName, $wgContactIncludeIP;
 
 		$csender = $wgContactSender ? $wgContactSender : $wgPasswordSender;
 		$cname = $wgContactSenderName;
