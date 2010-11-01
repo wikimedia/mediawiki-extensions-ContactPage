@@ -328,6 +328,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author Martorell
  * @author SMP
  * @author Solde
  */
@@ -350,6 +351,7 @@ $messages['ca'] = array(
 	'contactpage-formfootnotes-required' => 'Tots els camps són obligatoris.',
 	'contactpage-captcha' => 'Per enviar el missatge, si us plau resoleu el captcha ([[Special:Captcha/help|more info]])',
 	'contactpage-captcha-failed' => 'Captcha erroni! ([[Special:Captcha/help|more info]])',
+	'contactpage-includeip' => "Inclou al missatge l'adreça IP que estic utilitzant.",
 );
 
 /** Czech (Česky)
@@ -769,6 +771,14 @@ $messages['frp'] = array(
 	'contactpage-formfootnotes-required' => 'Tôs los champs sont nècèssèros.',
 	'contactpage-captcha' => 'Por mandar lo mèssâjo, volyéd trovar la solucion du captch·a ([[Special:Captcha/help|éde]])',
 	'contactpage-captcha-failed' => 'Vos éd pas dècodâ lo captch·a ! ([[Special:Captcha/help|éde]])',
+);
+
+/** Friulian (Furlan)
+ * @author Klenje
+ */
+$messages['fur'] = array(
+	'contactpage-fromname' => 'Il to non: *',
+	'contactpage-fromname-required' => 'Il to non:',
 );
 
 /** Galician (Galego)
