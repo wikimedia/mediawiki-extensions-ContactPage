@@ -51,7 +51,7 @@ a captcha test for sending contact messages by using the following:
 
    $wgCaptchaTriggers['contactpage'] = true;
 
-== Costumization ==
+== Customization ==
 
 [[Special:Contact]] calls the default formular.
 Pagetext: [[MediaWiki:contactpage-pagetext]]
