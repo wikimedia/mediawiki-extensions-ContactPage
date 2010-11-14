@@ -70,7 +70,7 @@ class SpecialContact extends SpecialPage {
 			return;
 		}
 
-		$f = new EmailContactForm( $nu );
+		$f = new EmailContactForm( $nu, $par);
 
 		if ( 'success' == $action ) {
 			wfDebug( __METHOD__ . ": success.\n" );
@@ -118,12 +118,43 @@ class EmailContactForm {
 	/**
 	 * @param User $target
 	 */
-	function __construct( $target ) {
+	function __construct( $target, $par ) {
 		global $wgRequest, $wgUser;
 
+		$formType = $wgRequest->getText( 'type', $par );
+		
+		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
+		if ( $formType != '' ) {
+			$message = 'contactpage-pagetext-' . $formType;
+			$text = wfMsgExt( $message, 'parse' );
+			if ( !wfEmptyMsg( $message, $text ) ) {
+				$this->formularText = $text;
+			} else {
+				$this->formularText = wfMsgExt( 'contactpage-pagetext', 'parse' );
+			}
+
+			$message = 'contactpage-subject-' . $formType;
+			$text = wfMsgForContentNoTrans( $message );
+			if ( !wfEmptyMsg( $message, $text ) ) {
+				$this->subject = $wgRequest->getText( 'wpSubject', $text );
+			} else {
+				$this->subject = $wgRequest->getText( 'wpSubject' );
+			}
+
+			$message = 'contactpage-text-' . $formType;
+			$text = wfMsgForContentNoTrans( $message );
+			if ( !wfEmptyMsg( $message, $text ) ) {
+				$this->text = $wgRequest->getText( 'wpText', $text );
+			} else {
+				$this->text = $wgRequest->getText( 'wpText' );
+			}
+		} else {		
+			$this->formularText = wfMsgExt( 'contactpage-pagetext', 'parse' );
+			$this->text = $wgRequest->getText( 'wpText' );
+			$this->subject = $wgRequest->getText( 'wpSubject' );
+		}
+
 		$this->target = $target;
-		$this->text = $wgRequest->getText( 'wpText' );
-		$this->subject = $wgRequest->getText( 'wpSubject' );
 		$this->cc_me = $wgRequest->getBool( 'wpCCMe' );
 		$this->includeIP = $wgRequest->getBool( 'wpIncludeIP' );
 
@@ -188,7 +219,7 @@ class EmailContactForm {
 		#TODO: show captcha
 
 		$wgOut->setPageTitle( wfMsg( 'contactpage-title' ) );
-		$wgOut->addWikiMsg( 'contactpage-pagetext' );
+		$wgOut->addHTML( $this->formularText );
 
 		if ( $this->subject === '' ) {
 			$this->subject = wfMsgForContent( 'contactpage-defsubject' );

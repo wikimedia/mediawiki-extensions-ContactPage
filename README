@@ -51,3 +51,18 @@ a captcha test for sending contact messages by using the following:
 
    $wgCaptchaTriggers['contactpage'] = true;
 
+== Costumization ==
+
+[[Special:Contact]] calls the default formular.
+Pagetext: [[MediaWiki:contactpage-pagetext]]
+Subject: prefilled with text from [[MediaWiki:Contactpage-defsubject]] 
+E-mail body: empty.
+
+[[Special:Contact/typename]] calls the contact page with a customized pagetext and
+prefilled form fields:
+Pagetext: [[MediaWiki:contactpage-pagetext-typename]]
+Subject: prefilled with text from [[MediaWiki:Contactpage-subject-typename]] 
+E-mail body: prefilled with text from [[MediaWiki:Contactpage-text-typename]]
+
+If a customized message does not exist the default message is shown.
+
