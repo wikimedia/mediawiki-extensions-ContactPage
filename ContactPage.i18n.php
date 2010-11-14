@@ -430,6 +430,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author LWChris
  * @author Raimond Spekking
  * @author Umherirrender
@@ -437,10 +438,10 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'contact' => 'Kontaktseite',
 	'contactpage' => 'Kontaktseite',
-	'contactpage-desc' => '[[Special:Contact|Kontaktformular für Besucher]]',
+	'contactpage-desc' => 'Ergänzt eine [[Special:Contact|Spezialseite]] als Kontaktformular für Besucher',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Mit diesem Formular kannst du uns Nachrichten zukommen lassen.',
-	'contactpage-legend' => 'E-Mail absenden',
+	'contactpage-legend' => 'E-Mail senden',
 	'contactpage-defsubject' => 'Kontaktnachricht',
 	'contactpage-subject-and-sender' => '$1 (von $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (von $2 mit der IP-Adresse $3)',
@@ -451,8 +452,8 @@ $messages['de'] = array(
 	'contactpage-fromname-required' => 'Dein Name:',
 	'contactpage-fromaddress-required' => 'Deine E-Mail-Adresse:',
 	'contactpage-formfootnotes-required' => 'Alle Felder müssen ausgefüllt sein.',
-	'contactpage-captcha' => 'Um die Nachricht senden zu können, löse bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
-	'contactpage-captcha-failed' => 'Captcha-Test nicht bestanden! ([[Special:Captcha/help|weitere Informationen]])',
+	'contactpage-captcha' => 'Um die Nachricht senden zu können, löse bitte das CAPTCHA ([[Special:Captcha/help|weitere Informationen]])',
+	'contactpage-captcha-failed' => 'Der CAPTCHA-Test ist gescheitert! ([[Special:Captcha/help|weitere Informationen]])',
 	'contactpage-includeip' => 'Meine IP-Adresse in diese Nachricht einfügen.',
 );
 
