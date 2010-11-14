@@ -44,7 +44,7 @@ class SpecialContact extends SpecialPage {
 		$action = $wgRequest->getVal( 'action' );
 
 		$nu = User::newFromName( $wgContactUser );
-		if( is_null( $nu ) || $nu->canReceiveEmail() ) {
+		if( is_null( $nu ) || !$nu->canReceiveEmail() ) {
 			wfDebug( "Target is invalid user or can't receive.\n" );
 			$wgOut->showErrorPage( 'noemailtitle', 'noemailtext' );
 			return;
@@ -70,7 +70,7 @@ class SpecialContact extends SpecialPage {
 			return;
 		}
 
-		$f = new EmailContactForm( $nu, $par);
+		$f = new EmailContactForm( $nu, $par );
 
 		if ( 'success' == $action ) {
 			wfDebug( __METHOD__ . ": success.\n" );
