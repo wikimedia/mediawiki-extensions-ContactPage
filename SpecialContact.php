@@ -121,11 +121,11 @@ class EmailContactForm {
 	function __construct( $target, $par ) {
 		global $wgRequest, $wgUser;
 
-		$formType = $wgRequest->getText( 'type', $par );
+		$this->formType = $wgRequest->getText( 'formtype', $par );
 		
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
-		if ( $formType != '' ) {
-			$message = 'contactpage-pagetext-' . $formType;
+		if ( $this->formType != '' ) {
+			$message = 'contactpage-pagetext-' . $this->formType;
 			$text = wfMsgExt( $message, 'parse' );
 			if ( !wfEmptyMsg( $message, $text ) ) {
 				$this->formularText = $text;
@@ -133,7 +133,7 @@ class EmailContactForm {
 				$this->formularText = wfMsgExt( 'contactpage-pagetext', 'parse' );
 			}
 
-			$message = 'contactpage-subject-' . $formType;
+			$message = 'contactpage-subject-' . $this->formType;
 			$text = wfMsgForContentNoTrans( $message );
 			if ( !wfEmptyMsg( $message, $text ) ) {
 				$this->subject = $wgRequest->getText( 'wpSubject', $text );
@@ -141,7 +141,7 @@ class EmailContactForm {
 				$this->subject = $wgRequest->getText( 'wpSubject' );
 			}
 
-			$message = 'contactpage-text-' . $formType;
+			$message = 'contactpage-text-' . $this->formType;
 			$text = wfMsgForContentNoTrans( $message );
 			if ( !wfEmptyMsg( $message, $text ) ) {
 				$this->text = $wgRequest->getText( 'wpText', $text );
@@ -301,6 +301,7 @@ class EmailContactForm {
 				'</td>
 			</tr>' .
 			Html::hidden( 'wpEditToken', $token ) .
+			Html::hidden( 'formtype', $this->formType ) .
 			Xml::closeElement( 'table' ) .
 			Xml::closeElement( 'fieldset' ) .
 			Xml::closeElement( 'form' );
@@ -394,7 +395,7 @@ class EmailContactForm {
 			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $senderIP );
 		}
 
-		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$this->text ) ) ) {
+		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$this->text, $this->formType ) ) ) {
 			wfDebug( __METHOD__ . ": aborted by hook\n" );
 			return;
 		}
@@ -415,7 +416,7 @@ class EmailContactForm {
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if( $this->cc_me && $this->fromaddress ) {
 			$cc_subject = wfMsg( 'emailccsubject', $this->target->getName(), $subject );
-			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$this->text ) ) ) {
+			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$this->text, $this->formType ) ) ) {
 				wfDebug( __METHOD__ . ": sending cc mail from " . $contactSender->toString() .
 					" to " . $submitterAddress->toString() . "\n" );
 				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $this->text );
