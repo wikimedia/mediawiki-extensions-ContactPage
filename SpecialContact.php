@@ -290,7 +290,7 @@ class EmailContactForm {
 			$form .= '<tr>
 				<td></td>
 				<td class="mw-input">' .
-					Xml::checkLabel( wfMsg( 'emailccme' ), 'wpCCMe', 'wpCCMe', $wgUser->getBoolOption( 'ccmeonemails' ) ) .
+					Xml::checkLabel( wfMsg( 'emailccme' ), 'wpCCMe', 'wpCCMe', $this->cc_me ) .
 					'<br />' . $this->getCaptcha() .
 				'</td>
 			</tr>
