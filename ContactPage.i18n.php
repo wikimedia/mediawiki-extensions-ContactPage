@@ -1936,6 +1936,7 @@ $messages['sq'] = array(
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
+ * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -1949,7 +1950,7 @@ $messages['sr-ec'] = array(
 	'contactpage-formfootnotes' => '* необавезно<br />
 ** необавезно, али потребно ако желите да добијете одговор',
 	'contactpage-fromname-required' => 'Ваше име:',
-	'contactpage-fromaddress-required' => 'Ваш мејл:',
+	'contactpage-fromaddress-required' => 'Е-пошта:',
 	'contactpage-formfootnotes-required' => 'Сва поља су обавезна.',
 	'contactpage-captcha' => 'Молимо Вас да решите CAPTCHA-у, да бисте послали поруку ([[Special:Captcha/help|више информација]])',
 	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
