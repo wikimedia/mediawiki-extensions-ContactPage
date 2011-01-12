@@ -1956,8 +1956,9 @@ $messages['sr-ec'] = array(
 	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
+ * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontakt-forma za posetioce]]',
@@ -1970,7 +1971,7 @@ $messages['sr-el'] = array(
 	'contactpage-formfootnotes' => '* neobavezno<br />
 ** neobavezno, ali potrebno ako želite da dobijete odgovor',
 	'contactpage-fromname-required' => 'Vaše ime:',
-	'contactpage-fromaddress-required' => 'Vaš mejl:',
+	'contactpage-fromaddress-required' => 'E-pošta:',
 	'contactpage-formfootnotes-required' => 'Sva polja su obavezna.',
 	'contactpage-captcha' => 'Molimo Vas da rešite CAPTCHA-u, da biste poslali poruku ([[Special:Captcha/help|više informacija]])',
 	'contactpage-captcha-failed' => 'CAPTCHA test nije prošao! ([[Special:Captcha/help|više informacija]])',
