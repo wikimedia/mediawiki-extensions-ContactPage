@@ -666,6 +666,7 @@ $messages['ext'] = array(
 /** Persian (فارسی)
  * @author Ebraminio
  * @author Ladsgroup
+ * @author Mjbmr
  * @author Wayiran
  */
 $messages['fa'] = array(
@@ -674,16 +675,16 @@ $messages['fa'] = array(
 	'contactpage-desc' => '[[Special:Contact|فرم تماس برای بازدیدکنندگان]]',
 	'contactpage-title' => 'تماس',
 	'contactpage-pagetext' => 'لطفاً از فرم زیر برای تماس با ما استفاده کنید.',
-	'contactpage-legend' => 'فرستادن رایانامه',
+	'contactpage-legend' => 'ارسال پست الکترونیکی',
 	'contactpage-defsubject' => 'پیام تماس',
 	'contactpage-subject-and-sender' => '$1 (از $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (از $2 در $3)',
 	'contactpage-fromname' => 'نام شما: *',
-	'contactpage-fromaddress' => 'رایانامه شما: **',
+	'contactpage-fromaddress' => 'پست الکترونیکی شما: **',
 	'contactpage-formfootnotes' => '* اختیاری <br />
 ** اختیاری است اما اگر پاسخی می‌خواهید مورد نیاز است',
 	'contactpage-fromname-required' => 'نام شما:',
-	'contactpage-fromaddress-required' => 'رایانامه شما:',
+	'contactpage-fromaddress-required' => 'پست الکترونیکی شما:',
 	'contactpage-formfootnotes-required' => 'همهٔ گزینه‌ها الزامی هستند.',
 	'contactpage-captcha' => 'برای فرستادن پیام، لطفاً کپچا را حل کنید ([[Special:Captcha/help|اطلاعات بیش‌تر]])',
 	'contactpage-captcha-failed' => 'آزمون کپچا شکست خورد! ([[Special:Captcha/help|اطلاعات بیش‌تر]])',
