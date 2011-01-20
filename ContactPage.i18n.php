@@ -1245,6 +1245,13 @@ Don et einfach norr_ens versöke.
 	'contactpage-includeip' => 'Donn ming <i lang="en">IP</i>-Addräß en heh di Nohreesch erin.',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'contactpage-fromname' => 'Navê te: *',
+);
+
 /** Cornish (Kernewek)
  * @author Kernoweger
  * @author Kw-Moon
