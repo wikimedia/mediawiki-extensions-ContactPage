@@ -173,7 +173,7 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  * @author Haqmar
  */
@@ -208,7 +208,7 @@ $messages['bcl'] = array(
 	'contactpage-fromaddress' => "''e''-surat mo **",
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -457,7 +457,8 @@ $messages['de'] = array(
 	'contactpage-includeip' => 'Meine IP-Adresse in diese Nachricht einfügen.',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
  * @author Raimond Spekking
  */
 $messages['de-formal'] = array(
@@ -468,7 +469,7 @@ $messages['de-formal'] = array(
 ** optional, wird aber benötigt, um Ihnen antworten zu können',
 	'contactpage-fromname-required' => 'Ihr Name:',
 	'contactpage-fromaddress-required' => 'Ihre E-Mail-Adresse:',
-	'contactpage-captcha' => 'Um die Nachricht senden zu können, lösen Sie bitte das Captcha ([[Special:Captcha/help|weitere Informationen]])',
+	'contactpage-captcha' => 'Um die Nachricht senden zu können, lösen Sie bitte das CAPTCHA ([[Special:Captcha/help|weitere Informationen]])',
 );
 
 /** Zazaki (Zazaki)
@@ -1252,7 +1253,7 @@ $messages['ku-latn'] = array(
 	'contactpage-fromname' => 'Navê te: *',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  */
@@ -1943,7 +1944,7 @@ $messages['sq'] = array(
 	'contact' => 'Kumtime',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -2450,6 +2451,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author Liangent
  * @author Shinjiman
+ * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
