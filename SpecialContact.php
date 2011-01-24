@@ -50,22 +50,9 @@ class SpecialContact extends SpecialPage {
 			return;
 		}
 
-		// Blocked users cannot use the contact form.
-		if ( !$wgUser->isAllowed( 'sendemail' ) ) {
-			$wgOut->setPageTitle( wfMsg( 'blockedtitle' ) );
-			$wgOut->setRobotPolicy( 'noindex,nofollow' );
-			$wgOut->setArticleRelated( false );
-
-			$ip = wfGetIP();
-			$blocker = User::whoIs( $wgUser->mBlock->mBy );
-			$blockReason = $wgUser->mBlock->mReason;
-
-			if ( strval( $blockReason ) === '' ) {
-				$blockReason = wfMsg( 'blockednoreason' );
-			}
-
-			$wgOut->addWikiMsg( 'blockedtext', $ip, $blockReason, $blocker );
-			$wgOut->returnToMain( false );
+		// Blocked users cannot use the contact form if they're disabled from sending email.
+		if ( $wgUser->isBlockedFromEmailuser() ) {
+			$wgOut->blockedPage();
 
 			return;
 		}
