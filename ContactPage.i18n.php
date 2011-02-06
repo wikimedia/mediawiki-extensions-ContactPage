@@ -1226,7 +1226,7 @@ $messages['ksh'] = array(
 	'contactpage-title' => 'Kontak',
 	'contactpage-pagetext' => 'Övver di Sigg hee kanns De dä Wiki-Maacher jet schrieve.',
 	'contactpage-legend' => '<i lang="en">e-mail</i> schecke',
-	'contactpage-defsubject' => 'Kontak-Sigg fun de {{SITENAME}}',
+	'contactpage-defsubject' => 'Kontak-Nohreesch',
 	'contactpage-subject-and-sender' => '$1 (fun $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (vum $2 met dä IP-Addräß $3)',
 	'contactpage-fromname' => 'Dinge Name: <sup>*</sup>',
