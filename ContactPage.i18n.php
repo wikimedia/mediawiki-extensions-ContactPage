@@ -1237,7 +1237,7 @@ $messages['ksh'] = array(
 	'contactpage-fromname-required' => 'Dinge Name:',
 	'contactpage-fromaddress-required' => 'Ding <i lang="en">e-mail</i> Address:',
 	'contactpage-formfootnotes-required' => 'Dat moß all ußjefollt wäde.',
-	'contactpage-captcha' => 'Öm Ding Nohresch ze schecke, don dat Kaptscha endrare.
+	'contactpage-captcha' => 'Öm Ding Nohreesch ze schecke, don dat Kaptscha endrare.
 ([[Special:Captcha/help|Mieh Enfommazjuhne]])',
 	'contactpage-captcha-failed' => 'De Pröfung fum Kaptscha jingk donevve.
 Eß ävver kei Problem.
@@ -1621,7 +1621,9 @@ $messages['oc'] = array(
 $messages['pdc'] = array(
 	'contactpage-subject-and-sender' => '$1 (vun $2)',
 	'contactpage-fromname' => 'Dei Naame: *',
+	'contactpage-fromaddress' => 'Dei E-Poschd: **',
 	'contactpage-fromname-required' => 'Dei Naame:',
+	'contactpage-fromaddress-required' => 'Dei E-Poschd:',
 );
 
 /** Polish (Polski)
