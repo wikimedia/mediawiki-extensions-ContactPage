@@ -1289,7 +1289,7 @@ $messages['lb'] = array(
 	'contactpage-fromname' => 'Ären Numm: *',
 	'contactpage-fromaddress' => 'Är E-mail-Adress: **',
 	'contactpage-formfootnotes' => '* optional<br />
-** optional, gëtt awer gebraucht fir iech äntwerten ze kënnen',
+** optional, gëtt awer gebraucht fir Iech äntwerten ze kënnen',
 	'contactpage-fromname-required' => 'Ären Numm:',
 	'contactpage-fromaddress-required' => 'Är E-Mailadress:',
 	'contactpage-formfootnotes-required' => 'All Felder mussen ausgefëllt ginn.',
