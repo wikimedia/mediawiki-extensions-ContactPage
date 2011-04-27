@@ -1506,6 +1506,31 @@ $messages['nds'] = array(
 	'contactpage-captcha-failed' => 'Captcha-Test is scheefgahn! ([[Special:Captcha/help|mehr Infos]])',
 );
 
+/** Nepali (नेपाली)
+ * @author Bhawani Gautam Rhk
+ */
+$messages['ne'] = array(
+	'contact' => 'सम्पर्क पृष्ठ',
+	'contactpage' => 'सम्पर्क पृष्ठ',
+	'contactpage-desc' => '[[Special:Contact|आगन्तुकसितको सम्पर्क]]',
+	'contactpage-title' => 'संपर्क गर्ने',
+	'contactpage-pagetext' => 'हामीसित सम्पर्क साध्न तल दिइएको फ़ारमको प्रयोग गर्नुहोस्।',
+	'contactpage-legend' => 'इमेल पठाउने',
+	'contactpage-defsubject' => 'सम्पर्क सन्देश',
+	'contactpage-subject-and-sender' => '($2बाट) $1',
+	'contactpage-subject-and-sender-withip' => '($2बाट  $3मा) $1',
+	'contactpage-fromname' => 'तपाईंको नाम:  *',
+	'contactpage-fromaddress' => 'तपाईंको इमेल: **',
+	'contactpage-formfootnotes' => '* ऐच्छिक <br />
+** ऐच्छिक तर आवश्यक यदि तपाईं उत्तर चाहनु हुन्छ भनें',
+	'contactpage-fromname-required' => 'तपाईंको नाम:',
+	'contactpage-fromaddress-required' => 'तपाईंको इमेल:',
+	'contactpage-formfootnotes-required' => 'सबै क्षेत्र जरुरी।',
+	'contactpage-captcha' => 'सन्देश पठाउन,  कृपया क्याप्चा सुल्झाउनु होस् ([[Special:Captcha/help|थप जानाकारी]])',
+	'contactpage-captcha-failed' => 'क्याप्चा जाँच विफल!  [[Special:Captcha/help|थप जानकारी]]',
+	'contactpage-includeip' => 'मेरो आई पी ठेगाना यस सन्देशमा संलग्न गर्ने।',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
