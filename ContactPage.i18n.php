@@ -173,6 +173,17 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'contactpage-title' => 'Əlaqə',
+	'contactpage-fromname' => 'Sizin adınız: *',
+	'contactpage-fromaddress' => 'Sizin e-poçtunuz: **',
+	'contactpage-fromname-required' => 'Sizin adınız:',
+	'contactpage-fromaddress-required' => 'Sizin e-poçtunuz:',
+);
+
 /** Bashkir (Башҡортса)
  * @author Assele
  * @author Haqmar
