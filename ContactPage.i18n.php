@@ -177,7 +177,10 @@ $messages['arz'] = array(
  * @author Cekli829
  */
 $messages['az'] = array(
+	'contact' => 'Əlaqə səhifəsi',
+	'contactpage' => 'Əlaqə səhifəsi',
 	'contactpage-title' => 'Əlaqə',
+	'contactpage-legend' => 'E-məktub göndər',
 	'contactpage-fromname' => 'Sizin adınız: *',
 	'contactpage-fromaddress' => 'Sizin e-poçtunuz: **',
 	'contactpage-fromname-required' => 'Sizin adınız:',
@@ -273,6 +276,7 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'contact' => 'যোগাযোগের পাতা',
@@ -280,10 +284,16 @@ $messages['bn'] = array(
 	'contactpage-title' => 'যোগাযোগ',
 	'contactpage-legend' => 'ই-মেইল পাঠাও',
 	'contactpage-defsubject' => 'যোগাযোগ বার্তা',
+	'contactpage-subject-and-sender' => '$1 ($2 থেকে)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2 থেকে $3-এ)',
 	'contactpage-fromname' => 'আপনার নাম: *',
 	'contactpage-fromaddress' => 'আপনার ই-মেইল: **',
 	'contactpage-fromname-required' => 'আপনার নাম:',
 	'contactpage-fromaddress-required' => 'আপনার ই-মেইল:',
+	'contactpage-formfootnotes-required' => 'সকল অংশ পূরণ করতে হবে।',
+	'contactpage-captcha' => 'বার্তা পাঠাতে, অনুগ্রহ করো ক্যাপচাটি সমাধান করুন ([[Special:Captcha/help|বিস্তারিত]])',
+	'contactpage-captcha-failed' => 'ক্যাপচা পরীক্ষা ব্যর্থ! ([[Special:Captcha/help|বিস্তারিত]])',
+	'contactpage-includeip' => 'এই বার্তায় আমার আইপি ঠিকানা যোগ করো।',
 );
 
 /** Breton (Brezhoneg)
