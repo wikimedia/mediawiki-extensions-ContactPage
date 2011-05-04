@@ -1345,9 +1345,12 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (Lietuvių)
+ * @author Eitvys200
  * @author Matasg
  */
 $messages['lt'] = array(
+	'contactpage-legend' => 'Siųsti elektroninį laišką',
+	'contactpage-subject-and-sender' => '$1 (iš $2 )',
 	'contactpage-fromaddress' => 'Jūsų elektroninis paštas: **',
 	'contactpage-formfootnotes' => '* neprivaloma<br /> 
 ** neprivaloma, tačiau būtina, jei norite atsakyti',
@@ -1356,6 +1359,7 @@ $messages['lt'] = array(
 	'contactpage-formfootnotes-required' => 'Visi laukai yra privalomi.',
 	'contactpage-captcha' => 'Norėdami siųsti pranešimą, prašome išspręsti captcha ([[Special:Captcha/help|daugiau informacijos]])',
 	'contactpage-captcha-failed' => 'Captcha testas nepavyko! ([[Special:Captcha/help|daugiau informacijos]])',
+	'contactpage-includeip' => 'Įtraukti mano IP adresą į šį pranešimą.',
 );
 
 /** Lazuri (Lazuri)
