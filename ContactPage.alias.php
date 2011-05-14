@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jon Harald Søby
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'Contact' => array( 'Contact' ),
 );
@@ -215,6 +213,11 @@ $specialPageAliases['oc'] = array(
 	'Contact' => array( 'Contacte' ),
 );
 
+/** Oriya (ଓଡ଼ିଆ) */
+$specialPageAliases['or'] = array(
+	'Contact' => array( 'ଯୋଗାଯୋଗ' ),
+);
+
 /** Polish (Polski) */
 $specialPageAliases['pl'] = array(
 	'Contact' => array( 'Kontakt' ),
@@ -255,6 +258,11 @@ $specialPageAliases['sq'] = array(
 	'Contact' => array( 'Kontakto' ),
 );
 
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+$specialPageAliases['sr-ec'] = array(
+	'Contact' => array( 'Контакт' ),
+);
+
 /** Swedish (Svenska) */
 $specialPageAliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),
@@ -287,12 +295,22 @@ $specialPageAliases['tl'] = array(
 
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
-	'Contact' => array( 'İrtibat' ),
+	'Contact' => array( 'İrtibat', 'İletişim' ),
+);
+
+/** Vèneto (Vèneto) */
+$specialPageAliases['vec'] = array(
+	'Contact' => array( 'Contati' ),
 );
 
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
-	'Contact' => array( 'Liên_hệ' ),
+	'Contact' => array( 'Liên_hệ', 'Liên_lạc' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'Contact' => array( '联络' ),
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
