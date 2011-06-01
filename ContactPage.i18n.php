@@ -276,12 +276,14 @@ $messages['bg'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Usarker
  * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'contact' => 'যোগাযোগের পাতা',
 	'contactpage' => 'যোগাযোগের পাতা',
 	'contactpage-title' => 'যোগাযোগ',
+	'contactpage-pagetext' => 'অনুগ্রহ করে নিচের ফর্মটি ব্যবহার করুন আমাদের সাথে যোগাযোগ করতে।',
 	'contactpage-legend' => 'ই-মেইল পাঠাও',
 	'contactpage-defsubject' => 'যোগাযোগ বার্তা',
 	'contactpage-subject-and-sender' => '$1 ($2 থেকে)',
