@@ -1667,6 +1667,13 @@ $messages['oc'] = array(
 	'contactpage-includeip' => 'Inclure mon adreça IP dins aquel messatge.',
 );
 
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'contactpage-fromname-required' => 'Дæ ном:',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
