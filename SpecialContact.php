@@ -110,7 +110,7 @@ class EmailContactForm {
 
 		$this->wasPosted = $wgRequest->wasPosted();
 		$this->formType = $wgRequest->getText( 'formtype', $par );
-		
+
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
 		if ( $this->formType != '' ) {
 			$message = 'contactpage-pagetext-' . $this->formType;
@@ -136,7 +136,7 @@ class EmailContactForm {
 			} else {
 				$this->text = $wgRequest->getText( 'wpText' );
 			}
-		} else {		
+		} else {
 			$this->formularText = wfMsgExt( 'contactpage-pagetext', 'parse' );
 			$this->text = $wgRequest->getText( 'wpText' );
 			$this->subject = $wgRequest->getText( 'wpSubject' );
@@ -274,7 +274,7 @@ class EmailContactForm {
 					'</td>
 				</tr>';
 			}
-			
+
 			$ccme = $this->wasPosted ? $this->cc_me : $wgUser->getBoolOption( 'ccmeonemails' );
 			$form .= '<tr>
 				<td></td>
@@ -380,7 +380,7 @@ class EmailContactForm {
 			} else {
 				$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $this->fromaddress );
 			}
-		} else if ( $includeIP ) {
+		} elseif ( $includeIP ) {
 			$subject = wfMsgForContent( 'contactpage-subject-and-sender', $subject, $senderIP );
 		}
 
