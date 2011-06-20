@@ -601,6 +601,7 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Imre
  * @author Locos epraix
  * @author Peter17
@@ -608,25 +609,25 @@ $messages['eo'] = array(
  * @author לערי ריינהארט
  */
 $messages['es'] = array(
-	'contact' => 'Para contactar',
+	'contact' => 'Página de contacto',
 	'contactpage' => 'Página de contacto',
 	'contactpage-desc' => '[[Special:Contact|Formulario de contacto para visitantes]]',
-	'contactpage-title' => 'Contactar',
-	'contactpage-pagetext' => 'Por favor use el formulario de abajo para contactarnos.',
+	'contactpage-title' => 'Contacto',
+	'contactpage-pagetext' => 'Utiliza el siguiente formulario para ponerte en contacto con nosotros.',
 	'contactpage-legend' => 'Enviar correo electrónico',
 	'contactpage-defsubject' => 'Mensaje de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
-	'contactpage-fromname' => 'Su nombre: *',
-	'contactpage-fromaddress' => 'Su correo electrónico: **',
+	'contactpage-fromname' => 'Tu nombre: *',
+	'contactpage-fromaddress' => 'Tu correo electrónico: **',
 	'contactpage-formfootnotes' => '* opcional<br />
 ** opcional pero necesario si deseas una respuesta',
-	'contactpage-fromname-required' => 'Su nombre:',
-	'contactpage-fromaddress-required' => 'Su correo electrónico:',
-	'contactpage-formfootnotes-required' => 'Todos los campos son requeridos.',
-	'contactpage-captcha' => 'Para enviar el mensaje, por favor resuelve el captcha ([[Special:Captcha/help|más información]])',
-	'contactpage-captcha-failed' => '¡Prueba de captcha fallida! ([[Special:Captcha/help|más información]])',
-	'contactpage-includeip' => 'Incluir mi dirección IP en este mensaje',
+	'contactpage-fromname-required' => 'Tu nombre:',
+	'contactpage-fromaddress-required' => 'Tu correo electrónico:',
+	'contactpage-formfootnotes-required' => 'Todos los campos son obligatorios.',
+	'contactpage-captcha' => "Para enviar el mensaje, por favor resuelve el ''captcha'' ([[Special:Captcha/help|más información]])",
+	'contactpage-captcha-failed' => "¡Prueba de ''captcha'' fallida! ([[Special:Captcha/help|más información]])",
+	'contactpage-includeip' => 'Incluir mi dirección IP en este mensaje.',
 );
 
 /** Estonian (Eesti)
