@@ -2485,15 +2485,16 @@ $messages['za'] = array(
  * @author Liangent
  * @author Shinjiman
  * @author Wmr89502270
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'contact' => '联络页面',
-	'contactpage' => '联络页面',
+	'contact' => '联系页面',
+	'contactpage' => '联系页面',
 	'contactpage-desc' => '[[Special:Contact|供访问者使用的联系表单]]',
-	'contactpage-title' => '联络',
+	'contactpage-title' => '联系',
 	'contactpage-pagetext' => '请用以下的表格去联络我们。',
 	'contactpage-legend' => '发送电邮',
-	'contactpage-defsubject' => '联络信息',
+	'contactpage-defsubject' => '联系信息',
 	'contactpage-subject-and-sender' => '$1 （自$2）',
 	'contactpage-subject-and-sender-withip' => '$1 (由$2在$3)',
 	'contactpage-fromname' => '您的名字： *',
