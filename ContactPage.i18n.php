@@ -1172,6 +1172,13 @@ $messages['ka'] = array(
 	'contactpage-includeip' => 'მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.',
 );
 
+/** کھوار (کھوار)
+ * @author Rachitrali
+ */
+$messages['khw'] = array(
+	'contact' => 'صفحۂ رابطہ',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
