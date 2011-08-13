@@ -711,8 +711,8 @@ $messages['fa'] = array(
 	'contactpage-fromname-required' => 'نام شما:',
 	'contactpage-fromaddress-required' => 'پست الکترونیکی شما:',
 	'contactpage-formfootnotes-required' => 'همهٔ گزینه‌ها الزامی هستند.',
-	'contactpage-captcha' => 'برای فرستادن پیام، لطفاً کپچا را حل کنید ([[Special:Captcha/help|اطلاعات بیش‌تر]])',
-	'contactpage-captcha-failed' => 'آزمون کپچا شکست خورد! ([[Special:Captcha/help|اطلاعات بیش‌تر]])',
+	'contactpage-captcha' => 'برای فرستادن پیام، لطفاً کپچا را حل کنید ([[Special:Captcha/help|اطلاعات بیشتر]])',
+	'contactpage-captcha-failed' => 'آزمون کپچا شکست خورد! ([[Special:Captcha/help|اطلاعات بیشتر]])',
 	'contactpage-includeip' => 'نشانی آی‌پی من را با این پیغام ضمیمه کن.',
 );
 
