@@ -1542,6 +1542,7 @@ $messages['nds'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
@@ -1675,7 +1676,7 @@ $messages['oc'] = array(
 	'contactpage-includeip' => 'Inclure mon adreça IP dins aquel messatge.',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -1930,7 +1931,7 @@ $messages['rue'] = array(
 	'contactpage-includeip' => 'Приложыти ку повідомлїню мою IP адресу.',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
