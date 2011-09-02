@@ -117,6 +117,7 @@ $messages['aln'] = array(
 /** Arabic (العربية)
  * @author Meno25
  * @author OsamaK
+ * @author زكريا
  */
 $messages['ar'] = array(
 	'contact' => 'صفحة الاتصال',
@@ -127,6 +128,7 @@ $messages['ar'] = array(
 	'contactpage-legend' => 'إرسال بريد إلكتروني',
 	'contactpage-defsubject' => 'رسالة الاتصال',
 	'contactpage-subject-and-sender' => '$1 (من $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (من $2 إلى $3)',
 	'contactpage-fromname' => 'اسمك: *',
 	'contactpage-fromaddress' => 'بريدك الإلكتروني: **',
 	'contactpage-formfootnotes' => '* اختياري<br />
@@ -136,6 +138,7 @@ $messages['ar'] = array(
 	'contactpage-formfootnotes-required' => 'كل الحقول مطلوبة',
 	'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
+	'contactpage-includeip' => 'اجعل عنوان بروتوكول الإنترنت الدال علي في هذه الرسالة.',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -1359,8 +1362,13 @@ $messages['li'] = array(
  * @author Matasg
  */
 $messages['lt'] = array(
+	'contact' => 'Kontaktų puslapis',
+	'contactpage' => 'Kontaktų puslapis',
+	'contactpage-title' => 'Kontaktas',
+	'contactpage-pagetext' => 'Prašome naudoti žemiau esančią formą norint susisiekti su mumis.',
 	'contactpage-legend' => 'Siųsti elektroninį laišką',
 	'contactpage-subject-and-sender' => '$1 (iš $2 )',
+	'contactpage-fromname' => 'Jūsų vardas: *',
 	'contactpage-fromaddress' => 'Jūsų elektroninis paštas: **',
 	'contactpage-formfootnotes' => '* neprivaloma<br /> 
 ** neprivaloma, tačiau būtina, jei norite atsakyti',
