@@ -801,6 +801,7 @@ $messages['frp'] = array(
 	'contactpage-formfootnotes-required' => 'Tôs los champs sont nècèssèros.',
 	'contactpage-captcha' => 'Por mandar lo mèssâjo, volyéd trovar la solucion du captch·a ([[Special:Captcha/help|éde]])',
 	'contactpage-captcha-failed' => 'Vos éd pas dècodâ lo captch·a ! ([[Special:Captcha/help|éde]])',
+	'contactpage-includeip' => 'Encllure mon adrèce IP dens ceti mèssâjo.',
 );
 
 /** Friulian (Furlan)
