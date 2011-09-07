@@ -1586,7 +1586,7 @@ $messages['nl'] = array(
 	'contactpage-desc' => '[[Special:Contact|Contactformulier voor bezoekers]]',
 	'contactpage-title' => 'Contact',
 	'contactpage-pagetext' => 'Gebruik het onderstaande formulier om contact met ons op te nemen.',
-	'contactpage-legend' => 'E-mail versturen',
+	'contactpage-legend' => 'E-mail verzenden',
 	'contactpage-defsubject' => 'Contactbericht',
 	'contactpage-subject-and-sender' => '$1 (van $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (van $2 op $3)',
@@ -2023,7 +2023,7 @@ $messages['sq'] = array(
 	'contact' => 'Kumtime',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -2031,7 +2031,7 @@ $messages['sr-ec'] = array(
 	'contactpage-desc' => '[[Special:Contact|Контакт-форма за посетиоце]]',
 	'contactpage-title' => 'Контакт',
 	'contactpage-pagetext' => 'Молимо Вас да користите форму испод да нас контактирате.',
-	'contactpage-legend' => 'Пошаљи имејл',
+	'contactpage-legend' => 'Пошаљи е-поруку',
 	'contactpage-subject-and-sender' => '$1 (од $2)',
 	'contactpage-fromname' => 'Ваше име: *',
 	'contactpage-fromaddress' => 'Ваш мејл: **',
@@ -2044,15 +2044,16 @@ $messages['sr-ec'] = array(
 	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
+ * @author Rancher
  * @author Жељко Тодоровић
  */
 $messages['sr-el'] = array(
 	'contactpage-desc' => '[[Special:Contact|Kontakt-forma za posetioce]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Molimo Vas da koristite formu ispod da nas kontaktirate.',
-	'contactpage-legend' => 'Pošalji imejl',
+	'contactpage-legend' => 'Pošalji e-poruku',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
 	'contactpage-fromname' => 'Vaše ime: *',
 	'contactpage-fromaddress' => 'Vaš mejl: **',
