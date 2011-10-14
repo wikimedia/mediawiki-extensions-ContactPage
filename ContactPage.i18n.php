@@ -775,7 +775,7 @@ $messages['fr'] = array(
 	'contactpage-fromaddress-required' => 'Votre adresse courriel :',
 	'contactpage-formfootnotes-required' => 'Tous les champs sont requis.',
 	'contactpage-captcha' => 'Pour envoyer le message, prière de résoudre le captcha ([[Special:Captcha/help|aide]])',
-	'contactpage-captcha-failed' => "Vous n'avez pas décodé le captcha ! ([[Special:Captcha/help|aide]])",
+	'contactpage-captcha-failed' => 'Vous n’avez pas décodé le captcha correctement ! ([[Special:Captcha/help|aide]])',
 	'contactpage-includeip' => 'Inclure mon adresse IP dans ce message.',
 );
 
