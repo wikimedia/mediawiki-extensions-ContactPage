@@ -216,6 +216,14 @@ $messages['ba'] = array(
 	'contactpage-includeip' => 'Был хәбәргә минең IP адресты өҫтәргә.',
 );
 
+/** Bavarian (Boarisch)
+ * @author Mucalexx
+ */
+$messages['bar'] = array(
+	'contact' => 'Kóntaktseiten',
+	'contactpage' => 'Kóntaktseiten',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
