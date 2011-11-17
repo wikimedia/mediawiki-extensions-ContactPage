@@ -2468,6 +2468,7 @@ $messages['wa'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'contactpage-legend' => 'שיקן ע־פאסט',
 	'contactpage-fromname' => 'אייער נאמען: *',
 	'contactpage-fromaddress' => 'אייער ע-פאסט: **',
 	'contactpage-fromname-required' => 'אייער נאמען:',
