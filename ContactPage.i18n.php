@@ -15,7 +15,6 @@ $messages = array();
  * @author Daniel Kinzler
  */
 $messages['en'] = array(
-	'contact' => 'Contact page',
 	'contactpage' => 'Contact page',
 	'contactpage-desc' => '[[Special:Contact|Contact form for visitors]]',
 	'contactpage-title' => 'Contact',

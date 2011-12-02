@@ -10,22 +10,23 @@
  * @license GNU General Public Licence 2.0 or later
  */
 
-if( !defined( 'MEDIAWIKI' ) ) {
-	echo( "not a valid entry point.\n" );
-	die( 1 );
-}
-
 /**
  * Provides the contact form
  * @ingroup SpecialPage
  */
 class SpecialContact extends SpecialPage {
-
 	/**
 	 * Constructor
 	 */
 	public function __construct() {
 		parent::__construct( 'Contact' );
+	}
+
+	/**
+	 * @see SpecialPage::getDescription
+	 */
+	function getDescription() {
+		return wfMsg( 'contactpage' );
 	}
 
 	/**
