@@ -2041,7 +2041,7 @@ $messages['sr-ec'] = array(
 	'contactpage-legend' => 'Пошаљи е-поруку',
 	'contactpage-subject-and-sender' => '$1 (од $2)',
 	'contactpage-fromname' => 'Ваше име: *',
-	'contactpage-fromaddress' => 'Ваш мејл: **',
+	'contactpage-fromaddress' => 'Ваша е-адреса: **',
 	'contactpage-formfootnotes' => '* необавезно<br />
 ** необавезно, али потребно ако желите да добијете одговор',
 	'contactpage-fromname-required' => 'Ваше име:',
