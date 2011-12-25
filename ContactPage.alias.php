@@ -183,6 +183,11 @@ $specialPageAliases['mt'] = array(
 	'Contact' => array( 'Kuntatt' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** Low German (Plattdüütsch) */
 $specialPageAliases['nds'] = array(
 	'Contact' => array( 'Kuntakt' ),
@@ -200,11 +205,6 @@ $specialPageAliases['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
-	'Contact' => array( 'Kontakt' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
@@ -243,7 +243,7 @@ $specialPageAliases['ro'] = array(
 	'Contact' => array( 'Contact' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'Contact' => array( 'सम्पर्क' ),
 );
@@ -327,8 +327,3 @@ $specialPageAliases['zh-hans'] = array(
 $specialPageAliases['zh-hant'] = array(
 	'Contact' => array( '聯絡' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
