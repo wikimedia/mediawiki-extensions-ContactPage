@@ -1388,6 +1388,17 @@ $messages['lt'] = array(
 	'contactpage-includeip' => 'Įtraukti mano IP adresą į šį pranešimą.',
 );
 
+/** Latvian (Latviešu)
+ * @author GreenZeb
+ */
+$messages['lv'] = array(
+	'contactpage-fromname' => 'Jūsu vārds: *',
+	'contactpage-fromaddress' => 'Jūsu e-pasts: **',
+	'contactpage-fromname-required' => 'Jūsu vārds:',
+	'contactpage-fromaddress-required' => 'Jūsu e-pasts:',
+	'contactpage-formfootnotes-required' => 'Visi lauki ir jāaizpilda.',
+);
+
 /** Lazuri (Lazuri)
  * @author Bombola
  */
@@ -1534,6 +1545,32 @@ $messages['nap'] = array(
 	'contact' => 'Scrìvece',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'contact' => 'Kontaktside',
+	'contactpage' => 'Kontaktside',
+	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for besøkende]]',
+	'contactpage-title' => 'Kontakt',
+	'contactpage-pagetext' => 'Bruk skjemaet nedenunder for å kontakte oss.',
+	'contactpage-legend' => 'Send e-post',
+	'contactpage-defsubject' => 'Beskjed',
+	'contactpage-subject-and-sender' => '$1 (fra $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (fra $2 på $3)',
+	'contactpage-fromname' => 'Ditt navn: *',
+	'contactpage-fromaddress' => 'Din e-postadresse: **',
+	'contactpage-formfootnotes' => '* valgfri<br />
+** valgfri, men er nødvendig dersom du vil ha svar',
+	'contactpage-fromname-required' => 'Ditt navn:',
+	'contactpage-fromaddress-required' => 'Din e-postadresse:',
+	'contactpage-formfootnotes-required' => 'Alle felt er obligatoriske.',
+	'contactpage-captcha' => 'Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-captcha-failed' => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
+	'contactpage-includeip' => 'Inkluder IP-adressen min i denne meldingen.',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1634,32 +1671,6 @@ $messages['nn'] = array(
 	'contactpage-captcha-failed' => 'Captcha-testen feila! ([[Special:Captcha/help|meir informasjon]])',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'contact' => 'Kontaktside',
-	'contactpage' => 'Kontaktside',
-	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for besøkende]]',
-	'contactpage-title' => 'Kontakt',
-	'contactpage-pagetext' => 'Bruk skjemaet nedenunder for å kontakte oss.',
-	'contactpage-legend' => 'Send e-post',
-	'contactpage-defsubject' => 'Beskjed',
-	'contactpage-subject-and-sender' => '$1 (fra $2)',
-	'contactpage-subject-and-sender-withip' => '$1 (fra $2 på $3)',
-	'contactpage-fromname' => 'Ditt navn: *',
-	'contactpage-fromaddress' => 'Din e-postadresse: **',
-	'contactpage-formfootnotes' => '* valgfri<br />
-** valgfri, men er nødvendig dersom du vil ha svar',
-	'contactpage-fromname-required' => 'Ditt navn:',
-	'contactpage-fromaddress-required' => 'Din e-postadresse:',
-	'contactpage-formfootnotes-required' => 'Alle felt er obligatoriske.',
-	'contactpage-captcha' => 'Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])',
-	'contactpage-captcha-failed' => 'Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])',
-	'contactpage-includeip' => 'Inkluder IP-adressen min i denne meldingen.',
-);
-
 /** Northern Sotho (Sesotho sa Leboa)
  * @author Mohau
  */
@@ -1690,6 +1701,22 @@ $messages['oc'] = array(
 	'contactpage-captcha' => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
 	'contactpage-captcha-failed' => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
 	'contactpage-includeip' => 'Inclure mon adreça IP dins aquel messatge.',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'contactpage' => 'ସମ୍ପର୍କ ପୃଷ୍ଠା',
+	'contactpage-desc' => '[[Special:Contact|ଆଗନ୍ତୁକଙ୍କ ପାଇଁ ସମ୍ପର୍କ ପତ୍ର]]',
+	'contactpage-title' => 'ସମ୍ପର୍କ',
+	'contactpage-legend' => 'ଇ-ମେଲ ପଠାଇବେ',
+	'contactpage-subject-and-sender' => '$1 (from $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (from $2 at $3)',
+	'contactpage-fromname' => 'ଆପଣଙ୍କ ନାମ: *',
+	'contactpage-fromaddress' => 'ଆପଣଙ୍କ ଇ-ମେଲ: **',
+	'contactpage-fromname-required' => 'ଆପଣଙ୍କ ନାମ:',
+	'contactpage-fromaddress-required' => 'ଆପଣଙ୍କ ଇ-ମେଲ:',
 );
 
 /** Ossetic (Ирон)
