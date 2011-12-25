@@ -1638,7 +1638,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'contact' => 'Kontaktside',
 	'contactpage' => 'Kontaktside',
 	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for besøkende]]',
