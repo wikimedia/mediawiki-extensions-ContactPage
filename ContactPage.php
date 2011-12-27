@@ -29,7 +29,7 @@ $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['ContactPage'] = $dir . 'ContactPage.i18n.php';
 $wgExtensionMessagesFiles['ContactPageAliases'] = $dir . 'ContactPage.alias.php';
 
-$wgAutoloadClasses['SpecialContact'] = $dir . 'ContactPage_body.php';
+$wgAutoloadClasses['SpecialContact'] = $dir . 'SpecialContact.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
 
 # Configuration
