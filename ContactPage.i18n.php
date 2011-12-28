@@ -43,9 +43,6 @@ $messages['en'] = array(
  * @author Purodha
  */
 $messages['qqq'] = array(
-	'contact' => "Part of special page 'Contactpage', which is an optional addition to a wiki, added by way of an extension. See [http://www.mediawiki.org/wiki/Extension:ContactPage here] for description of extension.
-
-{{Identical|ContactPage}}",
 	'contactpage' => '{{Identical|ContactPage}}',
 	'contactpage-desc' => 'Extension description displayed on [[Special:Version]].',
 	'contactpage-title' => '{{Identical|Contact}}',
@@ -59,19 +56,11 @@ $messages['qqq'] = array(
 	'contactpage-fromaddress-required' => '{{Identical|E-mail}}',
 );
 
-/** Säggssch (Säggssch)
- * @author Thogo
- */
-$messages['sxu'] = array(
-	'contact' => 'Gondagd',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
  */
 $messages['af'] = array(
-	'contact' => 'Kontak bladsy',
 	'contactpage' => 'Kontakblad',
 	'contactpage-desc' => '[[Special:Contact|Kontak vorm vir besoekers]]',
 	'contactpage-title' => 'Kontak',
@@ -119,7 +108,6 @@ $messages['aln'] = array(
  * @author زكريا
  */
 $messages['ar'] = array(
-	'contact' => 'صفحة الاتصال',
 	'contactpage' => 'صفحة الاتصال',
 	'contactpage-desc' => '[[Special:Contact|استمارة اتصال للزائرين]]',
 	'contactpage-title' => 'اتصل',
@@ -156,7 +144,6 @@ $messages['arc'] = array(
  * @author Ramsis II
  */
 $messages['arz'] = array(
-	'contact' => 'صفحة الاتصال',
 	'contactpage' => 'صفحة الاتصال',
 	'contactpage-desc' => '[[Special:Contact|استمارة اتصال للزائرين]]',
 	'contactpage-title' => 'اتصل',
@@ -179,7 +166,6 @@ $messages['arz'] = array(
  * @author Cekli829
  */
 $messages['az'] = array(
-	'contact' => 'Əlaqə səhifəsi',
 	'contactpage' => 'Əlaqə səhifəsi',
 	'contactpage-title' => 'Əlaqə',
 	'contactpage-legend' => 'E-məktub göndər',
@@ -194,7 +180,6 @@ $messages['az'] = array(
  * @author Haqmar
  */
 $messages['ba'] = array(
-	'contact' => 'Бәйләнеш бите',
 	'contactpage' => 'Бәйләнеш бите',
 	'contactpage-desc' => '[[Special:Contact|Ҡараусылар өсөн форма]]',
 	'contactpage-title' => 'Бәйләнеш',
@@ -219,7 +204,6 @@ $messages['ba'] = array(
  * @author Mucalexx
  */
 $messages['bar'] = array(
-	'contact' => 'Kóntaktseiten',
 	'contactpage' => 'Kóntaktseiten',
 );
 
@@ -239,7 +223,6 @@ $messages['bcl'] = array(
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
-	'contact' => 'Старонка кантакту',
 	'contactpage' => 'Старонка кантакту',
 	'contactpage-desc' => '[[Special:Contact|Кантактная форма для наведвальнікаў]]',
 	'contactpage-title' => 'Кантакт',
@@ -265,7 +248,6 @@ $messages['be-tarask'] = array(
  * @author Turin
  */
 $messages['bg'] = array(
-	'contact' => 'Страница за контакт',
 	'contactpage' => 'Страница за контакт',
 	'contactpage-desc' => '[[Special:Contact|Формуляр за връзка]]',
 	'contactpage-title' => 'Контакт',
@@ -290,7 +272,6 @@ $messages['bg'] = array(
  * @author Wikitanvir
  */
 $messages['bn'] = array(
-	'contact' => 'যোগাযোগের পাতা',
 	'contactpage' => 'যোগাযোগের পাতা',
 	'contactpage-title' => 'যোগাযোগ',
 	'contactpage-pagetext' => 'অনুগ্রহ করে নিচের ফর্মটি ব্যবহার করুন আমাদের সাথে যোগাযোগ করতে।',
@@ -314,7 +295,6 @@ $messages['bn'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
-	'contact' => 'Mont e darempred',
 	'contactpage' => 'Pajenn daremprediñ',
 	'contactpage-desc' => '[[Special:Contact|Furmskrid mont e darempred evit ar gweladennerien]]',
 	'contactpage-title' => 'Darempred',
@@ -339,7 +319,6 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
-	'contact' => 'Stranica za kontakt',
 	'contactpage' => 'Stranica za kontakt',
 	'contactpage-desc' => '[[Special:Contact|Kontaktni obrazac za posjetioce]]',
 	'contactpage-title' => 'Kontakt',
@@ -366,7 +345,6 @@ $messages['bs'] = array(
  * @author Solde
  */
 $messages['ca'] = array(
-	'contact' => 'Pàgina de contacte',
 	'contactpage' => 'Pàgina de contacte',
 	'contactpage-desc' => '[[Special:Contact|Formulari de contacte per als visitants]]',
 	'contactpage-title' => 'Contacte',
@@ -393,7 +371,6 @@ $messages['ca'] = array(
  * @author לערי ריינהארט
  */
 $messages['cs'] = array(
-	'contact' => 'Kontakt',
 	'contactpage' => 'Kontaktní stránka',
 	'contactpage-desc' => '[[Special:Contact|Kontaktní formulář pro návštěvníky]]',
 	'contactpage-title' => 'Kontakt',
@@ -418,7 +395,6 @@ $messages['cs'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
-	'contact' => 'Tudalen gysylltu',
 	'contactpage' => 'Tudalen gysylltu',
 	'contactpage-desc' => '[[Special:Contact|Ffurlen gysylltu ar gyfer ymwelwyr]]',
 	'contactpage-title' => 'Cysylltu',
@@ -443,7 +419,6 @@ $messages['cy'] = array(
  * @author Byrial
  */
 $messages['da'] = array(
-	'contact' => 'Kontaktside',
 	'contactpage' => 'Kontaktside',
 	'contactpage-desc' => '[[Special:Contact|Kontaktformular for besøgende]]',
 	'contactpage-title' => 'Kontakt',
@@ -469,7 +444,6 @@ $messages['da'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'contact' => 'Kontaktseite',
 	'contactpage' => 'Kontaktseite',
 	'contactpage-desc' => 'Ergänzt eine [[Special:Contact|Spezialseite]] als Kontaktformular für Besucher',
 	'contactpage-title' => 'Kontakt',
@@ -509,7 +483,6 @@ $messages['de-formal'] = array(
  * @author Xoser
  */
 $messages['diq'] = array(
-	'contact' => 'Pelê kontakî',
 	'contactpage' => 'Pelê kontakî',
 	'contactpage-desc' => '[[Special:Contact|Qe meymanan enformasyonê kontakî]]',
 	'contactpage-title' => 'Kontak',
@@ -534,7 +507,6 @@ $messages['diq'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'contact' => 'Kontaktowy bok',
 	'contactpage' => 'Kontaktowy bok',
 	'contactpage-desc' => '[[Special:Contact|Kontaktowy formular za wobglědowarjow]]',
 	'contactpage-title' => 'Kontakt',
@@ -563,7 +535,6 @@ $messages['dsb'] = array(
  * @author Περίεργος
  */
 $messages['el'] = array(
-	'contact' => 'Σελίδα επαφών',
 	'contactpage' => 'Σελίδα επαφών',
 	'contactpage-desc' => '[[Special:Contact|Φόρμα επαφής για επισκέπτες]]',
 	'contactpage-title' => 'Επαφή',
@@ -588,7 +559,6 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'contact' => 'Kontaktpaĝo',
 	'contactpage' => 'Kontaktpaĝo',
 	'contactpage-desc' => '[[Special:Contact|Kontaktpaĝo por vizitantoj]]',
 	'contactpage-title' => 'Kontakti',
@@ -619,7 +589,6 @@ $messages['eo'] = array(
  * @author לערי ריינהארט
  */
 $messages['es'] = array(
-	'contact' => 'Página de contacto',
 	'contactpage' => 'Página de contacto',
 	'contactpage-desc' => '[[Special:Contact|Formulario de contacto para visitantes]]',
 	'contactpage-title' => 'Contacto',
@@ -645,7 +614,6 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
-	'contact' => 'Ühendustvõtmise lehekülg',
 	'contactpage' => 'Ühendustvõtmise lehekülg',
 	'contactpage-desc' => '[[Special:Contact|Ühendustvõtmise vorm külalistele]]',
 	'contactpage-title' => 'Kontakt',
@@ -668,7 +636,6 @@ $messages['et'] = array(
  * @author Theklan
  */
 $messages['eu'] = array(
-	'contact' => 'Kontaktu orrialdea',
 	'contactpage' => 'Kontaktu orrialdea',
 	'contactpage-desc' => '[[Special:Contact|Bisitarientzako kontaktu formularioa]]',
 	'contactpage-title' => 'Kontaktatu',
@@ -705,7 +672,6 @@ $messages['ext'] = array(
  * @author Wayiran
  */
 $messages['fa'] = array(
-	'contact' => 'صفحهٔ تماس',
 	'contactpage' => 'صفحه تماس',
 	'contactpage-desc' => '[[Special:Contact|فرم تماس برای بازدیدکنندگان]]',
 	'contactpage-title' => 'تماس',
@@ -735,7 +701,6 @@ $messages['fa'] = array(
  * @author Vililikku
  */
 $messages['fi'] = array(
-	'contact' => 'Yhteydenottosivu',
 	'contactpage' => 'Yhteydenottosivu',
 	'contactpage-desc' => '[[Special:Contact|Yhteydenottolomake vierailijoille]].',
 	'contactpage-title' => 'Ota yhteyttä',
@@ -765,7 +730,6 @@ $messages['fi'] = array(
  * @author לערי ריינהארט
  */
 $messages['fr'] = array(
-	'contact' => 'Pour nous contacter',
 	'contactpage' => 'Contact',
 	'contactpage-desc' => '[[Special:Contact|Formulaire de contact pour les visiteurs]]',
 	'contactpage-title' => 'Contacter',
@@ -790,7 +754,6 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'contact' => 'Por sè veriér vers nos',
 	'contactpage' => 'Contacte',
 	'contactpage-desc' => '[[Special:Contact|Formulèro de contacte por los visitors]].',
 	'contactpage-title' => 'Contacte',
@@ -825,7 +788,6 @@ $messages['fur'] = array(
  * @author Xosé
  */
 $messages['gl'] = array(
-	'contact' => 'Páxina de contacto',
 	'contactpage' => 'Páxina de contacto',
 	'contactpage-desc' => '[[Special:Contact|Formulario de contacto para os visitantes]]',
 	'contactpage-title' => 'Contacto',
@@ -860,7 +822,6 @@ $messages['grc'] = array(
  * @author Als-Holder
  */
 $messages['gsw'] = array(
-	'contact' => 'Kontaktsyte',
 	'contactpage' => 'Kontaktsyte',
 	'contactpage-desc' => '[[Special:Contact|Kontaktformular fir Bsuecher]]',
 	'contactpage-title' => 'Kontakt',
@@ -896,7 +857,6 @@ $messages['gv'] = array(
  * @author YaronSh
  */
 $messages['he'] = array(
-	'contact' => 'דף יצירת קשר',
 	'contactpage' => 'דף יצירת קשר',
 	'contactpage-desc' => '[[Special:Contact|טופס יצירת קשר למבקרים]]',
 	'contactpage-title' => 'יצירת קשר',
@@ -918,20 +878,23 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Kaustubh
  */
 $messages['hi'] = array(
-	'contact' => 'सम्पर्कपॄष्ठ',
 	'contactpage' => 'सम्पर्क पॄष्ठ',
 	'contactpage-desc' => '[[Special:Contact|भेंट देनेवालोंके लिये संपर्क फ़ार्म]]',
 	'contactpage-title' => 'संपर्क',
 	'contactpage-pagetext' => 'हमसे संपर्क करने के लिये नीचे दिये गये फ़ार्म का इस्तेमाल करें।',
+	'contactpage-legend' => 'ई-मेल भेजें',
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 से)',
 	'contactpage-fromname' => 'आपका नाम *',
 	'contactpage-fromaddress' => 'आपका इ-मेल **',
 	'contactpage-formfootnotes' => '* वैकल्पिक<br />
 ** वैकल्पिक पर जवाब चाहिये हो तो आवश्यक',
+	'contactpage-fromname-required' => 'आपकी नाम:',
+	'contactpage-fromaddress-required' => 'आपकी ई-मेल:',
 	'contactpage-captcha' => 'यह संदेश भेजनेके लिये, कृपया कॅपचा (captcha) सॉल्व करें ([[Special:Captcha/help|अधिक ज़ानकारी]])',
 	'contactpage-captcha-failed' => 'कॅपचा परिक्षा पूरी नहीं हुई! ([[Special:Captcha/help|अधिक ज़ानकारी]])',
 );
@@ -942,7 +905,6 @@ $messages['hi'] = array(
  * @author Tivek
  */
 $messages['hr'] = array(
-	'contact' => 'Stranica za kontakt',
 	'contactpage' => 'Stranica za kontakt',
 	'contactpage-desc' => '[[Special:Contact|Obrazac za posjetitelje]]',
 	'contactpage-title' => 'Kontakt',
@@ -967,7 +929,6 @@ $messages['hr'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'contact' => 'Kontaktna strona',
 	'contactpage' => 'Kontaktna strona',
 	'contactpage-desc' => '[[Special:Contact|Kontaktowy formular za wopytarjow]]',
 	'contactpage-title' => 'Kontakt',
@@ -993,7 +954,6 @@ $messages['hsb'] = array(
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
-	'contact' => 'Kapcsolatfelvétel',
 	'contactpage' => 'Kapcsolat',
 	'contactpage-desc' => '[[Special:Contact|Kapcsolatfelvevő oldal látogatóknak]]',
 	'contactpage-title' => 'Kapcsolatfelvétel',
@@ -1018,7 +978,6 @@ $messages['hu'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'contact' => 'Pagina de contacto',
 	'contactpage' => 'Pagina de contacto',
 	'contactpage-desc' => '[[Special:Contact|Formulario de contacto pro visitatores]]',
 	'contactpage-title' => 'Contacto',
@@ -1044,7 +1003,6 @@ $messages['ia'] = array(
  * @author Iwan Novirion
  */
 $messages['id'] = array(
-	'contact' => 'Hubungi kami',
 	'contactpage' => 'Hubungi kami',
 	'contactpage-desc' => '[[Special:Contact|Formulir hubungi kami untuk pengunjung]]',
 	'contactpage-title' => 'Hubungi',
@@ -1081,7 +1039,6 @@ $messages['io'] = array(
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
-	'contact' => 'Hafa samband',
 	'contactpage-title' => 'Hafa samband',
 	'contactpage-pagetext' => 'Gjörðu svo vel og notaðu eyðublaðið fyrir neðan til að hafa samband við okkur.',
 	'contactpage-subject-and-sender' => '$1 (frá $2)',
@@ -1096,7 +1053,6 @@ $messages['is'] = array(
  * @author Darth Kule
  */
 $messages['it'] = array(
-	'contact' => 'Contatti',
 	'contactpage' => 'Contatti',
 	'contactpage-desc' => '[[Special:Contact|Modulo di contatto per gli ospiti]]',
 	'contactpage-title' => 'Contatti',
@@ -1125,7 +1081,6 @@ $messages['it'] = array(
  * @author לערי ריינהארט
  */
 $messages['ja'] = array(
-	'contact' => '連絡先',
 	'contactpage' => '連絡先',
 	'contactpage-desc' => '[[Special:Contact|サイト来訪者向け連絡フォーム]]',
 	'contactpage-title' => '連絡フォーム',
@@ -1165,7 +1120,6 @@ $messages['jv'] = array(
  * @author Temuri rajavi
  */
 $messages['ka'] = array(
-	'contact' => 'საკონტაქტო გვერდი',
 	'contactpage' => 'საკონტაქტო გვერდი',
 	'contactpage-desc' => '[[Special:Contact|საკონტაქტო ფორმა სტუმრებისათვის]]',
 	'contactpage-title' => 'კონტაქტი',
@@ -1183,13 +1137,6 @@ $messages['ka'] = array(
 	'contactpage-includeip' => 'მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.',
 );
 
-/** Khowar (کھوار)
- * @author Rachitrali
- */
-$messages['khw'] = array(
-	'contact' => 'صفحۂ رابطہ',
-);
-
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
@@ -1197,7 +1144,6 @@ $messages['khw'] = array(
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'contact' => 'ទំព័រ​ទំនាក់ទំនង',
 	'contactpage' => 'ទំព័រ​ទំនាក់ទំនង',
 	'contactpage-desc' => '[[Special:Contact|សំណុំបែបបទទាក់ទង​សម្រាប់អ្នកទស្សនា]]',
 	'contactpage-title' => 'ទាក់ទង',
@@ -1220,7 +1166,6 @@ $messages['km'] = array(
  * @author Nayvik
  */
 $messages['kn'] = array(
-	'contact' => 'ಸಂಪರ್ಕ ಪುಟ',
 	'contactpage' => 'ಸಂಪರ್ಕ ಪುಟ',
 	'contactpage-title' => 'ಸಂಪರ್ಕ',
 	'contactpage-legend' => 'ಇ-ಅಂಚೆ ಕಳುಹಿಸಿ',
@@ -1237,7 +1182,6 @@ $messages['kn'] = array(
  * @author WonRyong
  */
 $messages['ko'] = array(
-	'contact' => '관리자 연락',
 	'contactpage' => '관리자 연락',
 	'contactpage-desc' => '[[Special:Contact|방문자가 문의할 수 있도록 문의 양식을 추가]]',
 	'contactpage-title' => '문의하기',
@@ -1262,7 +1206,6 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'contact' => 'Kontak-Sigg',
 	'contactpage' => 'Kontak-Sigg',
 	'contactpage-desc' => '[[Special:Contact|Kontak-Sigg]] för Besöker.',
 	'contactpage-title' => 'Kontak',
@@ -1319,7 +1262,6 @@ $messages['la'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'contact' => 'Kontaktsäit',
 	'contactpage' => 'Kontaktsäit',
 	'contactpage-desc' => '[[Special:Contact|Kontakt-Formulair fir Visiteuren]]',
 	'contactpage-title' => 'Kontakt',
@@ -1345,7 +1287,6 @@ $messages['lb'] = array(
  * @author Ooswesthoesbes
  */
 $messages['li'] = array(
-	'contact' => 'Kóntak',
 	'contactpage' => 'Kóntakpaasj',
 	'contactpage-desc' => '[[Special:Contact|Kóntakformuleer veur bezeuker]]',
 	'contactpage-title' => 'Kóntak',
@@ -1370,7 +1311,6 @@ $messages['li'] = array(
  * @author Matasg
  */
 $messages['lt'] = array(
-	'contact' => 'Kontaktų puslapis',
 	'contactpage' => 'Kontaktų puslapis',
 	'contactpage-title' => 'Kontaktas',
 	'contactpage-pagetext' => 'Prašome naudoti žemiau esančią formą norint susisiekti su mumis.',
@@ -1422,7 +1362,6 @@ $messages['mg'] = array(
  * @author Misos
  */
 $messages['mk'] = array(
-	'contact' => 'Контакт',
 	'contactpage' => 'Контактна страница',
 	'contactpage-desc' => '[[Special:Contact|Контактен образец за посетители]]',
 	'contactpage-title' => 'Контакт',
@@ -1448,7 +1387,6 @@ $messages['mk'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'contact' => 'ബന്ധപ്പെടാനുള്ള താൾ',
 	'contactpage' => 'ബന്ധപ്പെടാനുള്ള താൾ',
 	'contactpage-desc' => '[[Special:Contact|സന്ദർശകർക്ക് ബന്ധപ്പെടാനുള്ള ഫോം]]',
 	'contactpage-title' => 'വിലാസം',
@@ -1474,7 +1412,6 @@ $messages['ml'] = array(
  * @author Mahitgar
  */
 $messages['mr'] = array(
-	'contact' => 'संपर्कपान',
 	'contactpage' => 'संपर्कपान',
 	'contactpage-desc' => '[[Special:Contact|भेट देणार्‍यांसाठी संपर्क अर्ज]]',
 	'contactpage-title' => 'संपर्क',
@@ -1494,7 +1431,6 @@ $messages['mr'] = array(
  * @author Aviator
  */
 $messages['ms'] = array(
-	'contact' => 'Laman hubungan',
 	'contactpage' => 'Laman hubungan',
 	'contactpage-desc' => '[[Special:Contact|Borang hubungan untuk pengunjung]]',
 	'contactpage-title' => 'Hubungi kami',
@@ -1538,19 +1474,10 @@ $messages['nah'] = array(
 	'contactpage-fromaddress-required' => 'Mo e-mail:',
 );
 
-/** Neapolitan (Nnapulitano)
- * @author Cryptex
- */
-$messages['nap'] = array(
-	'contact' => 'Scrìvece',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
-	'contact' => 'Kontaktside',
 	'contactpage' => 'Kontaktside',
 	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for besøkende]]',
 	'contactpage-title' => 'Kontakt',
@@ -1575,7 +1502,6 @@ $messages['nb'] = array(
  * @author Slomox
  */
 $messages['nds'] = array(
-	'contact' => 'Kontaktsied',
 	'contactpage' => 'Kontaktsied',
 	'contactpage-desc' => '[[Special:Contact|Kontaktformular för Besökers]]',
 	'contactpage-title' => 'Kontakt',
@@ -1599,7 +1525,6 @@ $messages['nds'] = array(
  * @author Bhawani Gautam Rhk
  */
 $messages['ne'] = array(
-	'contact' => 'सम्पर्क पृष्ठ',
 	'contactpage' => 'सम्पर्क पृष्ठ',
 	'contactpage-desc' => '[[Special:Contact|आगन्तुकसितको सम्पर्क]]',
 	'contactpage-title' => 'संपर्क गर्ने',
@@ -1625,7 +1550,6 @@ $messages['ne'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'contact' => 'Contact met ons opnemen',
 	'contactpage' => 'Contactpagina',
 	'contactpage-desc' => '[[Special:Contact|Contactformulier voor bezoekers]]',
 	'contactpage-title' => 'Contact',
@@ -1649,9 +1573,9 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Nghtwlkr
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
-	'contact' => 'Kontaktsida',
 	'contactpage' => 'Kontaktsida',
 	'contactpage-desc' => '[[Special:Contact|Kontaktskjema for vitjande]]',
 	'contactpage-title' => 'Kontakt',
@@ -1683,7 +1607,6 @@ $messages['nso'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'contact' => 'Per nos contactar',
 	'contactpage' => 'Contacte',
 	'contactpage-desc' => '[[Special:Contact|Formulari de contacte pels visitors]]',
 	'contactpage-title' => 'Contacte',
@@ -1745,7 +1668,6 @@ $messages['pdc'] = array(
  * @author Wpedzich
  */
 $messages['pl'] = array(
-	'contact' => 'Kontakt',
 	'contactpage' => 'Strona kontaktowa',
 	'contactpage-desc' => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
 	'contactpage-title' => 'Kontakt',
@@ -1770,7 +1692,6 @@ $messages['pl'] = array(
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'contact' => 'Pàgina ëd contat',
 	'contactpage' => 'Pàgina ëd contat',
 	'contactpage-desc' => "[[Special:Contact|Forma ëd contat për j'anònim]]",
 	'contactpage-title' => 'Contat',
@@ -1794,7 +1715,6 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'contact' => 'د اړيکو مخ',
 	'contactpage' => 'د اړيکو مخ',
 	'contactpage-desc' => '[[Special:Contact|د کتونکو لپاره د اړيکو فورمه]]',
 	'contactpage-title' => 'اړيکه ټينګول',
@@ -1816,7 +1736,6 @@ $messages['ps'] = array(
  * @author Waldir
  */
 $messages['pt'] = array(
-	'contact' => 'Página de Contacto',
 	'contactpage' => 'Página de Contacto',
 	'contactpage-desc' => '[[Special:Contact|Formulário de contacto para visitantes]]',
 	'contactpage-title' => 'Contacto',
@@ -1843,7 +1762,6 @@ $messages['pt'] = array(
  * @author Giro720
  */
 $messages['pt-br'] = array(
-	'contact' => 'Página de contato',
 	'contactpage' => 'Página de Contato',
 	'contactpage-desc' => '[[Special:Contact|Formulário de contato para visitantes]]',
 	'contactpage-title' => 'Contato',
@@ -1864,20 +1782,12 @@ $messages['pt-br'] = array(
 	'contactpage-includeip' => 'Incluir o meu endereço IP nesta mensagem.',
 );
 
-/** Romani (Romani)
- * @author Desiphral
- */
-$messages['rmy'] = array(
-	'contact' => 'Kontakto',
-);
-
 /** Romanian (Română)
  * @author KlaudiuMihaila
  * @author Mihai
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'contact' => 'Pagină de contact',
 	'contactpage' => 'Pagină de contact',
 	'contactpage-desc' => '[[Special:Contact|Formular de contact pentru vizitatori]]',
 	'contactpage-title' => 'Contact',
@@ -1902,7 +1812,6 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
-	'contact' => 'Pàgene de le condatte',
 	'contactpage' => 'Pàgene de le condatte',
 	'contactpage-desc' => '[[Special:Contact|Form de le condatte pe le visitature]]',
 	'contactpage-title' => 'Condatte',
@@ -1928,7 +1837,6 @@ $messages['roa-tara'] = array(
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'contact' => 'Страница контакта',
 	'contactpage' => 'Страница контакта',
 	'contactpage-desc' => '[[Special:Contact|Форма для посетителей]]',
 	'contactpage-title' => 'Контакт',
@@ -1953,7 +1861,6 @@ $messages['ru'] = array(
  * @author Gazeb
  */
 $messages['rue'] = array(
-	'contact' => 'Контакт',
 	'contactpage' => 'Сторінка контакту',
 	'contactpage-desc' => '[[Special:Contact|Контактный формуларь про навщівників]]',
 	'contactpage-title' => 'Контакт',
@@ -1978,7 +1885,6 @@ $messages['rue'] = array(
  * @author HalanTul
  */
 $messages['sah'] = array(
-	'contact' => 'Ситимнэһии сирэйэ',
 	'contactpage' => 'Алтыһыы сирэйэ',
 	'contactpage-desc' => '[[Special:Contact|Ыалдьыттарга аналлаах фуорма]]',
 	'contactpage-title' => 'Контакт',
@@ -1999,11 +1905,25 @@ $messages['sah'] = array(
 	'contactpage-includeip' => 'Мин IP-бын бу биллэриккэ киллэр.',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'contactpage' => 'සම්බන්ධක පිටුව',
+	'contactpage-title' => 'සම්බන්ධ කරන්න',
+	'contactpage-legend' => 'ඊ-තැපෑල යවන්න',
+	'contactpage-defsubject' => 'සම්බන්ධක පණිවුඩය',
+	'contactpage-fromname' => 'ඔබේ නම: *',
+	'contactpage-fromaddress' => 'ඔබේ ඊ-තැපෑල: **',
+	'contactpage-fromname-required' => 'ඔබේ නම:',
+	'contactpage-fromaddress-required' => 'ඔබේ ඊ-තැපෑල:',
+	'contactpage-formfootnotes-required' => 'සියලුම ක්ෂේත්‍රයන් අවශ්‍යයි.',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
-	'contact' => 'Kontaktná stránka',
 	'contactpage' => 'Kontaktná stránka',
 	'contactpage-desc' => '[[Special:Contact|Kontaktný formulár pre návštevníkov]]',
 	'contactpage-title' => 'Kontakt',
@@ -2029,7 +1949,6 @@ $messages['sk'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'contact' => 'Stik z nami',
 	'contactpage' => 'Stik z nami',
 	'contactpage-desc' => '[[Special:Contact|Kontaktni obrazec za obiskovalce]]',
 	'contactpage-title' => 'Kontakt',
@@ -2048,13 +1967,6 @@ $messages['sl'] = array(
 	'contactpage-captcha' => 'Za pošiljanje sporočila prosimo razrešite captcha ([[Special:Captcha/help|več informacij]])',
 	'contactpage-captcha-failed' => 'Preizkus captcha je spodletel! ([[Special:Captcha/help|več informacij]])',
 	'contactpage-includeip' => 'Vključi moj IP-naslov v tem sporočilu.',
-);
-
-/** Albanian (Shqip)
- * @author Dori
- */
-$messages['sq'] = array(
-	'contact' => 'Kumtime',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
@@ -2104,7 +2016,6 @@ $messages['sr-el'] = array(
  * @author Pyt
  */
 $messages['stq'] = array(
-	'contact' => 'Kontaktsiede',
 	'contactpage' => 'Kontaktsiede',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Mäd dit Formular koast du uus Ättergjuchte toukuume läite.',
@@ -2139,7 +2050,6 @@ $messages['su'] = array(
  * @author לערי ריינהארט
  */
 $messages['sv'] = array(
-	'contact' => 'Kontaktsida',
 	'contactpage' => 'Kontaktsida',
 	'contactpage-desc' => '[[Special:Contact|Kontaktformulär för besökare]]',
 	'contactpage-title' => 'Kontakt',
@@ -2175,7 +2085,6 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'contact' => 'సంప్రదింపుపేజీ',
 	'contactpage' => 'సంప్రదింపుపేజీ',
 	'contactpage-desc' => '[[Special:Contact|సందర్శకుల సంప్రదింపు ఫారం]]',
 	'contactpage-title' => 'సంప్రదించండి',
@@ -2200,7 +2109,6 @@ $messages['te'] = array(
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
-	'contact' => 'СаҳифаиТамос',
 	'contactpage' => 'СаҳифаиТамос',
 	'contactpage-title' => 'Алоқа',
 	'contactpage-pagetext' => 'Лутфан барои дар алоқа будан бо мо аз форми зер истифода кунед.',
@@ -2214,7 +2122,6 @@ $messages['tg-cyrl'] = array(
  * @author Liangent
  */
 $messages['tg-latn'] = array(
-	'contact' => 'SahifaiTamos',
 	'contactpage' => 'SahifaiTamos',
 	'contactpage-title' => 'Aloqa',
 	'contactpage-pagetext' => 'Lutfan baroi dar aloqa budan bo mo az formi zer istifoda kuned.',
@@ -2227,7 +2134,6 @@ $messages['tg-latn'] = array(
  * @author Woraponboonkerd
  */
 $messages['th'] = array(
-	'contact' => 'หน้าช่องทางการติดต่อ',
 	'contactpage' => 'หน้าช่องทางการติดต่อ',
 	'contactpage-desc' => '[[Special:Contact|แบบฟอร์มการติดต่อสำหรับผู้เยื่ยมชม]]',
 	'contactpage-title' => 'ติดต่ิอ',
@@ -2250,7 +2156,6 @@ $messages['th'] = array(
  * @author Hanberke
  */
 $messages['tk'] = array(
-	'contact' => 'Kontakt sahypasy',
 	'contactpage' => 'Kontakt sahypasy',
 	'contactpage-desc' => '[[Special:Contact|Zyýaratçylar üçin kontakt formy]]',
 	'contactpage-title' => 'Kontakt',
@@ -2275,7 +2180,6 @@ $messages['tk'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
-	'contact' => 'Pahina ng pakikipag-ugnayan',
 	'contactpage' => 'Pahina ng pakikipag-ugnayan',
 	'contactpage-desc' => '[[Special:Contact|Pormularyo ng pakikipag-ugnayan para sa mga panauhin]]',
 	'contactpage-title' => 'Makipag-ugnayan',
@@ -2304,7 +2208,6 @@ $messages['tl'] = array(
  * @author Manco Capac
  */
 $messages['tr'] = array(
-	'contact' => 'İrtibat sayfası',
 	'contactpage' => 'İrtibat sayfası',
 	'contactpage-desc' => '[[Special:Contact|Ziyaretçiler için irtibat formu]]',
 	'contactpage-title' => 'İrtibat',
@@ -2329,7 +2232,6 @@ $messages['tr'] = array(
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
-	'contact' => 'Элемтә бите',
 	'contactpage' => 'Элемтә бите',
 	'contactpage-desc' => '[[Special:Contact|Караучылар өчен форма]]',
 	'contactpage-title' => 'Элемтә',
@@ -2363,7 +2265,6 @@ $messages['udm'] = array(
  * @author Тест
  */
 $messages['uk'] = array(
-	'contact' => "Сторінка зв'язку",
 	'contactpage' => 'Сторінка контакту',
 	'contactpage-desc' => '[[Special:Contact|Форма для відвідувачів]]',
 	'contactpage-title' => 'Контакт',
@@ -2388,7 +2289,6 @@ $messages['uk'] = array(
  * @author محبوب عالم
  */
 $messages['ur'] = array(
-	'contact' => 'صفحۂ رابطہ',
 	'contactpage' => 'صفحۂ رابطہ',
 	'contactpage-title' => 'رابطہ کریں',
 	'contactpage-pagetext' => 'ہم سے رابطہ کرنے کیلئے درج ذیل تشکیلہ استعمال کریں',
@@ -2404,7 +2304,6 @@ $messages['ur'] = array(
  * @author Candalua
  */
 $messages['vec'] = array(
-	'contact' => 'Contatto',
 	'contactpage' => 'Contatto',
 	'contactpage-desc' => '[[Special:Contact|Modulo de contatto par i visitadori]]',
 	'contactpage-title' => 'Contatto',
@@ -2425,7 +2324,7 @@ $messages['vec'] = array(
 	'contactpage-includeip' => 'Includi el me indirisso IP in sto messajo.',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel')
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
@@ -2442,7 +2341,6 @@ $messages['vep'] = array(
  * @author לערי ריינהארט
  */
 $messages['vi'] = array(
-	'contact' => 'Liên lạc',
 	'contactpage' => 'Liên hệ',
 	'contactpage-desc' => '[[Special:Contact|Mẫu liên hệ cho khách ghé thăm]]',
 	'contactpage-title' => 'Liên lạc',
@@ -2468,7 +2366,6 @@ $messages['vi'] = array(
  * @author Smeira
  */
 $messages['vo'] = array(
-	'contact' => 'Kosikamapad',
 	'contactpage' => 'Kosikamapad',
 	'contactpage-desc' => 'Kosikamafomet visitanes',
 	'contactpage-title' => 'Kosikam',
@@ -2481,13 +2378,6 @@ $messages['vo'] = array(
 	'contactpage-fromname-required' => 'Nem olik:',
 	'contactpage-fromaddress-required' => 'Ladet leäktronik olik:',
 	'contactpage-formfootnotes-required' => 'Fels valik paflagons.',
-);
-
-/** Walloon (Walon)
- * @author Srtxg
- */
-$messages['wa'] = array(
-	'contact' => 'Contak',
 );
 
 /** Yiddish (ייִדיש)
@@ -2505,7 +2395,6 @@ $messages['yi'] = array(
  * @author Shinjiman
  */
 $messages['yue'] = array(
-	'contact' => '聯絡頁',
 	'contactpage' => '聯絡頁',
 	'contactpage-title' => '聯絡',
 	'contactpage-pagetext' => '請用下面嘅表格去聯絡我哋。',
@@ -2523,7 +2412,6 @@ $messages['yue'] = array(
  * @author Biŋhai
  */
 $messages['za'] = array(
-	'contact' => 'Yieb ciepgyaeuj',
 	'contactpage' => 'Yieb ciepgyaeuj',
 	'contactpage-title' => 'Ciepgyaeuj',
 	'contactpage-legend' => 'Fat e-mail',
@@ -2541,7 +2429,6 @@ $messages['za'] = array(
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'contact' => '联系页面',
 	'contactpage' => '联系页面',
 	'contactpage-desc' => '[[Special:Contact|供访问者使用的联系表单]]',
 	'contactpage-title' => '联系',
@@ -2571,7 +2458,6 @@ $messages['zh-hans'] = array(
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'contact' => '聯絡頁面',
 	'contactpage' => '聯絡頁面',
 	'contactpage-desc' => '[[Special:Contact|供訪問者使用的聯繫表單]]',
 	'contactpage-title' => '聯絡',
