@@ -1628,18 +1628,24 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
+ * @author Psubhashish
  */
 $messages['or'] = array(
 	'contactpage' => 'ସମ୍ପର୍କ ପୃଷ୍ଠା',
 	'contactpage-desc' => '[[Special:Contact|ଆଗନ୍ତୁକଙ୍କ ପାଇଁ ସମ୍ପର୍କ ପତ୍ର]]',
 	'contactpage-title' => 'ସମ୍ପର୍କ',
+	'contactpage-pagetext' => 'ଆମ ସହ ଯୋଗାଯୋଗ କରିବା ନିମନ୍ତେ ଏହି ତଳ ଆବେଦନ ପତ୍ରଟି ବ୍ୟବହାର କରନ୍ତୁ ।',
 	'contactpage-legend' => 'ଇ-ମେଲ ପଠାଇବେ',
+	'contactpage-defsubject' => 'ଯୋଗାଯୋଗ ସନ୍ଦେଶ',
 	'contactpage-subject-and-sender' => '$1 (from $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (from $2 at $3)',
 	'contactpage-fromname' => 'ଆପଣଙ୍କ ନାମ: *',
 	'contactpage-fromaddress' => 'ଆପଣଙ୍କ ଇ-ମେଲ: **',
+	'contactpage-formfootnotes' => '* ଇଛାଧୀନ<br />
+** ଇଛାଧୀନ କିନ୍ତୁ ଯଦି ଆପଣଙ୍କୁ ଉତ୍ତରଟିଏ ଲୋଡ଼ା ତାହେଲେ ଏହା ବି ଲୋଡ଼ା',
 	'contactpage-fromname-required' => 'ଆପଣଙ୍କ ନାମ:',
 	'contactpage-fromaddress-required' => 'ଆପଣଙ୍କ ଇ-ମେଲ:',
+	'contactpage-formfootnotes-required' => 'ସବୁଯାକ ଘର ଭରିବାକୁ ପଡ଼ିବ ।',
 );
 
 /** Ossetic (Ирон)
@@ -1911,13 +1917,17 @@ $messages['sah'] = array(
 $messages['si'] = array(
 	'contactpage' => 'සම්බන්ධක පිටුව',
 	'contactpage-title' => 'සම්බන්ධ කරන්න',
+	'contactpage-pagetext' => 'අපව සම්බන්ධ කරගැනීමට කරුණාකර මෙම ෆෝරමය භාවිතා කරන්න.',
 	'contactpage-legend' => 'ඊ-තැපෑල යවන්න',
 	'contactpage-defsubject' => 'සම්බන්ධක පණිවුඩය',
+	'contactpage-subject-and-sender' => '$1 ($2 ගෙන්)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2 ගෙන් $3 හීදී)',
 	'contactpage-fromname' => 'ඔබේ නම: *',
 	'contactpage-fromaddress' => 'ඔබේ ඊ-තැපෑල: **',
 	'contactpage-fromname-required' => 'ඔබේ නම:',
 	'contactpage-fromaddress-required' => 'ඔබේ ඊ-තැපෑල:',
 	'contactpage-formfootnotes-required' => 'සියලුම ක්ෂේත්‍රයන් අවශ්‍යයි.',
+	'contactpage-captcha' => 'පණිවුඩයක් යැවීමට, කරුණාකර කැප්චා විසඳන්න ([[Special:Captcha/help|තවත් තොරතුරු]])',
 );
 
 /** Slovak (Slovenčina)
