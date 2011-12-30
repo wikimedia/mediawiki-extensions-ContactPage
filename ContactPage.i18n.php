@@ -1928,6 +1928,8 @@ $messages['si'] = array(
 	'contactpage-fromaddress-required' => 'ඔබේ ඊ-තැපෑල:',
 	'contactpage-formfootnotes-required' => 'සියලුම ක්ෂේත්‍රයන් අවශ්‍යයි.',
 	'contactpage-captcha' => 'පණිවුඩයක් යැවීමට, කරුණාකර කැප්චා විසඳන්න ([[Special:Captcha/help|තවත් තොරතුරු]])',
+	'contactpage-captcha-failed' => 'කැප්චා පරික්ෂාව අසාර්ථකයි! ([[Special:Captcha/help|තවත් තොරතුරු]])',
+	'contactpage-includeip' => 'මෙම පණිවුඩයෙහි මගේ අයිපී ලිපිනය අඩංගු කරන්න.',
 );
 
 /** Slovak (Slovenčina)
@@ -2081,14 +2083,26 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Shanmugamp7
  * @author TRYPPN
  */
 $messages['ta'] = array(
+	'contactpage' => 'தொடர்பு பக்கம்',
+	'contactpage-desc' => '[[Special:தொடர்பு|தொடர்பு படிவம் பார்வையாளர்களுக்கு]]',
+	'contactpage-title' => 'தொடர்பு கொள்',
+	'contactpage-pagetext' => 'எங்களை தொடர்புகொள்ள கீழேயுள்ள படிவத்தை பயன்படுத்தவும்.',
 	'contactpage-legend' => 'மின்னஞ்சலை அனுப்பவும்',
+	'contactpage-defsubject' => 'தொடர்பு தகவல்',
+	'contactpage-subject-and-sender' => '$1($2 லிருந்து)',
+	'contactpage-subject-and-sender-withip' => '$1(லிருந்து $2  $3க்கு)',
 	'contactpage-fromname' => 'தங்களது பெயர்: *',
 	'contactpage-fromaddress' => 'தங்களது மின்னஞ்சல்: **',
 	'contactpage-fromname-required' => 'தங்களது பெயர்:',
 	'contactpage-fromaddress-required' => 'தங்களது மின்னஞ்சல்:',
+	'contactpage-formfootnotes-required' => 'எல்லா புலங்களும் தேவைப்படுகின்றது.',
+	'contactpage-captcha' => 'தகவலை அனுப்ப, தயவுகூர்ந்து captcha வை தீர்க்கவும்([[Special:Captcha/help|மேலும் விபரங்கள்]])',
+	'contactpage-captcha-failed' => 'Captcha சோதனை தோல்வியடைந்தது! ([[Special:Captcha/help|மேலும் விபரங்கள்]])',
+	'contactpage-includeip' => 'இந்த தகவலில் எனது IP முகவரியை  சேர்க்கவும்.',
 );
 
 /** Telugu (తెలుగు)
