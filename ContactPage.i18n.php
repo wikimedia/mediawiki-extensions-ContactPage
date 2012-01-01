@@ -1285,6 +1285,7 @@ $messages['lb'] = array(
 /** Limburgish (Limburgs)
  * @author Aelske
  * @author Ooswesthoesbes
+ * @author Pahles
  */
 $messages['li'] = array(
 	'contactpage' => 'Kóntakpaasj',
@@ -1304,6 +1305,7 @@ $messages['li'] = array(
 	'contactpage-formfootnotes-required' => 'Alle velder zin verplich.',
 	'contactpage-captcha' => 'Óm get te sjikke, mósse de captcha óplósse ([[Special:Captcha/help|mieë weite]])',
 	'contactpage-captcha-failed' => 'Captchatès mislök ([[Special:Captcha/help|mieë weite]])',
+	'contactpage-includeip' => 'Sjik mien IP-adres mit in dit berich.',
 );
 
 /** Lithuanian (Lietuvių)
@@ -1916,6 +1918,7 @@ $messages['sah'] = array(
  */
 $messages['si'] = array(
 	'contactpage' => 'සම්බන්ධක පිටුව',
+	'contactpage-desc' => '[[Special:Contact|අමුත්තන් සඳහා සම්බන්ධක ෆෝරමය]]',
 	'contactpage-title' => 'සම්බන්ධ කරන්න',
 	'contactpage-pagetext' => 'අපව සම්බන්ධ කරගැනීමට කරුණාකර මෙම ෆෝරමය භාවිතා කරන්න.',
 	'contactpage-legend' => 'ඊ-තැපෑල යවන්න',
