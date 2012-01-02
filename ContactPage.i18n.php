@@ -895,8 +895,10 @@ $messages['hi'] = array(
 ** वैकल्पिक पर जवाब चाहिये हो तो आवश्यक',
 	'contactpage-fromname-required' => 'आपकी नाम:',
 	'contactpage-fromaddress-required' => 'आपकी ई-मेल:',
+	'contactpage-formfootnotes-required' => 'सभी फ़ील्ड अनिवार्य हैं।',
 	'contactpage-captcha' => 'यह संदेश भेजनेके लिये, कृपया कॅपचा (captcha) सॉल्व करें ([[Special:Captcha/help|अधिक ज़ानकारी]])',
 	'contactpage-captcha-failed' => 'कॅपचा परिक्षा पूरी नहीं हुई! ([[Special:Captcha/help|अधिक ज़ानकारी]])',
+	'contactpage-includeip' => 'मेरा आईपि पता इस संदेश में शामिल हैं।',
 );
 
 /** Croatian (Hrvatski)
