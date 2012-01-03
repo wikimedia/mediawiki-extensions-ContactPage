@@ -889,6 +889,7 @@ $messages['hi'] = array(
 	'contactpage-legend' => 'ई-मेल भेजें',
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 से)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2 से $3 पे)',
 	'contactpage-fromname' => 'आपका नाम *',
 	'contactpage-fromaddress' => 'आपका इ-मेल **',
 	'contactpage-formfootnotes' => '* वैकल्पिक<br />
@@ -1929,6 +1930,8 @@ $messages['si'] = array(
 	'contactpage-subject-and-sender-withip' => '$1 ($2 ගෙන් $3 හීදී)',
 	'contactpage-fromname' => 'ඔබේ නම: *',
 	'contactpage-fromaddress' => 'ඔබේ ඊ-තැපෑල: **',
+	'contactpage-formfootnotes' => '* අමතර<br />
+** අමතර නමුත් ඔබට පිළිතුරක් ලබා ගැනීමට නම්',
 	'contactpage-fromname-required' => 'ඔබේ නම:',
 	'contactpage-fromaddress-required' => 'ඔබේ ඊ-තැපෑල:',
 	'contactpage-formfootnotes-required' => 'සියලුම ක්ෂේත්‍රයන් අවශ්‍යයි.',
