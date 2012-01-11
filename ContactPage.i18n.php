@@ -1026,6 +1026,30 @@ $messages['id'] = array(
 	'contactpage-includeip' => 'Sertakan alamat IP saya di pesan ini.',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'contactpage' => 'Pagdamagan a panid',
+	'contactpage-desc' => '[[Special:Contact|Pagdamagan a porma para kadagiti bisita]]',
+	'contactpage-title' => 'Pagdamagan',
+	'contactpage-pagetext' => 'Pangngaasi nga usaren ti porma dita baba ti agdamag kaniami.',
+	'contactpage-legend' => 'Ipatulod ti e-surat',
+	'contactpage-defsubject' => 'Pagdamagan a mensahe',
+	'contactpage-subject-and-sender' => '$1 (manipud kenni $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (manipud kenni $2 iti $3)',
+	'contactpage-fromname' => 'Ti nagan mo: *',
+	'contactpage-fromaddress' => 'Ti e-surat mo: **',
+	'contactpage-formfootnotes' => '* saan a nasken a mapili<br />
+** saan a nasken a mapili ngem masapul no kayat mo ti sungbat',
+	'contactpage-fromname-required' => 'Ti nagan mo:',
+	'contactpage-fromaddress-required' => 'Ti e-surat mo:',
+	'contactpage-formfootnotes-required' => 'Amin dagiti lugar ket masapul.',
+	'contactpage-captcha' => 'Ti agipatulod ti mensahe, pangngaasi a sulbaren ti captcha ([[Special:Captcha/help|ti adu pay a paammo]])',
+	'contactpage-captcha-failed' => 'Ti subokan ti captcha ket napaay! ([[Special:Captcha/help|ti adu pay a paammo]])',
+	'contactpage-includeip' => 'Iraman ti IP a pagtaengak iti daytoy a mensahe.',
+);
+
 /** Ido (Ido)
  * @author Malafaya
  */
