@@ -1105,6 +1105,7 @@ $messages['it'] = array(
  * @author Fryed-peach
  * @author JtFuruhata
  * @author Naohiro19
+ * @author Shirayuki
  * @author לערי ריינהארט
  */
 $messages['ja'] = array(
@@ -1112,16 +1113,16 @@ $messages['ja'] = array(
 	'contactpage-desc' => '[[Special:Contact|サイト来訪者向け連絡フォーム]]',
 	'contactpage-title' => '連絡フォーム',
 	'contactpage-pagetext' => '以下のフォームを利用すると、私たちにメッセージを送信することができます。',
-	'contactpage-legend' => '電子メールを送る',
+	'contactpage-legend' => 'メールを送信',
 	'contactpage-defsubject' => '連絡事項',
 	'contactpage-subject-and-sender' => '$1($2 より)',
 	'contactpage-subject-and-sender-withip' => '$1 ($2 が $3 から送信)',
 	'contactpage-fromname' => 'あなたのお名前: *',
-	'contactpage-fromaddress' => 'あなたの電子メールアドレス: **',
+	'contactpage-fromaddress' => 'あなたのメールアドレス：**',
 	'contactpage-formfootnotes' => '* 任意記入<br />
 ** 任意記入ですが、返答が必要な場合は必ずご記入ください',
 	'contactpage-fromname-required' => 'あなたの名前:',
-	'contactpage-fromaddress-required' => 'あなたの電子メールアドレス:',
+	'contactpage-fromaddress-required' => 'あなたのメールアドレス：',
 	'contactpage-formfootnotes-required' => 'すべての欄が必須です。',
 	'contactpage-captcha' => 'メッセージを送信するには、以下のCAPTCHA画像認証が必要です([[Special:Captcha/help|詳細はこちら]])',
 	'contactpage-captcha-failed' => 'CAPTCHA画像認証に失敗しました！([[Special:Captcha/help|詳細はこちら]])',
