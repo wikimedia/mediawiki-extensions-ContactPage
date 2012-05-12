@@ -162,6 +162,30 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'contactpage' => 'Páxina de contautu',
+	'contactpage-desc' => '[[Special:Contact|Formulariu de contautu pa los visitantes]]',
+	'contactpage-title' => 'Contautu',
+	'contactpage-pagetext' => "Usa'l formulariu d'abaxo pa comunicate con nós.",
+	'contactpage-legend' => 'Unviar un corréu',
+	'contactpage-defsubject' => 'Mensaxe de contautu',
+	'contactpage-subject-and-sender' => '$1 (de $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
+	'contactpage-fromname' => 'El to nome: *',
+	'contactpage-fromaddress' => 'El to corréu electrónicu: **',
+	'contactpage-formfootnotes' => '* opcional<br />
+** opcional, pero necesariu si quies una rempuesta',
+	'contactpage-fromname-required' => 'El to nome:',
+	'contactpage-fromaddress-required' => 'El to corréu electrónicu:',
+	'contactpage-formfootnotes-required' => 'Tolos campos son obligatorios.',
+	'contactpage-captcha' => "Pa unviar el mensaxe, por favor resuelve'l captcha ([[Special:Captcha/help|más información]])",
+	'contactpage-captcha-failed' => '¡Falló la prueba del captcha! ([[Special:Captcha/help|más información]])',
+	'contactpage-includeip' => 'Incluir la mio direición IP nesti mensaxe.',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  */
@@ -480,12 +504,13 @@ $messages['de-formal'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Xoser
  */
 $messages['diq'] = array(
 	'contactpage' => 'Pelê kontakî',
 	'contactpage-desc' => '[[Special:Contact|Qe meymanan enformasyonê kontakî]]',
-	'contactpage-title' => 'Kontak',
+	'contactpage-title' => 'İrtibat',
 	'contactpage-pagetext' => 'Qe ma rê kontak kerdişî rê, ma rica kenê ena form sero kar bike.',
 	'contactpage-legend' => 'Yew e-mail bişirav',
 	'contactpage-defsubject' => 'Mesajê kontakî',
@@ -2175,7 +2200,7 @@ $messages['tg-cyrl'] = array(
 	'contactpage-fromaddress' => 'почтаи электронии шумо **',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2381,7 +2406,7 @@ $messages['vec'] = array(
 	'contactpage-includeip' => 'Includi el me indirisso IP in sto messajo.',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
