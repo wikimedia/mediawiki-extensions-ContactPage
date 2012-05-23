@@ -153,6 +153,11 @@ $specialPageAliases['ksh'] = array(
 	'Contact' => array( 'Kuntak', 'Kumtak', 'Kontak' ),
 );
 
+/** Cornish (Kernowek) */
+$specialPageAliases['kw'] = array(
+	'Contact' => array( 'Kestava' ),
+);
+
 /** Ladino (Ladino) */
 $specialPageAliases['lad'] = array(
 	'Contact' => array( 'Tener_dar_i_aver' ),
