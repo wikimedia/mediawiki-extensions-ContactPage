@@ -1101,6 +1101,7 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Civvì
  * @author Darth Kule
  */
@@ -1109,7 +1110,7 @@ $messages['it'] = array(
 	'contactpage-desc' => '[[Special:Contact|Modulo di contatto per gli ospiti]]',
 	'contactpage-title' => 'Contatti',
 	'contactpage-pagetext' => 'Il modulo riportato di seguito consente di mettersi in contatto con noi.',
-	'contactpage-legend' => 'Invia e-mail',
+	'contactpage-legend' => 'Invia email',
 	'contactpage-defsubject' => 'Messaggio',
 	'contactpage-subject-and-sender' => '$1 (da $2)',
 	'contactpage-subject-and-sender-withip' => "$1 (da $2 all'indirizzo $3)",
