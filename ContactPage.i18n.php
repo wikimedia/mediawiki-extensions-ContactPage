@@ -1146,7 +1146,7 @@ $messages['ja'] = array(
 	'contactpage-fromname' => 'あなたのお名前: *',
 	'contactpage-fromaddress' => 'あなたのメールアドレス：**',
 	'contactpage-formfootnotes' => '* 任意記入<br />
-** 任意記入ですが、返答が必要な場合は必ずご記入ください',
+** 任意記入ですが、回答が必要な場合は必ずご記入ください',
 	'contactpage-fromname-required' => 'あなたの名前:',
 	'contactpage-fromaddress-required' => 'あなたのメール：',
 	'contactpage-formfootnotes-required' => 'すべての欄が必須です。',
