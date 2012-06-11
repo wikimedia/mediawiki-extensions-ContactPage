@@ -28,12 +28,12 @@ $specialPageAliases['as'] = array(
 	'Contact' => array( 'যোগাযোগ' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Contact' => array( 'Darempred' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -41,6 +41,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Contact' => array( 'İrtibat' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -58,7 +63,7 @@ $specialPageAliases['eo'] = array(
 	'Contact' => array( 'Kontakti' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'Contact' => array( 'Contactar', 'Contacto' ),
 );
@@ -68,12 +73,12 @@ $specialPageAliases['fa'] = array(
 	'Contact' => array( 'تماس' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'Contact' => array( 'Ota_yhteyttä' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Contact' => array( 'Contacte' ),
 );
@@ -93,7 +98,7 @@ $specialPageAliases['he'] = array(
 	'Contact' => array( 'יצירת_קשר' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -108,12 +113,12 @@ $specialPageAliases['ht'] = array(
 	'Contact' => array( 'Kontak' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'Contact' => array( 'Kapcsolat' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Contact' => array( 'Contacto' ),
 );
@@ -123,7 +128,7 @@ $specialPageAliases['id'] = array(
 	'Contact' => array( 'Hubungi', 'Kontak' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'Contact' => array( 'Contatti' ),
 );
@@ -153,7 +158,7 @@ $specialPageAliases['ksh'] = array(
 	'Contact' => array( 'Kuntak', 'Kumtak', 'Kontak' ),
 );
 
-/** Cornish (Kernowek) */
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'Contact' => array( 'Kestava' ),
 );
@@ -168,7 +173,7 @@ $specialPageAliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Contact' => array( 'Контакт' ),
 );
@@ -188,7 +193,7 @@ $specialPageAliases['mt'] = array(
 	'Contact' => array( 'Kuntatt' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -208,12 +213,12 @@ $specialPageAliases['nl'] = array(
 	'Contact' => array( 'Contactpagina' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
-/** Occitan (Occitan) */
+/** Occitan (occitan) */
 $specialPageAliases['oc'] = array(
 	'Contact' => array( 'Contacte' ),
 );
@@ -223,7 +228,7 @@ $specialPageAliases['or'] = array(
 	'Contact' => array( 'ଯୋଗାଯୋଗ' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -233,17 +238,17 @@ $specialPageAliases['ps'] = array(
 	'Contact' => array( 'اړيکه،_د_اړيکو_مخ' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Contact' => array( 'Contactar' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
+/** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
 	'Contact' => array( 'Contactar', 'Contatar' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Contact' => array( 'Contact' ),
 );
@@ -253,22 +258,22 @@ $specialPageAliases['sa'] = array(
 	'Contact' => array( 'सम्पर्क' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
-/** Albanian (Shqip) */
+/** Albanian (shqip) */
 $specialPageAliases['sq'] = array(
 	'Contact' => array( 'Kontakto' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Contact' => array( 'Контакт' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -283,7 +288,7 @@ $specialPageAliases['te'] = array(
 	'Contact' => array( 'సంప్రదించు' ),
 );
 
-/** Tetum (Tetun) */
+/** Tetum (tetun) */
 $specialPageAliases['tet'] = array(
 	'Contact' => array( 'Kontaktu' ),
 );
@@ -303,12 +308,12 @@ $specialPageAliases['tr'] = array(
 	'Contact' => array( 'İrtibat', 'İletişim' ),
 );
 
-/** Tatar (Cyrillic script) (Татарча) */
+/** Tatar (Cyrillic script) (татарча) */
 $specialPageAliases['tt-cyrl'] = array(
 	'Contact' => array( 'Элемтә' ),
 );
 
-/** Vèneto (Vèneto) */
+/** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contact' => array( 'Contati' ),
 );
@@ -323,12 +328,12 @@ $specialPageAliases['yue'] = array(
 	'Contact' => array( '聯絡' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Contact' => array( '联系' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'Contact' => array( '聯絡' ),
 );
