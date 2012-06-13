@@ -1143,7 +1143,7 @@ $messages['ja'] = array(
 	'contactpage-defsubject' => '連絡事項',
 	'contactpage-subject-and-sender' => '$1($2 より)',
 	'contactpage-subject-and-sender-withip' => '$1 ($2 が $3 から送信)',
-	'contactpage-fromname' => 'あなたのお名前: *',
+	'contactpage-fromname' => 'あなたのお名前：*',
 	'contactpage-fromaddress' => 'あなたのメールアドレス：**',
 	'contactpage-formfootnotes' => '* 任意記入<br />
 ** 任意記入ですが、回答が必要な場合は必ずご記入ください',
