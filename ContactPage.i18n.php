@@ -162,7 +162,7 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -186,7 +186,7 @@ $messages['ast'] = array(
 	'contactpage-includeip' => 'Incluir la mio direición IP nesti mensaxe.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -267,7 +267,7 @@ $messages['be-tarask'] = array(
 	'contactpage-includeip' => 'Дадаць мой IP-адрас у гэтае паведамленьне.',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Turin
  */
@@ -313,7 +313,7 @@ $messages['bn'] = array(
 	'contactpage-includeip' => 'এই বার্তায় আমার আইপি ঠিকানা যোগ করো।',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -339,7 +339,7 @@ $messages['br'] = array(
 	'contactpage-includeip' => "Merkañ ma chomlec'h IP er postel-mañ.",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -363,7 +363,7 @@ $messages['bs'] = array(
 	'contactpage-includeip' => 'Uključi moju IP adresu u ovu poruku.',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Martorell
  * @author SMP
  * @author Solde
@@ -389,7 +389,7 @@ $messages['ca'] = array(
 	'contactpage-includeip' => "Inclou al missatge l'adreça IP que estic utilitzant.",
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
  * @author לערי ריינהארט
@@ -439,7 +439,7 @@ $messages['cy'] = array(
 	'contactpage-includeip' => 'Cynnwys fy nghyfeiriad IP yn y neges hon.',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  */
 $messages['da'] = array(
@@ -604,7 +604,7 @@ $messages['eo'] = array(
 	'contactpage-includeip' => 'Inkluzivi mian IP-adreson en ĉi tiu mesaĝo',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Fitoschido
  * @author Imre
@@ -634,7 +634,7 @@ $messages['es'] = array(
 	'contactpage-includeip' => 'Incluir mi dirección IP en este mensaje.',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -656,7 +656,7 @@ $messages['et'] = array(
 	'contactpage-captcha-failed' => 'Robotilõksu ei õnnestunud läbida! ([[Special:Captcha/help|täpsem teave]])',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Theklan
  */
@@ -681,7 +681,7 @@ $messages['eu'] = array(
 	'contactpage-includeip' => 'Nire IP helbidea mezu honetan sartu.',
 );
 
-/** Extremaduran (Estremeñu)
+/** Extremaduran (estremeñu)
  * @author Better
  */
 $messages['ext'] = array(
@@ -717,7 +717,7 @@ $messages['fa'] = array(
 	'contactpage-includeip' => 'نشانی آی‌پی من را با این پیغام ضمیمه کن.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Jaakonam
@@ -746,7 +746,7 @@ $messages['fi'] = array(
 	'contactpage-includeip' => 'Sisällytä IP-osoitteeni tähän viestiin.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author Peter17
@@ -775,7 +775,7 @@ $messages['fr'] = array(
 	'contactpage-includeip' => 'Inclure mon adresse IP dans ce message.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -799,7 +799,7 @@ $messages['frp'] = array(
 	'contactpage-includeip' => 'Encllure mon adrèce IP dens ceti mèssâjo.',
 );
 
-/** Friulian (Furlan)
+/** Friulian (furlan)
  * @author Klenje
  */
 $messages['fur'] = array(
@@ -927,7 +927,7 @@ $messages['hi'] = array(
 	'contactpage-includeip' => 'मेरा आईपि पता इस संदेश में शामिल हैं।',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dnik
  * @author SpeedyGonsales
  * @author Tivek
@@ -977,7 +977,7 @@ $messages['hsb'] = array(
 	'contactpage-includeip' => 'Moju IP-adresu w tutej powěsći zapřijeć.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -1002,7 +1002,7 @@ $messages['hu'] = array(
 	'contactpage-includeip' => 'Tüntesd fel az IP-címemet az üzenetben.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1086,7 +1086,7 @@ $messages['io'] = array(
 	'contactpage-fromname-required' => 'Vua nomo:',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author Jóna Þórunn
  * @author S.Örvarr.S
  */
@@ -1100,7 +1100,7 @@ $messages['is'] = array(
 ** valfrjálst en nauðsynlegt ef þú vilt fá svar',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Civvì
  * @author Darth Kule
@@ -1292,7 +1292,7 @@ $messages['ku-latn'] = array(
 	'contactpage-fromname' => 'Navê te: *',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  */
@@ -1362,7 +1362,7 @@ $messages['li'] = array(
 	'contactpage-includeip' => 'Sjik mien IP-adres mit in dit berich.',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
  */
@@ -1384,7 +1384,7 @@ $messages['lt'] = array(
 	'contactpage-includeip' => 'Įtraukti mano IP adresą į šį pranešimą.',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -1413,7 +1413,7 @@ $messages['mg'] = array(
 	'contactpage-fromaddress' => 'Ny imailakanao : **',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Misos
  */
@@ -1626,7 +1626,7 @@ $messages['nl'] = array(
 	'contactpage-includeip' => 'Stuur mijn IP-adres mee met dit bericht.',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -1659,7 +1659,7 @@ $messages['nso'] = array(
 	'contactpage-fromaddress' => 'Email aterese ya gago: **',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1722,7 +1722,7 @@ $messages['pdc'] = array(
 	'contactpage-fromaddress-required' => 'Dei E-Poschd:',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Leinad
  * @author Maikking
@@ -1792,7 +1792,7 @@ $messages['ps'] = array(
 	'contactpage-fromaddress-required' => 'ستاسې برېښليک:',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -1818,7 +1818,7 @@ $messages['pt'] = array(
 	'contactpage-includeip' => 'Incluir o meu endereço IP nesta mensagem.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Carla404
  * @author Eduardo.mps
  * @author Giro720
@@ -1844,7 +1844,7 @@ $messages['pt-br'] = array(
 	'contactpage-includeip' => 'Incluir o meu endereço IP nesta mensagem.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Mihai
  * @author Minisarm
@@ -1870,7 +1870,7 @@ $messages['ro'] = array(
 	'contactpage-includeip' => 'Include-mi adresa IP în acest mesaj.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1894,7 +1894,7 @@ $messages['roa-tara'] = array(
 	'contactpage-includeip' => "Inglude l'indirizze UP mije sus a stu messagge.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -1943,7 +1943,7 @@ $messages['rue'] = array(
 	'contactpage-includeip' => 'Приложыти ку повідомлїню мою IP адресу.',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1991,7 +1991,7 @@ $messages['si'] = array(
 	'contactpage-includeip' => 'මෙම පණිවුඩයෙහි මගේ අයිපී ලිපිනය අඩංගු කරන්න.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -2016,7 +2016,7 @@ $messages['sk'] = array(
 	'contactpage-includeip' => 'Vložiť k tejto správe moju IP adresu.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -2040,7 +2040,7 @@ $messages['sl'] = array(
 	'contactpage-includeip' => 'Vključi moj IP-naslov v tem sporočilu.',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -2061,7 +2061,7 @@ $messages['sr-ec'] = array(
 	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -2111,7 +2111,7 @@ $messages['su'] = array(
 	'contactpage-fromaddress' => 'surélék anjeun **',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Boivie
  * @author Dafer45
@@ -2188,7 +2188,7 @@ $messages['te'] = array(
 	'contactpage-includeip' => 'ఈ సందేశంలో నా ఐపీ చిరునామాని చేర్చు.',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2201,7 +2201,7 @@ $messages['tg-cyrl'] = array(
 	'contactpage-fromaddress' => 'почтаи электронии шумо **',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2311,7 +2311,7 @@ $messages['tr'] = array(
 	'contactpage-includeip' => 'Mesaja IP adresimi ekle.',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -2342,7 +2342,7 @@ $messages['udm'] = array(
 	'contactpage-defsubject' => 'Ивортон',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author NickK
  * @author Prima klasy4na
  * @author Тест
@@ -2383,7 +2383,7 @@ $messages['ur'] = array(
 	'contactpage-formfootnotes-required' => 'تمام جگہیں پُر کرنا ضروری ہیں.',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -2504,7 +2504,7 @@ $messages['za'] = array(
 	'contactpage-fromaddress-required' => 'E-mail mwngz:',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Liangent
  * @author Shinjiman
@@ -2532,7 +2532,7 @@ $messages['zh-hans'] = array(
 	'contactpage-includeip' => '在此邮件中包含我的IP位置资料。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Gzdavidwong
  * @author Horacewai2
  * @author Liangent
