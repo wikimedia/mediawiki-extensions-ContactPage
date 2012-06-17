@@ -2467,6 +2467,7 @@ $messages['vo'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'contactpage-title' => 'קאנטאקט',
 	'contactpage-legend' => 'שיקן ע־פאסט',
 	'contactpage-fromname' => 'אייער נאמען: *',
 	'contactpage-fromaddress' => 'אייער ע-פאסט: **',
