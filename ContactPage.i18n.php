@@ -2463,6 +2463,26 @@ $messages['vo'] = array(
 	'contactpage-formfootnotes-required' => 'Fels valik paflagons.',
 );
 
+/** Walloon (walon)
+ * @author Srtxg
+ */
+$messages['wa'] = array(
+	'contactpage' => 'Pådje di contak',
+	'contactpage-desc' => '[[Special:Contact|Formulrece di contak po les viziteus]]',
+	'contactpage-title' => 'Contak',
+	'contactpage-pagetext' => "Eployîz l' formulrce chal pa dzo po nos atôtchî.",
+	'contactpage-legend' => 'Evoyî èn emile',
+	'contactpage-defsubject' => 'Messaedje po-z atôtchî',
+	'contactpage-subject-and-sender' => '$1 (di $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (di $2 a $3)',
+	'contactpage-fromname' => 'Vosse no: *',
+	'contactpage-fromaddress' => 'Vost emile: **',
+	'contactpage-formfootnotes' => "* opcionel<br />
+** opcionel mins vos l' divoz mete si vos vloz rçure ene response",
+	'contactpage-fromname-required' => 'Vosse no:',
+	'contactpage-fromaddress-required' => 'Vost emile:',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
