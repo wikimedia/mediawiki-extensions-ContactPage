@@ -2467,9 +2467,9 @@ $messages['vo'] = array(
  * @author Srtxg
  */
 $messages['wa'] = array(
-	'contactpage' => 'Pådje di contak',
-	'contactpage-desc' => '[[Special:Contact|Formulrece di contak po les viziteus]]',
-	'contactpage-title' => 'Contak',
+	'contactpage' => "Pådje d' atôtchance",
+	'contactpage-desc' => "[[Special:Contact|Formulrece d' atôtchance po les viziteus]]",
+	'contactpage-title' => 'Atôtchî',
 	'contactpage-pagetext' => "Eployîz l' formulrce chal pa dzo po nos atôtchî.",
 	'contactpage-legend' => 'Evoyî èn emile',
 	'contactpage-defsubject' => 'Messaedje po-z atôtchî',
@@ -2481,6 +2481,10 @@ $messages['wa'] = array(
 ** opcionel mins vos l' divoz mete si vos vloz rçure ene response",
 	'contactpage-fromname-required' => 'Vosse no:',
 	'contactpage-fromaddress-required' => 'Vost emile:',
+	'contactpage-formfootnotes-required' => 'I fåt rimpli tos les tchamps.',
+	'contactpage-captcha' => "Po-z evoyî l' messaedje, vos dvoz responde å «captcha» ([[Special:Captcha/help|aidance]])",
+	'contactpage-captcha-failed' => "Vos n' avoz nén reyussi l' «captcha»! ([[Special:Captcha/help|aidance]])",
+	'contactpage-includeip' => "Mete l' adresse IP da minne dins l' messaedje.",
 );
 
 /** Yiddish (ייִדיש)
