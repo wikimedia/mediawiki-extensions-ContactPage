@@ -48,7 +48,7 @@ $specialPageAliases['diq'] = array(
 	'Contact' => array( 'İrtibat' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -83,7 +83,7 @@ $specialPageAliases['frp'] = array(
 	'Contact' => array( 'Contacte' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Contact' => array( 'Contactar' ),
 );
@@ -103,7 +103,7 @@ $specialPageAliases['hr'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
