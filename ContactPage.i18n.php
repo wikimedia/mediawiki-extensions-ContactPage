@@ -240,7 +240,7 @@ $messages['bcl'] = array(
 	'contactpage-fromaddress' => "''e''-surat mo **",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -528,7 +528,7 @@ $messages['diq'] = array(
 	'contactpage-includeip' => 'Ena mesaj de adresê IP mi de bike.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -807,7 +807,7 @@ $messages['fur'] = array(
 	'contactpage-fromname-required' => 'Il to non:',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  * @author Xosé
@@ -953,7 +953,7 @@ $messages['hr'] = array(
 	'contactpage-includeip' => 'Priloži moju IP adresu u ovu poruku.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1262,7 +1262,7 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'contactpage' => 'Kontak-Sigg',
 	'contactpage-desc' => '[[Special:Contact|Kontak-Sigg]] för Besöker.',
-	'contactpage-title' => 'Kontak',
+	'contactpage-title' => 'Kumtak',
 	'contactpage-pagetext' => 'Övver di Sigg hee kanns De dä Wiki-Maacher jet schrieve.',
 	'contactpage-legend' => '<i lang="en">e-mail</i> schecke',
 	'contactpage-defsubject' => 'Kontak-Nohreesch',
@@ -1919,7 +1919,7 @@ $messages['ru'] = array(
 	'contactpage-includeip' => 'Включить мой IP-адрес в это сообщение.',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
