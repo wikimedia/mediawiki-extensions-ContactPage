@@ -93,6 +93,11 @@ $specialPageAliases['gsw'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Gujarati (ગુજરાતી) */
+$specialPageAliases['gu'] = array(
+	'Contact' => array( 'સંપર્ક' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Contact' => array( 'יצירת_קשר' ),
