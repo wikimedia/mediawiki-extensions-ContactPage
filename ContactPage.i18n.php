@@ -199,7 +199,7 @@ $messages['az'] = array(
 	'contactpage-fromaddress-required' => 'Sizin e-poçtunuz:',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Haqmar
  */
@@ -1507,7 +1507,7 @@ $messages['ms'] = array(
 	'contactpage-includeip' => 'Sertakan alamat IP saya dalam pesanan ini.',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1530,7 +1530,7 @@ $messages['nah'] = array(
 	'contactpage-fromaddress-required' => 'Mo e-mail:',
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -2335,7 +2335,7 @@ $messages['tt-cyrl'] = array(
 	'contactpage-includeip' => 'Минем IP-юлламаны бу хат белән җибәрергә.',
 );
 
-/** Udmurt (Удмурт)
+/** Udmurt (удмурт)
  * @author Kaganer
  */
 $messages['udm'] = array(
@@ -2407,7 +2407,7 @@ $messages['vec'] = array(
 	'contactpage-includeip' => 'Includi el me indirisso IP in sto messajo.',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
