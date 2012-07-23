@@ -162,6 +162,16 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'contactpage-title' => 'যোগাযোগ',
+	'contactpage-fromname' => 'আপোনাৰ নাম:',
+	'contactpage-fromname-required' => 'আপোনাৰ নাম:',
+	'contactpage-fromaddress-required' => 'আপোনাৰ ই-মেইল:',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
