@@ -451,6 +451,7 @@ $messages['cy'] = array(
 
 /** Danish (dansk)
  * @author Byrial
+ * @author Hylle
  */
 $messages['da'] = array(
 	'contactpage' => 'Kontaktside',
@@ -460,6 +461,7 @@ $messages['da'] = array(
 	'contactpage-legend' => 'Send e-mail',
 	'contactpage-defsubject' => 'Kontaktbesked',
 	'contactpage-subject-and-sender' => '$1 (fra $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (fra $2 på $3)',
 	'contactpage-fromname' => 'Dit navn: *',
 	'contactpage-fromaddress' => 'Din e-mail-adresse: **',
 	'contactpage-formfootnotes' => '* valgfrit<br />
@@ -469,6 +471,7 @@ $messages['da'] = array(
 	'contactpage-formfootnotes-required' => 'Alle felter er obligatoriske.',
 	'contactpage-captcha' => 'Løs venligst captcha-opgaven for at sende beskeden ([[Special:Captcha/help|mere information]])',
 	'contactpage-captcha-failed' => 'Captcha-prøven mislykkedes! ([[Special:Captcha/help|mere information]])',
+	'contactpage-includeip' => 'Inkluder min IP-adresse i denne besked.',
 );
 
 /** German (Deutsch)
