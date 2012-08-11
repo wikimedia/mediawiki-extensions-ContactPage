@@ -1521,6 +1521,27 @@ $messages['ms'] = array(
 	'contactpage-includeip' => 'Sertakan alamat IP saya dalam pesanan ini.',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'contactpage-title' => 'Kuntatt',
+	'contactpage-pagetext' => 'Jekk jogħġbok uża din il-formola sabiex tikkuntatjana.',
+	'contactpage-legend' => 'Ibgħat ittra-e',
+	'contactpage-defsubject' => 'Messaġġ',
+	'contactpage-subject-and-sender' => '$1 (minn $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (minn $2 sa $3)',
+	'contactpage-fromname' => 'Isem: *',
+	'contactpage-fromaddress' => 'Indirizz elettroniku: **',
+	'contactpage-formfootnotes' => '* opzjonali<br />
+** opzjonali imma neċessarju jekk qed tistenna tweġiba',
+	'contactpage-fromname-required' => 'Ismek:',
+	'contactpage-fromaddress-required' => 'Indirizz elettroniku tiegħek:',
+	'contactpage-formfootnotes-required' => 'L-oqsma kollha huma neċessarji.',
+	'contactpage-captcha' => "Sabiex tibgħat il-messaġġ, jekk jogħġbok solvi l-''captcha'' ([[Special:Captcha/help|aktar informazzjoni]])",
+	'contactpage-includeip' => "Inkludi l-indirizz IP f'dan il-messaġġ.",
+);
+
 /** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
