@@ -918,6 +918,7 @@ $messages['he'] = array(
 /** Hindi (हिन्दी)
  * @author Ansumang
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'contactpage' => 'सम्पर्क पॄष्ठ',
@@ -935,8 +936,8 @@ $messages['hi'] = array(
 	'contactpage-fromname-required' => 'आपकी नाम:',
 	'contactpage-fromaddress-required' => 'आपकी ई-मेल:',
 	'contactpage-formfootnotes-required' => 'सभी फ़ील्ड अनिवार्य हैं।',
-	'contactpage-captcha' => 'यह संदेश भेजनेके लिये, कृपया कॅपचा (captcha) सॉल्व करें ([[Special:Captcha/help|अधिक ज़ानकारी]])',
-	'contactpage-captcha-failed' => 'कॅपचा परिक्षा पूरी नहीं हुई! ([[Special:Captcha/help|अधिक ज़ानकारी]])',
+	'contactpage-captcha' => 'यह संदेश भेजने के लिये कृपया कॅपचा (captcha) सॉल्व करें ([[Special:Captcha/help|अधिक जानकारी]])',
+	'contactpage-captcha-failed' => 'कॅपचा परीक्षण विफल! ([[Special:Captcha/help|अधिक जानकारी]])',
 	'contactpage-includeip' => 'मेरा आईपि पता इस संदेश में शामिल हैं।',
 );
 
