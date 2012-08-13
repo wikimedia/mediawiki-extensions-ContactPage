@@ -941,6 +941,13 @@ $messages['hi'] = array(
 	'contactpage-includeip' => 'मेरा आईपि पता इस संदेश में शामिल हैं।',
 );
 
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ * @author Karthi.dr
+ */
+$messages['hif-latn'] = array(
+	'contactpage-fromname-required' => 'Aap ka naam:',
+);
+
 /** Croatian (hrvatski)
  * @author Dnik
  * @author SpeedyGonsales
