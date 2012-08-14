@@ -2183,6 +2183,16 @@ $messages['sv'] = array(
 	'contactpage-includeip' => 'Inkludera min IP-adress i detta meddelande.',
 );
 
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'contactpage-title' => 'Mawasiliano',
+	'contactpage-legend' => 'Tuma barua pepe',
+	'contactpage-fromname' => 'Jina lako: *',
+	'contactpage-fromaddress' => 'Barua pepe yako: **',
+);
+
 /** Tamil (தமிழ்)
  * @author Shanmugamp7
  * @author TRYPPN
