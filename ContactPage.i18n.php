@@ -1192,6 +1192,7 @@ $messages['jv'] = array(
 
 /** Georgian (ქართული)
  * @author BRUTE
+ * @author David1010
  * @author Temuri rajavi
  */
 $messages['ka'] = array(
@@ -1204,6 +1205,8 @@ $messages['ka'] = array(
 	'contactpage-subject-and-sender' => '$1 ($2-სგან)',
 	'contactpage-fromname' => 'თქვენი სახელი: *',
 	'contactpage-fromaddress' => 'თქვენი ელ-ფოსტა: **',
+	'contactpage-formfootnotes' => '* არასავალდებულო<br />
+** არასავალდებულო, მაგრამ საჭიროა პასუხის მისაღებად',
 	'contactpage-fromname-required' => 'თქვენი სახელი:',
 	'contactpage-fromaddress-required' => 'თქვენი ელ-ფოსტა:',
 	'contactpage-formfootnotes-required' => 'ყველა ველი სავალდებულოა.',
@@ -1532,6 +1535,8 @@ $messages['ms'] = array(
  * @author Chrisportelli
  */
 $messages['mt'] = array(
+	'contactpage' => 'Kuntatt',
+	'contactpage-desc' => "[[Special:Contact|Formola ta' kuntatt għall-viżitaturi]]",
 	'contactpage-title' => 'Kuntatt',
 	'contactpage-pagetext' => 'Jekk jogħġbok uża din il-formola sabiex tikkuntatjana.',
 	'contactpage-legend' => 'Ibgħat ittra-e',
@@ -1546,6 +1551,7 @@ $messages['mt'] = array(
 	'contactpage-fromaddress-required' => 'Indirizz elettroniku tiegħek:',
 	'contactpage-formfootnotes-required' => 'L-oqsma kollha huma neċessarji.',
 	'contactpage-captcha' => "Sabiex tibgħat il-messaġġ, jekk jogħġbok solvi l-''captcha'' ([[Special:Captcha/help|aktar informazzjoni]])",
+	'contactpage-captcha-failed' => "It-test tal-''captcha'' falla! ([[Special:Captcha/help|aktar informazzjoni]])",
 	'contactpage-includeip' => "Inkludi l-indirizz IP f'dan il-messaġġ.",
 );
 
@@ -1666,6 +1672,16 @@ $messages['nl'] = array(
 	'contactpage-captcha' => 'Om het bericht te versturen, moet u eerst de captcha oplossen ([[Special:Captcha/help|meer informatie]])',
 	'contactpage-captcha-failed' => 'De captcha-test is mislukt! ([[Special:Captcha/help|meer informatie]])',
 	'contactpage-includeip' => 'Stuur mijn IP-adres mee met dit bericht.',
+);
+
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'contactpage-fromname' => 'Je naam:*',
+	'contactpage-fromaddress' => 'Je e-mailadres:**',
+	'contactpage-fromname-required' => 'Je naam:',
+	'contactpage-fromaddress-required' => 'Je e-mailadres:',
 );
 
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬)
