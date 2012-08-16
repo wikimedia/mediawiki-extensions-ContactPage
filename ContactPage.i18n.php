@@ -1178,16 +1178,28 @@ $messages['ja'] = array(
 
 /** Javanese (Basa Jawa)
  * @author Meursault2004
+ * @author NoiX180
  * @author Pras
  */
 $messages['jv'] = array(
+	'contactpage' => 'Hubungi awak dhéwé',
+	'contactpage-desc' => '[[Special:Contact|Formulir kontak kanggo pangunjung]]',
 	'contactpage-title' => 'Kontak',
 	'contactpage-pagetext' => 'Mangga nganggo formulir sing kapacak ing ngisor iki menawa arep kontak kita.',
+	'contactpage-legend' => 'Kirim layang èlèktronik',
+	'contactpage-defsubject' => 'Layang kontak',
 	'contactpage-subject-and-sender' => '$1 (saka $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (saka $2 nèng $3)',
 	'contactpage-fromname' => 'Asma panjenengan: *',
 	'contactpage-fromaddress' => 'Layang-e panjenengan: **',
 	'contactpage-formfootnotes' => '* opsional<br />
 ** opsional nanging diperlokaké yèn panjenengan perlu wangsulan',
+	'contactpage-fromname-required' => 'Jeneng Sampéyan:',
+	'contactpage-fromaddress-required' => 'Layang èlèktronik Sampéyan:',
+	'contactpage-formfootnotes-required' => 'Kabèh bidhang kudu diisi.',
+	'contactpage-captcha' => 'Kanggo ngirim layang, mangga isi captcha ([[Special:Captcha/help|info luwih]])',
+	'contactpage-captcha-failed' => 'Uji captcha gagal! ([[Special:Captcha/help|info luwih]])',
+	'contactpage-includeip' => 'Sartakaké alamat IP kula nèng layang iki.',
 );
 
 /** Georgian (ქართული)
