@@ -658,6 +658,8 @@ $messages['et'] = array(
 	'contactpage-pagetext' => 'Palun kasuta all olevat vormi meiega ühenduse võtmiseks.',
 	'contactpage-legend' => 'Saada e-kiri',
 	'contactpage-defsubject' => 'Sõnum',
+	'contactpage-subject-and-sender' => '$1 (saatis $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (saatis $2 IP-aadressilt $3)',
 	'contactpage-fromname' => 'Sinu nimi: *',
 	'contactpage-fromaddress' => 'Sinu e-post: **',
 	'contactpage-formfootnotes' => '* valikuline<br />
@@ -667,6 +669,7 @@ $messages['et'] = array(
 	'contactpage-formfootnotes-required' => 'Nõutav on kõigi väljade täitmine.',
 	'contactpage-captcha' => 'Palun läbi teate saatmiseks robotilõks ([[Special:Captcha/help|täpsem teave]])',
 	'contactpage-captcha-failed' => 'Robotilõksu ei õnnestunud läbida! ([[Special:Captcha/help|täpsem teave]])',
+	'contactpage-includeip' => 'Lisa selle sõnumi juurde minu IP-aadress.',
 );
 
 /** Basque (euskara)
@@ -1422,13 +1425,22 @@ $messages['lt'] = array(
 
 /** Latvian (latviešu)
  * @author GreenZeb
+ * @author Papuass
  */
 $messages['lv'] = array(
+	'contactpage' => 'Kontaktu lapa',
+	'contactpage-desc' => '[[Special:Contact|Apmeklētāju kontaktforma]]',
+	'contactpage-title' => 'Kontakti',
+	'contactpage-pagetext' => 'Lūdzu, izmantojiet zemāk esošo formu, lai sazinātos ar mums.',
+	'contactpage-legend' => 'Sūtīt e-pastu',
+	'contactpage-subject-and-sender' => '$1 (no $2)',
+	'contactpage-subject-and-sender-withip' => '$1 (no $2 - $3)',
 	'contactpage-fromname' => 'Jūsu vārds: *',
 	'contactpage-fromaddress' => 'Jūsu e-pasts: **',
 	'contactpage-fromname-required' => 'Jūsu vārds:',
 	'contactpage-fromaddress-required' => 'Jūsu e-pasts:',
 	'contactpage-formfootnotes-required' => 'Visi lauki ir jāaizpilda.',
+	'contactpage-includeip' => 'Iekļaut šajā ziņojumā manu IP adresi.',
 );
 
 /** Lazuri (Lazuri)
