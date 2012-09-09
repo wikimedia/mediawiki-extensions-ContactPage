@@ -1273,11 +1273,12 @@ $messages['kn'] = array(
  * @author Ilovesabbath
  * @author Kwj2772
  * @author WonRyong
+ * @author 아라
  */
 $messages['ko'] = array(
 	'contactpage' => '관리자 연락',
 	'contactpage-desc' => '[[Special:Contact|방문자가 문의할 수 있도록 문의 양식을 추가]]',
-	'contactpage-title' => '문의하기',
+	'contactpage-title' => '연락하기',
 	'contactpage-pagetext' => '저희에게 연락하시려면 아래 양식을 이용해주세요.',
 	'contactpage-legend' => '이메일 보내기',
 	'contactpage-defsubject' => '연락 메시지',
