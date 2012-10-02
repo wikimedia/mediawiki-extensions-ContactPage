@@ -250,7 +250,7 @@ $messages['bcl'] = array(
 	'contactpage-fromaddress' => "''e''-surat mo **",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -501,7 +501,7 @@ $messages['de'] = array(
 	'contactpage-includeip' => 'Meine IP-Adresse in diese Nachricht einfügen.',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  * @author Raimond Spekking
  */
@@ -1325,7 +1325,7 @@ Don et einfach norr_ens versöke.
 	'contactpage-includeip' => 'Donn ming <i lang="en">IP</i>-Addräß en heh di Nohreesch erin.',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1603,7 +1603,7 @@ $messages['nah'] = array(
 	'contactpage-fromaddress-required' => 'Mo e-mail:',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1699,7 +1699,7 @@ $messages['nl'] = array(
 	'contactpage-includeip' => 'Stuur mijn IP-adres mee met dit bericht.',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
@@ -1709,7 +1709,7 @@ $messages['nl-informal'] = array(
 	'contactpage-fromaddress-required' => 'Je e-mailadres:',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -2123,7 +2123,7 @@ $messages['sl'] = array(
 	'contactpage-includeip' => 'Vključi moj IP-naslov v tem sporočilu.',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -2144,7 +2144,7 @@ $messages['sr-ec'] = array(
 	'contactpage-captcha-failed' => 'CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -2622,7 +2622,7 @@ $messages['za'] = array(
 	'contactpage-fromaddress-required' => 'E-mail mwngz:',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Liangent
  * @author Shinjiman
@@ -2650,7 +2650,7 @@ $messages['zh-hans'] = array(
 	'contactpage-includeip' => '在此邮件中包含我的IP位置资料。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Gzdavidwong
  * @author Horacewai2
  * @author Liangent
