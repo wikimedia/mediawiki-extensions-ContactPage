@@ -246,8 +246,8 @@ $messages['bar'] = array(
  */
 $messages['bcl'] = array(
 	'contactpage-subject-and-sender' => '$1 (poon $2)',
-	'contactpage-fromname' => 'pangaran mo *',
-	'contactpage-fromaddress' => "''e''-surat mo **",
+	'contactpage-fromname' => 'pangaran mo *', # Fuzzy
+	'contactpage-fromaddress' => "''e''-surat mo **", # Fuzzy
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -374,6 +374,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author BroOk
  * @author Martorell
  * @author SMP
  * @author Solde
@@ -387,7 +388,7 @@ $messages['ca'] = array(
 	'contactpage-defsubject' => 'Missatge de contacte',
 	'contactpage-subject-and-sender' => '$1 (des de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
-	'contactpage-fromname' => 'El vostre nom: *',
+	'contactpage-fromname' => 'El teu nom: *',
 	'contactpage-fromaddress' => 'El vostre correu-e: **',
 	'contactpage-formfootnotes' => '* opcional<br />
 ** opcional però necessari si voleu una resposta',
@@ -702,8 +703,8 @@ $messages['eu'] = array(
  */
 $messages['ext'] = array(
 	'contactpage-subject-and-sender' => '$1 (endi $2)',
-	'contactpage-fromname' => 'el tu nombri *',
-	'contactpage-fromaddress' => 'el tu email **',
+	'contactpage-fromname' => 'el tu nombri *', # Fuzzy
+	'contactpage-fromaddress' => 'el tu email **', # Fuzzy
 );
 
 /** Persian (فارسی)
@@ -932,8 +933,8 @@ $messages['hi'] = array(
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 से)',
 	'contactpage-subject-and-sender-withip' => '$1 ($2 से $3 पे)',
-	'contactpage-fromname' => 'आपका नाम *',
-	'contactpage-fromaddress' => 'आपका इ-मेल **',
+	'contactpage-fromname' => 'आपका नाम *', # Fuzzy
+	'contactpage-fromaddress' => 'आपका इ-मेल **', # Fuzzy
 	'contactpage-formfootnotes' => '* वैकल्पिक<br />
 ** वैकल्पिक पर जवाब चाहिये हो तो आवश्यक',
 	'contactpage-fromname-required' => 'आपकी नाम:',
@@ -1118,8 +1119,8 @@ $messages['is'] = array(
 	'contactpage-title' => 'Hafa samband',
 	'contactpage-pagetext' => 'Gjörðu svo vel og notaðu eyðublaðið fyrir neðan til að hafa samband við okkur.',
 	'contactpage-subject-and-sender' => '$1 (frá $2)',
-	'contactpage-fromname' => 'nafnið þitt *',
-	'contactpage-fromaddress' => 'netfangið þitt **',
+	'contactpage-fromname' => 'nafnið þitt *', # Fuzzy
+	'contactpage-fromaddress' => 'netfangið þitt **', # Fuzzy
 	'contactpage-formfootnotes' => '* valfrjálst<br />
 ** valfrjálst en nauðsynlegt ef þú vilt fá svar',
 );
@@ -1523,8 +1524,8 @@ $messages['mr'] = array(
 	'contactpage-pagetext' => 'कृपया आमच्याशी संपर्क साधण्यासाठी खालील अर्ज भरा.',
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 कडून)',
-	'contactpage-fromname' => 'तुमचे नाव *',
-	'contactpage-fromaddress' => 'तुमचा विपत्रपत्ता **',
+	'contactpage-fromname' => 'तुमचे नाव *', # Fuzzy
+	'contactpage-fromaddress' => 'तुमचा विपत्रपत्ता **', # Fuzzy
 	'contactpage-formfootnotes' => '* वैकल्पिक<br />
 ** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक',
 	'contactpage-captcha' => 'हा संदेश पाठविण्यासाठी, कृपया कॅपचा (captcha) सोडवा ([[Special:Captcha/help|अधिक माहिती]])',
@@ -2175,8 +2176,8 @@ $messages['stq'] = array(
 	'contactpage-pagetext' => 'Mäd dit Formular koast du uus Ättergjuchte toukuume läite.',
 	'contactpage-defsubject' => 'Kontakt-Ättergjucht',
 	'contactpage-subject-and-sender' => '$1 (fon $2)',
-	'contactpage-fromname' => 'Din Noome *',
-	'contactpage-fromaddress' => 'Dien E-Mail Adresse **',
+	'contactpage-fromname' => 'Din Noome *', # Fuzzy
+	'contactpage-fromaddress' => 'Dien E-Mail Adresse **', # Fuzzy
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional, is oawers nöödich, uum die oantwoudje tou konnen',
 	'contactpage-captcha' => 'Uum ju Ättergjucht seende tou konnen, löös dät Captcha ([[Special:Captcha/help|wiedere Informatione]])',
@@ -2190,8 +2191,8 @@ $messages['stq'] = array(
 $messages['su'] = array(
 	'contactpage-pagetext' => 'Mangga eusian formulir di handap pikeun ngontak ka kami.',
 	'contactpage-subject-and-sender' => '$1 (ti $2)',
-	'contactpage-fromname' => 'ngaran anjeun *',
-	'contactpage-fromaddress' => 'surélék anjeun **',
+	'contactpage-fromname' => 'ngaran anjeun *', # Fuzzy
+	'contactpage-fromaddress' => 'surélék anjeun **', # Fuzzy
 );
 
 /** Swedish (svenska)
@@ -2240,7 +2241,7 @@ $messages['sw'] = array(
  */
 $messages['ta'] = array(
 	'contactpage' => 'தொடர்பு பக்கம்',
-	'contactpage-desc' => '[[Special:தொடர்பு|தொடர்பு படிவம் பார்வையாளர்களுக்கு]]',
+	'contactpage-desc' => '[[Special:தொடர்பு|தொடர்பு படிவம் பார்வையாளர்களுக்கு]]', # Fuzzy
 	'contactpage-title' => 'தொடர்பு கொள்',
 	'contactpage-pagetext' => 'எங்களை தொடர்புகொள்ள கீழேயுள்ள படிவத்தை பயன்படுத்தவும்.',
 	'contactpage-legend' => 'மின்னஞ்சலை அனுப்பவும்',
@@ -2290,8 +2291,8 @@ $messages['tg-cyrl'] = array(
 	'contactpage-pagetext' => 'Лутфан барои дар алоқа будан бо мо аз форми зер истифода кунед.',
 	'contactpage-defsubject' => 'Паёми Алоқа',
 	'contactpage-subject-and-sender' => '$1 (аз $2)',
-	'contactpage-fromname' => 'номи шумо *',
-	'contactpage-fromaddress' => 'почтаи электронии шумо **',
+	'contactpage-fromname' => 'номи шумо *', # Fuzzy
+	'contactpage-fromaddress' => 'почтаи электронии шумо **', # Fuzzy
 );
 
 /** Tajik (Latin script) (tojikī)
@@ -2601,8 +2602,8 @@ $messages['yue'] = array(
 	'contactpage-pagetext' => '請用下面嘅表格去聯絡我哋。',
 	'contactpage-defsubject' => '聯絡訊息',
 	'contactpage-subject-and-sender' => '$1 (自$2)',
-	'contactpage-fromname' => '你嘅名 *',
-	'contactpage-fromaddress' => '你嘅電郵 **',
+	'contactpage-fromname' => '你嘅名 *', # Fuzzy
+	'contactpage-fromaddress' => '你嘅電郵 **', # Fuzzy
 	'contactpage-formfootnotes' => '* 可選<br />
 ** 可選，如果你想答嘅話',
 	'contactpage-captcha' => '要傳呢個訊息，請先解決 captcha ([[Special:Captcha/help|更多資料]])',
@@ -2678,4 +2679,3 @@ $messages['zh-hant'] = array(
 	'contactpage-captcha-failed' => 'Captcha 測試失敗! （[[Special:Captcha/help|更多資訊]]）',
 	'contactpage-includeip' => '在此郵件中包含我的IP位置資料。',
 );
-
