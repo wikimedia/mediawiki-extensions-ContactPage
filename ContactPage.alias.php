@@ -263,6 +263,11 @@ $specialPageAliases['sa'] = array(
 	'Contact' => array( 'सम्पर्क' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'Contact' => array( 'Contatti' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Contact' => array( 'Kontakt' ),
@@ -316,6 +321,11 @@ $specialPageAliases['tr'] = array(
 /** Tatar (Cyrillic script) (татарча) */
 $specialPageAliases['tt-cyrl'] = array(
 	'Contact' => array( 'Элемтә' ),
+);
+
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'Contact' => array( 'رابطہ' ),
 );
 
 /** vèneto (vèneto) */
