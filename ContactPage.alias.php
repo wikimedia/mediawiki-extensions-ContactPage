@@ -233,6 +233,11 @@ $specialPageAliases['or'] = array(
 	'Contact' => array( 'ଯୋଗାଯୋଗ' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'Contact' => array( 'ਰਾਬਤਾ' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Contact' => array( 'Kontakt' ),
