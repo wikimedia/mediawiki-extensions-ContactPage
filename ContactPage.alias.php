@@ -208,7 +208,7 @@ $specialPageAliases['nds'] = array(
 	'Contact' => array( 'Kuntakt' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
