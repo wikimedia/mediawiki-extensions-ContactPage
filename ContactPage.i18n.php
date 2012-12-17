@@ -2308,13 +2308,14 @@ $messages['tg-latn'] = array(
 
 /** Thai (ไทย)
  * @author Harley Hartwell
+ * @author Horus
  * @author Woraponboonkerd
  */
 $messages['th'] = array(
 	'contactpage' => 'หน้าช่องทางการติดต่อ',
 	'contactpage-desc' => '[[Special:Contact|แบบฟอร์มการติดต่อสำหรับผู้เยื่ยมชม]]',
-	'contactpage-title' => 'ติดต่ิอ',
-	'contactpage-pagetext' => 'กรุณาใช้แบบฟอร์มด้านล่างนี้เพื่อติดต่อกับเรา',
+	'contactpage-title' => 'ติดต่อ',
+	'contactpage-pagetext' => 'กรุณาใช้แบบด้านล่างนี้เพื่อติดต่อเรา',
 	'contactpage-legend' => 'ส่งอีเมล',
 	'contactpage-defsubject' => 'ข้อความติดต่อ',
 	'contactpage-subject-and-sender' => '$1 (จาก $2)',
