@@ -209,6 +209,30 @@ $messages['az'] = array(
 	'contactpage-fromaddress-required' => 'Sizin e-poçtunuz:',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'contactpage' => 'باغلانتی قورماق صحیفه‌سی',
+	'contactpage-desc' => '[[Special:Contact|گؤروشنلر اوچون باغلانتی قورماق فورمو]]',
+	'contactpage-title' => 'باغلانتی',
+	'contactpage-pagetext' => 'لوطفاً بیزله باغلانتی قورماق اوچون آشاغیداکی فورمدان ایستیفاده ائدین.',
+	'contactpage-legend' => 'ایمیل گؤندر',
+	'contactpage-defsubject' => 'باغلانتی یازیسی',
+	'contactpage-subject-and-sender' => '$1 ($2-دن)',
+	'contactpage-subject-and-sender-withip' => '$1 ($3-ده $2-دن)',
+	'contactpage-fromname' => 'سیزین آدینیز: *',
+	'contactpage-fromaddress' => 'سیزین ایمیلینیز: **',
+	'contactpage-formfootnotes' => '* ایستگه باغلی<br />
+** ایستگه باغلی، اما جاواب ایسته‌سز گرکلی',
+	'contactpage-fromname-required' => 'سیزین آدینیز:',
+	'contactpage-fromaddress-required' => 'سیزین ایمیلینیز:',
+	'contactpage-formfootnotes-required' => 'بوتون فیلدلر گرکلی‌دیر.',
+	'contactpage-captcha' => 'بو مئساژی گؤندرمک اوچون، لوطفاً کپچا-نی حل ائدین ([[Special:Captcha/help|آرتیق بیلگی]])',
+	'contactpage-captcha-failed' => 'کپچا اوغورسوز اولدو! ([[Special:Captcha/help|آرتیق بیلگی]])',
+	'contactpage-includeip' => 'منیم آی‌پی آدرسیمی بو مئساژدا یئرلشدیر.',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  * @author Haqmar
