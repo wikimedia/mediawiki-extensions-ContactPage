@@ -2153,10 +2153,12 @@ $messages['sl'] = array(
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
+	'contactpage' => 'Страница за контакт',
 	'contactpage-desc' => '[[Special:Contact|Контакт-форма за посетиоце]]',
 	'contactpage-title' => 'Контакт',
 	'contactpage-pagetext' => 'Молимо Вас да користите форму испод да нас контактирате.',
 	'contactpage-legend' => 'Пошаљи е-поруку',
+	'contactpage-defsubject' => 'Порука за контакт',
 	'contactpage-subject-and-sender' => '$1 (од $2)',
 	'contactpage-fromname' => 'Ваше име: *',
 	'contactpage-fromaddress' => 'Ваша е-адреса: **',
@@ -2459,6 +2461,15 @@ $messages['tt-cyrl'] = array(
  */
 $messages['udm'] = array(
 	'contactpage-defsubject' => 'Ивортон',
+);
+
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'contactpage-title' => 'ئالاقەداش',
+	'contactpage-legend' => 'تورخەت يوللا',
+	'contactpage-fromname-required' => 'ئاتىڭىز:',
 );
 
 /** Ukrainian (українська)
