@@ -2515,11 +2515,12 @@ $messages['ur'] = array(
 
 /** vèneto (vèneto)
  * @author Candalua
+ * @author GatoSelvadego
  */
 $messages['vec'] = array(
 	'contactpage' => 'Contatto',
 	'contactpage-desc' => '[[Special:Contact|Modulo de contatto par i visitadori]]',
-	'contactpage-title' => 'Contatto',
+	'contactpage-title' => 'Contato',
 	'contactpage-pagetext' => 'Par piaser, par contatarne doparè el mòdulo qua soto.',
 	'contactpage-legend' => 'Manda e-mail',
 	'contactpage-defsubject' => 'Messajo',
