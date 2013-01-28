@@ -208,7 +208,7 @@ $specialPageAliases['nds'] = array(
 	'Contact' => array( 'Kuntakt' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
