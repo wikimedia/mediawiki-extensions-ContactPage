@@ -198,7 +198,7 @@ $specialPageAliases['mt'] = array(
 	'Contact' => array( 'Kuntatt' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
@@ -218,7 +218,7 @@ $specialPageAliases['nl'] = array(
 	'Contact' => array( 'Contactpagina' ),
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk nynorsk) */
 $specialPageAliases['nn'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
