@@ -35,15 +35,15 @@ $wgSpecialPages['Contact'] = 'SpecialContact';
 # Configuration
 // Name of a registered wiki user who will receive the mails
 $wgContactUser = null;
-// E-mail address used as the sender of the contact email, if the visitor does
+// Email address used as the sender of the contact email, if the visitor does
 // not supply an email address. Defaults to $wgEmergencyContact.
 $wgContactSender = null;
 
 // The name to be used with $wgContactSender.
-// This will be shown in the recipient's e-mail program
+// This will be shown in the recipient's email program
 $wgContactSenderName = 'Contact Form on ' . $wgSitename;
 
-// If true, users will be required to supply a name and an e-mail address
+// If true, users will be required to supply a name and an email address
 // on Special:Contact.
 $wgContactRequireAll = false;
 
