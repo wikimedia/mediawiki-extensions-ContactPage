@@ -41,6 +41,7 @@ $messages['en'] = array(
  * @author Jon Harald Søby
  * @author Lloffiwr
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'contactpage' => '{{Identical|ContactPage}}',
@@ -51,9 +52,9 @@ $messages['qqq'] = array(
 	'contactpage-subject-and-sender' => 'Subject with sender included. $1 is the original subject, $2 is a user name, e-mail address or IP address.',
 	'contactpage-subject-and-sender-withip' => 'Subject with sender and IP included. $1 is the original subject, $2 is a user name or e-mail address, $3 is an IP address.',
 	'contactpage-fromname' => '{{Identical|Your name}}',
-	'contactpage-fromaddress' => '{{Identical|E-mail}}',
+	'contactpage-fromaddress' => '{{Identical|E-mail address}}',
 	'contactpage-fromname-required' => '{{Identical|Your name}}',
-	'contactpage-fromaddress-required' => '{{Identical|E-mail}}',
+	'contactpage-fromaddress-required' => '{{Identical|E-mail address}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1193,11 +1194,11 @@ $messages['ja'] = array(
 	'contactpage-subject-and-sender' => '$1 ($2 より)',
 	'contactpage-subject-and-sender-withip' => '$1 ($2 が $3 から送信)',
 	'contactpage-fromname' => 'あなたの名前: *',
-	'contactpage-fromaddress' => 'あなたのメール: **',
+	'contactpage-fromaddress' => 'あなたのメールアドレス: **',
 	'contactpage-formfootnotes' => '* 任意記入<br />
 ** 任意記入ですが、回答が必要な場合は必ずご記入ください',
 	'contactpage-fromname-required' => 'あなたの名前:',
-	'contactpage-fromaddress-required' => 'あなたのメール:',
+	'contactpage-fromaddress-required' => 'あなたのメールアドレス:',
 	'contactpage-formfootnotes-required' => 'すべて必須項目です。',
 	'contactpage-captcha' => 'メッセージを送信するには、以下の CAPTCHA 画像認証が必要です ([[Special:Captcha/help|詳細はこちら]])',
 	'contactpage-captcha-failed' => 'CAPTCHA 画像認証に失敗しました! ([[Special:Captcha/help|詳細はこちら]])',
