@@ -425,6 +425,13 @@ $messages['ca'] = array(
 	'contactpage-includeip' => "Inclou al missatge l'adreça IP que estic utilitzant.",
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'contactpage-fromname-required' => 'ناوەکەت:',
+);
+
 /** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
