@@ -1362,7 +1362,10 @@ Don et einfach norr_ens versöke.
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'contactpage' => 'Rûpela têkiliyê',
 	'contactpage-fromname' => 'Navê te: *',
+	'contactpage-fromname-required' => 'Navê te:',
+	'contactpage-fromaddress-required' => 'E-nameya te:',
 );
 
 /** Cornish (kernowek)
