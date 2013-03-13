@@ -193,6 +193,11 @@ $specialPageAliases['mr'] = array(
 	'Contact' => array( 'संपर्क' ),
 );
 
+/** Malay (Bahasa Melayu) */
+$specialPageAliases['ms'] = array(
+	'Contact' => array( 'Hubungi' ),
+);
+
 /** Maltese (Malti) */
 $specialPageAliases['mt'] = array(
 	'Contact' => array( 'Kuntatt' ),
