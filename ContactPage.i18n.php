@@ -49,8 +49,13 @@ $messages['qqq'] = array(
 	'contactpage-title' => '{{Identical|Contact}}',
 	'contactpage-legend' => '{{Identical|E-mail}}',
 	'contactpage-defsubject' => 'Default subject for sent e-mail. {{Identical|Contact}}',
-	'contactpage-subject-and-sender' => 'Subject with sender included. $1 is the original subject, $2 is a user name, e-mail address or IP address.',
-	'contactpage-subject-and-sender-withip' => 'Subject with sender and IP included. $1 is the original subject, $2 is a user name or e-mail address, $3 is an IP address.',
+	'contactpage-subject-and-sender' => 'Subject with sender included. Parameters:
+* $1 - original subject or default subject {{msg-mw|contactpage-defsubject}}
+* $2 - username, email address or IP address',
+	'contactpage-subject-and-sender-withip' => 'Subject with sender and IP address included. Parameters:
+* $1 - original subject or default subject {{msg-mw|contactpage-defsubject}}
+* $2 - username, email address
+* $3 - IP address',
 	'contactpage-fromname' => '{{Identical|Your name}}',
 	'contactpage-fromaddress' => '{{Identical|E-mail address}}',
 	'contactpage-fromname-required' => '{{Identical|Your name}}',
