@@ -26,7 +26,7 @@ $messages['en'] = array(
 	'contactpage-fromname' => 'Your name: *',
 	'contactpage-fromaddress' => 'Your email address: **',
 	'contactpage-formfootnotes' => '* optional<br />
-** optional but needed if you want an answer',
+** optional, but needed if you want an answer',
 	'contactpage-fromname-required' => 'Your name:',
 	'contactpage-fromaddress-required' => 'Your email address:',
 	'contactpage-formfootnotes-required' => 'All fields are required.',
