@@ -46,7 +46,11 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'contactpage' => '{{Identical|ContactPage}}',
 	'contactpage-desc' => 'Extension description displayed on [[Special:Version]].',
-	'contactpage-title' => '{{Identical|Contact}}',
+	'contactpage-title' => 'Used as page title.
+{{Identical|Contact}}',
+	'contactpage-pagetext' => 'Used as page text.
+
+The page title for this message is {{msg-mw|Contactpage-title}}.',
 	'contactpage-legend' => '{{Identical|E-mail}}',
 	'contactpage-defsubject' => 'Default subject for sent e-mail. {{Identical|Contact}}',
 	'contactpage-subject-and-sender' => 'Subject with sender included. Parameters:
@@ -58,8 +62,15 @@ $messages['qqq'] = array(
 * $3 - IP address',
 	'contactpage-fromname' => '{{Identical|Your name}}',
 	'contactpage-fromaddress' => '{{Identical|E-mail address}}',
+	'contactpage-formfootnotes' => 'See also:
+* {{msg-mw|Contactpage-formfootnotes-required}}',
 	'contactpage-fromname-required' => '{{Identical|Your name}}',
 	'contactpage-fromaddress-required' => '{{Identical|E-mail address}}',
+	'contactpage-formfootnotes-required' => 'See also:
+* {{msg-mw|Contactpage-formfootnotes}}',
+	'contactpage-captcha' => 'This message follows the CAPTCHA form.',
+	'contactpage-captcha-failed' => 'Used as failure message.',
+	'contactpage-includeip' => 'Used as checkbox label in the ContactPage form.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -1212,7 +1223,7 @@ $messages['ja'] = array(
 	'contactpage-fromname-required' => 'あなたの名前:',
 	'contactpage-fromaddress-required' => 'あなたのメールアドレス:',
 	'contactpage-formfootnotes-required' => 'すべて必須項目です。',
-	'contactpage-captcha' => 'メッセージを送信するには、以下の CAPTCHA 画像認証が必要です ([[Special:Captcha/help|詳細はこちら]])',
+	'contactpage-captcha' => 'メッセージを送信するには、CAPTCHA 画像認証が必要です ([[Special:Captcha/help|詳細はこちら]])',
 	'contactpage-captcha-failed' => 'CAPTCHA 画像認証に失敗しました! ([[Special:Captcha/help|詳細はこちら]])',
 	'contactpage-includeip' => 'このメッセージに自分のIPアドレスを含める',
 );
