@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'Contact' => array( 'اتصال' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Contact' => array( 'যোগাযোগ' ),
 );
@@ -233,7 +233,7 @@ $specialPageAliases['oc'] = array(
 	'Contact' => array( 'Contacte' ),
 );
 
-/** Oriya (ଓଡ଼ିଆ) */
+/** Oriya (ଓଡ଼ିଆ) */
 $specialPageAliases['or'] = array(
 	'Contact' => array( 'ଯୋଗାଯୋଗ' ),
 );
