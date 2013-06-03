@@ -179,7 +179,7 @@ $messages['arz'] = array(
 	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -1655,7 +1655,7 @@ $messages['nah'] = array(
 	'contactpage-fromaddress-required' => 'Mo e-mail:',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1761,7 +1761,7 @@ $messages['nl-informal'] = array(
 	'contactpage-fromaddress-required' => 'Je e-mailadres:',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -1817,7 +1817,7 @@ $messages['oc'] = array(
 	'contactpage-includeip' => 'Inclure mon adreça IP dins aquel messatge.',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Psubhashish
  */
