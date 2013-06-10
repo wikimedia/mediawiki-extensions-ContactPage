@@ -1387,9 +1387,10 @@ $messages['ku-latn'] = array(
 /** Cornish (kernowek)
  * @author Kernoweger
  * @author Kw-Moon
+ * @author Nrowe
  */
 $messages['kw'] = array(
-	'contactpage-fromaddress-required' => 'Agas e-bost:',
+	'contactpage-fromaddress-required' => 'Agas trigva ebost:',
 );
 
 /** Latin (Latina)
@@ -2432,6 +2433,7 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Emperyan
  * @author Homonihilis
  * @author Joseph
  * @author Karduelis
@@ -2454,7 +2456,7 @@ $messages['tr'] = array(
 	'contactpage-fromname-required' => 'Adınız:',
 	'contactpage-fromaddress-required' => 'E-posta adresiniz:',
 	'contactpage-formfootnotes-required' => 'Bütün alanlar gereklidir.',
-	'contactpage-captcha' => "Mesajı göndermek için, lütfen captcha'yı çözün ([[Special:Captcha/help|daha fazla bilgi]])",
+	'contactpage-captcha' => 'Mesajı göndermek için, lütfen güvenlik kodunu çözün ([[Special:Captcha/help|daha fazla bilgi]])',
 	'contactpage-captcha-failed' => 'Captcha testi başarısız oldu! ([[Special:Captcha/help|daha fazla bilgi]])',
 	'contactpage-includeip' => 'Mesaja IP adresimi ekle.',
 );
