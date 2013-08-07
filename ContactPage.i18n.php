@@ -1415,6 +1415,7 @@ $messages['la'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'contactpage' => 'Kontaktsäit',
@@ -1430,7 +1431,7 @@ $messages['lb'] = array(
 	'contactpage-formfootnotes' => '* optional<br />
 ** optional, gëtt awer gebraucht fir Iech äntwerten ze kënnen',
 	'contactpage-fromname-required' => 'Ären Numm:',
-	'contactpage-fromaddress-required' => 'Är E-Mailadress:',
+	'contactpage-fromaddress-required' => 'Är E-Mail-Adress:',
 	'contactpage-formfootnotes-required' => 'All Felder mussen ausgefëllt ginn.',
 	'contactpage-captcha' => 'Fir e Message ze schécke, léisst w.e.g. dëse Captcha ([[Special:Captcha/help|méi Informatiounen]])',
 	'contactpage-captcha-failed' => 'Captcha-Test nicht bestan! ([[Special:Captcha/help|méi Informatiounen]])',
