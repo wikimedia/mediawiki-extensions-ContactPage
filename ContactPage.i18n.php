@@ -1083,6 +1083,13 @@ $messages['hu'] = array(
 	'contactpage-includeip' => 'Tüntesd fel az IP-címemet az üzenetben.',
 );
 
+/** Armenian (Հայերեն)
+ * @author Chaojoker
+ */
+$messages['hy'] = array(
+	'contactpage' => 'Կապի էջ',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
