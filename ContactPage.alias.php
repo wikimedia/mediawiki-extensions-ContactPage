@@ -38,6 +38,11 @@ $specialPageAliases['bs'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'Contact' => array( '聯繫' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
