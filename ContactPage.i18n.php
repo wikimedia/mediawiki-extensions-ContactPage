@@ -1340,24 +1340,24 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'contactpage' => '관리자 연락',
-	'contactpage-desc' => '[[Special:Contact|방문자가 문의할 수 있도록 문의 양식을 추가]]',
+	'contactpage' => '연락 문서',
+	'contactpage-desc' => '[[Special:Contact|방문자가 연락할 수 있는 양식]]',
 	'contactpage-title' => '연락하기',
-	'contactpage-pagetext' => '저희에게 연락하시려면 아래 양식을 이용해주세요.',
+	'contactpage-pagetext' => '저희에게 연락하시려면 아래 양식을 사용해주세요.',
 	'contactpage-legend' => '이메일 보내기',
 	'contactpage-defsubject' => '연락 메시지',
-	'contactpage-subject-and-sender' => '$1 ($2이(가) 보냄)',
-	'contactpage-subject-and-sender-withip' => '$1 ($2가 $3에서 보냄)',
+	'contactpage-subject-and-sender' => '$1 ($2님이 보냄)',
+	'contactpage-subject-and-sender-withip' => '$1 ($2님이 $3에서 보냄)',
 	'contactpage-fromname' => '내 이름: *',
 	'contactpage-fromaddress' => '내 이메일 주소 : **',
 	'contactpage-formfootnotes' => '* 선택 사항<br />
 ** 선택 사항이지만 답변을 원할 경우에 필요',
 	'contactpage-fromname-required' => '내 이름:',
 	'contactpage-fromaddress-required' => '내 이메일 주소:',
-	'contactpage-formfootnotes-required' => '모든 칸이 필수입력사항입니다.',
+	'contactpage-formfootnotes-required' => '모든 필드는 필수입니다.',
 	'contactpage-captcha' => '메시지를 보내려면 이 캡차를 풀어 주세요 ([[Special:Captcha/help|자세한 정보]])',
-	'contactpage-captcha-failed' => '캡차 검사 실패! ([[Special:Captcha/help|자세한 정보]])',
-	'contactpage-includeip' => '이 메시지에 내 IP 주소를 포함하기',
+	'contactpage-captcha-failed' => '캡차 검사를 실패했습니다! ([[Special:Captcha/help|자세한 정보]])',
+	'contactpage-includeip' => '이 메시지에 내 IP 주소를 포함합니다.',
 );
 
 /** Colognian (Ripoarisch)
