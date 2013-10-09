@@ -91,7 +91,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (galego) */
 $specialPageAliases['gl'] = array(
-	'Contact' => array( 'Contactar' ),
+	'Contact' => array( 'Contactar', 'Contacto' ),
 );
 
 /** Swiss German (Alemannisch) */
