@@ -1585,20 +1585,26 @@ $messages['ml'] = array(
 /** Marathi (मराठी)
  * @author Kaustubh
  * @author Mahitgar
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'contactpage' => 'संपर्कपान',
 	'contactpage-desc' => '[[Special:Contact|भेट देणार्‍यांसाठी संपर्क अर्ज]]',
 	'contactpage-title' => 'संपर्क',
 	'contactpage-pagetext' => 'कृपया आमच्याशी संपर्क साधण्यासाठी खालील अर्ज भरा.',
+	'contactpage-legend' => 'विपत्र पाठवा',
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 कडून)',
 	'contactpage-fromname' => 'तुमचे नाव *', # Fuzzy
 	'contactpage-fromaddress' => 'तुमचा विपत्रपत्ता **', # Fuzzy
 	'contactpage-formfootnotes' => '* वैकल्पिक<br />
 ** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक',
+	'contactpage-fromname-required' => 'आपले नाव:',
+	'contactpage-fromaddress-required' => 'आपला विपत्रपत्ता:',
+	'contactpage-formfootnotes-required' => 'सर्व फिल्डस् भरणे आवश्यक',
 	'contactpage-captcha' => 'हा संदेश पाठविण्यासाठी, कृपया कॅपचा (captcha) सोडवा ([[Special:Captcha/help|अधिक माहिती]])',
-	'contactpage-captcha-failed' => 'कॅपचा परीक्षा पूर्ण झालेली नाही! ([[Special:Captcha/help|अधिक माहिती]])',
+	'contactpage-captcha-failed' => 'कॅपचा चाचणी पूर्ण झालेली नाही! ([[Special:Captcha/help|अधिक माहिती]])',
+	'contactpage-includeip' => 'माझा अंकपत्ता या संदेशात अंतर्भूत करा',
 );
 
 /** Malay (Bahasa Melayu)
