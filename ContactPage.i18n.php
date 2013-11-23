@@ -907,6 +907,20 @@ $messages['gl'] = array(
 	'contactpage-includeip' => 'Incluír o meu enderezo IP nesta mensaxe.',
 );
 
+/** Goan Konkani (कोंकणी/Konknni )
+ * @author The Discoverer
+ */
+$messages['gom'] = array(
+	'contactpage' => 'Sompork pan',
+);
+
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'contactpage' => 'Sompork pan',
+);
+
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Omnipaedista
  */
