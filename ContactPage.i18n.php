@@ -416,6 +416,7 @@ $messages['bs'] = array(
 
 /** Catalan (català)
  * @author BroOk
+ * @author Fitoschido
  * @author Martorell
  * @author SMP
  * @author Solde
@@ -424,7 +425,7 @@ $messages['ca'] = array(
 	'contactpage' => 'Pàgina de contacte',
 	'contactpage-desc' => '[[Special:Contact|Formulari de contacte per als visitants]]',
 	'contactpage-title' => 'Contacte',
-	'contactpage-pagetext' => 'Si us plau, useu el formulari inferior per a contactar-nos.',
+	'contactpage-pagetext' => 'Utilitzeu el formulari següent per a contactar-nos.',
 	'contactpage-legend' => 'Envia missatge',
 	'contactpage-defsubject' => 'Missatge de contacte',
 	'contactpage-subject-and-sender' => '$1 (des de $2)',
