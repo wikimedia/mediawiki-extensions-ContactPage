@@ -967,6 +967,7 @@ $messages['gv'] = array(
 /** Hebrew (עברית)
  * @author Agbad
  * @author Amire80
+ * @author Guycn2
  * @author Rotemliss
  * @author YaronSh
  */
@@ -979,12 +980,12 @@ $messages['he'] = array(
 	'contactpage-defsubject' => 'הודעת יצירת קשר',
 	'contactpage-subject-and-sender' => '$1 (מתוך $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (מ{{grammar:תחילית|$2}} מהכתובת $3)',
-	'contactpage-fromname' => 'שמכם: *',
-	'contactpage-fromaddress' => 'כתובת הדוא"ל שלכם: **',
+	'contactpage-fromname' => 'שמך: *',
+	'contactpage-fromaddress' => 'כתובת הדוא"ל שלך: **',
 	'contactpage-formfootnotes' => '* אופציונאלי<br />
-** אופציונאלי אבל דרוש אם ברצונכם לקבל תשובה',
-	'contactpage-fromname-required' => 'שמכם:',
-	'contactpage-fromaddress-required' => 'כתובת הדוא"ל שלכם:',
+** אופציונאלי אבל דרוש אם ברצונך לקבל תשובה',
+	'contactpage-fromname-required' => 'שמך:',
+	'contactpage-fromaddress-required' => 'כתובת הדוא"ל שלך:',
 	'contactpage-formfootnotes-required' => 'כל השדות נחוצים.',
 	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
 	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|מידע נוסף]])',
