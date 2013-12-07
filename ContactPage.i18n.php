@@ -457,7 +457,7 @@ $messages['ckb'] = array(
 	'contactpage-fromname-required' => 'ناوەکەت:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  * @author Mormegil
  * @author לערי ריינהארט
