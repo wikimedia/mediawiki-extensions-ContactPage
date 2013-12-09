@@ -2736,7 +2736,7 @@ $messages['za'] = array(
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'contactpage' => '联系页面',
+	'contactpage' => '联系我们',
 	'contactpage-desc' => '[[Special:Contact|供访问者使用的联系表单]]',
 	'contactpage-title' => '联系',
 	'contactpage-pagetext' => '请用以下的表格去联络我们。',
