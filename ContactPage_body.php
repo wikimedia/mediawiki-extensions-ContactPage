@@ -421,7 +421,7 @@ class EmailContactForm {
 
 		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $this->text, $replyto );
 
-		if( WikiError::isError( $mailResult ) ) {
+		if( !$mailResult->isOK() ) {
 			$wgOut->addWikiMsg( 'usermailererror' ) . $mailResult->getMessage();
 			wfDebug( __METHOD__ . ": got error from UserMailer: " . $mailResult->getMessage() . "\n" );
 			return;
@@ -435,7 +435,7 @@ class EmailContactForm {
 				wfDebug( __METHOD__ . ": sending cc mail from " . $contactSender->toString() .
 					" to " . $submitterAddress->toString() . "\n" );
 				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $this->text );
-				if( WikiError::isError( $ccResult ) ) {
+				if( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
 					// original mail has succeeded. It's unlikely, but still, what to do?
 					// We can either show them an error, or we can say everything was fine,
