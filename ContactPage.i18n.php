@@ -1611,8 +1611,8 @@ $messages['mr'] = array(
 	'contactpage-legend' => 'विपत्र पाठवा',
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 कडून)',
-	'contactpage-fromname' => 'तुमचे नाव *', # Fuzzy
-	'contactpage-fromaddress' => 'तुमचा विपत्रपत्ता **', # Fuzzy
+	'contactpage-fromname' => 'आपले नाव: *',
+	'contactpage-fromaddress' => 'आपला विपत्रपत्ता:**',
 	'contactpage-formfootnotes' => '* वैकल्पिक<br />
 ** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक',
 	'contactpage-fromname-required' => 'आपले नाव:',
