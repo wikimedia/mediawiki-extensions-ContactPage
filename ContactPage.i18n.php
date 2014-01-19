@@ -1902,10 +1902,11 @@ $messages['pdc'] = array(
  * @author Leinad
  * @author Maikking
  * @author Sp5uhe
+ * @author WTM
  * @author Wpedzich
  */
 $messages['pl'] = array(
-	'contactpage' => 'Strona kontaktowa',
+	'contactpage' => 'Kontakt',
 	'contactpage-desc' => '[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]',
 	'contactpage-title' => 'Kontakt',
 	'contactpage-pagetext' => 'Prosimy użyć poniższego formularza by skontaktować się z nami',
