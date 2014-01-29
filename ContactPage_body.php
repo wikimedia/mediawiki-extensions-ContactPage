@@ -121,36 +121,40 @@ class EmailContactForm {
 
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
 		if ( $this->formType != '' ) {
-			$message = 'contactpage-pagetext-' . $this->formType;
-			$text = wfMessage( $message )->parseAsBlock();
-			if ( !wfMessage( $message, $text )->isDisabled() ) {
-				$this->formularText = $text;
+			$message = wfMessage( 'contactpage-pagetext-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$this->formularText = $message->parseAsBlock();
 			} else {
 				$this->formularText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
 			}
-			$this->formularText = trim( $this->formularText );
 
-			$message = 'contactpage-subject-' . $this->formType;
-			$text = wfMessage( $message )->inContentLanguage()->plain();
-			if ( !wfMessage( $message, $text )->isDisabled() ) {
+			$message = wfMessage( 'contactpage-subject-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$text = $message->inContentLanguage()->plain();
 				$this->subject = $wgRequest->getText( 'wpSubject', $text );
 			} else {
 				$this->subject = $wgRequest->getText( 'wpSubject' );
 			}
-			$this->subject = trim( $this->subject ); // Verbose
 
-			$message = 'contactpage-text-' . $this->formType;
-			$text = wfMessage( $message )->inContentLanguage()->plain();
-			if ( !wfMessage( $message, $text )->isDisabled() ) {
+			$message = wfMessage( 'contactpage-text-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$text = $message->inContentLanguage()->plain();
 				$this->text = $wgRequest->getText( 'wpText', $text );
 			} else {
 				$this->text = $wgRequest->getText( 'wpText' );
 			}
-			$this->text = trim( $this->text ); // Verbose
 		} else {
 			$this->formularText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
-			$this->text = trim( $wgRequest->getText( 'wpText' ) );
-			$this->subject = trim( $wgRequest->getText( 'wpSubject' ) );
+			$this->subject = $wgRequest->getText( 'wpSubject' );
+			$this->text = $wgRequest->getText( 'wpText' );
+		}
+
+		$this->formularText = trim( $this->formularText );
+		$this->subject = trim( $this->subject );
+		$this->text = trim( $this->text );
+
+		if ( $this->subject === '' ) {
+			$this->subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
 		}
 
 		$this->target = $target;
@@ -195,12 +199,15 @@ class EmailContactForm {
 
 		# @todo Show captcha
 
-		$wgOut->setPageTitle( wfMessage( 'contactpage-title' ) );
-		$wgOut->addHTML( $this->formularText );
-
-		if ( $this->subject === '' ) {
-			$this->subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
+		$pageTitle = wfMessage( 'contactpage-title' );
+		if ( $this->formType != '' ) {
+			$message = wfMessage( 'contactpage-title-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$pageTitle = $message;
+			}
 		}
+		$wgOut->setPageTitle( $pageTitle );
+		$wgOut->addHTML( $this->formularText );
 
 		$msgSuffix = $wgContactRequireAll ? '-required' : '';
 
@@ -353,6 +360,7 @@ class EmailContactForm {
 		$targetAddress = new MailAddress( $this->target );
 		$replyto = null;
 		$contactSender = new MailAddress( $csender, $cname );
+		$subject = '';
 
 		if ( !$this->fromaddress ) {
 			$submitterAddress = $contactSender;
@@ -363,25 +371,19 @@ class EmailContactForm {
 			}
 		}
 
-		$subject = trim( $this->subject );
-
-		if ( $subject === '' ) {
-			$subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
-		}
-
 		$includeIP = $wgContactIncludeIP && ( $this->includeIP || $wgUser->isAnon() );
 		if ( $this->fromname !== '' ) {
 			if ( $includeIP ) {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender-withip',
-					$subject,
+					$this->subject,
 					$this->fromname,
 					$senderIP
 				)->inContentLanguage()->text();
 			} else {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender',
-					$subject,
+					$this->subject,
 					$this->fromname
 				)->inContentLanguage()->text();
 			}
@@ -389,21 +391,21 @@ class EmailContactForm {
 			if ( $includeIP ) {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender-withip',
-					$subject,
+					$this->subject,
 					$this->fromaddress,
 					$senderIP
 				)->inContentLanguage()->text();
 			} else {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender',
-					$subject,
+					$this->subject,
 					$this->fromaddress
 				)->inContentLanguage()->text();
 			}
 		} elseif ( $includeIP ) {
 			$subject = wfMessage(
 				'contactpage-subject-and-sender',
-				$subject,
+				$this->subject,
 				$senderIP
 			)->inContentLanguage()->text();
 		}
