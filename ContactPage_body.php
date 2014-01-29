@@ -55,7 +55,6 @@ class SpecialContact extends SpecialPage {
 
 		$nu = User::newFromName( $wgContactUser );
 		if( is_null( $nu ) || !$nu->canReceiveEmail() ) {
-			wfDebug( "Target is invalid user or can't receive.\n" );
 			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
 			return;
 		}
@@ -68,7 +67,6 @@ class SpecialContact extends SpecialPage {
 		$f = new EmailContactForm( $nu, $par );
 
 		if ( 'success' == $action ) {
-			wfDebug( __METHOD__ . ": success.\n" );
 			$f->showSuccess();
 		} elseif ( 'submit' == $action && $request->wasPosted() && $f->hasAllInfo() ) {
 			$token = $request->getVal( 'wpEditToken' );
@@ -82,19 +80,15 @@ class SpecialContact extends SpecialPage {
 			}
 
 			if ( !$tokenOk ) {
-				wfDebug( __METHOD__ . ": bad token (" . ( $user->isAnon() ? 'anon' : 'user' ) . "): $token\n" );
 				$this->getOutput()->addWikiMsg( 'sessionfailure' );
 				$f->showForm();
 			} elseif ( !$f->passCaptcha() ) {
-				wfDebug( __METHOD__ . ": captcha failed" );
 				$this->getOutput()->addWikiMsg( 'contactpage-captcha-failed' );
 				$f->showForm();
 			} else {
-				wfDebug( __METHOD__ . ": submit\n" );
 				$f->doSubmit();
 			}
 		} else {
-			wfDebug( __METHOD__ . ": form\n" );
 			$f->showForm();
 		}
 	}
@@ -307,7 +301,6 @@ class EmailContactForm {
 		}
 
 		if( $wgUser->isAllowed( 'skipcaptcha' ) ) {
-			wfDebug( "EmailContactForm::useCaptcha: user group allows skipping captcha\n" );
 			return false;
 		}
 
@@ -354,8 +347,6 @@ class EmailContactForm {
 		$csender = $wgContactSender ? $wgContactSender : $wgPasswordSender;
 		$cname = $wgContactSenderName;
 		$senderIP = $wgRequest->getIP();
-
-		wfDebug( __METHOD__ . ": start\n" );
 
 		$targetAddress = new MailAddress( $this->target );
 		$replyto = null;
@@ -411,7 +402,6 @@ class EmailContactForm {
 		}
 
 		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$this->text, $this->formType ) ) ) {
-			wfDebug( __METHOD__ . ": aborted by hook\n" );
 			return;
 		}
 
@@ -447,13 +437,9 @@ class EmailContactForm {
 			}
 		}
 
-		wfDebug( __METHOD__ . ": success\n" );
-
 		$titleObj = SpecialPage::getTitleFor( 'Contact' );
 		$wgOut->redirect( $titleObj->getFullURL( 'action=success' ) );
 		wfRunHooks( 'ContactFromComplete', array( $targetAddress, $replyto, $subject, $this->text ) );
-
-		wfDebug( __METHOD__ . ": end\n" );
 	}
 
 	function showSuccess() {
