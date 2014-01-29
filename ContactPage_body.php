@@ -123,6 +123,7 @@ class EmailContactForm {
 			} else {
 				$this->formularText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
 			}
+			$this->formularText = trim( $this->formularText );
 
 			$message = 'contactpage-subject-' . $this->formType;
 			$text = wfMessage( $message )->inContentLanguage()->plain();
@@ -131,6 +132,7 @@ class EmailContactForm {
 			} else {
 				$this->subject = $wgRequest->getText( 'wpSubject' );
 			}
+			$this->subject = trim( $this->subject ); // Verbose
 
 			$message = 'contactpage-text-' . $this->formType;
 			$text = wfMessage( $message )->inContentLanguage()->plain();
@@ -139,18 +141,19 @@ class EmailContactForm {
 			} else {
 				$this->text = $wgRequest->getText( 'wpText' );
 			}
+			$this->text = trim( $this->text ); // Verbose
 		} else {
 			$this->formularText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
-			$this->text = $wgRequest->getText( 'wpText' );
-			$this->subject = $wgRequest->getText( 'wpSubject' );
+			$this->text = trim( $wgRequest->getText( 'wpText' ) );
+			$this->subject = trim( $wgRequest->getText( 'wpSubject' ) );
 		}
 
 		$this->target = $target;
 		$this->cc_me = $wgRequest->getBool( 'wpCCMe' );
 		$this->includeIP = $wgRequest->getBool( 'wpIncludeIP' );
 
-		$this->fromname = $wgRequest->getText( 'wpFromName' );
-		$this->fromaddress = $wgRequest->getText( 'wpFromAddress' );
+		$this->fromname = trim( $wgRequest->getText( 'wpFromName' ) );
+		$this->fromaddress = trim( $wgRequest->getText( 'wpFromAddress' ) );
 
 		if( $wgUser->isLoggedIn() ) {
 			if( !$this->fromname ) {
@@ -169,36 +172,14 @@ class EmailContactForm {
 		}
 	}
 
+	/**
+	 * @return bool
+	 */
 	function hasAllInfo() {
 		global $wgContactRequireAll;
-
-		if ( $this->text === null ) {
-			return false;
-		} else {
-			$this->text = trim( $this->text );
-		}
-		if ( $this->text === '' ) {
-			return false;
-		}
-
-		if ( $wgContactRequireAll ) {
-			if ( $this->fromname === null ) {
+		if ( $this->text === ''
+			|| ( $wgContactRequireAll && ( $this->fromname === '' || $this->fromaddress === '' ) ) ) {
 				return false;
-			} else {
-				$this->fromname = trim( $this->fromname );
-			}
-			if ( $this->fromname === '' ) {
-				return false;
-			}
-
-			if ( $this->fromaddress === null ) {
-				return false;
-			} else {
-				$this->fromaddress = trim( $this->fromaddress );
-			}
-			if ( $this->fromaddress === '' ) {
-				return false;
-			}
 		}
 
 		return true;
@@ -301,12 +282,15 @@ class EmailContactForm {
 		$wgOut->addHTML( $form );
 	}
 
+	/**
+	 * @return bool
+	 */
 	function useCaptcha() {
 		global $wgCaptchaClass, $wgCaptchaTriggers, $wgUser;
 		if ( !$wgCaptchaClass ) {
 			return false; // no captcha installed
 		}
-		if ( !@$wgCaptchaTriggers['contactpage'] ) {
+		if ( isset( $wgCaptchaTriggers['contactpage'] ) && !$wgCaptchaTriggers['contactpage'] ) {
 			return false; // don't trigger on contact form
 		}
 
@@ -318,13 +302,18 @@ class EmailContactForm {
 		return true;
 	}
 
+	/**
+	 * @return string
+	 */
 	function getCaptcha() {
-		global $wgCaptcha;
 		if ( !$this->useCaptcha() ) {
 			return '';
 		}
 
 		wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
+
+		/** @var SimpleCaptcha $wgCaptcha */
+		global $wgCaptcha;
 
 		return '<div class="captcha">' .
 			$wgCaptcha->getForm() .
@@ -332,7 +321,11 @@ class EmailContactForm {
 		"</div>\n";
 	}
 
+	/**
+	 * @return bool
+	 */
 	function passCaptcha() {
+		/** @var SimpleCaptcha $wgCaptcha */
 		global $wgCaptcha;
 		if ( !$this->useCaptcha() ) {
 			return true;
@@ -422,7 +415,7 @@ class EmailContactForm {
 		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $this->text, $replyto );
 
 		if( !$mailResult->isOK() ) {
-			$wgOut->addWikiMsg( 'usermailererror' ) . $mailResult->getMessage();
+			$wgOut->addWikiText( wfMessage( "usermailererror" )->text() . $mailResult->getMessage() );
 			wfDebug( __METHOD__ . ": got error from UserMailer: " . $mailResult->getMessage() . "\n" );
 			return;
 		}
@@ -441,7 +434,7 @@ class EmailContactForm {
 					// We can either show them an error, or we can say everything was fine,
 					// or we can say we sort of failed AND sort of succeeded. Of these options,
 					// simply saying there was an error is probably best.
-					$wgOut->addWikiText( wfMessage( 'usermailererror' )->text() . $ccResult );
+					$wgOut->addWikiText( wfMessage( 'usermailererror' )->text() . $ccResult->getMessage() );
 					return;
 				}
 			}
