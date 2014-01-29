@@ -34,11 +34,16 @@ class SpecialContact extends SpecialPage {
 	 *
 	 * @param $par Mixed: Parameters passed to the page
 	 * @throws UserBlockedError
+	 * @throws ErrorPageError
 	 */
 	public function execute( $par ) {
 		global $wgEnableEmail, $wgContactUser;
 
-		if( !$wgEnableEmail || !$wgContactUser ) {
+		if( !$wgEnableEmail ) {
+			// From Special:EmailUser
+			throw new ErrorPageError( 'usermaildisabled', "usermaildisabledtext" );
+		}
+		if( !$wgContactUser ) {
 			$this->getOutput()->showErrorPage( 'nosuchspecialpage', 'nospecialpagetext' );
 			return;
 		}
