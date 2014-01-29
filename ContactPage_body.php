@@ -127,6 +127,21 @@ class EmailContactForm {
 	protected $formType;
 
 	/**
+	 * @var string
+	 */
+	protected $fromname;
+
+	/**
+	 * @var string
+	 */
+	protected $fromUsername;
+
+	/**
+	 * @var string
+	 */
+	protected $fromaddress;
+
+	/**
 	 * @return User
 	 */
 	public function getTargetUser() {
@@ -148,7 +163,7 @@ class EmailContactForm {
 		global $wgRequest, $wgUser;
 
 		$this->wasPosted = $wgRequest->wasPosted();
-		$this->formType = $wgRequest->getText( 'formtype', $par );
+		$this->formType = strtolower( $wgRequest->getText( 'formtype', $par ) );
 
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
 		if ( $this->formType != '' ) {
@@ -197,7 +212,15 @@ class EmailContactForm {
 
 		if( $wgUser->isLoggedIn() ) {
 			if( !$this->fromname ) {
-				$this->fromname = $wgUser->getName();
+				// Use real name if set
+				$realName = $wgUser->getRealName();
+				if ( $realName ) {
+					$name = $realName;
+				} else {
+					$name = $wgUser->getName();
+				}
+				$this->fromname = $name;
+				$this->fromUsername = $wgUser->getName();
 			}
 			if( !$this->fromaddress ) {
 				$this->fromaddress = $wgUser->getEmail();
