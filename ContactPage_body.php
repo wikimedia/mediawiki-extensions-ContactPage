@@ -41,7 +41,7 @@ class SpecialContact extends SpecialPage {
 
 		if( !$wgEnableEmail ) {
 			// From Special:EmailUser
-			throw new ErrorPageError( 'usermaildisabled', "usermaildisabledtext" );
+			throw new ErrorPageError( 'usermaildisabled', 'usermaildisabledtext' );
 		}
 		if( !$wgContactUser ) {
 			$this->getOutput()->showErrorPage( 'nosuchspecialpage', 'nospecialpagetext' );
@@ -405,15 +405,15 @@ class EmailContactForm {
 			return;
 		}
 
-		wfDebug( __METHOD__ . ": sending mail from " . $submitterAddress->toString() .
-			" to " . $targetAddress->toString().
-			" replyto " . ( $replyto == null ? '-/-' : $replyto->toString() ) . "\n" );
+		wfDebug( __METHOD__ . ': sending mail from ' . $submitterAddress->toString() .
+			' to ' . $targetAddress->toString().
+			' replyto ' . ( $replyto == null ? '-/-' : $replyto->toString() ) . "\n" );
 
 		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $this->text, $replyto );
 
 		if( !$mailResult->isOK() ) {
-			$wgOut->addWikiText( wfMessage( "usermailererror" )->text() . $mailResult->getMessage() );
-			wfDebug( __METHOD__ . ": got error from UserMailer: " . $mailResult->getMessage() . "\n" );
+			$wgOut->addWikiText( wfMessage( 'usermailererror' )->text() . $mailResult->getMessage() );
+			wfDebug( __METHOD__ . ': got error from UserMailer: ' . $mailResult->getMessage() . "\n" );
 			return;
 		}
 
@@ -422,8 +422,8 @@ class EmailContactForm {
 		if( $this->cc_me && $this->fromaddress ) {
 			$cc_subject = wfMessage( 'emailccsubject', $this->target->getName(), $subject )->text();
 			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$this->text, $this->formType ) ) ) {
-				wfDebug( __METHOD__ . ": sending cc mail from " . $contactSender->toString() .
-					" to " . $submitterAddress->toString() . "\n" );
+				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
+					' to ' . $submitterAddress->toString() . "\n" );
 				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $this->text );
 				if( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
