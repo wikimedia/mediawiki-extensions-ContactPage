@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------
 README for the ContactPage extension
-Copyright © 2006 Daniel Kinzler
+Copyright © 2006-2014 Daniel Kinzler
 Licenses: GNU General Public Licence (GPL)
           GNU Free Documentation License (GFDL)
 --------------------------------------------------------------------------
@@ -10,7 +10,7 @@ creates a special page Special:Contact, which is similar to
 Special:Emailuser, but it has a fixed recipient, and can be used
 anonymously.
 
-<http://mediawiki.org/wiki/Extension:ContactPage>
+<https://www.mediawiki.org/wiki/Extension:ContactPage>
 
 The ContactPage extension was originally written by Daniel Kinzler in 2007
 and is released under the GNU General Public Licence (GPL). It is based on
@@ -27,7 +27,7 @@ LocalSettings.php file (near the end):
 
   require_once( "$IP/extensions/ContactPage/ContactPage.php" );
 
-  $wgContactUser = 'WikiAdmin';
+  $wgContactUser = 'WikiAdmin'; // User on the wiki
   $wgContactSender = $wgPasswordSender;
   $wgContactSenderName = 'Contact Form on ' . $wgSitename;
 
