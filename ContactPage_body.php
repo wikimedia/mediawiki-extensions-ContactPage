@@ -99,9 +99,46 @@ class SpecialContact extends SpecialPage {
  * @ingroup SpecialPage
  */
 class EmailContactForm {
-	var $target;
-	var $text, $subject;
-	var $cc_me; // Whether user requested to be sent a separate copy of their email.
+
+	/**
+	 * @var User
+	 */
+	protected $target;
+
+	/**
+	 * @var string
+	 */
+	protected $text;
+
+	/**
+	 * @var string
+	 */
+	protected $subject;
+
+	/**
+	 * Whether user requested to be sent a separate copy of their email.
+	 * @var bool
+	 */
+	protected $cc_me;
+
+	/**
+	 * @var string
+	 */
+	protected $formType;
+
+	/**
+	 * @return User
+	 */
+	public function getTargetUser() {
+		return $this->target;
+	}
+
+	/**
+	 * @return string
+	 */
+	public function getFormType() {
+		return $this->formType;
+	}
 
 	/**
 	 * @param User $target
