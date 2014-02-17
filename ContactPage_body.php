@@ -6,7 +6,7 @@
  * @file
  * @ingroup SpecialPage
  * @author Daniel Kinzler, brightbyte.de
- * @copyright © 2007 Daniel Kinzler
+ * @copyright © 2007-2014 Daniel Kinzler, Sam Reed
  * @license GNU General Public Licence 2.0 or later
  */
 
@@ -14,7 +14,7 @@
  * Provides the contact form
  * @ingroup SpecialPage
  */
-class SpecialContact extends SpecialPage {
+class SpecialContact extends UnlistedSpecialPage {
 	/**
 	 * Constructor
 	 */
@@ -30,6 +30,22 @@ class SpecialContact extends SpecialPage {
 	}
 
 	/**
+	 * @var string
+	 */
+	protected $formType;
+
+	/**
+	 * @return array
+	 */
+	protected function getTypeConfig() {
+		global $wgContactConfig;
+		if ( isset( $wgContactConfig[$this->formType] ) ) {
+			return $wgContactConfig[$this->formType] + $wgContactConfig['default'];
+		}
+		return $wgContactConfig['default'];
+	}
+
+	/**
 	 * Main execution function
 	 *
 	 * @param $par Mixed: Parameters passed to the page
@@ -37,23 +53,25 @@ class SpecialContact extends SpecialPage {
 	 * @throws ErrorPageError
 	 */
 	public function execute( $par ) {
-		global $wgEnableEmail, $wgContactUser;
+		global $wgEnableEmail;
 
 		if( !$wgEnableEmail ) {
 			// From Special:EmailUser
 			throw new ErrorPageError( 'usermaildisabled', 'usermaildisabledtext' );
 		}
-		if( !$wgContactUser ) {
+
+		$request = $this->getRequest();
+		$this->formType = strtolower( $request->getText( 'formtype', $par ) );
+
+		$config = $this->getTypeConfig();
+		if( !$config['RecipientUser'] ) {
 			$this->getOutput()->showErrorPage( 'nosuchspecialpage', 'nospecialpagetext' );
 			return;
 		}
 
-		$request = $this->getRequest();
 		$user = $this->getUser();
 
-		$action = $request->getVal( 'action' );
-
-		$nu = User::newFromName( $wgContactUser );
+		$nu = User::newFromName( $config['RecipientUser'] );
 		if( is_null( $nu ) || !$nu->canReceiveEmail() ) {
 			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
 			return;
@@ -64,450 +82,264 @@ class SpecialContact extends SpecialPage {
 			throw new UserBlockedError( $this->getUser()->mBlock );
 		}
 
-		$f = new EmailContactForm( $nu, $par );
-
-		if ( 'success' == $action ) {
-			$f->showSuccess();
-		} elseif ( 'submit' == $action && $request->wasPosted() && $f->hasAllInfo() ) {
-			$token = $request->getVal( 'wpEditToken' );
-
-			if( $user->isAnon() ) {
-				# Anonymous users may not have a session
-				# open. Check for suffix anyway.
-				$tokenOk = ( EDIT_TOKEN_SUFFIX == $token );
-			} else {
-				$tokenOk = $user->matchEditToken( $token );
-			}
-
-			if ( !$tokenOk ) {
-				$this->getOutput()->addWikiMsg( 'sessionfailure' );
-				$f->showForm();
-			} elseif ( !$f->passCaptcha() ) {
-				$this->getOutput()->addWikiMsg( 'contactpage-captcha-failed' );
-				$f->showForm();
-			} else {
-				$f->doSubmit();
-			}
-		} else {
-			$f->showForm();
-		}
-	}
-}
-
-/**
- * @todo document
- * @ingroup SpecialPage
- */
-class EmailContactForm {
-
-	/**
-	 * @var User
-	 */
-	protected $target;
-
-	/**
-	 * @var string
-	 */
-	protected $text;
-
-	/**
-	 * @var string
-	 */
-	protected $subject;
-
-	/**
-	 * Whether user requested to be sent a separate copy of their email.
-	 * @var bool
-	 */
-	protected $cc_me;
-
-	/**
-	 * @var string
-	 */
-	protected $formType;
-
-	/**
-	 * @var string
-	 */
-	protected $fromname;
-
-	/**
-	 * @var string
-	 */
-	protected $fromUsername;
-
-	/**
-	 * @var string
-	 */
-	protected $fromaddress;
-
-	/**
-	 * @return User
-	 */
-	public function getTargetUser() {
-		return $this->target;
-	}
-
-	/**
-	 * @return string
-	 */
-	public function getFormType() {
-		return $this->formType;
-	}
-
-	/**
-	 * @param User $target
-	 * @param $par
-	 */
-	function __construct( $target, $par ) {
-		global $wgRequest, $wgUser;
-
-		$this->wasPosted = $wgRequest->wasPosted();
-		$this->formType = strtolower( $wgRequest->getText( 'formtype', $par ) );
-
-		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
-		if ( $this->formType != '' ) {
-			$message = wfMessage( 'contactpage-pagetext-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$this->formularText = $message->parseAsBlock();
-			} else {
-				$this->formularText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
-			}
-
-			$message = wfMessage( 'contactpage-subject-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$text = $message->inContentLanguage()->plain();
-				$this->subject = $wgRequest->getText( 'wpSubject', $text );
-			} else {
-				$this->subject = $wgRequest->getText( 'wpSubject' );
-			}
-
-			$message = wfMessage( 'contactpage-text-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$text = $message->inContentLanguage()->plain();
-				$this->text = $wgRequest->getText( 'wpText', $text );
-			} else {
-				$this->text = $wgRequest->getText( 'wpText' );
-			}
-		} else {
-			$this->formularText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
-			$this->subject = $wgRequest->getText( 'wpSubject' );
-			$this->text = $wgRequest->getText( 'wpText' );
-		}
-
-		$this->formularText = trim( $this->formularText );
-		$this->subject = trim( $this->subject );
-		$this->text = trim( $this->text );
-
-		if ( $this->subject === '' ) {
-			$this->subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
-		}
-
-		$this->target = $target;
-		$this->cc_me = $wgRequest->getBool( 'wpCCMe' );
-		$this->includeIP = $wgRequest->getBool( 'wpIncludeIP' );
-
-		$this->fromname = trim( $wgRequest->getText( 'wpFromName' ) );
-		$this->fromaddress = trim( $wgRequest->getText( 'wpFromAddress' ) );
-
-		if( $wgUser->isLoggedIn() ) {
-			if( !$this->fromname ) {
-				// Use real name if set
-				$realName = $wgUser->getRealName();
-				if ( $realName ) {
-					$name = $realName;
-				} else {
-					$name = $wgUser->getName();
-				}
-				$this->fromname = $name;
-				$this->fromUsername = $wgUser->getName();
-			}
-			if( !$this->fromaddress ) {
-				$this->fromaddress = $wgUser->getEmail();
-			}
-		}
-
-		// prepare captcha if applicable
-		if ( $this->useCaptcha() ) {
-			$captcha = ConfirmEditHooks::getInstance();
-			$captcha->trigger = 'contactpage';
-			$captcha->action = 'contact';
-		}
-	}
-
-	/**
-	 * @return bool
-	 */
-	function hasAllInfo() {
-		global $wgContactRequireAll;
-		if ( $this->text === ''
-			|| ( $wgContactRequireAll && ( $this->fromname === '' || $this->fromaddress === '' ) ) ) {
-				return false;
-		}
-
-		return true;
-	}
-
-	function showForm() {
-		global $wgOut, $wgUser, $wgContactRequireAll, $wgContactIncludeIP;
-
-		# @todo Show captcha
-
-		$pageTitle = wfMessage( 'contactpage-title' );
+		$pageTitle = '';
 		if ( $this->formType != '' ) {
 			$message = wfMessage( 'contactpage-title-' . $this->formType );
 			if ( !$message->isDisabled() ) {
 				$pageTitle = $message;
 			}
 		}
-		$wgOut->setPageTitle( $pageTitle );
-		$wgOut->addHTML( $this->formularText );
 
-		$msgSuffix = $wgContactRequireAll ? '-required' : '';
-
-		$titleObj = SpecialPage::getTitleFor( 'Contact' );
-		$action = $titleObj->getLocalURL( 'action=submit' );
-		$token = $wgUser->isAnon() ? EDIT_TOKEN_SUFFIX : $wgUser->getEditToken(); //this kind of sucks, really...
-
-		$form =
-			Xml::openElement( 'form', array( 'method' => 'post', 'action' => $action, 'id' => 'emailuser' ) ) .
-			Xml::openElement( 'fieldset' ) .
-			Xml::element( 'legend', null, wfMessage( 'contactpage-legend' )->text() ) .
-			Xml::openElement( 'table', array( 'id' => 'mailheader' ) ) .
-			'<tr>
-				<td class="mw-label">' .
-					Xml::label( wfMessage( 'emailsubject' )->text(), 'wpSubject' ) .
-				'</td>
-				<td class="mw-input" id="mw-contactpage-subject">' .
-					Xml::input( 'wpSubject', 60, $this->subject, array( 'type' => 'text', 'maxlength' => 200 ) ) .
-				'</td>
-			</tr>
-			<tr>
-				<td class="mw-label">' .
-					Xml::label( wfMessage( "contactpage-fromname$msgSuffix" )->text(), 'wpFromName' ) .
-				'</td>
-				<td class="mw-input" id="mw-contactpage-from">' .
-					Xml::input( 'wpFromName', 60, $this->fromname, array( 'type' => 'text', 'maxlength' => 200 ) ) .
-				'</td>
-			</tr>
-			<tr>
-				<td class="mw-label">' .
-					Xml::label( wfMessage( "contactpage-fromaddress$msgSuffix" )->text(), 'wpFromAddress' ) .
-				'</td>
-				<td class="mw-input" id="mw-contactpage-address">' .
-					Xml::input( 'wpFromAddress', 60, $this->fromaddress, array( 'type' => 'text', 'maxlength' => 200 ) ) .
-				'</td>
-			</tr>';
-
-			// Allow other extensions to add more fields into Special:Contact
-			wfRunHooks( 'ContactFormBeforeMessage', array( $this, &$form ) );
-
-			// @todo FIXME: Unescaped text is inserted into HTML here.
-			$form .= '<tr>
-				<td></td>
-				<td class="mw-input" id="mw-contactpage-formfootnote">
-					<small>' . wfMessage( "contactpage-formfootnotes$msgSuffix" )->text() . '</small>
-				</td>
-			</tr>
-			<tr>
-				<td class="mw-label">' .
-					Xml::label( wfMessage( 'emailmessage' )->text(), 'wpText' ) .
-				'</td>
-				<td class="mw-input">' .
-					Xml::textarea( 'wpText', $this->text, 80, 20, array( 'id' => 'wpText' ) ) .
-				'</td>
-			</tr>';
-			if ( $wgContactIncludeIP && $wgUser->isLoggedIn() ) {
-				$form .= '<tr>
-					<td></td>
-					<td class="mw-input">' .
-						Xml::checkLabel( wfMessage( 'contactpage-includeip' )->text(), 'wpIncludeIP', 'wpIncludeIP', false ) .
-					'</td>
-				</tr>';
-			}
-
-			$ccme = $this->wasPosted ? $this->cc_me : $wgUser->getBoolOption( 'ccmeonemails' );
-			$form .= '<tr>
-				<td></td>
-				<td class="mw-input">' .
-					Xml::checkLabel( wfMessage( 'emailccme' )->text(), 'wpCCMe', 'wpCCMe', $ccme ) .
-					'<br />' . $this->getCaptcha() .
-				'</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td class="mw-submit">' .
-					Xml::submitButton( wfMessage( 'emailsend' )->text(), array( 'name' => 'wpSend', 'accesskey' => 's' ) ) .
-				'</td>
-			</tr>' .
-			Html::hidden( 'wpEditToken', $token ) .
-			Html::hidden( 'formtype', $this->formType ) .
-			Xml::closeElement( 'table' ) .
-			Xml::closeElement( 'fieldset' ) .
-			Xml::closeElement( 'form' );
-		$wgOut->addHTML( $form );
-	}
-
-	/**
-	 * @return bool
-	 */
-	function useCaptcha() {
-		global $wgCaptchaClass, $wgCaptchaTriggers, $wgUser;
-		if ( !$wgCaptchaClass ) {
-			return false; // no captcha installed
+		if ( $pageTitle === '' ) {
+			$pageTitle = wfMessage( 'contactpage-title' );
 		}
-		if ( isset( $wgCaptchaTriggers['contactpage'] ) && !$wgCaptchaTriggers['contactpage'] ) {
-			return false; // don't trigger on contact form
-		}
+		$this->getOutput()->setPageTitle( $pageTitle );
 
-		if( $wgUser->isAllowed( 'skipcaptcha' ) ) {
-			return false;
-		}
+		$msgSuffix = $config['RequireDetails'] ? '-required' : '';
 
-		return true;
-	}
-
-	/**
-	 * @return string
-	 */
-	function getCaptcha() {
-		if ( !$this->useCaptcha() ) {
-			return '';
-		}
-
-		wfSetupSession(); #NOTE: make sure we have a session. May be required for captchas to work.
-
-		/** @var SimpleCaptcha $wgCaptcha */
-		global $wgCaptcha;
-
-		return '<div class="captcha">' .
-			$wgCaptcha->getForm() .
-			wfMessage( 'contactpage-captcha' )->parse() .
-		"</div>\n";
-	}
-
-	/**
-	 * @return bool
-	 */
-	function passCaptcha() {
-		/** @var SimpleCaptcha $wgCaptcha */
-		global $wgCaptcha;
-		if ( !$this->useCaptcha() ) {
-			return true;
-		}
-
-		return $wgCaptcha->passCaptcha();
-	}
-
-	function doSubmit() {
-		global $wgOut, $wgUser, $wgRequest;
-		global $wgUserEmailUseReplyTo, $wgPasswordSender;
-		global $wgContactSender, $wgContactSenderName, $wgContactIncludeIP;
-
-		$csender = $wgContactSender ? $wgContactSender : $wgPasswordSender;
-		$cname = $wgContactSenderName;
-		$senderIP = $wgRequest->getIP();
-
-		$targetAddress = new MailAddress( $this->target );
-		$replyto = null;
-		$contactSender = new MailAddress( $csender, $cname );
+		$text = '';
 		$subject = '';
 
-		if ( !$this->fromaddress ) {
+		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
+		if ( $this->formType != '' ) {
+			$message = wfMessage( 'contactpage-pagetext-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$formText = $message->parseAsBlock();
+			} else {
+				$formText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
+			}
+
+			$message = wfMessage( 'contactpage-subject-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$subject = $message->inContentLanguage()->plain();
+			}
+
+			$message = wfMessage( 'contactpage-text-' . $this->formType );
+			if ( !$message->isDisabled() ) {
+				$text = $message->inContentLanguage()->plain();
+			}
+		} else {
+			$formText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
+		}
+
+		$subject = trim( $subject );
+		$text = trim( $text );
+
+		if ( $subject === '' ) {
+			$subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
+		}
+
+		$user = $this->getUser();
+		$fromAddress = '';
+		$fromName = '';
+		if( $user->isLoggedIn() ) {
+			// Use real name if set
+			$realName = $user->getRealName();
+			if ( $realName ) {
+				$fromName = $realName;
+			} else {
+				$fromName = $user->getName();
+			}
+			$fromAddress = $user->getEmail();
+		}
+
+		$formItems = array(
+			'Subject' => array(
+				'label-message' => 'emailsubject',
+				'type' => 'text',
+				'default' => $subject,
+			),
+			'FromName' => array(
+				'label-message' => "contactpage-fromname$msgSuffix",
+				'type' => 'text',
+				'required' => $config['RequireDetails'],
+				'default' => $fromName,
+			),
+			'FromAddress' => array(
+				'label-message' => "contactpage-fromaddress$msgSuffix",
+				'type' => 'email',
+				'required' => $config['RequireDetails'],
+				'default' => $fromAddress,
+			),
+			'FromInfo' => array(
+				'label' => '',
+				'type' => 'info',
+				'default' => Html::rawElement( 'small', array(),
+					$this->msg( "contactpage-formfootnotes$msgSuffix" )->text()
+				),
+				'raw' => true,
+			),
+			'Text' => array(
+				'label-message' => 'emailmessage',
+				'type' => 'textarea',
+				'rows' => 20,
+				'cols' => 80,
+				'default' => $text,
+				'required' => true,
+			),
+			'CCme' => array(
+				'label-message' => 'emailccme',
+				'type' => 'check',
+				'default' => $this->getUser()->getBoolOption( 'ccmeonemails' ),
+			),
+			'FormType' => array(
+				'class' => 'HTMLHiddenField',
+				'label' => 'Type',
+				'default' => $this->formType,
+			)
+		);
+
+		if ( $config['IncludeIP'] && $user->isLoggedIn() ) {
+			$formItems['IncludeIP'] = array(
+				'label-message' => 'contactpage-includeip',
+				'type' => 'check',
+			);
+		}
+
+		$form = new HTMLForm( $formItems, $this->getContext(), "contactpage-{$this->formType}" );
+		$form->setWrapperLegendMsg( 'contactpage-legend' );
+		$form->setSubmitTextMsg( 'emailsend' );
+		$form->setSubmitCallback( array( $this, 'processInput' ) );
+		$form->loadData();
+
+		// Stolen from Special:EmailUser
+		if ( !wfRunHooks( 'EmailUserForm', array( &$form ) ) ) {
+			return;
+		}
+
+		$result = $form->show();
+
+		if ( $result === true || ( $result instanceof Status && $result->isGood() ) ) {
+			$out = $this->getOutput();
+			$out->setPageTitle( wfMessage( 'emailsent' ) );
+			$out->addWikiMsg( 'emailsenttext' );
+
+			$out->returnToMain( false );
+		} else {
+			$this->getOutput()->prependHTML( trim( $formText ) );
+		}
+	}
+
+	/**
+	 * @param array $formData
+	 * @return bool|string
+	 *      true: Form won't be displayed
+	 *      false: Form will be redisplayed
+	 *      string: Error message to display
+	 */
+	public function processInput( $formData ) {
+		global $wgUserEmailUseReplyTo, $wgPasswordSender;
+		$config = $this->getTypeConfig();
+
+		$request = $this->getRequest();
+		$user = $this->getUser();
+
+		$csender = $config['SenderEmail'] ?: $wgPasswordSender;
+		$cname = $config['SenderName'];
+		$senderIP = $request->getIP();
+
+		$contactUser = User::newFromName( $config['RecipientUser'] );
+		$targetAddress = new MailAddress( $contactUser );
+		$replyto = null;
+		$contactSender = new MailAddress( $csender, $cname );
+
+		$fromAddress = $formData['FromAddress'];
+		$fromName = $formData['FromName'];
+		if ( !$fromAddress ) {
 			$submitterAddress = $contactSender;
 		} else {
-			$submitterAddress = new MailAddress( $this->fromaddress, $this->fromname );
+			$submitterAddress = new MailAddress( $fromAddress, $fromName );
 			if ( $wgUserEmailUseReplyTo ) {
 				$replyto = $submitterAddress;
 			}
 		}
 
-		$includeIP = $wgContactIncludeIP && ( $this->includeIP || $wgUser->isAnon() );
-		if ( $this->fromname !== '' ) {
+		$includeIP = $config['IncludeIP'] && ( $formData['IncludeIP'] || $user->isAnon() );
+		$fromName = $formData['FromName'];
+		$subject = $formData['Subject'];
+
+		if ( $fromName !== '' ) {
 			if ( $includeIP ) {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender-withip',
-					$this->subject,
-					$this->fromname,
+					$subject,
+					$fromName,
 					$senderIP
 				)->inContentLanguage()->text();
 			} else {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender',
-					$this->subject,
-					$this->fromname
+					$subject,
+					$fromName
 				)->inContentLanguage()->text();
 			}
-		} elseif ( $this->fromaddress !== '' ) {
+		} elseif ( $fromAddress !== '' ) {
 			if ( $includeIP ) {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender-withip',
-					$this->subject,
-					$this->fromaddress,
+					$subject,
+					$fromAddress,
 					$senderIP
 				)->inContentLanguage()->text();
 			} else {
 				$subject = wfMessage(
 					'contactpage-subject-and-sender',
-					$this->subject,
-					$this->fromaddress
+					$subject,
+					$fromAddress
 				)->inContentLanguage()->text();
 			}
 		} elseif ( $includeIP ) {
 			$subject = wfMessage(
 				'contactpage-subject-and-sender',
-				$this->subject,
+				$subject,
 				$senderIP
 			)->inContentLanguage()->text();
-		}
-
-		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$this->text, $this->formType ) ) ) {
-			return;
 		}
 
 		wfDebug( __METHOD__ . ': sending mail from ' . $submitterAddress->toString() .
 			' to ' . $targetAddress->toString().
 			' replyto ' . ( $replyto == null ? '-/-' : $replyto->toString() ) . "\n" );
 
-		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $this->text, $replyto );
+		$text = $formData['Text'];
+
+		// Stolen from Special:EmailUser
+		$error = '';
+		if ( !wfRunHooks( 'EmailUser', array( &$targetAddress, &$submitterAddress, &$subject, &$text, &$error ) ) ) {
+			return $error;
+		}
+
+		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$text, $this->formType ) ) ) {
+			return false; // TODO: Need to do some proper error handling here
+		}
+
+		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $text, $replyto );
 
 		if( !$mailResult->isOK() ) {
-			$wgOut->addWikiText( wfMessage( 'usermailererror' )->text() . $mailResult->getMessage() );
 			wfDebug( __METHOD__ . ': got error from UserMailer: ' . $mailResult->getMessage() . "\n" );
-			return;
+			return wfMessage( 'usermailererror' )->text() . $mailResult->getMessage();
 		}
 
 		// if the user requested a copy of this mail, do this now,
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
-		if( $this->cc_me && $this->fromaddress ) {
-			$cc_subject = wfMessage( 'emailccsubject', $this->target->getName(), $subject )->text();
-			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$this->text, $this->formType ) ) ) {
+		if( $formData['CCme'] && $fromAddress ) {
+			$cc_subject = wfMessage( 'emailccsubject', $contactUser->getName(), $subject )->text();
+			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$text, $this->formType ) ) ) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
 					' to ' . $submitterAddress->toString() . "\n" );
-				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $this->text );
+				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $text );
 				if( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
 					// original mail has succeeded. It's unlikely, but still, what to do?
 					// We can either show them an error, or we can say everything was fine,
 					// or we can say we sort of failed AND sort of succeeded. Of these options,
 					// simply saying there was an error is probably best.
-					$wgOut->addWikiText( wfMessage( 'usermailererror' )->text() . $ccResult->getMessage() );
-					return;
+					return wfMessage( 'usermailererror' )->text() . $ccResult->getMessage();
 				}
 			}
 		}
 
-		$titleObj = SpecialPage::getTitleFor( 'Contact' );
-		$wgOut->redirect( $titleObj->getFullURL( 'action=success' ) );
-		wfRunHooks( 'ContactFromComplete', array( $targetAddress, $replyto, $subject, $this->text ) );
-	}
+		wfRunHooks( 'ContactFromComplete', array( $targetAddress, $replyto, $subject, $text ) );
 
-	function showSuccess() {
-		global $wgOut;
-
-		$wgOut->setPageTitle( wfMessage( 'emailsent' ) );
-		$wgOut->addWikiMsg( 'emailsenttext' );
-
-		$wgOut->returnToMain( false );
+		return true;
 	}
 }
