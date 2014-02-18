@@ -144,11 +144,6 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		$formItems = array(
-			'Subject' => array(
-				'label-message' => 'emailsubject',
-				'type' => 'text',
-				'default' => $subject,
-			),
 			'FromName' => array(
 				'label-message' => "contactpage-fromname$msgSuffix",
 				'type' => 'text',
@@ -168,6 +163,11 @@ class SpecialContact extends UnlistedSpecialPage {
 					$this->msg( "contactpage-formfootnotes$msgSuffix" )->text()
 				),
 				'raw' => true,
+			),
+			'Subject' => array(
+				'label-message' => 'emailsubject',
+				'type' => 'text',
+				'default' => $subject,
 			),
 			'Text' => array(
 				'label-message' => 'emailmessage',
