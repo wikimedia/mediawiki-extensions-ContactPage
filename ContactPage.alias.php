@@ -14,6 +14,11 @@ $specialPageAliases['en'] = array(
 	'Contact' => array( 'Contact' ),
 );
 
+/** Afrikaans (Afrikaans) */
+$specialPageAliases['af'] = array(
+	'Contact' => array( 'Kontak' ),
+);
+
 /** Arabic (العربية) */
 $specialPageAliases['ar'] = array(
 	'Contact' => array( 'اتصال' ),
