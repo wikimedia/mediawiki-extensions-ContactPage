@@ -6,7 +6,7 @@
  * @file
  * @ingroup Extensions
  * @author Daniel Kinzler, brightbyte.de
- * @copyright © 2007 Daniel Kinzler
+ * @copyright © 2007-2014 Daniel Kinzler, Sam Reed
  * @licence GNU General Public Licence 2.0 or later
  */
 
@@ -19,7 +19,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'ContactPage',
-	'author' => 'Daniel Kinzler',
+	'author' => array( 'Daniel Kinzler', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ContactPage',
 	'descriptionmsg' => 'contactpage-desc',
 );
@@ -30,23 +30,43 @@ $wgExtensionMessagesFiles['ContactPage'] = $dir . 'ContactPage.i18n.php';
 $wgExtensionMessagesFiles['ContactPageAliases'] = $dir . 'ContactPage.alias.php';
 
 $wgAutoloadClasses['SpecialContact'] = $dir . 'ContactPage_body.php';
-$wgAutoloadClasses['EmailContactForm'] = $dir . 'ContactPage_body.php';
 $wgSpecialPages['Contact'] = 'SpecialContact';
 
-# Configuration
-// Name of a registered wiki user who will receive the mails
-$wgContactUser = null;
-// Email address used as the sender of the contact email, if the visitor does
-// not supply an email address. Defaults to $wgEmergencyContact.
-$wgContactSender = null;
+/**
+ * Set all fields if adding additional contact forms.
+ *
+ * If an array key with the form type name isn't set,
+ * defaults will be used.
+ *
+ * Array key should be lowercase.
+ *
+ * @code
+ * $wgContactConfig['formname'] = array(
+ *      'RecipientUser' => 'WikiUser',
+ *      'SenderEmail' => 'user@email.com',
+ *      'SenderName' => 'User Email',
+ *      'RequireDetails' => true,
+ *      'IncludeIP' => true,
+ * );
+ * @endcode
+ */
+$wgContactConfig['default'] = array(
+	// Username of a registered wiki user who will receive the mails
+	'RecipientUser' => null,
 
-// The name to be used with $wgContactSender.
-// This will be shown in the recipient's email program
-$wgContactSenderName = 'Contact Form on ' . $wgSitename;
+	// Email address used as the sender of the contact email, if the visitor does
+	// not supply an email address. Defaults to $wgPasswordSender.
+	'SenderEmail' => null,
 
-// If true, users will be required to supply a name and an email address
-// on Special:Contact.
-$wgContactRequireAll = false;
+	// The name to be used with $wgContactSender.
+	// This will be shown in the recipient's email program
+	'SenderName' => 'Contact Form on ' . $wgSitename,
 
-// If true, the form will include a checkbox offering to put the IP address of the submitter in the subject line
-$wgContactIncludeIP = false;
+	// If true, users will be required to supply a name and an email address
+	// on Special:Contact.
+	'RequireDetails' => false,
+
+	// If true, the form will include a checkbox offering to put the IP
+	// address of the submitter in the subject line
+	'IncludeIP' => false,
+);
