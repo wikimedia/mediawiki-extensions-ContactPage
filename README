@@ -38,6 +38,7 @@ $wgContactConfig.
        'SenderName' => 'User Email',
        'RequireDetails' => true,
        'IncludeIP' => true,
+       'AdditionalFields' => array(),
   );
 
 All contact form keys (in this case 'formname') should be in
@@ -58,6 +59,23 @@ email address on Special:Contact.
 
 IncludeIP Whether the form will include a checkbox offering to put the IP
 address of the submitter in the subject line.
+
+AdditionalFields is used to add any additional fields to the contact form.
+These are done using https://www.mediawiki.org/wiki/HTMLForm notation.
+The default message text box is not included by default, and if required,
+should be added manually to the AdditionalFields array like below.
+
+It should be noted that type 'selectandother' is not currently supported.
+
+  'AdditionalFields' => array(
+       'Text' => array(
+            'label-message' => 'emailmessage',
+            'type' => 'textarea',
+            'rows' => 20,
+            'cols' => 80,
+            'required' => true,
+      ),
+  ),
 
 == Customization ==
 

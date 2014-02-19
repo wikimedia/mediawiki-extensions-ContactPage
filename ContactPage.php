@@ -22,7 +22,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( 'Daniel Kinzler', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ContactPage',
 	'descriptionmsg' => 'contactpage-desc',
-	'version' => 2
+	'version' => 2.1
 );
 
 // Set up the new special page
@@ -48,6 +48,7 @@ $wgSpecialPages['Contact'] = 'SpecialContact';
  *      'SenderName' => 'User Email',
  *      'RequireDetails' => true,
  *      'IncludeIP' => true,
+ *      'AdditionalFields' => array(),
  * );
  * @endcode
  */
@@ -70,4 +71,20 @@ $wgContactConfig['default'] = array(
 	// If true, the form will include a checkbox offering to put the IP
 	// address of the submitter in the subject line
 	'IncludeIP' => false,
+
+	// Any additional fields to display on the contact form.
+	// Uses https://www.mediawiki.org/wiki/HTMLForm notation
+	// Using any of your own "AdditionalFields" will replce the large text box
+	// Copy the code below into your own config if still wanted
+	//
+	// 'type' => 'selectandother' currently isn't supported.
+	'AdditionalFields' => array(
+		'Text' => array(
+			'label-message' => 'emailmessage',
+			'type' => 'textarea',
+			'rows' => 20,
+			'cols' => 80,
+			'required' => true,
+		),
+	),
 );

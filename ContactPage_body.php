@@ -95,7 +95,6 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 		$this->getOutput()->setPageTitle( $pageTitle );
 
-		$text = '';
 		$subject = '';
 
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
@@ -111,17 +110,11 @@ class SpecialContact extends UnlistedSpecialPage {
 			if ( !$message->isDisabled() ) {
 				$subject = $message->inContentLanguage()->plain();
 			}
-
-			$message = wfMessage( 'contactpage-text-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$text = $message->inContentLanguage()->plain();
-			}
 		} else {
 			$formText = wfMessage( 'contactpage-pagetext' )->parseAsBlock();
 		}
 
 		$subject = trim( $subject );
-		$text = trim( $text );
 
 		if ( $subject === '' ) {
 			$subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
@@ -140,6 +133,8 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 			$fromAddress = $user->getEmail();
 		}
+
+		$additional = $config['AdditionalFields'];
 
 		$formItems = array(
 			'FromName' => array(
@@ -167,14 +162,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				'type' => 'text',
 				'default' => $subject,
 			),
-			'Text' => array(
-				'label-message' => 'emailmessage',
-				'type' => 'textarea',
-				'rows' => 20,
-				'cols' => 80,
-				'default' => $text,
-				'required' => true,
-			),
+		) + $additional + array(
 			'CCme' => array(
 				'label-message' => 'emailccme',
 				'type' => 'check',
@@ -294,11 +282,61 @@ class SpecialContact extends UnlistedSpecialPage {
 			)->inContentLanguage()->text();
 		}
 
-		wfDebug( __METHOD__ . ': sending mail from ' . $submitterAddress->toString() .
-			' to ' . $targetAddress->toString().
-			' replyto ' . ( $replyto == null ? '-/-' : $replyto->toString() ) . "\n" );
+		$text = '';
+		foreach( $config['AdditionalFields'] as $name => $field ) {
+			$class = HTMLForm::getClassFromDescriptor( $name, $field );
 
-		$text = $formData['Text'];
+			$value = '';
+			// TODO: Support selectandother/HTMLSelectAndOtherField
+			// options, options-messages and options-message
+			if ( isset( $field['options-messages'] )  ) { // Multiple values!
+				if ( is_string( $formData[$name] ) ) {
+					$optionValues = array_flip( $field['options-messages'] );
+					if ( isset( $optionValues[$formData[$name]] ) ) {
+						$value = wfMessage( $optionValues[$formData[$name]] )->inContentLanguage()->text();
+					} else {
+						$value = $formData[$name];
+					}
+				} elseif ( count( $formData[$name] ) ) {
+					$formValues = array_flip( $formData[$name] );
+					$value .= "\n";
+					foreach( $field['options-messages'] as $msg => $optionValue ) {
+						$msg = wfMessage( $msg )->inContentLanguage()->text();
+						$optionValue = self::getYesOrNoMsg( isset( $formValues[$optionValue] ) );
+						$value .= "\t$msg: $optionValue\n";
+					}
+				}
+			} elseif ( isset( $field['options'] ) ) {
+				if ( is_string( $formData[$name] ) ) {
+					$value = $formData[$name];
+				} elseif ( count( $formData[$name] ) ) {
+					$formValues = array_flip( $formData[$name] );
+					$value .= "\n";
+					foreach( $field['options'] as $msg => $optionValue ) {
+						$optionValue = self::getYesOrNoMsg( isset( $formValues[$optionValue] ) );
+						$value .= "\t$msg: $optionValue\n";
+					}
+				}
+			} elseif ( $class === 'HTMLCheckField' ) {
+				$value = self::getYesOrNoMsg( $formData[$name] xor ( isset( $field['invert'] ) && $field['invert'] ) );
+			} elseif ( isset( $formData[$name] ) ) {
+				// HTMLTextField, HTMLTextAreaField
+				// HTMLFloatField, HTMLIntField
+
+				// Just dump the value if its wordy
+				$value = $formData[$name];
+			} else {
+				continue;
+			}
+
+			if ( isset( $field['label-message'] ) ) {
+				$name = wfMessage( $field['label-message'] )->inContentLanguage()->text();
+			} else {
+				$name = $field['label'];
+			}
+
+			$text .= "{$name}: $value\n";
+		}
 
 		// Stolen from Special:EmailUser
 		$error = '';
@@ -310,6 +348,10 @@ class SpecialContact extends UnlistedSpecialPage {
 			return false; // TODO: Need to do some proper error handling here
 		}
 
+		wfDebug( __METHOD__ . ': sending mail from ' . $submitterAddress->toString() .
+			' to ' . $targetAddress->toString().
+			' replyto ' . ( $replyto == null ? '-/-' : $replyto->toString() ) . "\n"
+		);
 		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $text, $replyto );
 
 		if( !$mailResult->isOK() ) {
@@ -323,7 +365,8 @@ class SpecialContact extends UnlistedSpecialPage {
 			$cc_subject = wfMessage( 'emailccsubject', $contactUser->getName(), $subject )->text();
 			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$text, $this->formType ) ) ) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
-					' to ' . $submitterAddress->toString() . "\n" );
+					' to ' . $submitterAddress->toString() . "\n"
+				);
 				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $text );
 				if( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
@@ -339,5 +382,13 @@ class SpecialContact extends UnlistedSpecialPage {
 		wfRunHooks( 'ContactFromComplete', array( $targetAddress, $replyto, $subject, $text ) );
 
 		return true;
+	}
+
+	/**
+	 * @param bool $value
+	 * @return string
+	 */
+	private static function getYesOrNoMsg( $value ) {
+		return wfMessage( $value ? 'htmlform-yes' : 'htmlform-no' )->inContentLanguage()->text();
 	}
 }
