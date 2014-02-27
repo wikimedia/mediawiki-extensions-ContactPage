@@ -30,8 +30,6 @@ $messages['en'] = array(
 	'contactpage-fromname-required' => 'Your name:',
 	'contactpage-fromaddress-required' => 'Your email address:',
 	'contactpage-formfootnotes-required' => 'All fields are required.',
-	'contactpage-captcha' => 'To send the message, please solve the captcha ([[Special:Captcha/help|more info]])',
-	'contactpage-captcha-failed' => 'Captcha test failed! ([[Special:Captcha/help|more info]])',
 	'contactpage-includeip' => 'Include my IP address in this message.',
 );
 
@@ -68,8 +66,6 @@ The page title for this message is {{msg-mw|Contactpage-title}}.',
 	'contactpage-fromaddress-required' => '{{Identical|E-mail address}}',
 	'contactpage-formfootnotes-required' => 'See also:
 * {{msg-mw|Contactpage-formfootnotes}}',
-	'contactpage-captcha' => 'This message follows the CAPTCHA form.',
-	'contactpage-captcha-failed' => 'Used as failure message.',
 	'contactpage-includeip' => 'Used as checkbox label in the ContactPage form.',
 );
 

@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------
 README for the ContactPage extension
-Copyright © 2006-2014 Daniel Kinzler
+Copyright © 2006-2014 Daniel Kinzler, Sam Reed
 Licenses: GNU General Public Licence (GPL)
           GNU Free Documentation License (GFDL)
 --------------------------------------------------------------------------
@@ -27,33 +27,38 @@ LocalSettings.php file (near the end):
 
   require_once( "$IP/extensions/ContactPage/ContactPage.php" );
 
-  $wgContactUser = 'WikiAdmin'; // User on the wiki
-  $wgContactSender = $wgPasswordSender;
-  $wgContactSenderName = 'Contact Form on ' . $wgSitename;
-
-
 == Configuration ==
 
-$wgContactUser must be the name of a registered wiki user, who has 
+As of version 2, all configuration is done by one global variable,
+$wgContactConfig.
+
+  $wgContactConfig['formname'] = array(
+       'RecipientUser' => 'WikiUser',
+       'SenderEmail' => 'user@email.com',
+       'SenderName' => 'User Email',
+       'RequireDetails' => true,
+       'IncludeIP' => true,
+  );
+
+All contact form keys (in this case 'formname') should be in
+lowercase.
+
+RecipentUser must be the username of a registered wiki user, who has
 supplied an email address, has user-to-user email enabled, and has
 confirmed his/her email address if that is required on this wiki
 (see $wgEmailAuthentication).
 
-$wgContactSender must be the email address used as the sender of the
-contact email. Depending on the setup of your web host, this may have to
-be an existing mail account.
+SenderEmail is used when to send the email when an address isn't
+entered on the contact form. It defaults to $wgPasswordSender.
 
-$wgContactSenderName is the name associated with the contact sender.
-This will be shown in the recipient's email program.
+SenderName is the display name used with SenderEmail.
 
-If you are using the ConfirmEdit extension (captchas), you can require
-a captcha test for sending contact messages by using the following:
-
-   $wgCaptchaTriggers['contactpage'] = true;
+IncludeIP if true, the form will include a checkbox offering to put the IP
+address of the submitter in the subject line
 
 == Customization ==
 
-[[Special:Contact]] calls the default formular.
+[[Special:Contact]] calls the 'default' form.
 Pagetext: [[MediaWiki:contactpage-pagetext]]
 Subject: prefilled with text from [[MediaWiki:Contactpage-defsubject]] 
 E-mail body: empty.
@@ -61,8 +66,7 @@ E-mail body: empty.
 [[Special:Contact/typename]] calls the contact page with a customized pagetext and
 prefilled form fields:
 Pagetext: [[MediaWiki:contactpage-pagetext-typename]]
-Subject: prefilled with text from [[MediaWiki:Contactpage-subject-typename]] 
-E-mail body: prefilled with text from [[MediaWiki:Contactpage-text-typename]]
+Subject: prefilled with text from [[MediaWiki:contactpage-subject-typename]]
+E-mail body: prefilled with text from [[MediaWiki:contactpage-text-typename]]
 
 If a customized message does not exist the default message is shown.
-

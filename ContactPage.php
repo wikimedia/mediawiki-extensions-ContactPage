@@ -22,6 +22,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( 'Daniel Kinzler', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ContactPage',
 	'descriptionmsg' => 'contactpage-desc',
+	'version' => 2
 );
 
 // Set up the new special page
@@ -58,7 +59,7 @@ $wgContactConfig['default'] = array(
 	// not supply an email address. Defaults to $wgPasswordSender.
 	'SenderEmail' => null,
 
-	// The name to be used with $wgContactSender.
+	// The name to be used with SenderEmail.
 	// This will be shown in the recipient's email program
 	'SenderName' => 'Contact Form on ' . $wgSitename,
 
