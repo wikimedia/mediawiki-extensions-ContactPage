@@ -95,8 +95,6 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 		$this->getOutput()->setPageTitle( $pageTitle );
 
-		$msgSuffix = $config['RequireDetails'] ? '-required' : '';
-
 		$text = '';
 		$subject = '';
 
@@ -145,13 +143,13 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$formItems = array(
 			'FromName' => array(
-				'label-message' => "contactpage-fromname$msgSuffix",
+				'label-message' => 'contactpage-fromname',
 				'type' => 'text',
 				'required' => $config['RequireDetails'],
 				'default' => $fromName,
 			),
 			'FromAddress' => array(
-				'label-message' => "contactpage-fromaddress$msgSuffix",
+				'label-message' => 'contactpage-fromaddress',
 				'type' => 'email',
 				'required' => $config['RequireDetails'],
 				'default' => $fromAddress,
@@ -160,7 +158,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				'label' => '',
 				'type' => 'info',
 				'default' => Html::rawElement( 'small', array(),
-					$this->msg( "contactpage-formfootnotes$msgSuffix" )->text()
+					$this->msg( 'contactpage-formfootnote' )->text()
 				),
 				'raw' => true,
 			),

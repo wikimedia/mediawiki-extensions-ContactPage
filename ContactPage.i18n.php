@@ -13,6 +13,7 @@ $messages = array();
 
 /** English
  * @author Daniel Kinzler
+ * @author Reedy
  */
 $messages['en'] = array(
 	'contactpage' => 'Contact page',
@@ -23,13 +24,9 @@ $messages['en'] = array(
 	'contactpage-defsubject' => 'Contact message',
 	'contactpage-subject-and-sender' => '$1 (from $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (from $2 at $3)',
-	'contactpage-fromname' => 'Your name: *',
-	'contactpage-fromaddress' => 'Your email address: **',
-	'contactpage-formfootnotes' => '* optional<br />
-** optional, but needed if you want an answer',
-	'contactpage-fromname-required' => 'Your name:',
-	'contactpage-fromaddress-required' => 'Your email address:',
-	'contactpage-formfootnotes-required' => 'All fields are required.',
+	'contactpage-fromname' => 'Your name:',
+	'contactpage-fromaddress' => 'Your email address:',
+	'contactpage-formfootnotes' => '(needed if you want an answer)',
 	'contactpage-includeip' => 'Include my IP address in this message.',
 );
 
@@ -40,6 +37,7 @@ $messages['en'] = array(
  * @author Lloffiwr
  * @author Purodha
  * @author Shirayuki
+ * @author Reedy
  */
 $messages['qqq'] = array(
 	'contactpage' => '{{Identical|ContactPage}}',
@@ -60,12 +58,7 @@ The page title for this message is {{msg-mw|Contactpage-title}}.',
 * $3 - IP address',
 	'contactpage-fromname' => '{{Identical|Your name}}',
 	'contactpage-fromaddress' => '{{Identical|E-mail address}}',
-	'contactpage-formfootnotes' => 'See also:
-* {{msg-mw|Contactpage-formfootnotes-required}}',
-	'contactpage-fromname-required' => '{{Identical|Your name}}',
-	'contactpage-fromaddress-required' => '{{Identical|E-mail address}}',
-	'contactpage-formfootnotes-required' => 'See also:
-* {{msg-mw|Contactpage-formfootnotes}}',
+	'contactpage-formfootnotes' => 'Message to notify users that an email address is needed if an answer is required',
 	'contactpage-includeip' => 'Used as checkbox label in the ContactPage form.',
 );
 

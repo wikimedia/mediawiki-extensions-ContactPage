@@ -53,8 +53,11 @@ entered on the contact form. It defaults to $wgPasswordSender.
 
 SenderName is the display name used with SenderEmail.
 
-IncludeIP if true, the form will include a checkbox offering to put the IP
-address of the submitter in the subject line
+RequireDetails Whether users will be required to supply a name and an
+email address on Special:Contact.
+
+IncludeIP Whether the form will include a checkbox offering to put the IP
+address of the submitter in the subject line.
 
 == Customization ==
 
