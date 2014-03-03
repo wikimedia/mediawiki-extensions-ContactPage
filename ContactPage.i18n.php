@@ -625,14 +625,6 @@ $messages['el'] = array(
 	'contactpage-includeip' => 'Συμπεριλάβετε τη διεύθυνση IP μου σε αυτό το μήνυμα',
 );
 
-/** British English (British English)
- * @author Felicilijonas
- */
-$messages['en-gb'] = array(
-	'contactpage-fromname' => 'Jūsų vardas:',
-	'contactpage-fromaddress' => 'Jūsų pašto adresas:',
-);
-
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
