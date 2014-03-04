@@ -111,27 +111,22 @@ $messages['aln'] = array(
 /** Arabic (العربية)
  * @author Meno25
  * @author OsamaK
+ * @author أحمد
  * @author زكريا
  */
 $messages['ar'] = array(
-	'contactpage' => 'صفحة الاتصال',
+	'contactpage' => 'صفحة المراسلة',
 	'contactpage-desc' => '[[Special:Contact|استمارة اتصال للزائرين]]',
-	'contactpage-title' => 'اتصل',
-	'contactpage-pagetext' => 'من فضلك استخدم الاستمارة بالأسفل للاتصال بنا.',
-	'contactpage-legend' => 'إرسال بريد إلكتروني',
-	'contactpage-defsubject' => 'رسالة الاتصال',
+	'contactpage-title' => 'راسلنا',
+	'contactpage-pagetext' => 'استخدم الاستمارة التالية لتُكاتبنا.',
+	'contactpage-legend' => 'رسالة بريد إلكتروني',
+	'contactpage-defsubject' => 'موضوع المراسلة',
 	'contactpage-subject-and-sender' => '$1 (من $2)',
-	'contactpage-subject-and-sender-withip' => '$1 (من $2 إلى $3)',
-	'contactpage-fromname' => 'اسمك: *',
-	'contactpage-fromaddress' => 'بريدك الإلكتروني: **',
-	'contactpage-formfootnotes' => '* اختياري<br />
-** اختياري لكن ضروري لو أردت إجابة',
-	'contactpage-fromname-required' => 'اسمك:',
-	'contactpage-fromaddress-required' => 'بريدك الإلكتروني:',
-	'contactpage-formfootnotes-required' => 'كل الحقول مطلوبة',
-	'contactpage-captcha' => 'لإرسال الرسالة، من فضلك حل الكابتشا ([[Special:Captcha/help|معلومات إضافية]])',
-	'contactpage-captcha-failed' => 'اختبار الكابتشا فشل! ([[Special:Captcha/help|معلومات إضافية]])',
-	'contactpage-includeip' => 'اجعل عنوان بروتوكول الإنترنت الدال علي في هذه الرسالة.',
+	'contactpage-subject-and-sender-withip' => '$1 (من $2 ذي $3)',
+	'contactpage-fromname' => 'الاسم:',
+	'contactpage-fromaddress' => 'عنوان البريد:',
+	'contactpage-formfootnotes' => '(مطلوب لو أردت ردًّا)',
+	'contactpage-includeip' => 'ضمّن عنوان بروتوكول الإنترنت الدال عليّ في الرسالة.',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -190,15 +185,9 @@ $messages['ast'] = array(
 	'contactpage-defsubject' => 'Mensaxe de contautu',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
-	'contactpage-fromname' => 'El to nome: *',
-	'contactpage-fromaddress' => 'El to corréu electrónicu: **',
-	'contactpage-formfootnotes' => '* opcional<br />
-** opcional, pero necesariu si quies una rempuesta',
-	'contactpage-fromname-required' => 'El to nome:',
-	'contactpage-fromaddress-required' => 'El to corréu electrónicu:',
-	'contactpage-formfootnotes-required' => 'Tolos campos son obligatorios.',
-	'contactpage-captcha' => "Pa unviar el mensaxe, por favor resuelve'l captcha ([[Special:Captcha/help|más información]])",
-	'contactpage-captcha-failed' => '¡Falló la prueba del captcha! ([[Special:Captcha/help|más información]])',
+	'contactpage-fromname' => 'Nome:',
+	'contactpage-fromaddress' => 'Direición de corréu electrónicu:',
+	'contactpage-formfootnotes' => '(necesario si quier una respuesta)',
 	'contactpage-includeip' => 'Incluir la mio direición IP nesti mensaxe.',
 );
 
@@ -964,15 +953,9 @@ $messages['hi'] = array(
 	'contactpage-defsubject' => 'संपर्क संदेश',
 	'contactpage-subject-and-sender' => '$1 ($2 से)',
 	'contactpage-subject-and-sender-withip' => '$1 ($2 से $3 पे)',
-	'contactpage-fromname' => 'आपका नाम *', # Fuzzy
-	'contactpage-fromaddress' => 'आपका इ-मेल **', # Fuzzy
-	'contactpage-formfootnotes' => '* वैकल्पिक<br />
-** वैकल्पिक पर जवाब चाहिये हो तो आवश्यक',
-	'contactpage-fromname-required' => 'आपकी नाम:',
-	'contactpage-fromaddress-required' => 'आपकी ई-मेल:',
-	'contactpage-formfootnotes-required' => 'सभी फ़ील्ड अनिवार्य हैं।',
-	'contactpage-captcha' => 'यह संदेश भेजने के लिये कृपया कॅपचा (captcha) सॉल्व करें ([[Special:Captcha/help|अधिक जानकारी]])',
-	'contactpage-captcha-failed' => 'कॅपचा परीक्षण विफल! ([[Special:Captcha/help|अधिक जानकारी]])',
+	'contactpage-fromname' => 'आपका नाम:',
+	'contactpage-fromaddress' => 'आपका इ-मेल पता:',
+	'contactpage-formfootnotes' => '(यदि आपको उत्तर चाहिए तो आवश्यक)',
 	'contactpage-includeip' => 'मेरा आईपि पता इस संदेश में शामिल हैं।',
 );
 
@@ -1292,6 +1275,7 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Hym411
  * @author Ilovesabbath
  * @author Kwj2772
  * @author WonRyong
@@ -1306,15 +1290,9 @@ $messages['ko'] = array(
 	'contactpage-defsubject' => '연락 메시지',
 	'contactpage-subject-and-sender' => '$1 ($2님이 보냄)',
 	'contactpage-subject-and-sender-withip' => '$1 ($2님이 $3에서 보냄)',
-	'contactpage-fromname' => '내 이름: *',
-	'contactpage-fromaddress' => '내 이메일 주소 : **',
-	'contactpage-formfootnotes' => '* 선택 사항<br />
-** 선택 사항이지만 답변을 원할 경우에 필요',
-	'contactpage-fromname-required' => '내 이름:',
-	'contactpage-fromaddress-required' => '내 이메일 주소:',
-	'contactpage-formfootnotes-required' => '모든 필드는 필수입니다.',
-	'contactpage-captcha' => '메시지를 보내려면 이 캡차를 풀어 주세요 ([[Special:Captcha/help|자세한 정보]])',
-	'contactpage-captcha-failed' => '캡차 검사를 실패했습니다! ([[Special:Captcha/help|자세한 정보]])',
+	'contactpage-fromname' => '내 이름:',
+	'contactpage-fromaddress' => '내 이메일 주소 :',
+	'contactpage-formfootnotes' => '(답변을 원할 경우 필요)',
 	'contactpage-includeip' => '이 메시지에 내 IP 주소를 포함합니다.',
 );
 
@@ -1698,6 +1676,7 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
+ * @author Sjoerddebruin
  */
 $messages['nl'] = array(
 	'contactpage' => 'Contactpagina',
@@ -1709,9 +1688,8 @@ $messages['nl'] = array(
 	'contactpage-subject-and-sender' => '$1 (van $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (van $2 op $3)',
 	'contactpage-fromname' => 'Uw naam:',
-	'contactpage-fromaddress' => 'Uw e-mailadres:**', # Fuzzy
-	'contactpage-formfootnotes' => '* optioneel<br />
-** optioneel, maar noodzakelijk als antwoord gewenst is', # Fuzzy
+	'contactpage-fromaddress' => 'Uw e-mailadres:',
+	'contactpage-formfootnotes' => '(benodigd wanneer u een antwoord wilt ontvangen)',
 	'contactpage-includeip' => 'Stuur mijn IP-adres mee met dit bericht.',
 );
 
@@ -2053,6 +2031,15 @@ $messages['sah'] = array(
 	'contactpage-includeip' => 'Мин IP-бын бу биллэриккэ киллэр.',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'contactpage-fromname' => 'Yer name:',
+	'contactpage-fromaddress' => 'Yer wab-mail address',
+	'contactpage-formfootnotes' => '(needed gif ye want aen answer)',
+);
+
 /** Sinhala (සිංහල)
  * @author Sahan.ssw
  * @author පසිඳු කාවින්ද
@@ -2252,6 +2239,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
@@ -2263,15 +2251,9 @@ $messages['te'] = array(
 	'contactpage-defsubject' => 'సంప్రదింపు సందేశం',
 	'contactpage-subject-and-sender' => '$1 ($2 నుండి)',
 	'contactpage-subject-and-sender-withip' => '$1 ($3 వద్ద $2 నుండి)',
-	'contactpage-fromname' => 'మీ పేరు: *',
+	'contactpage-fromname' => 'మీ పేరు:',
 	'contactpage-fromaddress' => 'మీ ఈ-మెయిల్: **',
-	'contactpage-formfootnotes' => '* ఐచ్చికం<br />
-** ఐచ్చికం కానీ మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి',
-	'contactpage-fromname-required' => 'మీ పేరు:',
-	'contactpage-fromaddress-required' => 'మీ ఈ-మెయిల్:',
-	'contactpage-formfootnotes-required' => 'అన్ని ఖాళీలు తప్పనిసరి.',
-	'contactpage-captcha' => 'సందేశాన్ని పంపిచడానికి, ఆమకవేపని పరిష్కరించండి ([[Special:Captcha/help|మరింత సమాచారం]])',
-	'contactpage-captcha-failed' => 'అమకవేప పరీక్ష విఫలమైంది! ([[Special:Captcha/help|మరింత సమాచారం]])',
+	'contactpage-formfootnotes' => '(మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి)',
 	'contactpage-includeip' => 'ఈ సందేశంలో నా ఐపీ చిరునామాని చేర్చు.',
 );
 
