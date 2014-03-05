@@ -1403,6 +1403,7 @@ $messages['li'] = array(
 
 /** Lithuanian (lietuvių)
  * @author Eitvys200
+ * @author Mantak111
  * @author Matasg
  */
 $messages['lt'] = array(
@@ -1411,15 +1412,10 @@ $messages['lt'] = array(
 	'contactpage-pagetext' => 'Prašome naudoti žemiau esančią formą norint susisiekti su mumis.',
 	'contactpage-legend' => 'Siųsti elektroninį laišką',
 	'contactpage-subject-and-sender' => '$1 (iš $2 )',
-	'contactpage-fromname' => 'Jūsų vardas: *',
-	'contactpage-fromaddress' => 'Jūsų elektroninis paštas: **',
+	'contactpage-fromname' => 'Jūsų vardas:',
+	'contactpage-fromaddress' => 'Jūsų elektroninis paštas: **', # Fuzzy
 	'contactpage-formfootnotes' => '* neprivaloma<br /> 
-** neprivaloma, tačiau būtina, jei norite atsakyti',
-	'contactpage-fromname-required' => 'Jūsų vardas:',
-	'contactpage-fromaddress-required' => 'Jūsų elektroninis paštas:',
-	'contactpage-formfootnotes-required' => 'Visi laukai yra privalomi.',
-	'contactpage-captcha' => 'Norėdami siųsti pranešimą, prašome išspręsti captcha ([[Special:Captcha/help|daugiau informacijos]])',
-	'contactpage-captcha-failed' => 'Captcha testas nepavyko! ([[Special:Captcha/help|daugiau informacijos]])',
+** neprivaloma, tačiau būtina, jei norite atsakyti', # Fuzzy
 	'contactpage-includeip' => 'Įtraukti mano IP adresą į šį pranešimą.',
 );
 
@@ -2423,6 +2419,7 @@ $messages['ug-arab'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author NickK
  * @author Prima klasy4na
  * @author Тест
@@ -2436,15 +2433,10 @@ $messages['uk'] = array(
 	'contactpage-defsubject' => 'Повідомлення',
 	'contactpage-subject-and-sender' => '$1 (з $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (від $2 з $3)',
-	'contactpage-fromname' => "Ваше ім'я: *",
-	'contactpage-fromaddress' => 'Ваша адреса електронної пошти: **',
+	'contactpage-fromname' => "Ваше ім'я:",
+	'contactpage-fromaddress' => 'Ваша адреса електронної пошти:',
 	'contactpage-formfootnotes' => "* необов'язково<br />
-** необов'язково, але потрібно, якщо ви хочете отримати відповідь",
-	'contactpage-fromname-required' => "Ваше ім'я:",
-	'contactpage-fromaddress-required' => 'Ваша електронна пошта:',
-	'contactpage-formfootnotes-required' => "Усі поля є обов'язковими.",
-	'contactpage-captcha' => "Щоб відправити повідомлення, будь ласка, розв'яжіть captcha ([[Special:Captcha/help|докладніше]])",
-	'contactpage-captcha-failed' => "Captcha розв'язана неправильно! ([[Special:Captcha/help|докладніше]])",
+** необов'язково, але потрібно, якщо ви хочете отримати відповідь", # Fuzzy
 	'contactpage-includeip' => 'Додати мою IP-адресу до цього повідомлення.',
 );
 
