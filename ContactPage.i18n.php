@@ -2606,6 +2606,7 @@ $messages['za'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Shinjiman
  * @author Wmr89502270
  * @author Xiaomingyan
@@ -2619,15 +2620,9 @@ $messages['zh-hans'] = array(
 	'contactpage-defsubject' => '联系信息',
 	'contactpage-subject-and-sender' => '$1 （自$2）',
 	'contactpage-subject-and-sender-withip' => '$1 (由$2在$3)',
-	'contactpage-fromname' => '您的名字： *',
-	'contactpage-fromaddress' => '您的邮箱：**',
-	'contactpage-formfootnotes' => '* 可选<br />
-** 可选，如果您想回答的话',
-	'contactpage-fromname-required' => '您的名字：',
-	'contactpage-fromaddress-required' => '您的电邮：',
-	'contactpage-formfootnotes-required' => '所有字段都是必需的。',
-	'contactpage-captcha' => '要传送这个信息，请先解决这个 captcha （[[Special:Captcha/help|更多信息]]）',
-	'contactpage-captcha-failed' => 'Captcha 测试失败! （[[Special:Captcha/help|更多信息]]）',
+	'contactpage-fromname' => '您的名字：',
+	'contactpage-fromaddress' => '您的邮箱：',
+	'contactpage-formfootnotes' => '（可选，如果您想回答的话）',
 	'contactpage-includeip' => '在此邮件中包含我的IP位置资料。',
 );
 
