@@ -927,15 +927,9 @@ $messages['he'] = array(
 	'contactpage-defsubject' => 'הודעת יצירת קשר',
 	'contactpage-subject-and-sender' => '$1 (מתוך $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (מ{{grammar:תחילית|$2}} מהכתובת $3)',
-	'contactpage-fromname' => 'שמך: *',
-	'contactpage-fromaddress' => 'כתובת הדוא"ל שלך: **',
-	'contactpage-formfootnotes' => '* אופציונאלי<br />
-** אופציונאלי אבל דרוש אם ברצונך לקבל תשובה',
-	'contactpage-fromname-required' => 'שמך:',
-	'contactpage-fromaddress-required' => 'כתובת הדוא"ל שלך:',
-	'contactpage-formfootnotes-required' => 'כל השדות נחוצים.',
-	'contactpage-captcha' => 'כדי לשלוח את ההודעה, אנא הקלידו את המילים המופיעות להלן בתיבה ([[Special:Captcha/help|מידע נוסף]])',
-	'contactpage-captcha-failed' => 'מבחן ה־Captcha נכשל! ([[Special:Captcha/help|מידע נוסף]])',
+	'contactpage-fromname' => 'שמך:',
+	'contactpage-fromaddress' => 'כתובת הדוא"ל שלך:',
+	'contactpage-formfootnotes' => '(זה נחוץ אם ברצונך לקבל תשובה)',
 	'contactpage-includeip' => 'הכללת כתובת ה־IP שלי בהודעה זו.',
 );
 
@@ -1947,15 +1941,9 @@ $messages['roa-tara'] = array(
 	'contactpage-defsubject' => "Message d'u condatte",
 	'contactpage-subject-and-sender' => '$1 (da $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (da $2 a le $3)',
-	'contactpage-fromname' => "'U nome tue: *",
-	'contactpage-fromaddress' => "L'e-mail toje: **",
-	'contactpage-formfootnotes' => "* ce vuè<br />
-** ce vué ma abbesogne ce tu vuè cu ave 'na resposte",
-	'contactpage-fromname-required' => "'U nome tue:",
-	'contactpage-fromaddress-required' => "L'e-mail toje:",
-	'contactpage-formfootnotes-required' => 'Tutte le cambe sonde richieste.',
-	'contactpage-captcha' => "Pe mannà 'u messagge, pe piacere resolve 'u captcha ([[Special:Captcha/help|cchiù 'mbormaziune]])",
-	'contactpage-captcha-failed' => "'U test de captcha ha sciute male! ([[Special:Captcha/help|cchiù 'mbormaziune]])",
+	'contactpage-fromname' => "'U nome tune:",
+	'contactpage-fromaddress' => "L'e-mail toje:",
+	'contactpage-formfootnotes' => "(abbesogne ce tu vuè cu ave 'na resposte)",
 	'contactpage-includeip' => "Inglude l'indirizze UP mije sus a stu messagge.",
 );
 
@@ -2176,6 +2164,7 @@ $messages['su'] = array(
  * @author Boivie
  * @author Dafer45
  * @author Lejonel
+ * @author Lokal Profil
  * @author M.M.S.
  * @author Najami
  * @author לערי ריינהארט
@@ -2188,16 +2177,10 @@ $messages['sv'] = array(
 	'contactpage-legend' => 'Skicka e-post',
 	'contactpage-defsubject' => 'Kontaktmeddelande',
 	'contactpage-subject-and-sender' => '$1 (från $2)',
-	'contactpage-subject-and-sender-withip' => ' $1 (från $2 till $3)',
-	'contactpage-fromname' => 'Ditt namn: *',
-	'contactpage-fromaddress' => 'Din e-postadress: **',
-	'contactpage-formfootnotes' => '* kan utelämnas<br />
-** kan utelämnas, men behövs om du vill få svar',
-	'contactpage-fromname-required' => 'Ditt namn:',
-	'contactpage-fromaddress-required' => 'Din e-postadress:',
-	'contactpage-formfootnotes-required' => 'Alla fält är obligatoriska.',
-	'contactpage-captcha' => 'För att få skicka meddelandet måste du först lösa följande captcha-test ([[Special:Captcha/help|mer information]])',
-	'contactpage-captcha-failed' => 'Captcha-testet misslyckades! ([[Special:Captcha/help|mer information]])',
+	'contactpage-subject-and-sender-withip' => ' $1 (från $2 på $3)',
+	'contactpage-fromname' => 'Ditt namn:',
+	'contactpage-fromaddress' => 'Din e-postadress:',
+	'contactpage-formfootnotes' => '(behövs om du vill ha ett svar)',
 	'contactpage-includeip' => 'Inkludera min IP-adress i detta meddelande.',
 );
 
@@ -2566,10 +2549,8 @@ $messages['wa'] = array(
 $messages['yi'] = array(
 	'contactpage-title' => 'קאנטאקט',
 	'contactpage-legend' => 'שיקן ע־פאסט',
-	'contactpage-fromname' => 'אייער נאמען: *',
-	'contactpage-fromaddress' => 'אייער ע-פאסט: **',
-	'contactpage-fromname-required' => 'אייער נאמען:',
-	'contactpage-fromaddress-required' => 'אייער ע-פאסט:',
+	'contactpage-fromname' => 'אייער נאמען:',
+	'contactpage-fromaddress' => 'אייער ע-פאסט:',
 );
 
 /** Cantonese (粵語)
