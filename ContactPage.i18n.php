@@ -645,6 +645,7 @@ $messages['eo'] = array(
  * @author Locos epraix
  * @author Peter17
  * @author Sanbec
+ * @author Sporeunai
  * @author לערי ריינהארט
  */
 $messages['es'] = array(
@@ -656,15 +657,9 @@ $messages['es'] = array(
 	'contactpage-defsubject' => 'Mensaje de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
-	'contactpage-fromname' => 'Tu nombre: *',
-	'contactpage-fromaddress' => 'Tu correo electrónico: **',
-	'contactpage-formfootnotes' => '* opcional<br />
-** opcional pero necesario si deseas una respuesta',
-	'contactpage-fromname-required' => 'Tu nombre:',
-	'contactpage-fromaddress-required' => 'Tu correo electrónico:',
-	'contactpage-formfootnotes-required' => 'Todos los campos son obligatorios.',
-	'contactpage-captcha' => "Para enviar el mensaje, por favor resuelve el ''captcha'' ([[Special:Captcha/help|más información]])",
-	'contactpage-captcha-failed' => "¡Prueba de ''captcha'' fallida! ([[Special:Captcha/help|más información]])",
+	'contactpage-fromname' => 'Tu nombre:',
+	'contactpage-fromaddress' => 'Tu correo electrónico:',
+	'contactpage-formfootnotes' => '(necesario si desea una respuesta)',
 	'contactpage-includeip' => 'Incluir mi dirección IP en este mensaje.',
 );
 
@@ -901,6 +896,13 @@ $messages['gsw'] = array(
 	'contactpage-captcha' => 'Zum d Nochricht schicke z chenne, les bitte s Captcha ([[Special:Captcha/help|meh Informatione]])',
 	'contactpage-captcha-failed' => 'Captcha-Tescht nit bstande! ([[Special:Captcha/help|meh Informatione]])',
 	'contactpage-includeip' => 'Myy IP-Adräss in die Nochricht yysetze.',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'contactpage-fromname' => 'તમારું નામ:',
 );
 
 /** Manx (Gaelg)
@@ -2195,6 +2197,7 @@ $messages['sw'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Jayarathina
  * @author Shanmugamp7
  * @author TRYPPN
  */
@@ -2207,13 +2210,8 @@ $messages['ta'] = array(
 	'contactpage-defsubject' => 'தொடர்பு தகவல்',
 	'contactpage-subject-and-sender' => '$1($2 லிருந்து)',
 	'contactpage-subject-and-sender-withip' => '$1(லிருந்து $2  $3க்கு)',
-	'contactpage-fromname' => 'தங்களது பெயர்: *',
-	'contactpage-fromaddress' => 'தங்களது மின்னஞ்சல்: **',
-	'contactpage-fromname-required' => 'தங்களது பெயர்:',
-	'contactpage-fromaddress-required' => 'தங்களது மின்னஞ்சல்:',
-	'contactpage-formfootnotes-required' => 'எல்லா புலங்களும் தேவைப்படுகின்றது.',
-	'contactpage-captcha' => 'தகவலை அனுப்ப, தயவுகூர்ந்து captcha வை தீர்க்கவும்([[Special:Captcha/help|மேலும் விபரங்கள்]])',
-	'contactpage-captcha-failed' => 'Captcha சோதனை தோல்வியடைந்தது! ([[Special:Captcha/help|மேலும் விபரங்கள்]])',
+	'contactpage-fromname' => 'உங்கள் பெயர்:',
+	'contactpage-fromaddress' => 'உங்கள் மின்னஞ்சல்:',
 	'contactpage-includeip' => 'இந்த தகவலில் எனது IP முகவரியை  சேர்க்கவும்.',
 );
 
@@ -2418,8 +2416,7 @@ $messages['uk'] = array(
 	'contactpage-subject-and-sender-withip' => '$1 (від $2 з $3)',
 	'contactpage-fromname' => "Ваше ім'я:",
 	'contactpage-fromaddress' => 'Ваша адреса електронної пошти:',
-	'contactpage-formfootnotes' => "* необов'язково<br />
-** необов'язково, але потрібно, якщо ви хочете отримати відповідь", # Fuzzy
+	'contactpage-formfootnotes' => '(вимагається, якщо ви хочете отримати відповідь)',
 	'contactpage-includeip' => 'Додати мою IP-адресу до цього повідомлення.',
 );
 
@@ -2512,11 +2509,8 @@ $messages['vo'] = array(
 	'contactpage-legend' => 'Sedön penedi leäktronik',
 	'contactpage-defsubject' => 'Kosikamanun',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
-	'contactpage-fromname' => 'Nem olik: *',
-	'contactpage-fromaddress' => 'Ladet leäktronik olik: **',
-	'contactpage-fromname-required' => 'Nem olik:',
-	'contactpage-fromaddress-required' => 'Ladet leäktronik olik:',
-	'contactpage-formfootnotes-required' => 'Fels valik paflagons.',
+	'contactpage-fromname' => 'Nem olik:',
+	'contactpage-fromaddress' => 'Ladet leäktronik olik: **', # Fuzzy
 );
 
 /** Walloon (walon)
