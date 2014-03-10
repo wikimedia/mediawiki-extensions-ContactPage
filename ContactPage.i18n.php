@@ -421,6 +421,8 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'contactpage' => 'Контактан агӀо',
 	'contactpage-defsubject' => 'Хаам',
+	'contactpage-fromname' => 'Хьа хан:',
+	'contactpage-fromaddress' => 'Хьан электронан почтан адрес:',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -2485,15 +2487,9 @@ $messages['vi'] = array(
 	'contactpage-defsubject' => 'Tin nhắn liên hệ',
 	'contactpage-subject-and-sender' => '$1 (gửi từ $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (từ $2 lúc $3)',
-	'contactpage-fromname' => 'Tên của bạn: *',
-	'contactpage-fromaddress' => 'Thư điện tử của bạn: **',
-	'contactpage-formfootnotes' => '* tùy chọn<br />
-** tùy chọn nhưng cần thiết nếu bạn muốn nhận được câu trả lời',
-	'contactpage-fromname-required' => 'Tên của bạn:',
-	'contactpage-fromaddress-required' => 'Thư điện tử của bạn:',
-	'contactpage-formfootnotes-required' => 'Bạn phải điền tất cả các mục.',
-	'contactpage-captcha' => 'Để gửi tin nhắn, xin hãy ghi lại captcha ([[Special:Captcha/help|thông tin thêm]])',
-	'contactpage-captcha-failed' => 'Kiểm tra captcha thất bại! ([[Special:Captcha/help|thông tin thêm]])',
+	'contactpage-fromname' => 'Tên của bạn:',
+	'contactpage-fromaddress' => 'Địa chỉ thư điện tử của bạn:',
+	'contactpage-formfootnotes' => '(cần thiết nếu bạn muốn nhận được câu trả lời)',
 	'contactpage-includeip' => 'Bao gồm địa chỉ IP của tôi trong thư này.',
 );
 
