@@ -423,6 +423,7 @@ $messages['ce'] = array(
 	'contactpage-defsubject' => 'Хаам',
 	'contactpage-fromname' => 'Хьа хан:',
 	'contactpage-fromaddress' => 'Хьан электронан почтан адрес:',
+	'contactpage-formfootnotes' => '(оьшу хьона жоп даийта лууш делахь)',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -660,7 +661,7 @@ $messages['es'] = array(
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 en $3)',
 	'contactpage-fromname' => 'Tu nombre:',
-	'contactpage-fromaddress' => 'Tu correo electrónico:',
+	'contactpage-fromaddress' => 'Tu dirección de correo:',
 	'contactpage-formfootnotes' => '(necesario si desea una respuesta)',
 	'contactpage-includeip' => 'Incluir mi dirección IP en este mensaje.',
 );
@@ -846,9 +847,9 @@ $messages['gl'] = array(
 	'contactpage-defsubject' => 'Mensaxe de contacto',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
-	'contactpage-fromname' => 'O teu nome:',
-	'contactpage-fromaddress' => 'O teu enderezo de correo electrónico:',
-	'contactpage-formfootnotes' => '(necesario se queres unha resposta)',
+	'contactpage-fromname' => 'O seu nome:',
+	'contactpage-fromaddress' => 'O seu correo electrónico:',
+	'contactpage-formfootnotes' => '(necesario se quere unha resposta)',
 	'contactpage-includeip' => 'Incluír o meu enderezo IP nesta mensaxe.',
 );
 
@@ -2266,22 +2267,18 @@ $messages['tg-latn'] = array(
  * @author Woraponboonkerd
  */
 $messages['th'] = array(
-	'contactpage' => 'หน้าช่องทางการติดต่อ',
-	'contactpage-desc' => '[[Special:Contact|แบบฟอร์มการติดต่อสำหรับผู้เยื่ยมชม]]',
+	'contactpage' => 'หน้าติดต่อ',
+	'contactpage-desc' => '[[Special:Contact|แบบการติดต่อสำหรับผู้เยื่ยมชม]]',
 	'contactpage-title' => 'ติดต่อ',
 	'contactpage-pagetext' => 'กรุณาใช้แบบด้านล่างนี้เพื่อติดต่อเรา',
 	'contactpage-legend' => 'ส่งอีเมล',
 	'contactpage-defsubject' => 'ข้อความติดต่อ',
 	'contactpage-subject-and-sender' => '$1 (จาก $2)',
-	'contactpage-fromname' => 'ชื่อของคุณ: *',
-	'contactpage-fromaddress' => 'อีเมลของคุณ: **',
-	'contactpage-formfootnotes' => '* เป็นข้อมูลเสริม<br />
-** เป็นข้อมูลเสริม แต่จำเป็นต้องกรอกหากต้องการการติดต่อกลับ',
-	'contactpage-fromname-required' => 'ชื่อของคุณ:',
-	'contactpage-fromaddress-required' => 'อีเมลของคุณ:',
-	'contactpage-formfootnotes-required' => 'จำเป็นต้องกรอกทั้งหมด',
-	'contactpage-captcha' => 'กรุณาแก้ CAPTCHA ต่อไปนี้เพื่อส่งข้อความ ([[Special:Captcha/help|ข้อมูลเพิ่มเติม]])',
-	'contactpage-captcha-failed' => 'ไม่ผ่านการทดสอบ CAPTCHA ([[Special:Captcha/help|ข้อมูลเพิ่มเติม]])',
+	'contactpage-subject-and-sender-withip' => '$1 (จาก $2 ที่ $3)',
+	'contactpage-fromname' => 'ชื่อของคุณ:',
+	'contactpage-fromaddress' => 'ที่อยู่อีเมลของคุณ:',
+	'contactpage-formfootnotes' => '(จำเป็นหากคุณต้องการคำตอบ)',
+	'contactpage-includeip' => 'รวมเลขที่อยู่ไอพีของฉันในข้อความนี้',
 );
 
 /** Turkmen (Türkmençe)
