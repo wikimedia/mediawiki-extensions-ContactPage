@@ -1097,20 +1097,14 @@ $messages['ilo'] = array(
 	'contactpage' => 'Pagdamagan a panid',
 	'contactpage-desc' => '[[Special:Contact|Pagdamagan a porma para kadagiti bisita]]',
 	'contactpage-title' => 'Pagdamagan',
-	'contactpage-pagetext' => 'Pangngaasi nga usaren ti porma dita baba ti agdamag kaniami.',
-	'contactpage-legend' => 'Ipatulod ti e-surat',
-	'contactpage-defsubject' => 'Pagdamagan a mensahe',
+	'contactpage-pagetext' => 'Pangngaasi nga usaren ti porma dita baba tapno agdamag kaniami.',
+	'contactpage-legend' => 'Ipatulod ti esurat',
+	'contactpage-defsubject' => 'Mensahe ti pagdamagan',
 	'contactpage-subject-and-sender' => '$1 (manipud kenni $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (manipud kenni $2 iti $3)',
-	'contactpage-fromname' => 'Ti nagan mo: *',
-	'contactpage-fromaddress' => 'Ti e-surat mo: **',
-	'contactpage-formfootnotes' => '* saan a nasken a mapili<br />
-** saan a nasken a mapili ngem masapul no kayat mo ti sungbat',
-	'contactpage-fromname-required' => 'Ti nagan mo:',
-	'contactpage-fromaddress-required' => 'Ti e-surat mo:',
-	'contactpage-formfootnotes-required' => 'Amin dagiti lugar ket masapul.',
-	'contactpage-captcha' => 'Ti agipatulod ti mensahe, pangngaasi a sulbaren ti captcha ([[Special:Captcha/help|ti adu pay a paammo]])',
-	'contactpage-captcha-failed' => 'Ti subokan ti captcha ket napaay! ([[Special:Captcha/help|ti adu pay a paammo]])',
+	'contactpage-fromname' => 'Ti naganmo:',
+	'contactpage-fromaddress' => 'Ti esuratmo:',
+	'contactpage-formfootnotes' => '(nasken no kayatmo ti sungbat)',
 	'contactpage-includeip' => 'Iraman ti IP a pagtaengak iti daytoy a mensahe.',
 );
 
@@ -1684,7 +1678,7 @@ $messages['nl'] = array(
 	'contactpage-subject-and-sender-withip' => '$1 (van $2 op $3)',
 	'contactpage-fromname' => 'Uw naam:',
 	'contactpage-fromaddress' => 'Uw e-mailadres:',
-	'contactpage-formfootnotes' => '(benodigd wanneer u een antwoord wilt ontvangen)',
+	'contactpage-formfootnotes' => '(nodig als u een antwoord wilt ontvangen)',
 	'contactpage-includeip' => 'Stuur mijn IP-adres mee met dit bericht.',
 );
 
@@ -1743,14 +1737,9 @@ $messages['oc'] = array(
 	'contactpage-defsubject' => 'Messatge',
 	'contactpage-subject-and-sender' => '$1 (de $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (de $2 a $3)',
-	'contactpage-fromname' => 'Vòstre nom : *',
-	'contactpage-fromaddress' => 'Vòstra adreça electronica : **',
-	'contactpage-formfootnotes' => '* opcional<br /> ** opcional mas requerit se desiratz una responsa',
-	'contactpage-fromname-required' => 'Vòstre nom :',
-	'contactpage-fromaddress-required' => 'Vòstra adreça mail :',
-	'contactpage-formfootnotes-required' => 'Totes los camps son requesits.',
-	'contactpage-captcha' => 'Per mandar lo messatge, mercés de resoudre lo captcha ([[Special:Captcha/help|ajuda]])',
-	'contactpage-captcha-failed' => 'Avètz pas desencodat lo captcha ! ([[Special:Captcha/help|ajuda]])',
+	'contactpage-fromname' => 'Vòstre nom :',
+	'contactpage-fromaddress' => 'Vòstra adreça electronica :',
+	'contactpage-formfootnotes' => '(obligatòri se desiratz una responsa)',
 	'contactpage-includeip' => 'Inclure mon adreça IP dins aquel messatge.',
 );
 
