@@ -679,15 +679,9 @@ $messages['et'] = array(
 	'contactpage-defsubject' => 'Sõnum',
 	'contactpage-subject-and-sender' => '$1 (saatis $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (saatis $2 IP-aadressilt $3)',
-	'contactpage-fromname' => 'Sinu nimi: *',
-	'contactpage-fromaddress' => 'Sinu e-posti aadress: **',
-	'contactpage-formfootnotes' => '* valikuline<br />
-** valikuline, kuid vastuse soovi korral vajalik',
-	'contactpage-fromname-required' => 'Sinu nimi:',
-	'contactpage-fromaddress-required' => 'Sinu e-posti aadress:',
-	'contactpage-formfootnotes-required' => 'Nõutav on kõigi väljade täitmine.',
-	'contactpage-captcha' => 'Palun läbi teate saatmiseks robotilõks ([[Special:Captcha/help|täpsem teave]])',
-	'contactpage-captcha-failed' => 'Robotilõksu ei õnnestunud läbida! ([[Special:Captcha/help|täpsem teave]])',
+	'contactpage-fromname' => 'Sinu nimi:',
+	'contactpage-fromaddress' => 'Sinu e-posti aadress:',
+	'contactpage-formfootnotes' => '(vajalik, kui tahad vastust)',
 	'contactpage-includeip' => 'Lisa selle sõnumi juurde minu IP-aadress.',
 );
 
@@ -1396,6 +1390,7 @@ $messages['li'] = array(
 
 /** Lithuanian (lietuvių)
  * @author Eitvys200
+ * @author Garas
  * @author Mantak111
  * @author Matasg
  */
@@ -1406,9 +1401,8 @@ $messages['lt'] = array(
 	'contactpage-legend' => 'Siųsti elektroninį laišką',
 	'contactpage-subject-and-sender' => '$1 (iš $2 )',
 	'contactpage-fromname' => 'Jūsų vardas:',
-	'contactpage-fromaddress' => 'Jūsų elektroninis paštas: **', # Fuzzy
-	'contactpage-formfootnotes' => '* neprivaloma<br /> 
-** neprivaloma, tačiau būtina, jei norite atsakyti', # Fuzzy
+	'contactpage-fromaddress' => 'Jūsų elektroninis paštas:',
+	'contactpage-formfootnotes' => '(reikalingas, jei norite gauti atsakymą)',
 	'contactpage-includeip' => 'Įtraukti mano IP adresą į šį pranešimą.',
 );
 
