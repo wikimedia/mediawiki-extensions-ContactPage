@@ -1750,13 +1750,9 @@ $messages['or'] = array(
 	'contactpage-defsubject' => 'ଯୋଗାଯୋଗ ସନ୍ଦେଶ',
 	'contactpage-subject-and-sender' => '$1 (from $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (from $2 at $3)',
-	'contactpage-fromname' => 'ଆପଣଙ୍କ ନାମ: *',
-	'contactpage-fromaddress' => 'ଆପଣଙ୍କ ଇ-ମେଲ: **',
-	'contactpage-formfootnotes' => '* ଇଛାଧୀନ<br />
-** ଇଛାଧୀନ କିନ୍ତୁ ଯଦି ଆପଣଙ୍କୁ ଉତ୍ତରଟିଏ ଲୋଡ଼ା ତାହେଲେ ଏହା ବି ଲୋଡ଼ା',
-	'contactpage-fromname-required' => 'ଆପଣଙ୍କ ନାମ:',
-	'contactpage-fromaddress-required' => 'ଆପଣଙ୍କ ଇ-ମେଲ:',
-	'contactpage-formfootnotes-required' => 'ସବୁଯାକ ଘର ଭରିବାକୁ ପଡ଼ିବ ।',
+	'contactpage-fromname' => 'ଆପଣଙ୍କ ନାମ:',
+	'contactpage-fromaddress' => 'ଆପଣଙ୍କ ଇ-ମେଲ:',
+	'contactpage-formfootnotes' => '(ଦରକାର ଯଦି ଆପଣ ଉତ୍ତରଟିଏ ଚାହୁଁଛନ୍ତି)',
 );
 
 /** Ossetic (Ирон)
@@ -1836,12 +1832,9 @@ $messages['ps'] = array(
 	'contactpage-legend' => 'برېښليک لېږل',
 	'contactpage-defsubject' => 'د اړيکې پيغام',
 	'contactpage-subject-and-sender' => '$1 (د $2 لخوا )',
-	'contactpage-fromname' => 'ستاسې نوم: *',
-	'contactpage-fromaddress' => 'ستاسې برېښليک: **',
-	'contactpage-formfootnotes' => '* ستاسو د خوښې کړنه<br />
-** دا ستاسو د خوښې کړنه ده خو که چېرته تاسو يو ځواب غواړی نو بيا پکار ده چې ډک شي',
-	'contactpage-fromname-required' => 'ستاسې نوم:',
-	'contactpage-fromaddress-required' => 'ستاسې برېښليک:',
+	'contactpage-fromname' => 'ستاسې نوم:',
+	'contactpage-fromaddress' => 'ستاسې برېښليک پته:',
+	'contactpage-formfootnotes' => '(ورته اړتيا ده که يو ځواب غواړۍ)',
 );
 
 /** Portuguese (português)
