@@ -899,6 +899,8 @@ $messages['gsw'] = array(
  * @author KartikMistry
  */
 $messages['gu'] = array(
+	'contactpage-title' => 'સંપર્ક',
+	'contactpage-legend' => 'ઇમેલ મોકલો',
 	'contactpage-fromname' => 'તમારું નામ:',
 );
 
