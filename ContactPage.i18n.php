@@ -351,15 +351,9 @@ $messages['br'] = array(
 	'contactpage-defsubject' => 'Kemennadenn daremprediñ',
 	'contactpage-subject-and-sender' => '$1 (eus $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (eus $2 da $3)',
-	'contactpage-fromname' => "Hoc'h anv : *",
-	'contactpage-fromaddress' => "Ho chomlec'h postel : **",
-	'contactpage-formfootnotes' => "* diret<br />
-** diret, met rekis mar fell deoc'h e vefe respontet deoc'h.",
-	'contactpage-fromname-required' => "Hoc'h anv :",
-	'contactpage-fromaddress-required' => "Ho chomlec'h postel :",
-	'contactpage-formfootnotes-required' => 'Rekis eo an holl vaeziennoù.',
-	'contactpage-captcha' => "Evit kas ar gemennadenn, diskoulmit ar c'haptcha ([[Special:Captcha/help|gouzout hiroc'h]])",
-	'contactpage-captcha-failed' => "N'hoc'h eus ket diskoulmet ar c'haptcha ! ([[Special:Captcha/help|gouzout hiroc'h]])",
+	'contactpage-fromname' => "Hoc'h anv :",
+	'contactpage-fromaddress' => "Ho chomlec'h postel :",
+	'contactpage-formfootnotes' => "(rekis mar fell deoc'h e vefe respontet deoc'h)",
 	'contactpage-includeip' => "Merkañ ma chomlec'h IP er postel-mañ.",
 );
 
@@ -447,15 +441,9 @@ $messages['cs'] = array(
 	'contactpage-defsubject' => 'Zpráva',
 	'contactpage-subject-and-sender' => '$1 (od $2)',
 	'contactpage-subject-and-sender-withip' => '$1 (od $2 z $3)',
-	'contactpage-fromname' => 'Vaše jméno: *',
-	'contactpage-fromaddress' => 'Váš e-mail: **',
-	'contactpage-formfootnotes' => '&#042; volitelné<br />
-&#042;&#042; volitelné, ale potřebné pokud chcete odpověď',
-	'contactpage-fromname-required' => 'Vaše jméno:',
-	'contactpage-fromaddress-required' => 'Váš e-mail:',
-	'contactpage-formfootnotes-required' => 'Všechna pole musí být vyplněna.',
-	'contactpage-captcha' => 'Abyste mohli odeslat zprávu, musíte vyřešit CAPTCHA ([[Special:Captcha/help|vysvětlení]])',
-	'contactpage-captcha-failed' => '{{GENDER:Neuspěl|Neuspěla|Neuspěli}} jste v testu CAPTCHA! ([[Special:Captcha/help|vysvětlení]])',
+	'contactpage-fromname' => 'Vaše jméno:',
+	'contactpage-fromaddress' => 'Vaše e-mailová adresa:',
+	'contactpage-formfootnotes' => '(potřebné pokud očekáváte odpověď)',
 	'contactpage-includeip' => 'Přiložit ke zprávě mou IP adresu.',
 );
 
