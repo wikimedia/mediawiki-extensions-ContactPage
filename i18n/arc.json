@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Basharh"
+        ]
+    },
+    "contactpage-subject-and-sender": "$1 (ܡܢ $2)",
+    "contactpage-fromname": "ܫܡܐ ܕܝܠܟ: *",
+    "contactpage-fromname-required": "ܫܡܐ ܕܝܠܟ:",
+    "contactpage-fromaddress-required": "ܒܝܠܕܪܐ ܐܠܩܛܪܘܢܝܐ ܕܝܠܟ:"
+}

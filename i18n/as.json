@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bishnu Saikia"
+        ]
+    },
+    "contactpage-title": "যোগাযোগ",
+    "contactpage-fromname": "আপোনাৰ নাম:",
+    "contactpage-fromname-required": "আপোনাৰ নাম:",
+    "contactpage-fromaddress-required": "আপোনাৰ ই-মেইল:"
+}

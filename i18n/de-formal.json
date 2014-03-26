@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln",
+            "Raimond Spekking"
+        ]
+    },
+    "contactpage-pagetext": "Mit diesem Formular können Sie uns Nachrichten zukommen lassen.",
+    "contactpage-fromname": "Ihr Name: *",
+    "contactpage-fromaddress": "Ihre E-Mail-Adresse: **",
+    "contactpage-formfootnotes": "* optional<br />\n** optional, wird aber benötigt, um Ihnen antworten zu können",
+    "contactpage-fromname-required": "Ihr Name:",
+    "contactpage-fromaddress-required": "Ihre E-Mail-Adresse:",
+    "contactpage-captcha": "Um die Nachricht senden zu können, lösen Sie bitte das CAPTCHA ([[Special:Captcha/help|weitere Informationen]])"
+}

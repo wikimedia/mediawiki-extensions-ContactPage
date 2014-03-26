@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "An13sa",
+            "Theklan"
+        ]
+    },
+    "contactpage": "Kontaktu orrialdea",
+    "contactpage-desc": "[[Special:Contact|Bisitarientzako kontaktu formularioa]]",
+    "contactpage-title": "Kontaktatu",
+    "contactpage-pagetext": "Erabil ezazu beheko formularioa gurekin kontaktatzeko.",
+    "contactpage-legend": "E-posta bidali",
+    "contactpage-defsubject": "Kontaktu mezua",
+    "contactpage-subject-and-sender": "$1 ($2(e)k bidalia)",
+    "contactpage-subject-and-sender-withip": "$1 ($2-k bidalia, $3-(r)ekin)",
+    "contactpage-fromname": "Zure izena: *",
+    "contactpage-fromaddress": "Zure e-posta: **",
+    "contactpage-formfootnotes": " * ez da beharrezkoa<br />\n ** ez da beharrezkoa baina erantzuteko garaian nahitaezkoa da",
+    "contactpage-fromname-required": "Zure izena:",
+    "contactpage-fromaddress-required": "Zure e-posta:",
+    "contactpage-formfootnotes-required": "Esparru guztiak betetzea beharrezkoa da.",
+    "contactpage-captcha": "Mezua bidaltzeko captcha jarri behar duzu ([[Special:Captcha/help|info gehiago]])",
+    "contactpage-captcha-failed": "Captcha testak huts egin du! ([[Special:Captcha/help|info gehiago]])",
+    "contactpage-includeip": "Nire IP helbidea mezu honetan sartu."
+}

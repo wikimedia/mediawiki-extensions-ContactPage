@@ -1,0 +1,26 @@
+{
+    "@metadata": {
+        "authors": [
+            "Carla404",
+            "Eduardo.mps",
+            "Giro720"
+        ]
+    },
+    "contactpage": "Página de Contato",
+    "contactpage-desc": "[[Special:Contact|Formulário de contato para visitantes]]",
+    "contactpage-title": "Contato",
+    "contactpage-pagetext": "Por favor, use o formulário abaixo para nos contatar.",
+    "contactpage-legend": "Enviar e-mail",
+    "contactpage-defsubject": "Mensagem de Contato",
+    "contactpage-subject-and-sender": "$1 (de $2)",
+    "contactpage-subject-and-sender-withip": "$1 (de $2, endereço $3)",
+    "contactpage-fromname": "O seu nome: *",
+    "contactpage-fromaddress": "O seu email: **",
+    "contactpage-formfootnotes": "* opcional<br />\n** opcional, mas necessário se quiser uma resposta",
+    "contactpage-fromname-required": "O seu nome:",
+    "contactpage-fromaddress-required": "O seu e-mail:",
+    "contactpage-formfootnotes-required": "Todos os campos são obrigatórios.",
+    "contactpage-captcha": "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
+    "contactpage-captcha-failed": "Teste captcha falhou! ([[Special:Captcha/help|mais informação]])",
+    "contactpage-includeip": "Incluir o meu endereço IP nesta mensagem."
+}

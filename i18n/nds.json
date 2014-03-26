@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Slomox"
+        ]
+    },
+    "contactpage": "Kontaktsied",
+    "contactpage-desc": "[[Special:Contact|Kontaktformular för Besökers]]",
+    "contactpage-title": "Kontakt",
+    "contactpage-pagetext": "Över dit Formular kannst du uns Narichten tostüern.",
+    "contactpage-legend": "E-Mail afschicken",
+    "contactpage-defsubject": "Kontaktnaricht",
+    "contactpage-subject-and-sender": "$1 (vun $2)",
+    "contactpage-fromname": "Dien Naam: *",
+    "contactpage-fromaddress": "Dien E-Mail-Adress: **",
+    "contactpage-formfootnotes": "* optional<br />\n** optional, aver nödig, wenn du en Antwoord hebben wullt",
+    "contactpage-fromname-required": "Dien Naam:",
+    "contactpage-fromaddress-required": "Dien E-Mail:",
+    "contactpage-formfootnotes-required": "All Feller mööt utfüllt warrn.",
+    "contactpage-captcha": "Dat du dien Naricht afschicken kannst, löös dit Captcha ([[Special:Captcha/help|mehr Infos]])",
+    "contactpage-captcha-failed": "Captcha-Test is scheefgahn! ([[Special:Captcha/help|mehr Infos]])"
+}

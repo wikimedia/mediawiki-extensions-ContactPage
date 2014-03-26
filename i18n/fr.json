@@ -1,0 +1,25 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gomoko",
+            "Grondin",
+            "IAlex",
+            "Peter17",
+            "Sherbrooke",
+            "Urhixidur",
+            "לערי ריינהארט"
+        ]
+    },
+    "contactpage": "Contact",
+    "contactpage-desc": "[[Special:Contact|Formulaire de contact pour les visiteurs]]",
+    "contactpage-title": "Contacter",
+    "contactpage-pagetext": "Veuillez utiliser le formulaire ci-dessous pour nous contacter.",
+    "contactpage-legend": "Envoyer un courriel",
+    "contactpage-defsubject": "Message",
+    "contactpage-subject-and-sender": "$1 (de $2)",
+    "contactpage-subject-and-sender-withip": "$1 (de $2 à $3)",
+    "contactpage-fromname": "Votre nom :",
+    "contactpage-fromaddress": "Votre adresse de courriel :",
+    "contactpage-formfootnotes": "(obligatoire si vous désirez une réponse)",
+    "contactpage-includeip": "Inclure mon adresse IP dans ce message."
+}

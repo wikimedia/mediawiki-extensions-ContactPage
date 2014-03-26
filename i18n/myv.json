@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Botuzhaleny-sodamo"
+        ]
+    },
+    "contactpage-legend": "Кучомс е-сёрма",
+    "contactpage-fromname": "Эсеть леметь: *",
+    "contactpage-fromaddress": "Эсеть е-сёрмат: **",
+    "contactpage-fromname-required": "Эсеть леметь:",
+    "contactpage-formfootnotes-required": "Весе паксятне эрявикст."
+}

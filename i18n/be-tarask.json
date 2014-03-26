@@ -1,0 +1,27 @@
+{
+    "@metadata": {
+        "authors": [
+            "EugeneZelenko",
+            "Jim-by",
+            "Red Winged Duck",
+            "Wizardist"
+        ]
+    },
+    "contactpage": "Старонка кантакту",
+    "contactpage-desc": "[[Special:Contact|Кантактная форма для наведвальнікаў]]",
+    "contactpage-title": "Кантакт",
+    "contactpage-pagetext": "Калі ласка, карыстайцеся формай ніжэй, каб зьвязацца з намі.",
+    "contactpage-legend": "Даслаць ліст па электроннай пошце",
+    "contactpage-defsubject": "Паведамленьне",
+    "contactpage-subject-and-sender": "$1 (ад $2)",
+    "contactpage-subject-and-sender-withip": "$1 (ад $2 з $3)",
+    "contactpage-fromname": "Ваша імя: *",
+    "contactpage-fromaddress": "Ваш адрас электроннай пошты: **",
+    "contactpage-formfootnotes": "* неабавязкова<br />\n** неабавязкова, але патрабуецца, калі Вы жадаеце атрымаць адказ",
+    "contactpage-fromname-required": "Ваша імя:",
+    "contactpage-fromaddress-required": "Ваш адрас электроннай пошты:",
+    "contactpage-formfootnotes-required": "Усе палі павінны быць запоўнены.",
+    "contactpage-captcha": "Каб даслаць паведамленьне, калі ласка, прайдзіце праверку CAPTCHA ([[Special:Captcha/help|падрабязьней]])",
+    "contactpage-captcha-failed": "Праверка CAPTCHA ня пройдзена! ([[Special:Captcha/help|падрабязьней]])",
+    "contactpage-includeip": "Дадаць мой IP-адрас у гэтае паведамленьне."
+}

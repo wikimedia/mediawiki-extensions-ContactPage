@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "contactpage": "Pagina de contacto",
+    "contactpage-desc": "[[Special:Contact|Formulario de contacto pro visitatores]]",
+    "contactpage-title": "Contacto",
+    "contactpage-pagetext": "Per favor usa le formulario infra pro contactar nos.",
+    "contactpage-legend": "Inviar e-mail",
+    "contactpage-defsubject": "Message de contacto",
+    "contactpage-subject-and-sender": "$1 (de $2)",
+    "contactpage-subject-and-sender-withip": "$1 (de $2 a $3)",
+    "contactpage-fromname": "Tu nomine: *",
+    "contactpage-fromaddress": "Tu e-mail: **",
+    "contactpage-formfootnotes": "* optional<br />\n** optional sed necessari si tu vole reciper un responsa",
+    "contactpage-fromname-required": "Tu nomine:",
+    "contactpage-fromaddress-required": "Tu e-mail:",
+    "contactpage-formfootnotes-required": "Tote le campos es obligatori.",
+    "contactpage-captcha": "Pro inviar le message, per favor resolve le captcha ([[Special:Captcha/help|plus info]])",
+    "contactpage-captcha-failed": "Le test captcha falleva! ([[Special:Captcha/help|plus info]])",
+    "contactpage-includeip": "Includer mi adresse IP in iste message."
+}

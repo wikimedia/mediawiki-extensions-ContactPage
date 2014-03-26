@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "contactpage": "Páxina de contautu",
+    "contactpage-desc": "[[Special:Contact|Formulariu de contautu pa los visitantes]]",
+    "contactpage-title": "Contautu",
+    "contactpage-pagetext": "Usa'l formulariu d'abaxo pa comunicate con nós.",
+    "contactpage-legend": "Unviar un corréu",
+    "contactpage-defsubject": "Mensaxe de contautu",
+    "contactpage-subject-and-sender": "$1 (de $2)",
+    "contactpage-subject-and-sender-withip": "$1 (de $2 en $3)",
+    "contactpage-fromname": "Nome:",
+    "contactpage-fromaddress": "Direición de corréu electrónicu:",
+    "contactpage-formfootnotes": "(necesario si quier una respuesta)",
+    "contactpage-includeip": "Incluir la mio direición IP nesti mensaxe."
+}

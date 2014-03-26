@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michaello",
+            "Rancher",
+            "Жељко Тодоровић"
+        ]
+    },
+    "contactpage-desc": "[[Special:Contact|Kontakt-forma za posetioce]]",
+    "contactpage-title": "Kontakt",
+    "contactpage-pagetext": "Molimo Vas da koristite formu ispod da nas kontaktirate.",
+    "contactpage-legend": "Pošalji e-poruku",
+    "contactpage-subject-and-sender": "$1 (od $2)",
+    "contactpage-fromname": "Vaše ime: *",
+    "contactpage-fromaddress": "Vaš mejl: **",
+    "contactpage-formfootnotes": "* neobavezno<br />\n** neobavezno, ali potrebno ako želite da dobijete odgovor",
+    "contactpage-fromname-required": "Vaše ime:",
+    "contactpage-fromaddress-required": "E-pošta:",
+    "contactpage-formfootnotes-required": "Sva polja su obavezna.",
+    "contactpage-captcha": "Molimo Vas da rešite CAPTCHA-u, da biste poslali poruku ([[Special:Captcha/help|više informacija]])",
+    "contactpage-captcha-failed": "CAPTCHA test nije prošao! ([[Special:Captcha/help|više informacija]])"
+}

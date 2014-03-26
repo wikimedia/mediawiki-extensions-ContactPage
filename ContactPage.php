@@ -22,11 +22,12 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( 'Daniel Kinzler', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ContactPage',
 	'descriptionmsg' => 'contactpage-desc',
-	'version' => 2.1
+	'version' => 2.2
 );
 
 // Set up the new special page
 $dir = __DIR__ . '/';
+$wgMessagesDirs['ContactPage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ContactPage'] = $dir . 'ContactPage.i18n.php';
 $wgExtensionMessagesFiles['ContactPageAliases'] = $dir . 'ContactPage.alias.php';
 

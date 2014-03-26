@@ -1,0 +1,29 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cimon Avaro",
+            "Crt",
+            "Jaakonam",
+            "Nike",
+            "Silvonen",
+            "Vililikku"
+        ]
+    },
+    "contactpage": "Yhteydenottosivu",
+    "contactpage-desc": "[[Special:Contact|Yhteydenottolomake vierailijoille]].",
+    "contactpage-title": "Ota yhteyttä",
+    "contactpage-pagetext": "Voit ottaa yhteyttä meihin alla olevalla lomakkeella.",
+    "contactpage-legend": "Lähetä sähköposti",
+    "contactpage-defsubject": "Viestisi",
+    "contactpage-subject-and-sender": "$1 (lähettäjä: $2)",
+    "contactpage-subject-and-sender-withip": "$1 (käyttäjältä $2 osoitteesta $3)",
+    "contactpage-fromname": "Nimesi *",
+    "contactpage-fromaddress": "Sähköpostiosoitteesi **",
+    "contactpage-formfootnotes": "* vapaaehtoinen<br />\n** vapaaehtoinen mutta tarpeen, jos haluat vastauksen viestiisi",
+    "contactpage-fromname-required": "Nimesi",
+    "contactpage-fromaddress-required": "Sähköpostiosoitteesi",
+    "contactpage-formfootnotes-required": "Kaikki kentät ovat pakollisia.",
+    "contactpage-captcha": "Ratkaise captcha-testi ennen viestin lähettämistä ([[Special:Captcha/help|lisätietoja]])",
+    "contactpage-captcha-failed": "Captcha-testi ei onnistunut! ([[Special:Captcha/help|lisätietoja]])",
+    "contactpage-includeip": "Sisällytä IP-osoitteeni tähän viestiin."
+}
