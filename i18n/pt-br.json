@@ -3,7 +3,8 @@
         "authors": [
             "Carla404",
             "Eduardo.mps",
-            "Giro720"
+            "Giro720",
+            "Cainamarques"
         ]
     },
     "contactpage": "Página de Contato",
@@ -14,13 +15,8 @@
     "contactpage-defsubject": "Mensagem de Contato",
     "contactpage-subject-and-sender": "$1 (de $2)",
     "contactpage-subject-and-sender-withip": "$1 (de $2, endereço $3)",
-    "contactpage-fromname": "O seu nome: *",
-    "contactpage-fromaddress": "O seu email: **",
-    "contactpage-formfootnotes": "* opcional<br />\n** opcional, mas necessário se quiser uma resposta",
-    "contactpage-fromname-required": "O seu nome:",
-    "contactpage-fromaddress-required": "O seu e-mail:",
-    "contactpage-formfootnotes-required": "Todos os campos são obrigatórios.",
-    "contactpage-captcha": "Para enviar a mensagem, por favor, resolva o ''captcha'' ([[Special:Captcha/help|mais informação]])",
-    "contactpage-captcha-failed": "Teste captcha falhou! ([[Special:Captcha/help|mais informação]])",
+    "contactpage-fromname": "Seu nome:",
+    "contactpage-fromaddress": "Seu email:",
+    "contactpage-formfootnotes": "(necessário se deseja uma resposta)",
     "contactpage-includeip": "Incluir o meu endereço IP nesta mensagem."
 }

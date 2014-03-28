@@ -15,11 +15,6 @@
     "contactpage-subject-and-sender": "$1 ($2 कडून)",
     "contactpage-fromname": "आपले नाव: *",
     "contactpage-fromaddress": "आपला विपत्रपत्ता:**",
-    "contactpage-formfootnotes": "* वैकल्पिक<br />\n** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक",
-    "contactpage-fromname-required": "आपले नाव:",
-    "contactpage-fromaddress-required": "आपला विपत्रपत्ता:",
-    "contactpage-formfootnotes-required": "सर्व फिल्डस् भरणे आवश्यक",
-    "contactpage-captcha": "हा संदेश पाठविण्यासाठी, कृपया कॅपचा (captcha) सोडवा ([[Special:Captcha/help|अधिक माहिती]])",
-    "contactpage-captcha-failed": "कॅपचा चाचणी पूर्ण झालेली नाही! ([[Special:Captcha/help|अधिक माहिती]])",
+    "contactpage-formfootnotes": "* वैकल्पिक\u003Cbr /\u003E\n** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक",
     "contactpage-includeip": "माझा अंकपत्ता या संदेशात अंतर्भूत करा"
 }
