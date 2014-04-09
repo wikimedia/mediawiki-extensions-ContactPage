@@ -109,6 +109,11 @@ $specialPageAliases['gu'] = array(
 	'Contact' => array( 'સંપર્ક' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'Contact' => array( 'Hoʻokaʻaʻike', 'Hookaaike' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Contact' => array( 'יצירת_קשר' ),
