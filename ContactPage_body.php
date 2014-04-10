@@ -356,7 +356,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if( !$mailResult->isOK() ) {
 			wfDebug( __METHOD__ . ': got error from UserMailer: ' . $mailResult->getMessage() . "\n" );
-			return wfMessage( 'usermailererror' )->text() . $mailResult->getMessage();
+			return wfMessage( 'contactpage-usermailererror' )->text() . $mailResult->getMessage();
 		}
 
 		// if the user requested a copy of this mail, do this now,
@@ -374,7 +374,7 @@ class SpecialContact extends UnlistedSpecialPage {
 					// We can either show them an error, or we can say everything was fine,
 					// or we can say we sort of failed AND sort of succeeded. Of these options,
 					// simply saying there was an error is probably best.
-					return wfMessage( 'usermailererror' )->text() . $ccResult->getMessage();
+					return wfMessage( 'contactpage-usermailererror' )->text() . $ccResult->getMessage();
 				}
 			}
 		}
