@@ -21,5 +21,6 @@
     "contactpage-fromname": "{{Identical|Your name}}",
     "contactpage-fromaddress": "{{Identical|E-mail address}}",
     "contactpage-formfootnotes": "Message to notify users that an email address is needed if an answer is required",
-    "contactpage-includeip": "Used as checkbox label in the ContactPage form."
+    "contactpage-includeip": "Used as checkbox label in the ContactPage form.",
+    "contactpage-usermailererror": "Error message displayed when no email could be sent by the MediWiki UserMailer script."
 }

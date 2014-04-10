@@ -16,5 +16,6 @@
     "contactpage-fromname": "Your name:",
     "contactpage-fromaddress": "Your email address:",
     "contactpage-formfootnotes": "(needed if you want an answer)",
-    "contactpage-includeip": "Include my IP address in this message."
+    "contactpage-includeip": "Include my IP address in this message.",
+    "contactpage-usermailererror": "Mail object returned error:"
 }
