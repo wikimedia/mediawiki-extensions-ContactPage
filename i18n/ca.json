@@ -5,7 +5,8 @@
             "Fitoschido",
             "Martorell",
             "SMP",
-            "Solde"
+            "Solde",
+            "Vriullop"
         ]
     },
     "contactpage": "Pàgina de contacte",
@@ -14,15 +15,11 @@
     "contactpage-pagetext": "Utilitzeu el formulari següent per a contactar-nos.",
     "contactpage-legend": "Envia missatge",
     "contactpage-defsubject": "Missatge de contacte",
-    "contactpage-subject-and-sender": "$1 (des de $2)",
+    "contactpage-subject-and-sender": "$1 (de $2)",
     "contactpage-subject-and-sender-withip": "$1 (de $2 a $3)",
-    "contactpage-fromname": "El teu nom: *",
-    "contactpage-fromaddress": "El vostre correu-e: **",
-    "contactpage-formfootnotes": "* opcional<br />\n** opcional però necessari si voleu una resposta",
-    "contactpage-fromname-required": "El teu nom:",
-    "contactpage-fromaddress-required": "El teu correu electrònic:",
-    "contactpage-formfootnotes-required": "Tots els camps són obligatoris.",
-    "contactpage-captcha": "Per enviar el missatge, si us plau resoleu el captcha ([[Special:Captcha/help|more info]])",
-    "contactpage-captcha-failed": "Captcha erroni! ([[Special:Captcha/help|more info]])",
-    "contactpage-includeip": "Inclou al missatge l'adreça IP que estic utilitzant."
+    "contactpage-fromname": "El vostre nom:",
+    "contactpage-fromaddress": "La vostra adreça de correu:",
+    "contactpage-formfootnotes": "(necessari si voleu una resposta)",
+    "contactpage-includeip": "Inclou al missatge l'adreça IP que estic utilitzant.",
+    "contactpage-usermailererror": "L'objecte de correu ha retornat un error:"
 }
