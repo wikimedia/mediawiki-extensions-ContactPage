@@ -1,10 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "John Reid"
-        ]
-    },
-    "contactpage-fromname": "Yer name:",
-    "contactpage-fromaddress": "Yer wab-mail address",
-    "contactpage-formfootnotes": "(needed gif ye want aen answer)"
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"contactpage-fromname": "Yer name:",
+	"contactpage-fromaddress": "Yer wab-mail address",
+	"contactpage-formfootnotes": "(needed gif ye want aen answer)",
+	"contactpage-usermailererror": "Mail object returned mistak:"
 }

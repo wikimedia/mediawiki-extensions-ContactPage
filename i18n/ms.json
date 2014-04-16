@@ -1,25 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Aurora",
-            "Aviator"
-        ]
-    },
-    "contactpage": "Laman hubungan",
-    "contactpage-desc": "[[Special:Contact|Borang hubungan untuk pengunjung]]",
-    "contactpage-title": "Hubungi kami",
-    "contactpage-pagetext": "Sila gunakan borang di bawah untuk menghubungi kami.",
-    "contactpage-legend": "Kirim e-mel",
-    "contactpage-defsubject": "Pesanan",
-    "contactpage-subject-and-sender": "$1 (daripada $2)",
-    "contactpage-subject-and-sender-withip": "$1 (daripada $2 di alamat $3)",
-    "contactpage-fromname": "Nama anda: *",
-    "contactpage-fromaddress": "E-mel anda: **",
-    "contactpage-formfootnotes": "* pilihan<br />\n** perlu diisi jika mahu dibalas",
-    "contactpage-fromname-required": "Nama anda:",
-    "contactpage-fromaddress-required": "E-mel anda:",
-    "contactpage-formfootnotes-required": "Semua ruangan wajib diisi.",
-    "contactpage-captcha": "Untuk mengirim pesanan ini, sila selesaikan ujian CAPTCHA yang diberikan ([[Special:Captcha/help|maklumat lanjut]])",
-    "contactpage-captcha-failed": "Anda tidak melepasi ujian CAPTCHA! ([[Special:Captcha/help|maklumat lanjut]])",
-    "contactpage-includeip": "Sertakan alamat IP saya dalam pesanan ini."
+	"@metadata": {
+		"authors": [
+			"Aurora",
+			"Aviator"
+		]
+	},
+	"contactpage": "Laman hubungan",
+	"contactpage-desc": "[[Special:Contact|Borang hubungan untuk pengunjung]]",
+	"contactpage-title": "Hubungi kami",
+	"contactpage-pagetext": "Sila gunakan borang di bawah untuk menghubungi kami.",
+	"contactpage-legend": "Kirim e-mel",
+	"contactpage-defsubject": "Pesanan",
+	"contactpage-subject-and-sender": "$1 (daripada $2)",
+	"contactpage-subject-and-sender-withip": "$1 (daripada $2 di alamat $3)",
+	"contactpage-fromname": "Nama anda: *",
+	"contactpage-fromaddress": "E-mel anda: **",
+	"contactpage-formfootnotes": "* pilihan<br />\n** perlu diisi jika mahu dibalas",
+	"contactpage-includeip": "Sertakan alamat IP saya dalam pesanan ini.",
+	"contactpage-usermailererror": "Objek Mail memulangkan ralat:"
 }

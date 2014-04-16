@@ -1,23 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rancher",
-            "Михајло Анђелковић"
-        ]
-    },
-    "contactpage": "Страница за контакт",
-    "contactpage-desc": "[[Special:Contact|Контакт-форма за посетиоце]]",
-    "contactpage-title": "Контакт",
-    "contactpage-pagetext": "Молимо Вас да користите форму испод да нас контактирате.",
-    "contactpage-legend": "Пошаљи е-поруку",
-    "contactpage-defsubject": "Порука за контакт",
-    "contactpage-subject-and-sender": "$1 (од $2)",
-    "contactpage-fromname": "Ваше име: *",
-    "contactpage-fromaddress": "Ваша е-адреса: **",
-    "contactpage-formfootnotes": "* необавезно<br />\n** необавезно, али потребно ако желите да добијете одговор",
-    "contactpage-fromname-required": "Ваше име:",
-    "contactpage-fromaddress-required": "Е-пошта:",
-    "contactpage-formfootnotes-required": "Сва поља су обавезна.",
-    "contactpage-captcha": "Молимо Вас да решите CAPTCHA-у, да бисте послали поруку ([[Special:Captcha/help|више информација]])",
-    "contactpage-captcha-failed": "CAPTCHA тест није прошао! ([[Special:Captcha/help|више информација]])"
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Михајло Анђелковић"
+		]
+	},
+	"contactpage": "Страница за контакт",
+	"contactpage-desc": "[[Special:Contact|Контакт-форма за посетиоце]]",
+	"contactpage-title": "Контакт",
+	"contactpage-pagetext": "Молимо Вас да користите форму испод да нас контактирате.",
+	"contactpage-legend": "Пошаљи е-поруку",
+	"contactpage-defsubject": "Порука за контакт",
+	"contactpage-subject-and-sender": "$1 (од $2)",
+	"contactpage-fromname": "Ваше име: *",
+	"contactpage-fromaddress": "Ваша е-адреса: **",
+	"contactpage-formfootnotes": "* необавезно<br />\n** необавезно, али потребно ако желите да добијете одговор",
+	"contactpage-usermailererror": "Дошло је до грешке при слању поруке:"
 }

@@ -1,11 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bombola"
-        ]
-    },
-    "contactpage-fromname": "Skani coxo: *",
-    "contactpage-fromaddress": "Skani e-mail: **",
-    "contactpage-fromname-required": "Skani coxo:",
-    "contactpage-fromaddress-required": "Skani e-mail:"
+	"@metadata": {
+		"authors": [
+			"Bombola"
+		]
+	},
+	"contactpage-fromname": "Skani coxo: *",
+	"contactpage-fromaddress": "Skani e-mail: **"
 }

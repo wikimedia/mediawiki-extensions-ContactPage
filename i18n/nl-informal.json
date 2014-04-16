@@ -1,11 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand"
-        ]
-    },
-    "contactpage-fromname": "Je naam:*",
-    "contactpage-fromaddress": "Je e-mailadres:**",
-    "contactpage-fromname-required": "Je naam:",
-    "contactpage-fromaddress-required": "Je e-mailadres:"
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"contactpage-fromname": "Je naam:*",
+	"contactpage-fromaddress": "Je e-mailadres:**"
 }

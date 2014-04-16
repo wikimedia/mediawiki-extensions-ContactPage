@@ -1,10 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kernoweger",
-            "Kw-Moon",
-            "Nrowe"
-        ]
-    },
-    "contactpage-fromaddress-required": "Agas trigva ebost:"
+	"@metadata": {
+		"authors": [
+			"Kernoweger",
+			"Kw-Moon",
+			"Nrowe"
+		]
+	}
 }

@@ -1,25 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Harald Khan",
-            "Nghtwlkr",
-            "Njardarlogar"
-        ]
-    },
-    "contactpage": "Kontaktsida",
-    "contactpage-desc": "[[Special:Contact|Kontaktskjema for vitjande]]",
-    "contactpage-title": "Kontakt",
-    "contactpage-pagetext": "Bruk skjemaet nedanfor for å kontakta oss.",
-    "contactpage-legend": "Send e-post",
-    "contactpage-defsubject": "Melding",
-    "contactpage-subject-and-sender": "$1 (frå $2)",
-    "contactpage-subject-and-sender-withip": "$1 (frå $2 på $3)",
-    "contactpage-fromname": "Namnet ditt: *",
-    "contactpage-fromaddress": "E-postadressa di: **",
-    "contactpage-formfootnotes": "* valfri<br />\n** valfri, men er naudsynleg dersom du vil ha svar",
-    "contactpage-fromname-required": "Namnet ditt:",
-    "contactpage-fromaddress-required": "E-postadressa di:",
-    "contactpage-formfootnotes-required": "Alle felt er naudsynlege.",
-    "contactpage-captcha": "For å senda meldinga, ver venleg og løys captcha-oppgåva ([[Special:Captcha/help|meir informasjon]])",
-    "contactpage-captcha-failed": "Captcha-testen feila! ([[Special:Captcha/help|meir informasjon]])"
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Nghtwlkr",
+			"Njardarlogar"
+		]
+	},
+	"contactpage": "Kontaktsida",
+	"contactpage-desc": "[[Special:Contact|Kontaktskjema for vitjande]]",
+	"contactpage-title": "Kontakt",
+	"contactpage-pagetext": "Bruk skjemaet nedanfor for å kontakta oss.",
+	"contactpage-legend": "Send e-post",
+	"contactpage-defsubject": "Melding",
+	"contactpage-subject-and-sender": "$1 (frå $2)",
+	"contactpage-subject-and-sender-withip": "$1 (frå $2 på $3)",
+	"contactpage-fromname": "Namnet ditt: *",
+	"contactpage-fromaddress": "E-postadressa di: **",
+	"contactpage-formfootnotes": "* valfri<br />\n** valfri, men er naudsynleg dersom du vil ha svar",
+	"contactpage-usermailererror": "E-post systemet gav feilmelding:"
 }

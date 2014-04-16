@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sahran"
-        ]
-    },
-    "contactpage-title": "ئالاقەداش",
-    "contactpage-legend": "تورخەت يوللا",
-    "contactpage-fromname-required": "ئاتىڭىز:"
+	"@metadata": {
+		"authors": [
+			"Sahran"
+		]
+	},
+	"contactpage-title": "ئالاقەداش",
+	"contactpage-legend": "تورخەت يوللا",
+	"contactpage-usermailererror": "Mail ئوبيېكتى خاتالىق قايتۇردى:"
 }

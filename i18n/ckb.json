@@ -1,8 +1,7 @@
 {
-    "@metadata": {
-        "authors": [
-            "Calak"
-        ]
-    },
-    "contactpage-fromname-required": "ناوەکەت:"
+	"@metadata": {
+		"authors": [
+			"Calak"
+		]
+	}
 }

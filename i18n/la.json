@@ -1,12 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Omnipaedista",
-            "SPQRobin",
-            "UV"
-        ]
-    },
-    "contactpage-subject-and-sender": "$1 (ex $2)",
-    "contactpage-fromname": "Nomen tuum: *",
-    "contactpage-fromname-required": "Nomen tuum:"
+	"@metadata": {
+		"authors": [
+			"Omnipaedista",
+			"SPQRobin",
+			"UV"
+		]
+	},
+	"contactpage-subject-and-sender": "$1 (ex $2)",
+	"contactpage-fromname": "Nomen tuum: *"
 }

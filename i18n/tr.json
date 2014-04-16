@@ -1,29 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Emperyan",
-            "Homonihilis",
-            "Joseph",
-            "Karduelis",
-            "Mach",
-            "Manco Capac"
-        ]
-    },
-    "contactpage": "İrtibat sayfası",
-    "contactpage-desc": "[[Special:Contact|Ziyaretçiler için irtibat formu]]",
-    "contactpage-title": "İrtibat",
-    "contactpage-pagetext": "İrtibat için lütfen aşağıdaki formu kullanın.",
-    "contactpage-legend": "E-posta gönderin",
-    "contactpage-defsubject": "İrtibat mesajı",
-    "contactpage-subject-and-sender": "$1 ($2'den)",
-    "contactpage-subject-and-sender-withip": "$1 ($3'teki $2'den)",
-    "contactpage-fromname": "İsminiz: *",
-    "contactpage-fromaddress": "E-postanız: **",
-    "contactpage-formfootnotes": "* isteğe bağlı<br />\n** isteğe bağlı ancak cevap istiyorsanız gerekli",
-    "contactpage-fromname-required": "Adınız:",
-    "contactpage-fromaddress-required": "E-posta adresiniz:",
-    "contactpage-formfootnotes-required": "Bütün alanlar gereklidir.",
-    "contactpage-captcha": "Mesajı göndermek için, lütfen güvenlik kodunu çözün ([[Special:Captcha/help|daha fazla bilgi]])",
-    "contactpage-captcha-failed": "Captcha testi başarısız oldu! ([[Special:Captcha/help|daha fazla bilgi]])",
-    "contactpage-includeip": "Mesaja IP adresimi ekle."
+	"@metadata": {
+		"authors": [
+			"Emperyan",
+			"Homonihilis",
+			"Joseph",
+			"Karduelis",
+			"Mach",
+			"Manco Capac"
+		]
+	},
+	"contactpage": "İrtibat sayfası",
+	"contactpage-desc": "[[Special:Contact|Ziyaretçiler için irtibat formu]]",
+	"contactpage-title": "İrtibat",
+	"contactpage-pagetext": "İrtibat için lütfen aşağıdaki formu kullanın.",
+	"contactpage-legend": "E-posta gönderin",
+	"contactpage-defsubject": "İrtibat mesajı",
+	"contactpage-subject-and-sender": "$1 ($2'den)",
+	"contactpage-subject-and-sender-withip": "$1 ($3'teki $2'den)",
+	"contactpage-fromname": "İsminiz: *",
+	"contactpage-fromaddress": "E-postanız: **",
+	"contactpage-formfootnotes": "* isteğe bağlı<br />\n** isteğe bağlı ancak cevap istiyorsanız gerekli",
+	"contactpage-includeip": "Mesaja IP adresimi ekle.",
+	"contactpage-usermailererror": "E-posta hizmeti hata verdi:"
 }

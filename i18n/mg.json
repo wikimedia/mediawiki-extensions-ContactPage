@@ -1,9 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jagwar"
-        ]
-    },
-    "contactpage-fromname": "Ny anaranao : *",
-    "contactpage-fromaddress": "Ny imailakanao : **"
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"contactpage-fromname": "Ny anaranao : *",
+	"contactpage-fromaddress": "Ny imailakanao : **",
+	"contactpage-usermailererror": "Misy tsy mety amin'ny lohatenin'ny imailaka:"
 }

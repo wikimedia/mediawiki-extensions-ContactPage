@@ -1,25 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "BRUTE",
-            "David1010",
-            "Temuri rajavi"
-        ]
-    },
-    "contactpage": "საკონტაქტო გვერდი",
-    "contactpage-desc": "[[Special:Contact|საკონტაქტო ფორმა სტუმრებისათვის]]",
-    "contactpage-title": "კონტაქტი",
-    "contactpage-pagetext": "გთხოვთ, გამოიყენეთ ქვემოთ მოცემული ფორმა ჩვენთან საკონტაქტოთ.",
-    "contactpage-legend": "e-mail-ის გაგზავნა",
-    "contactpage-defsubject": "საკონტაქტო შეტყობინება",
-    "contactpage-subject-and-sender": "$1 ($2-სგან)",
-    "contactpage-fromname": "თქვენი სახელი: *",
-    "contactpage-fromaddress": "თქვენი ელ-ფოსტა: **",
-    "contactpage-formfootnotes": "* არასავალდებულო<br />\n** არასავალდებულო, მაგრამ საჭიროა პასუხის მისაღებად",
-    "contactpage-fromname-required": "თქვენი სახელი:",
-    "contactpage-fromaddress-required": "თქვენი ელ-ფოსტა:",
-    "contactpage-formfootnotes-required": "ყველა ველი სავალდებულოა.",
-    "contactpage-captcha": "ამ შეტყობინების გასაგზავნად, გთოვთ გაიარეთ captcha- შემოწმება ([[Special:Captcha/help|რა არის ეს?]])",
-    "contactpage-captcha-failed": "Captcha-ს შემოწმება ჩავარდა! ([[Special:Captcha/help|რა არის ეს?]])",
-    "contactpage-includeip": "მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში."
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"Temuri rajavi"
+		]
+	},
+	"contactpage": "საკონტაქტო გვერდი",
+	"contactpage-desc": "[[Special:Contact|საკონტაქტო ფორმა სტუმრებისათვის]]",
+	"contactpage-title": "კონტაქტი",
+	"contactpage-pagetext": "გთხოვთ, გამოიყენეთ ქვემოთ მოცემული ფორმა ჩვენთან საკონტაქტოთ.",
+	"contactpage-legend": "e-mail-ის გაგზავნა",
+	"contactpage-defsubject": "საკონტაქტო შეტყობინება",
+	"contactpage-subject-and-sender": "$1 ($2-სგან)",
+	"contactpage-fromname": "თქვენი სახელი: *",
+	"contactpage-fromaddress": "თქვენი ელ-ფოსტა: **",
+	"contactpage-formfootnotes": "* არასავალდებულო<br />\n** არასავალდებულო, მაგრამ საჭიროა პასუხის მისაღებად",
+	"contactpage-includeip": "მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.",
+	"contactpage-usermailererror": "ელ. ფოსტა დაბრუნდა შეცდომის გამო:"
 }

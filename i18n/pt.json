@@ -1,22 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu",
-            "Imperadeiro98",
-            "Malafaya",
-            "Waldir"
-        ]
-    },
-    "contactpage": "Página de Contacto",
-    "contactpage-desc": "[[Special:Contact|Formulário de contacto para visitantes]]",
-    "contactpage-title": "Contacto",
-    "contactpage-pagetext": "Por favor, use o formulário abaixo para nos contactar.",
-    "contactpage-legend": "Enviar correio electrónico",
-    "contactpage-defsubject": "Mensagem de Contacto",
-    "contactpage-subject-and-sender": "$1 (de $2)",
-    "contactpage-subject-and-sender-withip": "$1 (de $2, endereço $3)",
-    "contactpage-fromname": "O seu nome:",
-    "contactpage-fromaddress": "O seu correio electrónico:",
-    "contactpage-formfootnotes": "(necessário se deseja uma resposta)",
-    "contactpage-includeip": "Incluir o meu endereço IP nesta mensagem."
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Imperadeiro98",
+			"Malafaya",
+			"Waldir"
+		]
+	},
+	"contactpage": "Página de Contacto",
+	"contactpage-desc": "[[Special:Contact|Formulário de contacto para visitantes]]",
+	"contactpage-title": "Contacto",
+	"contactpage-pagetext": "Por favor, use o formulário abaixo para nos contactar.",
+	"contactpage-legend": "Enviar correio electrónico",
+	"contactpage-defsubject": "Mensagem de Contacto",
+	"contactpage-subject-and-sender": "$1 (de $2)",
+	"contactpage-subject-and-sender-withip": "$1 (de $2, endereço $3)",
+	"contactpage-fromname": "O seu nome:",
+	"contactpage-fromaddress": "O seu correio electrónico:",
+	"contactpage-formfootnotes": "(necessário se deseja uma resposta)",
+	"contactpage-includeip": "Incluir o meu endereço IP nesta mensagem.",
+	"contactpage-usermailererror": "O sistema de correio devolveu o erro:"
 }

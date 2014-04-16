@@ -1,10 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "KartikMistry"
-        ]
-    },
-    "contactpage-title": "સંપર્ક",
-    "contactpage-legend": "ઇમેલ મોકલો",
-    "contactpage-fromname": "તમારું નામ:"
+	"@metadata": {
+		"authors": [
+			"KartikMistry"
+		]
+	},
+	"contactpage-title": "સંપર્ક",
+	"contactpage-legend": "ઇમેલ મોકલો",
+	"contactpage-fromname": "તમારું નામ:",
+	"contactpage-usermailererror": "મેલ વસ્તુ પાઠવવામાં ત્રુટિ"
 }

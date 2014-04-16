@@ -1,24 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nghtwlkr"
-        ]
-    },
-    "contactpage": "Kontaktside",
-    "contactpage-desc": "[[Special:Contact|Kontaktskjema for besøkende]]",
-    "contactpage-title": "Kontakt",
-    "contactpage-pagetext": "Bruk skjemaet nedenunder for å kontakte oss.",
-    "contactpage-legend": "Send e-post",
-    "contactpage-defsubject": "Beskjed",
-    "contactpage-subject-and-sender": "$1 (fra $2)",
-    "contactpage-subject-and-sender-withip": "$1 (fra $2 på $3)",
-    "contactpage-fromname": "Ditt navn: *",
-    "contactpage-fromaddress": "Din e-postadresse: **",
-    "contactpage-formfootnotes": "* valgfri<br />\n** valgfri, men er nødvendig dersom du vil ha svar",
-    "contactpage-fromname-required": "Ditt navn:",
-    "contactpage-fromaddress-required": "Din e-postadresse:",
-    "contactpage-formfootnotes-required": "Alle felt er obligatoriske.",
-    "contactpage-captcha": "Løs captcha-oppgaven for å sende beskjeden ([[Special:Captcha/help|mer informasjon]])",
-    "contactpage-captcha-failed": "Captcha-test mislyktes! ([[Special:Captcha/help|mer informasjon]])",
-    "contactpage-includeip": "Inkluder IP-adressen min i denne meldingen."
+	"@metadata": {
+		"authors": [
+			"Nghtwlkr"
+		]
+	},
+	"contactpage": "Kontaktside",
+	"contactpage-desc": "[[Special:Contact|Kontaktskjema for besøkende]]",
+	"contactpage-title": "Kontakt",
+	"contactpage-pagetext": "Bruk skjemaet nedenunder for å kontakte oss.",
+	"contactpage-legend": "Send e-post",
+	"contactpage-defsubject": "Beskjed",
+	"contactpage-subject-and-sender": "$1 (fra $2)",
+	"contactpage-subject-and-sender-withip": "$1 (fra $2 på $3)",
+	"contactpage-fromname": "Ditt navn: *",
+	"contactpage-fromaddress": "Din e-postadresse: **",
+	"contactpage-formfootnotes": "* valgfri<br />\n** valgfri, men er nødvendig dersom du vil ha svar",
+	"contactpage-includeip": "Inkluder IP-adressen min i denne meldingen.",
+	"contactpage-usermailererror": "E-postobjekt returnerte feilen:"
 }
