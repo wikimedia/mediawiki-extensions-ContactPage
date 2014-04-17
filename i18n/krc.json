@@ -1,4 +1,8 @@
 {
-	"@metadata": [],
-	"contactpage-usermailererror": "Халат ючюн элетктрон письмо ызына къайтды:"
+	"@metadata": {
+		"authors": [
+			"Iltever"
+		]
+	},
+	"contactpage-usermailererror": "Халат ючюн электрон письмо ызына къайытды:"
 }

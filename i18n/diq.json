@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Xoser",
-			"Mirzali"
+			"Mirzali",
+			"Marmase"
 		]
 	},
 	"contactpage": "Pelê kontakî",
@@ -14,9 +15,9 @@
 	"contactpage-defsubject": "Mesajê kontakî",
 	"contactpage-subject-and-sender": "$1 ($2 ra)",
 	"contactpage-subject-and-sender-withip": "$1 ($2 ra $3 de)",
-	"contactpage-fromname": "Nameyê tu: *",
-	"contactpage-fromaddress": "E-maîlê tu: **",
-	"contactpage-formfootnotes": "* opsiyonal<br />\n** opsiyonal feqet beno gani eka ti yew cewap biwazo",
+	"contactpage-fromname": "Namey şıma",
+	"contactpage-fromaddress": "Adresa e-posta da şıma",
+	"contactpage-formfootnotes": "(tore cewab lazımo se)",
 	"contactpage-includeip": "Ena mesaj de adresê IP mi de bike.",
 	"contactpage-usermailererror": "Xızmeta e-postey xeta dayê:"
 }
