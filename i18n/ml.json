@@ -17,5 +17,5 @@
 	"contactpage-fromaddress": "താങ്കളുടെ ഇമെയിൽ വിലാസം: **",
 	"contactpage-formfootnotes": "* നിർബന്ധമില്ല<br />\n** നിർബന്ധമില്ല, പക്ഷെ താങ്കൾക്ക് മറുപടി വേണമെങ്കിൽ ഇതു ആവശ്യമാണ്‌",
 	"contactpage-includeip": "ഈ സന്ദേശത്തിൽ എന്റെ ഐ.പി. വിലാസവും ചേർക്കുക.",
-	"contactpage-usermailererror": "മെയിലുണ്ടായ പിഴവ് തിരിച്ചയച്ചിരിക്കുന്നു:"
+	"contactpage-usermailererror": "മെയിൽ ഒബ്ജക്റ്റ് പിഴവാണ് തിരിച്ചയത്:"
 }
