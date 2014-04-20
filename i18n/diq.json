@@ -15,9 +15,9 @@
 	"contactpage-defsubject": "Mesajê kontakî",
 	"contactpage-subject-and-sender": "$1 ($2 ra)",
 	"contactpage-subject-and-sender-withip": "$1 ($2 ra $3 de)",
-	"contactpage-fromname": "Namey şıma",
-	"contactpage-fromaddress": "Adresa e-posta da şıma",
-	"contactpage-formfootnotes": "(tore cewab lazımo se)",
+	"contactpage-fromname": "Nameyê şıma:",
+	"contactpage-fromaddress": "Adresa e-posteyê şıma:",
+	"contactpage-formfootnotes": "(şıma ke yew cewab wazenê lazım beno)",
 	"contactpage-includeip": "Ena mesaj de adresê IP mi de bike.",
 	"contactpage-usermailererror": "Xızmeta e-postey xeta dayê:"
 }
