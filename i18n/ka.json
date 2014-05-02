@@ -13,9 +13,9 @@
 	"contactpage-legend": "e-mail-ის გაგზავნა",
 	"contactpage-defsubject": "საკონტაქტო შეტყობინება",
 	"contactpage-subject-and-sender": "$1 ($2-სგან)",
-	"contactpage-fromname": "თქვენი სახელი: *",
-	"contactpage-fromaddress": "თქვენი ელ-ფოსტა: **",
-	"contactpage-formfootnotes": "* არასავალდებულო<br />\n** არასავალდებულო, მაგრამ საჭიროა პასუხის მისაღებად",
+	"contactpage-fromname": "თქვენი სახელი:",
+	"contactpage-fromaddress": "თქვენი ელ-ფოსტა:",
+	"contactpage-formfootnotes": "(საჭიროა მხოლოდ პასუხის მისაღებად)",
 	"contactpage-includeip": "მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.",
 	"contactpage-usermailererror": "ელ. ფოსტა დაბრუნდა შეცდომის გამო:"
 }
