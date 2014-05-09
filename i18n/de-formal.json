@@ -7,6 +7,5 @@
 	},
 	"contactpage-pagetext": "Mit diesem Formular können Sie uns Nachrichten zukommen lassen.",
 	"contactpage-fromname": "Ihr Name: *",
-	"contactpage-fromaddress": "Ihre E-Mail-Adresse: **",
-	"contactpage-formfootnotes": "* optional<br />\n** optional, wird aber benötigt, um Ihnen antworten zu können"
+	"contactpage-fromaddress": "Ihre E-Mail-Adresse: **"
 }
