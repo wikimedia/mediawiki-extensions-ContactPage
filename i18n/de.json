@@ -18,7 +18,7 @@
 	"contactpage-subject-and-sender-withip": "$1 (von $2 mit der IP-Adresse $3)",
 	"contactpage-fromname": "Dein Name:",
 	"contactpage-fromaddress": "Deine E-Mail-Adresse:",
-	"contactpage-formfootnotes": "(nötig, falls du eine Antwort wünschst)",
+	"contactpage-formfootnotes": "(wird benötigt, um antworten zu können)",
 	"contactpage-includeip": "Meine IP-Adresse in diese Nachricht einfügen.",
-	"contactpage-usermailererror": "Das E-Mail-Objekt gab einen Fehler zurück:"
+	"contactpage-usermailererror": "Beim Versenden gab es folgende Fehlermeldung:"
 }

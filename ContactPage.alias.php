@@ -276,7 +276,7 @@ $specialPageAliases['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
-	'Contact' => array( 'Contactar', 'Contatar' ),
+	'Contact' => array( 'Contatar' ),
 );
 
 /** Romanian (română) */
