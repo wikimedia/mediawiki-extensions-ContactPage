@@ -17,7 +17,7 @@
 	"contactpage-subject-and-sender": "$1 ($2님이 보냄)",
 	"contactpage-subject-and-sender-withip": "$1 ($2님이 $3에서 보냄)",
 	"contactpage-fromname": "내 이름:",
-	"contactpage-fromaddress": "내 이메일 주소 :",
+	"contactpage-fromaddress": "내 이메일 주소:",
 	"contactpage-formfootnotes": "(답변을 원할 경우 필요)",
 	"contactpage-includeip": "이 메시지에 내 IP 주소를 포함합니다.",
 	"contactpage-usermailererror": "메일 개체에서 오류 발생:"
