@@ -349,6 +349,11 @@ $specialPageAliases['tt-cyrl'] = array(
 	'Contact' => array( 'Элемтә' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'Contact' => array( 'Контакт' ),
+);
+
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = array(
 	'Contact' => array( 'رابطہ' ),
