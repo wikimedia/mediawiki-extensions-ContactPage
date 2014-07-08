@@ -12,9 +12,9 @@
 	"contactpage-defsubject": "Message de contacto",
 	"contactpage-subject-and-sender": "$1 (de $2)",
 	"contactpage-subject-and-sender-withip": "$1 (de $2 a $3)",
-	"contactpage-fromname": "Tu nomine: *",
-	"contactpage-fromaddress": "Tu e-mail: **",
-	"contactpage-formfootnotes": "* optional<br />\n** optional sed necessari si tu vole reciper un responsa",
+	"contactpage-fromname": "Tu nomine:",
+	"contactpage-fromaddress": "Tu e-mail:",
+	"contactpage-formfootnotes": "(necessari si tu vole reciper un responsa)",
 	"contactpage-includeip": "Includer mi adresse IP in iste message.",
 	"contactpage-usermailererror": "Le objecto de e-mail retornava le error:"
 }
