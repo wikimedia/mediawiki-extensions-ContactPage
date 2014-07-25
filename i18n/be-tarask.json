@@ -15,7 +15,7 @@
 	"contactpage-defsubject": "Паведамленьне",
 	"contactpage-subject-and-sender": "$1 (ад $2)",
 	"contactpage-subject-and-sender-withip": "$1 (ад $2 з $3)",
-	"contactpage-fromname": "Ваша імя: *",
+	"contactpage-fromname": "Вашае імя:",
 	"contactpage-fromaddress": "Ваш адрас электроннай пошты: **",
 	"contactpage-formfootnotes": "* неабавязкова<br />\n** неабавязкова, але патрабуецца, калі Вы жадаеце атрымаць адказ",
 	"contactpage-includeip": "Дадаць мой IP-адрас у гэтае паведамленьне.",
