@@ -7,7 +7,8 @@
 			"Shinjiman",
 			"Waihorace",
 			"Wrightbus",
-			"Cwlin0416"
+			"Cwlin0416",
+			"LNDDYL"
 		]
 	},
 	"contactpage": "聯絡頁面",
@@ -19,7 +20,7 @@
 	"contactpage-subject-and-sender": "$1 （自$2）",
 	"contactpage-subject-and-sender-withip": "$1 (由$2在$3)",
 	"contactpage-fromname": "您的姓名：",
-	"contactpage-fromaddress": "您的電子郵件地址：",
+	"contactpage-fromaddress": "您的電子郵件位址：",
 	"contactpage-formfootnotes": "(若您想要取得他人回應則必須填寫)",
 	"contactpage-includeip": "在此郵件中包含我的IP位置資料。",
 	"contactpage-usermailererror": "目標郵件地址返回錯誤："
