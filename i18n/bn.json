@@ -3,7 +3,8 @@
 		"authors": [
 			"Bellayet",
 			"Usarker",
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftab1995"
 		]
 	},
 	"contactpage": "যোগাযোগের পাতা",
@@ -13,8 +14,8 @@
 	"contactpage-defsubject": "যোগাযোগ বার্তা",
 	"contactpage-subject-and-sender": "$1 ($2 থেকে)",
 	"contactpage-subject-and-sender-withip": "$1 ($2 থেকে $3-এ)",
-	"contactpage-fromname": "আপনার নাম: *",
-	"contactpage-fromaddress": "আপনার ই-মেইল: **",
+	"contactpage-fromname": "আপনার নাম:",
+	"contactpage-fromaddress": "আপনার ইমেইল ঠিকানা:",
 	"contactpage-includeip": "এই বার্তায় আমার আইপি ঠিকানা যোগ করো।",
 	"contactpage-usermailererror": "মেইল অবজেক্ট ত্রুটি পাঠিয়েছে:"
 }
