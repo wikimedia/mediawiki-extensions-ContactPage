@@ -3,7 +3,8 @@
 		"authors": [
 			"Byrial",
 			"Christian List",
-			"Hylle"
+			"Hylle",
+			"Thomsen"
 		]
 	},
 	"contactpage": "Kontaktside",
@@ -14,9 +15,9 @@
 	"contactpage-defsubject": "Kontaktbesked",
 	"contactpage-subject-and-sender": "$1 (fra $2)",
 	"contactpage-subject-and-sender-withip": "$1 (fra $2 på $3)",
-	"contactpage-fromname": "Dit navn: *",
-	"contactpage-fromaddress": "Din e-mailadresse: **",
-	"contactpage-formfootnotes": "* valgfrit<br />\n** valgfrit, men er nødvendig hvis du ønsker at få svar",
+	"contactpage-fromname": "Dit navn:",
+	"contactpage-fromaddress": "Din e-mailadresse:",
+	"contactpage-formfootnotes": "(nødvendig hvis du ønsker at få svar)",
 	"contactpage-includeip": "Inkluder min IP-adresse i denne besked.",
 	"contactpage-usermailererror": "E-mail-modulet returnerede en fejl:"
 }
