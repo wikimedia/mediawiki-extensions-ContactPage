@@ -182,6 +182,15 @@ class SpecialContact extends UnlistedSpecialPage {
 			);
 		}
 
+		if ( $this->useCaptcha() ) {
+			$formItems['Captcha'] = array(
+				'label-message' => 'captcha-label',
+				'type' => 'info',
+				'default' => $this->getCaptcha(),
+				'raw' => true,
+			);
+		}
+
 		$form = new HTMLForm( $formItems, $this->getContext(), "contactpage-{$this->formType}" );
 		$form->setWrapperLegendMsg( 'contactpage-legend' );
 		$form->setSubmitTextMsg( 'emailsend' );
@@ -214,7 +223,8 @@ class SpecialContact extends UnlistedSpecialPage {
 	 *      string: Error message to display
 	 */
 	public function processInput( $formData ) {
-		global $wgUserEmailUseReplyTo, $wgPasswordSender;
+		global $wgUserEmailUseReplyTo, $wgPasswordSender, $wgCaptcha;
+
 		$config = $this->getTypeConfig();
 
 		$request = $this->getRequest();
@@ -338,6 +348,10 @@ class SpecialContact extends UnlistedSpecialPage {
 			$text .= "{$name}: $value\n";
 		}
 
+		if ( $this->useCaptcha() && !$wgCaptcha->passCaptcha() ) {
+			return wfMessage( 'contactpage-captcha-error' )->plain();
+		}
+
 		// Stolen from Special:EmailUser
 		$error = '';
 		if ( !wfRunHooks( 'EmailUser', array( &$targetAddress, &$submitterAddress, &$subject, &$text, &$error ) ) ) {
@@ -390,5 +404,33 @@ class SpecialContact extends UnlistedSpecialPage {
 	 */
 	private static function getYesOrNoMsg( $value ) {
 		return wfMessage( $value ? 'htmlform-yes' : 'htmlform-no' )->inContentLanguage()->text();
+	}
+
+	/**
+	 * @return boolean True if CAPTCHA should be used, false otherwise
+	 */
+	private function useCaptcha() {
+		global $wgCaptchaClass, $wgCaptchaTriggers;
+
+		return $wgCaptchaClass &&
+			isset( $wgCaptchaTriggers['contactpage'] ) &&
+			$wgCaptchaTriggers['contactpage'] &&
+			!$this->getUser()->isAllowed( 'skipcaptcha' );
+	}
+
+	/**
+	 * @return string CAPTCHA form HTML
+	 */
+	private function getCaptcha() {
+		// NOTE: make sure we have a session. May be required for CAPTCHAs to work.
+		wfSetupSession();
+
+		$captcha = ConfirmEditHooks::getInstance();
+		$captcha->trigger = 'contactpage';
+		$captcha->action = 'contact';
+
+		return '<div class="captcha">' .
+			$captcha->getForm() .
+			"</div>\n";
 	}
 }

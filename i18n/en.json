@@ -1,21 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Daniel Kinzler",
-            "Reedy"
-        ]
-    },
-    "contactpage": "Contact page",
-    "contactpage-desc": "[[Special:Contact|Contact form for visitors]]",
-    "contactpage-title": "Contact",
-    "contactpage-pagetext": "Please use the form below to contact us.",
-    "contactpage-legend": "Send email",
-    "contactpage-defsubject": "Contact message",
-    "contactpage-subject-and-sender": "$1 (from $2)",
-    "contactpage-subject-and-sender-withip": "$1 (from $2 at $3)",
-    "contactpage-fromname": "Your name:",
-    "contactpage-fromaddress": "Your email address:",
-    "contactpage-formfootnotes": "(needed if you want an answer)",
-    "contactpage-includeip": "Include my IP address in this message.",
-    "contactpage-usermailererror": "Mail object returned error:"
+	"@metadata": {
+		"authors": [
+			"Daniel Kinzler",
+			"Reedy"
+		]
+	},
+	"contactpage": "Contact page",
+	"contactpage-desc": "[[Special:Contact|Contact form for visitors]]",
+	"contactpage-title": "Contact",
+	"contactpage-pagetext": "Please use the form below to contact us.",
+	"contactpage-legend": "Send email",
+	"contactpage-defsubject": "Contact message",
+	"contactpage-subject-and-sender": "$1 (from $2)",
+	"contactpage-subject-and-sender-withip": "$1 (from $2 at $3)",
+	"contactpage-fromname": "Your name:",
+	"contactpage-fromaddress": "Your email address:",
+	"contactpage-formfootnotes": "(needed if you want an answer)",
+	"contactpage-includeip": "Include my IP address in this message.",
+	"contactpage-usermailererror": "Mail object returned error:",
+	"contactpage-captcha-error": "CAPTCHA error"
 }
