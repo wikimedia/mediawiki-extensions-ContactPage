@@ -22,5 +22,6 @@
 	"contactpage-fromaddress": "Votre adresse de courriel :",
 	"contactpage-formfootnotes": "(obligatoire si vous désirez une réponse)",
 	"contactpage-includeip": "Inclure mon adresse IP dans ce message.",
-	"contactpage-usermailererror": "Erreur dans l'objet du courriel :"
+	"contactpage-usermailererror": "Erreur dans l'objet du courriel :",
+	"contactpage-captcha-error": "Erreur de CAPTCHA"
 }

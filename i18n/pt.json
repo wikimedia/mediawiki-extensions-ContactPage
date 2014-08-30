@@ -4,7 +4,8 @@
 			"Hamilton Abreu",
 			"Imperadeiro98",
 			"Malafaya",
-			"Waldir"
+			"Waldir",
+			"Vitorvicentevalente"
 		]
 	},
 	"contactpage": "Página de Contacto",
@@ -19,5 +20,6 @@
 	"contactpage-fromaddress": "O seu correio electrónico:",
 	"contactpage-formfootnotes": "(necessário se deseja uma resposta)",
 	"contactpage-includeip": "Incluir o meu endereço IP nesta mensagem.",
-	"contactpage-usermailererror": "O sistema de correio devolveu o erro:"
+	"contactpage-usermailererror": "O sistema de correio devolveu o erro:",
+	"contactpage-captcha-error": "Erro de CAPTCHA"
 }

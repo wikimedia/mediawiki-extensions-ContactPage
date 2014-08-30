@@ -20,5 +20,6 @@
 	"contactpage-fromaddress": "Deine E-Mail-Adresse:",
 	"contactpage-formfootnotes": "(wird benötigt, um antworten zu können)",
 	"contactpage-includeip": "Meine IP-Adresse in diese Nachricht einfügen.",
-	"contactpage-usermailererror": "Beim Versenden gab es folgende Fehlermeldung:"
+	"contactpage-usermailererror": "Beim Versenden gab es folgende Fehlermeldung:",
+	"contactpage-captcha-error": "CAPTCHA-Fehler"
 }
