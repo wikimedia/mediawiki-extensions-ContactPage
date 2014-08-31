@@ -18,5 +18,6 @@
 	"contactpage-fromaddress": "Ваш адрес электронной почты:",
 	"contactpage-formfootnotes": "(необходимо только если вы хотите получить ответ)",
 	"contactpage-includeip": "Включить мой IP-адрес в это сообщение.",
-	"contactpage-usermailererror": "При отправке сообщения электронной почты произошла ошибка:"
+	"contactpage-usermailererror": "При отправке сообщения электронной почты произошла ошибка:",
+	"contactpage-captcha-error": "Ошибка капчи"
 }

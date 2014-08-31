@@ -3,7 +3,8 @@
 		"authors": [
 			"Dani",
 			"Glanthor Reviol",
-			"Misibacsi"
+			"Misibacsi",
+			"Csega"
 		]
 	},
 	"contactpage": "Kapcsolat",
@@ -18,5 +19,6 @@
 	"contactpage-fromaddress": "E-mail címed:",
 	"contactpage-formfootnotes": "(nem kötelező, de add meg, ha választ szeretnél)",
 	"contactpage-includeip": "Tüntesd fel az IP-címemet az üzenetben.",
-	"contactpage-usermailererror": "A levélküldő objektum hibával tért vissza:"
+	"contactpage-usermailererror": "A levélküldő objektum hibával tért vissza:",
+	"contactpage-captcha-error": "CAPTCHA hiba"
 }

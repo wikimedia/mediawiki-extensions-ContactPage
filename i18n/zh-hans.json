@@ -21,5 +21,6 @@
 	"contactpage-fromaddress": "您的邮箱：",
 	"contactpage-formfootnotes": "（可选，如果您想回答的话）",
 	"contactpage-includeip": "在此邮件中包含我的IP位置资料。",
-	"contactpage-usermailererror": "Mail 对象返回错误："
+	"contactpage-usermailererror": "Mail 对象返回错误：",
+	"contactpage-captcha-error": "验证码错误"
 }

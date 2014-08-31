@@ -12,16 +12,16 @@
 		]
 	},
 	"contactpage": "聯絡頁面",
-	"contactpage-desc": "[[Special:Contact|供訪問者使用的聯繫表單]]",
+	"contactpage-desc": "[[Special:Contact|供參觀者使用的聯絡表單]]",
 	"contactpage-title": "聯絡",
-	"contactpage-pagetext": "請用以下的表格去聯絡我們。",
-	"contactpage-legend": "傳送電郵",
+	"contactpage-pagetext": "請使用以下的表單聯絡我們。",
+	"contactpage-legend": "傳送信件",
 	"contactpage-defsubject": "聯絡訊息",
-	"contactpage-subject-and-sender": "$1 （自$2）",
-	"contactpage-subject-and-sender-withip": "$1 (由$2在$3)",
+	"contactpage-subject-and-sender": "$1 (來自 $2)",
+	"contactpage-subject-and-sender-withip": "$1 (來自 $2 位於 $3)",
 	"contactpage-fromname": "您的姓名：",
 	"contactpage-fromaddress": "您的電子郵件位址：",
 	"contactpage-formfootnotes": "(若您想要取得他人回應則必須填寫)",
-	"contactpage-includeip": "在此郵件中包含我的IP位置資料。",
-	"contactpage-usermailererror": "目標郵件地址返回錯誤："
+	"contactpage-includeip": "在此訊息中引用我的 IP 位置。",
+	"contactpage-usermailererror": "寄信物件回傳錯誤："
 }

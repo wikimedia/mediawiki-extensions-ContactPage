@@ -21,5 +21,6 @@
 	"contactpage-fromaddress": "あなたのメールアドレス:",
 	"contactpage-formfootnotes": "(回答が必要な場合は必ずご記入ください)",
 	"contactpage-includeip": "このメッセージに自分のIPアドレスを含める",
-	"contactpage-usermailererror": "メールが以下のエラーを返しました:"
+	"contactpage-usermailererror": "メールが以下のエラーを返しました:",
+	"contactpage-captcha-error": "CAPTCHA エラー"
 }

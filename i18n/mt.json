@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisportelli"
+			"Chrisportelli",
+			"Leli Forte"
 		]
 	},
 	"contactpage": "Kuntatt",
@@ -16,5 +17,6 @@
 	"contactpage-fromaddress": "Indirizz elettroniku: **",
 	"contactpage-formfootnotes": "* opzjonali<br />\n** opzjonali imma neċessarju jekk qed tistenna tweġiba",
 	"contactpage-includeip": "Inkludi l-indirizz IP f'dan il-messaġġ.",
-	"contactpage-usermailererror": "L-oġġett tal-posta ta l-problema:"
+	"contactpage-usermailererror": "L-oġġett tal-posta ta l-problema:",
+	"contactpage-captcha-error": "Żball tal-CAPTCHA"
 }

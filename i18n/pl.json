@@ -7,7 +7,8 @@
 			"Maikking",
 			"Sp5uhe",
 			"WTM",
-			"Wpedzich"
+			"Wpedzich",
+			"Chrumps"
 		]
 	},
 	"contactpage": "Kontakt",
@@ -22,5 +23,6 @@
 	"contactpage-fromaddress": "Twój adres email:",
 	"contactpage-formfootnotes": "(potrzebne jeśli chcesz uzyskać odpowiedź)",
 	"contactpage-includeip": "Dodaj do tej wiadomości informację o moim adresie IP.",
-	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd:"
+	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd:",
+	"contactpage-captcha-error": "Błąd CAPTCHA"
 }

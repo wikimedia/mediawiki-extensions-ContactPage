@@ -16,5 +16,6 @@
 	"contactpage-fromaddress": "Direición de corréu electrónicu:",
 	"contactpage-formfootnotes": "(necesario si quier una respuesta)",
 	"contactpage-includeip": "Incluir la mio direición IP nesti mensaxe.",
-	"contactpage-usermailererror": "L'operador de corréu devolvió un error:"
+	"contactpage-usermailererror": "L'operador de corréu devolvió un error:",
+	"contactpage-captcha-error": "Error de CAPTCHA"
 }
