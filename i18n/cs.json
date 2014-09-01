@@ -18,5 +18,6 @@
 	"contactpage-fromaddress": "Vaše e-mailová adresa:",
 	"contactpage-formfootnotes": "(potřebné pokud očekáváte odpověď)",
 	"contactpage-includeip": "Přiložit ke zprávě mou IP adresu.",
-	"contactpage-usermailererror": "Chyba poštovního programu:"
+	"contactpage-usermailererror": "Chyba poštovního programu:",
+	"contactpage-captcha-error": "Chyba CAPTCHA"
 }

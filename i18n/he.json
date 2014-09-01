@@ -20,5 +20,6 @@
 	"contactpage-fromaddress": "כתובת הדוא\"ל שלך:",
 	"contactpage-formfootnotes": "(זה נחוץ אם ברצונך לקבל תשובה)",
 	"contactpage-includeip": "הכללת כתובת ה־IP שלי בהודעה זו.",
-	"contactpage-usermailererror": "אובייקט הדואר החזיר שגיאה:"
+	"contactpage-usermailererror": "אובייקט הדואר החזיר שגיאה:",
+	"contactpage-captcha-error": "שגיאה בתמונת אישור"
 }
