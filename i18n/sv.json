@@ -23,5 +23,6 @@
 	"contactpage-fromaddress": "Din e-postadress:",
 	"contactpage-formfootnotes": "(behövs om du vill ha ett svar)",
 	"contactpage-includeip": "Inkludera min IP-adress i detta meddelande.",
-	"contactpage-usermailererror": "Fel i hanteringen av mail:"
+	"contactpage-usermailererror": "Fel i hanteringen av mail:",
+	"contactpage-captcha-error": "CAPTCHA-fel"
 }

@@ -23,5 +23,6 @@
 	"contactpage-fromaddress": "您的電子郵件位址：",
 	"contactpage-formfootnotes": "(若您想要取得他人回應則必須填寫)",
 	"contactpage-includeip": "在此訊息中引用我的 IP 位置。",
-	"contactpage-usermailererror": "寄信物件回傳錯誤："
+	"contactpage-usermailererror": "寄信物件回傳錯誤：",
+	"contactpage-captcha-error": "CAPTCHA 錯誤"
 }
