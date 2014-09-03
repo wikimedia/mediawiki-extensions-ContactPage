@@ -6,7 +6,8 @@
 			"Joseph",
 			"Karduelis",
 			"Mach",
-			"Manco Capac"
+			"Manco Capac",
+			"Sayginer"
 		]
 	},
 	"contactpage": "İrtibat sayfası",
@@ -21,5 +22,6 @@
 	"contactpage-fromaddress": "E-postanız: **",
 	"contactpage-formfootnotes": "* isteğe bağlı<br />\n** isteğe bağlı ancak cevap istiyorsanız gerekli",
 	"contactpage-includeip": "Mesaja IP adresimi ekle.",
-	"contactpage-usermailererror": "E-posta hizmeti hata verdi:"
+	"contactpage-usermailererror": "E-posta hizmeti hata verdi:",
+	"contactpage-captcha-error": "CAPTCHA hatası"
 }
