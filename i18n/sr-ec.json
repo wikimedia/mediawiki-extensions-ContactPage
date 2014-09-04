@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rancher",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Milicevic01"
 		]
 	},
 	"contactpage": "Страница за контакт",
@@ -15,5 +16,6 @@
 	"contactpage-fromname": "Ваше име: *",
 	"contactpage-fromaddress": "Ваша е-адреса: **",
 	"contactpage-formfootnotes": "* необавезно<br />\n** необавезно, али потребно ако желите да добијете одговор",
-	"contactpage-usermailererror": "Дошло је до грешке при слању поруке:"
+	"contactpage-usermailererror": "Дошло је до грешке при слању поруке:",
+	"contactpage-captcha-error": "Грешка у CAPTCHA-и"
 }
