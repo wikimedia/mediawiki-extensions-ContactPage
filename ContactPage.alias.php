@@ -194,6 +194,11 @@ $specialPageAliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'Contact' => array( 'Fifandraisana' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Contact' => array( 'Контакт' ),
