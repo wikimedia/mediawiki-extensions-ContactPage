@@ -4,7 +4,8 @@
 			"Carla404",
 			"Eduardo.mps",
 			"Giro720",
-			"Cainamarques"
+			"Cainamarques",
+			"OTAVIO1981"
 		]
 	},
 	"contactpage": "Página de Contato",
@@ -19,5 +20,6 @@
 	"contactpage-fromaddress": "Seu email:",
 	"contactpage-formfootnotes": "(necessário se deseja uma resposta)",
 	"contactpage-includeip": "Incluir o meu endereço IP nesta mensagem.",
-	"contactpage-usermailererror": "Erro no email:"
+	"contactpage-usermailererror": "Erro no email:",
+	"contactpage-captcha-error": "Erro de CAPTCHA"
 }
