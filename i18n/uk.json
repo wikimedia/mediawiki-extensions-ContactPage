@@ -19,5 +19,6 @@
 	"contactpage-fromaddress": "Ваша адреса електронної пошти:",
 	"contactpage-formfootnotes": "(вимагається, якщо ви хочете отримати відповідь)",
 	"contactpage-includeip": "Додати мою IP-адресу до цього повідомлення.",
-	"contactpage-usermailererror": "При відправці повідомлення електронної пошти сталася помилка:"
+	"contactpage-usermailererror": "При відправці повідомлення електронної пошти сталася помилка:",
+	"contactpage-captcha-error": "Помилка CAPTCHA"
 }
