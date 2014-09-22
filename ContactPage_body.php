@@ -235,7 +235,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$senderIP = $request->getIP();
 
 		$contactUser = User::newFromName( $config['RecipientUser'] );
-		$targetAddress = new MailAddress( $contactUser );
+		$targetAddress = MailAddress::newFromUser( $contactUser );
 		$replyto = null;
 		$contactSender = new MailAddress( $csender, $cname );
 
