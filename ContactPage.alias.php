@@ -364,7 +364,7 @@ $specialPageAliases['ur'] = array(
 	'Contact' => array( 'رابطہ' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Contact' => array( 'Contati' ),
 );
