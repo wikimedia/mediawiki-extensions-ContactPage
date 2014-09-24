@@ -16,5 +16,6 @@
 	"contactpage-fromaddress": "An seòladh puist-d agad:",
 	"contactpage-formfootnotes": "(feumaidh sinn seo ma tha thu airson freagairt fhaighinn)",
 	"contactpage-includeip": "Gabh an seòladh IP agam a-steach san teachdaireachd.",
-	"contactpage-usermailererror": "Thill oibseact a' phuist-d mearachd:"
+	"contactpage-usermailererror": "Thill oibseact a' phuist-d mearachd:",
+	"contactpage-captcha-error": "Mearachd leis a' CAPTCHA"
 }
