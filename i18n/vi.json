@@ -18,5 +18,6 @@
 	"contactpage-fromaddress": "Địa chỉ thư điện tử của bạn:",
 	"contactpage-formfootnotes": "(cần thiết nếu bạn muốn nhận được câu trả lời)",
 	"contactpage-includeip": "Bao gồm địa chỉ IP của tôi trong thư này.",
-	"contactpage-usermailererror": "Lỗi gửi thư:"
+	"contactpage-usermailererror": "Lỗi gửi thư:",
+	"contactpage-captcha-error": "Lỗi CAPTCHA"
 }
