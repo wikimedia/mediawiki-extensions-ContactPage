@@ -19,5 +19,6 @@
 	"contactpage-fromaddress": "Din e-mailadresse:",
 	"contactpage-formfootnotes": "(nødvendig hvis du ønsker at få svar)",
 	"contactpage-includeip": "Inkluder min IP-adresse i denne besked.",
-	"contactpage-usermailererror": "E-mail-modulet returnerede en fejl:"
+	"contactpage-usermailererror": "E-mail-modulet returnerede en fejl:",
+	"contactpage-captcha-error": "CAPTCHA fejl"
 }
