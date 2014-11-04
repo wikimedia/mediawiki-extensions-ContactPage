@@ -13,7 +13,7 @@
 	"contactpage-desc": "[[Special:Contact|供访问者使用的联系表单]]",
 	"contactpage-title": "联系",
 	"contactpage-pagetext": "请用以下的表格去联络我们。",
-	"contactpage-legend": "发送电邮",
+	"contactpage-legend": "发送邮件",
 	"contactpage-defsubject": "联系信息",
 	"contactpage-subject-and-sender": "$1 （自$2）",
 	"contactpage-subject-and-sender-withip": "$1 (由$2在$3)",
