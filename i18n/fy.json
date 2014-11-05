@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"contactpage-legend": "E-mail stjoere",
 	"contactpage-usermailererror": "Flatermelding by ferstjoeren:"
 }
