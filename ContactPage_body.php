@@ -250,7 +250,9 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 		}
 
-		$includeIP = $config['IncludeIP'] && ( $formData['IncludeIP'] || $user->isAnon() );
+		$includeIP = isset( $config['IncludeIP'] ) && $config['IncludeIP']
+			&& ( $formData['IncludeIP'] || $user->isAnon()
+		);
 		$fromName = $formData['FromName'];
 		$subject = $formData['Subject'];
 
