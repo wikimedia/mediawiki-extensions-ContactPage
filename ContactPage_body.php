@@ -272,29 +272,36 @@ class SpecialContact extends UnlistedSpecialPage {
 		$request = $this->getRequest();
 		$user = $this->getUser();
 
-		$csender = $config['SenderEmail'] ?: $wgPasswordSender;
-		$cname = $config['SenderName'];
 		$senderIP = $request->getIP();
 
-		$contactUser = User::newFromName( $config['RecipientUser'] );
-		$targetAddress = MailAddress::newFromUser( $contactUser );
-		$replyto = null;
-		$contactSender = new MailAddress( $csender, $cname );
+		// Setup user that is going to recieve the contact page response
+		$contactRecipientUser = User::newFromName( $config['RecipientUser'] );
+		$contactRecipientAddress = MailAddress::newFromUser( $contactRecipientUser );
+
+		// Used when user hasn't set an email, or when sending CC email to user
+		$contactSender = new MailAddress(
+			$config['SenderEmail'] ?: $wgPasswordSender,
+			$config['SenderName']
+		);
+
+		$replyTo = null;
 
 		$fromAddress = $formData['FromAddress'];
 		$fromName = $formData['FromName'];
 		if ( !$fromAddress ) {
-			$submitterAddress = $contactSender;
+			// No email address entered, so use $contactSender instead
+			$senderAddress = $contactSender;
 		} else {
-			$submitterAddress = new MailAddress( $fromAddress, $fromName );
+			// Use user submitted details
+			$senderAddress = new MailAddress( $fromAddress, $fromName );
 			if ( $wgUserEmailUseReplyTo ) {
-				$replyto = $submitterAddress;
+				// Define reply-to address
+				$replyTo = $senderAddress;
 			}
 		}
 
 		$includeIP = isset( $config['IncludeIP'] ) && $config['IncludeIP']
 			&& ( $user->isAnon() || $formData['IncludeIP'] );
-		$fromName = $formData['FromName'];
 		$subject = $formData['Subject'];
 
 		if ( $fromName !== '' ) {
@@ -393,25 +400,26 @@ class SpecialContact extends UnlistedSpecialPage {
 			$text .= "{$name}: $value\n";
 		}
 
+		/* @var SimpleCaptcha $wgCaptcha */
 		if ( $this->useCaptcha() && !$wgCaptcha->passCaptcha() ) {
 			return wfMessage( 'contactpage-captcha-error' )->plain();
 		}
 
 		// Stolen from Special:EmailUser
 		$error = '';
-		if ( !wfRunHooks( 'EmailUser', array( &$targetAddress, &$submitterAddress, &$subject, &$text, &$error ) ) ) {
+		if ( !wfRunHooks( 'EmailUser', array( &$contactRecipientAddress, &$senderAddress, &$subject, &$text, &$error ) ) ) {
 			return $error;
 		}
 
-		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$text, $this->formType, $formData ) ) ) {
+		if( !wfRunHooks( 'ContactForm', array( &$contactRecipientAddress, &$replyTo, &$subject, &$text, $this->formType, $formData ) ) ) {
 			return false; // TODO: Need to do some proper error handling here
 		}
 
-		wfDebug( __METHOD__ . ': sending mail from ' . $submitterAddress->toString() .
-			' to ' . $targetAddress->toString().
-			' replyto ' . ( $replyto == null ? '-/-' : $replyto->toString() ) . "\n"
+		wfDebug( __METHOD__ . ': sending mail from ' . $senderAddress->toString() .
+			' to ' . $contactRecipientAddress->toString().
+			' replyto ' . ( $replyTo == null ? '-/-' : $replyTo->toString() ) . "\n"
 		);
-		$mailResult = UserMailer::send( $targetAddress, $submitterAddress, $subject, $text, $replyto );
+		$mailResult = UserMailer::send( $contactRecipientAddress, $senderAddress, $subject, $text, $replyTo );
 
 		if( !$mailResult->isOK() ) {
 			wfDebug( __METHOD__ . ': got error from UserMailer: ' . $mailResult->getMessage() . "\n" );
@@ -421,12 +429,14 @@ class SpecialContact extends UnlistedSpecialPage {
 		// if the user requested a copy of this mail, do this now,
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if( $formData['CCme'] && $fromAddress ) {
-			$cc_subject = wfMessage( 'emailccsubject', $contactUser->getName(), $subject )->text();
-			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ) ) ) {
+			$cc_subject = wfMessage( 'emailccsubject', $contactRecipientUser->getName(), $subject )->text();
+			if( wfRunHooks( 'ContactForm',
+				array( &$senderAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ) )
+			) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
-					' to ' . $submitterAddress->toString() . "\n"
+					' to ' . $senderAddress->toString() . "\n"
 				);
-				$ccResult = UserMailer::send( $submitterAddress, $contactSender, $cc_subject, $text );
+				$ccResult = UserMailer::send( $senderAddress, $contactSender, $cc_subject, $text );
 				if( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
 					// original mail has succeeded. It's unlikely, but still, what to do?
@@ -438,7 +448,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 		}
 
-		wfRunHooks( 'ContactFromComplete', array( $targetAddress, $replyto, $subject, $text ) );
+		wfRunHooks( 'ContactFromComplete', array( $contactRecipientAddress, $replyTo, $subject, $text ) );
 
 		return true;
 	}
