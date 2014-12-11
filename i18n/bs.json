@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Palapa"
 		]
 	},
 	"contactpage": "Stranica za kontakt",
@@ -12,9 +13,10 @@
 	"contactpage-defsubject": "Poruka kontakta",
 	"contactpage-subject-and-sender": "$1 (od $2)",
 	"contactpage-subject-and-sender-withip": "$1 (od $2 sa $3)",
-	"contactpage-fromname": "Vaše ime: *",
-	"contactpage-fromaddress": "Vaš e-mail: **",
+	"contactpage-fromname": "Vaše ime:",
+	"contactpage-fromaddress": "Vaš e-mail:",
 	"contactpage-formfootnotes": "* opcionalno<br />\n** opcionalno ali je poželjno ako želite odgovor",
 	"contactpage-includeip": "Uključi moju IP adresu u ovu poruku.",
-	"contactpage-usermailererror": "Objekat pošte je vratio grešku:"
+	"contactpage-usermailererror": "Objekat pošte je vratio grešku:",
+	"contactpage-captcha-error": "CAPTCHA greška"
 }
