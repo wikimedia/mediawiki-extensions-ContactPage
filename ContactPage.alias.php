@@ -379,6 +379,11 @@ $specialPageAliases['yue'] = array(
 	'Contact' => array( '聯絡' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'Contact' => array( '联系', '联络', '聯繫', '聯係', '聯絡' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Contact' => array( '联系' ),
