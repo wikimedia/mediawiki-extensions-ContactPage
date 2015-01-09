@@ -16,5 +16,6 @@
 	"contactpage-fromaddress": "L'e-mail toje:",
 	"contactpage-formfootnotes": "(abbesogne ce tu vuè cu ave 'na resposte)",
 	"contactpage-includeip": "Inglude l'indirizze UP mije sus a stu messagge.",
-	"contactpage-usermailererror": "L'oggette ''Mail'' ha returnete 'n'errore:"
+	"contactpage-usermailererror": "L'oggette ''Mail'' ha returnete 'n'errore:",
+	"contactpage-captcha-error": "Errore de CAPTCHA"
 }
