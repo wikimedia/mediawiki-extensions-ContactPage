@@ -22,7 +22,8 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( 'Daniel Kinzler', 'Sam Reed' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ContactPage',
 	'descriptionmsg' => 'contactpage-desc',
-	'version' => 2.2
+	'version' => 2.2,
+	'license-name' => 'GPL-2.0+'
 );
 
 // Set up the new special page
