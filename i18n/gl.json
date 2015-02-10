@@ -4,7 +4,8 @@
 			"Alma",
 			"Toliño",
 			"Vivaelcelta",
-			"Xosé"
+			"Xosé",
+			"Banjo"
 		]
 	},
 	"contactpage": "Páxina de contacto",
@@ -19,5 +20,6 @@
 	"contactpage-fromaddress": "O seu correo electrónico:",
 	"contactpage-formfootnotes": "(necesario se quere unha resposta)",
 	"contactpage-includeip": "Incluír o meu enderezo IP nesta mensaxe.",
-	"contactpage-usermailererror": "O obxecto enviado deu unha mensaxe de erro:"
+	"contactpage-usermailererror": "O obxecto enviado deu unha mensaxe de erro:",
+	"contactpage-captcha-error": "Erro de CAPTCHA"
 }
