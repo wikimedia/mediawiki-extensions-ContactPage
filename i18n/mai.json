@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Tulsi Bhagat"
+		]
+	},
+	"contactpage": "विषय सूची पन्ना",
 	"contactpage-usermailererror": "ई-पत्र बौस्तु घुरल भ्रम:"
 }
