@@ -12,9 +12,9 @@
 	"contactpage-defsubject": "Kontak-Nohreesch",
 	"contactpage-subject-and-sender": "$1 (fun $2)",
 	"contactpage-subject-and-sender-withip": "$1 (vum $2 met dä IP-Addräß $3)",
-	"contactpage-fromname": "Dinge Name: <sup>*</sup>",
-	"contactpage-fromaddress": "Ding <i lang=\"en\">e-mail</i> Address: <sup>**</sup>",
-	"contactpage-formfootnotes": "<sup>*</sup> kannze fott lohße\n<br />\n<sup>**</sup> kanze fott lohße, ußer wann De en Antwoot han wells",
+	"contactpage-fromname": "Dinge Nahme:",
+	"contactpage-fromaddress": "Ding Adräß för de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\">e-mail</i>:",
+	"contactpage-formfootnotes": "(kanns De fott lohße, ußer wann De en Antwoot han wells)",
 	"contactpage-includeip": "Donn ming <i lang=\"en\">IP</i>-Addräß en heh di Nohreesch erin.",
 	"contactpage-usermailererror": "Dat E-Mail-Objek jov ene Fähler us:"
 }
