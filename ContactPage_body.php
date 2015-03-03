@@ -15,6 +15,16 @@
  * @ingroup SpecialPage
  */
 class SpecialContact extends UnlistedSpecialPage {
+
+	/**
+	 * Set default value after registration
+	 */
+	public static function onRegistration() {
+		global $wgContactConfig, $wgSitename;
+		if ( $wgContactConfig['default']['SenderName'] === null ) {
+			$wgContactConfig['default']['SenderName'] = "Contact Form on $wgSitename";
+		}
+	}
 	/**
 	 * Constructor
 	 */

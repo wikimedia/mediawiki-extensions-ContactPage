@@ -15,6 +15,11 @@ if( !defined( 'MEDIAWIKI' ) ) {
 	die( 1 );
 }
 
+/**
+ * This PHP entry point is deprecated. Please use wfLoadExtension() and the extension.json file instead.
+ * See https://www.mediawiki.org/wiki/Manual:Extension_registration for more details.
+ */
+
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
@@ -64,6 +69,7 @@ $wgContactConfig['default'] = array(
 
 	// The name to be used with SenderEmail.
 	// This will be shown in the recipient's email program
+	// Defaults to "Contact Form on $wgSitename"
 	'SenderName' => 'Contact Form on ' . $wgSitename,
 
 	// If true, users will be required to supply a name and an email address
