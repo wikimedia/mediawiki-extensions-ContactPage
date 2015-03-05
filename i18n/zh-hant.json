@@ -20,7 +20,7 @@
 	"contactpage-subject-and-sender": "$1 (來自 $2)",
 	"contactpage-subject-and-sender-withip": "$1 (來自 $2 位於 $3)",
 	"contactpage-fromname": "您的姓名：",
-	"contactpage-fromaddress": "您的電子郵件位址：",
+	"contactpage-fromaddress": "您的電郵地址：",
 	"contactpage-formfootnotes": "(若您想要取得他人回應則必須填寫)",
 	"contactpage-includeip": "在此訊息中引用我的 IP 位置。",
 	"contactpage-usermailererror": "寄信物件回傳錯誤：",
