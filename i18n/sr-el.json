@@ -15,7 +15,7 @@
 	"contactpage-subject-and-sender": "$1 (od $2)",
 	"contactpage-fromname": "Vaše ime:",
 	"contactpage-fromaddress": "Vaša e-adresa:",
-	"contactpage-formfootnotes": "* neobavezno<br />\n** neobavezno, ali potrebno ako želite da dobijete odgovor",
+	"contactpage-formfootnotes": "(obavezno ako želite da dobijete odgovor)",
 	"contactpage-usermailererror": "Došlo je do greške pri slanju poruke:",
 	"contactpage-captcha-error": "Greška u CAPTCHA-i"
 }
