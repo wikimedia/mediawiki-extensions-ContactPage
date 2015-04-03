@@ -194,6 +194,11 @@ $specialPageAliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'Contact' => array( 'پیوند_گرتن' ),
+);
+
 /** Malagasy (Malagasy) */
 $specialPageAliases['mg'] = array(
 	'Contact' => array( 'Fifandraisana' ),
