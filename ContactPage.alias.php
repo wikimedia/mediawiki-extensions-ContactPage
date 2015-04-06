@@ -34,6 +34,11 @@ $specialPageAliases['as'] = array(
 	'Contact' => array( 'যোগাযোগ' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Contact' => array( 'تماس' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Contact' => array( 'Darempred' ),
