@@ -3,9 +3,11 @@
 		"authors": [
 			"Jóna Þórunn",
 			"S.Örvarr.S",
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
+	"contactpage": "Tengiliðasíða",
 	"contactpage-title": "Hafa samband",
 	"contactpage-pagetext": "Gjörðu svo vel og notaðu eyðublaðið fyrir neðan til að hafa samband við okkur.",
 	"contactpage-subject-and-sender": "$1 (frá $2)",
