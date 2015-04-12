@@ -54,6 +54,11 @@ $specialPageAliases['cdo'] = array(
 	'Contact' => array( '聯繫' ),
 );
 
+/** Czech (čeština) */
+$specialPageAliases['cs'] = array(
+	'Contact' => array( 'Kontakt' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Contact' => array( 'Kontakt' ),
