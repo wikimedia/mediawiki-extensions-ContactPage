@@ -350,7 +350,9 @@ class SpecialContact extends UnlistedSpecialPage {
 				continue;
 			}
 
-			if ( isset( $field['label-message'] ) ) {
+			if ( isset( $field['contactpage-email-label'] ) ) {
+				$name = $field['contactpage-email-label'];
+			} elseif ( isset( $field['label-message'] ) ) {
 				$name = wfMessage( $field['label-message'] )->inContentLanguage()->text();
 			} else {
 				$name = $field['label'];
