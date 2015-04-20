@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Shubha"
+		]
+	},
+	"contactpage": "सम्पर्कपृष्ठम्",
 	"contactpage-usermailererror": "पत्राचारपदार्थस्य प्रत्यागतदोषः ।"
 }
