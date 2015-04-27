@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
 	"contactpage": "Rûpela têkiliyê",
-	"contactpage-fromname": "Navê te: *"
+	"contactpage-fromname": "Navê te:"
 }
