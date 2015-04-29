@@ -204,6 +204,19 @@ class SpecialContact extends UnlistedSpecialPage {
 		$form = new HTMLForm( $formItems, $this->getContext(), "contactpage-{$this->formType}" );
 		$form->setWrapperLegendMsg( 'contactpage-legend' );
 		$form->setSubmitTextMsg( 'emailsend' );
+		if ( $this->formType != '' ) {
+			$form->setId( Sanitizer::escapeId( "contactpage-{$this->formType}" ) );
+
+			$msg = $this->msg( "contactpage-legend-{$this->formType}" );
+			if ( !$msg->isDisabled() ) {
+				$form->setWrapperLegendMsg( $msg );
+			}
+
+			$msg = $this->msg( "contactpage-emailsend-{$this->formType}" );
+			if ( !$msg->isDisabled() ) {
+				$form->setSubmitTextMsg( $msg );
+			}
+		}
 		$form->setSubmitCallback( array( $this, 'processInput' ) );
 		$form->loadData();
 
@@ -216,8 +229,19 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if ( $result === true || ( $result instanceof Status && $result->isGood() ) ) {
 			$out = $this->getOutput();
-			$out->setPageTitle( wfMessage( 'emailsent' ) );
-			$out->addWikiMsg( 'emailsenttext' );
+			$pageTitle = $this->msg( 'emailsent' );
+			$pageText = 'emailsenttext';
+			if ( $this->formType !== '' ) {
+				$msg = $this->msg( "contactpage-emailsent-{$this->formType}" );
+				if ( !$msg->isDisabled() ) {
+					$pageTitle = $msg;
+				}
+				if ( !$this->msg( "contactpage-emailsenttext-{$this->formType}" )->isDisabled() ) {
+					$pageText = "contactpage-emailsenttext-{$this->formType}";
+				}
+			}
+			$out->setPageTitle( $pageTitle );
+			$out->addWikiMsg( $pageText );
 
 			$out->returnToMain( false );
 		} else {
@@ -371,7 +395,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			return $error;
 		}
 
-		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$text, $this->formType ) ) ) {
+		if( !wfRunHooks( 'ContactForm', array( &$targetAddress, &$replyto, &$subject, &$text, $this->formType, $formData ) ) ) {
 			return false; // TODO: Need to do some proper error handling here
 		}
 
@@ -390,7 +414,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if( $formData['CCme'] && $fromAddress ) {
 			$cc_subject = wfMessage( 'emailccsubject', $contactUser->getName(), $subject )->text();
-			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$text, $this->formType ) ) ) {
+			if( wfRunHooks( 'ContactForm', array( &$submitterAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ) ) ) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
 					' to ' . $submitterAddress->toString() . "\n"
 				);
