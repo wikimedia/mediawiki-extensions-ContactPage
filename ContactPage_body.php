@@ -201,7 +201,9 @@ class SpecialContact extends UnlistedSpecialPage {
 			);
 		}
 
-		$form = new HTMLForm( $formItems, $this->getContext(), "contactpage-{$this->formType}" );
+		$form = HTMLForm::factory( $config['DisplayFormat'],
+			$formItems, $this->getContext(), "contactpage-{$this->formType}"
+		);
 		$form->setWrapperLegendMsg( 'contactpage-legend' );
 		$form->setSubmitTextMsg( 'emailsend' );
 		if ( $this->formType != '' ) {

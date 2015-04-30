@@ -80,6 +80,10 @@ $wgContactConfig['default'] = array(
 	// address of the submitter in the subject line
 	'IncludeIP' => false,
 
+	// Display format for the form. See HTMLForm documentation for available
+	// values.
+	'DisplayFormat' => 'table',
+
 	// Any additional fields to display on the contact form.
 	// Uses https://www.mediawiki.org/wiki/HTMLForm notation
 	// Using any of your own "AdditionalFields" will replce the large text box
