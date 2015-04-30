@@ -26,6 +26,8 @@
 				"RequireDetails": false,
 				"IncludeIP": false,
 				"DisplayFormat": "table",
+				"RLModules": [],
+				"RLStyleModules": [],
 				"AdditionalFields": {
 					"Text": {
 						"label-message": "emailmessage",

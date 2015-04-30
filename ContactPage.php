@@ -84,6 +84,12 @@ $wgContactConfig['default'] = array(
 	// values.
 	'DisplayFormat' => 'table',
 
+	// Resource loader modules to add to the form display page.
+	'RLModules' => array(),
+
+	// Resource loader CSS modules to add to the form display page.
+	'RLStyleModules' => array(),
+
 	// Any additional fields to display on the contact form.
 	// Uses https://www.mediawiki.org/wiki/HTMLForm notation
 	// Using any of your own "AdditionalFields" will replce the large text box

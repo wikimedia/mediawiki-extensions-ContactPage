@@ -247,6 +247,12 @@ class SpecialContact extends UnlistedSpecialPage {
 
 			$out->returnToMain( false );
 		} else {
+			if ( $config['RLStyleModules'] ) {
+				$this->getOutput()->addModuleStyles( $config['RLStyleModules'] );
+			}
+			if ( $config['RLModules'] ) {
+				$this->getOutput()->addModules( $config['RLModules'] );
+			}
 			$this->getOutput()->prependHTML( trim( $formText ) );
 		}
 	}
