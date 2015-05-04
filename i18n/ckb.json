@@ -5,5 +5,11 @@
 			"Asoxor"
 		]
 	},
-	"contactpage": "پەڕەی پەیوەندی"
+	"contactpage": "پەڕەی پەیوەندی",
+	"contactpage-title": "پەیوەندی",
+	"contactpage-legend": "ئیمێل بنێرە",
+	"contactpage-defsubject": "پەیامی پەیوەندی",
+	"contactpage-subject-and-sender": "$1 (لە $2)",
+	"contactpage-fromname": "ناوت:",
+	"contactpage-fromaddress": "ناونیشانی ئیمێلەکەت:"
 }
