@@ -75,7 +75,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$config = $this->getTypeConfig();
 		if( !$config['RecipientUser'] ) {
-			$this->getOutput()->showErrorPage( 'nosuchspecialpage', 'nospecialpagetext' );
+			$this->getOutput()->showErrorPage( 'contactpage-config-error-title', 'contactpage-config-error' );
 			return;
 		}
 

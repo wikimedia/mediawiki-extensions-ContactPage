@@ -23,5 +23,7 @@
 	"contactpage-formfootnotes": "Message to notify users that an email address is needed if an answer is required",
 	"contactpage-includeip": "Used as checkbox label in the ContactPage form.",
 	"contactpage-usermailererror": "Error message displayed when no email could be sent by the MediWiki UserMailer script.",
-	"contactpage-captcha-error": "Error message displayed when there was a CAPTCHA error (i.e. the user failed to enter the correct CAPTCHA, or didn't enter one at all, etc.)"
+	"contactpage-captcha-error": "Error message displayed when there was a CAPTCHA error (i.e. the user failed to enter the correct CAPTCHA, or didn't enter one at all, etc.)",
+	"contactpage-config-error-title": "Page title of Special:Contact when the requested form is configured incorrectly.",
+	"contactpage-config-error": "Used as the content of Special:Contact when the requested form is configured incorrectly."
 }

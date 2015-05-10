@@ -18,5 +18,7 @@
 	"contactpage-formfootnotes": "(needed if you want an answer)",
 	"contactpage-includeip": "Include my IP address in this message.",
 	"contactpage-usermailererror": "Mail object returned error:",
-	"contactpage-captcha-error": "CAPTCHA error"
+	"contactpage-captcha-error": "CAPTCHA error",
+	"contactpage-config-error-title": "Contact form error",
+	"contactpage-config-error": "A contact form is either not configured for this page or is configured incorrectly."
 }
