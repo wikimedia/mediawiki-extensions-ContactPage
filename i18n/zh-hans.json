@@ -22,5 +22,7 @@
 	"contactpage-formfootnotes": "（可选，如果您想回答的话）",
 	"contactpage-includeip": "在此邮件中包含我的IP位置资料。",
 	"contactpage-usermailererror": "Mail 对象返回错误：",
-	"contactpage-captcha-error": "验证码错误"
+	"contactpage-captcha-error": "验证码错误",
+	"contactpage-config-error-title": "联络表单错误",
+	"contactpage-config-error": "联络表单未对此页面配置，或者配置有误。"
 }

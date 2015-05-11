@@ -7,7 +7,8 @@
 			"Peter17",
 			"Sherbrooke",
 			"Urhixidur",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Windes"
 		]
 	},
 	"contactpage": "Contact",
@@ -23,5 +24,6 @@
 	"contactpage-formfootnotes": "(obligatoire si vous désirez une réponse)",
 	"contactpage-includeip": "Inclure mon adresse IP dans ce message.",
 	"contactpage-usermailererror": "Erreur dans l'objet du courriel :",
-	"contactpage-captcha-error": "Erreur de CAPTCHA"
+	"contactpage-captcha-error": "Erreur de CAPTCHA",
+	"contactpage-config-error": "Un formulaire de contact n'est pas configuré pour cette page ou est mal configuré."
 }
