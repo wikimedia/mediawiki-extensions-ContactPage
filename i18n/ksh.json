@@ -16,5 +16,7 @@
 	"contactpage-fromaddress": "Ding Adräß för de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\">e-mail</i>:",
 	"contactpage-formfootnotes": "(kanns De fott lohße, ußer wann De en Antwoot han wells)",
 	"contactpage-includeip": "Donn ming <i lang=\"en\">IP</i>-Addräß en heh di Nohreesch erin.",
-	"contactpage-usermailererror": "Dat E-Mail-Objek jov ene Fähler us:"
+	"contactpage-usermailererror": "Dat E-Mail-Objek jov ene Fähler us:",
+	"contactpage-config-error-title": "Fähler jefonge em Fommollaa för der Kumtak",
+	"contactpage-config-error": "Et Wikki häte kei Fommollaa för der Kumtk, udder ed es enjereesch, ävver doh es ene Fähler dren, esu dadd ed nit deiht."
 }

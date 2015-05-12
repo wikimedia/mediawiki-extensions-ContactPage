@@ -24,7 +24,7 @@ $specialPageAliases['ar'] = array(
 	'Contact' => array( 'اتصال' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Contact' => array( 'اتصال' ),
 );
@@ -99,7 +99,7 @@ $specialPageAliases['fi'] = array(
 	'Contact' => array( 'Ota_yhteyttä' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Contact' => array( 'Contacte' ),
 );
@@ -204,7 +204,7 @@ $specialPageAliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Contact' => array( 'پیوند_گرتن' ),
 );

@@ -8,7 +8,8 @@
 			"Peter17",
 			"Sanbec",
 			"Sporeunai",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Macofe"
 		]
 	},
 	"contactpage": "Página de contacto",
@@ -24,5 +25,7 @@
 	"contactpage-formfootnotes": "(necesario si desea una respuesta)",
 	"contactpage-includeip": "Incluir mi dirección IP en este mensaje.",
 	"contactpage-usermailererror": "El sistema de correo devolvió un error:",
-	"contactpage-captcha-error": "Error en el CAPTCHA"
+	"contactpage-captcha-error": "Error en el CAPTCHA",
+	"contactpage-config-error-title": "Error en el formulario de contacto",
+	"contactpage-config-error": "Un formulario de contacto no está configurado para esta página o no está configurado correctamente."
 }
