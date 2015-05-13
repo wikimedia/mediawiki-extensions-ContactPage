@@ -19,5 +19,7 @@
 	"contactpage-formfootnotes": "(potřebné pokud očekáváte odpověď)",
 	"contactpage-includeip": "Přiložit ke zprávě mou IP adresu.",
 	"contactpage-usermailererror": "Chyba poštovního programu:",
-	"contactpage-captcha-error": "Chyba CAPTCHA"
+	"contactpage-captcha-error": "Chyba CAPTCHA",
+	"contactpage-config-error-title": "Chyba kontaktního formuláře",
+	"contactpage-config-error": "Kontaktní formulář buď pro tuto stránku není nakonfigurován, nebo je nakonfigurován chybně."
 }
