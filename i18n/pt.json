@@ -21,5 +21,7 @@
 	"contactpage-formfootnotes": "(necessário se deseja uma resposta)",
 	"contactpage-includeip": "Incluir o meu endereço IP nesta mensagem.",
 	"contactpage-usermailererror": "O sistema de correio devolveu o erro:",
-	"contactpage-captcha-error": "Erro de CAPTCHA"
+	"contactpage-captcha-error": "Erro de CAPTCHA",
+	"contactpage-config-error-title": "Erro de formulário de contato",
+	"contactpage-config-error": "Um formulário de contato não está configurado para esta página ou está configurado incorretamente."
 }
