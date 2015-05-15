@@ -25,5 +25,6 @@
 	"contactpage-includeip": "Dodaj do tej wiadomości informację o moim adresie IP.",
 	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd:",
 	"contactpage-captcha-error": "Błąd CAPTCHA",
-	"contactpage-config-error-title": "Błąd formularza kontaktowego"
+	"contactpage-config-error-title": "Błąd formularza kontaktowego",
+	"contactpage-config-error": "Formularz kontaktowy nie został skonfigurowany dla tej strony albo jest skonfigurowany nieprawidłowo."
 }

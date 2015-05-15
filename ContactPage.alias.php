@@ -204,7 +204,7 @@ $specialPageAliases['lb'] = array(
 	'Contact' => array( 'Kontakt' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Contact' => array( 'پیوند_گرتن' ),
 );
