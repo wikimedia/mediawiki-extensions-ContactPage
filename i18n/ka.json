@@ -3,7 +3,8 @@
 		"authors": [
 			"BRUTE",
 			"David1010",
-			"Temuri rajavi"
+			"Temuri rajavi",
+			"Otogi"
 		]
 	},
 	"contactpage": "საკონტაქტო გვერდი",
@@ -13,9 +14,12 @@
 	"contactpage-legend": "e-mail-ის გაგზავნა",
 	"contactpage-defsubject": "საკონტაქტო შეტყობინება",
 	"contactpage-subject-and-sender": "$1 ($2-სგან)",
+	"contactpage-subject-and-sender-withip": "$1 ($2-სგან IP-მისამართიდან $3)",
 	"contactpage-fromname": "თქვენი სახელი:",
 	"contactpage-fromaddress": "თქვენი ელ-ფოსტა:",
 	"contactpage-formfootnotes": "(საჭიროა მხოლოდ პასუხის მისაღებად)",
 	"contactpage-includeip": "მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.",
-	"contactpage-usermailererror": "ელ. ფოსტა დაბრუნდა შეცდომის გამო:"
+	"contactpage-usermailererror": "ელ. ფოსტა დაბრუნდა შეცდომის გამო:",
+	"contactpage-captcha-error": "CAPTCHA შეცდომა",
+	"contactpage-config-error-title": "შეცდომის ფორმის კონტაქტი"
 }

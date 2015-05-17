@@ -5,7 +5,8 @@
 			"Eduardo.mps",
 			"Giro720",
 			"Cainamarques",
-			"OTAVIO1981"
+			"OTAVIO1981",
+			"Araceletorres"
 		]
 	},
 	"contactpage": "Página de Contato",
@@ -21,5 +22,7 @@
 	"contactpage-formfootnotes": "(necessário se deseja uma resposta)",
 	"contactpage-includeip": "Incluir o meu endereço IP nesta mensagem.",
 	"contactpage-usermailererror": "Erro no email:",
-	"contactpage-captcha-error": "Erro de CAPTCHA"
+	"contactpage-captcha-error": "Erro de CAPTCHA",
+	"contactpage-config-error-title": "Erro no formulário de contato",
+	"contactpage-config-error": "Um formulário de contato não está configurado para esta página ou está configurado incorretamente."
 }

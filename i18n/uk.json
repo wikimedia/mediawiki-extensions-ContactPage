@@ -4,7 +4,8 @@
 			"Andriykopanytsia",
 			"NickK",
 			"Prima klasy4na",
-			"Тест"
+			"Тест",
+			"Base"
 		]
 	},
 	"contactpage": "Сторінка контакту",
@@ -20,5 +21,7 @@
 	"contactpage-formfootnotes": "(вимагається, якщо ви хочете отримати відповідь)",
 	"contactpage-includeip": "Додати мою IP-адресу до цього повідомлення.",
 	"contactpage-usermailererror": "При відправці повідомлення електронної пошти сталася помилка:",
-	"contactpage-captcha-error": "Помилка CAPTCHA"
+	"contactpage-captcha-error": "Помилка CAPTCHA",
+	"contactpage-config-error-title": "Помилка форми зв'язку",
+	"contactpage-config-error": "Форму зв'язку чи не налаштовано для цієї сторінки, чи налаштовано неправильно."
 }
