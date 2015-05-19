@@ -3,7 +3,8 @@
 		"authors": [
 			"Ferrer",
 			"Okras",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Дмитрий"
 		]
 	},
 	"contactpage": "Страница контакта",
@@ -19,5 +20,6 @@
 	"contactpage-formfootnotes": "(необходимо только если вы хотите получить ответ)",
 	"contactpage-includeip": "Включить мой IP-адрес в это сообщение.",
 	"contactpage-usermailererror": "При отправке сообщения электронной почты произошла ошибка:",
-	"contactpage-captcha-error": "Ошибка капчи"
+	"contactpage-captcha-error": "Ошибка капчи",
+	"contactpage-config-error-title": "Ошибка контактной формы"
 }

@@ -8,7 +8,8 @@
 			"Lokal Profil",
 			"M.M.S.",
 			"Najami",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"WikiPhoenix"
 		]
 	},
 	"contactpage": "Kontaktsida",
@@ -24,5 +25,6 @@
 	"contactpage-formfootnotes": "(behövs om du vill ha ett svar)",
 	"contactpage-includeip": "Inkludera min IP-adress i detta meddelande.",
 	"contactpage-usermailererror": "Fel i hanteringen av mail:",
-	"contactpage-captcha-error": "CAPTCHA-fel"
+	"contactpage-captcha-error": "CAPTCHA-fel",
+	"contactpage-config-error-title": "Fel i kontaktformuläret"
 }
