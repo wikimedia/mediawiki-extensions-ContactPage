@@ -19,5 +19,6 @@
 	"contactpage-formfootnotes": "(nodig als u een antwoord wilt ontvangen)",
 	"contactpage-includeip": "Stuur mijn IP-adres mee met dit bericht.",
 	"contactpage-usermailererror": "Foutmelding bij het verzenden:",
-	"contactpage-captcha-error": "CAPTCHA-fout"
+	"contactpage-captcha-error": "CAPTCHA-fout",
+	"contactpage-config-error-title": "Contactformulierfout"
 }
