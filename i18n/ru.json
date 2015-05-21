@@ -21,5 +21,6 @@
 	"contactpage-includeip": "Включить мой IP-адрес в это сообщение.",
 	"contactpage-usermailererror": "При отправке сообщения электронной почты произошла ошибка:",
 	"contactpage-captcha-error": "Ошибка капчи",
-	"contactpage-config-error-title": "Ошибка контактной формы"
+	"contactpage-config-error-title": "Ошибка контактной формы",
+	"contactpage-config-error": "Контактная форма либо не настроена для данной страницы, либо настроена неправильно."
 }
