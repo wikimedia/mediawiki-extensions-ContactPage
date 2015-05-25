@@ -23,5 +23,7 @@
 	"contactpage-formfootnotes": "(답변을 원할 경우 필요)",
 	"contactpage-includeip": "이 메시지에 내 IP 주소를 포함합니다.",
 	"contactpage-usermailererror": "메일 개체에서 오류 발생:",
-	"contactpage-captcha-error": "CAPTCHA 오류"
+	"contactpage-captcha-error": "CAPTCHA 오류",
+	"contactpage-config-error-title": "문의 양식 오류",
+	"contactpage-config-error": "이 페이지에 대한 문의 양식이 설정되지 않았거나 설정이 잘못되었습니다."
 }
