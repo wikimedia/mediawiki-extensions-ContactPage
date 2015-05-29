@@ -1,6 +1,6 @@
 {
 	"name": "ContactPage",
-	"version": 2.2,
+	"version": "2.2",
 	"author": [
 		"Daniel Kinzler",
 		"Sam Reed"
@@ -46,5 +46,6 @@
 	},
 	"AutoloadClasses": {
 		"SpecialContact": "ContactPage_body.php"
-	}
+	},
+	"manifest_version": 1
 }
