@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Arnobarnard",
-			"Naudefj"
+			"Naudefj",
+			"Fwolff"
 		]
 	},
 	"contactpage": "Kontakblad",
@@ -13,9 +14,12 @@
 	"contactpage-defsubject": "Kontak boodskap",
 	"contactpage-subject-and-sender": "$1 (van $2)",
 	"contactpage-subject-and-sender-withip": "$1 (van $2 op $3)",
-	"contactpage-fromname": "U naam *",
-	"contactpage-fromaddress": "U e-posadres **",
-	"contactpage-formfootnotes": "* opsioneel<br />\n** opsioneel, maar noodsaaklik as u 'n antwoord wil ontvang",
+	"contactpage-fromname": "U naam:",
+	"contactpage-fromaddress": "U e-posadres:",
+	"contactpage-formfootnotes": "(noodsaaklik as u 'n antwoord wil ontvang)",
 	"contactpage-includeip": "Sluit my IP-adres by die boodskap in.",
-	"contactpage-usermailererror": "Fout met versending van e-pos:"
+	"contactpage-usermailererror": "Fout met versending van e-pos:",
+	"contactpage-captcha-error": "CAPTCHA-fout",
+	"contactpage-config-error-title": "Fout met kontakvorm",
+	"contactpage-config-error": "'n Kontakvorm is nie vir dié bladsy opgestel nie, of dit is verkeerd opgestel."
 }

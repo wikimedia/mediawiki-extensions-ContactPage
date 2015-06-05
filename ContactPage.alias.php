@@ -206,7 +206,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'Contact' => array( 'پیوند_گرتن' ),
+	'Contact' => array( 'پئیڤأند_گئرتئن' ),
 );
 
 /** Malagasy (Malagasy) */
