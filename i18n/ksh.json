@@ -17,6 +17,7 @@
 	"contactpage-formfootnotes": "(kanns De fott lohße, ußer wann De en Antwoot han wells)",
 	"contactpage-includeip": "Donn ming <i lang=\"en\">IP</i>-Addräß en heh di Nohreesch erin.",
 	"contactpage-usermailererror": "Dat E-Mail-Objek jov ene Fähler us:",
+	"contactpage-captcha-error": "<span style=\"text-transform:uppercase\" title=\"Jät zom Ennjävve, öm ze zeije, dadd ene Minsch vör em Kompjuhter sez\">Kaptscha</span>-Fähler",
 	"contactpage-config-error-title": "Fähler jefonge em Fommollaa för der Kumtak",
 	"contactpage-config-error": "Et Wikki häte kei Fommollaa för der Kumtk, udder ed es enjereesch, ävver doh es ene Fähler dren, esu dadd ed nit deiht."
 }
