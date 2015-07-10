@@ -39,6 +39,9 @@ $wgContactConfig.
        'RequireDetails' => true,
        'IncludeIP' => true,
        'AdditionalFields' => array(),
+       'DisplayFormat' => 'table',
+       'RLModules' => array(),
+       'RLStyleModules' => array(),
   );
 
 All contact form keys (in this case 'formname') should be in
@@ -76,6 +79,14 @@ It should be noted that type 'selectandother' is not currently supported.
             'required' => true,
       ),
   ),
+
+DisplayFormat is used to configure the HTMLForm. See HTMLForm documentation
+for possible values.
+
+RLModules can be used to add ResourceLoader modules (custom CSS and
+JavaScript) to the page.
+
+RLStyleModules can be used to add ResourceLoader CSS modules to the page.
 
 == Customization ==
 
