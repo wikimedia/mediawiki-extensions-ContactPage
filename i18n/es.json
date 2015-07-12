@@ -22,7 +22,7 @@
 	"contactpage-subject-and-sender-withip": "$1 (de $2 en $3)",
 	"contactpage-fromname": "Tu nombre:",
 	"contactpage-fromaddress": "Tu dirección de correo:",
-	"contactpage-formfootnotes": "(necesario si desea una respuesta)",
+	"contactpage-formfootnotes": "(necesario si quieres una respuesta)",
 	"contactpage-includeip": "Incluir mi dirección IP en este mensaje.",
 	"contactpage-usermailererror": "El sistema de correo devolvió un error:",
 	"contactpage-captcha-error": "Error en el CAPTCHA",
