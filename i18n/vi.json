@@ -19,5 +19,7 @@
 	"contactpage-formfootnotes": "(cần thiết nếu bạn muốn nhận được câu trả lời)",
 	"contactpage-includeip": "Bao gồm địa chỉ IP của tôi trong thư này.",
 	"contactpage-usermailererror": "Lỗi gửi thư:",
-	"contactpage-captcha-error": "Lỗi CAPTCHA"
+	"contactpage-captcha-error": "Lỗi CAPTCHA",
+	"contactpage-config-error-title": "Lỗi biểu mẫu liên lạc",
+	"contactpage-config-error": "Biểu mẫu liên lạc hoặc không được cấu hình cho trang này hoặc bị cấu hình sai."
 }
