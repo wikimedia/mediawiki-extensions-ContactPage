@@ -223,7 +223,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$form->loadData();
 
 		// Stolen from Special:EmailUser
-		if ( !wfRunHooks( 'EmailUserForm', array( &$form ) ) ) {
+		if ( !Hooks::run( 'EmailUserForm', array( &$form ) ) ) {
 			return;
 		}
 
@@ -407,11 +407,11 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		// Stolen from Special:EmailUser
 		$error = '';
-		if ( !wfRunHooks( 'EmailUser', array( &$contactRecipientAddress, &$senderAddress, &$subject, &$text, &$error ) ) ) {
+		if ( !Hooks::run( 'EmailUser', array( &$contactRecipientAddress, &$senderAddress, &$subject, &$text, &$error ) ) ) {
 			return $error;
 		}
 
-		if( !wfRunHooks( 'ContactForm', array( &$contactRecipientAddress, &$replyTo, &$subject, &$text, $this->formType, $formData ) ) ) {
+		if( !Hooks::run( 'ContactForm', array( &$contactRecipientAddress, &$replyTo, &$subject, &$text, $this->formType, $formData ) ) ) {
 			return false; // TODO: Need to do some proper error handling here
 		}
 
@@ -430,7 +430,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if( $formData['CCme'] && $fromAddress ) {
 			$cc_subject = wfMessage( 'emailccsubject', $contactRecipientUser->getName(), $subject )->text();
-			if( wfRunHooks( 'ContactForm',
+			if( Hooks::run( 'ContactForm',
 				array( &$senderAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ) )
 			) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
@@ -448,7 +448,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 		}
 
-		wfRunHooks( 'ContactFromComplete', array( $contactRecipientAddress, $replyTo, $subject, $text ) );
+		Hooks::run( 'ContactFromComplete', array( $contactRecipientAddress, $replyTo, $subject, $text ) );
 
 		return true;
 	}
