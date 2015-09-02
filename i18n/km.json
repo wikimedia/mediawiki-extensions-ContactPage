@@ -15,9 +15,11 @@
 	"contactpage-defsubject": "សារទាក់ទង",
 	"contactpage-subject-and-sender": "$1 (ផ្ញើ​ពី $2)",
 	"contactpage-subject-and-sender-withip": "$1 (ផ្ញើពី $2 នៅ $3)",
-	"contactpage-fromname": "ឈ្មោះ​​របស់អ្នក៖ *",
-	"contactpage-fromaddress": "អ៊ីមែល​​របស់អ្នក៖ **",
-	"contactpage-formfootnotes": "* ដាក់មិនដាក់ក៏បាន<br />\n** ដាក់មិនដាក់ក៏បានដែរ តែបើសិនជាអ្នកចង់បានចំលើយតបសូមដាក់",
+	"contactpage-fromname": "ឈ្មោះ​​របស់អ្នក៖",
+	"contactpage-fromaddress": "អ៊ីមែល​​របស់អ្នក៖",
+	"contactpage-formfootnotes": "(ត្រូវការបើសិនជាអ្នកចង់បានចម្លើយតប)",
 	"contactpage-includeip": "បញ្ចូលអាសយដ្ឋានIPរបស់ខ្ញុំទៅក្នុងសារនេះ។",
-	"contactpage-usermailererror": "កំហុសឆ្គងក្នុងចំណងជើងអ៊ីមែល៖"
+	"contactpage-usermailererror": "បញ្ហាជាមួយកម្មវត្ថុអ៊ីមែល៖",
+	"contactpage-captcha-error": "បញ្ហាជាមួយ CAPTCHA",
+	"contactpage-config-error-title": "បញ្ហាជាមួយទម្រង់បែបបទទាក់ទង"
 }
