@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"OC Ripper"
+		]
+	},
+	"contactpage": "Stranica za kontakt",
 	"contactpage-usermailererror": "Objekat maila je vratio grešku:"
 }
