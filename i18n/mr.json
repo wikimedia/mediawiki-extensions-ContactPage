@@ -14,9 +14,13 @@
 	"contactpage-legend": "विपत्र पाठवा",
 	"contactpage-defsubject": "संपर्क संदेश",
 	"contactpage-subject-and-sender": "$1 ($2 कडून)",
-	"contactpage-fromname": "आपले नाव: *",
-	"contactpage-fromaddress": "आपला विपत्रपत्ता:**",
-	"contactpage-formfootnotes": "* वैकल्पिक<br />\n** वैकल्पिक पण उत्तर हवे असल्यास आवश्यक",
+	"contactpage-subject-and-sender-withip": "$1($2पासून $3वर)",
+	"contactpage-fromname": "आपले नाव:",
+	"contactpage-fromaddress": "आपला विपत्रपत्ता:",
+	"contactpage-formfootnotes": "(आपणास उत्तर हवे असल्यास आवश्यक)",
 	"contactpage-includeip": "माझा अंकपत्ता या संदेशात अंतर्भूत करा",
-	"contactpage-usermailererror": "पत्र बाब त्रुटी वापस पाठवली:"
+	"contactpage-usermailererror": "पत्र बाब त्रुटी वापस पाठवली:",
+	"contactpage-captcha-error": "कॅपचा त्रूटी",
+	"contactpage-config-error-title": "संपर्क आवेदन त्रूटी",
+	"contactpage-config-error": "या पानासाठी संपर्क आवेदनाची रचना केल्या गेली नाही किंवा ती चूक आहे."
 }
