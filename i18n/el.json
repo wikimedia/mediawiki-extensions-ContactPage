@@ -6,10 +6,11 @@
 			"Omnipaedista",
 			"ZaDiak",
 			"Περίεργος",
-			"Glavkos"
+			"Glavkos",
+			"SucreRouge"
 		]
 	},
-	"contactpage": "Σελίδα επαφών",
+	"contactpage": "Σελίδα επικοινωνίας",
 	"contactpage-desc": "[[Special:Contact|Φόρμα επαφής για επισκέπτες]]",
 	"contactpage-title": "Επαφή",
 	"contactpage-pagetext": "Παρακαλούμε χρησιμοποιείστε την παρακάτω φόρμα για να επικοινωνήσετε μαζί μας.",
