@@ -20,7 +20,7 @@
 	"contactpage-formfootnotes": "(आपणास उत्तर हवे असल्यास आवश्यक)",
 	"contactpage-includeip": "माझा अंकपत्ता या संदेशात अंतर्भूत करा",
 	"contactpage-usermailererror": "पत्र बाब त्रुटी वापस पाठवली:",
-	"contactpage-captcha-error": "कॅपचा त्रूटी",
-	"contactpage-config-error-title": "संपर्क आवेदन त्रूटी",
+	"contactpage-captcha-error": "कॅपचा त्रुटी",
+	"contactpage-config-error-title": "संपर्क आवेदन त्रुटी",
 	"contactpage-config-error": "या पानासाठी संपर्क आवेदनाची रचना केल्या गेली नाही किंवा ती चूक आहे."
 }
