@@ -21,5 +21,6 @@
 	"contactpage-includeip": "Дадаць мой IP-адрас у гэтае паведамленьне.",
 	"contactpage-usermailererror": "Пры адсыланьні пошты адбылася памылка:",
 	"contactpage-captcha-error": "Памылка CAPTCHA",
-	"contactpage-config-error-title": "Памылка кантактнай формы"
+	"contactpage-config-error-title": "Памылка кантактнай формы",
+	"contactpage-config-error": "Кантактная форма для гэтай старонкі не наладжаная або наладжаная няправільна."
 }
