@@ -16,7 +16,7 @@
 	"contactpage-subject-and-sender-withip": "$1 ($2-k bidalia, $3-(r)ekin)",
 	"contactpage-fromname": "Zure izena:",
 	"contactpage-fromaddress": "Zure helbide elektronikoa:",
-	"contactpage-formfootnotes": " * ez da beharrezkoa<br />\n ** ez da beharrezkoa baina erantzuteko garaian nahitaezkoa da",
+	"contactpage-formfootnotes": "(beharrezkoa erantzuna nahi bada)",
 	"contactpage-includeip": "Nire IP helbidea mezu honetan sartu.",
 	"contactpage-usermailererror": "Mail objektuak errore hau itzuli du:"
 }
