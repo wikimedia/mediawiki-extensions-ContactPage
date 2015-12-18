@@ -6,7 +6,8 @@
 			"Ladsgroup",
 			"Mjbmr",
 			"Wayiran",
-			"Alirezaaa"
+			"Alirezaaa",
+			"Reza1615"
 		]
 	},
 	"contactpage": "صفحه تماس",
@@ -23,5 +24,6 @@
 	"contactpage-includeip": "نشانی آی‌پی من را با این پیغام ضمیمه کن.",
 	"contactpage-usermailererror": "شیء ایمیل خطا بازگرداند:",
 	"contactpage-captcha-error": "خطای کپتچا",
-	"contactpage-config-error-title": "خطای فرم تماس"
+	"contactpage-config-error-title": "خطای فرم تماس",
+	"contactpage-config-error": "فرم تماس برای ایت صفحه تنظیم نشده‌است یا به صورت نادرست تنظیم شده‌است."
 }
