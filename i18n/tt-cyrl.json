@@ -15,5 +15,9 @@
 	"contactpage-fromname": "Сезнең исемегез:",
 	"contactpage-fromaddress": "Сезнең электрон почта юлламагыз:",
 	"contactpage-formfootnotes": "(сезгә җавап бирү өчен кирәк генә кирәк булачак)",
-	"contactpage-includeip": "Минем IP-юлламаны бу хат белән җибәрергә."
+	"contactpage-includeip": "Минем IP-юлламаны бу хат белән җибәрергә.",
+	"contactpage-usermailererror": "Хат җибәргән вакытта хата килеп чыкты:",
+	"contactpage-captcha-error": "CAPTCHA хатасы",
+	"contactpage-config-error-title": "Контакт формасында хата",
+	"contactpage-config-error": "Әлеге бит өчен контакт формасы көйләнмәгән, яисә ул дөрес түгел."
 }
