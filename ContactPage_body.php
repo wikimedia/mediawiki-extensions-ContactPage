@@ -485,7 +485,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$captcha->action = 'contact';
 
 		return '<div class="captcha">' .
-			$captcha->getForm() .
+			$captcha->getForm( $this->getOutput() ) .
 			"</div>\n";
 	}
 }
