@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Lakzon"
 		]
 	},
-	"contactpage": "وةڵگة تۀماس",
+	"contactpage": "وەڵگە تەماس",
 	"contactpage-desc": "[[Special:Contact|فرم تماس برای بازدیدکنندگان]]",
 	"contactpage-title": "مخاطب",
 	"contactpage-pagetext": "لطفاً از فرم زیر برای تماس با ما استفاده کنید.",
