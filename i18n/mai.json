@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tulsi Bhagat"
+			"Tulsi Bhagat",
+			"बिप्लब आनन्द"
 		]
 	},
-	"contactpage": "विषय सूची पन्ना",
+	"contactpage": "सम्पर्क पन्ना",
 	"contactpage-legend": "ई-पत्र पठाऊँ",
 	"contactpage-fromname": "अपने के नाम:",
 	"contactpage-fromaddress": "अपने के ई-पत्र:",
