@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Klenje"
+			"Klenje",
+			"Tocaibon"
 		]
 	},
+	"contactpage": "Contats",
 	"contactpage-fromname": "Il to non: *"
 }
