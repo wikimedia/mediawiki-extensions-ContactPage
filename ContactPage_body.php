@@ -419,7 +419,13 @@ class SpecialContact extends UnlistedSpecialPage {
 			' to ' . $contactRecipientAddress->toString().
 			' replyto ' . ( $replyTo == null ? '-/-' : $replyTo->toString() ) . "\n"
 		);
-		$mailResult = UserMailer::send( $contactRecipientAddress, $senderAddress, $subject, $text, $replyTo );
+		$mailResult = UserMailer::send(
+			$contactRecipientAddress,
+			$senderAddress,
+			$subject,
+			$text,
+			array( 'replyTo' => $replyTo )
+		);
 
 		if( !$mailResult->isOK() ) {
 			wfDebug( __METHOD__ . ': got error from UserMailer: ' . $mailResult->getMessage() . "\n" );
