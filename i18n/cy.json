@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lloffiwr"
+			"Lloffiwr",
+			"Robin Owain"
 		]
 	},
 	"contactpage": "Tudalen gysylltu",
@@ -12,9 +13,9 @@
 	"contactpage-defsubject": "Neges",
 	"contactpage-subject-and-sender": "$1 (oddi wrth $2)",
 	"contactpage-subject-and-sender-withip": "$1 (oddi wrth $2 ar $3)",
-	"contactpage-fromname": "Eich enw: *",
-	"contactpage-fromaddress": "Eich cyfeiriad e-bost: **",
-	"contactpage-formfootnotes": "* dewisol<br />\n** dewisol ond rhaid ei gael er mwyn gallu derbyn ateb",
+	"contactpage-fromname": "Eich enw:",
+	"contactpage-fromaddress": "Eich cyfeiriad e-bost:",
+	"contactpage-formfootnotes": "(angenrheidiol os dymunwch dderbyn ateb)",
 	"contactpage-includeip": "Cynnwys fy nghyfeiriad IP yn y neges hon.",
 	"contactpage-usermailererror": "Dychwelwyd gwall gan y rhaglen e-bost:"
 }
