@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Omnipaedista"
+			"Omnipaedista",
+			"Gts-tg"
 		]
 	},
+	"contactpage": "Δέλτος ἀγγελίας",
 	"contactpage-title": "Ἐπαφή",
 	"contactpage-subject-and-sender": "$1 (ἀπὸ $2)",
 	"contactpage-fromname": "Τὸ ὄνομά σου: *",
