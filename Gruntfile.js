@@ -11,9 +11,7 @@ module.exports = function ( grunt ) {
 
 	grunt.initConfig( {
 		banana: {
-			"ContactPage": [
-				"i18n"
-			]
+			all: 'i18n/'
 		},
 		jsonlint: {
 			all: [
