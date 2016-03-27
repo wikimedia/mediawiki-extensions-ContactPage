@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Tem"
+		]
+	},
+	"contactpage": "Leathanach teagmhála",
 	"contactpage-usermailererror": "Earráid leis an píosa ríomhphoist:"
 }
