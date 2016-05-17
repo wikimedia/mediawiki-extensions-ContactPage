@@ -401,7 +401,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		/* @var SimpleCaptcha $wgCaptcha */
-		if ( $this->useCaptcha() && !$wgCaptcha->passCaptcha() ) {
+		if ( $this->useCaptcha() && !$wgCaptcha->passCaptchaFromRequest( $request, $user ) ) {
 			return wfMessage( 'contactpage-captcha-error' )->plain();
 		}
 
@@ -484,11 +484,11 @@ class SpecialContact extends UnlistedSpecialPage {
 	 */
 	private function getCaptcha() {
 		// NOTE: make sure we have a session. May be required for CAPTCHAs to work.
-		wfSetupSession();
+		\MediaWiki\Session\SessionManager::getGlobalSession()->persist();
 
 		$captcha = ConfirmEditHooks::getInstance();
-		$captcha->trigger = 'contactpage';
-		$captcha->action = 'contact';
+		$captcha->setTrigger( 'contactpage' );
+		$captcha->setAction( 'contact' );
 
 		return '<div class="captcha">' .
 			$captcha->getForm( $this->getOutput() ) .
