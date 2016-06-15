@@ -7,7 +7,8 @@
 			"Nike",
 			"Silvonen",
 			"Vililikku",
-			"McSalama"
+			"McSalama",
+			"01miki10"
 		]
 	},
 	"contactpage": "Yhteydenottosivu",
@@ -22,5 +23,8 @@
 	"contactpage-fromaddress": "Sähköpostiosoitteesi:",
 	"contactpage-formfootnotes": "(tarvitaan, jos haluat vastauksen)",
 	"contactpage-includeip": "Sisällytä IP-osoitteeni tähän viestiin.",
-	"contactpage-usermailererror": "Postitus palautti virheen:"
+	"contactpage-usermailererror": "Postitus palautti virheen:",
+	"contactpage-captcha-error": "CAPTCHA-virhe",
+	"contactpage-config-error-title": "Yhteydenottolomakkeen virhe",
+	"contactpage-config-error": "Yhteydenottolomaketta ei ole määritetty tälle sivulle tai se on määritetty virheellisesti."
 }
