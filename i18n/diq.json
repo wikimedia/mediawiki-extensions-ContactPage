@@ -4,7 +4,8 @@
 			"Erdemaslancan",
 			"Xoser",
 			"Mirzali",
-			"Marmase"
+			"Marmase",
+			"Kumkumuk"
 		]
 	},
 	"contactpage": "Pela irtıbati",
@@ -19,5 +20,8 @@
 	"contactpage-fromaddress": "Adresa e-posteyê şıma:",
 	"contactpage-formfootnotes": "(şıma ke yew cewab wazenê lazım beno)",
 	"contactpage-includeip": "Ena mesaj de adresê IP mi de bike.",
-	"contactpage-usermailererror": "Xızmeta e-postey xeta dayê:"
+	"contactpage-usermailererror": "Xızmeta e-postey xeta dayê:",
+	"contactpage-captcha-error": "Xetay CAPTCHA",
+	"contactpage-config-error-title": "Xetay fotmdê irtibati",
+	"contactpage-config-error": "Forma irtibati ya qandê pela timar nêbiya yana xırab timar biya"
 }
