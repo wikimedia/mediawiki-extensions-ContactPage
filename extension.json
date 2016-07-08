@@ -1,0 +1,51 @@
+{
+	"name": "ContactPage",
+	"version": "2.2",
+	"author": [
+		"Daniel Kinzler",
+		"Sam Reed"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ContactPage",
+	"descriptionmsg": "contactpage-desc",
+	"license-name": "GPL-2.0+",
+	"type": "specialpage",
+	"ExtensionMessagesFiles": {
+		"ContactPageAliases": "ContactPage.alias.php"
+	},
+	"MessagesDirs": {
+		"ContactPage": [
+			"i18n"
+		]
+	},
+	"config": {
+		"ContactConfig": {
+			"default": {
+				"RecipientUser": null,
+				"SenderEmail": null,
+				"SenderName": null,
+				"RequireDetails": false,
+				"IncludeIP": false,
+				"DisplayFormat": "table",
+				"RLModules": [],
+				"RLStyleModules": [],
+				"AdditionalFields": {
+					"Text": {
+						"label-message": "emailmessage",
+						"type": "textarea",
+						"rows": 20,
+						"cols": 80,
+						"required": true
+					}
+				}
+			}
+		}
+	},
+	"callback": "SpecialContact::onRegistration",
+	"SpecialPages": {
+		"Contact": "SpecialContact"
+	},
+	"AutoloadClasses": {
+		"SpecialContact": "ContactPage_body.php"
+	},
+	"manifest_version": 1
+}
