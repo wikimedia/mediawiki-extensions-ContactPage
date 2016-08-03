@@ -490,8 +490,13 @@ class SpecialContact extends UnlistedSpecialPage {
 		$captcha->setTrigger( 'contactpage' );
 		$captcha->setAction( 'contact' );
 
+		$formInformation = $captcha->getFormInformation();
+		$formMetainfo = $formInformation;
+		unset( $formMetainfo['html'] );
+		$captcha->addFormInformationToOutput( $this->getOutput(), $formMetainfo );
+
 		return '<div class="captcha">' .
-			$captcha->getForm( $this->getOutput() ) .
+			$formInformation['html'] .
 			"</div>\n";
 	}
 }
