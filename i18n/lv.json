@@ -10,10 +10,14 @@
 	"contactpage-title": "Kontakti",
 	"contactpage-pagetext": "Lūdzu, izmantojiet zemāk esošo formu, lai sazinātos ar mums.",
 	"contactpage-legend": "Sūtīt e-pastu",
+	"contactpage-defsubject": "Ziņojuma teksts",
 	"contactpage-subject-and-sender": "$1 (no $2)",
 	"contactpage-subject-and-sender-withip": "$1 (no $2 - $3)",
-	"contactpage-fromname": "Jūsu vārds: *",
-	"contactpage-fromaddress": "Jūsu e-pasts: **",
+	"contactpage-fromname": "Tavs vārds:",
+	"contactpage-fromaddress": "Tava e-pasta adrese:",
+	"contactpage-formfootnotes": "(nepieciešama, ja vēlies saņemt atbildi)",
 	"contactpage-includeip": "Iekļaut šajā ziņojumā manu IP adresi.",
-	"contactpage-usermailererror": "Pasta objekts atgrieza kļūdu:"
+	"contactpage-usermailererror": "Pasta objekts atgrieza kļūdu:",
+	"contactpage-captcha-error": "CAPTCHA kļūda",
+	"contactpage-config-error-title": "Kontaktformas kļūda"
 }
