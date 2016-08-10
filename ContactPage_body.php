@@ -130,7 +130,6 @@ class SpecialContact extends UnlistedSpecialPage {
 			$subject = wfMessage( 'contactpage-defsubject' )->inContentLanguage()->text();
 		}
 
-		$user = $this->getUser();
 		$fromAddress = '';
 		$fromName = '';
 		if( $user->isLoggedIn() ) {
