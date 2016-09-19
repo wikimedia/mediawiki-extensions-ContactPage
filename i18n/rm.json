@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Terfili"
+		]
+	},
+	"contactpage": "Pagina da contact",
 	"contactpage-usermailererror": "La funcziun dad e-mail ha returnà ina errur:"
 }
