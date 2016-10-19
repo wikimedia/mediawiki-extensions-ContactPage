@@ -4,5 +4,20 @@
 			"Giromin Cangiaxo"
 		]
 	},
-	"contactpage": "Contatti"
+	"contactpage": "Contatti",
+	"contactpage-desc": "[[Special:Contact|Moddulo de contatto pe-i ospiti]]",
+	"contactpage-title": "Contattâ",
+	"contactpage-pagetext": "O moddulo riportou chì de sotta o consente de mettise in contatto con niatri.",
+	"contactpage-legend": "Invia e-mail",
+	"contactpage-defsubject": "Messaggio",
+	"contactpage-subject-and-sender": "$1 (da $2)",
+	"contactpage-subject-and-sender-withip": "$1 (da $2 a l'adresso $3)",
+	"contactpage-fromname": "O to nomme:",
+	"contactpage-fromaddress": "O toeu adresso e-mail",
+	"contactpage-formfootnotes": "(obrigatoio se se dexiddia 'na risposta)",
+	"contactpage-includeip": "Includdi o mæ adresso IP inte questo messaggio.",
+	"contactpage-usermailererror": "L'oggetto mail o l'ha restituio l'errô:",
+	"contactpage-captcha-error": "Errô CAPTCHA",
+	"contactpage-config-error-title": "Errô into moddulo de contatto",
+	"contactpage-config-error": "No l'è stæto configurou un moddulo de contatto pe sta paggina, ò donque o no l'è stæto configurou in moddo corretto."
 }
