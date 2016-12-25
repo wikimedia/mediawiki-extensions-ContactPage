@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karthi.dr"
+			"Karthi.dr",
+			"Girmitya"
 		]
 	},
+	"contactpage": "Contact panna",
 	"contactpage-usermailererror": "Mail object error return karis hai:"
 }
