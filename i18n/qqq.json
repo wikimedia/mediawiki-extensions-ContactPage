@@ -7,11 +7,12 @@
 			"Lloffiwr",
 			"Purodha",
 			"Reedy",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"contactpage": "{{Identical|ContactPage}}",
-	"contactpage-desc": "Extension description displayed on [[Special:Version]].",
+	"contactpage-desc": "{{desc|name=ContactPage|url=https://www.mediawiki.org/wiki/Extension:ContactPage}}",
 	"contactpage-title": "Used as page title.\n{{Identical|Contact}}",
 	"contactpage-pagetext": "Used as page text.\n\nThe page title for this message is {{msg-mw|Contactpage-title}}.",
 	"contactpage-legend": "{{Identical|E-mail}}",
