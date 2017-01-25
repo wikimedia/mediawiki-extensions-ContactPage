@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Malafaya",
-			"Lakaoso"
+			"Lakaoso",
+			"Joao Xavier"
 		]
 	},
+	"contactpage": "Pagino por kontakto",
 	"contactpage-subject-and-sender": "$1 (de $2)",
 	"contactpage-subject-and-sender-withip": "$1 (de $2 en $3)",
 	"contactpage-fromname": "Vua nomo:",
