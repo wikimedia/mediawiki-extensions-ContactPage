@@ -19,21 +19,20 @@
 	},
 	"config": {
 		"ContactConfig": {
+			"@doc": "Use DisplayFormat `ooui` for compatibility with most skins.",
 			"default": {
 				"RecipientUser": null,
 				"SenderEmail": null,
 				"SenderName": null,
 				"RequireDetails": false,
 				"IncludeIP": false,
-				"DisplayFormat": "table",
+				"DisplayFormat": "ooui",
 				"RLModules": [],
 				"RLStyleModules": [],
 				"AdditionalFields": {
 					"Text": {
 						"label-message": "emailmessage",
 						"type": "textarea",
-						"rows": 20,
-						"cols": 80,
 						"required": true
 					}
 				}
