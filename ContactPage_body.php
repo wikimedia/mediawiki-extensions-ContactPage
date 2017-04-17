@@ -201,7 +201,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			];
 		}
 
-		$form = HTMLForm::factory( $config['DisplayFormat'],
+		$form = HTMLForm::factory( 'ooui',
 			$formItems, $this->getContext(), "contactpage-{$this->formType}"
 		);
 		$form->setWrapperLegendMsg( 'contactpage-legend' );

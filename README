@@ -80,10 +80,6 @@ It should be noted that type 'selectandother' is not currently supported.
       ),
   ),
 
-DisplayFormat is used to configure the HTMLForm. See HTMLForm documentation
-for possible values. Recommended value is "ooui" for consistency with other
-forms and better mobile rendering.
-
 RLModules can be used to add ResourceLoader modules (custom CSS and
 JavaScript) to the page.
 
