@@ -65,7 +65,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	public function execute( $par ) {
 		global $wgEnableEmail;
 
-		if( !$wgEnableEmail ) {
+		if ( !$wgEnableEmail ) {
 			// From Special:EmailUser
 			throw new ErrorPageError( 'usermaildisabled', 'usermaildisabledtext' );
 		}
@@ -74,15 +74,16 @@ class SpecialContact extends UnlistedSpecialPage {
 		$this->formType = strtolower( $request->getText( 'formtype', $par ) );
 
 		$config = $this->getTypeConfig();
-		if( !$config['RecipientUser'] ) {
-			$this->getOutput()->showErrorPage( 'contactpage-config-error-title', 'contactpage-config-error' );
+		if ( !$config['RecipientUser'] ) {
+			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
+				'contactpage-config-error' );
 			return;
 		}
 
 		$user = $this->getUser();
 
 		$nu = User::newFromName( $config['RecipientUser'] );
-		if( is_null( $nu ) || !$nu->canReceiveEmail() ) {
+		if ( is_null( $nu ) || !$nu->canReceiveEmail() ) {
 			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
 			return;
 		}
@@ -132,7 +133,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$fromAddress = '';
 		$fromName = '';
-		if( $user->isLoggedIn() ) {
+		if ( $user->isLoggedIn() ) {
 			// Use real name if set
 			$realName = $user->getRealName();
 			if ( $realName ) {
@@ -145,59 +146,59 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$additional = $config['AdditionalFields'];
 
-		$formItems = array(
-			'FromName' => array(
+		$formItems = [
+			'FromName' => [
 				'label-message' => 'contactpage-fromname',
 				'type' => 'text',
 				'required' => $config['RequireDetails'],
 				'default' => $fromName,
-			),
-			'FromAddress' => array(
+			],
+			'FromAddress' => [
 				'label-message' => 'contactpage-fromaddress',
 				'type' => 'email',
 				'required' => $config['RequireDetails'],
 				'default' => $fromAddress,
-			),
-			'FromInfo' => array(
+			],
+			'FromInfo' => [
 				'label' => '',
 				'type' => 'info',
-				'default' => Html::rawElement( 'small', array(),
+				'default' => Html::rawElement( 'small', [],
 					$this->msg( 'contactpage-formfootnotes' )->text()
 				),
 				'raw' => true,
-			),
-			'Subject' => array(
+			],
+			'Subject' => [
 				'label-message' => 'emailsubject',
 				'type' => 'text',
 				'default' => $subject,
-			),
-		) + $additional + array(
-			'CCme' => array(
+			],
+		] + $additional + [
+			'CCme' => [
 				'label-message' => 'emailccme',
 				'type' => 'check',
 				'default' => $this->getUser()->getBoolOption( 'ccmeonemails' ),
-			),
-			'FormType' => array(
+			],
+			'FormType' => [
 				'class' => 'HTMLHiddenField',
 				'label' => 'Type',
 				'default' => $this->formType,
-			)
-		);
+			]
+		];
 
 		if ( $config['IncludeIP'] && $user->isLoggedIn() ) {
-			$formItems['IncludeIP'] = array(
+			$formItems['IncludeIP'] = [
 				'label-message' => 'contactpage-includeip',
 				'type' => 'check',
-			);
+			];
 		}
 
 		if ( $this->useCaptcha() ) {
-			$formItems['Captcha'] = array(
+			$formItems['Captcha'] = [
 				'label-message' => 'captcha-label',
 				'type' => 'info',
 				'default' => $this->getCaptcha(),
 				'raw' => true,
-			);
+			];
 		}
 
 		$form = HTMLForm::factory( $config['DisplayFormat'],
@@ -218,11 +219,11 @@ class SpecialContact extends UnlistedSpecialPage {
 				$form->setSubmitTextMsg( $msg );
 			}
 		}
-		$form->setSubmitCallback( array( $this, 'processInput' ) );
+		$form->setSubmitCallback( [ $this, 'processInput' ] );
 		$form->loadData();
 
 		// Stolen from Special:EmailUser
-		if ( !Hooks::run( 'EmailUserForm', array( &$form ) ) ) {
+		if ( !Hooks::run( 'EmailUserForm', [ &$form ] ) ) {
 			return;
 		}
 
@@ -342,13 +343,13 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		$text = '';
-		foreach( $config['AdditionalFields'] as $name => $field ) {
+		foreach ( $config['AdditionalFields'] as $name => $field ) {
 			$class = HTMLForm::getClassFromDescriptor( $name, $field );
 
 			$value = '';
 			// TODO: Support selectandother/HTMLSelectAndOtherField
 			// options, options-messages and options-message
-			if ( isset( $field['options-messages'] )  ) { // Multiple values!
+			if ( isset( $field['options-messages'] ) ) { // Multiple values!
 				if ( is_string( $formData[$name] ) ) {
 					$optionValues = array_flip( $field['options-messages'] );
 					if ( isset( $optionValues[$formData[$name]] ) ) {
@@ -359,7 +360,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				} elseif ( count( $formData[$name] ) ) {
 					$formValues = array_flip( $formData[$name] );
 					$value .= "\n";
-					foreach( $field['options-messages'] as $msg => $optionValue ) {
+					foreach ( $field['options-messages'] as $msg => $optionValue ) {
 						$msg = $this->msg( $msg )->inContentLanguage()->text();
 						$optionValue = $this->getYesOrNoMsg( isset( $formValues[$optionValue] ) );
 						$value .= "\t$msg: $optionValue\n";
@@ -371,13 +372,14 @@ class SpecialContact extends UnlistedSpecialPage {
 				} elseif ( count( $formData[$name] ) ) {
 					$formValues = array_flip( $formData[$name] );
 					$value .= "\n";
-					foreach( $field['options'] as $msg => $optionValue ) {
+					foreach ( $field['options'] as $msg => $optionValue ) {
 						$optionValue = $this->getYesOrNoMsg( isset( $formValues[$optionValue] ) );
 						$value .= "\t$msg: $optionValue\n";
 					}
 				}
 			} elseif ( $class === 'HTMLCheckField' ) {
-				$value = $this->getYesOrNoMsg( $formData[$name] xor ( isset( $field['invert'] ) && $field['invert'] ) );
+				$value = $this->getYesOrNoMsg( $formData[$name] xor
+					( isset( $field['invert'] ) && $field['invert'] ) );
 			} elseif ( isset( $formData[$name] ) ) {
 				// HTMLTextField, HTMLTextAreaField
 				// HTMLFloatField, HTMLIntField
@@ -406,11 +408,15 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		// Stolen from Special:EmailUser
 		$error = '';
-		if ( !Hooks::run( 'EmailUser', array( &$contactRecipientAddress, &$senderAddress, &$subject, &$text, &$error ) ) ) {
+		if ( !Hooks::run( 'EmailUser', [ &$contactRecipientAddress, &$senderAddress, &$subject,
+			&$text, &$error ] )
+		) {
 			return $error;
 		}
 
-		if( !Hooks::run( 'ContactForm', array( &$contactRecipientAddress, &$replyTo, &$subject, &$text, $this->formType, $formData ) ) ) {
+		if ( !Hooks::run( 'ContactForm', [ &$contactRecipientAddress, &$replyTo, &$subject,
+			&$text, $this->formType, $formData ] )
+		) {
 			return false; // TODO: Need to do some proper error handling here
 		}
 
@@ -423,26 +429,26 @@ class SpecialContact extends UnlistedSpecialPage {
 			$senderAddress,
 			$subject,
 			$text,
-			array( 'replyTo' => $replyTo )
+			[ 'replyTo' => $replyTo ]
 		);
 
-		if( !$mailResult->isOK() ) {
+		if ( !$mailResult->isOK() ) {
 			wfDebug( __METHOD__ . ': got error from UserMailer: ' . $mailResult->getMessage() . "\n" );
 			return $this->msg( 'contactpage-usermailererror' )->text() . $mailResult->getMessage();
 		}
 
 		// if the user requested a copy of this mail, do this now,
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
-		if( $formData['CCme'] && $fromAddress ) {
+		if ( $formData['CCme'] && $fromAddress ) {
 			$cc_subject = $this->msg( 'emailccsubject', $contactRecipientUser->getName(), $subject )->text();
-			if( Hooks::run( 'ContactForm',
-				array( &$senderAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ) )
+			if ( Hooks::run( 'ContactForm',
+				[ &$senderAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ] )
 			) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
 					' to ' . $senderAddress->toString() . "\n"
 				);
 				$ccResult = UserMailer::send( $senderAddress, $contactSender, $cc_subject, $text );
-				if( !$ccResult->isOK() ) {
+				if ( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
 					// original mail has succeeded. It's unlikely, but still, what to do?
 					// We can either show them an error, or we can say everything was fine,
@@ -453,7 +459,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 		}
 
-		Hooks::run( 'ContactFromComplete', array( $contactRecipientAddress, $replyTo, $subject, $text ) );
+		Hooks::run( 'ContactFromComplete', [ $contactRecipientAddress, $replyTo, $subject, $text ] );
 
 		return true;
 	}
