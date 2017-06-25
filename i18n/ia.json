@@ -16,5 +16,8 @@
 	"contactpage-fromaddress": "Tu e-mail:",
 	"contactpage-formfootnotes": "(necessari si tu vole reciper un responsa)",
 	"contactpage-includeip": "Includer mi adresse IP in iste message.",
-	"contactpage-usermailererror": "Le objecto de e-mail retornava le error:"
+	"contactpage-usermailererror": "Le objecto de e-mail retornava le error:",
+	"contactpage-captcha-error": "Error de CAPTCHA",
+	"contactpage-config-error-title": "Error de formulario de contacto",
+	"contactpage-config-error": "Le formulario de contacto pro iste pagina es o non configurate o configurate incorrectemente."
 }
