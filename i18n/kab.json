@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Belkacem77"
+		]
+	},
+	"contactpage": "Asebter n unermes",
 	"contactpage-usermailererror": "Yella ugul deg uzwel n email:"
 }
