@@ -32,17 +32,16 @@ LocalSettings.php file (near the end):
 As of version 2, all configuration is done by one global variable,
 $wgContactConfig.
 
-  $wgContactConfig['formname'] = array(
+  $wgContactConfig['formname'] = [
        'RecipientUser' => 'WikiUser',
        'SenderEmail' => 'user@email.com',
        'SenderName' => 'User Email',
        'RequireDetails' => true,
        'IncludeIP' => true,
-       'AdditionalFields' => array(),
-       'DisplayFormat' => 'table',
-       'RLModules' => array(),
-       'RLStyleModules' => array(),
-  );
+       'AdditionalFields' => [],
+       'RLModules' => [],
+       'RLStyleModules' => [],
+  ];
 
 All contact form keys (in this case 'formname') should be in
 lowercase.
@@ -70,15 +69,15 @@ should be added manually to the AdditionalFields array like below.
 
 It should be noted that type 'selectandother' is not currently supported.
 
-  'AdditionalFields' => array(
-       'Text' => array(
+  'AdditionalFields' => [
+       'Text' => [
             'label-message' => 'emailmessage',
             'type' => 'textarea',
             'rows' => 20,
             'cols' => 80,
             'required' => true,
-      ),
-  ),
+      ],
+  ],
 
 RLModules can be used to add ResourceLoader modules (custom CSS and
 JavaScript) to the page.
