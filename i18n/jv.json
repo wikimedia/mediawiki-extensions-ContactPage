@@ -14,9 +14,9 @@
 	"contactpage-defsubject": "Layang kontak",
 	"contactpage-subject-and-sender": "$1 (saka $2)",
 	"contactpage-subject-and-sender-withip": "$1 (saka $2 nèng $3)",
-	"contactpage-fromname": "Asma panjenengan: *",
-	"contactpage-fromaddress": "Layang-e panjenengan: **",
-	"contactpage-formfootnotes": "* opsional<br />\n** opsional nanging diperlokaké yèn panjenengan perlu wangsulan",
+	"contactpage-fromname": "Jenengé panjenengan:",
+	"contactpage-fromaddress": "Alamat layang-èlé panjenengan:",
+	"contactpage-formfootnotes": "(dibutuhaké yèn panjenengan péngin wangsulan)",
 	"contactpage-includeip": "Sartakaké alamat IP kula nèng layang iki.",
 	"contactpage-usermailererror": "Kaluputan obyèk layang:"
 }
