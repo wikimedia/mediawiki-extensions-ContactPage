@@ -6,7 +6,8 @@
 			"Liuxinyu970226",
 			"Shinjiman",
 			"Wmr89502270",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"WhitePhosphorus"
 		]
 	},
 	"contactpage": "联络页面",
@@ -19,7 +20,7 @@
 	"contactpage-subject-and-sender-withip": "$1 (由$2在$3)",
 	"contactpage-fromname": "您的名字：",
 	"contactpage-fromaddress": "您的邮箱：",
-	"contactpage-formfootnotes": "（可选，如果您想回答的话）",
+	"contactpage-formfootnotes": "（如果您希望收到答复则必填）",
 	"contactpage-includeip": "在此邮件中包含我的IP位置资料。",
 	"contactpage-usermailererror": "Mail 对象返回错误：",
 	"contactpage-captcha-error": "验证码错误",
