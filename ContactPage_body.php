@@ -25,6 +25,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			$wgContactConfig['default']['SenderName'] = "Contact Form on $wgSitename";
 		}
 	}
+
 	/**
 	 * Constructor
 	 */
@@ -33,7 +34,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @see SpecialPage::getDescription
+	 * @inheritDoc
 	 */
 	function getDescription() {
 		return $this->msg( 'contactpage' )->text();
@@ -58,7 +59,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	/**
 	 * Main execution function
 	 *
-	 * @param $par Mixed: Parameters passed to the page
+	 * @param string|null $par Parameters passed to the page
 	 * @throws UserBlockedError
 	 * @throws ErrorPageError
 	 */
