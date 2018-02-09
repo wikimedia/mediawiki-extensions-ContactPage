@@ -42,7 +42,7 @@
 		"Contact": "SpecialContact"
 	},
 	"AutoloadClasses": {
-		"SpecialContact": "ContactPage_body.php"
+		"SpecialContact": "includes/SpecialContact.php"
 	},
 	"manifest_version": 1
 }
