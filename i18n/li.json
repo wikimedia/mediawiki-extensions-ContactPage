@@ -14,9 +14,12 @@
 	"contactpage-defsubject": "Kóntakberich",
 	"contactpage-subject-and-sender": "$1 (ven $2)",
 	"contactpage-subject-and-sender-withip": "$1 (van $2 op $3)",
-	"contactpage-fromname": "Diene naam: *",
-	"contactpage-fromaddress": "Die-t e-mailadres: **",
-	"contactpage-formfootnotes": "* keuzevrie<br />\n** keuzevrie, mer beneudj es antjwaord gewönsj is",
+	"contactpage-fromname": "Diene naam:",
+	"contactpage-fromaddress": "Die-t e-mailadres: *",
+	"contactpage-formfootnotes": "(nuuedig wen se 'n antjwaord wils óntvange)",
 	"contactpage-includeip": "Sjik mien IP-adres mit in dit berich.",
-	"contactpage-usermailererror": "Foutmeljing biej 't zenje:"
+	"contactpage-usermailererror": "Foutmeljing biej 't zenje:",
+	"contactpage-captcha-error": "CAPTCHA-fout",
+	"contactpage-config-error-title": "Kóntakformeleerfout",
+	"contactpage-config-error": "E kóntakformeleer is neet of ónjuus ingestèld veur dees pagina."
 }
