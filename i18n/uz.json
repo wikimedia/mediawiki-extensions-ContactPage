@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Sociologist"
+		]
+	},
+	"contactpage": "Qayta aloqa",
 	"contactpage-usermailererror": "Elektron pochta xabarini joʻnatishda xatolik yuz berdi:"
 }
