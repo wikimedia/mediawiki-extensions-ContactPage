@@ -7,7 +7,7 @@
  * @ingroup SpecialPage
  * @author Daniel Kinzler, brightbyte.de
  * @copyright © 2007-2014 Daniel Kinzler, Sam Reed
- * @license GNU General Public Licence 2.0 or later
+ * @license GPL-2.0-or-later
  */
 
 /**
