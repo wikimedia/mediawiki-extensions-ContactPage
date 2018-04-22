@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"Artsiom91"
 		]
 	},
 	"contactpage": "Старонка кантакту",
-	"contactpage-usermailererror": "Паштовы аб'ект паведамляе пра памылку:"
+	"contactpage-usermailererror": "Паштовы аб’ект паведамляе пра памылку:"
 }
