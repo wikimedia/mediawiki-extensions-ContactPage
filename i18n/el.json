@@ -7,7 +7,8 @@
 			"ZaDiak",
 			"Περίεργος",
 			"Glavkos",
-			"SucreRouge"
+			"SucreRouge",
+			"Nikosgranturismogt"
 		]
 	},
 	"contactpage": "Σελίδα επικοινωνίας",
@@ -22,5 +23,8 @@
 	"contactpage-fromaddress": "Το ηλεκτρονικό ταχυδρομείο σας:",
 	"contactpage-formfootnotes": "(απαραίτητο αν θέλετε μια απάντηση)",
 	"contactpage-includeip": "Συμπεριλάβετε τη διεύθυνση IP μου σε αυτό το μήνυμα",
-	"contactpage-usermailererror": "Σφάλμα ηλεκτρονικού ταχυδρομείου:"
+	"contactpage-usermailererror": "Σφάλμα ηλεκτρονικού ταχυδρομείου:",
+	"contactpage-captcha-error": "Σφάλμα CAPTCHA",
+	"contactpage-config-error-title": "Σφάλμα φόρμας επαφής",
+	"contactpage-config-error": "Μια φόρμα επαφής δεν έχει ρυθμιστεί για αυτή τη σελίδα ή έχει ρυθμιστεί λανθασμένα."
 }
