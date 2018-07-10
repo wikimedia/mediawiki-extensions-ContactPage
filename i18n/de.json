@@ -23,5 +23,6 @@
 	"contactpage-usermailererror": "Beim Versenden gab es folgende Fehlermeldung:",
 	"contactpage-captcha-error": "CAPTCHA-Fehler",
 	"contactpage-config-error-title": "Kontaktformularfehler",
-	"contactpage-config-error": "Entweder ist kein Kontaktformular für diese Seite konfiguriert oder es ist falsch konfiguriert."
+	"contactpage-config-error": "Entweder ist kein Kontaktformular für diese Seite konfiguriert oder es ist falsch konfiguriert.",
+	"contactpage-mustbeloggedin": "Bitte melde dich an, um ein Kontaktformular abzuschicken."
 }

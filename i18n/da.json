@@ -4,7 +4,8 @@
 			"Byrial",
 			"Christian List",
 			"Hylle",
-			"Thomsen"
+			"Thomsen",
+			"Cgtdk"
 		]
 	},
 	"contactpage": "Kontaktside",
@@ -20,5 +21,7 @@
 	"contactpage-formfootnotes": "(nødvendig hvis du ønsker at få svar)",
 	"contactpage-includeip": "Inkluder min IP-adresse i denne besked.",
 	"contactpage-usermailererror": "E-mail-modulet returnerede en fejl:",
-	"contactpage-captcha-error": "CAPTCHA fejl"
+	"contactpage-captcha-error": "CAPTCHA fejl",
+	"contactpage-config-error-title": "Fejl i kontaktformular",
+	"contactpage-config-error": "En kontaktformular er enten ikke konfigureret for denne side eller er konfigureret forkert."
 }
