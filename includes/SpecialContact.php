@@ -75,6 +75,11 @@ class SpecialContact extends UnlistedSpecialPage {
 		$this->formType = strtolower( $request->getText( 'formtype', $par ) );
 
 		$config = $this->getTypeConfig();
+
+		if ( $config['MustBeLoggedIn'] ) {
+			$this->requireLogin( 'contactpage-mustbeloggedin' );
+		}
+
 		if ( !$config['RecipientUser'] ) {
 			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
 				'contactpage-config-error' );

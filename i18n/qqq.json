@@ -26,5 +26,6 @@
 	"contactpage-usermailererror": "Error message displayed when no email could be sent by the MediWiki UserMailer script.",
 	"contactpage-captcha-error": "Error message displayed when there was a CAPTCHA error (i.e. the user failed to enter the correct CAPTCHA, or didn't enter one at all, etc.)",
 	"contactpage-config-error-title": "Page title of Special:Contact when the requested form is configured incorrectly.",
-	"contactpage-config-error": "Used as the content of Special:Contact when the requested form is configured incorrectly."
+	"contactpage-config-error": "Used as the content of Special:Contact when the requested form is configured incorrectly.",
+	"contactpage-mustbeloggedin": "Showed on Special:Userlogin when user tries to use a Contact Page that requires them to be logged in."
 }

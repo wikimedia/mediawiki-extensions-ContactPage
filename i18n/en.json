@@ -20,5 +20,6 @@
 	"contactpage-usermailererror": "Mail object returned error:",
 	"contactpage-captcha-error": "CAPTCHA error",
 	"contactpage-config-error-title": "Contact form error",
-	"contactpage-config-error": "A contact form is either not configured for this page or is configured incorrectly."
+	"contactpage-config-error": "A contact form is either not configured for this page or is configured incorrectly.",
+	"contactpage-mustbeloggedin": "Please log in to submit a contact form."
 }

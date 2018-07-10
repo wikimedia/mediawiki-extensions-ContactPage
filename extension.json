@@ -25,6 +25,7 @@
 				"SenderName": null,
 				"RequireDetails": false,
 				"IncludeIP": false,
+				"MustBeLoggedIn": false,
 				"RLModules": [],
 				"RLStyleModules": [],
 				"AdditionalFields": {
