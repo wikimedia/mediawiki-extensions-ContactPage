@@ -22,5 +22,6 @@
 	"contactpage-usermailererror": "Пры адсыланьні пошты адбылася памылка:",
 	"contactpage-captcha-error": "Памылка CAPTCHA",
 	"contactpage-config-error-title": "Памылка кантактнай формы",
-	"contactpage-config-error": "Кантактная форма для гэтай старонкі не наладжаная або наладжаная няправільна."
+	"contactpage-config-error": "Кантактная форма для гэтай старонкі не наладжаная або наладжаная няправільна.",
+	"contactpage-mustbeloggedin": "Калі ласка, увайдзіце, каб даслаць кантактную форму."
 }

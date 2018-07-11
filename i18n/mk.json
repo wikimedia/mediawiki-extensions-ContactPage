@@ -20,5 +20,6 @@
 	"contactpage-usermailererror": "Настана следната грешка при праќање е-пошта:",
 	"contactpage-captcha-error": "Грешка во сликичката за проверка",
 	"contactpage-config-error-title": "Грешка во контактниот образец",
-	"contactpage-config-error": "Контактниот образец за оваа страница не е нагоден или е нагоден неисправно."
+	"contactpage-config-error": "Контактниот образец за оваа страница не е нагоден или е нагоден неисправно.",
+	"contactpage-mustbeloggedin": "Најавете се за да го поднесете контактниот образец."
 }

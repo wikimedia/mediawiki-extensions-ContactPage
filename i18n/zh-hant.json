@@ -8,7 +8,8 @@
 			"Waihorace",
 			"Wrightbus",
 			"Cwlin0416",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
 	"contactpage": "聯絡頁面",
@@ -26,5 +27,6 @@
 	"contactpage-usermailererror": "寄信物件回傳錯誤：",
 	"contactpage-captcha-error": "CAPTCHA 錯誤",
 	"contactpage-config-error-title": "聯絡表格錯誤",
-	"contactpage-config-error": "聯絡表格未配置或配置有誤。"
+	"contactpage-config-error": "聯絡表格未配置或配置有誤。",
+	"contactpage-mustbeloggedin": "請登入來提交聯絡表單。"
 }

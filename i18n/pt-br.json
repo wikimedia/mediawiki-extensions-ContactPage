@@ -7,7 +7,8 @@
 			"Cainamarques",
 			"OTAVIO1981",
 			"Araceletorres",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"contactpage": "Página de Contato",
@@ -25,5 +26,6 @@
 	"contactpage-usermailererror": "Erro no email:",
 	"contactpage-captcha-error": "Erro de CAPTCHA",
 	"contactpage-config-error-title": "Erro no formulário de contato",
-	"contactpage-config-error": "Um formulário de contato não está configurado para esta página ou está configurado incorretamente."
+	"contactpage-config-error": "Um formulário de contato não está configurado para esta página ou está configurado incorretamente.",
+	"contactpage-mustbeloggedin": "Por favor, faça o login para enviar um formulário de contato."
 }
