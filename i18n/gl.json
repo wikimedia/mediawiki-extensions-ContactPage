@@ -24,5 +24,6 @@
 	"contactpage-usermailererror": "O obxecto enviado deu unha mensaxe de erro:",
 	"contactpage-captcha-error": "Erro de CAPTCHA",
 	"contactpage-config-error-title": "Erro do formulario de contacto",
-	"contactpage-config-error": "O formulario de contacto non está configurado para esta páxina ou non está configurado correctamente."
+	"contactpage-config-error": "O formulario de contacto non está configurado para esta páxina ou non está configurado correctamente.",
+	"contactpage-mustbeloggedin": "Por favor, inicia a sesión para enviar un formulario de contacto."
 }
