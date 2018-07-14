@@ -23,5 +23,6 @@
 	"contactpage-formfootnotes": "* isteğe bağlı<br />\n** isteğe bağlı ancak cevap istiyorsanız gerekli",
 	"contactpage-includeip": "Mesaja IP adresimi ekle.",
 	"contactpage-usermailererror": "E-posta hizmeti hata verdi:",
-	"contactpage-captcha-error": "CAPTCHA hatası"
+	"contactpage-captcha-error": "CAPTCHA hatası",
+	"contactpage-mustbeloggedin": "Bir iletişim formu göndermek için lütfen giriş yapın."
 }

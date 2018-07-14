@@ -27,5 +27,6 @@
 	"contactpage-usermailererror": "Fel i hanteringen av mail:",
 	"contactpage-captcha-error": "CAPTCHA-fel",
 	"contactpage-config-error-title": "Fel i kontaktformuläret",
-	"contactpage-config-error": "Ett kontaktformulär är antingen inte konfigurerat för denna sida eller så är den felaktigt konfigurerad."
+	"contactpage-config-error": "Ett kontaktformulär är antingen inte konfigurerat för denna sida eller så är den felaktigt konfigurerad.",
+	"contactpage-mustbeloggedin": "Logga in för att skicka in ett kontaktformulär."
 }
