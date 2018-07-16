@@ -24,5 +24,5 @@
 	"contactpage-captcha-error": "Erro de CAPTCHA",
 	"contactpage-config-error-title": "Erro de formulário de contacto",
 	"contactpage-config-error": "Não está configurado para esta página um formulário de contacto ou este está configurado incorretamente.",
-	"contactpage-mustbeloggedin": "Para submeter um formulário de contacto, inicie sessão por favor."
+	"contactpage-mustbeloggedin": "Para enviar um formulário de contacto, inicie sessão por favor."
 }
