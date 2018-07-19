@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Sky Harbor"
 		]
 	},
 	"contactpage": "Pahina ng pakikipag-ugnayan",
@@ -12,9 +13,12 @@
 	"contactpage-defsubject": "Mensahe ng pakikipag-ugnayan",
 	"contactpage-subject-and-sender": "$1 (mula sa $2)",
 	"contactpage-subject-and-sender-withip": "$1 (mula sa $2 na nasa $3)",
-	"contactpage-fromname": "Pangalan mo: *",
-	"contactpage-fromaddress": "E-liham mo: **",
-	"contactpage-formfootnotes": "* maaaring wala nito<br />\n** maaaring wala nito ngunit kailangan kung kailangan mo ng tugon",
+	"contactpage-fromname": "Pangalan mo:",
+	"contactpage-fromaddress": "E-liham mo:",
+	"contactpage-formfootnotes": "(kailangan kung nais mong makakuha ng sagot)",
 	"contactpage-includeip": "Isama ang aking adres ng IP sa mensaheng ito.",
-	"contactpage-usermailererror": "Pagkakamaling sanhi ng pagkakabalik ng liham mula sa puntirya:"
+	"contactpage-usermailererror": "Pagkakamaling sanhi ng pagkakabalik ng liham mula sa puntirya:",
+	"contactpage-captcha-error": "Kamalian sa CAPTCHA",
+	"contactpage-config-error-title": "Kamalian sa pormularyo ng pakikipag-ugnayan",
+	"contactpage-config-error": "Walang pormularyo ng pakikipag-ugnayan ang nakatakda para sa pahinang ito o kaya'y mali itong nakatakda."
 }

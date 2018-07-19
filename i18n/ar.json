@@ -24,5 +24,6 @@
 	"contactpage-usermailererror": "جسم البريد أرجع خطأ:",
 	"contactpage-captcha-error": "خطأ في كابتشا",
 	"contactpage-config-error-title": "خطأ في استمارة الاتصال",
-	"contactpage-config-error": "إما أن نموذج الاتصال غير مكوّن لهذه الصفحة أو تم تكوينه بشكل غير صحيح."
+	"contactpage-config-error": "إما أن نموذج الاتصال غير مكوّن لهذه الصفحة أو تم تكوينه بشكل غير صحيح.",
+	"contactpage-mustbeloggedin": "يُرجَى تسجيل الدخول لتقديم نموذج اتصال."
 }
