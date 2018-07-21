@@ -20,5 +20,6 @@
 	"contactpage-usermailererror": "Pagkakamaling sanhi ng pagkakabalik ng liham mula sa puntirya:",
 	"contactpage-captcha-error": "Kamalian sa CAPTCHA",
 	"contactpage-config-error-title": "Kamalian sa pormularyo ng pakikipag-ugnayan",
-	"contactpage-config-error": "Walang pormularyo ng pakikipag-ugnayan ang nakatakda para sa pahinang ito o kaya'y mali itong nakatakda."
+	"contactpage-config-error": "Walang pormularyo ng pakikipag-ugnayan ang nakatakda para sa pahinang ito o kaya'y mali itong nakatakda.",
+	"contactpage-mustbeloggedin": "Mangyaring lumagda upang magpasa ng pormularyo ng pakikipag-ugnayan."
 }

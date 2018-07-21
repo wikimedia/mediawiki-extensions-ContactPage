@@ -21,5 +21,6 @@
 	"contactpage-usermailererror": "E-postobjekt returnerte feilen:",
 	"contactpage-captcha-error": "CAPTCHA-feil",
 	"contactpage-config-error-title": "Feil med kontaktskjema",
-	"contactpage-config-error": "Et kontaktskjema er ikke konfigurert for denne siden eller er feilkonfigurert."
+	"contactpage-config-error": "Et kontaktskjema er ikke konfigurert for denne siden eller er feilkonfigurert.",
+	"contactpage-mustbeloggedin": "Logg inn for å sende inn et kontaktskjema."
 }
