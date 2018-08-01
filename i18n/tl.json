@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"AnakngAraw",
-			"Sky Harbor"
+			"Sky Harbor",
+			"Jojit fb"
 		]
 	},
 	"contactpage": "Pahina ng pakikipag-ugnayan",
@@ -21,5 +22,5 @@
 	"contactpage-captcha-error": "Kamalian sa CAPTCHA",
 	"contactpage-config-error-title": "Kamalian sa pormularyo ng pakikipag-ugnayan",
 	"contactpage-config-error": "Walang pormularyo ng pakikipag-ugnayan ang nakatakda para sa pahinang ito o kaya'y mali itong nakatakda.",
-	"contactpage-mustbeloggedin": "Mangyaring lumagda upang magpasa ng pormularyo ng pakikipag-ugnayan."
+	"contactpage-mustbeloggedin": "Mangyaring mag-login upang magpasa ng form ng pakikipag-ugnayan."
 }
