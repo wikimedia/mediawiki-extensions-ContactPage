@@ -19,5 +19,6 @@
 	"contactpage-usermailererror": "L'operador de corréu devolvió un error:",
 	"contactpage-captcha-error": "Error de CAPTCHA",
 	"contactpage-config-error-title": "Error nel formulariu de contactu",
-	"contactpage-config-error": "El formulariu de contactu o nun ta configuráu pa esta páxina o ta configuráu de mou incorreutu."
+	"contactpage-config-error": "El formulariu de contactu o nun ta configuráu pa esta páxina o ta configuráu de mou incorreutu.",
+	"contactpage-mustbeloggedin": "Anicia sesión pa unviar un formulariu de contactu."
 }

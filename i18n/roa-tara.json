@@ -19,5 +19,6 @@
 	"contactpage-usermailererror": "L'oggette ''Mail'' ha returnete 'n'errore:",
 	"contactpage-captcha-error": "Errore de CAPTCHA",
 	"contactpage-config-error-title": "Errore d'u module de le condatte",
-	"contactpage-config-error": "'U module de le condatte non ge stè configurate pe sta pàgene oppure ste configurate a uecchije."
+	"contactpage-config-error": "'U module de le condatte non ge stè configurate pe sta pàgene oppure ste configurate a uecchije.",
+	"contactpage-mustbeloggedin": "Pe piacere trase pe mannà 'nu module de condatte."
 }
