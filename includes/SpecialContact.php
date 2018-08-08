@@ -169,7 +169,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				'label' => '',
 				'type' => 'info',
 				'default' => Html::rawElement( 'small', [],
-					$this->msg( 'contactpage-formfootnotes' )->text()
+					$this->msg( 'contactpage-formfootnotes' )->escaped()
 				),
 				'raw' => true,
 			],
