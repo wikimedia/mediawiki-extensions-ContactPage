@@ -4,7 +4,8 @@
 			"Rancher",
 			"Михајло Анђелковић",
 			"Milicevic01",
-			"Сербијана"
+			"Сербијана",
+			"BadDog"
 		]
 	},
 	"contactpage": "Страница за контакт",
@@ -14,7 +15,7 @@
 	"contactpage-legend": "Пошаљи имејл",
 	"contactpage-defsubject": "Порука за контакт",
 	"contactpage-subject-and-sender": "$1 (од $2)",
-	"contactpage-fromname": "Ваше име:",
+	"contactpage-fromname": "Име:",
 	"contactpage-fromaddress": "Ваша имејл адреса:",
 	"contactpage-formfootnotes": "(обавезно ако желите да добијете одговор)",
 	"contactpage-usermailererror": "Дошло је до грешке при слању поруке:",
