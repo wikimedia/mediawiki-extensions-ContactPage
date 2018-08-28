@@ -8,7 +8,8 @@
 			"Sp5uhe",
 			"WTM",
 			"Wpedzich",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"contactpage": "Kontakt",
@@ -26,5 +27,6 @@
 	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd:",
 	"contactpage-captcha-error": "Błąd CAPTCHA",
 	"contactpage-config-error-title": "Błąd formularza kontaktowego",
-	"contactpage-config-error": "Formularz kontaktowy nie został skonfigurowany dla tej strony albo jest skonfigurowany nieprawidłowo."
+	"contactpage-config-error": "Formularz kontaktowy nie został skonfigurowany dla tej strony albo jest skonfigurowany nieprawidłowo.",
+	"contactpage-mustbeloggedin": "Musisz się zalogować przed wysłaniem zgłoszenia."
 }
