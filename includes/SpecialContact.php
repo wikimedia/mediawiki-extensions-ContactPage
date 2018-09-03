@@ -427,7 +427,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		wfDebug( __METHOD__ . ': sending mail from ' . $senderAddress->toString() .
-			' to ' . $contactRecipientAddress->toString().
+			' to ' . $contactRecipientAddress->toString() .
 			' replyto ' . ( $replyTo == null ? '-/-' : $replyTo->toString() ) . "\n"
 		);
 		$mailResult = UserMailer::send(
