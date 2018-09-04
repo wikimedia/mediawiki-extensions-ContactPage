@@ -16,10 +16,11 @@
 	"contactpage-subject-and-sender-withip": "$1 (van $2 op $3)",
 	"contactpage-fromname": "U naam:",
 	"contactpage-fromaddress": "U e-posadres:",
-	"contactpage-formfootnotes": "(noodsaaklik as u 'n antwoord wil ontvang)",
+	"contactpage-formfootnotes": "(nodig as u 'n antwoord wil ontvang)",
 	"contactpage-includeip": "Sluit my IP-adres by die boodskap in.",
 	"contactpage-usermailererror": "Fout met versending van e-pos:",
 	"contactpage-captcha-error": "CAPTCHA-fout",
 	"contactpage-config-error-title": "Fout met kontakvorm",
-	"contactpage-config-error": "'n Kontakvorm is nie vir dié bladsy opgestel nie, of dit is verkeerd opgestel."
+	"contactpage-config-error": "'n Kontakvorm is nie vir dié bladsy opgestel nie, of dit is verkeerd opgestel.",
+	"contactpage-mustbeloggedin": "Meld asb. aan om 'n kontakvorm te gebruik."
 }
