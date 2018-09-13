@@ -21,5 +21,6 @@
 	"contactpage-usermailererror": "Chyba poštovního programu:",
 	"contactpage-captcha-error": "Chyba CAPTCHA",
 	"contactpage-config-error-title": "Chyba kontaktního formuláře",
-	"contactpage-config-error": "Kontaktní formulář buď pro tuto stránku není nakonfigurován, nebo je nakonfigurován chybně."
+	"contactpage-config-error": "Kontaktní formulář buď pro tuto stránku není nakonfigurován, nebo je nakonfigurován chybně.",
+	"contactpage-mustbeloggedin": "Pro odeslání kontaktního formuláře se musíte přihlásit."
 }
