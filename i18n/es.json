@@ -9,7 +9,8 @@
 			"Sanbec",
 			"Sporeunai",
 			"לערי ריינהארט",
-			"Macofe"
+			"Macofe",
+			"Dgstranz"
 		]
 	},
 	"contactpage": "Página de contacto",
@@ -27,5 +28,6 @@
 	"contactpage-usermailererror": "El sistema de correo devolvió un error:",
 	"contactpage-captcha-error": "Error en el CAPTCHA",
 	"contactpage-config-error-title": "Error en el formulario de contacto",
-	"contactpage-config-error": "Un formulario de contacto no está configurado para esta página o no está configurado correctamente."
+	"contactpage-config-error": "Un formulario de contacto no está configurado para esta página o no está configurado correctamente.",
+	"contactpage-mustbeloggedin": "Inicia sesión para poder enviar un formulario de contacto."
 }
