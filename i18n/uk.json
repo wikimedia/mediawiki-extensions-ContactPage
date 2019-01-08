@@ -5,7 +5,8 @@
 			"NickK",
 			"Prima klasy4na",
 			"Тест",
-			"Base"
+			"Base",
+			"Piramidion"
 		]
 	},
 	"contactpage": "Сторінка контакту",
@@ -23,5 +24,6 @@
 	"contactpage-usermailererror": "При відправці повідомлення електронної пошти сталася помилка:",
 	"contactpage-captcha-error": "Помилка CAPTCHA",
 	"contactpage-config-error-title": "Помилка форми зв'язку",
-	"contactpage-config-error": "Форму зв'язку чи не налаштовано для цієї сторінки, чи налаштовано неправильно."
+	"contactpage-config-error": "Форму зв'язку чи не налаштовано для цієї сторінки, чи налаштовано неправильно.",
+	"contactpage-mustbeloggedin": "Будь ласка, увійдіть у систему, щоб надіслати контактну форму."
 }
