@@ -5,7 +5,8 @@
 			"Xoser",
 			"Mirzali",
 			"Marmase",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Orbot707"
 		]
 	},
 	"contactpage": "Pela irtıbati",
@@ -23,5 +24,6 @@
 	"contactpage-usermailererror": "Xızmeta e-postey xeta dayê:",
 	"contactpage-captcha-error": "Xetay CAPTCHA",
 	"contactpage-config-error-title": "Xetay fotmdê irtibati",
-	"contactpage-config-error": "Forma irtibati ya qandê pela timar nêbiya yana xırab timar biya"
+	"contactpage-config-error": "Forma irtibati ya qandê pela timar nêbiya yana xırab timar biya",
+	"contactpage-mustbeloggedin": "Yew formê irtibati rıştışi rê cıkewe hesabê ho"
 }
