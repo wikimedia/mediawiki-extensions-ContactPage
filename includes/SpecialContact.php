@@ -26,9 +26,6 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 	}
 
-	/**
-	 * Constructor
-	 */
 	public function __construct() {
 		parent::__construct( 'Contact' );
 	}
