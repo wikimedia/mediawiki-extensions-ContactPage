@@ -22,5 +22,6 @@
 	"contactpage-usermailererror": "L'oggetto mail ha restituito l'errore:",
 	"contactpage-captcha-error": "Errore CAPTCHA",
 	"contactpage-config-error-title": "Errore nel modulo di contatto",
-	"contactpage-config-error": "Non è stato configurato un modulo di contatto per questa pagina, oppure non è stato configurato in modo corretto."
+	"contactpage-config-error": "Non è stato configurato un modulo di contatto per questa pagina, oppure non è stato configurato in modo corretto.",
+	"contactpage-mustbeloggedin": "Accedi per inviare un modulo di contatto."
 }
