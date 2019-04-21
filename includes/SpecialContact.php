@@ -48,6 +48,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	protected function getTypeConfig() {
 		global $wgContactConfig;
 		if ( isset( $wgContactConfig[$this->formType] ) ) {
+			/** @phan-suppress-next-line PhanTypeMismatchReturn */
 			return $wgContactConfig[$this->formType] + $wgContactConfig['default'];
 		}
 		return $wgContactConfig['default'];
