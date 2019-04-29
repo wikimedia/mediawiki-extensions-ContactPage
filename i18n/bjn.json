@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Ezagren"
+		]
+	},
+	"contactpage": "Hubungi kami",
 	"contactpage-usermailererror": "Objek surat ada kasalahan dibulikakan:"
 }
