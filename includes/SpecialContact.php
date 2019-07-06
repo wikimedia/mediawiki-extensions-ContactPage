@@ -276,6 +276,13 @@ class SpecialContact extends UnlistedSpecialPage {
 		$request = $this->getRequest();
 		$user = $this->getUser();
 
+		/* @var SimpleCaptcha $wgCaptcha */
+		if ( $this->useCaptcha() &&
+			!$wgCaptcha->passCaptchaFromRequest( $request, $user )
+		) {
+			return $this->msg( 'contactpage-captcha-error' )->plain();
+		}
+
 		$senderIP = $request->getIP();
 
 		// Setup user that is going to recieve the contact page response
@@ -403,11 +410,6 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 
 			$text .= "{$name}: $value\n";
-		}
-
-		/* @var SimpleCaptcha $wgCaptcha */
-		if ( $this->useCaptcha() && !$wgCaptcha->passCaptchaFromRequest( $request, $user ) ) {
-			return $this->msg( 'contactpage-captcha-error' )->plain();
 		}
 
 		// Stolen from Special:EmailUser
