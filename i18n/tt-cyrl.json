@@ -1,23 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
 	"contactpage": "Элемтә бите",
-	"contactpage-desc": "[[Special:Contact|Караучылар өчен форма]]",
+	"contactpage-desc": "[[Special:Contact|Килүчеләр өчен элемтә формасы]]",
 	"contactpage-title": "Элемтә",
-	"contactpage-pagetext": "Зинһар, астагы форманы безнең белән элемтәгә керү өчен кулланыгыз.",
-	"contactpage-legend": "Хат язу",
-	"contactpage-defsubject": "Хат",
+	"contactpage-pagetext": "Безнең белән элемтәгә керү өчен түбәндәге форманы кулланыгыз әле.",
+	"contactpage-legend": "Электрон хат җибәрү",
+	"contactpage-defsubject": "Хәбәр",
 	"contactpage-subject-and-sender": "$1 ($2 башлап)",
-	"contactpage-subject-and-sender-withip": "$1 ($2  $3 юлламасыннан)",
+	"contactpage-subject-and-sender-withip": "$1 (кулланучы: $2, адрес: $3)",
 	"contactpage-fromname": "Исемегез:",
-	"contactpage-fromaddress": "Сезнең электрон почта юлламагыз:",
-	"contactpage-formfootnotes": "(сезгә җавап бирү өчен кирәк генә кирәк булачак)",
-	"contactpage-includeip": "Минем IP-юлламаны бу хат белән җибәрергә.",
+	"contactpage-fromaddress": "Сезнең электрон почта адресыгыз:",
+	"contactpage-formfootnotes": "(сезнең җавап аласыгыз килсә генә кирәк)",
+	"contactpage-includeip": "Бу хәбәргә минем IP адресымны өстәргә.",
 	"contactpage-usermailererror": "Хат җибәргән вакытта хата килеп чыкты:",
 	"contactpage-captcha-error": "CAPTCHA хатасы",
-	"contactpage-config-error-title": "Контакт формасында хата",
-	"contactpage-config-error": "Әлеге бит өчен контакт формасы көйләнмәгән, яисә ул дөрес түгел."
+	"contactpage-config-error-title": "Элемтә формасында хата",
+	"contactpage-config-error": "Бу бит өчен элемтә формасы көйләнмәгән яки көйләнмәләре дөрес түгел.",
+	"contactpage-mustbeloggedin": "Элемтә формасын җибәрү өчен керегез әле."
 }
