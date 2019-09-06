@@ -94,7 +94,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		// Blocked users cannot use the contact form if they're disabled from sending email.
 		if ( $user->isBlockedFromEmailuser() ) {
-			throw new UserBlockedError( $this->getUser()->mBlock );
+			throw new UserBlockedError( $this->getUser()->getBlock() );
 		}
 
 		$pageTitle = '';
