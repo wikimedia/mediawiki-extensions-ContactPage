@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Teslaton"
+			"Teslaton",
+			"Vlad5250"
 		]
 	},
 	"contactpage": "Kontaktná stránka",
@@ -13,9 +14,9 @@
 	"contactpage-defsubject": "Správa",
 	"contactpage-subject-and-sender": "$1 (od $2)",
 	"contactpage-subject-and-sender-withip": "$1 (od $2 z $3)",
-	"contactpage-fromname": "Vaše meno: *",
+	"contactpage-fromname": "Vaše meno:",
 	"contactpage-fromaddress": "Vaša e-mailová adresa:",
-	"contactpage-formfootnotes": "\n* voliteľné<br />\n** voliteľné, ale potrebné ak chcete odpoveď",
+	"contactpage-formfootnotes": "(potrebné ak chcete odpoveď)",
 	"contactpage-includeip": "Vložiť k tejto správe moju IP adresu.",
 	"contactpage-usermailererror": "E-mailový program vrátil chybu:"
 }
