@@ -1,4 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"SADIQUI"
+		]
+	},
+	"contactpage": "صفحة المراسلة",
 	"contactpage-usermailererror": "naṣṣ l-email ĝta ĥata':"
 }
