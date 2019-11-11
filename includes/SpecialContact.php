@@ -211,7 +211,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$form->setWrapperLegendMsg( 'contactpage-legend' );
 		$form->setSubmitTextMsg( 'emailsend' );
 		if ( $this->formType != '' ) {
-			$form->setId( Sanitizer::escapeId( "contactpage-{$this->formType}" ) );
+			$form->setId( "contactpage-{$this->formType}" );
 
 			$msg = $this->msg( "contactpage-legend-{$this->formType}" );
 			if ( !$msg->isDisabled() ) {
