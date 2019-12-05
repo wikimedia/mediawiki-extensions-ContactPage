@@ -7,7 +7,8 @@
 			"Karduelis",
 			"Mach",
 			"Manco Capac",
-			"Sayginer"
+			"Sayginer",
+			"BaRaN6161 TURK"
 		]
 	},
 	"contactpage": "İrtibat sayfası",
@@ -18,11 +19,13 @@
 	"contactpage-defsubject": "İrtibat mesajı",
 	"contactpage-subject-and-sender": "$1 ($2'den)",
 	"contactpage-subject-and-sender-withip": "$1 ($3'teki $2'den)",
-	"contactpage-fromname": "İsminiz: *",
-	"contactpage-fromaddress": "E-postanız: **",
-	"contactpage-formfootnotes": "* isteğe bağlı<br />\n** isteğe bağlı ancak cevap istiyorsanız gerekli",
+	"contactpage-fromname": "İsminiz:",
+	"contactpage-fromaddress": "E-postanız:",
+	"contactpage-formfootnotes": "(bir cevap istiyorsanız gerekli)",
 	"contactpage-includeip": "Mesaja IP adresimi ekle.",
 	"contactpage-usermailererror": "E-posta hizmeti hata verdi:",
 	"contactpage-captcha-error": "CAPTCHA hatası",
+	"contactpage-config-error-title": "İletişim formu hatası",
+	"contactpage-config-error": "Bir iletişim formu bu sayfa için yapılandırılmamış veya yanlış yapılandırılmış.",
 	"contactpage-mustbeloggedin": "Bir iletişim formu göndermek için lütfen giriş yapın."
 }
