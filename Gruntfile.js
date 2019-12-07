@@ -4,16 +4,16 @@
  * @package ContactPage
  */
 
-/*jshint node:true */
+/* eslint-env node */
 module.exports = function ( grunt ) {
+	var conf = grunt.file.readJSON( 'extension.json' );
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 	grunt.loadNpmTasks( 'grunt-jsonlint' );
-	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
+	grunt.loadNpmTasks( 'grunt-eslint' );
 
-	var conf = grunt.file.readJSON( 'extension.json' );
 	grunt.initConfig( {
 		banana: conf.MessagesDirs,
-		jshint: {
+		eslint: {
 			all: [
 				'**/*.js',
 				'!node_modules/**',
@@ -29,6 +29,6 @@ module.exports = function ( grunt ) {
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'jsonlint', 'banana', 'jshint' ] );
+	grunt.registerTask( 'test', [ 'eslint', 'banana', 'jsonlint' ] );
 	grunt.registerTask( 'default', 'test' );
 };
