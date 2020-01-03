@@ -11,12 +11,12 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"contactpage": "İrtibat sayfası",
+	"contactpage": "İletişim sayfası",
 	"contactpage-desc": "[[Special:Contact|Ziyaretçiler için irtibat formu]]",
-	"contactpage-title": "İrtibat",
+	"contactpage-title": "İletişim",
 	"contactpage-pagetext": "İrtibat için lütfen aşağıdaki formu kullanın.",
 	"contactpage-legend": "E-posta gönderin",
-	"contactpage-defsubject": "İrtibat mesajı",
+	"contactpage-defsubject": "İletişim mesajı",
 	"contactpage-subject-and-sender": "$1 ($2'den)",
 	"contactpage-subject-and-sender-withip": "$1 ($3'teki $2'den)",
 	"contactpage-fromname": "İsminiz:",
