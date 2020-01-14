@@ -87,7 +87,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$user = $this->getUser();
 
 		$nu = User::newFromName( $config['RecipientUser'] );
-		if ( is_null( $nu ) || !$nu->canReceiveEmail() ) {
+		if ( $nu === null || !$nu->canReceiveEmail() ) {
 			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
 			return;
 		}
@@ -479,7 +479,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @return boolean True if CAPTCHA should be used, false otherwise
+	 * @return bool True if CAPTCHA should be used, false otherwise
 	 */
 	private function useCaptcha() {
 		global $wgCaptchaClass, $wgCaptchaTriggers;
