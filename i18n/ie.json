@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fanjiayi"
+			"Fanjiayi",
+			"OIS"
 		]
 	},
-	"contactpage": "Articul págine",
+	"contactpage": "Págine de contactes",
 	"contactpage-usermailererror": "Objecte de postage retornat errore:"
 }
