@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Candalua",
-			"GatoSelvadego"
+			"GatoSelvadego",
+			"Fierodelveneto"
 		]
 	},
-	"contactpage": "Contatto",
+	"contactpage": "Contato",
 	"contactpage-desc": "[[Special:Contact|Modulo de contatto par i visitadori]]",
 	"contactpage-title": "Contato",
 	"contactpage-pagetext": "Par piaser, par contatarne doparè el mòdulo qua soto.",
