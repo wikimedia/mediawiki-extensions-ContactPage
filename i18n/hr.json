@@ -11,7 +11,7 @@
 	"contactpage-desc": "[[Special:Contact|Kontaktni obrazac za posjetitelje]]",
 	"contactpage-title": "Kontakt",
 	"contactpage-pagetext": "Molimo, koristite ovaj obrazac za kontakt s nama.",
-	"contactpage-legend": "Pošalji e-mail",
+	"contactpage-legend": "Pošalji e-poruku",
 	"contactpage-defsubject": "Poruka za kontakt",
 	"contactpage-subject-and-sender": "$1 (od $2)",
 	"contactpage-subject-and-sender-withip": "$1 (od $2 s $3)",
