@@ -1,4 +1,6 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"contactpage-usermailererror": "Pamagkamaling misubli ya ing miparala (Mail object returned error):"
 }
