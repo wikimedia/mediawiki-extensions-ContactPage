@@ -19,20 +19,22 @@
 	},
 	"config": {
 		"ContactConfig": {
-			"default": {
-				"RecipientUser": null,
-				"SenderEmail": null,
-				"SenderName": null,
-				"RequireDetails": false,
-				"IncludeIP": false,
-				"MustBeLoggedIn": false,
-				"RLModules": [],
-				"RLStyleModules": [],
-				"AdditionalFields": {
-					"Text": {
-						"label-message": "emailmessage",
-						"type": "textarea",
-						"required": true
+			"value": {
+				"default": {
+					"RecipientUser": null,
+					"SenderEmail": null,
+					"SenderName": null,
+					"RequireDetails": false,
+					"IncludeIP": false,
+					"MustBeLoggedIn": false,
+					"RLModules": [],
+					"RLStyleModules": [],
+					"AdditionalFields": {
+						"Text": {
+							"label-message": "emailmessage",
+							"type": "textarea",
+							"required": true
+						}
 					}
 				}
 			}
@@ -45,5 +47,8 @@
 	"AutoloadClasses": {
 		"SpecialContact": "includes/SpecialContact.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	}
 }
