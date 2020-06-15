@@ -16,16 +16,6 @@
  */
 class SpecialContact extends UnlistedSpecialPage {
 
-	/**
-	 * Set default value after registration
-	 */
-	public static function onRegistration() {
-		global $wgContactConfig, $wgSitename;
-		if ( $wgContactConfig['default']['SenderName'] === null ) {
-			$wgContactConfig['default']['SenderName'] = "Contact Form on $wgSitename";
-		}
-	}
-
 	public function __construct() {
 		parent::__construct( 'Contact' );
 	}
@@ -47,8 +37,13 @@ class SpecialContact extends UnlistedSpecialPage {
 	 */
 	protected function getTypeConfig() {
 		$contactConfig = $this->getConfig()->get( 'ContactConfig' );
+
+		if ( $contactConfig['default']['SenderName'] === null ) {
+			$sitename = $this->getConfig()->get( 'Sitename' );
+			$contactConfig['default']['SenderName'] = "Contact Form on $sitename";
+		}
+
 		if ( isset( $contactConfig[$this->formType] ) ) {
-			/** @phan-suppress-next-line PhanTypeMismatchReturn */
 			return $contactConfig[$this->formType] + $contactConfig['default'];
 		}
 		return $contactConfig['default'];

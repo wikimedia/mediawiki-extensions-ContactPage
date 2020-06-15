@@ -40,7 +40,6 @@
 			}
 		}
 	},
-	"callback": "SpecialContact::onRegistration",
 	"SpecialPages": {
 		"Contact": "SpecialContact"
 	},
