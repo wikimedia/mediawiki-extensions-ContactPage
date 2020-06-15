@@ -46,12 +46,12 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @return array
 	 */
 	protected function getTypeConfig() {
-		global $wgContactConfig;
-		if ( isset( $wgContactConfig[$this->formType] ) ) {
+		$contactConfig = $this->getConfig()->get( 'ContactConfig' );
+		if ( isset( $contactConfig[$this->formType] ) ) {
 			/** @phan-suppress-next-line PhanTypeMismatchReturn */
-			return $wgContactConfig[$this->formType] + $wgContactConfig['default'];
+			return $contactConfig[$this->formType] + $contactConfig['default'];
 		}
-		return $wgContactConfig['default'];
+		return $contactConfig['default'];
 	}
 
 	/**
@@ -62,9 +62,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @throws ErrorPageError
 	 */
 	public function execute( $par ) {
-		global $wgEnableEmail;
-
-		if ( !$wgEnableEmail ) {
+		if ( !$this->getConfig()->get( 'EnableEmail' ) ) {
 			// From Special:EmailUser
 			throw new ErrorPageError( 'usermaildisabled', 'usermaildisabledtext' );
 		}
@@ -269,16 +267,15 @@ class SpecialContact extends UnlistedSpecialPage {
 	 *      string: Error message to display
 	 */
 	public function processInput( $formData ) {
-		global $wgUserEmailUseReplyTo, $wgPasswordSender, $wgCaptcha;
-
 		$config = $this->getTypeConfig();
 
 		$request = $this->getRequest();
 		$user = $this->getUser();
 
-		/* @var SimpleCaptcha $wgCaptcha */
+		/* @var SimpleCaptcha $captcha */
+		$captcha = $this->getConfig()->get( 'Captcha' );
 		if ( $this->useCaptcha() &&
-			!$wgCaptcha->passCaptchaFromRequest( $request, $user )
+			!$captcha->passCaptchaFromRequest( $request, $user )
 		) {
 			return $this->msg( 'contactpage-captcha-error' )->plain();
 		}
@@ -291,7 +288,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		// Used when user hasn't set an email, or when sending CC email to user
 		$contactSender = new MailAddress(
-			$config['SenderEmail'] ?: $wgPasswordSender,
+			$config['SenderEmail'] ?: $this->getConfig()->get( 'PasswordSender' ),
 			$config['SenderName']
 		);
 
@@ -305,7 +302,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		} else {
 			// Use user submitted details
 			$senderAddress = new MailAddress( $fromAddress, $fromName );
-			if ( $wgUserEmailUseReplyTo ) {
+			if ( $this->getConfig()->get( 'UserEmailUseReplyTo' ) ) {
 				// Define reply-to address
 				$replyTo = $senderAddress;
 			}
@@ -483,11 +480,12 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @return bool True if CAPTCHA should be used, false otherwise
 	 */
 	private function useCaptcha() {
-		global $wgCaptchaClass, $wgCaptchaTriggers;
+		$captchaClass = $this->getConfig()->get( 'CaptchaClass' );
+		$captchaTriggers = $this->getConfig()->get( 'CaptchaTriggers' );
 
-		return $wgCaptchaClass &&
-			isset( $wgCaptchaTriggers['contactpage'] ) &&
-			$wgCaptchaTriggers['contactpage'] &&
+		return $captchaClass &&
+			isset( $captchaTriggers['contactpage'] ) &&
+			$captchaTriggers['contactpage'] &&
 			!$this->getUser()->isAllowed( 'skipcaptcha' );
 	}
 
