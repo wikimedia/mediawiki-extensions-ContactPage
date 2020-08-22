@@ -256,10 +256,12 @@ class SpecialContact extends UnlistedSpecialPage {
 
 	/**
 	 * @param array $formData
-	 * @return bool|string
-	 *      true: Form won't be displayed
-	 *      false: Form will be redisplayed
-	 *      string: Error message to display
+	 * @return bool|string|array|Status
+	 *     - Bool true or a good Status object indicates success,
+	 *     - Bool false indicates no submission was attempted,
+	 *     - Anything else indicates failure. The value may be a fatal Status
+	 *       object, an HTML string, or an array of arrays (message keys and
+	 *       params) or strings (message keys)
 	 */
 	public function processInput( $formData ) {
 		$config = $this->getTypeConfig();
@@ -272,7 +274,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		if ( $this->useCaptcha() &&
 			!$captcha->passCaptchaFromRequest( $request, $user )
 		) {
-			return 'contactpage-captcha-error';
+			return [ 'contactpage-captcha-error' ];
 		}
 
 		$senderIP = $request->getIP();
@@ -430,10 +432,11 @@ class SpecialContact extends UnlistedSpecialPage {
 			[ 'replyTo' => $replyTo ]
 		);
 
+		$language = $this->getLanguage();
 		if ( !$mailResult->isOK() ) {
 			wfDebug( __METHOD__ . ': got error from UserMailer: ' .
-				$mailResult->getMessage()->text() . "\n" );
-			return $this->msg( 'contactpage-usermailererror' )->text() . $mailResult->getMessage()->text();
+				$mailResult->getMessage( false, false, 'en' )->text() . "\n" );
+			return [ $mailResult->getMessage( 'contactpage-usermailererror', false, $language ) ];
 		}
 
 		// if the user requested a copy of this mail, do this now,
@@ -453,7 +456,7 @@ class SpecialContact extends UnlistedSpecialPage {
 					// We can either show them an error, or we can say everything was fine,
 					// or we can say we sort of failed AND sort of succeeded. Of these options,
 					// simply saying there was an error is probably best.
-					return $this->msg( 'contactpage-usermailererror' )->text() . $ccResult->getMessage()->text();
+					return [ $ccResult->getMessage( 'contactpage-usermailererror', false, $language ) ];
 				}
 			}
 		}
