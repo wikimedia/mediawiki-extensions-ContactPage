@@ -272,7 +272,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		if ( $this->useCaptcha() &&
 			!$captcha->passCaptchaFromRequest( $request, $user )
 		) {
-			return $this->msg( 'contactpage-captcha-error' )->plain();
+			return 'contactpage-captcha-error';
 		}
 
 		$senderIP = $request->getIP();
