@@ -11,7 +11,7 @@
 	"contactpage": "Контакт",
 	"contactpage-desc": "[[Special:Contact|Контакт-форма за посетиоце]]",
 	"contactpage-title": "Контакт",
-	"contactpage-pagetext": "Користите се доњим обрасцем да бисте нам се обратили.",
+	"contactpage-pagetext": "Користите доњи образац да бисте нам се обратили.",
 	"contactpage-legend": "Пошаљи имејл",
 	"contactpage-defsubject": "Порука за контакт",
 	"contactpage-subject-and-sender": "$1 (од $2)",
