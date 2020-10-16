@@ -296,6 +296,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			if ( $wgUserEmailUseReplyTo ) {
 				// Define reply-to address
 				$replyTo = $senderAddress;
+				$senderAddress = $contactSender;
 			}
 		}
 
@@ -434,6 +435,8 @@ class SpecialContact extends UnlistedSpecialPage {
 		// if the user requested a copy of this mail, do this now,
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if( $formData['CCme'] && $fromAddress ) {
+			// We recreate it in case $wgUserEmailUseReplyTo was used.
+			$senderAddress = new MailAddress( $fromAddress, $fromName );
 			$cc_subject = $this->msg( 'emailccsubject', $contactRecipientUser->getName(), $subject )->text();
 			if( Hooks::run( 'ContactForm',
 				array( &$senderAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ) )
