@@ -267,10 +267,8 @@ class SpecialContact extends UnlistedSpecialPage {
 		$request = $this->getRequest();
 		$user = $this->getUser();
 
-		/* @var SimpleCaptcha $captcha */
-		$captcha = $this->getConfig()->get( 'Captcha' );
 		if ( $this->useCaptcha() &&
-			!$captcha->passCaptchaFromRequest( $request, $user )
+			!$this->getConfig()->get( 'Captcha' )->passCaptchaFromRequest( $request, $user )
 		) {
 			return $this->msg( 'contactpage-captcha-error' )->plain();
 		}
@@ -475,13 +473,17 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @return bool True if CAPTCHA should be used, false otherwise
 	 */
 	private function useCaptcha() {
-		$captchaClass = $this->getConfig()->get( 'CaptchaClass' );
-		$captchaTriggers = $this->getConfig()->get( 'CaptchaTriggers' );
+		$extRegistry = ExtensionRegistry::getInstance();
+		if ( !$extRegistry->isLoaded( 'ConfirmEdit' ) ) {
+			 return false;
+		}
+		$config = $this->getConfig();
+		$captchaTriggers = $config->get( 'CaptchaTriggers' );
 
-		return $captchaClass &&
-			isset( $captchaTriggers['contactpage'] ) &&
-			$captchaTriggers['contactpage'] &&
-			!$this->getUser()->isAllowed( 'skipcaptcha' );
+		return $config->get( 'CaptchaClass' )
+			&& isset( $captchaTriggers['contactpage'] )
+			&& $captchaTriggers['contactpage']
+			&& !$this->getUser()->isAllowed( 'skipcaptcha' );
 	}
 
 	/**
