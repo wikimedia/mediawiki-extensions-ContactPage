@@ -3,6 +3,7 @@
 		"authors": [
 			"Ferrer",
 			"Okras",
+			"Rubin16",
 			"Vlad5250",
 			"Александр Сигачёв",
 			"Дмитрий"
@@ -20,7 +21,7 @@
 	"contactpage-fromaddress": "Ваш адрес электронной почты:",
 	"contactpage-formfootnotes": "(необходимо только если вы хотите получить ответ)",
 	"contactpage-includeip": "Включить мой IP-адрес в это сообщение.",
-	"contactpage-usermailererror": "При отправке сообщения электронной почты произошла ошибка:",
+	"contactpage-usermailererror": "При отправке сообщения электронной почты произошла ошибка: $1",
 	"contactpage-captcha-error": "Ошибка капчи",
 	"contactpage-config-error-title": "Ошибка контактной формы",
 	"contactpage-config-error": "Контактная форма либо не настроена для данной страницы, либо настроена неправильно.",

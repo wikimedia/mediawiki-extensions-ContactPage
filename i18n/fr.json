@@ -25,7 +25,7 @@
 	"contactpage-fromaddress": "Votre adresse de courriel :",
 	"contactpage-formfootnotes": "(obligatoire si vous désirez une réponse)",
 	"contactpage-includeip": "Inclure mon adresse IP dans ce message.",
-	"contactpage-usermailererror": "Erreur dans l'objet du courriel :",
+	"contactpage-usermailererror": "Erreur renvoyée par l'objet Mail : $1",
 	"contactpage-captcha-error": "Erreur de CAPTCHA",
 	"contactpage-config-error-title": "Formulaire de contact pour signaler une erreur",
 	"contactpage-config-error": "Un formulaire de contact n'est pas configuré pour cette page ou est mal configuré.",

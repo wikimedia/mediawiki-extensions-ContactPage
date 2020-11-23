@@ -8,6 +8,7 @@
 			"Lokal Profil",
 			"M.M.S.",
 			"Najami",
+			"Sabelöga",
 			"WikiPhoenix",
 			"לערי ריינהארט"
 		]
@@ -24,7 +25,7 @@
 	"contactpage-fromaddress": "Din e-postadress:",
 	"contactpage-formfootnotes": "(behövs om du vill ha ett svar)",
 	"contactpage-includeip": "Inkludera min IP-adress i detta meddelande.",
-	"contactpage-usermailererror": "Fel i hanteringen av mail:",
+	"contactpage-usermailererror": "Fel i hanteringen av mejl: $1",
 	"contactpage-captcha-error": "CAPTCHA-fel",
 	"contactpage-config-error-title": "Fel i kontaktformuläret",
 	"contactpage-config-error": "Ett kontaktformulär är antingen inte konfigurerat för denna sida eller så är den felaktigt konfigurerad.",

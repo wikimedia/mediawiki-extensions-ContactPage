@@ -25,7 +25,7 @@
 	"contactpage-fromaddress": "E-posta adresiniz:",
 	"contactpage-formfootnotes": "(bir cevap istiyorsanız gereklidir)",
 	"contactpage-includeip": "IP adresimi bu mesaja ekleyin.",
-	"contactpage-usermailererror": "Posta nesnesi hata döndürdü:",
+	"contactpage-usermailererror": "Posta nesnesi hata döndürdü: $1",
 	"contactpage-captcha-error": "CAPTCHA hatası",
 	"contactpage-config-error-title": "İletişim formu hatası",
 	"contactpage-config-error": "Bir iletişim formu bu sayfa için yapılandırılmamış veya yanlış yapılandırılmış.",

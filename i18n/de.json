@@ -20,7 +20,7 @@
 	"contactpage-fromaddress": "Deine E-Mail-Adresse:",
 	"contactpage-formfootnotes": "(wird benötigt, um antworten zu können)",
 	"contactpage-includeip": "Meine IP-Adresse in diese Nachricht einfügen.",
-	"contactpage-usermailererror": "Beim Versenden gab es folgende Fehlermeldung:",
+	"contactpage-usermailererror": "Beim Versenden gab es folgende Fehlermeldung: $1",
 	"contactpage-captcha-error": "CAPTCHA-Fehler",
 	"contactpage-config-error-title": "Kontaktformularfehler",
 	"contactpage-config-error": "Entweder ist kein Kontaktformular für diese Seite konfiguriert oder es ist falsch konfiguriert.",

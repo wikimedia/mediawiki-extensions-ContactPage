@@ -23,7 +23,7 @@
 	"contactpage-fromaddress": "Seu email:",
 	"contactpage-formfootnotes": "(necessário se deseja uma resposta)",
 	"contactpage-includeip": "Incluir o meu endereço IP nesta mensagem.",
-	"contactpage-usermailererror": "Erro no email:",
+	"contactpage-usermailererror": "Erro retornado pelo objeto de e-mail: $1",
 	"contactpage-captcha-error": "Erro de CAPTCHA",
 	"contactpage-config-error-title": "Erro no formulário de contato",
 	"contactpage-config-error": "Um formulário de contato não está configurado para esta página ou está configurado incorretamente.",
