@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Khalid Mahmood"
 		]
 	},
 	"contactpage": "صفہ جوڑو",
-	"contactpage-usermailererror": "میل واپسی غلطی:"
+	"contactpage-usermailererror": "میل واپسی غلطی: $1"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"EugeneZelenko",
 			"Jim-by",
 			"Red Winged Duck",
@@ -19,7 +20,7 @@
 	"contactpage-fromaddress": "Ваш адрас электроннай пошты:",
 	"contactpage-formfootnotes": "(патрабуецца, калі Вы жадаеце атрымаць адказ)",
 	"contactpage-includeip": "Дадаць мой IP-адрас у гэтае паведамленьне.",
-	"contactpage-usermailererror": "Пры адсыланьні пошты адбылася памылка:",
+	"contactpage-usermailererror": "Пры адсыланьні пошты адбылася памылка: $1",
 	"contactpage-captcha-error": "Памылка CAPTCHA",
 	"contactpage-config-error-title": "Памылка кантактнай формы",
 	"contactpage-config-error": "Кантактная форма для гэтай старонкі не наладжаная або наладжаная няправільна.",

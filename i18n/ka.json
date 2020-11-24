@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BRUTE",
+			"DannyS712",
 			"David1010",
 			"Otogi",
 			"Temuri rajavi"
@@ -19,7 +20,7 @@
 	"contactpage-fromaddress": "თქვენი ელ-ფოსტა:",
 	"contactpage-formfootnotes": "(საჭიროა მხოლოდ პასუხის მისაღებად)",
 	"contactpage-includeip": "მიამაგრე ჩემი IP მისამართი ამ შეტყობინებაში.",
-	"contactpage-usermailererror": "ელ. ფოსტა დაბრუნდა შეცდომის გამო:",
+	"contactpage-usermailererror": "ელ. ფოსტა დაბრუნდა შეცდომის გამო: $1",
 	"contactpage-captcha-error": "CAPTCHA შეცდომა",
 	"contactpage-config-error-title": "შეცდომის ფორმის კონტაქტი"
 }

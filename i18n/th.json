@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"DannyS712",
 			"Harley Hartwell",
 			"Horus",
 			"Woraponboonkerd"
@@ -19,6 +20,6 @@
 	"contactpage-fromaddress": "ที่อยู่อีเมลของคุณ:",
 	"contactpage-formfootnotes": "(จำเป็นหากคุณต้องการคำตอบ)",
 	"contactpage-includeip": "รวมเลขที่อยู่ไอพีของฉันในข้อความนี้",
-	"contactpage-usermailererror": "การส่งอีเมลผิดพลาด:",
+	"contactpage-usermailererror": "การส่งอีเมลผิดพลาด: $1",
 	"contactpage-captcha-error": "ข้อผิดพลาดแคปต์ชา"
 }

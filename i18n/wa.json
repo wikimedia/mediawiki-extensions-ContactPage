@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Reptilien.19831209BE1",
 			"Srtxg"
 		]
@@ -17,5 +18,5 @@
 	"contactpage-fromaddress": "Vost emile:",
 	"contactpage-formfootnotes": "(vos l' divoz mete si vos vloz rçure ene response)",
 	"contactpage-includeip": "Mete l' adresse IP da minne dins l' messaedje.",
-	"contactpage-usermailererror": "Åk n' a nén stî tot voyant l' emile:"
+	"contactpage-usermailererror": "Åk n' a nén stî tot voyant l' emile: $1"
 }

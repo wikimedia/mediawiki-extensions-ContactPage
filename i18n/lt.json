@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Eitvys200",
 			"Garas",
 			"Mantak111",
@@ -19,7 +20,7 @@
 	"contactpage-fromaddress": "Jūsų elektroninis paštas:",
 	"contactpage-formfootnotes": "(reikalingas, jei norite gauti atsakymą)",
 	"contactpage-includeip": "Įtraukti mano IP adresą į šį pranešimą.",
-	"contactpage-usermailererror": "Pašto objektas grąžino klaidą:",
+	"contactpage-usermailererror": "Pašto objektas grąžino klaidą: $1",
 	"contactpage-captcha-error": "CAPTCHA klaida",
 	"contactpage-config-error-title": "Susisiekimo formos klaida",
 	"contactpage-config-error": "Susisiekimo forma yra arba nesukonfigūruota šiam puslapiai arba yra sukonfigūruota netinkamai."

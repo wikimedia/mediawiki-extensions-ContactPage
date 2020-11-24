@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Jóna Þórunn",
 			"S.Örvarr.S",
 			"Snævar",
@@ -15,5 +16,5 @@
 	"contactpage-fromname": "Nafnið þitt:",
 	"contactpage-fromaddress": "Netfangið þitt:",
 	"contactpage-formfootnotes": "(nauðsynlegt ef þú vilt fá svar)",
-	"contactpage-usermailererror": "Póst hlutur skilaði villu:"
+	"contactpage-usermailererror": "Póst hlutur skilaði villu: $1"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Yekrats"
 		]
 	},
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "Via retadreso: **",
 	"contactpage-formfootnotes": "* nedeviga<br />\n** nedeviga sed deviga se vi volas respondon",
 	"contactpage-includeip": "Inkluzivi mian IP-adreson en ĉi tiu mesaĝo",
-	"contactpage-usermailererror": "Resendita retmesaĝa erarsubjekto:"
+	"contactpage-usermailererror": "Resendita retmesaĝa erarsubjekto: $1"
 }

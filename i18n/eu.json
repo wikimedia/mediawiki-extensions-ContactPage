@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"An13sa",
+			"DannyS712",
 			"Subi",
 			"Theklan",
 			"Xabier Armendaritz"
@@ -19,5 +20,5 @@
 	"contactpage-fromaddress": "Zure helbide elektronikoa:",
 	"contactpage-formfootnotes": "(beharrezkoa erantzuna nahi bada)",
 	"contactpage-includeip": "Nire IP helbidea mezu honetan sartu.",
-	"contactpage-usermailererror": "Mail objektuak errore hau itzuli du:"
+	"contactpage-usermailererror": "Mail objektuak errore hau itzuli du: $1"
 }

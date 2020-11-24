@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ansumang",
+			"DannyS712",
 			"Kaustubh",
 			"Siddhartha Ghai"
 		]
@@ -18,5 +19,5 @@
 	"contactpage-fromaddress": "आपका इ-मेल पता:",
 	"contactpage-formfootnotes": "(यदि आपको उत्तर चाहिए तो आवश्यक)",
 	"contactpage-includeip": "मेरा आईपि पता इस संदेश में शामिल हैं।",
-	"contactpage-usermailererror": "मेल ऑब्जेक्ट ने त्रुटि दी:"
+	"contactpage-usermailererror": "मेल ऑब्जेक्ट ने त्रुटि दी: $1"
 }

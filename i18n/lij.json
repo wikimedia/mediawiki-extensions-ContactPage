@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Giromin Cangiaxo",
 			"S4b1nuz E.656"
 		]
@@ -17,7 +18,7 @@
 	"contactpage-fromaddress": "O toeu adresso e-mail",
 	"contactpage-formfootnotes": "(obrigatoio se se dexiddia 'na risposta)",
 	"contactpage-includeip": "Includdi o mæ adresso IP inte questo messaggio.",
-	"contactpage-usermailererror": "L'oggetto mail o l'ha restituio l'errô:",
+	"contactpage-usermailererror": "L'oggetto mail o l'ha restituio l'errô: $1",
 	"contactpage-captcha-error": "Errô CAPTCHA",
 	"contactpage-config-error-title": "Errô into moddulo de contatto",
 	"contactpage-config-error": "No l'è stæto configurou un moddulo de contatto pe sta paggina, ò donque o no l'è stæto configurou in moddo corretto."

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Antonytse",
+			"DannyS712",
 			"Shinjiman"
 		]
 	},
@@ -13,5 +14,5 @@
 	"contactpage-fromname": "你嘅名：*",
 	"contactpage-fromaddress": "你嘅電郵：**",
 	"contactpage-formfootnotes": "* 可選<br />\n** 可選，如果你想答嘅話",
-	"contactpage-usermailererror": "目標郵件地址返回錯誤："
+	"contactpage-usermailererror": "目標郵件地址返回錯誤： $1"
 }

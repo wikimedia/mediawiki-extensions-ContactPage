@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"OC Ripper",
 			"Vlad5250"
 		]
@@ -17,7 +18,7 @@
 	"contactpage-fromaddress": "Vaš e-mail:",
 	"contactpage-formfootnotes": "(opcionalno, ali je potrebno ako želite dobiti odgovor)",
 	"contactpage-includeip": "Uključi moju IP adresu u ovu poruku.",
-	"contactpage-usermailererror": "Objekat pošte je vratio grešku:",
+	"contactpage-usermailererror": "Objekat pošte je vratio grešku: $1",
 	"contactpage-captcha-error": "Greška u sličici za provjeru",
 	"contactpage-config-error-title": "Greška u kontaktnom obrascu",
 	"contactpage-config-error": "Obrazac kontakta za ovu stranicu nije podešen ili je podešen neispravno.",

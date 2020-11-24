@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
+			"DannyS712",
 			"Haqmar",
 			"Ләйсән"
 		]
@@ -18,7 +19,7 @@
 	"contactpage-fromaddress": "Электрон почта адресығыҙ:",
 	"contactpage-formfootnotes": "(яуап алғыыҙ килһә генә кәрәкле)",
 	"contactpage-includeip": "Был хәбәргә минең IP адресты өҫтәргә.",
-	"contactpage-usermailererror": "Хат ебәргән ваҡытта хата килеп сыҡты:",
+	"contactpage-usermailererror": "Хат ебәргән ваҡытта хата килеп сыҡты:  $1",
 	"contactpage-captcha-error": "CAPTCHA хатаһы",
 	"contactpage-config-error-title": "Контакт форма хатаһы",
 	"contactpage-config-error": "Контакт форма был бит өсөн көйләнмәгән, йәки дөрөҫ көйләнмәгән"

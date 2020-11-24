@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Jayarathina",
 			"Shanmugamp7",
 			"TRYPPN"
@@ -17,5 +18,5 @@
 	"contactpage-fromname": "உங்கள் பெயர்:",
 	"contactpage-fromaddress": "உங்கள் மின்னஞ்சல்:",
 	"contactpage-includeip": "இந்த தகவலில் எனது IP முகவரியை  சேர்க்கவும்.",
-	"contactpage-usermailererror": "மின்னஞ்சல் விளைவாக்கிய தவறு:"
+	"contactpage-usermailererror": "மின்னஞ்சல் விளைவாக்கிய தவறு: $1"
 }

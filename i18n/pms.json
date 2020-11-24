@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bèrto 'd Sèra",
+			"DannyS712",
 			"Dragonòt"
 		]
 	},
@@ -17,5 +18,5 @@
 	"contactpage-fromaddress": "Toa e-mail: **",
 	"contactpage-formfootnotes": "* opsional<br /> ** opsional, ma për podej avej d'arspòsta a venta butelo",
 	"contactpage-includeip": "Anclud mia adrëssa IP an sto mëssagi-sì",
-	"contactpage-usermailererror": "L'oget che a goèrna la pòsta eletrònica a l'ha dàit eror:"
+	"contactpage-usermailererror": "L'oget che a goèrna la pòsta eletrònica a l'ha dàit eror: $1"
 }

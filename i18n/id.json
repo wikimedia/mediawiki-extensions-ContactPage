@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"DannyS712",
 			"Daud I.F. Argana",
 			"Diki Ananta",
 			"Iwan Novirion",
@@ -20,7 +21,7 @@
 	"contactpage-fromaddress": "Surel Anda:",
 	"contactpage-formfootnotes": "(dibutuhkan jika Anda menginginkan jawaban)",
 	"contactpage-includeip": "Sertakan alamat IP saya di pesan ini.",
-	"contactpage-usermailererror": "Kesalahan objek surat:",
+	"contactpage-usermailererror": "Kesalahan objek surat: $1",
 	"contactpage-captcha-error": "Galat CAPTCHA",
 	"contactpage-config-error-title": "Galat formulir kontak",
 	"contactpage-config-error": "Formulir hubungi kami tidak dikonfigurasi untuk halaman ini atau dikonfigurasi dengan tidak benar",

@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Iohanen"
 		]
 	},
 	"contactpage": "Kontaktseit",
-	"contactpage-usermailererror": "Das E-Mail-Objekt gab en Fehler zurück:"
+	"contactpage-usermailererror": "Das E-Mail-Objekt gab en Fehler zurück: $1"
 }

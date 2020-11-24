@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ansumang",
+			"DannyS712",
 			"Psubhashish"
 		]
 	},
@@ -16,5 +17,5 @@
 	"contactpage-fromname": "ଆପଣଙ୍କ ନାମ:",
 	"contactpage-fromaddress": "ଆପଣଙ୍କ ଇ-ମେଲ:",
 	"contactpage-formfootnotes": "(ଦରକାର ଯଦି ଆପଣ ଉତ୍ତରଟିଏ ଚାହୁଁଛନ୍ତି)",
-	"contactpage-usermailererror": "ମେଲ ଭିତରେ କିଛି ଅସୁବିଧା ଅଛି ବୋଲି ଜାଣିବାକୁ ମିଳିଲା:"
+	"contactpage-usermailererror": "ମେଲ ଭିତରେ କିଛି ଅସୁବିଧା ଅଛି ବୋଲି ଜାଣିବାକୁ ମିଳିଲା: $1"
 }

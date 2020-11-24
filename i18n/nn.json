@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Harald Khan",
 			"Nghtwlkr",
 			"Njardarlogar"
@@ -17,5 +18,5 @@
 	"contactpage-fromname": "Namnet ditt: *",
 	"contactpage-fromaddress": "E-postadressa di: **",
 	"contactpage-formfootnotes": "* valfri<br />\n** valfri, men er naudsynleg dersom du vil ha svar",
-	"contactpage-usermailererror": "E-post systemet gav feilmelding:"
+	"contactpage-usermailererror": "E-post systemet gav feilmelding: $1"
 }

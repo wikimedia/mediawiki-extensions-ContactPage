@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Axel xadolik"
+			"Axel xadolik",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Uzerabu",
-	"contactpage-usermailererror": "E-mail rokla :"
+	"contactpage-usermailererror": "E-mail rokla : $1"
 }

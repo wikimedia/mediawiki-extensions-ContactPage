@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Botuzhaleny-sodamo",
+			"DannyS712",
 			"Rueter"
 		]
 	},
@@ -9,5 +10,5 @@
 	"contactpage-legend": "Кучомс е-сёрма",
 	"contactpage-fromname": "Эсеть леметь:",
 	"contactpage-fromaddress": "Е-сёрмапаргот:",
-	"contactpage-usermailererror": "Е-сёрмань кучома таркась велявтсь ильведевкс:"
+	"contactpage-usermailererror": "Е-сёрмань кучома таркась велявтсь ильведевкс: $1"
 }

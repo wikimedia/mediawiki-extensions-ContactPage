@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Als-Holder"
+			"Als-Holder",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Kontaktsyte",
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "Dyy E-Mail-Adräss: **",
 	"contactpage-formfootnotes": "* optional<br />\n** optional, wird aber bruucht wänn du ne Antwort witt",
 	"contactpage-includeip": "Myy IP-Adräss in die Nochricht yysetze.",
-	"contactpage-usermailererror": "S Mail-Objekt het e Fähler zruckgee:"
+	"contactpage-usermailererror": "S Mail-Objekt het e Fähler zruckgee: $1"
 }

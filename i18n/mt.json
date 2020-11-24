@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
+			"DannyS712",
 			"Leli Forte"
 		]
 	},
@@ -17,6 +18,6 @@
 	"contactpage-fromaddress": "Indirizz elettroniku: **",
 	"contactpage-formfootnotes": "* opzjonali<br />\n** opzjonali imma neċessarju jekk qed tistenna tweġiba",
 	"contactpage-includeip": "Inkludi l-indirizz IP f'dan il-messaġġ.",
-	"contactpage-usermailererror": "L-oġġett tal-posta ta l-problema:",
+	"contactpage-usermailererror": "L-oġġett tal-posta ta l-problema: $1",
 	"contactpage-captcha-error": "Żball tal-CAPTCHA"
 }

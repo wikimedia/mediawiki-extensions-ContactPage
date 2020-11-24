@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Ilğım",
 			"Koroğlu",
 			"Mousa"
@@ -18,5 +19,5 @@
 	"contactpage-fromaddress": "سیزین ایمیلینیز: **",
 	"contactpage-formfootnotes": "* ایستگه باغلی<br />\n** ایستگه باغلی، اما جاواب ایسته‌سز گرکلی",
 	"contactpage-includeip": "منیم آی‌پی آدرسیمی بو مئساژدا یئرلشدیر.",
-	"contactpage-usermailererror": "ایمیل‌دن بو خطا قایتاریلدی:"
+	"contactpage-usermailererror": "ایمیل‌دن بو خطا قایتاریلدی: $1"
 }

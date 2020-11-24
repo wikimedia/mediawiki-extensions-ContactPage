@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
+			"DannyS712",
 			"Milicevic01",
 			"Rancher",
 			"Михајло Анђелковић",
@@ -18,6 +19,6 @@
 	"contactpage-fromname": "Име:",
 	"contactpage-fromaddress": "Ваша имејл адреса:",
 	"contactpage-formfootnotes": "(обавезно ако желите да добијете одговор)",
-	"contactpage-usermailererror": "Дошло је до грешке при слању поруке:",
+	"contactpage-usermailererror": "Дошло је до грешке при слању поруке: $1",
 	"contactpage-captcha-error": "Грешка у CAPTCHA-и"
 }

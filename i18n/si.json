@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Sahan.ssw",
 			"පසිඳු කාවින්ද"
 		]
@@ -17,5 +18,5 @@
 	"contactpage-fromaddress": "ඔබේ ඊ-තැපෑල: **",
 	"contactpage-formfootnotes": "(ඔබට පිළිතුරක් ලබා ගැනීමට නම්)",
 	"contactpage-includeip": "මෙම පණිවුඩයෙහි මගේ අයිපී ලිපිනය අඩංගු කරන්න.",
-	"contactpage-usermailererror": "Mail object විසින් පහත දෝෂය එවනලදී:"
+	"contactpage-usermailererror": "Mail object විසින් පහත දෝෂය එවනලදී: $1"
 }

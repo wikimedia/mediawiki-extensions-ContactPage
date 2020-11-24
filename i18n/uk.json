@@ -3,6 +3,7 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Base",
+			"DannyS712",
 			"NickK",
 			"Piramidion",
 			"Prima klasy4na",
@@ -21,7 +22,7 @@
 	"contactpage-fromaddress": "Ваша адреса електронної пошти:",
 	"contactpage-formfootnotes": "(вимагається, якщо ви хочете отримати відповідь)",
 	"contactpage-includeip": "Додати мою IP-адресу до цього повідомлення.",
-	"contactpage-usermailererror": "При відправці повідомлення електронної пошти сталася помилка:",
+	"contactpage-usermailererror": "При відправці повідомлення електронної пошти сталася помилка: $1",
 	"contactpage-captcha-error": "Помилка CAPTCHA",
 	"contactpage-config-error-title": "Помилка форми зв'язку",
 	"contactpage-config-error": "Форму зв'язку чи не налаштовано для цієї сторінки, чи налаштовано неправильно.",

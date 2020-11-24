@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aelske",
+			"DannyS712",
 			"Ooswesthoesbes",
 			"Pahles"
 		]
@@ -18,7 +19,7 @@
 	"contactpage-fromaddress": "Die-t e-mailadres: *",
 	"contactpage-formfootnotes": "(nuuedig wen se 'n antjwaord wils óntvange)",
 	"contactpage-includeip": "Sjik mien IP-adres mit in dit berich.",
-	"contactpage-usermailererror": "Foutmeljing biej 't zenje:",
+	"contactpage-usermailererror": "Foutmeljing biej 't zenje: $1",
 	"contactpage-captcha-error": "CAPTCHA-fout",
 	"contactpage-config-error-title": "Kóntakformeleerfout",
 	"contactpage-config-error": "E kóntakformeleer is neet of ónjuus ingestèld veur dees pagina."

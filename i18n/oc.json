@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Contacte",
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "Vòstra adreça electronica :",
 	"contactpage-formfootnotes": "(obligatòri se desiratz una responsa)",
 	"contactpage-includeip": "Inclure mon adreça IP dins aquel messatge.",
-	"contactpage-usermailererror": "Error dins lo subjècte del corrièr electronic :"
+	"contactpage-usermailererror": "Error dins lo subjècte del corrièr electronic : $1"
 }

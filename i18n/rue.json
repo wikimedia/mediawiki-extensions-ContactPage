@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Gazeb"
 		]
 	},
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "Ваша адреса ел. пошты: **",
 	"contactpage-formfootnotes": "&#042; волительны<br />\n&#042;&#042; волительны, але потрібны кідь хочете одповідь",
 	"contactpage-includeip": "Приложыти ку повідомлїню мою IP адресу.",
-	"contactpage-usermailererror": "Хыба поштового проґраму:"
+	"contactpage-usermailererror": "Хыба поштового проґраму: $1"
 }

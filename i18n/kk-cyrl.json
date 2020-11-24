@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arystanbek"
+			"Arystanbek",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Байланысу беті",
@@ -13,7 +14,7 @@
 	"contactpage-fromaddress": "Сіздің э-почта мекенжайыңыз:",
 	"contactpage-formfootnotes": "(жауап алу үшін қажет)",
 	"contactpage-includeip": "Менің сәйкестендіргіш хабарламамды қамты.",
-	"contactpage-usermailererror": "Mail нысаны қате қайтарды:",
+	"contactpage-usermailererror": "Mail нысаны қате қайтарды: $1",
 	"contactpage-captcha-error": "CAPTCHA қате",
 	"contactpage-config-error-title": "Байланыс пішіні қате"
 }

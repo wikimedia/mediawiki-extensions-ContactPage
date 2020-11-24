@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AmaryllisGardener",
+			"DannyS712",
 			"John Reid"
 		]
 	},
@@ -9,5 +10,5 @@
 	"contactpage-fromname": "Yer name:",
 	"contactpage-fromaddress": "Yer wab-mail address",
 	"contactpage-formfootnotes": "(needed gif ye want aen answer)",
-	"contactpage-usermailererror": "Mail object returned mistak:"
+	"contactpage-usermailererror": "Mail object returned mistak: $1"
 }

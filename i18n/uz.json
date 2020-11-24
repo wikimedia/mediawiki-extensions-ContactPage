@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Sociologist"
 		]
 	},
 	"contactpage": "Qayta aloqa",
-	"contactpage-usermailererror": "Elektron pochta xabarini joʻnatishda xatolik yuz berdi:"
+	"contactpage-usermailererror": "Elektron pochta xabarini joʻnatishda xatolik yuz berdi: $1"
 }

@@ -4,6 +4,7 @@
 			"Anakmalaysia",
 			"Aurora",
 			"Aviator",
+			"DannyS712",
 			"Zulfadli51"
 		]
 	},
@@ -19,7 +20,7 @@
 	"contactpage-fromaddress": "Alamat e-mel anda:",
 	"contactpage-formfootnotes": "(diperlukan jika hendak dibalas)",
 	"contactpage-includeip": "Sertakan alamat IP saya dalam pesanan ini.",
-	"contactpage-usermailererror": "Objek Mail memulangkan ralat:",
+	"contactpage-usermailererror": "Objek Mail memulangkan ralat: $1",
 	"contactpage-captcha-error": "Ralat CAPTCHA",
 	"contactpage-config-error-title": "Ralat borang perhubungan"
 }

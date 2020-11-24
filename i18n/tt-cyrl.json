@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Ерней",
 			"Ильнар"
 		]
@@ -17,7 +18,7 @@
 	"contactpage-fromaddress": "Сезнең электрон почта адресыгыз:",
 	"contactpage-formfootnotes": "(сезнең җавап аласыгыз килсә генә кирәк)",
 	"contactpage-includeip": "Бу хәбәргә минем IP адресымны өстәргә.",
-	"contactpage-usermailererror": "Хат җибәргән вакытта хата килеп чыкты:",
+	"contactpage-usermailererror": "Хат җибәргән вакытта хата килеп чыкты: $1",
 	"contactpage-captcha-error": "CAPTCHA хатасы",
 	"contactpage-config-error-title": "Элемтә формасында хата",
 	"contactpage-config-error": "Бу бит өчен элемтә формасы көйләнмәгән яки көйләнмәләре дөрес түгел.",

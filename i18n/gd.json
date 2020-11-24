@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"GunChleoc"
 		]
 	},
@@ -16,7 +17,7 @@
 	"contactpage-fromaddress": "An seòladh puist-d agad:",
 	"contactpage-formfootnotes": "(feumaidh sinn seo ma tha thu airson freagairt fhaighinn)",
 	"contactpage-includeip": "Gabh an seòladh IP agam a-steach san teachdaireachd.",
-	"contactpage-usermailererror": "Thill oibseact a' phuist-d mearachd:",
+	"contactpage-usermailererror": "Thill oibseact a' phuist-d mearachd: $1",
 	"contactpage-captcha-error": "Mearachd leis a' CAPTCHA",
 	"contactpage-config-error-title": "Mearachd leis an fhoirm conaltraidh",
 	"contactpage-config-error": "Cha deach foirm conaltraidh a rèiteachadh airson na duilleige seo no cha deach a rèiteachadh gu dòigheil."

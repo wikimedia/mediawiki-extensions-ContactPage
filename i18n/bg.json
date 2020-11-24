@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
+			"DannyS712",
 			"Mitzev",
 			"Turin"
 		]
@@ -16,5 +17,5 @@
 	"contactpage-fromname": "Вашето име:",
 	"contactpage-fromaddress": "Вашата е-поща:",
 	"contactpage-formfootnotes": "(изисква се за получаване отговор)",
-	"contactpage-usermailererror": "Пощенският обект даде грешка:"
+	"contactpage-usermailererror": "Пощенският обект даде грешка: $1"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Ibrahim"
 		]
 	},
@@ -11,5 +12,5 @@
 	"contactpage-subject-and-sender": "$1 (аз $2)",
 	"contactpage-fromname": "номи шумо *",
 	"contactpage-fromaddress": "почтаи электронии шумо **",
-	"contactpage-usermailererror": "Почтаи электрони ба хатое дучор шуд:"
+	"contactpage-usermailererror": "Почтаи электрони ба хатое дучор шуд: $1"
 }

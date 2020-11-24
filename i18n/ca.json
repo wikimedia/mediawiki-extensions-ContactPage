@@ -4,6 +4,7 @@
 			"BroOk",
 			"Fitoschido",
 			"Martorell",
+			"Mguix",
 			"SMP",
 			"Solde",
 			"Vriullop"
@@ -21,5 +22,5 @@
 	"contactpage-fromaddress": "La vostra adreça de correu:",
 	"contactpage-formfootnotes": "(necessari si voleu una resposta)",
 	"contactpage-includeip": "Inclou al missatge l'adreça IP que estic utilitzant.",
-	"contactpage-usermailererror": "L'objecte de correu ha retornat un error:"
+	"contactpage-usermailererror": "L'objecte de correu ha retornat un error: $1"
 }

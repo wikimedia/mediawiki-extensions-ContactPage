@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Joetaras"
 		]
 	},
@@ -16,7 +17,7 @@
 	"contactpage-fromaddress": "L'e-mail toje:",
 	"contactpage-formfootnotes": "(abbesogne ce tu vuè cu ave 'na resposte)",
 	"contactpage-includeip": "Inglude l'indirizze UP mije sus a stu messagge.",
-	"contactpage-usermailererror": "L'oggette ''Mail'' ha returnete 'n'errore:",
+	"contactpage-usermailererror": "L'oggette ''Mail'' ha returnete 'n'errore: $1",
 	"contactpage-captcha-error": "Errore de CAPTCHA",
 	"contactpage-config-error-title": "Errore d'u module de le condatte",
 	"contactpage-config-error": "'U module de le condatte non ge stè configurate pe sta pàgene oppure ste configurate a uecchije.",

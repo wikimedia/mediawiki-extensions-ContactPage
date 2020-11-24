@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Belkacem77"
+			"Belkacem77",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Asebter n unermes",
-	"contactpage-usermailererror": "Yella ugul deg uzwel n email:"
+	"contactpage-usermailererror": "Yella ugul deg uzwel n email: $1"
 }

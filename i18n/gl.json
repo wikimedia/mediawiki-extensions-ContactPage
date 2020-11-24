@@ -3,6 +3,7 @@
 		"authors": [
 			"Alma",
 			"Banjo",
+			"DannyS712",
 			"Elisardojm",
 			"Toliño",
 			"Vivaelcelta",
@@ -21,7 +22,7 @@
 	"contactpage-fromaddress": "O seu correo electrónico:",
 	"contactpage-formfootnotes": "(necesario se quere unha resposta)",
 	"contactpage-includeip": "Incluír o meu enderezo IP nesta mensaxe.",
-	"contactpage-usermailererror": "O obxecto enviado deu unha mensaxe de erro:",
+	"contactpage-usermailererror": "O obxecto enviado deu unha mensaxe de erro: $1",
 	"contactpage-captcha-error": "Erro de CAPTCHA",
 	"contactpage-config-error-title": "Erro do formulario de contacto",
 	"contactpage-config-error": "O formulario de contacto non está configurado para esta páxina ou non está configurado correctamente.",

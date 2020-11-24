@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Candalua",
+			"DannyS712",
 			"Fierodelveneto",
 			"GatoSelvadego"
 		]
@@ -18,5 +19,5 @@
 	"contactpage-fromaddress": "La to e-mail: **",
 	"contactpage-formfootnotes": "* canpo mia obligatorio<br />\n** canpo obligatorio se te voli na risposta",
 	"contactpage-includeip": "Includi el me indirisso IP in sto messajo.",
-	"contactpage-usermailererror": "L'ogeto mail el gà restituìo l'eror:"
+	"contactpage-usermailererror": "L'ogeto mail el gà restituìo l'eror: $1"
 }

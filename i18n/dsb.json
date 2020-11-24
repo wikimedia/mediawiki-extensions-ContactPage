@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Michawiki"
 		]
 	},
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "Twója e-mailowa adresa:",
 	"contactpage-formfootnotes": "(trěbny, jolic coš wótegrono)",
 	"contactpage-includeip": "Móju IP-adresu w toś tej powěźeńce zapśěgnuś.",
-	"contactpage-usermailererror": "E-mailowy objekt jo zmólku wrośił."
+	"contactpage-usermailererror": "E-mailowy objekt jo zmólku wrośił. $1"
 }

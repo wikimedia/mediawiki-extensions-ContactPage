@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"DannyS712",
 			"Derbeth",
 			"Jacenty359",
 			"Leinad",
@@ -25,7 +26,7 @@
 	"contactpage-fromaddress": "Twój adres e-mail:",
 	"contactpage-formfootnotes": "(potrzebne jeśli chcesz uzyskać odpowiedź)",
 	"contactpage-includeip": "Dodaj do tej wiadomości informację o moim adresie IP.",
-	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd:",
+	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd: $1",
 	"contactpage-captcha-error": "Błąd CAPTCHA",
 	"contactpage-config-error-title": "Błąd formularza kontaktowego",
 	"contactpage-config-error": "Formularz kontaktowy nie został skonfigurowany dla tej strony albo jest skonfigurowany nieprawidłowo.",

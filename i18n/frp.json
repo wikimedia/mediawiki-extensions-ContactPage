@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ChrisPtDe"
+			"ChrisPtDe",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Pâge de contacto",
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "Voutra adrèce èlèctronica : **",
 	"contactpage-formfootnotes": "* u chouèx<br />\n** u chouèx mas nècèssèro se vos voléd una rèponsa",
 	"contactpage-includeip": "Encllure mon adrèce IP dens ceti mèssâjo.",
-	"contactpage-usermailererror": "Fôta dens la chousa du mèssâjo :"
+	"contactpage-usermailererror": "Fôta dens la chousa du mèssâjo: $1"
 }

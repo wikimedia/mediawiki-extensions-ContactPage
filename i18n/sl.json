@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Dbc334"
 		]
 	},
@@ -16,7 +17,7 @@
 	"contactpage-fromaddress": "Vaš e-poštni naslov:",
 	"contactpage-formfootnotes": "(potrebno, če želite odgovor)",
 	"contactpage-includeip": "Vključi moj IP-naslov v tem sporočilu.",
-	"contactpage-usermailererror": "Predmet e-pošte je vrnil napako:",
+	"contactpage-usermailererror": "Predmet e-pošte je vrnil napako: $1",
 	"contactpage-captcha-error": "Napaka CAPTCHA",
 	"contactpage-config-error-title": "Napaka kontaktnega obrazca",
 	"contactpage-config-error": "Kontaktni obrazec ali ni konfiguriran za to stran ali pa je napačno konfiguriran."

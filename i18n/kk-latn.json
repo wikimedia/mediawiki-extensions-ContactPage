@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712"
+		]
 	},
-	"contactpage-usermailererror": "Mail nısanı qate qaýtardı:"
+	"contactpage-usermailererror": "Mail nısanı qate qaýtardı: $1"
 }

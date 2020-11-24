@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
+			"DannyS712",
 			"Palapa",
 			"Srdjan m",
 			"Srđan"
@@ -19,6 +20,6 @@
 	"contactpage-fromaddress": "Vaš e-mail:",
 	"contactpage-formfootnotes": "(obavezno ako želite dobiti odgovor)",
 	"contactpage-includeip": "Uključi moju IP adresu u ovu poruku.",
-	"contactpage-usermailererror": "Objekat pošte je vratio grešku:",
+	"contactpage-usermailererror": "Objekat pošte je vratio grešku: $1",
 	"contactpage-captcha-error": "CAPTCHA greška"
 }

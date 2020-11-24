@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712"
+		]
 	},
-	"contactpage-usermailererror": "L'obchecto de correu retornó una error:"
+	"contactpage-usermailererror": "L'obchecto de correu retornó una error: $1"
 }

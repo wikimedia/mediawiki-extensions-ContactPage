@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712"
+		]
 	},
-	"contactpage-usermailererror": "Doas E-Mail-Objekt gab an'n Fahler zerricke:"
+	"contactpage-usermailererror": "Doas E-Mail-Objekt gab an'n Fahler zerricke: $1"
 }

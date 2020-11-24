@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
+			"DannyS712",
 			"Gzdavidwong",
 			"Horacewai2",
 			"Kly",
@@ -24,7 +25,7 @@
 	"contactpage-fromaddress": "您的電子郵件地址：",
 	"contactpage-formfootnotes": "(若您想要取得他人回應則必須填寫)",
 	"contactpage-includeip": "在此訊息中引用我的 IP 位址。",
-	"contactpage-usermailererror": "寄信物件回傳錯誤：",
+	"contactpage-usermailererror": "寄信物件回傳錯誤： $1",
 	"contactpage-captcha-error": "CAPTCHA 錯誤",
 	"contactpage-config-error-title": "聯絡表格錯誤",
 	"contactpage-config-error": "聯絡表格未配置或配置有誤。",

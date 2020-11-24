@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"KartikMistry",
 			"Vyom"
 		]
@@ -9,5 +10,5 @@
 	"contactpage-title": "સંપર્ક",
 	"contactpage-legend": "ઇમેલ મોકલો",
 	"contactpage-fromname": "તમારું નામ:",
-	"contactpage-usermailererror": "મેલ વસ્તુ પાઠવવામાં ત્રુટિ"
+	"contactpage-usermailererror": "મેલ વસ્તુ પાઠવવામાં ત્રુટિ $1"
 }

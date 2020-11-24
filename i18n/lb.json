@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Les Meloures",
 			"Robby",
 			"Soued031"
@@ -18,6 +19,6 @@
 	"contactpage-fromaddress": "Är E-mail-Adress:",
 	"contactpage-formfootnotes": "(gëtt gebraucht wann Dir eng Äntwert wëllt)",
 	"contactpage-includeip": "Meng IP-Adress an dëse Message drasetzen",
-	"contactpage-usermailererror": "E-Mail-Objet mellt deen heite Feeler:",
+	"contactpage-usermailererror": "E-Mail-Objet mellt deen heite Feeler: $1",
 	"contactpage-captcha-error": "CAPTCHA-Feeler"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Michaello",
 			"Milicevic01",
 			"Rancher",
@@ -17,6 +18,6 @@
 	"contactpage-fromname": "Vaše ime:",
 	"contactpage-fromaddress": "Vaša imejl adresa:",
 	"contactpage-formfootnotes": "(obavezno ako želite da dobijete odgovor)",
-	"contactpage-usermailererror": "Došlo je do greške pri slanju poruke:",
+	"contactpage-usermailererror": "Došlo je do greške pri slanju poruke: $1",
 	"contactpage-captcha-error": "Greška u CAPTCHA-i"
 }

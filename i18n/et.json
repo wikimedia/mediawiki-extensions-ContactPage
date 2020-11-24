@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Avjoska",
+			"DannyS712",
 			"Pikne"
 		]
 	},
@@ -17,5 +18,5 @@
 	"contactpage-fromaddress": "Sinu e-posti aadress:",
 	"contactpage-formfootnotes": "(vajalik, kui tahad vastust)",
 	"contactpage-includeip": "Lisa selle sõnumi juurde minu IP-aadress.",
-	"contactpage-usermailererror": "Saatmise viga:"
+	"contactpage-usermailererror": "Saatmise viga: $1"
 }

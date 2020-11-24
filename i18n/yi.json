@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"פוילישער"
 		]
 	},
@@ -9,5 +10,5 @@
 	"contactpage-legend": "שיקן ע־פאסט",
 	"contactpage-fromname": "אייער נאמען:",
 	"contactpage-fromaddress": "אייער ע-פאסט:",
-	"contactpage-usermailererror": "בליצבריוו האט צוריקגעשיקט א טעות:"
+	"contactpage-usermailererror": "בליצבריוו האט צוריקגעשיקט א טעות: $1"
 }

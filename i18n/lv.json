@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"GreenZeb",
 			"Papuass"
 		]
@@ -17,7 +18,7 @@
 	"contactpage-fromaddress": "Tava e-pasta adrese:",
 	"contactpage-formfootnotes": "(nepieciešama, ja vēlies saņemt atbildi)",
 	"contactpage-includeip": "Iekļaut šajā ziņojumā manu IP adresi.",
-	"contactpage-usermailererror": "Pasta objekts atgrieza kļūdu:",
+	"contactpage-usermailererror": "Pasta objekts atgrieza kļūdu: $1",
 	"contactpage-captcha-error": "CAPTCHA kļūda",
 	"contactpage-config-error-title": "Kontaktformas kļūda"
 }

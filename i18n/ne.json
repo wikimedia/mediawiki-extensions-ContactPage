@@ -3,6 +3,7 @@
 		"authors": [
 			"Bhawani Gautam",
 			"Bhawani Gautam Rhk",
+			"DannyS712",
 			"Nirjal stha"
 		]
 	},
@@ -18,6 +19,6 @@
 	"contactpage-fromaddress": "तपाईंको इमेल: **",
 	"contactpage-formfootnotes": "* ऐच्छिक <br />\n** ऐच्छिक तर आवश्यक यदि तपाईं उत्तर चाहनु हुन्छ भनें",
 	"contactpage-includeip": "मेरो आई पी ठेगाना यस सन्देशमा संलग्न गर्ने।",
-	"contactpage-usermailererror": "मेल अब्जेक्टले देखाएको त्रुटि:",
+	"contactpage-usermailererror": "मेल अब्जेक्टले देखाएको त्रुटि: $1",
 	"contactpage-config-error-title": "सम्पर्क फारम समस्या"
 }

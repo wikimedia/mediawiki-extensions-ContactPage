@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Crazymadlover",
+			"DannyS712",
 			"Dgstranz",
 			"Fitoschido",
 			"Imre",
@@ -25,7 +26,7 @@
 	"contactpage-fromaddress": "Tu dirección de correo:",
 	"contactpage-formfootnotes": "(necesario si quieres una respuesta)",
 	"contactpage-includeip": "Incluir mi dirección IP en este mensaje.",
-	"contactpage-usermailererror": "El sistema de correo devolvió un error:",
+	"contactpage-usermailererror": "El sistema de correo devolvió un error: $1",
 	"contactpage-captcha-error": "Error en el CAPTCHA",
 	"contactpage-config-error-title": "Error en el formulario de contacto",
 	"contactpage-config-error": "Un formulario de contacto no está configurado para esta página o no está configurado correctamente.",

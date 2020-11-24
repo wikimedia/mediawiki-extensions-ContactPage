@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Ravichandra",
 			"Veeven"
 		]
@@ -17,5 +18,5 @@
 	"contactpage-fromaddress": "మీ ఈ-మెయిల్: **",
 	"contactpage-formfootnotes": "(మీకు జవాబు కావాలంటే మాత్రం తప్పనిసరి)",
 	"contactpage-includeip": "ఈ సందేశంలో నా ఐపీ చిరునామాని చేర్చు.",
-	"contactpage-usermailererror": "మెయిలు ఆబ్జెక్టు ఈ లోపాన్ని చూపింది:"
+	"contactpage-usermailererror": "మెయిలు ఆబ్జెక్టు ఈ లోపాన్ని చూపింది: $1"
 }

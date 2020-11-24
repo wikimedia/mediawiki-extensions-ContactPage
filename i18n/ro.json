@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"ImGelu",
 			"KlaudiuMihaila",
 			"Mihai",
@@ -20,5 +21,5 @@
 	"contactpage-fromaddress": "Adresa dumneavoastră de e-mail:",
 	"contactpage-formfootnotes": "(necesară dacă doriți un răspuns)",
 	"contactpage-includeip": "Include-mi adresa IP în acest mesaj.",
-	"contactpage-usermailererror": "Obiectul de mail a dat eroare:"
+	"contactpage-usermailererror": "Obiectul de mail a dat eroare: $1"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Pyt"
 		]
 	},
@@ -12,5 +13,5 @@
 	"contactpage-fromname": "Din Noome *",
 	"contactpage-fromaddress": "Dien E-Mail Adresse **",
 	"contactpage-formfootnotes": "* optional<br />\n** optional, is oawers nöödich, uum die oantwoudje tou konnen",
-	"contactpage-usermailererror": "Dät Mail-Objekt roat n Failer tourääch:"
+	"contactpage-usermailererror": "Dät Mail-Objekt roat n Failer tourääch: $1"
 }

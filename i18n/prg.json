@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712"
+		]
 	},
-	"contactpage-usermailererror": "Pustis ōbjaktan ast etwārtai wartinnun blāndan:"
+	"contactpage-usermailererror": "Pustis ōbjaktan ast etwārtai wartinnun blāndan: $1"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Malafaya",
 			"Smeira"
 		]
@@ -14,5 +15,5 @@
 	"contactpage-subject-and-sender": "$1 (de $2)",
 	"contactpage-fromname": "Nem olik:",
 	"contactpage-fromaddress": "Ladet leäktronik olik: **",
-	"contactpage-usermailererror": "Potayeg egesedon pöli:"
+	"contactpage-usermailererror": "Potayeg egesedon pöli: $1"
 }

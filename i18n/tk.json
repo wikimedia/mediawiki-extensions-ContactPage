@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Hanberke"
 		]
 	},
@@ -16,5 +17,5 @@
 	"contactpage-fromaddress": "E-poçtaňyz: **",
 	"contactpage-formfootnotes": "* islege görä<br />\n** islege görä, ýöne jogap isleýän bolsaňyz gerek",
 	"contactpage-includeip": "Bu habara meniň IP adresimi goş.",
-	"contactpage-usermailererror": "E-poçta säwlige duçar boldy:"
+	"contactpage-usermailererror": "E-poçta säwlige duçar boldy: $1"
 }

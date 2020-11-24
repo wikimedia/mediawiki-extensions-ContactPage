@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Ghaly",
 			"Meno25",
 			"Ramsis II"
@@ -18,7 +19,7 @@
 	"contactpage-fromaddress": "الايميل بتاعك:",
 	"contactpage-formfootnotes": "(ضرورى لو عايز اجابه)",
 	"contactpage-includeip": "حط عنوان الايبى بتاعى فى الرساله دى.",
-	"contactpage-usermailererror": "البريد رجع غلط:",
+	"contactpage-usermailererror": "البريد رجع غلط: $1",
 	"contactpage-captcha-error": "غلط CAPTCHA",
 	"contactpage-config-error-title": "غلط من صفحه الاتصال",
 	"contactpage-mustbeloggedin": "لو سمحت اعمل لوجين علشان تبعت صفحة اتصال."

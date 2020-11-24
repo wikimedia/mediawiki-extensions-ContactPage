@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Jun Misugi"
 		]
 	},
@@ -12,6 +13,6 @@
 	"contactpage-subject-and-sender-withip": "$1 (da $2 cun indirizzu IP $3)",
 	"contactpage-fromname": "Lu tóiu nommu:",
 	"contactpage-fromaddress": "Indirizzu di postha erettrònica tóia:",
-	"contactpage-usermailererror": "L'oggettu di l'imbasciadda à turraddu l'errori:",
+	"contactpage-usermailererror": "L'oggettu di l'imbasciadda à turraddu l'errori: $1",
 	"contactpage-captcha-error": "Ibagliu CAPTCHA"
 }

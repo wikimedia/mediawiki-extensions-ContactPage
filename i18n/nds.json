@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Joachim Mos",
 			"Slomox"
 		]
@@ -15,5 +16,5 @@
 	"contactpage-fromname": "Dien Naam:",
 	"contactpage-fromaddress": "Dien E-Mail-Adress:",
 	"contactpage-formfootnotes": "(nödig, wenn du en Antwoord hebben wullt)",
-	"contactpage-usermailererror": "Dat Mail-Objekt hett en Fehler trüchgeven:"
+	"contactpage-usermailererror": "Dat Mail-Objekt hett en Fehler trüchgeven: $1"
 }

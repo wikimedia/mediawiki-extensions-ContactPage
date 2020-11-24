@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Lloffiwr",
 			"Robin Owain"
 		]
@@ -17,5 +18,5 @@
 	"contactpage-fromaddress": "Eich cyfeiriad e-bost:",
 	"contactpage-formfootnotes": "(angenrheidiol os dymunwch dderbyn ateb)",
 	"contactpage-includeip": "Cynnwys fy nghyfeiriad IP yn y neges hon.",
-	"contactpage-usermailererror": "Dychwelwyd gwall gan y rhaglen e-bost:"
+	"contactpage-usermailererror": "Dychwelwyd gwall gan y rhaglen e-bost: $1"
 }

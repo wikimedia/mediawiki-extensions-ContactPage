@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Sahran",
 			"Uzdil"
 		]
@@ -8,5 +9,5 @@
 	"contactpage": "ئالاقە بېتى",
 	"contactpage-title": "ئالاقەداش",
 	"contactpage-legend": "تورخەت يوللا",
-	"contactpage-usermailererror": "Mail ئوبيېكتى خاتالىق قايتۇردى:"
+	"contactpage-usermailererror": "Mail ئوبيېكتى خاتالىق قايتۇردى: $1"
 }

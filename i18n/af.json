@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Arnobarnard",
+			"DannyS712",
 			"Fwolff",
 			"Naudefj"
 		]
@@ -18,7 +19,7 @@
 	"contactpage-fromaddress": "U e-posadres:",
 	"contactpage-formfootnotes": "(nodig as u 'n antwoord wil ontvang)",
 	"contactpage-includeip": "Sluit my IP-adres by die boodskap in.",
-	"contactpage-usermailererror": "Fout met versending van e-pos:",
+	"contactpage-usermailererror": "Fout met versending van e-pos: $1",
 	"contactpage-captcha-error": "CAPTCHA-fout",
 	"contactpage-config-error-title": "Fout met kontakvorm",
 	"contactpage-config-error": "'n Kontakvorm is nie vir dié bladsy opgestel nie, of dit is verkeerd opgestel.",

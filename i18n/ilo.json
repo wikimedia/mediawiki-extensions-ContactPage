@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DannyS712",
 			"Lam-ang"
 		]
 	},
@@ -16,6 +17,6 @@
 	"contactpage-fromaddress": "Ti esuratmo:",
 	"contactpage-formfootnotes": "(nasken no kayatmo ti sungbat)",
 	"contactpage-includeip": "Iraman ti IP a pagtaengak iti daytoy a mensahe.",
-	"contactpage-usermailererror": "Kita ti surat ket nangisubli ti biddut:",
+	"contactpage-usermailererror": "Kita ti surat ket nangisubli ti biddut: $1",
 	"contactpage-captcha-error": "Biddut ti CAPTCHA"
 }

@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712"
+		]
 	},
-	"contactpage-usermailererror": "Mail نىسانى قاتە قايتاردى:"
+	"contactpage-usermailererror": "Mail نىسانى قاتە قايتاردى: $1"
 }

@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712"
+		]
 	},
-	"contactpage-usermailererror": "Feaila e-poastta sáddedettiin:"
+	"contactpage-usermailererror": "Feaila e-poastta sáddedettiin: $1"
 }
