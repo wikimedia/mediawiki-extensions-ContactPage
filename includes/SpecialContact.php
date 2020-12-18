@@ -130,7 +130,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$fromAddress = '';
 		$fromName = '';
-		if ( $user->isLoggedIn() ) {
+		if ( $user->isRegistered() ) {
 			// Use real name if set
 			$realName = $user->getRealName();
 			if ( $realName ) {
@@ -182,7 +182,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			]
 		];
 
-		if ( $config['IncludeIP'] && $user->isLoggedIn() ) {
+		if ( $config['IncludeIP'] && $user->isRegistered() ) {
 			$formItems['IncludeIP'] = [
 				'label-message' => 'contactpage-includeip',
 				'type' => 'check',
