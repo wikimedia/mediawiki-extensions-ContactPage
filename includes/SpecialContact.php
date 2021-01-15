@@ -277,7 +277,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$senderIP = $request->getIP();
 
-		// Setup user that is going to recieve the contact page response
+		// Setup user that is going to receive the contact page response
 		$contactRecipientUser = User::newFromName( $config['RecipientUser'] );
 		$contactRecipientAddress = MailAddress::newFromUser( $contactRecipientUser );
 
@@ -295,6 +295,13 @@ class SpecialContact extends UnlistedSpecialPage {
 			// No email address entered, so use $contactSender instead
 			$senderAddress = $contactSender;
 		} else {
+
+			// T232199 - If the email address is invalid, bail out.
+			// Don't allow it to fallback to basically @server.host.name
+			if ( !Sanitizer::validateEmail( $fromAddress ) ) {
+				return [ 'invalidemailaddress' ];
+			}
+
 			// Use user submitted details
 			$senderAddress = new MailAddress( $fromAddress, $fromName );
 			if ( $this->getConfig()->get( 'UserEmailUseReplyTo' ) ) {
