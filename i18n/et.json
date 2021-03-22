@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adeliine",
 			"Avjoska",
 			"DannyS712",
 			"Pikne"
 		]
 	},
-	"contactpage": "Ühendustvõtmise lehekülg",
+	"contactpage": "Ühendustvõtmise info",
 	"contactpage-desc": "[[Special:Contact|Ühendustvõtmise vorm külalistele]]",
 	"contactpage-title": "Kontakt",
 	"contactpage-pagetext": "Palun kasuta all olevat vormi meiega ühenduse võtmiseks.",
