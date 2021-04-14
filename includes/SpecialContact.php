@@ -283,21 +283,23 @@ class SpecialContact extends UnlistedSpecialPage {
 		$contactRecipientUser = User::newFromName( $config['RecipientUser'] );
 		$contactRecipientAddress = MailAddress::newFromUser( $contactRecipientUser );
 
-		// Used when user hasn't set an email, or when sending CC email to user
-		$contactSender = new MailAddress(
+		// Used when user hasn't set an email, when $wgUserEmailUseReplyTo is true,
+		// or when sending CC email to user
+		$siteAddress = new MailAddress(
 			$config['SenderEmail'] ?: $this->getConfig()->get( 'PasswordSender' ),
 			$config['SenderName']
 		);
 
-		$replyTo = null;
+		// Initialize the sender to the site address
+		$senderAddress = $siteAddress;
 
 		$fromAddress = $formData['FromAddress'];
 		$fromName = $formData['FromName'];
-		if ( !$fromAddress ) {
-			// No email address entered, so use $contactSender instead
-			$senderAddress = $contactSender;
-		} else {
 
+		$fromUserAddress = null;
+		$replyTo = null;
+
+		if ( $fromAddress ) {
 			// T232199 - If the email address is invalid, bail out.
 			// Don't allow it to fallback to basically @server.host.name
 			if ( !Sanitizer::validateEmail( $fromAddress ) ) {
@@ -305,10 +307,14 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 
 			// Use user submitted details
-			$senderAddress = new MailAddress( $fromAddress, $fromName );
+			$fromUserAddress = new MailAddress( $fromAddress, $fromName );
+
 			if ( $this->getConfig()->get( 'UserEmailUseReplyTo' ) ) {
 				// Define reply-to address
-				$replyTo = $senderAddress;
+				$replyTo = $fromUserAddress;
+			} else {
+				// Not using ReplyTo, so set the sender to $fromUserAddress
+				$senderAddress = $fromUserAddress;
 			}
 		}
 
@@ -448,15 +454,15 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		// if the user requested a copy of this mail, do this now,
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
-		if ( $formData['CCme'] && $fromAddress ) {
+		if ( $formData['CCme'] && $fromUserAddress ) {
 			$cc_subject = $this->msg( 'emailccsubject', $contactRecipientUser->getName(), $subject )->text();
 			if ( Hooks::run( 'ContactForm',
-				[ &$senderAddress, &$contactSender, &$cc_subject, &$text, $this->formType, $formData ] )
+				[ &$fromUserAddress, &$senderAddress, &$cc_subject, &$text, $this->formType, $formData ] )
 			) {
-				wfDebug( __METHOD__ . ': sending cc mail from ' . $contactSender->toString() .
-					' to ' . $senderAddress->toString() . "\n"
+				wfDebug( __METHOD__ . ': sending cc mail from ' . $senderAddress->toString() .
+					' to ' . $fromUserAddress->toString() . "\n"
 				);
-				$ccResult = UserMailer::send( $senderAddress, $contactSender, $cc_subject, $text );
+				$ccResult = UserMailer::send( $fromUserAddress, $senderAddress, $cc_subject, $text );
 				if ( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
 					// original mail has succeeded. It's unlikely, but still, what to do?
