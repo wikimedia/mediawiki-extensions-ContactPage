@@ -4,6 +4,7 @@
 			"DCLXVI",
 			"DannyS712",
 			"Mitzev",
+			"StanProg",
 			"Turin"
 		]
 	},
@@ -17,5 +18,5 @@
 	"contactpage-fromname": "Вашето име:",
 	"contactpage-fromaddress": "Вашата е-поща:",
 	"contactpage-formfootnotes": "(изисква се за получаване отговор)",
-	"contactpage-usermailererror": "Пощенският обект даде грешка: $1"
+	"contactpage-usermailererror": "Върната грешка на обекта за изпращане на поща: $1"
 }
