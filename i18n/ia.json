@@ -20,5 +20,6 @@
 	"contactpage-usermailererror": "Le objecto de e-mail retornava le error: $1",
 	"contactpage-captcha-error": "Error de CAPTCHA",
 	"contactpage-config-error-title": "Error de formulario de contacto",
-	"contactpage-config-error": "Le formulario de contacto pro iste pagina es o non configurate o configurate incorrectemente."
+	"contactpage-config-error": "Le formulario de contacto pro iste pagina es o non configurate o configurate incorrectemente.",
+	"contactpage-mustbeloggedin": "Per favor aperi session pro inviar un formulario de contacto."
 }

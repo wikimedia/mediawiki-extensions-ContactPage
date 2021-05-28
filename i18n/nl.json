@@ -3,6 +3,7 @@
 		"authors": [
 			"DannyS712",
 			"Esketti",
+			"Mainframe98",
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin"
@@ -23,5 +24,6 @@
 	"contactpage-usermailererror": "Foutmelding bij het verzenden: $1",
 	"contactpage-captcha-error": "CAPTCHA-fout",
 	"contactpage-config-error-title": "Contactformulierfout",
-	"contactpage-config-error": "Een contactformulier is niet geconfigureerd voor deze pagina of onjuist is geconfigureerd."
+	"contactpage-config-error": "Een contactformulier is niet geconfigureerd voor deze pagina of onjuist is geconfigureerd.",
+	"contactpage-mustbeloggedin": "Om het contactformulier te kunnen gebruiken moet u aangemeld zijn."
 }
