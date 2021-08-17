@@ -10,14 +10,22 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\User\UserOptionsLookup;
+
 /**
  * Provides the contact form
  * @ingroup SpecialPage
  */
 class SpecialContact extends UnlistedSpecialPage {
+	/** @var UserOptionsLookup */
+	private $userOptionsLookup;
 
-	public function __construct() {
+	/**
+	 * @param UserOptionsLookup $userOptionsLookup
+	 */
+	public function __construct( UserOptionsLookup $userOptionsLookup ) {
 		parent::__construct( 'Contact' );
+		$this->userOptionsLookup = $userOptionsLookup;
 	}
 
 	/**
@@ -175,7 +183,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			'CCme' => [
 				'label-message' => 'emailccme',
 				'type' => 'check',
-				'default' => $this->getUser()->getBoolOption( 'ccmeonemails' ),
+				'default' => $this->userOptionsLookup->getBoolOption( $this->getUser(), 'ccmeonemails' ),
 			],
 			'FormType' => [
 				'class' => 'HTMLHiddenField',
