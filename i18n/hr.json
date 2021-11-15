@@ -4,6 +4,7 @@
 			"Bugoslav",
 			"DannyS712",
 			"Dnik",
+			"Ponor",
 			"SpeedyGonsales",
 			"Tivek"
 		]
@@ -21,8 +22,8 @@
 	"contactpage-formfootnotes": "(obvezno, ako želite dobiti odgovor)",
 	"contactpage-includeip": "Priloži moju IP adresu u ovu poruku.",
 	"contactpage-usermailererror": "Sustav pošte javio je pogrešku: $1",
-	"contactpage-captcha-error": "Pogrješka u CAPTCHA-i",
-	"contactpage-config-error-title": "Pogrješka u obrascu za kontakte",
+	"contactpage-captcha-error": "Pogreška u odgovoru na CAPTCHA",
+	"contactpage-config-error-title": "Pogreška u obrascu za kontakte",
 	"contactpage-config-error": "Obrazac za kontakte nije konfiguriran za ovu stranicu ili je nepravilno konfiguriran.",
 	"contactpage-mustbeloggedin": "Molimo Vas, prijavite se da biste podnijeli obrazac za kontakte"
 }
