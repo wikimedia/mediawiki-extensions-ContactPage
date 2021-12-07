@@ -11,7 +11,8 @@
 			"Peter17",
 			"Sanbec",
 			"Sporeunai",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"MarcoAurelio"
 		]
 	},
 	"contactpage": "Página de contacto",
@@ -29,6 +30,6 @@
 	"contactpage-usermailererror": "El sistema de correo devolvió un error: $1",
 	"contactpage-captcha-error": "Error en el CAPTCHA",
 	"contactpage-config-error-title": "Error en el formulario de contacto",
-	"contactpage-config-error": "Un formulario de contacto no está configurado para esta página o no está configurado correctamente.",
+	"contactpage-config-error": "No hay ningún formulario de contacto configurado para esta página, o la configuración es defectuosa.",
 	"contactpage-mustbeloggedin": "Inicia sesión para poder enviar un formulario de contacto."
 }

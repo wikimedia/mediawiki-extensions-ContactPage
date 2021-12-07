@@ -8,8 +8,16 @@
 	"contactpage": "رابطي جو صفحو",
 	"contactpage-desc": "[[Special:Contact|گھمندڙن جي لاءِ رابطو فارم]]",
 	"contactpage-title": "رابطو",
-	"contactpage-legend": "برقٽپال موڪليو",
-	"contactpage-defsubject": "رابطي جو پيغام",
+	"contactpage-pagetext": "مھرباني فرمائي اسان سان رابطو ڪرڻ لاءِ ھيٺيون فارم استعمال ڪريو.",
+	"contactpage-legend": "ايميل موڪليو",
+	"contactpage-defsubject": "رابطي جو نياپو",
+	"contactpage-subject-and-sender": "$1 ($2 پاران)",
+	"contactpage-subject-and-sender-withip": "$1 ($2 کان $3 تي)",
 	"contactpage-fromname": "توهان جو نالو:",
-	"contactpage-fromaddress": "توهان جو برقٽپال پتو:"
+	"contactpage-fromaddress": "توهان جو ايميل پتو:",
+	"contactpage-formfootnotes": "(جيڪڏھن توھان کي جواب گهرجي تڏھن گهربل)",
+	"contactpage-includeip": "منھنجو آئپي پتو ھن نياپي ۾ شامل ڪريو.",
+	"contactpage-captcha-error": "ڪيپچا چُڪَ",
+	"contactpage-config-error-title": "رابطي فارم ۾ چُڪَ",
+	"contactpage-mustbeloggedin": "مھرباني فرمائي رابطو فارم اماڻڻ لاءِ داخل ٿيو."
 }
