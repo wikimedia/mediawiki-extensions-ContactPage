@@ -5,13 +5,14 @@
 			"Milicevic01",
 			"Rancher",
 			"Михајло Анђелковић",
-			"Сербијана"
+			"Сербијана",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Контакт",
 	"contactpage-desc": "[[Special:Contact|Контакт-форма за посетиоце]]",
 	"contactpage-title": "Контакт",
-	"contactpage-pagetext": "Молимо Вас да користите форму испод да нас контактирате.",
+	"contactpage-pagetext": "Користите доњи образац да бисте нам се обратили.",
 	"contactpage-legend": "Пошаљи имејл",
 	"contactpage-defsubject": "Порука за контакт",
 	"contactpage-subject-and-sender": "$1 (од $2)",

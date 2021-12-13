@@ -10,19 +10,20 @@
 			"Railfail536",
 			"Sp5uhe",
 			"WTM",
-			"Wpedzich"
+			"Wpedzich",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Kontakt",
 	"contactpage-desc": "[[Special:Contact|Formularz kontaktowy dla czytelników serwisu]]",
 	"contactpage-title": "Kontakt",
-	"contactpage-pagetext": "Prosimy użyć poniższego formularza by skontaktować się z nami",
+	"contactpage-pagetext": "Prosimy użyć poniższego formularza, by skontaktować się z nami",
 	"contactpage-legend": "Wyślij e‐mail",
 	"contactpage-defsubject": "Wiadomość",
 	"contactpage-subject-and-sender": "$1 (z $2)",
 	"contactpage-subject-and-sender-withip": "$1 (od $2 z $3)",
 	"contactpage-fromname": "Twoje imię:",
-	"contactpage-fromaddress": "Twój adres email:",
+	"contactpage-fromaddress": "Twój adres e-mail:",
 	"contactpage-formfootnotes": "(potrzebne jeśli chcesz uzyskać odpowiedź)",
 	"contactpage-includeip": "Dodaj do tej wiadomości informację o moim adresie IP.",
 	"contactpage-usermailererror": "Moduł obsługi poczty zwrócił błąd:",

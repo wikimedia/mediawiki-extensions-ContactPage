@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Gts-tg",
-			"Omnipaedista"
+			"Omnipaedista",
+			"DannyS712",
+			"PastelKos"
 		]
 	},
 	"contactpage": "Δέλτος ἀγγελίας",
 	"contactpage-title": "Ἐπαφή",
 	"contactpage-subject-and-sender": "$1 (ἀπὸ $2)",
-	"contactpage-fromname": "Τὸ ὄνομά σου: *",
+	"contactpage-fromname": "Τὸ σὸν ὄνομα:",
 	"contactpage-usermailererror": "Τὸ ἠλ-ταχυδρομεῖον ἐπέστρεψεν σφάλμα:"
 }

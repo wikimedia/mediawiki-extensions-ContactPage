@@ -1,6 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712",
+			"Nērtiks Jōrgesuns"
+		]
 	},
+	"contactpage": "Kōntaktas pāusan",
 	"contactpage-usermailererror": "Pustis ōbjaktan ast etwārtai wartinnun blāndan:"
 }

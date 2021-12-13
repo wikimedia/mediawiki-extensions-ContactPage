@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Reptilien.19831209BE1",
-			"Srtxg"
+			"Srtxg",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Pådje d’&nbsp;atôtchance",
 	"contactpage-desc": "[[Special:Contact|Formulrece d' atôtchance po les viziteus]]",
 	"contactpage-title": "Atôtchî",
-	"contactpage-pagetext": "Eployîz l' formulrce chal pa dzo po nos atôtchî.",
+	"contactpage-pagetext": "Eployîz l' formulrce cial pa dzo po nos atôtchî.",
 	"contactpage-legend": "Evoyî èn emile",
 	"contactpage-defsubject": "Messaedje po-z atôtchî",
 	"contactpage-subject-and-sender": "$1 (di $2)",

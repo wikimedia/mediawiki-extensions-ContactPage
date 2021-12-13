@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amikeco"
+			"Amikeco",
+			"Arturgudiev"
 		]
-	}
+	},
+	"contactpage": "Контакты фарс"
 }

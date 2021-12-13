@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Trondtr"
+			"Trondtr",
+			"Yupik"
 		]
 	},
-	"contactpage": "Kontaktsijđo"
+	"contactpage": "Kontaktsijđo",
+	"contactpage-fromaddress": "Tuu šleđgâpostâčujottâs:"
 }

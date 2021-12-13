@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khalid Mahmood"
+			"Khalid Mahmood",
+			"Abbas dhothar",
+			"DannyS712"
 		]
 	},
-	"contactpage": "صفہ جوڑو",
+	"contactpage": "صفحہ جوڑو",
 	"contactpage-usermailererror": "میل واپسی غلطی:"
 }

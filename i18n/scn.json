@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gmelfi"
+			"Gmelfi",
+			"Ajeje Brazorf",
+			"DannyS712"
 		]
 	},
 	"contactpage": "Cuntatti",
-	"contactpage-usermailererror": "L'uggettu mail hà ristituitu l'erruri:"
+	"contactpage-title": "Cuntatti",
+	"contactpage-fromname": "Lu tò nomu:",
+	"contactpage-fromaddress": "Lu tò nirizzu email:",
+	"contactpage-usermailererror": "L'uggettu mail hà ristituitu l'erruri:",
+	"contactpage-captcha-error": "Erruri CAPTCHA"
 }
