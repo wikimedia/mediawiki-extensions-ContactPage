@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"DannyS712",
+			"Kipala",
 			"Kwisha"
 		]
 	},
+	"contactpage": "Ukurasa wa mawasiliano",
 	"contactpage-title": "Mawasiliano",
 	"contactpage-legend": "Tuma barua pepe",
 	"contactpage-fromname": "Jina lako: *",
