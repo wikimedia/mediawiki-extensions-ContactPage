@@ -67,7 +67,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$config = $this->getTypeConfig();
 
-		if ( $config['MustBeLoggedIn'] ) {
+		if ( isset( $config['MustBeLoggedIn'] ) && $config['MustBeLoggedIn'] ) {
 			$this->requireLogin( 'contactpage-mustbeloggedin' );
 		}
 
