@@ -5,7 +5,7 @@ Licenses: GNU General Public Licence (GPL)
           GNU Free Documentation License (GFDL)
 --------------------------------------------------------------------------
 
-The ContactPage extension implements a contact form for visitors. It 
+The ContactPage extension implements a contact form for visitors. It
 creates a special page Special:Contact, which is similar to
 Special:Emailuser, but it has a fixed recipient, and can be used
 anonymously.
@@ -21,7 +21,7 @@ they are mentioned in each file individually.
 
 == Installing ==
 
-Copy the ContactPage directory into the extensions folder of your 
+Copy the ContactPage directory into the extensions folder of your
 MediaWiki installation. Then add the following lines to your
 LocalSettings.php file (near the end):
 
@@ -38,6 +38,7 @@ $wgContactConfig.
        'SenderName' => 'User Email',
        'RequireDetails' => true,
        'IncludeIP' => true,
+       "MustBeLoggedIn": true,
        'AdditionalFields' => [],
        'RLModules' => [],
        'RLStyleModules' => [],
@@ -56,11 +57,14 @@ entered on the contact form. It defaults to $wgPasswordSender.
 
 SenderName is the display name used with SenderEmail.
 
-RequireDetails Whether users will be required to supply a name and an
-email address on Special:Contact.
+RequireDetails is whether the users will be required to supply a name
+and an email address on Special:Contact.
 
-IncludeIP Whether the form will include a checkbox offering to put the IP
-address of the submitter in the subject line.
+IncludeIP is used to decide whether the form will include a checkbox
+offering to put the IP address of the submitter in the subject line.
+
+MustBeLoggedIn is whether the contact form is only accessible when
+users are logged in.
 
 AdditionalFields is used to add any additional fields to the contact form.
 These are done using https://www.mediawiki.org/wiki/HTMLForm notation.
@@ -88,7 +92,7 @@ RLStyleModules can be used to add ResourceLoader CSS modules to the page.
 
 [[Special:Contact]] calls the 'default' form.
 Pagetext: [[MediaWiki:contactpage-pagetext]]
-Subject: prefilled with text from [[MediaWiki:Contactpage-defsubject]] 
+Subject: prefilled with text from [[MediaWiki:Contactpage-defsubject]]
 E-mail body: empty.
 
 [[Special:Contact/typename]] calls the contact page with a customized pagetext and
