@@ -375,7 +375,8 @@ class SpecialContact extends UnlistedSpecialPage {
 			$value = '';
 			// TODO: Support selectandother/HTMLSelectAndOtherField
 			// options, options-messages and options-message
-			if ( isset( $field['options-messages'] ) ) { // Multiple values!
+			if ( isset( $field['options-messages'] ) ) {
+				// Multiple values!
 				if ( is_string( $formData[$name] ) ) {
 					$optionValues = array_flip( $field['options-messages'] );
 					if ( isset( $optionValues[$formData[$name]] ) ) {
@@ -438,7 +439,8 @@ class SpecialContact extends UnlistedSpecialPage {
 		if ( !Hooks::run( 'ContactForm', [ &$contactRecipientAddress, &$replyTo, &$subject,
 			&$text, $this->formType, $formData ] )
 		) {
-			return false; // TODO: Need to do some proper error handling here
+			// TODO: Need to do some proper error handling here
+			return false;
 		}
 
 		wfDebug( __METHOD__ . ': sending mail from ' . $senderAddress->toString() .
