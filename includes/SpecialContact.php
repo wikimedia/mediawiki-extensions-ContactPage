@@ -10,7 +10,23 @@
  * @license GPL-2.0-or-later
  */
 
+namespace MediaWiki\Extension\ContactPage;
+
+use ConfirmEditHooks;
+use ErrorPageError;
+use ExtensionRegistry;
+use Hooks;
+use Html;
+use HTMLForm;
+use MailAddress;
+use MediaWiki\Session\SessionManager;
 use MediaWiki\User\UserOptionsLookup;
+use Sanitizer;
+use Status;
+use UnlistedSpecialPage;
+use User;
+use UserBlockedError;
+use UserMailer;
 
 /**
  * Provides the contact form
@@ -517,7 +533,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	 */
 	private function getCaptcha() {
 		// NOTE: make sure we have a session. May be required for CAPTCHAs to work.
-		\MediaWiki\Session\SessionManager::getGlobalSession()->persist();
+		SessionManager::getGlobalSession()->persist();
 
 		$captcha = ConfirmEditHooks::getInstance();
 		$captcha->setTrigger( 'contactpage' );

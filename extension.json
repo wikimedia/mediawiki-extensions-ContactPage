@@ -45,14 +45,14 @@
 	},
 	"SpecialPages": {
 		"Contact": {
-			"class": "SpecialContact",
+			"class": "MediaWiki\\Extension\\ContactPage\\SpecialContact",
 			"services": [
 				"UserOptionsLookup"
 			]
 		}
 	},
-	"AutoloadClasses": {
-		"SpecialContact": "includes/SpecialContact.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ContactPage\\": "includes/"
 	},
 	"manifest_version": 2
 }
