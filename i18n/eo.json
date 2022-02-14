@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yekrats"
+			"Yekrats",
+			"DannyS712",
+			"Robin van der Vliet"
 		]
 	},
 	"contactpage": "Kontaktpaĝo",
@@ -12,8 +14,8 @@
 	"contactpage-defsubject": "Kontakta Mesaĝo",
 	"contactpage-subject-and-sender": "$1 (de $2)",
 	"contactpage-subject-and-sender-withip": "$1 (de $2 ĉe $3)",
-	"contactpage-fromname": "Via nomo: *",
-	"contactpage-fromaddress": "Via retadreso: **",
+	"contactpage-fromname": "Via nomo:",
+	"contactpage-fromaddress": "Via retpoŝtadreso:",
 	"contactpage-formfootnotes": "* nedeviga<br />\n** nedeviga sed deviga se vi volas respondon",
 	"contactpage-includeip": "Inkluzivi mian IP-adreson en ĉi tiu mesaĝo",
 	"contactpage-usermailererror": "Resendita retmesaĝa erarsubjekto:"
