@@ -3,10 +3,12 @@
 		"authors": [
 			"Brazal.dang",
 			"Filipinayzd",
-			"Geopoet"
+			"Geopoet",
+			"DannyS712",
+			"Daramlagon"
 		]
 	},
-	"contactpage": "Hadoyan na pahina",
+	"contactpage": "Pahina nin pagkontak",
 	"contactpage-subject-and-sender": "$1 (poon $2)",
 	"contactpage-fromname": "Pangaran mo:",
 	"contactpage-fromaddress": "''E''-surat mo:",

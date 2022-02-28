@@ -1,6 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"DannyS712",
+			"Numulunj pilgae"
+		]
 	},
+	"contactpage": "Контактонь лопац",
 	"contactpage-usermailererror": "Электрононь адрес эльбятькссь:"
 }
