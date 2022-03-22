@@ -9,7 +9,8 @@
 			"Mjbmr",
 			"Reza1615",
 			"Wayiran",
-			"Jeeputer"
+			"Jeeputer",
+			"Beginneruser"
 		]
 	},
 	"contactpage": "صفحهٔ تماس",
@@ -23,7 +24,7 @@
 	"contactpage-fromname": "نام شما:",
 	"contactpage-fromaddress": "آدرس ایمیل شما:",
 	"contactpage-formfootnotes": "(اگر جواب می‌خواهید مورد نیاز است)",
-	"contactpage-includeip": "نشانی آی‌پی من را با این پیغام ضمیمه کن.",
+	"contactpage-includeip": "نشانی آی‌پی من را با این پیام ضمیمه کن.",
 	"contactpage-usermailererror": "شیء ایمیل خطا بازگرداند: $1",
 	"contactpage-captcha-error": "خطای کپتچا",
 	"contactpage-config-error-title": "خطای فرم تماس",
