@@ -87,7 +87,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		$request = $this->getRequest();
-		$this->formType = strtolower( $request->getText( 'formtype', $par ) );
+		$this->formType = strtolower( $request->getText( 'formtype', $par ?? '' ) );
 
 		$config = $this->getTypeConfig();
 
