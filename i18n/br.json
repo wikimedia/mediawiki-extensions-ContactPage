@@ -3,7 +3,8 @@
 		"authors": [
 			"Fohanno",
 			"Fulup",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"contactpage": "Pajenn daremprediñ",
@@ -18,6 +19,6 @@
 	"contactpage-fromaddress": "Ho chomlec'h postel :",
 	"contactpage-formfootnotes": "(rekis mar fell deoc'h e vefe respontet deoc'h)",
 	"contactpage-includeip": "Merkañ ma chomlec'h IP er postel-mañ.",
-	"contactpage-usermailererror": "Fazi postel :",
+	"contactpage-usermailererror": "Adkaset eo bet ur fazi gant an draezenn postel : $1",
 	"contactpage-captcha-error": "Fazi CAPTCHA"
 }
