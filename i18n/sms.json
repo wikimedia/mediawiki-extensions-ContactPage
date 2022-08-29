@@ -8,6 +8,9 @@
 	"contactpage-title": "Vääʹld õhttvuõđ",
 	"contactpage-legend": "Vuõlttâd e-pååʹšt",
 	"contactpage-defsubject": "Saakk:",
+	"contactpage-fromname": "Tuu nõmm:",
 	"contactpage-fromaddress": "Tuu e-pååʹštaddrõs:",
-	"contactpage-includeip": "Lââʹzzet muu IP-addrõõzz tän saʹǩǩe."
+	"contactpage-includeip": "Lââʹzzet muu IP-addrõõzz tän saʹǩǩe.",
+	"contactpage-captcha-error": "CAPTCHA-vââʹǩǩ",
+	"contactpage-mustbeloggedin": "Ǩeeʹrjtõõđ sizz, jõs haaʹlääk tän lomaakk vuõltteed."
 }
