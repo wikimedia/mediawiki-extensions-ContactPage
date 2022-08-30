@@ -444,14 +444,6 @@ class SpecialContact extends UnlistedSpecialPage {
 			$text .= "{$name}: $value\n";
 		}
 
-		// Stolen from Special:EmailUser
-		$error = '';
-		if ( !Hooks::run( 'EmailUser', [ &$contactRecipientAddress, &$senderAddress, &$subject,
-			&$text, &$error ] )
-		) {
-			return $error;
-		}
-
 		if ( !Hooks::run( 'ContactForm', [ &$contactRecipientAddress, &$replyTo, &$subject,
 			&$text, $this->formType, $formData ] )
 		) {
