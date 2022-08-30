@@ -4,14 +4,15 @@
 			"Bhawani Gautam",
 			"Bhawani Gautam Rhk",
 			"DannyS712",
-			"Nirjal stha"
+			"Nirjal stha",
+			"Bada Kaji"
 		]
 	},
 	"contactpage": "सम्पर्क पृष्ठ",
 	"contactpage-desc": "[[Special:Contact|आगन्तुकसितको सम्पर्क]]",
 	"contactpage-title": "संपर्क गर्ने",
 	"contactpage-pagetext": "हामीसित सम्पर्क साध्न तल दिइएको फ़ारमको प्रयोग गर्नुहोस्।",
-	"contactpage-legend": "इमेल पठाउने",
+	"contactpage-legend": "इमेल पठाउनुहोस्",
 	"contactpage-defsubject": "सम्पर्क सन्देश",
 	"contactpage-subject-and-sender": "($2बाट) $1",
 	"contactpage-subject-and-sender-withip": "($2बाट  $3मा) $1",
