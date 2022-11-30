@@ -103,8 +103,8 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$user = $this->getUser();
 
-		$nu = User::newFromName( $config['RecipientUser'] );
-		if ( $nu === null || !$nu->canReceiveEmail() ) {
+		$recipient = User::newFromName( $config['RecipientUser'] );
+		if ( $recipient === null || !$recipient->canReceiveEmail() ) {
 			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
 			return;
 		}
@@ -272,7 +272,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				}
 			}
 			$out->setPageTitle( $pageTitle );
-			$out->addWikiMsg( $pageText );
+			$out->addWikiMsg( $pageText, $recipient );
 
 			$out->returnToMain( false );
 		} else {
