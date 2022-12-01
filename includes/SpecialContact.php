@@ -167,7 +167,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			$fromAddress = $user->getEmail();
 		}
 
-		$additional = $config['AdditionalFields'];
+		$additional = $config['AdditionalFields'] ?? [];
 
 		$formItems = [
 			'FromName' => [
