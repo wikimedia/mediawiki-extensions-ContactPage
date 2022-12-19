@@ -455,6 +455,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			' to ' . $contactRecipientAddress->toString() .
 			' replyto ' . ( $replyTo == null ? '-/-' : $replyTo->toString() ) . "\n"
 		);
+		// @phan-suppress-next-line SecurityCheck-XSS UserMailer::send defaults to text/plain if passed a string
 		$mailResult = UserMailer::send(
 			$contactRecipientAddress,
 			$senderAddress,
@@ -480,7 +481,13 @@ class SpecialContact extends UnlistedSpecialPage {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $senderAddress->toString() .
 					' to ' . $fromUserAddress->toString() . "\n"
 				);
-				$ccResult = UserMailer::send( $fromUserAddress, $senderAddress, $cc_subject, $text );
+				// @phan-suppress-next-line SecurityCheck-XSS UserMailer::send defaults to text/plain if passed a string
+				$ccResult = UserMailer::send(
+					$fromUserAddress,
+					$senderAddress,
+					$cc_subject,
+					$text,
+				);
 				if ( !$ccResult->isOK() ) {
 					// At this stage, the user's CC mail has failed, but their
 					// original mail has succeeded. It's unlikely, but still, what to do?
