@@ -17,7 +17,7 @@
 	"contactpage-fromname": "Vaše ime:",
 	"contactpage-fromaddress": "Vaš e-poštni naslov:",
 	"contactpage-formfootnotes": "(potrebno, če želite odgovor)",
-	"contactpage-includeip": "Vključi moj IP-naslov v tem sporočilu.",
+	"contactpage-includeip": "V tem sporočilu vključi moj IP-naslov.",
 	"contactpage-usermailererror": "Predmet e-pošte je vrnil napako: $1",
 	"contactpage-captcha-error": "Napaka CAPTCHA",
 	"contactpage-config-error-title": "Napaka kontaktnega obrazca",
