@@ -40,7 +40,8 @@
 						}
 					}
 				}
-			}
+			},
+			"merge_strategy": "array_plus_2d"
 		}
 	},
 	"SpecialPages": {
