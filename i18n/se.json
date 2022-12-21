@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"DannyS712"
+			"DannyS712",
+			"Yupik"
 		]
 	},
+	"contactpage-fromaddress": "Du e-poastačujuhus:",
 	"contactpage-usermailererror": "Feaila e-poastta sáddedettiin: $1"
 }
