@@ -21,5 +21,6 @@
 	"contactpage-usermailererror": "Predmet e-pošte je vrnil napako:",
 	"contactpage-captcha-error": "Napaka CAPTCHA",
 	"contactpage-config-error-title": "Napaka kontaktnega obrazca",
-	"contactpage-config-error": "Kontaktni obrazec ali ni konfiguriran za to stran ali pa je napačno konfiguriran."
+	"contactpage-config-error": "Kontaktni obrazec ali ni konfiguriran za to stran ali pa je napačno konfiguriran.",
+	"contactpage-mustbeloggedin": "Za predložitev kontaktnega obrazca se prijavite."
 }

@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"DannyS712",
-			"Yupik"
+			"Yupik",
+			"Kimberli Mäkäräinen (WMNO)"
 		]
 	},
+	"contactpage-title": "Váldde oktavuođa",
 	"contactpage-fromaddress": "Du e-poastačujuhus:",
 	"contactpage-usermailererror": "Feaila e-poastta sáddedettiin:"
 }
