@@ -181,15 +181,21 @@ class SpecialContact extends UnlistedSpecialPage {
 				'type' => 'email',
 				'required' => $config['RequireDetails'],
 				'default' => $fromAddress,
-			],
-			'FromInfo' => [
+			]
+		];
+
+		if ( !$config['RequireDetails'] ) {
+			$formItems['FromInfo'] = [
 				'label' => '',
 				'type' => 'info',
 				'default' => Html::rawElement( 'small', [],
 					$this->msg( 'contactpage-formfootnotes' )->escaped()
 				),
 				'raw' => true,
-			],
+			];
+		}
+
+		$formItems += [
 			'Subject' => [
 				'label-message' => 'emailsubject',
 				'type' => 'text',
