@@ -74,6 +74,32 @@ class SpecialContact extends UnlistedSpecialPage {
 	}
 
 	/**
+	 * Helper function for ::execute that returns a form
+	 * specific message key if it is is not disabled.
+	 * Otherwise returns the generic message key.
+	 * Used to make it possible for forms to have
+	 * form-specific messages.
+	 *
+	 * @param string $genericMessageKey The message key that will be used if no form-specific one can be used
+	 * @return string
+	 */
+	protected function getFormSpecificMessageKey( string $genericMessageKey ) {
+		$formSpecificMessageKey = $genericMessageKey . '-' . $this->formType;
+		if ( !str_starts_with( $genericMessageKey, 'contactpage' ) ) {
+			// If the generic message does not start with "contactpage" the form
+			//  specific one will have "contactpage-" prefixed on the generic message
+			//  name.
+			$formSpecificMessageKey = 'contactpage-' . $formSpecificMessageKey;
+		}
+		if ( $this->formType && !$this->msg( $formSpecificMessageKey )->isDisabled() ) {
+			// Return the form-specific message if the form type is not the empty string
+			//  and the message is defined.
+			return $formSpecificMessageKey;
+		}
+		return $genericMessageKey;
+	}
+
+	/**
 	 * Main execution function
 	 *
 	 * @param string|null $par Parameters passed to the page
@@ -116,41 +142,21 @@ class SpecialContact extends UnlistedSpecialPage {
 			throw new UserBlockedError( $this->getUser()->getBlock() );
 		}
 
-		$pageTitle = '';
-		if ( $this->formType != '' ) {
-			$message = $this->msg( 'contactpage-title-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$pageTitle = $message;
-			}
-		}
-
-		if ( $pageTitle === '' ) {
-			$pageTitle = $this->msg( 'contactpage-title' );
-		}
-		$this->getOutput()->setPageTitle( $pageTitle );
-
-		$subject = '';
+		$this->getOutput()->setPageTitle(
+			$this->msg( $this->getFormSpecificMessageKey( 'contactpage-title' ) )
+		);
 
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
-		if ( $this->formType != '' ) {
-			$message = $this->msg( 'contactpage-pagetext-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$formText = $message->parseAsBlock();
-			} else {
-				$formText = $this->msg( 'contactpage-pagetext' )->parseAsBlock();
-			}
-
-			$message = $this->msg( 'contactpage-subject-' . $this->formType );
-			if ( !$message->isDisabled() ) {
-				$subject = $message->inContentLanguage()->plain();
-			}
+		$formText = $this->msg(
+			$this->getFormSpecificMessageKey( 'contactpage-pagetext' )
+		)->parseAsBlock();
+		$formSpecificSubjectMessageKey = $this->msg( [
+			'contactpage-defsubject-' . $this->formType,
+			'contactpage-subject-' . $this->formType
+		] );
+		if ( $this->formType != '' && !$formSpecificSubjectMessageKey->isDisabled() ) {
+			$subject = trim( $formSpecificSubjectMessageKey->inContentLanguage()->plain() );
 		} else {
-			$formText = $this->msg( 'contactpage-pagetext' )->parseAsBlock();
-		}
-
-		$subject = trim( $subject );
-
-		if ( $subject === '' ) {
 			$subject = $this->msg( 'contactpage-defsubject' )->inContentLanguage()->text();
 		}
 
@@ -171,13 +177,13 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$formItems = [
 			'FromName' => [
-				'label-message' => 'contactpage-fromname',
+				'label-message' => $this->getFormSpecificMessageKey( 'contactpage-fromname' ),
 				'type' => 'text',
 				'required' => $config['RequireDetails'],
 				'default' => $fromName,
 			],
 			'FromAddress' => [
-				'label-message' => 'contactpage-fromaddress',
+				'label-message' => $this->getFormSpecificMessageKey( 'contactpage-fromaddress' ),
 				'type' => 'email',
 				'required' => $config['RequireDetails'],
 				'default' => $fromAddress,
@@ -189,7 +195,9 @@ class SpecialContact extends UnlistedSpecialPage {
 				'label' => '',
 				'type' => 'info',
 				'default' => Html::rawElement( 'small', [],
-					$this->msg( 'contactpage-formfootnotes' )->escaped()
+					$this->msg(
+						$this->getFormSpecificMessageKey( 'contactpage-formfootnotes' )
+					)->escaped()
 				),
 				'raw' => true,
 			];
@@ -197,13 +205,13 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$formItems += [
 			'Subject' => [
-				'label-message' => 'emailsubject',
+				'label-message' => $this->getFormSpecificMessageKey( 'emailsubject' ),
 				'type' => 'text',
 				'default' => $subject,
 			],
 		] + $additional + [
 			'CCme' => [
-				'label-message' => 'emailccme',
+				'label-message' => $this->getFormSpecificMessageKey( 'emailccme' ),
 				'type' => 'check',
 				'default' => $this->userOptionsLookup->getBoolOption( $this->getUser(), 'ccmeonemails' ),
 			],
@@ -216,7 +224,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if ( $config['IncludeIP'] && $user->isRegistered() ) {
 			$formItems['IncludeIP'] = [
-				'label-message' => 'contactpage-includeip',
+				'label-message' => $this->getFormSpecificMessageKey( 'contactpage-includeip' ),
 				'type' => 'check',
 			];
 		}
@@ -234,7 +242,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			$formItems, $this->getContext(), "contactpage-{$this->formType}"
 		);
 		$form->setWrapperLegendMsg( 'contactpage-legend' );
-		$form->setSubmitTextMsg( 'emailsend' );
+		$form->setSubmitTextMsg( $this->getFormSpecificMessageKey( 'emailsend' ) );
 		if ( $this->formType != '' ) {
 			$form->setId( "contactpage-{$this->formType}" );
 
@@ -259,22 +267,14 @@ class SpecialContact extends UnlistedSpecialPage {
 		$result = $form->show();
 
 		if ( $result === true || ( $result instanceof Status && $result->isGood() ) ) {
-			$out = $this->getOutput();
-			$pageTitle = $this->msg( 'emailsent' );
-			$pageText = 'emailsenttext';
-			if ( $this->formType !== '' ) {
-				$msg = $this->msg( "contactpage-emailsent-{$this->formType}" );
-				if ( !$msg->isDisabled() ) {
-					$pageTitle = $msg;
-				}
-				if ( !$this->msg( "contactpage-emailsenttext-{$this->formType}" )->isDisabled() ) {
-					$pageText = "contactpage-emailsenttext-{$this->formType}";
-				}
-			}
-			$out->setPageTitle( $pageTitle );
-			$out->addWikiMsg( $pageText, $recipient );
+			$output = $this->getOutput();
+			$output->setPageTitle( $this->msg( $this->getFormSpecificMessageKey( 'emailsent' ) ) );
+			$output->addWikiMsg(
+				$this->getFormSpecificMessageKey( 'emailsenttext' ),
+				$recipient
+			);
 
-			$out->returnToMain( false );
+			$output->returnToMain( false );
 		} else {
 			if ( $config['RLStyleModules'] ) {
 				$this->getOutput()->addModuleStyles( $config['RLStyleModules'] );
