@@ -3,10 +3,11 @@
 		"authors": [
 			"DannyS712",
 			"OC Ripper",
-			"Vlad5250"
+			"Vlad5250",
+			"BadDog"
 		]
 	},
-	"contactpage": "Stranica za kontakt",
+	"contactpage": "Kontakt",
 	"contactpage-desc": "[[Special:Contact|Kontaktni obrazac za posjetioce]]",
 	"contactpage-title": "Kontakt",
 	"contactpage-pagetext": "Molimo, poslužite se uz obrazac ispod da nas kontaktirate.",
