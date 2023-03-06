@@ -3,6 +3,7 @@
 		"authors": [
 			"Cekli829",
 			"DannyS712",
+			"Eldarado",
 			"Turkmen",
 			"Wertuose"
 		]
@@ -10,6 +11,7 @@
 	"contactpage": "Əlaqə səhifəsi",
 	"contactpage-title": "Əlaqə",
 	"contactpage-legend": "E-məktub göndər",
+	"contactpage-defsubject": "Əlaqə mesajı",
 	"contactpage-fromname": "Sizin adınız:",
 	"contactpage-fromaddress": "Sizin e-poçtunuz:",
 	"contactpage-usermailererror": "Elektron poçtla məlumat göndərilən zaman xəta baş vermişdir: $1"
