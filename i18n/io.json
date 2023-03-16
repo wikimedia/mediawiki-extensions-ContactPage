@@ -7,7 +7,9 @@
 		]
 	},
 	"contactpage": "Pagino por kontakto",
+	"contactpage-title": "Kontakto",
 	"contactpage-legend": "Sendar e-posto",
+	"contactpage-defsubject": "Kontakto-mesajo",
 	"contactpage-subject-and-sender": "$1 (de $2)",
 	"contactpage-subject-and-sender-withip": "$1 (de $2 en $3)",
 	"contactpage-fromname": "Vua nomo:",
