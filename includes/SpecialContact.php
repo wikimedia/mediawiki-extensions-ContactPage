@@ -15,7 +15,6 @@ namespace MediaWiki\Extension\ContactPage;
 use ConfirmEditHooks;
 use ErrorPageError;
 use ExtensionRegistry;
-use Hooks;
 use Html;
 use HTMLForm;
 use MailAddress;
@@ -260,7 +259,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$form->loadData();
 
 		// Stolen from Special:EmailUser
-		if ( !Hooks::run( 'EmailUserForm', [ &$form ] ) ) {
+		if ( !$this->getHookContainer()->run( 'EmailUserForm', [ &$form ] ) ) {
 			return;
 		}
 
@@ -450,7 +449,8 @@ class SpecialContact extends UnlistedSpecialPage {
 			$text .= "{$name}: $value\n";
 		}
 
-		if ( !Hooks::run( 'ContactForm', [ &$contactRecipientAddress, &$replyTo, &$subject,
+		$hookContainer = $this->getHookContainer();
+		if ( !$hookContainer->run( 'ContactForm', [ &$contactRecipientAddress, &$replyTo, &$subject,
 			&$text, $this->formType, $formData ] )
 		) {
 			// TODO: Need to do some proper error handling here
@@ -481,7 +481,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if ( $formData['CCme'] && $fromUserAddress ) {
 			$cc_subject = $this->msg( 'emailccsubject', $contactRecipientUser->getName(), $subject )->text();
-			if ( Hooks::run( 'ContactForm',
+			if ( $hookContainer->run( 'ContactForm',
 				[ &$fromUserAddress, &$senderAddress, &$cc_subject, &$text, $this->formType, $formData ] )
 			) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $senderAddress->toString() .
@@ -505,7 +505,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 		}
 
-		Hooks::run( 'ContactFromComplete', [ $contactRecipientAddress, $replyTo, $subject, $text ] );
+		$hookContainer->run( 'ContactFromComplete', [ $contactRecipientAddress, $replyTo, $subject, $text ] );
 
 		return true;
 	}
