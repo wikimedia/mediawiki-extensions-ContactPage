@@ -4,7 +4,9 @@
 			"Eitvys200",
 			"Garas",
 			"Mantak111",
-			"Matasg"
+			"Matasg",
+			"DannyS712",
+			"Nokeoo"
 		]
 	},
 	"contactpage": "Kontaktų puslapis",
@@ -22,5 +24,6 @@
 	"contactpage-usermailererror": "Pašto objektas grąžino klaidą:",
 	"contactpage-captcha-error": "CAPTCHA klaida",
 	"contactpage-config-error-title": "Susisiekimo formos klaida",
-	"contactpage-config-error": "Susisiekimo forma yra arba nesukonfigūruota šiam puslapiai arba yra sukonfigūruota netinkamai."
+	"contactpage-config-error": "Susisiekimo forma yra arba nesukonfigūruota šiam puslapiai arba yra sukonfigūruota netinkamai.",
+	"contactpage-mustbeloggedin": "Norėdami pateikti kontaktinę formą, prisijunkite."
 }
