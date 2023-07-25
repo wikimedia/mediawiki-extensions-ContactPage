@@ -3,9 +3,11 @@
 		"authors": [
 			"DannyS712",
 			"Yupik",
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"Caden99"
 		]
 	},
+	"contactpage": "Sisdoallusiidu",
 	"contactpage-title": "Váldde oktavuođa",
 	"contactpage-fromaddress": "Du e-poastačujuhus:",
 	"contactpage-usermailererror": "Feaila e-poastta sáddedettiin: $1"
