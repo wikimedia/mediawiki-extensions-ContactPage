@@ -120,7 +120,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$config = $this->getTypeConfig();
 
 		if ( isset( $config['MustBeLoggedIn'] ) && $config['MustBeLoggedIn'] ) {
-			$this->requireLogin( 'contactpage-mustbeloggedin' );
+			$this->requireNamedUser( 'contactpage-mustbeloggedin' );
 		}
 
 		if ( !$config['RecipientUser'] ) {
@@ -164,7 +164,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$fromAddress = '';
 		$fromName = '';
-		if ( $user->isRegistered() ) {
+		if ( $user->isNamed() ) {
 			// Use real name if set
 			$realName = $user->getRealName();
 			if ( $realName ) {
