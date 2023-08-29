@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"DannyS712"
+			"DannyS712",
+			"Moshtank"
 		]
 	},
+	"contactpage": "گپ جنگءِ تاک",
 	"contactpage-usermailererror": "شی ایمیل خطا پیش داشت $1"
 }
