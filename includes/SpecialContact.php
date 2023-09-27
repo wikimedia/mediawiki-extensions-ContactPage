@@ -50,7 +50,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @inheritDoc
 	 */
 	public function getDescription() {
-		return $this->msg( 'contactpage' )->text();
+		return $this->msg( 'contactpage' );
 	}
 
 	/**
