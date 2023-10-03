@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Chavash",
-			"DannyS712"
+			"DannyS712",
+			"Astahar"
 		]
 	},
-	"contactpage": "Ҫыхӑнмалли эл",
+	"contactpage": "Ҫыхӑнмалли мелсем",
 	"contactpage-usermailererror": "Электронлă почта урлă пĕлтерӳ янă чухне йăнăш тухрĕ: $1"
 }
