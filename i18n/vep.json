@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"DannyS712",
-			"Игорь Бродский"
+			"Игорь Бродский",
+			"Лариса Чиркова"
 		]
 	},
-	"contactpage": "Kontaktoiden lehtpol'",
+	"contactpage": "Kävutajan lehtpol'",
 	"contactpage-legend": "Oigeta e-kirjeine",
 	"contactpage-defsubject": "Tedotuz",
 	"contactpage-subject-and-sender": "$1 (oigendai: $2)",
