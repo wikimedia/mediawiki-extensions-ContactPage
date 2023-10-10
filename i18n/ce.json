@@ -6,7 +6,11 @@
 		]
 	},
 	"contactpage": "Контактан агӀо",
+	"contactpage-title": "Контакт",
+	"contactpage-pagetext": "Дехар до, лелайе хӀара форма, тхоьца зӀене довла.",
+	"contactpage-legend": "ДӀадахьийта кехат",
 	"contactpage-defsubject": "Хаам",
+	"contactpage-subject-and-sender": "$1 ($2 тӀера)",
 	"contactpage-fromname": "Хьа хан:",
 	"contactpage-fromaddress": "Хьан электронан поштан адрес:",
 	"contactpage-formfootnotes": "(оьшу хьона жоп даийта лууш делахь)",
