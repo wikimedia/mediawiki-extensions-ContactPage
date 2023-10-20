@@ -3,10 +3,10 @@
  *
  * @package ContactPage
  */
+'use strict';
 
-/* eslint-env node */
 module.exports = function ( grunt ) {
-	var conf = grunt.file.readJSON( 'extension.json' );
+	const conf = grunt.file.readJSON( 'extension.json' );
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
 
@@ -17,7 +17,7 @@ module.exports = function ( grunt ) {
 				cache: true
 			},
 			all: [
-				'**/*.js{,on}',
+				'**/*.{js,json}',
 				'!node_modules/**',
 				'!vendor/**'
 			]
