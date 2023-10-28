@@ -328,6 +328,11 @@ $specialPageAliases['sr-ec'] = [
 	'Contact' => [ 'Контакт' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = [
+	'Contact' => [ 'Kontakt' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'Contact' => [ 'Kontakt' ],
