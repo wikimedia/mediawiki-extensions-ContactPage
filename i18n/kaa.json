@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nurlan"
+			"Nurlan",
+			"Ajiniyaz Nurniyazov"
 		]
 	},
-	"contactpage": "Baylanıs beti"
+	"contactpage": "Baylanıs beti",
+	"contactpage-legend": "Elektron xat jiberiw",
+	"contactpage-fromname": "Siziń atıńız:",
+	"contactpage-fromaddress": "Siziń elektron pochta adresińiz:"
 }
