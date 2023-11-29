@@ -20,7 +20,7 @@ use HTMLForm;
 use MailAddress;
 use MediaWiki\Extension\ContactPage\Hooks\HookRunner;
 use MediaWiki\Session\SessionManager;
-use MediaWiki\User\UserOptionsLookup;
+use MediaWiki\User\Options\UserOptionsLookup;
 use Sanitizer;
 use Status;
 use UnlistedSpecialPage;
