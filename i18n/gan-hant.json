@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"DannyS712"
+			"DannyS712",
+			"ZhuofanWu"
 		]
 	},
+	"contactpage": "聯絡頁面",
 	"contactpage-usermailererror": "Mail位置返回錯誤: $1"
 }
