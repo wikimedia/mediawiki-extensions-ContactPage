@@ -30,6 +30,10 @@
 					"RequireDetails": false,
 					"IncludeIP": false,
 					"MustBeLoggedIn": false,
+					"MustHaveEmail": false,
+					"NameReadonly": false,
+					"EmailReadonly": false,
+					"SubjectReadonly": false,
 					"RLModules": [],
 					"RLStyleModules": [],
 					"AdditionalFields": {

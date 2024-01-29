@@ -118,19 +118,27 @@ class SpecialContact extends UnlistedSpecialPage {
 		$this->formType = strtolower( $request->getText( 'formtype', $par ?? '' ) );
 
 		$config = $this->getTypeConfig();
+		$user = $this->getUser();
 
+		// Display error if user not logged in when config requires it
 		if ( isset( $config['MustBeLoggedIn'] ) && $config['MustBeLoggedIn'] ) {
 			$this->requireNamedUser( 'contactpage-mustbeloggedin' );
 		}
 
+		// Display error if sender has no confirmed email when config requires it
+		if ( isset( $config['MustHaveEmail'] ) && $config['MustHaveEmail'] && !$user->isEmailConfirmed() ) {
+			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemail', [ $user ] );
+			return;
+		}
+
+		// Display error if no recipient user specified in configuration
 		if ( !$config['RecipientUser'] ) {
 			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
 				'contactpage-config-error' );
 			return;
 		}
 
-		$user = $this->getUser();
-
+		// Display error if recipient has email disabled
 		$recipient = User::newFromName( $config['RecipientUser'] );
 		if ( $recipient === null || !$recipient->canReceiveEmail() ) {
 			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
@@ -164,6 +172,9 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$fromAddress = '';
 		$fromName = '';
+		$nameReadonly = false;
+		$emailReadonly = false;
+		$subjectReadonly = $config['SubjectReadonly'] ?? false;
 		if ( $user->isNamed() ) {
 			// Use real name if set
 			$realName = $user->getRealName();
@@ -173,6 +184,8 @@ class SpecialContact extends UnlistedSpecialPage {
 				$fromName = $user->getName();
 			}
 			$fromAddress = $user->getEmail();
+			$nameReadonly = $config['NameReadonly'] ?? false;
+			$emailReadonly = $config['EmailReadonly'] ?? false;
 		}
 
 		$additional = $config['AdditionalFields'] ?? [];
@@ -183,12 +196,14 @@ class SpecialContact extends UnlistedSpecialPage {
 				'type' => 'text',
 				'required' => $config['RequireDetails'],
 				'default' => $fromName,
+				'disabled' => $nameReadonly,
 			],
 			'FromAddress' => [
 				'label-message' => $this->getFormSpecificMessageKey( 'contactpage-fromaddress' ),
 				'type' => 'email',
 				'required' => $config['RequireDetails'],
 				'default' => $fromAddress,
+				'disabled' => $emailReadonly,
 			]
 		];
 
@@ -210,6 +225,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				'label-message' => $this->getFormSpecificMessageKey( 'emailsubject' ),
 				'type' => 'text',
 				'default' => $subject,
+				'disabled' => $subjectReadonly,
 			],
 		] + $additional + [
 			'CCme' => [
