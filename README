@@ -38,7 +38,11 @@ $wgContactConfig.
        'SenderName' => 'User Email',
        'RequireDetails' => true,
        'IncludeIP' => true,
-       "MustBeLoggedIn": true,
+       'MustBeLoggedIn' => true,
+       'NameReadonly' => true,
+       'EmailReadonly' => true,
+       'SubjectReadonly' => true,
+       'MustHaveEmail' => true,
        'AdditionalFields' => [],
        'RLModules' => [],
        'RLStyleModules' => [],
@@ -46,6 +50,12 @@ $wgContactConfig.
 
 All contact form keys (in this case 'formname') should be in
 lowercase.
+
+The following situations will cause the contact form to be inaccessible:
+* Setting EmailReadonly to true if MustBeLoggedIn is false and RequireDetails
+  is false.
+* Setting MustHaveEmail to true if MustBeLoggedIn is false.
+* RecipentUser being undefined.
 
 RecipentUser must be the username of a registered wiki user, who has
 supplied an email address, has user-to-user email enabled, and has
@@ -65,6 +75,17 @@ offering to put the IP address of the submitter in the subject line.
 
 MustBeLoggedIn is whether the contact form is only accessible when
 users are logged in.
+
+NameReadonly is used to make the name field readonly.
+
+EmailReadonly is used to make the email field readonly.
+
+SubjectReadonly is used to make the subject field readonly.
+
+MustHaveEmail is used to require that the user loading the form has
+a confirmed email address attached to their account. If the user does
+not have a confirmed email address, an error will be displayed and the
+form will not be shown.
 
 AdditionalFields is used to add any additional fields to the contact form.
 These are done using https://www.mediawiki.org/wiki/HTMLForm notation.
