@@ -21,5 +21,7 @@
 	"contactpage-captcha-error": "CAPTCHA error",
 	"contactpage-config-error-title": "Contact form error",
 	"contactpage-config-error": "A contact form is either not configured for this page or is configured incorrectly.",
-	"contactpage-mustbeloggedin": "Please log in to submit a contact form."
+	"contactpage-mustbeloggedin": "Please log in to submit a contact form.",
+	"contactpage-musthaveemail-error-title": "Missing confirmed email address",
+	"contactpage-musthaveemail-error": "Please set a confirmed email address in your [[Special:Preferences|preferences]] to submit a contact form."
 }

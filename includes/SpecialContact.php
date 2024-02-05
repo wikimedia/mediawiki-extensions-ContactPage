@@ -121,13 +121,24 @@ class SpecialContact extends UnlistedSpecialPage {
 		$user = $this->getUser();
 
 		// Display error if user not logged in when config requires it
-		if ( isset( $config['MustBeLoggedIn'] ) && $config['MustBeLoggedIn'] ) {
+		$requiresConfirmedEmail = $config['MustHaveEmail'] ?? false;
+		$requiresLogin = $config['MustBeLoggedIn'] ?? false;
+		if ( $requiresLogin ) {
 			$this->requireNamedUser( 'contactpage-mustbeloggedin' );
+		} elseif ( $requiresConfirmedEmail ) {
+			// MustHaveEmail must not be set without setting MustBeLoggedIn, as
+			// anon and temporary users do not have email addresses.
+			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
+				'contactpage-config-error' );
+			return;
 		}
 
 		// Display error if sender has no confirmed email when config requires it
-		if ( isset( $config['MustHaveEmail'] ) && $config['MustHaveEmail'] && !$user->isEmailConfirmed() ) {
-			$this->getOutput()->showErrorPage( 'noemailtitle', 'noemail', [ $user ] );
+		if ( $requiresConfirmedEmail && !$user->isEmailConfirmed() ) {
+			$this->getOutput()->showErrorPage(
+				'contactpage-musthaveemail-error-title',
+				'contactpage-musthaveemail-error'
+			);
 			return;
 		}
 
@@ -186,6 +197,18 @@ class SpecialContact extends UnlistedSpecialPage {
 			$fromAddress = $user->getEmail();
 			$nameReadonly = $config['NameReadonly'] ?? false;
 			$emailReadonly = $config['EmailReadonly'] ?? false;
+		}
+
+		// Show error if the following are true as they are in combination invalid configuration:
+		// * The form doesn't require logging in
+		// * The form requires details
+		// * The email form is read only.
+		// This is because the email field will be empty for anon and temp users and must be filled
+		// for the form to be valid, but cannot be modified by the client.
+		if ( !$requiresLogin && $emailReadonly && $config['RequireDetails'] ) {
+			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
+				'contactpage-config-error' );
+			return;
 		}
 
 		$additional = $config['AdditionalFields'] ?? [];

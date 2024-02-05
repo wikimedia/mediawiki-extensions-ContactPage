@@ -27,5 +27,7 @@
 	"contactpage-captcha-error": "Error message displayed when there was a CAPTCHA error (i.e. the user failed to enter the correct CAPTCHA, or didn't enter one at all, etc.)",
 	"contactpage-config-error-title": "Page title of Special:Contact when the requested form is configured incorrectly.",
 	"contactpage-config-error": "Used as the content of Special:Contact when the requested form is configured incorrectly.",
-	"contactpage-mustbeloggedin": "Showed on Special:Userlogin when user tries to use a Contact Page that requires them to be logged in."
+	"contactpage-mustbeloggedin": "Showed on Special:Userlogin when user tries to use a Contact Page that requires them to be logged in.",
+	"contactpage-musthaveemail-error-title": "Used as the page title for Special:Contact when a user without a confirmed email address tries to load a form that requires the user have a confirmed email address.",
+	"contactpage-musthaveemail-error": "Showed on Special:Contact when a user tries to use a contact form that requires the user have confirmed email address."
 }
