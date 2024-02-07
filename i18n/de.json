@@ -24,5 +24,7 @@
 	"contactpage-captcha-error": "CAPTCHA-Fehler",
 	"contactpage-config-error-title": "Kontaktformularfehler",
 	"contactpage-config-error": "Entweder ist kein Kontaktformular für diese Seite konfiguriert oder es ist falsch konfiguriert.",
-	"contactpage-mustbeloggedin": "Bitte melde dich an, um ein Kontaktformular abzuschicken."
+	"contactpage-mustbeloggedin": "Bitte melde dich an, um ein Kontaktformular abzuschicken.",
+	"contactpage-musthaveemail-error-title": "Fehlende bestätigte E-Mail-Adresse",
+	"contactpage-musthaveemail-error": "Bitte gib in deinen [[Special:Preferences|Einstellungen]] eine bestätigte E-Mail-Adresse ein, um ein Kontaktformular abzusenden."
 }

@@ -9,6 +9,7 @@
 			"Locos epraix",
 			"Macofe",
 			"MarcoAurelio",
+			"No se",
 			"Peter17",
 			"Sanbec",
 			"Sporeunai",
@@ -31,5 +32,7 @@
 	"contactpage-captcha-error": "Error en el CAPTCHA",
 	"contactpage-config-error-title": "Error en el formulario de contacto",
 	"contactpage-config-error": "No hay ningún formulario de contacto configurado para esta página, o la configuración es defectuosa.",
-	"contactpage-mustbeloggedin": "Inicia sesión para poder enviar un formulario de contacto."
+	"contactpage-mustbeloggedin": "Inicia sesión para poder enviar un formulario de contacto.",
+	"contactpage-musthaveemail-error-title": "Falta dirección de correo electrónico confirmada",
+	"contactpage-musthaveemail-error": "Establezca una dirección de correo electrónico confirmada en sus [[Special:Preferences|preferencias]] para enviar un formulario de contacto."
 }
