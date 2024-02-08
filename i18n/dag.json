@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dnshitobu"
+			"Dnshitobu",
+			"Kalakpagh"
 		]
 	},
-	"contactpage": "Boligu yaɣili"
+	"contactpage": "Boligu yaɣili",
+	"contactpage-musthaveemail-error": "Pahimi suɣilo niŋmi dihitabili ni a \"email\" fasara a [[Special:Preferences|preferences]] n-zaŋ a nyɛbu lahabali n-ti."
 }

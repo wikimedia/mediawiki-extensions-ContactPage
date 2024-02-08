@@ -23,5 +23,7 @@
 	"contactpage-captcha-error": "CAPTCHA-feil",
 	"contactpage-config-error-title": "Feil med kontaktskjema",
 	"contactpage-config-error": "Et kontaktskjema er ikke konfigurert for denne siden eller er feilkonfigurert.",
-	"contactpage-mustbeloggedin": "Logg inn for å sende inn et kontaktskjema."
+	"contactpage-mustbeloggedin": "Logg inn for å sende inn et kontaktskjema.",
+	"contactpage-musthaveemail-error-title": "Mangler bekreftet e-postadresse",
+	"contactpage-musthaveemail-error": "Angi en bekreftet e-postadresse i [[Special:Preferences|innstillingene dine]] for å sende inn et kontaktskjema."
 }
