@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"AgnesAbah"
+			"AgnesAbah",
+			"Beracy"
 		]
 	},
-	"contactpage": "Ogbá mádu juwá"
+	"contactpage": "Ogbá mádu juwá",
+	"contactpage-musthaveemail-error-title": "Emailu ka magbolo aliñ"
 }
