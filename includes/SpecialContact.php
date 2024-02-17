@@ -152,7 +152,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			throw new UserBlockedError( $this->getUser()->getBlock() );
 		}
 
-		$this->getOutput()->setPageTitle(
+		$this->getOutput()->setPageTitleMsg(
 			$this->msg( $this->getFormSpecificMessageKey( 'contactpage-title' ) )
 		);
 
@@ -286,7 +286,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if ( $result === true || ( $result instanceof Status && $result->isGood() ) ) {
 			$output = $this->getOutput();
-			$output->setPageTitle( $this->msg( $this->getFormSpecificMessageKey( 'emailsent' ) ) );
+			$output->setPageTitleMsg( $this->msg( $this->getFormSpecificMessageKey( 'emailsent' ) ) );
 			$output->addWikiMsg(
 				$this->getFormSpecificMessageKey( 'emailsenttext' ),
 				$recipient
