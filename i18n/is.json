@@ -15,7 +15,7 @@
 	"contactpage-legend": "Senda tölvupóst",
 	"contactpage-subject-and-sender": "$1 (frá $2)",
 	"contactpage-fromname": "Nafnið þitt:",
-	"contactpage-fromaddress": "Netfangið þitt:",
+	"contactpage-fromaddress": "Tölvupóstfangið þitt:",
 	"contactpage-formfootnotes": "(nauðsynlegt ef þú vilt fá svar)",
 	"contactpage-usermailererror": "Póst hlutur skilaði villu: $1"
 }
