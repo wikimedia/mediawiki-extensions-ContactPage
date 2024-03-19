@@ -158,9 +158,16 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		// Blocked users cannot use the contact form if they're disabled from sending email.
 		if ( $user->isBlockedFromEmailuser() ) {
-			// If the user is blocked from emailing users then there is a block
-			// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
-			throw new UserBlockedError( $this->getUser()->getBlock() );
+			$useCustomBlockMessage = $config['UseCustomBlockMessage'] ?? false;
+			if ( $useCustomBlockMessage ) {
+				$this->getOutput()->showErrorPage( $this->getFormSpecificMessageKey( 'contactpage-title' ),
+					$this->getFormSpecificMessageKey( 'contactpage-blocked-message' ) );
+				return;
+			} else {
+				// If the user is blocked from emailing users then there is a block
+				// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
+				throw new UserBlockedError( $this->getUser()->getBlock() );
+			}
 		}
 
 		$this->getOutput()->setPageTitleMsg(

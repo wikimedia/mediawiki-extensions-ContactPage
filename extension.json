@@ -34,6 +34,7 @@
 					"NameReadonly": false,
 					"EmailReadonly": false,
 					"SubjectReadonly": false,
+					"UseCustomBlockMessage": false,
 					"RLModules": [],
 					"RLStyleModules": [],
 					"AdditionalFields": {
