@@ -28,6 +28,6 @@
 	"contactpage-usermailererror": "شیء ایمیل خطا بازگرداند: $1",
 	"contactpage-captcha-error": "خطای کپتچا",
 	"contactpage-config-error-title": "خطای فرم تماس",
-	"contactpage-config-error": "فرم تماس برای ایت صفحه تنظیم نشده‌است یا به صورت نادرست تنظیم شده‌است.",
+	"contactpage-config-error": "فرم تماس برای ایت صفحه تنظیم نشده است یا به صورت نادرست تنظیم شده است.",
 	"contactpage-mustbeloggedin": "برای ثبت فرم تماس لطفاً به سامانه وارد شوید."
 }
