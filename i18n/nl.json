@@ -4,6 +4,7 @@
 			"DannyS712",
 			"Esketti",
 			"Mainframe98",
+			"McDutchie",
 			"Mitsjol",
 			"SPQRobin",
 			"Siebrand",
@@ -27,5 +28,6 @@
 	"contactpage-config-error-title": "Contactformulierfout",
 	"contactpage-config-error": "Een contactformulier is niet geconfigureerd voor deze pagina of onjuist is geconfigureerd.",
 	"contactpage-mustbeloggedin": "Om het contactformulier te kunnen gebruiken moet u aangemeld zijn.",
-	"contactpage-musthaveemail-error-title": "Bevestigd e-mailadres ontbreekt"
+	"contactpage-musthaveemail-error-title": "Bevestigd e-mailadres ontbreekt",
+	"contactpage-musthaveemail-error": "Stel een bevestigd e-mailadres in uw [[Special:Preferences|voorkeuren]] in om een contactformulier in te zenden."
 }
