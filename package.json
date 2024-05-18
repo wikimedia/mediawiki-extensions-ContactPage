@@ -16,7 +16,7 @@
 		"@wdio/spec-reporter": "7.29.1",
 		"eslint-config-wikimedia": "0.27.0",
 		"grunt": "1.6.1",
-		"grunt-banana-checker": "0.12.0",
+		"grunt-banana-checker": "0.13.0",
 		"grunt-eslint": "24.3.0",
 		"wdio-mediawiki": "2.5.0"
 	}
