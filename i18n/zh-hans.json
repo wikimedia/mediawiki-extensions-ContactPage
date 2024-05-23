@@ -10,13 +10,14 @@
 			"Wmr89502270",
 			"Xiaomingyan",
 			"铁桶",
-			"沈澄心"
+			"沈澄心",
+			"LittlePaw365"
 		]
 	},
 	"contactpage": "联系页面",
 	"contactpage-desc": "[[Special:Contact|供访问者使用的联系表单]]",
 	"contactpage-title": "联系",
-	"contactpage-pagetext": "请用以下的表格去联络我们。",
+	"contactpage-pagetext": "请使用下面的表格与我们联系。",
 	"contactpage-legend": "发送邮件",
 	"contactpage-defsubject": "联系信息",
 	"contactpage-subject-and-sender": "$1 （自$2）",
