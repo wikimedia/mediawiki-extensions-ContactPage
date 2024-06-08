@@ -14,11 +14,11 @@ namespace MediaWiki\Extension\ContactPage;
 
 use ErrorPageError;
 use ExtensionRegistry;
-use HTMLForm;
 use MailAddress;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
 use MediaWiki\Extension\ContactPage\Hooks\HookRunner;
 use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
