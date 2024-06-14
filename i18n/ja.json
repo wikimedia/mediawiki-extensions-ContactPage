@@ -7,6 +7,7 @@
 			"JtFuruhata",
 			"Naohiro19",
 			"Shirayuki",
+			"Waki285",
 			"לערי ריינהארט"
 		]
 	},
@@ -23,5 +24,10 @@
 	"contactpage-formfootnotes": "(回答が必要な場合は必ずご記入ください)",
 	"contactpage-includeip": "このメッセージに自分のIPアドレスを含める",
 	"contactpage-usermailererror": "メールが以下のエラーを返しました: $1",
-	"contactpage-captcha-error": "CAPTCHA エラー"
+	"contactpage-captcha-error": "CAPTCHA エラー",
+	"contactpage-config-error-title": "連絡フォームエラー",
+	"contactpage-config-error": "このページの連絡フォームが設定されていないか、正しく設定されていません。",
+	"contactpage-mustbeloggedin": "連絡フォームを送信するにはログインしてください。",
+	"contactpage-musthaveemail-error-title": "確認済みのメールアドレスがありません",
+	"contactpage-musthaveemail-error": "連絡フォームを送信するには、[[Special:Preferences|個人設定]]で確認済みのメールアドレスを設定してください。"
 }
