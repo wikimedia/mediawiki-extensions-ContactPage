@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"contactpage": "Kontaktna stranica",
+	"contactpage-desc": "[[Special:Contact|Formular za posětiteljev]]",
+	"contactpage-title": "Kontakt",
+	"contactpage-pagetext": "Za kontakt s nami prosimo, že koristate tutoj formular.",
+	"contactpage-legend": "Izslati e-poštu",
+	"contactpage-defsubject": "Kontaktno soobčenje",
+	"contactpage-subject-and-sender": "$1 (od $2)",
+	"contactpage-subject-and-sender-withip": "$1 (od $2 s $3)",
+	"contactpage-fromname": "Vaše ime:",
+	"contactpage-fromaddress": "Vaš adres e-pošty:",
+	"contactpage-formfootnotes": "(potrěbno, ako želajete odgovor)",
+	"contactpage-includeip": "Vključiti moj IP-adres v tuto soobčenje.",
+	"contactpage-usermailererror": "Pogrěška e-poštnogo programa: $1",
+	"contactpage-captcha-error": "Pogrěška v CAPTCHA",
+	"contactpage-config-error-title": "Pogrěška kontaktnogo formulara",
+	"contactpage-config-error": "Kontaktny formular ne jest konfigurovany za tutu stranicu ili konfigurovany jest nepravilno.",
+	"contactpage-mustbeloggedin": "Za izslanje kontaktnogo formulara trěba, že vy prijavite se."
+}
