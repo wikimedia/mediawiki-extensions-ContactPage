@@ -5,14 +5,25 @@
 			"DannyS712",
 			"Eldarado",
 			"Turkmen",
-			"Wertuose"
+			"Wertuose",
+			"Nemoralis"
 		]
 	},
 	"contactpage": "Bizimlə əlaqə",
+	"contactpage-desc": "[[Special:Contact|Ziyarətçilər üçün əlaqə forması]]",
 	"contactpage-title": "Əlaqə",
+	"contactpage-pagetext": "Bizimlə əlaqə saxlamaq üçün aşağıdakı formadan istifadə edin.",
 	"contactpage-legend": "E-məktub göndər",
 	"contactpage-defsubject": "Əlaqə mesajı",
+	"contactpage-subject-and-sender": "$1 ($2 adlı istifadəçidən)",
+	"contactpage-subject-and-sender-withip": "$1 ($3 ünvanındakı $2 istifadəçisindən)",
 	"contactpage-fromname": "Sizin adınız:",
 	"contactpage-fromaddress": "Sizin e-poçtunuz:",
-	"contactpage-usermailererror": "Elektron poçtla məlumat göndərilən zaman xəta baş vermişdir: $1"
+	"contactpage-formfootnotes": "(cavab istəyirsinizsə vacibdir)",
+	"contactpage-includeip": "Bu mesaja mənim IP ünvanımı daxil edin.",
+	"contactpage-usermailererror": "Elektron poçtla məlumat göndərilən zaman xəta baş vermişdir: $1",
+	"contactpage-captcha-error": "CAPTCHA xətası",
+	"contactpage-config-error-title": "Əlaqə forması xətası",
+	"contactpage-config-error": "Əlaqə forması ya bu səhifə üçün konfiqurasiya edilməyib, ya da səhv konfiqurasiya edilib.",
+	"contactpage-mustbeloggedin": "Əlaqə formasını göndərmək üçün daxil olun."
 }
