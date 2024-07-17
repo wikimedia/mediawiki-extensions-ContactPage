@@ -3,10 +3,11 @@
 		"authors": [
 			"DannyS712",
 			"Игорь Бродский",
-			"Лариса Чиркова"
+			"Лариса Чиркова",
+			"Ростислав Мельников"
 		]
 	},
-	"contactpage": "Kävutajiden lehtpol'",
+	"contactpage": "Kävutajiden lehtpol’",
 	"contactpage-legend": "Oigeta e-kirjeine",
 	"contactpage-defsubject": "Tedotuz",
 	"contactpage-subject-and-sender": "$1 (oigendai: $2)",
