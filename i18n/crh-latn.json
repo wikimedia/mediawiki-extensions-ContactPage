@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"DannyS712",
+			"Don Alessandro",
 			"TayfunEt.",
 			"Zolgoyo"
 		]
 	},
-	"contactpage": "İletişim saifesi",
+	"contactpage": "Kontakt saifesi",
 	"contactpage-usermailererror": "E-mail beyanatı yollanğan vaqıtta hata olıp çıqtı: $1"
 }
