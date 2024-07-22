@@ -6,13 +6,20 @@
 		]
 	},
 	"contactpage": "Контактан агӀо",
+	"contactpage-desc": "[[Special:Contact|Хьешийн форма]]",
 	"contactpage-title": "Контакт",
 	"contactpage-pagetext": "Дехар до, лелайе хӀара форма, тхоьца зӀене довла.",
 	"contactpage-legend": "ДӀадахьийта кехат",
 	"contactpage-defsubject": "Хаам",
 	"contactpage-subject-and-sender": "$1 ($2 тӀера)",
+	"contactpage-subject-and-sender-withip": "$1 ($2 тӀера $3 адресера)",
 	"contactpage-fromname": "Хьа хан:",
 	"contactpage-fromaddress": "Хьан электронан поштан адрес:",
 	"contactpage-formfootnotes": "(оьшу хьона жоп даийта лууш делахь)",
-	"contactpage-usermailererror": "Электронан поштехула хаам дӀабохьитуш гӀалат даьлла: $1"
+	"contactpage-includeip": "Сан IP-адрес хӀокху хааман йукъатоха.",
+	"contactpage-usermailererror": "Электронан поштехула хаам дӀабохьитуш гӀалат даьлла: $1",
+	"contactpage-captcha-error": "Капчин гӀалат ду",
+	"contactpage-config-error-title": "Контактан формин гӀалат",
+	"contactpage-config-error": "Контактан форма йа хӀокху агӀонна нисйина йац, йа нийса нисйина йац.",
+	"contactpage-mustbeloggedin": "Контактан форма дӀайахьийта авторизаци йе."
 }
