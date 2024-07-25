@@ -3,9 +3,10 @@
 		"authors": [
 			"DannyS712",
 			"TayfunEt.",
-			"Zolgoyo"
+			"Zolgoyo",
+			"Don Alessandro"
 		]
 	},
-	"contactpage": "İletişim saifesi",
+	"contactpage": "Kontakt saifesi",
 	"contactpage-usermailererror": "E-mail beyanatı yollanğan vaqıtta hata olıp çıqtı: $1"
 }
