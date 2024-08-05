@@ -3,7 +3,8 @@
 		"authors": [
 			"DannyS712",
 			"Ерней",
-			"Ильнар"
+			"Ильнар",
+			"Don Alessandro"
 		]
 	},
 	"contactpage": "Элемтә бите",
@@ -17,7 +18,7 @@
 	"contactpage-fromname": "Исемегез:",
 	"contactpage-fromaddress": "Сезнең электрон почта адресыгыз:",
 	"contactpage-formfootnotes": "(сезнең җавап аласыгыз килсә генә кирәк)",
-	"contactpage-includeip": "Бу хәбәргә минем IP адресымны өстәргә.",
+	"contactpage-includeip": "Бу хәбәргә минем IP адресымны өстәлсен.",
 	"contactpage-usermailererror": "Хат җибәргән вакытта хата килеп чыкты: $1",
 	"contactpage-captcha-error": "CAPTCHA хатасы",
 	"contactpage-config-error-title": "Элемтә формасында хата",
