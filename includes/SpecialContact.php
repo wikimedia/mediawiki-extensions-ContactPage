@@ -120,6 +120,11 @@ class SpecialContact extends UnlistedSpecialPage {
 		$config = $this->getTypeConfig();
 		$user = $this->getUser();
 
+		if ( $config['Redirect'] ) {
+			$this->getOutput()->redirect( $config['Redirect'] );
+			return;
+		}
+
 		// Display error if user not logged in when config requires it
 		$requiresConfirmedEmail = $config['MustHaveEmail'] ?? false;
 		$requiresLogin = $config['MustBeLoggedIn'] ?? false;
