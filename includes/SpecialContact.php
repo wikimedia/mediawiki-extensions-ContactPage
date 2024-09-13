@@ -118,7 +118,6 @@ class SpecialContact extends UnlistedSpecialPage {
 		$this->formType = strtolower( $request->getText( 'formtype', $par ?? '' ) );
 
 		$config = $this->getTypeConfig();
-		$user = $this->getUser();
 
 		if ( $config['Redirect'] ) {
 			$this->getOutput()->redirect( $config['Redirect'] );
@@ -137,6 +136,8 @@ class SpecialContact extends UnlistedSpecialPage {
 				'contactpage-config-error' );
 			return;
 		}
+
+		$user = $this->getUser();
 
 		// Display error if sender has no confirmed email when config requires it
 		if ( $requiresConfirmedEmail && !$user->isEmailConfirmed() ) {
@@ -262,7 +263,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			'CCme' => [
 				'label-message' => $this->getFormSpecificMessageKey( 'emailccme' ),
 				'type' => 'check',
-				'default' => $this->userOptionsLookup->getBoolOption( $this->getUser(), 'ccmeonemails' ),
+				'default' => $this->userOptionsLookup->getBoolOption( $user, 'ccmeonemails' ),
 			],
 			'FormType' => [
 				'class' => 'HTMLHiddenField',
