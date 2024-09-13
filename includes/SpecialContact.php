@@ -179,9 +179,6 @@ class SpecialContact extends UnlistedSpecialPage {
 		);
 
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
-		$formText = $this->msg(
-			$this->getFormSpecificMessageKey( 'contactpage-pagetext' )
-		)->parseAsBlock();
 		$formSpecificSubjectMessageKey = $this->msg( [
 			'contactpage-defsubject-' . $this->formType,
 			'contactpage-subject-' . $this->formType
@@ -334,6 +331,9 @@ class SpecialContact extends UnlistedSpecialPage {
 			if ( $config['RLModules'] ) {
 				$this->getOutput()->addModules( $config['RLModules'] );
 			}
+			$formText = $this->msg(
+				$this->getFormSpecificMessageKey( 'contactpage-pagetext' )
+			)->parseAsBlock();
 			$this->getOutput()->prependHTML( trim( $formText ) );
 		}
 	}
