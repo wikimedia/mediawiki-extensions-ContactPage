@@ -18,6 +18,8 @@ use MailAddress;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
 use MediaWiki\Extension\ContactPage\Hooks\HookRunner;
 use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\Field\HTMLCheckField;
+use MediaWiki\HTMLForm\Field\HTMLHiddenField;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Session\SessionManager;
@@ -266,7 +268,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				'default' => $this->userOptionsLookup->getBoolOption( $user, 'ccmeonemails' ),
 			],
 			'FormType' => [
-				'class' => 'HTMLHiddenField',
+				'class' => HTMLHiddenField::class,
 				'label' => 'Type',
 				'default' => $this->formType,
 			]
@@ -479,7 +481,10 @@ class SpecialContact extends UnlistedSpecialPage {
 						$value .= "\t$msg: $optionValue\n";
 					}
 				}
-			} elseif ( $class === 'HTMLCheckField' ) {
+			} elseif ( $class === HTMLCheckField::class
+				// Checking old alias for compatibility with unchanged extensions
+				|| $class === \HTMLCheckField::class
+			) {
 				$value = $this->getYesOrNoMsg( $formData[$name] xor
 					( isset( $field['invert'] ) && $field['invert'] ) );
 			} elseif ( isset( $formData[$name] ) ) {
