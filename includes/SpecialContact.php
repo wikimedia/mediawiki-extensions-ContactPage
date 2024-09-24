@@ -130,6 +130,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$requiresConfirmedEmail = $config['MustHaveEmail'] ?? false;
 		$requiresLogin = $config['MustBeLoggedIn'] ?? false;
 		if ( $requiresLogin ) {
+			// Uses the following message keys: contactpage-mustbeloggedin and contactpage-mustbeloggedin-for-temp-user
 			$this->requireNamedUser( 'contactpage-mustbeloggedin' );
 		} elseif ( $requiresConfirmedEmail ) {
 			// MustHaveEmail must not be set without setting MustBeLoggedIn, as
