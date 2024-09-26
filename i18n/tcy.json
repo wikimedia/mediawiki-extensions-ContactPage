@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pragathi. BH",
 			"VASANTH S.N.",
 			"Vishwanatha Badikana"
 		]
 	},
-	"contactpage": "ಸಂಪರ್ಕೊದ ಪುಟೊ"
+	"contactpage": "ಸಂಪರ್ಕೊದ ಪುಟೊ",
+	"contactpage-mustbeloggedin-for-temp-user": "ಒಂಜಿ ಸಂಪರ್ಕ ಫಾರಂನ್ ಸಲ್ಲಿಸೆರೆ ಒಂಜಿ ಖಾತೆನ್ ರಚನೆ ಮಲ್ಪುಲೆ."
 }
