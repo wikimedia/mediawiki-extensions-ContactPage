@@ -30,6 +30,7 @@
 	"contactpage-config-error-title": "聯絡表格錯誤",
 	"contactpage-config-error": "聯絡表格未配置或配置有誤。",
 	"contactpage-mustbeloggedin": "請登入來提交聯絡表單。",
+	"contactpage-mustbeloggedin-for-temp-user": "請建立一個帳號來提交聯絡表單。",
 	"contactpage-musthaveemail-error-title": "缺少已確認的電子郵件地址",
 	"contactpage-musthaveemail-error": "請在您的[[Special:Preferences|偏好設定]]裡設定已確認的電子郵件地址以提交聯絡表單。"
 }
