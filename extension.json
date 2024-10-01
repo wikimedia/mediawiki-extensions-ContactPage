@@ -25,6 +25,8 @@
 			"value": {
 				"default": {
 					"RecipientUser": null,
+					"RecipientEmail": null,
+					"RecipientName": null,
 					"SenderEmail": null,
 					"SenderName": null,
 					"RequireDetails": false,

@@ -55,12 +55,13 @@ The following situations will cause the contact form to be inaccessible:
 * Setting EmailReadonly to true if MustBeLoggedIn is false and RequireDetails
   is false.
 * Setting MustHaveEmail to true if MustBeLoggedIn is false.
-* RecipentUser being undefined.
+* RecipentUser and RecipientEmail being undefined.
 
-RecipentUser must be the username of a registered wiki user, who has
+One of RecipientUser or RecipientEmail should be defined. If using RecipientUser,
+it must be the username of a registered wiki user, who has
 supplied an email address, has user-to-user email enabled, and has
 confirmed his/her email address if that is required on this wiki
-(see $wgEmailAuthentication).
+(see $wgEmailAuthentication). If using RecipientEmail, it should be a valid email address.
 
 SenderEmail is used when to send the email when an address isn't
 entered on the contact form. It defaults to $wgPasswordSender.
