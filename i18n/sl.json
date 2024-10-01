@@ -22,5 +22,6 @@
 	"contactpage-captcha-error": "Napaka CAPTCHA",
 	"contactpage-config-error-title": "Napaka kontaktnega obrazca",
 	"contactpage-config-error": "Kontaktni obrazec ni konfiguriran za to stran ali pa je konfiguriran napačno.",
-	"contactpage-mustbeloggedin": "Za predložitev kontaktnega obrazca se prijavite."
+	"contactpage-mustbeloggedin": "Za predložitev kontaktnega obrazca se prijavite.",
+	"contactpage-mustbeloggedin-for-temp-user": "Za oddajo kontaktnega obrazca si ustvarite račun."
 }
