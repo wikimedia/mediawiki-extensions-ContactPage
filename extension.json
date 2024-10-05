@@ -54,7 +54,8 @@
 		"Contact": {
 			"class": "MediaWiki\\Extension\\ContactPage\\SpecialContact",
 			"services": [
-				"UserOptionsLookup"
+				"UserOptionsLookup",
+				"UserFactory"
 			]
 		}
 	},
