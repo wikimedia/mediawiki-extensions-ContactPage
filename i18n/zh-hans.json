@@ -11,7 +11,8 @@
 			"Xiaomingyan",
 			"铁桶",
 			"沈澄心",
-			"LittlePaw365"
+			"LittlePaw365",
+			"XtexChooser"
 		]
 	},
 	"contactpage": "联系页面",
@@ -20,8 +21,8 @@
 	"contactpage-pagetext": "请使用下面的表格与我们联系。",
 	"contactpage-legend": "发送邮件",
 	"contactpage-defsubject": "联系信息",
-	"contactpage-subject-and-sender": "$1 （自$2）",
-	"contactpage-subject-and-sender-withip": "$1 (由$2在$3)",
+	"contactpage-subject-and-sender": "$1（自$2）",
+	"contactpage-subject-and-sender-withip": "$1（自$2于$3）",
 	"contactpage-fromname": "您的名字：",
 	"contactpage-fromaddress": "您的邮箱：",
 	"contactpage-formfootnotes": "（如果您希望收到答复则必填）",

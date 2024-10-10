@@ -26,7 +26,7 @@
 	"contactpage-captcha-error": "Erro de CAPTCHA",
 	"contactpage-config-error-title": "Erro do formulario de contacto",
 	"contactpage-config-error": "O formulario de contacto non está configurado para esta páxina ou non está configurado correctamente.",
-	"contactpage-mustbeloggedin": "Por favor, inicia a sesión para enviar un formulario de contacto.",
+	"contactpage-mustbeloggedin": "Entra na sesión para enviar un formulario de contacto.",
 	"contactpage-musthaveemail-error-title": "Falta un enderezo de correo electrónico confirmado",
 	"contactpage-musthaveemail-error": "Define un enderezo de correo electrónico confirmado nas túas [[Special:Preferences|preferencias]] para enviares un formulario de contacto."
 }
