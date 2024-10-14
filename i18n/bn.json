@@ -6,6 +6,7 @@
 			"Bellayet",
 			"DannyS712",
 			"Nasir8891",
+			"San1joy23",
 			"Usarker",
 			"Wikitanvir",
 			"আফতাবুজ্জামান"
@@ -24,5 +25,6 @@
 	"contactpage-formfootnotes": "(আপনার সাথে যোগাযোগ করার জন্য)",
 	"contactpage-includeip": "এই বার্তায় আমার আইপি ঠিকানা যোগ করো।",
 	"contactpage-usermailererror": "মেইল অবজেক্ট ত্রুটি পাঠিয়েছে: $1",
-	"contactpage-captcha-error": "ক্যাপচা ত্রুটি"
+	"contactpage-captcha-error": "ক্যাপচা ত্রুটি",
+	"contactpage-mustbeloggedin-for-temp-user": "যোগাযোগের ফর্ম জমা দেওয়ার জন্য দয়া করে একটি অ্যাকাউন্ট তৈরি করুন।"
 }
