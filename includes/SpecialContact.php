@@ -26,6 +26,7 @@ use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
+use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use UserBlockedError;
 use UserMailer;
@@ -39,6 +40,9 @@ class SpecialContact extends UnlistedSpecialPage {
 	private UserFactory $userFactory;
 	/** @var HookRunner|null */
 	private $contactPageHookRunner;
+
+	/** @var string|null */
+	private $recipientName = null;
 
 	/**
 	 * @param UserOptionsLookup $userOptionsLookup
@@ -80,16 +84,14 @@ class SpecialContact extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * Helper function for ::execute that returns a form
-	 * specific message key if it is is not disabled.
-	 * Otherwise returns the generic message key.
-	 * Used to make it possible for forms to have
-	 * form-specific messages.
+	 * Helper function that returns a form-specific message key if it is not
+	 * disabled. Otherwise returns the generic message key. Used to make it
+	 * possible for forms to have form-specific messages.
 	 *
 	 * @param string $genericMessageKey The message key that will be used if no form-specific one can be used
 	 * @return string
 	 */
-	protected function getFormSpecificMessageKey( string $genericMessageKey ) {
+	protected function getFormSpecificMessageKey( string $genericMessageKey ): string {
 		$formSpecificMessageKey = $genericMessageKey . '-' . $this->formType;
 		if ( !str_starts_with( $genericMessageKey, 'contactpage' ) ) {
 			// If the generic message does not start with "contactpage" the form
@@ -128,45 +130,124 @@ class SpecialContact extends UnlistedSpecialPage {
 			return;
 		}
 
+		$user = $this->getUser();
+
+		$error = $this->checkFormErrors( $user, $config );
+
+		if ( $error ) {
+			$this->getOutput()->showErrorPage( ...$error );
+			return;
+		}
+
+		// Set page title now we're certain we will display the form
+		$this->getOutput()->setPageTitleMsg(
+			$this->msg( $this->getFormSpecificMessageKey( 'contactpage-title' ) )
+		);
+
+		$formItems = $this->getFormFields( $user, $config );
+
+		$form = HTMLForm::factory( 'ooui',
+			$formItems, $this->getContext(), "contactpage-{$this->formType}"
+		);
+		$form->setWrapperLegendMsg( 'contactpage-legend' );
+		$form->setSubmitTextMsg( $this->getFormSpecificMessageKey( 'emailsend' ) );
+		if ( $this->formType != '' ) {
+			$form->setId( "contactpage-{$this->formType}" );
+
+			$msg = $this->msg( "contactpage-legend-{$this->formType}" );
+			if ( !$msg->isDisabled() ) {
+				$form->setWrapperLegendMsg( $msg );
+			}
+
+			$msg = $this->msg( "contactpage-emailsend-{$this->formType}" );
+			if ( !$msg->isDisabled() ) {
+				$form->setSubmitTextMsg( $msg );
+			}
+		}
+		$form->setSubmitCallback( [ $this, 'processInput' ] );
+		$form->prepareForm();
+
+		// Stolen from Special:EmailUser
+		if ( !$this->getContactPageHookRunner()->onEmailUserForm( $form ) ) {
+			return;
+		}
+
+		$result = $form->show();
+
+		if ( $result === true || ( $result instanceof Status && $result->isGood() ) ) {
+			$output = $this->getOutput();
+			$output->setPageTitleMsg( $this->msg( $this->getFormSpecificMessageKey( 'emailsent' ) ) );
+			$output->addWikiMsg(
+				$this->getFormSpecificMessageKey( 'emailsenttext' ),
+				$this->recipientName
+			);
+
+			$output->returnToMain( false );
+		} else {
+			if ( $config['RLStyleModules'] ) {
+				$this->getOutput()->addModuleStyles( $config['RLStyleModules'] );
+			}
+			if ( $config['RLModules'] ) {
+				$this->getOutput()->addModules( $config['RLModules'] );
+			}
+			$formText = $this->msg(
+				$this->getFormSpecificMessageKey( 'contactpage-pagetext' )
+			)->parseAsBlock();
+			$this->getOutput()->prependHTML( trim( $formText ) );
+		}
+	}
+
+	/**
+	 * Various permission and form misconfiguration checks
+	 *
+	 * When there's an error and the form should not displayed, the return value
+	 * must be an array of exactly 2 string elements: message key for the error page title
+	 * and message key for the actual error message.
+	 *
+	 * The method may also throw a subclass of ErrorPageError to halt displaying the form.
+	 *
+	 * false means there's no error and we should proceed to display the form.
+	 *
+	 * @return array|false
+	 * @phan-return array{0:string,1:string}|false [ error title msg key, error text msg key ]
+	 * @throws \UserNotLoggedIn
+	 * @throws \UserBlockedError
+	 */
+	private function checkFormErrors( User $user, array $config ) {
 		// Display error if user not logged in when config requires it
 		$requiresConfirmedEmail = $config['MustHaveEmail'] ?? false;
 		$requiresLogin = $config['MustBeLoggedIn'] ?? false;
+
 		if ( $requiresLogin ) {
-			// Uses the following message keys: contactpage-mustbeloggedin and contactpage-mustbeloggedin-for-temp-user
+			// Uses the following message keys:
+			// * contactpage-mustbeloggedin
+			// * contactpage-mustbeloggedin-for-temp-user
 			$this->requireNamedUser( 'contactpage-mustbeloggedin' );
 		} elseif ( $requiresConfirmedEmail ) {
 			// MustHaveEmail must not be set without setting MustBeLoggedIn, as
 			// anon and temporary users do not have email addresses.
-			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
-				'contactpage-config-error' );
-			return;
+			return [ 'contactpage-config-error-title', 'contactpage-config-error' ];
 		}
-
-		$user = $this->getUser();
 
 		// Display error if sender has no confirmed email when config requires it
 		if ( $requiresConfirmedEmail && !$user->isEmailConfirmed() ) {
-			$this->getOutput()->showErrorPage(
-				'contactpage-musthaveemail-error-title',
-				'contactpage-musthaveemail-error'
-			);
-			return;
+			return [ 'contactpage-musthaveemail-error-title', 'contactpage-musthaveemail-error' ];
 		}
 
 		// Display error if no recipient specified in configuration
 		if ( !$config['RecipientUser'] && !$config['RecipientEmail'] ) {
-			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
-				'contactpage-config-error' );
-			return;
+			return [ 'contactpage-config-error-title', 'contactpage-config-error' ];
 		}
 
-		// Display error if recipient has email disabled
+		// Display error if 'RecipientUser' is used, but they have email disabled
 		if ( $config['RecipientUser'] ) {
 			$recipient = $this->userFactory->newFromName( $config['RecipientUser'] );
 			if ( $recipient === null || !$recipient->canReceiveEmail() ) {
-				$this->getOutput()->showErrorPage( 'noemailtitle', 'noemailtext' );
-				return;
+				return [ 'noemailtitle', 'noemailtext' ];
 			}
+			$this->recipientName = $config['RecipientUser'];
+		} else {
+			$this->recipientName = $config['RecipientName'] ?? $this->getConfig()->get( 'Sitename' );
 		}
 
 		// Blocked users cannot use the contact form if they're disabled from sending email.
@@ -174,23 +255,34 @@ class SpecialContact extends UnlistedSpecialPage {
 		if ( $block && $block->appliesToRight( 'sendemail' ) ) {
 			$useCustomBlockMessage = $config['UseCustomBlockMessage'] ?? false;
 			if ( $useCustomBlockMessage ) {
-				$this->getOutput()->showErrorPage( $this->getFormSpecificMessageKey( 'contactpage-title' ),
-					$this->getFormSpecificMessageKey( 'contactpage-blocked-message' ) );
-				return;
+				return [ $this->getFormSpecificMessageKey( 'contactpage-title' ),
+					$this->getFormSpecificMessageKey( 'contactpage-blocked-message' ) ];
 			}
 
 			throw new UserBlockedError( $block );
 		}
 
-		$this->getOutput()->setPageTitleMsg(
-			$this->msg( $this->getFormSpecificMessageKey( 'contactpage-title' ) )
-		);
+		// Show error if the following are true as they are in combination invalid configuration:
+		// * The form doesn't require logging in
+		// * The form requires details
+		// * The email form is read only.
+		// This is because the email field will be empty for anon and temp users and must be filled
+		// for the form to be valid, but cannot be modified by the client.
+		$emailReadonly = $user->isNamed() && ( $config['EmailReadonly'] ?? false );
+		if ( !$requiresLogin && $emailReadonly && $config['RequireDetails'] ) {
+			return [ 'contactpage-config-error-title', 'contactpage-config-error' ];
+		}
 
+		return false;
+	}
+
+	private function getFormFields( User $user, array $config ): array {
 		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
 		$formSpecificSubjectMessageKey = $this->msg( [
 			'contactpage-defsubject-' . $this->formType,
 			'contactpage-subject-' . $this->formType
 		] );
+
 		if ( $this->formType != '' && !$formSpecificSubjectMessageKey->isDisabled() ) {
 			$subject = trim( $formSpecificSubjectMessageKey->inContentLanguage()->plain() );
 		} else {
@@ -202,6 +294,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$nameReadonly = false;
 		$emailReadonly = false;
 		$subjectReadonly = $config['SubjectReadonly'] ?? false;
+
 		if ( $user->isNamed() ) {
 			// Use real name if set
 			$realName = $user->getRealName();
@@ -213,18 +306,6 @@ class SpecialContact extends UnlistedSpecialPage {
 			$fromAddress = $user->getEmail();
 			$nameReadonly = $config['NameReadonly'] ?? false;
 			$emailReadonly = $config['EmailReadonly'] ?? false;
-		}
-
-		// Show error if the following are true as they are in combination invalid configuration:
-		// * The form doesn't require logging in
-		// * The form requires details
-		// * The email form is read only.
-		// This is because the email field will be empty for anon and temp users and must be filled
-		// for the form to be valid, but cannot be modified by the client.
-		if ( !$requiresLogin && $emailReadonly && $config['RequireDetails'] ) {
-			$this->getOutput()->showErrorPage( 'contactpage-config-error-title',
-				'contactpage-config-error' );
-			return;
 		}
 
 		$additional = $config['AdditionalFields'] ?? [];
@@ -295,55 +376,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			];
 		}
 
-		$form = HTMLForm::factory( 'ooui',
-			$formItems, $this->getContext(), "contactpage-{$this->formType}"
-		);
-		$form->setWrapperLegendMsg( 'contactpage-legend' );
-		$form->setSubmitTextMsg( $this->getFormSpecificMessageKey( 'emailsend' ) );
-		if ( $this->formType != '' ) {
-			$form->setId( "contactpage-{$this->formType}" );
-
-			$msg = $this->msg( "contactpage-legend-{$this->formType}" );
-			if ( !$msg->isDisabled() ) {
-				$form->setWrapperLegendMsg( $msg );
-			}
-
-			$msg = $this->msg( "contactpage-emailsend-{$this->formType}" );
-			if ( !$msg->isDisabled() ) {
-				$form->setSubmitTextMsg( $msg );
-			}
-		}
-		$form->setSubmitCallback( [ $this, 'processInput' ] );
-		$form->prepareForm();
-
-		// Stolen from Special:EmailUser
-		if ( !$this->getContactPageHookRunner()->onEmailUserForm( $form ) ) {
-			return;
-		}
-
-		$result = $form->show();
-
-		if ( $result === true || ( $result instanceof Status && $result->isGood() ) ) {
-			$output = $this->getOutput();
-			$output->setPageTitleMsg( $this->msg( $this->getFormSpecificMessageKey( 'emailsent' ) ) );
-			$output->addWikiMsg(
-				$this->getFormSpecificMessageKey( 'emailsenttext' ),
-				$recipient ?? $config['RecipientName'] ?? $this->getConfig()->get( 'Sitename' )
-			);
-
-			$output->returnToMain( false );
-		} else {
-			if ( $config['RLStyleModules'] ) {
-				$this->getOutput()->addModuleStyles( $config['RLStyleModules'] );
-			}
-			if ( $config['RLModules'] ) {
-				$this->getOutput()->addModules( $config['RLModules'] );
-			}
-			$formText = $this->msg(
-				$this->getFormSpecificMessageKey( 'contactpage-pagetext' )
-			)->parseAsBlock();
-			$this->getOutput()->prependHTML( trim( $formText ) );
-		}
+		return $formItems;
 	}
 
 	/**
