@@ -46,7 +46,8 @@
 							"type": "textarea",
 							"required": true
 						}
-					}
+					},
+					"FieldsMergeStrategy": null
 				}
 			},
 			"merge_strategy": "array_plus_2d"

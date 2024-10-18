@@ -309,9 +309,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			$emailReadonly = $config['EmailReadonly'] ?? false;
 		}
 
-		$additional = $config['AdditionalFields'] ?? [];
-
-		$formItems = [
+		$stockFields = [
 			'FromName' => [
 				'label-message' => $this->getFormSpecificMessageKey( 'contactpage-fromname' ),
 				'type' => 'text',
@@ -325,30 +323,18 @@ class SpecialContact extends UnlistedSpecialPage {
 				'required' => $config['RequireDetails'],
 				'default' => $fromAddress,
 				'disabled' => $emailReadonly,
-			]
-		];
-
-		if ( !$config['RequireDetails'] ) {
-			$formItems['FromInfo'] = [
-				'label' => '',
-				'type' => 'info',
-				'default' => Html::rawElement( 'small', [],
-					$this->msg(
-						$this->getFormSpecificMessageKey( 'contactpage-formfootnotes' )
-					)->escaped()
-				),
-				'raw' => true,
-			];
-		}
-
-		$formItems += [
+			],
 			'Subject' => [
 				'label-message' => $this->getFormSpecificMessageKey( 'emailsubject' ),
 				'type' => 'text',
 				'default' => $subject,
 				'disabled' => $subjectReadonly,
 			],
-		] + $additional + [
+		];
+
+		// Control fields cannot be repositioned or removed by FieldsMergeStrategy
+		// option so as to ensure better visual hierarchy and consistent form control.
+		$controlFields = [
 			'CCme' => [
 				'label-message' => $this->getFormSpecificMessageKey( 'emailccme' ),
 				'type' => 'check',
@@ -362,14 +348,14 @@ class SpecialContact extends UnlistedSpecialPage {
 		];
 
 		if ( $config['IncludeIP'] && $user->isRegistered() ) {
-			$formItems['IncludeIP'] = [
+			$controlFields['IncludeIP'] = [
 				'label-message' => $this->getFormSpecificMessageKey( 'contactpage-includeip' ),
 				'type' => 'check',
 			];
 		}
 
 		if ( $this->useCaptcha() ) {
-			$formItems['Captcha'] = [
+			$controlFields['Captcha'] = [
 				'label-message' => 'captcha-label',
 				'type' => 'info',
 				'default' => $this->getCaptcha(),
@@ -377,7 +363,57 @@ class SpecialContact extends UnlistedSpecialPage {
 			];
 		}
 
-		return $formItems;
+		$additionalFields = $config['AdditionalFields'] ?? [];
+
+		if ( $additionalFields && $config['FieldsMergeStrategy'] === 'replace' ) {
+			// Merge fields and redefine stock fields with the same key.
+			$formFields = $additionalFields + $stockFields;
+
+			// Stock fields set to null should be removed from the form
+			$items = [
+				'FromName' => [ $fromName, $nameReadonly ],
+				'FromAddress' => [ $fromAddress, $emailReadonly ],
+				'Subject' => [ $subject, $subjectReadonly ],
+			];
+
+			foreach ( $items as $field => [ $value, $disabled ] ) {
+				// Remove the field entirely if set to null
+				if ( $formFields[$field] === null ) {
+					unset( $formFields[$field] );
+				} else {
+					// if 'default' is null/unset, use computed default value
+					$formFields[$field]['default'] ??= $value;
+					// if 'disabled' is null/unset, set it from form config.
+					$formFields[$field]['disabled'] ??= $disabled;
+				}
+
+			}
+		} else {
+			$formFields = $stockFields + $additionalFields;
+		}
+
+		// This field needs to be immediately after 'FromAddress' field. We have to
+		// do this here so as to check if that field exists and if we should add this one.
+		if ( isset( $formFields['FromAddress'] ) && !$config['RequireDetails'] ) {
+			$fromInfo = [
+				'FromInfo' => [
+					'label' => '',
+					'type' => 'info',
+					'default' => Html::rawElement( 'small', [],
+						$this->msg(
+							$this->getFormSpecificMessageKey( 'contactpage-formfootnotes' )
+						)->escaped()
+					),
+					'raw' => true,
+				]
+			];
+
+			$formFields = wfArrayInsertAfter( $formFields, $fromInfo, 'FromAddress' );
+
+		}
+
+		// Form controls fields cannot be overriden. Use array_merge() to enforce that.
+		return array_merge( $formFields, $controlFields );
 	}
 
 	/**
@@ -424,8 +460,8 @@ class SpecialContact extends UnlistedSpecialPage {
 		// Initialize the sender to the site address
 		$senderAddress = $siteAddress;
 
-		$fromAddress = $formData['FromAddress'];
-		$fromName = $formData['FromName'];
+		$fromAddress = $formData['FromAddress'] ?? '';
+		$fromName = $formData['FromName'] ?? '';
 
 		$fromUserAddress = null;
 		$replyTo = null;
@@ -451,7 +487,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$includeIP = isset( $config['IncludeIP'] ) && $config['IncludeIP']
 			&& ( $user->isAnon() || $formData['IncludeIP'] );
-		$subject = $formData['Subject'];
+		$subject = $formData['Subject'] ?? '';
 
 		if ( $fromName !== '' ) {
 			if ( $includeIP ) {
@@ -492,7 +528,11 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		$text = '';
-		foreach ( $config['AdditionalFields'] as $name => $field ) {
+		foreach ( $config['AdditionalFields'] ?? [] as $name => $field ) {
+			if ( $field == null ) {
+				continue;
+			}
+
 			$class = HTMLForm::getClassFromDescriptor( $name, $field );
 
 			$value = '';

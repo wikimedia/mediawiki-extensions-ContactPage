@@ -44,6 +44,7 @@ $wgContactConfig.
        'SubjectReadonly' => true,
        'MustHaveEmail' => true,
        'AdditionalFields' => [],
+       'FieldsMergeStrategy' => null,
        'RLModules' => [],
        'RLStyleModules' => [],
   ];
@@ -104,6 +105,90 @@ It should be noted that type 'selectandother' is not currently supported.
             'required' => true,
       ],
   ],
+
+FieldsMergeStrategy defines how fields defined in `AdditionalFields` are
+merged with extension-defined fields. It currently accepts only two values
+with the following semantic:
+
+  1. null (default). In default mode, some fields such as FromName,
+     and FromAddress are unconditionally defined by the extension and
+     placed in a fixed location. Configured forms cannot remove them nor
+     influence their placement locations.
+  2. The string 'replace'. With this option, the configured form can
+     redefine some fields already defined by the extension for the
+     purpose of controlling their placement position in the form or
+     hiding them completely. Example:
+
+    Let's say we want to have a very important field as the first field
+    of the form.
+
+    'AdditionalFields' => [
+       'ImportantField' => [
+            'label' => 'This field must be the first field of the form!',
+            'type' => 'textarea',
+        ],
+    ],
+
+    In default mode, this field will appear as the fourth field of the form
+    (instead of the location we wanted), because the extensions defines 3
+    other fields unconditionally and placed ours below them.
+
+    With `FieldsMergeStrategy` option, it's possibly to make our
+    'very important' field as the first field in the form.
+
+    'AdditionalFields' => [
+      'ImportantField' => [
+            'label' => 'This field must be the first field of the form!',
+            'type' => 'textarea',
+      ],
+      'FromName' => [
+          'label-message' => 'contactpage-fromname',
+          'type' => 'text',
+          'required' => true,
+          'default' => null,
+          'disabled' => false,
+      ],
+    ],
+
+    All the these fields will now appear in the order we defined them.
+    Any non-redefined field will retain their extension-defined order.
+
+    Setting any of these fields to null will remove them completely.
+
+    Note 1: Field attributes defined in 'AdditionalFields' take precedence
+    over the following 4 global attributes in form configuration:
+
+    $wgContactConfig['formname'] = [
+       'RequireDetails' => true, // This sets `FromName` and `FromAddress`
+                                // as required fields.
+       'NameReadonly' => true, // This sets `FromName` as readonly.
+       'EmailReadonly' => true, // This sets `FromAddress` as readonly.
+       'SubjectReadonly' => true, // This sets `Subject` as readonly.
+    ];
+
+    If FieldsMergeStrategy is 'replace', these will not automatically apply
+    for any field that's redefined. But you can set any of them explicitly
+    on the field.
+
+    Example:
+
+    'FieldsMergeStrategy' => 'replace',
+    'AdditionalFields' => [
+      'ImportantField' => [
+            'label' => 'This field must be the first field of the form!',
+            'type' => 'textarea',
+        ],
+      'FromName' => [ // FromName is redefined.
+          'label-message' => 'contactpage-fromname',
+          'type' => 'text',
+          'required' => true, // This takes precedence over 'RequireDetails'
+          'default' => null, // null means extension should populate it
+          'disabled' => false // This takes precedence over 'NameReadOnly'
+      ],
+    ],
+
+    Note 2: Some special control fields (where applicable) such as the Captcha
+    form, Email copy and IPAddress checkboxes cannot be redefined or moved.
 
 RLModules can be used to add ResourceLoader modules (custom CSS and
 JavaScript) to the page.
