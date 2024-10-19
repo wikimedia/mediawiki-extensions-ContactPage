@@ -13,7 +13,6 @@
 namespace MediaWiki\Extension\ContactPage;
 
 use ErrorPageError;
-use ExtensionRegistry;
 use MailAddress;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
 use MediaWiki\Extension\ContactPage\Hooks\HookRunner;
@@ -22,6 +21,7 @@ use MediaWiki\HTMLForm\Field\HTMLCheckField;
 use MediaWiki\HTMLForm\Field\HTMLHiddenField;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Parser\Sanitizer;
+use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Status\Status;
