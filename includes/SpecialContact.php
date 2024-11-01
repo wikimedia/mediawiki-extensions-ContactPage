@@ -295,8 +295,9 @@ class SpecialContact extends UnlistedSpecialPage {
 		$emailReadonly = false;
 		$subjectReadonly = $config['SubjectReadonly'] ?? false;
 
-		if ( $user->isNamed() ) {
-			// Use real name if set
+		if ( $user->isRegistered() ) {
+			// See T335962#10283428 for an explanation for why
+			// we are including temporary accounts here.
 			$realName = $user->getRealName();
 			if ( $realName ) {
 				$fromName = $realName;
