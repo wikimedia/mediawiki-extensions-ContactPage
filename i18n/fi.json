@@ -30,6 +30,7 @@
 	"contactpage-config-error-title": "Yhteydenottolomakkeen virhe",
 	"contactpage-config-error": "Yhteydenottolomaketta ei ole määritetty tälle sivulle tai se on määritetty virheellisesti.",
 	"contactpage-mustbeloggedin": "Kirjaudu sisään lähettääksesi yhteydenottolomakkeen.",
+	"contactpage-mustbeloggedin-for-temp-user": "Luo tunnus lähettääksesi yhteydenottolomakkeen.",
 	"contactpage-musthaveemail-error-title": "Vahvistettu sähköpostiosoite puuttuu",
 	"contactpage-musthaveemail-error": "Vahvista sähköpostiosoite [[Special:Preferences|asetuksissasi]] lähettääksesi yhteydenottolomakkeen."
 }
