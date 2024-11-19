@@ -4,7 +4,8 @@
 			"DannyS712",
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"contactpage": "Kontaktsäit",
@@ -16,7 +17,7 @@
 	"contactpage-subject-and-sender": "$1 (vum $2)",
 	"contactpage-subject-and-sender-withip": "$1 (vum $2 iwwer $3)",
 	"contactpage-fromname": "Ären Numm:",
-	"contactpage-fromaddress": "Är E-mail-Adress:",
+	"contactpage-fromaddress": "Är E-Mail-Adress:",
 	"contactpage-formfootnotes": "(gëtt gebraucht wann Dir eng Äntwert wëllt)",
 	"contactpage-includeip": "Meng IP-Adress an dëse Message drasetzen",
 	"contactpage-usermailererror": "E-Mail-Objet mellt de Feeler: $1",

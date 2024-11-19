@@ -21,6 +21,7 @@
 	"contactpage-config-error-title": "Pogrěška kontaktnogo formulara",
 	"contactpage-config-error": "Kontaktny formular ne jest konfigurovany za tutu stranicu ili konfigurovany jest nepravilno.",
 	"contactpage-mustbeloggedin": "Za izslanje kontaktnogo formulara trěba, že vy prijavite se.",
+	"contactpage-mustbeloggedin-for-temp-user": "Prosimo, stvorite konto, da byste mogli odpraviti kontaktny formular.",
 	"contactpage-musthaveemail-error-title": "Nemaje potvrdženogo adresa e-pošty",
 	"contactpage-musthaveemail-error": "Da byste mogli izslati kontaktny formular, prosimo, že vvedete potvrdženy adres e-pošty na svojej [[Special:Preferences|stranici nastavjenij]]."
 }
