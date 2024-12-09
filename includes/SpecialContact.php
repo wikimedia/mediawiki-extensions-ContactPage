@@ -20,6 +20,7 @@ use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\Field\HTMLCheckField;
 use MediaWiki\HTMLForm\Field\HTMLHiddenField;
 use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\MainConfigNames;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Session\SessionManager;
@@ -115,7 +116,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @throws ErrorPageError
 	 */
 	public function execute( $par ) {
-		if ( !$this->getConfig()->get( 'EnableEmail' ) ) {
+		if ( !$this->getConfig()->get( MainConfigNames::EnableEmail ) ) {
 			// From Special:EmailUser
 			throw new ErrorPageError( 'usermaildisabled', 'usermaildisabledtext' );
 		}

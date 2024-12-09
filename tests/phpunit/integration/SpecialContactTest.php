@@ -2,10 +2,16 @@
 
 namespace MediaWiki\Extension\ContactPage\Tests\Integration;
 
+use ErrorPageError;
 use MediaWiki\Extension\ContactPage\SpecialContact;
+use MediaWiki\MainConfigNames;
+use MediaWiki\Request\WebResponse;
+use MediaWiki\Tests\Unit\Permissions\MockAuthorityTrait;
+use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use SpecialPageTestBase;
 use TestUser;
+use UserBlockedError;
 use Wikimedia\TestingAccessWrapper;
 
 /**
@@ -14,6 +20,8 @@ use Wikimedia\TestingAccessWrapper;
  * @covers \MediaWiki\Extension\ContactPage\SpecialContact
  */
 class SpecialContactTest extends SpecialPageTestBase {
+
+	use MockAuthorityTrait;
 
 	private static User $contactUser;
 
@@ -33,6 +41,23 @@ class SpecialContactTest extends SpecialPageTestBase {
 			$this->getServiceContainer()->getUserOptionsLookup(),
 			$this->getServiceContainer()->getUserFactory()
 		);
+	}
+
+	public function testWhenEnableEmailConfigDisabled() {
+		$this->overrideConfigValue( MainConfigNames::EnableEmail, false );
+		$this->expectException( ErrorPageError::class );
+		$this->expectExceptionMessage( wfMessage( 'usermaildisabledtext' )->text() );
+		$this->executeSpecialPage();
+	}
+
+	public function testWhenConfigDefinesRedirect() {
+		$testPageUrl = Title::newFromText( 'Test' )->getFullURL();
+
+		$this->setFormConfig( 'redirect', [ 'Redirect' => $testPageUrl ] );
+
+		/** @var WebResponse $webResponse */
+		$webResponse = $this->executeSpecialPage( 'redirect' )[1];
+		$this->assertSame( $testPageUrl, $webResponse->getHeader( 'Location' ) );
 	}
 
 	public function testFieldsRepositioning() {
@@ -127,6 +152,20 @@ class SpecialContactTest extends SpecialPageTestBase {
 				[],
 				true
 			],
+			'Form invalid because attempting to require email when requiring login is not set' => [
+				'form-which-requires-email-but-not-login',
+				[
+					'RecipientEmail' => 'contact@wiki.test',
+					'MustBeLoggedIn' => false,
+					'MustHaveEmail' => true,
+				],
+				[ 'contactpage-config-error' ],
+			],
+			'RecipientUser is set to a non-existing username' => [
+				'form-which-has-recipient-user-set-to-non-existing-username',
+				[ 'RecipientUser' => 'NonExistingUser1234567' ],
+				[ 'noemailtext' ]
+			],
 			'simple-fields-replace' => [
 				'simple-fields-replace',
 				[
@@ -164,6 +203,41 @@ class SpecialContactTest extends SpecialPageTestBase {
 		];
 	}
 
+	public function testViewWhenUserBlockedWithBlockThatPreventsEmail() {
+		$blockStatus = $this->getServiceContainer()->getBlockUserFactory()->newBlockUser(
+			self::$contactUser, $this->mockRegisteredUltimateAuthority(), 'indefinite', '',
+			[ 'isEmailBlocked' => true ]
+		)->placeBlock();
+		$this->assertStatusGood( $blockStatus );
+		$this->assertTrue( $blockStatus->getValue()->isEmailBlocked() );
+
+		$this->testFormConfigurations(
+			'blocked-user-handling',
+			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => true ],
+			[ 'contactpage-blocked-message-blocked-user-handling' ],
+			[ 'wpFromName' ],
+			true
+		);
+	}
+
+	public function testViewWhenUserBlockedAndFormDoesNotUseCustomMessage() {
+		$blockStatus = $this->getServiceContainer()->getBlockUserFactory()->newBlockUser(
+			self::$contactUser, $this->mockRegisteredUltimateAuthority(), 'indefinite', '',
+			[ 'isEmailBlocked' => true ]
+		)->placeBlock();
+		$this->assertStatusGood( $blockStatus );
+		$this->assertTrue( $blockStatus->getValue()->isEmailBlocked() );
+
+		$this->expectException( UserBlockedError::class );
+		$this->testFormConfigurations(
+			'blocked-user-handling',
+			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false ],
+			[],
+			[ 'wpFromName' ],
+			true
+		);
+	}
+
 	private function getFormFields( $formName, $config ) {
 		$this->setFormConfig( $formName, $config );
 
@@ -177,7 +251,7 @@ class SpecialContactTest extends SpecialPageTestBase {
 	private function getFormHtml( $formName, $config, $performer = null ) {
 		$this->setFormConfig( $formName, $config );
 
-		// We use ContactUser as either perfomer or recipient in some tests.
+		// We use ContactUser as either performer or recipient in some tests.
 		// Verify their email in both cases. Hook returns false for that.
 		if ( $performer || ( $config['RecipientUser'] ?? null ) ) {
 			$this->setTemporaryHook(
