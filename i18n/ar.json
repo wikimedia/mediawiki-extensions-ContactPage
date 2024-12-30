@@ -26,5 +26,8 @@
 	"contactpage-captcha-error": "خطأ في كابتشا",
 	"contactpage-config-error-title": "خطأ في استمارة الاتصال",
 	"contactpage-config-error": "إما أن نموذج الاتصال غير مكوّن لهذه الصفحة أو تم تكوينه بشكل غير صحيح.",
-	"contactpage-mustbeloggedin": "يُرجَى تسجيل الدخول لتقديم نموذج اتصال."
+	"contactpage-mustbeloggedin": "يُرجَى تسجيل الدخول لتقديم نموذج اتصال.",
+	"contactpage-mustbeloggedin-for-temp-user": "رجاءً أنشئ حسابًا لتقديم استمارة اتصال.",
+	"contactpage-musthaveemail-error-title": "عنوان البريد الإلكتروني المؤكد مفقود",
+	"contactpage-musthaveemail-error": "يرجى تعيين عنوان بريد إلكتروني مؤكد في [[Special:Preferences|تفضيلاتك]] لإرسال نموذج الاتصال."
 }
