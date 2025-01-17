@@ -7,8 +7,8 @@ class VersionPage extends Page {
 		return $( '#mw-version-ext-specialpage-ContactPage' );
 	}
 
-	open() {
-		super.openTitle( 'Special:Version' );
+	async open() {
+		return super.openTitle( 'Special:Version' );
 	}
 }
 
