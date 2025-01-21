@@ -7,7 +7,8 @@
 			"أحمد",
 			"ديفيد",
 			"زكريا",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"جودت"
 		]
 	},
 	"contactpage": "صفحة المراسلة",
@@ -23,7 +24,7 @@
 	"contactpage-formfootnotes": "(مطلوب لو أردت ردًّا)",
 	"contactpage-includeip": "ضمّن عنوان بروتوكول الإنترنت الدال عليّ في الرسالة.",
 	"contactpage-usermailererror": "جسم البريد أرجع خطأ: $1",
-	"contactpage-captcha-error": "خطأ في كابتشا",
+	"contactpage-captcha-error": "خطأ في حروف التحقق",
 	"contactpage-config-error-title": "خطأ في استمارة الاتصال",
 	"contactpage-config-error": "إما أن نموذج الاتصال غير مكوّن لهذه الصفحة أو تم تكوينه بشكل غير صحيح.",
 	"contactpage-mustbeloggedin": "يُرجَى تسجيل الدخول لتقديم نموذج اتصال.",
