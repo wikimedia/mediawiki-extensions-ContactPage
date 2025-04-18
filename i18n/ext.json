@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Better",
-			"DannyS712"
+			"DannyS712",
+			"HackerPunki"
 		]
 	},
+	"contactpage": "Página de contatu",
 	"contactpage-subject-and-sender": "$1 (endi $2)",
 	"contactpage-fromname": "el tu nombri *",
 	"contactpage-fromaddress": "el tu email **",
