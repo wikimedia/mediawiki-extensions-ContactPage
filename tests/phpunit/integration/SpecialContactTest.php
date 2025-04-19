@@ -2,7 +2,8 @@
 
 namespace MediaWiki\Extension\ContactPage\Tests\Integration;
 
-use ErrorPageError;
+use MediaWiki\Exception\ErrorPageError;
+use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Extension\ContactPage\SpecialContact;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Request\WebResponse;
@@ -11,7 +12,6 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use SpecialPageTestBase;
 use TestUser;
-use UserBlockedError;
 use Wikimedia\TestingAccessWrapper;
 
 /**

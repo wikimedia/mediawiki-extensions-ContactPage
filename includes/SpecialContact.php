@@ -12,8 +12,10 @@
 
 namespace MediaWiki\Extension\ContactPage;
 
-use ErrorPageError;
 use MailAddress;
+use MediaWiki\Exception\ErrorPageError;
+use MediaWiki\Exception\UserBlockedError;
+use MediaWiki\Exception\UserNotLoggedIn;
 use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
 use MediaWiki\Extension\ContactPage\Hooks\HookRunner;
 use MediaWiki\Html\Html;
@@ -29,7 +31,6 @@ use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
-use UserBlockedError;
 use UserMailer;
 
 /**
@@ -211,8 +212,8 @@ class SpecialContact extends UnlistedSpecialPage {
 	 *
 	 * @return array|false
 	 * @phan-return array{0:string,1:string}|false [ error title msg key, error text msg key ]
-	 * @throws \UserNotLoggedIn
-	 * @throws \UserBlockedError
+	 * @throws UserNotLoggedIn
+	 * @throws UserBlockedError
 	 */
 	private function checkFormErrors( User $user, array $config ) {
 		// Display error if user not logged in when config requires it
