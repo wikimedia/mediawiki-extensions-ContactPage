@@ -21,5 +21,8 @@
 	"contactpage-captcha-error": "Капчин гӀалат ду",
 	"contactpage-config-error-title": "Контактан формин гӀалат",
 	"contactpage-config-error": "Контактан форма йа хӀокху агӀонна нисйина йац, йа нийса нисйина йац.",
-	"contactpage-mustbeloggedin": "Контактан форма дӀайахьийта авторизаци йе."
+	"contactpage-mustbeloggedin": "Контактан форма дӀайахьийта авторизаци йе.",
+	"contactpage-mustbeloggedin-for-temp-user": "Дехар до, аккаунт кхолла, контактан форма дӀайахьитархьама.",
+	"contactpage-musthaveemail-error-title": "ТӀечӀагӀдина электронан поштан адрес дац",
+	"contactpage-musthaveemail-error": "Дехар до, хьайн [[Special:Preferences|нисдаран гӀирсан]] тӀехь тӀечӀагӀдина электронан поштан адрес хӀоттаде, контактан форма дӀакхачорхьама."
 }
