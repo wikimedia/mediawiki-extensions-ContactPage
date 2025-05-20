@@ -40,8 +40,7 @@ use UserMailer;
 class SpecialContact extends UnlistedSpecialPage {
 	private UserOptionsLookup $userOptionsLookup;
 	private UserFactory $userFactory;
-	/** @var HookRunner|null */
-	private $contactPageHookRunner;
+	private HookRunner $contactPageHookRunner;
 
 	/** @var string|null */
 	private $recipientName = null;
@@ -54,6 +53,8 @@ class SpecialContact extends UnlistedSpecialPage {
 		parent::__construct( 'Contact' );
 		$this->userOptionsLookup = $userOptionsLookup;
 		$this->userFactory = $userFactory;
+
+		$this->contactPageHookRunner = new HookRunner( $this->getHookContainer() );
 	}
 
 	/**
@@ -96,9 +97,9 @@ class SpecialContact extends UnlistedSpecialPage {
 	protected function getFormSpecificMessageKey( string $genericMessageKey ): string {
 		$formSpecificMessageKey = $genericMessageKey . '-' . $this->formType;
 		if ( !str_starts_with( $genericMessageKey, 'contactpage' ) ) {
-			// If the generic message does not start with "contactpage" the form
-			//  specific one will have "contactpage-" prefixed on the generic message
-			//  name.
+			// If the generic message does not start with "contactpage", the form
+			// specific one will have "contactpage-" prefixed on the generic message
+			// name.
 			$formSpecificMessageKey = 'contactpage-' . $formSpecificMessageKey;
 		}
 		if ( $this->formType && !$this->msg( $formSpecificMessageKey )->isDisabled() ) {
@@ -153,7 +154,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		);
 		$form->setWrapperLegendMsg( 'contactpage-legend' );
 		$form->setSubmitTextMsg( $this->getFormSpecificMessageKey( 'emailsend' ) );
-		if ( $this->formType != '' ) {
+		if ( $this->formType !== '' ) {
 			$form->setId( "contactpage-{$this->formType}" );
 
 			$msg = $this->msg( "contactpage-legend-{$this->formType}" );
@@ -170,7 +171,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$form->prepareForm();
 
 		// Stolen from Special:EmailUser
-		if ( !$this->getContactPageHookRunner()->onEmailUserForm( $form ) ) {
+		if ( !$this->contactPageHookRunner->onEmailUserForm( $form ) ) {
 			return;
 		}
 
@@ -202,15 +203,13 @@ class SpecialContact extends UnlistedSpecialPage {
 	/**
 	 * Various permission and form misconfiguration checks
 	 *
-	 * When there's an error and the form should not displayed, the return value
+	 * When there's an error and the form should not be displayed, the return value
 	 * must be an array of exactly 2 string elements: message key for the error page title
 	 * and message key for the actual error message.
 	 *
 	 * The method may also throw a subclass of ErrorPageError to halt displaying the form.
 	 *
-	 * false means there's no error and we should proceed to display the form.
-	 *
-	 * @return array|false
+	 * @return array|false false means there's no error and we should proceed to display the form.
 	 * @phan-return array{0:string,1:string}|false [ error title msg key, error text msg key ]
 	 * @throws UserNotLoggedIn
 	 * @throws UserBlockedError
@@ -267,7 +266,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// Show error if the following are true as they are in combination invalid configuration:
 		// * The form doesn't require logging in
 		// * The form requires details
-		// * The email form is read only.
+		// * The email form is read-only.
 		// This is because the email field will be empty for anon and temp users and must be filled
 		// for the form to be valid, but cannot be modified by the client.
 		$emailReadonly = $user->isNamed() && ( $config['EmailReadonly'] ?? false );
@@ -279,13 +278,13 @@ class SpecialContact extends UnlistedSpecialPage {
 	}
 
 	private function getFormFields( User $user, array $config ): array {
-		# Check for type in [[Special:Contact/type]]: change pagetext and prefill form fields
+		# Check for type in [[Special:Contact/type]]: change the pagetext and prefill form fields
 		$formSpecificSubjectMessageKey = $this->msg( [
 			'contactpage-defsubject-' . $this->formType,
 			'contactpage-subject-' . $this->formType
 		] );
 
-		if ( $this->formType != '' && !$formSpecificSubjectMessageKey->isDisabled() ) {
+		if ( $this->formType !== '' && !$formSpecificSubjectMessageKey->isDisabled() ) {
 			$subject = trim( $formSpecificSubjectMessageKey->inContentLanguage()->plain() );
 		} else {
 			$subject = $this->msg( 'contactpage-defsubject' )->inContentLanguage()->text();
@@ -335,7 +334,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		];
 
 		// Control fields cannot be repositioned or removed by FieldsMergeStrategy
-		// option so as to ensure better visual hierarchy and consistent form control.
+		// option, to ensure better visual hierarchy and consistent form control.
 		$controlFields = [
 			'CCme' => [
 				'label-message' => $this->getFormSpecificMessageKey( 'emailccme' ),
@@ -395,7 +394,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		// This field needs to be immediately after 'FromAddress' field. We have to
-		// do this here so as to check if that field exists and if we should add this one.
+		// do this here to check if that field exists and if we should add this one.
 		if ( isset( $formFields['FromAddress'] ) && !$config['RequireDetails'] ) {
 			$fromInfo = [
 				'FromInfo' => [
@@ -414,7 +413,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		}
 
-		// Form controls fields cannot be overriden. Use array_merge() to enforce that.
+		// Form controls fields cannot be overridden. Use array_merge() to enforce that.
 		return array_merge( $formFields, $controlFields );
 	}
 
@@ -428,18 +427,18 @@ class SpecialContact extends UnlistedSpecialPage {
 	 *       params) or strings (message keys)
 	 */
 	public function processInput( $formData ) {
-		$config = $this->getTypeConfig();
-
 		$request = $this->getRequest();
 		$user = $this->getUser();
 
-		if ( $this->useCaptcha() &&
+		if (
+			$this->useCaptcha() &&
 			!ConfirmEditHooks::getInstance()->passCaptchaFromRequest( $request, $user )
 		) {
 			return [ 'contactpage-captcha-error' ];
 		}
 
 		$senderIP = $request->getIP();
+		$config = $this->getTypeConfig();
 
 		// Setup user that is going to receive the contact page response
 		if ( $config['RecipientUser'] ) {
@@ -452,8 +451,8 @@ class SpecialContact extends UnlistedSpecialPage {
 			$contactRecipientAddress = new MailAddress( $config['RecipientEmail'] );
 		}
 
-		// Used when user hasn't set an email, when $wgUserEmailUseReplyTo is true,
-		// or when sending CC email to user
+		// Used when the user hasn't set an email, when $wgUserEmailUseReplyTo is true,
+		// or when sending CC email to the user
 		$siteAddress = new MailAddress(
 			$config['SenderEmail'] ?: $this->getConfig()->get( 'PasswordSender' ),
 			$config['SenderName']
@@ -470,7 +469,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if ( $fromAddress ) {
 			// T232199 - If the email address is invalid, bail out.
-			// Don't allow it to fallback to basically @server.host.name
+			// Don't allow the from address to fall back to basically @server.host.name
 			if ( !Sanitizer::validateEmail( $fromAddress ) ) {
 				return [ 'invalidemailaddress' ];
 			}
@@ -531,7 +530,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$text = '';
 		foreach ( $config['AdditionalFields'] ?? [] as $name => $field ) {
-			if ( $field == null ) {
+			if ( $field === null ) {
 				continue;
 			}
 
@@ -596,8 +595,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			$text .= "{$name}: $value\n";
 		}
 
-		$hookRunner = $this->getContactPageHookRunner();
-		if ( !$hookRunner->onContactForm( $contactRecipientAddress, $replyTo, $subject,
+		if ( !$this->contactPageHookRunner->onContactForm( $contactRecipientAddress, $replyTo, $subject,
 			$text, $this->formType, $formData )
 		) {
 			// TODO: Need to do some proper error handling here
@@ -606,7 +604,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		wfDebug( __METHOD__ . ': sending mail from ' . $senderAddress->toString() .
 			' to ' . $contactRecipientAddress->toString() .
-			' replyto ' . ( $replyTo == null ? '-/-' : $replyTo->toString() ) . "\n"
+			' replyto ' . ( $replyTo === null ? '-/-' : $replyTo->toString() ) . "\n"
 		);
 		// @phan-suppress-next-line SecurityCheck-XSS UserMailer::send defaults to text/plain if passed a string
 		$mailResult = UserMailer::send(
@@ -628,7 +626,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// unless they are emailing themselves, in which case one copy of the message is sufficient.
 		if ( $formData['CCme'] && $fromUserAddress ) {
 			$cc_subject = $this->msg( 'emailccsubject', $ccName, $subject )->text();
-			if ( $hookRunner->onContactForm(
+			if ( $this->contactPageHookRunner->onContactForm(
 				$fromUserAddress, $senderAddress, $cc_subject, $text, $this->formType, $formData )
 			) {
 				wfDebug( __METHOD__ . ': sending cc mail from ' . $senderAddress->toString() .
@@ -652,7 +650,7 @@ class SpecialContact extends UnlistedSpecialPage {
 			}
 		}
 
-		$hookRunner->onContactFromComplete( $contactRecipientAddress, $replyTo, $subject, $text );
+		$this->contactPageHookRunner->onContactFromComplete( $contactRecipientAddress, $replyTo, $subject, $text );
 
 		return true;
 	}
@@ -701,15 +699,5 @@ class SpecialContact extends UnlistedSpecialPage {
 		return '<div class="captcha">' .
 			$formInformation['html'] .
 			"</div>\n";
-	}
-
-	/**
-	 * @return HookRunner
-	 */
-	private function getContactPageHookRunner() {
-		if ( !$this->contactPageHookRunner ) {
-			$this->contactPageHookRunner = new HookRunner( $this->getHookContainer() );
-		}
-		return $this->contactPageHookRunner;
 	}
 }
