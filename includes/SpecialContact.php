@@ -434,7 +434,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		$user = $this->getUser();
 
 		if ( $this->useCaptcha() &&
-			!$this->getConfig()->get( 'Captcha' )->passCaptchaFromRequest( $request, $user )
+			!ConfirmEditHooks::getInstance()->passCaptchaFromRequest( $request, $user )
 		) {
 			return [ 'contactpage-captcha-error' ];
 		}
