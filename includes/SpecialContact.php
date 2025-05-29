@@ -691,10 +691,11 @@ class SpecialContact extends UnlistedSpecialPage {
 		$captcha->setTrigger( 'contactpage' );
 		$captcha->setAction( 'contact' );
 
-		$formInformation = $captcha->getFormInformation();
+		$output = $this->getOutput();
+		$formInformation = $captcha->getFormInformation( 1, $output );
 		$formMetainfo = $formInformation;
 		unset( $formMetainfo['html'] );
-		$captcha->addFormInformationToOutput( $this->getOutput(), $formMetainfo );
+		$captcha->addFormInformationToOutput( $output, $formMetainfo );
 
 		return '<div class="captcha">' .
 			$formInformation['html'] .
