@@ -15,7 +15,7 @@
 	"contactpage-subject-and-sender-withip": "$1 ($2 тӀера $3 адресера)",
 	"contactpage-fromname": "Хьа хан:",
 	"contactpage-fromaddress": "Хьан электронан поштан адрес:",
-	"contactpage-formfootnotes": "(оьшу хьона жоп даийта лууш делахь)",
+	"contactpage-formfootnotes": "(хьуна жоп дезахь бен оьшуш дац)",
 	"contactpage-includeip": "Сан IP-адрес хӀокху хааман йукъатоха.",
 	"contactpage-usermailererror": "Электронан поштехула хаам дӀабохьитуш гӀалат даьлла: $1",
 	"contactpage-captcha-error": "Капчин гӀалат ду",
