@@ -398,12 +398,17 @@ $specialPageAliases['yue'] = [
 	'Contact' => [ '聯絡' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'Contact' => [ 'Contact' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'Contact' => [ '联系', '联络' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'Contact' => [ '聯絡', '聯繫', '聯係' ],
 ];
