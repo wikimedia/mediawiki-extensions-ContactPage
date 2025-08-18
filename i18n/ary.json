@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"DannyS712",
+			"Ideophagous",
 			"SADIQUI"
 		]
 	},
 	"contactpage": "صفحة المراسلة",
+	"contactpage-legend": "صيفط إيميل",
 	"contactpage-usermailererror": "naṣṣ l-email ĝta ĥata': $1"
 }
