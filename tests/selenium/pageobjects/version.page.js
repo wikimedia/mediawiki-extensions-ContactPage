@@ -1,6 +1,4 @@
-'use strict';
-
-const Page = require( 'wdio-mediawiki/Page' );
+import Page from 'wdio-mediawiki/Page';
 
 class VersionPage extends Page {
 	get contactPageExtension() {
@@ -12,4 +10,4 @@ class VersionPage extends Page {
 	}
 }
 
-module.exports = new VersionPage();
+export default new VersionPage();
