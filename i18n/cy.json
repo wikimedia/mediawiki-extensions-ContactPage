@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ceirios",
 			"DannyS712",
 			"Lloffiwr",
 			"Robin Owain"
 		]
 	},
-	"contactpage": "Tudalen gysylltu",
+	"contactpage": "Tudalen gyswllt",
 	"contactpage-desc": "[[Special:Contact|Ffurlen gysylltu ar gyfer ymwelwyr]]",
 	"contactpage-title": "Cysylltu",
 	"contactpage-pagetext": "Mae croeso i chi ddefnyddio'r ffurflen isod i gysylltu â ni.",
