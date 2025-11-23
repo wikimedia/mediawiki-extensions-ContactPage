@@ -61,7 +61,7 @@ The following situations will cause the contact form to be inaccessible:
 One of RecipientUser or RecipientEmail should be defined. If using RecipientUser,
 it must be the username of a registered wiki user, who has
 supplied an email address, has user-to-user email enabled, and has
-confirmed his/her email address if that is required on this wiki
+confirmed their email address if that is required on this wiki
 (see $wgEmailAuthentication). If using RecipientEmail, it should be a valid email address.
 
 SenderEmail is used when to send the email when an address isn't
