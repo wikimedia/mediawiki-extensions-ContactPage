@@ -6,6 +6,7 @@ use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Extension\ContactPage\SpecialContact;
 use MediaWiki\MainConfigNames;
+use MediaWiki\Request\FauxRequest;
 use MediaWiki\Request\WebResponse;
 use MediaWiki\Tests\Unit\Permissions\MockAuthorityTrait;
 use MediaWiki\Title\Title;
@@ -200,6 +201,66 @@ class SpecialContactTest extends SpecialPageTestBase {
 				[],
 				true
 			]
+		];
+	}
+
+	/**
+	 * @dataProvider provideConfigWithConditionalField
+	 */
+	public function testConfigWithConditionalField( $requestBody ) {
+		$this->setFormConfig( 'config-with-conditional-field', [
+			'RecipientEmail' => 'contact@wiki.test',
+			'AdditionalFields' => [
+				'Condition' => [
+					'label' => 'Condition',
+					'type' => 'check',
+				],
+				'Species' => [
+					'required' => true,
+					'label' => 'Species',
+					'type' => 'radio',
+					'hide-if' => [ '!==', 'Condition', '1' ],
+					'options' => [
+						'Catgirl' => 'catgirl',
+					],
+				],
+				'Operation' => [
+					'required' => true,
+					'label' => 'Operation',
+					'type' => 'radio',
+					'hide-if' => [ '!==', 'Condition', '1' ],
+					'options-messages' => [
+						'pt-createaccount' => 'createaccount',
+					],
+				],
+			],
+		] );
+
+		$request = new FauxRequest( $requestBody, true );
+		$this->executeSpecialPage( 'config-with-conditional-field', $request );
+		$this->addToAssertionCount( 1 );
+	}
+
+	public static function provideConfigWithConditionalField() {
+		// Order is [ request body  ]
+
+		return [
+			[
+				[
+					'wpFromName' => 'ContactTest',
+					'wpFromAddress' => 'contact@wiki.test',
+					'wpCondition' => '0',
+				],
+			],
+			[
+				[
+					'wpFromName' => 'ContactTest',
+					'wpFromAddress' => 'contact@wiki.test',
+					'wpCondition' => '1',
+					'wpSpecies' => 'catgirl',
+					'wpOperation' => 'createaccount',
+				],
+			],
 		];
 	}
 
