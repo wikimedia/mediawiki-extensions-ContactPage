@@ -282,6 +282,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 	/**
 	 * @param array $formData
+	 * @param HTMLForm $form
 	 * @return bool|string|array|Status
 	 *     - Bool true or a good Status object indicates success,
 	 *     - Bool false indicates no submission was attempted,
@@ -289,7 +290,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	 *       object, an HTML string, or an array of arrays (message keys and
 	 *       params) or strings (message keys)
 	 */
-	public function processInput( $formData ) {
+	public function processInput( $formData, $form ) {
 		$config = $this->getTypeConfig();
 
 		$request = $this->getRequest();
@@ -386,6 +387,10 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		$text = '';
 		foreach ( $config['AdditionalFields'] as $name => $field ) {
+			if ( $form->getField( $name )->isHidden( $formData ) ) {
+				continue;
+			}
+
 			$class = HTMLForm::getClassFromDescriptor( $name, $field );
 
 			$value = '';
