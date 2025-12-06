@@ -38,21 +38,16 @@ use UserMailer;
  * @ingroup SpecialPage
  */
 class SpecialContact extends UnlistedSpecialPage {
-	private UserOptionsLookup $userOptionsLookup;
-	private UserFactory $userFactory;
 	private HookRunner $contactPageHookRunner;
 
 	/** @var string|null */
 	private $recipientName = null;
 
-	/**
-	 * @param UserOptionsLookup $userOptionsLookup
-	 * @param UserFactory $userFactory
-	 */
-	public function __construct( UserOptionsLookup $userOptionsLookup, UserFactory $userFactory ) {
+	public function __construct(
+		private readonly UserOptionsLookup $userOptionsLookup,
+		private readonly UserFactory $userFactory,
+	) {
 		parent::__construct( 'Contact' );
-		$this->userOptionsLookup = $userOptionsLookup;
-		$this->userFactory = $userFactory;
 
 		$this->contactPageHookRunner = new HookRunner( $this->getHookContainer() );
 	}
