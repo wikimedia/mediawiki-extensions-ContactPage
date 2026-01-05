@@ -9,6 +9,7 @@
 			"M.M.S.",
 			"Najami",
 			"Sabelöga",
+			"Stefan2255",
 			"WikiPhoenix",
 			"לערי ריינהארט"
 		]
@@ -29,5 +30,8 @@
 	"contactpage-captcha-error": "CAPTCHA-fel",
 	"contactpage-config-error-title": "Fel i kontaktformuläret",
 	"contactpage-config-error": "Ett kontaktformulär är antingen inte konfigurerat för denna sida eller så är den felaktigt konfigurerad.",
-	"contactpage-mustbeloggedin": "Logga in för att skicka in ett kontaktformulär."
+	"contactpage-mustbeloggedin": "Logga in för att skicka in ett kontaktformulär.",
+	"contactpage-mustbeloggedin-for-temp-user": "Skapa ett konto för att skicka in ett kontaktformulär.",
+	"contactpage-musthaveemail-error-title": "Bekräftad e-postadress saknas",
+	"contactpage-musthaveemail-error": "Vänligen ange en bekräftad e-postadress i dina [[Special:Preferences|inställningar]] för att skicka in ett kontaktformulär."
 }
