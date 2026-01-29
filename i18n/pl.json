@@ -11,7 +11,8 @@
 			"Railfail536",
 			"Sp5uhe",
 			"WTM",
-			"Wpedzich"
+			"Wpedzich",
+			"Woytecr"
 		]
 	},
 	"contactpage": "Kontakt",
@@ -30,5 +31,8 @@
 	"contactpage-captcha-error": "Błąd CAPTCHA",
 	"contactpage-config-error-title": "Błąd formularza kontaktowego",
 	"contactpage-config-error": "Formularz kontaktowy nie został skonfigurowany dla tej strony albo jest skonfigurowany nieprawidłowo.",
-	"contactpage-mustbeloggedin": "Musisz się zalogować przed wysłaniem zgłoszenia."
+	"contactpage-mustbeloggedin": "Musisz się zalogować przed wysłaniem zgłoszenia.",
+	"contactpage-mustbeloggedin-for-temp-user": "Utwórz konto, aby przesłać formularz kontaktowy.",
+	"contactpage-musthaveemail-error-title": "Brak potwierdzonego adresu e-mail",
+	"contactpage-musthaveemail-error": "Aby przesłać formularz kontaktowy, wprowadź i potwierdź adres e-mail w swoich [[Special:Preferences|preferencjach]]."
 }
