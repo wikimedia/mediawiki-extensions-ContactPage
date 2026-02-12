@@ -525,6 +525,13 @@ class SpecialContact extends UnlistedSpecialPage {
 		}
 
 		$text = '';
+
+		// Prepend email address to the email body if available and if we
+		// haven't appended it to the subject line already. (T416915)
+		if ( $fromName !== '' && $fromAddress !== '' ) {
+			$text = $this->msg( 'contactpage-sender-address', $fromAddress )->inContentLanguage()->text() . "\n";
+		}
+
 		foreach ( $config['AdditionalFields'] ?? [] as $name => $field ) {
 			if ( $field === null ) {
 				continue;

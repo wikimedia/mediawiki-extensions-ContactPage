@@ -24,5 +24,6 @@
 	"contactpage-mustbeloggedin": "Please log in to submit a contact form.",
 	"contactpage-mustbeloggedin-for-temp-user": "Please create an account to submit a contact form.",
 	"contactpage-musthaveemail-error-title": "Missing confirmed email address",
-	"contactpage-musthaveemail-error": "Please set a confirmed email address in your [[Special:Preferences|preferences]] to submit a contact form."
+	"contactpage-musthaveemail-error": "Please set a confirmed email address in your [[Special:Preferences|preferences]] to submit a contact form.",
+	"contactpage-sender-address": "Sender email address: $1"
 }
