@@ -3,6 +3,7 @@
 		"authors": [
 			"DannyS712",
 			"Meno25",
+			"Mohammed Qays",
 			"OsamaK",
 			"أحمد",
 			"جودت",
@@ -30,5 +31,6 @@
 	"contactpage-mustbeloggedin": "يُرجَى تسجيل الدخول لتقديم نموذج اتصال.",
 	"contactpage-mustbeloggedin-for-temp-user": "رجاءً أنشئ حسابًا لتقديم استمارة اتصال.",
 	"contactpage-musthaveemail-error-title": "عنوان البريد الإلكتروني المؤكد مفقود",
-	"contactpage-musthaveemail-error": "يرجى تعيين عنوان بريد إلكتروني مؤكد في [[Special:Preferences|تفضيلاتك]] لإرسال نموذج الاتصال."
+	"contactpage-musthaveemail-error": "يرجى تعيين عنوان بريد إلكتروني مؤكد في [[Special:Preferences|تفضيلاتك]] لإرسال نموذج الاتصال.",
+	"contactpage-sender-address": "عنوان البريد الإلكتروني للمرسل: $1"
 }

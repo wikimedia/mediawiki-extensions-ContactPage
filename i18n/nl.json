@@ -3,6 +3,7 @@
 		"authors": [
 			"DannyS712",
 			"Esketti",
+			"HanV",
 			"Mainframe98",
 			"McDutchie",
 			"Mitsjol",
@@ -30,5 +31,6 @@
 	"contactpage-mustbeloggedin": "Om het contactformulier te kunnen gebruiken moet u aangemeld zijn.",
 	"contactpage-mustbeloggedin-for-temp-user": "Maak een account aan om een contactformulier te kunnen indienen.",
 	"contactpage-musthaveemail-error-title": "Bevestigd e-mailadres ontbreekt",
-	"contactpage-musthaveemail-error": "Stel een bevestigd e-mailadres in uw [[Special:Preferences|voorkeuren]] in om een contactformulier in te zenden."
+	"contactpage-musthaveemail-error": "Stel een bevestigd e-mailadres in uw [[Special:Preferences|voorkeuren]] in om een contactformulier in te zenden.",
+	"contactpage-sender-address": "E-mailadres afzender: $1"
 }

@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ella Lachow"
+			"Ella Lachow",
+			"Malaalaa"
 		]
 	},
-	"contactpage": "Sinttaara gaytta"
+	"contactpage": "Sinttaara gaytta",
+	"contactpage-sender-address": "Yeddiyagaa iimayliya qatuwa: $1"
 }

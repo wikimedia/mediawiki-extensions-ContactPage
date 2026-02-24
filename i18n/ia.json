@@ -24,5 +24,6 @@
 	"contactpage-mustbeloggedin": "Per favor aperi session pro inviar un formulario de contacto.",
 	"contactpage-mustbeloggedin-for-temp-user": "Per favor crea un conto pro submitter un formulario de contacto.",
 	"contactpage-musthaveemail-error-title": "Manca un adresse de e-mail confirmate",
-	"contactpage-musthaveemail-error": "Per favor insere e confirma un adresse de e-mail in tu [[Special:Preferences|preferentias]] pro inviar un formulario de contacto."
+	"contactpage-musthaveemail-error": "Per favor insere e confirma un adresse de e-mail in tu [[Special:Preferences|preferentias]] pro inviar un formulario de contacto.",
+	"contactpage-sender-address": "Adresse de e-mail del expeditor: $1"
 }
