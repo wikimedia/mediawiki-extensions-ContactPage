@@ -27,5 +27,6 @@
 	"contactpage-mustbeloggedin": "יש להיכנס לחשבון כדי להשתמש בטופס יצירת הקשר.",
 	"contactpage-mustbeloggedin-for-temp-user": "נא ליצור חשבון כדי לשלוח טופס יצירת קשר.",
 	"contactpage-musthaveemail-error-title": "חסרה כתובת דוא\"ל מאומתת",
-	"contactpage-musthaveemail-error": "נא להגדיר כתובת דוא\"ל מאומתת ב[[Special:Preferences|העדפות]] שלך כדי לשלוח טופס יצירת קשר."
+	"contactpage-musthaveemail-error": "נא להגדיר כתובת דוא\"ל מאומתת ב[[Special:Preferences|העדפות]] שלך כדי לשלוח טופס יצירת קשר.",
+	"contactpage-sender-address": "כתובת הדוא\"ל של השולח: $1"
 }
