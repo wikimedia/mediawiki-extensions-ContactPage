@@ -26,6 +26,7 @@
 	"contactpage-config-error-title": "Əlaqə forması xətası",
 	"contactpage-config-error": "Əlaqə forması ya bu səhifə üçün konfiqurasiya edilməyib, ya da səhv konfiqurasiya edilib.",
 	"contactpage-mustbeloggedin": "Əlaqə formasını göndərmək üçün daxil olun.",
+	"contactpage-mustbeloggedin-for-temp-user": "Əlaqə formasını göndərmək üçün zəhmət olmasa hesab yaradın.",
 	"contactpage-musthaveemail-error-title": "Təsdiqlənmiş e-poçt ünvanı çatışmır",
 	"contactpage-musthaveemail-error": "Əlaqə formasını göndərmək üçün [[Special:Preferences|nizamlamalar]]ınızda təsdiqlənmiş e-poçt ünvanı təyin edin."
 }
