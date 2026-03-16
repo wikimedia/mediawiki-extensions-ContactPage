@@ -26,5 +26,6 @@
 	"contactpage-mustbeloggedin": "Најавете се за да поднесете контактен образец.",
 	"contactpage-mustbeloggedin-for-temp-user": "Направете сметка за да поднесете образец за контакт.",
 	"contactpage-musthaveemail-error-title": "Недостасува потврдена е-пошта",
-	"contactpage-musthaveemail-error": "Задајте потврдена е-пошта во вашите [[Special:Preferences|нагодувања]] за да го поднесете контактниот образец."
+	"contactpage-musthaveemail-error": "Задајте потврдена е-пошта во вашите [[Special:Preferences|нагодувања]] за да го поднесете контактниот образец.",
+	"contactpage-sender-address": "Е-пошта на испраќачот: $1"
 }
