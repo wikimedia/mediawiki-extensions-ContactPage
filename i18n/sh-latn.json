@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"contactpage": "Kontakt",
 	"contactpage-desc": "[[Special:Contact|Kontaktni obrazac za posjetioce]]",
 	"contactpage-title": "Kontakt",
-	"contactpage-pagetext": "Molimo, poslužite se uz obrazac ispod da nas kontaktirate.",
+	"contactpage-pagetext": "Koristite donji obrazac da biste nam se obratili.",
 	"contactpage-legend": "Pošalji e-mail",
 	"contactpage-defsubject": "Poruka za kontakt",
 	"contactpage-subject-and-sender": "$1 (od $2)",
