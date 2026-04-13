@@ -8,10 +8,10 @@ use MediaWiki\Extension\ContactPage\SpecialContact;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\Request\WebResponse;
+use MediaWiki\Tests\Specials\SpecialPageTestBase;
 use MediaWiki\Tests\Unit\Permissions\MockAuthorityTrait;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
-use SpecialPageTestBase;
 use TestUser;
 use Wikimedia\TestingAccessWrapper;
 

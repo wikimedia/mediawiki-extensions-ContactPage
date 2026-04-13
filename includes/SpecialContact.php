@@ -12,7 +12,6 @@
 
 namespace MediaWiki\Extension\ContactPage;
 
-use MailAddress;
 use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Exception\UserNotLoggedIn;
@@ -22,6 +21,8 @@ use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\Field\HTMLCheckField;
 use MediaWiki\HTMLForm\Field\HTMLHiddenField;
 use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\Mail\MailAddress;
+use MediaWiki\Mail\UserMailer;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Registration\ExtensionRegistry;
@@ -31,7 +32,6 @@ use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
-use UserMailer;
 
 /**
  * Provides the contact form

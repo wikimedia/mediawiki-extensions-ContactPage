@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\ContactPage\Hooks;
 
-use MailAddress;
+use MediaWiki\Mail\MailAddress;
 
 /**
  * This is a hook handler interface, see docs/Hooks.md in core.

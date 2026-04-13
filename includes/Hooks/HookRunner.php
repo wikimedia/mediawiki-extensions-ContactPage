@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\ContactPage\Hooks;
 
 use MediaWiki\HookContainer\HookContainer;
+use MediaWiki\Specials\Hook\EmailUserFormHook;
 
 /**
  * This is a hook runner class, see docs/Hooks.md in core.
@@ -11,7 +12,7 @@ use MediaWiki\HookContainer\HookContainer;
 class HookRunner implements
 	ContactFormHook,
 	ContactFromCompleteHook,
-	\MediaWiki\Hook\EmailUserFormHook
+	EmailUserFormHook
 {
 	public function __construct( private readonly HookContainer $hookContainer ) {
 	}
