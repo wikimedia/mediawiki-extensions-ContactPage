@@ -7,6 +7,7 @@
 			"Infinity",
 			"Kwj2772",
 			"Revi",
+			"Tensama0415",
 			"WonRyong",
 			"Ykhwong",
 			"아라"
@@ -28,5 +29,6 @@
 	"contactpage-captcha-error": "CAPTCHA 오류",
 	"contactpage-config-error-title": "문의 양식 오류",
 	"contactpage-config-error": "이 페이지에 대한 문의 양식이 설정되지 않았거나 설정이 잘못되었습니다.",
-	"contactpage-mustbeloggedin": "연락처 양식을 제출하려면 로그인해 주십시오."
+	"contactpage-mustbeloggedin": "연락처 양식을 제출하려면 로그인해 주십시오.",
+	"contactpage-sender-address": "발신인 이메일 주소: $1"
 }
