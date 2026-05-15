@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abdullahi"
+			"Abdullahi",
+			"AhmedG612"
 		]
 	},
-	"contactpage": "Bogga xiriirka"
+	"contactpage": "Bogga xiriirka",
+	"contactpage-sender-address": "Ciwaanka iimaylka diraha: $1"
 }
