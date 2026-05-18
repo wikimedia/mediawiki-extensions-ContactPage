@@ -6,5 +6,6 @@
 		]
 	},
 	"contactpage": "Bogga xiriirka",
+	"contactpage-usermailererror": "Walaxda boostadu waxay soo celisay qalad: $1",
 	"contactpage-sender-address": "Ciwaanka iimaylka diraha: $1"
 }
