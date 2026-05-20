@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abdullahi"
+			"Abdullahi",
+			"AhmedG612"
 		]
 	},
-	"contactpage": "Bogga xiriirka"
+	"contactpage": "Bogga xiriirka",
+	"contactpage-desc": "[[Special:Contact|Foomka xiriirka ee booqdayaasha]]",
+	"contactpage-title": "Xiriir",
+	"contactpage-pagetext": "Fadlan isticmaal foomka hoose si aad nala soo xiriirto.",
+	"contactpage-legend": "Dir iimayl",
+	"contactpage-defsubject": "Fariinta xiriirka",
+	"contactpage-subject-and-sender": "$1 (laga bilaabo $2 )",
+	"contactpage-subject-and-sender-withip": "$1 (laga bilaabo $2 ilaa $3 )",
+	"contactpage-fromname": "Magacaaga:",
+	"contactpage-fromaddress": "Cinwaanka emailkaaga:",
+	"contactpage-usermailererror": "Walaxda boostadu waxay soo celisay qalad: $1"
 }
