@@ -15,7 +15,7 @@ namespace MediaWiki\Extension\ContactPage;
 use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Exception\UserNotLoggedIn;
-use MediaWiki\Extension\ConfirmEdit\Hooks as ConfirmEditHooks;
+use MediaWiki\Extension\ConfirmEdit\Services\CaptchaFactory;
 use MediaWiki\Extension\ContactPage\Hooks\HookRunner;
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\Field\HTMLCheckField;
@@ -25,7 +25,6 @@ use MediaWiki\Mail\MailAddress;
 use MediaWiki\Mail\UserMailer;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Parser\Sanitizer;
-use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Status\Status;
@@ -46,6 +45,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	public function __construct(
 		private readonly UserOptionsLookup $userOptionsLookup,
 		private readonly UserFactory $userFactory,
+		private readonly ?CaptchaFactory $captchaFactory,
 	) {
 		parent::__construct( 'Contact' );
 
@@ -428,7 +428,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if (
 			$this->useCaptcha() &&
-			!ConfirmEditHooks::getInstance()->passCaptchaFromRequest( $request, $user )
+			!$this->captchaFactory->getGlobalInstance()->passCaptchaFromRequest( $request, $user )
 		) {
 			return [ 'contactpage-captcha-error' ];
 		}
@@ -674,8 +674,7 @@ class SpecialContact extends UnlistedSpecialPage {
 	 * @return bool True if CAPTCHA should be used, false otherwise
 	 */
 	private function useCaptcha() {
-		$extRegistry = ExtensionRegistry::getInstance();
-		if ( !$extRegistry->isLoaded( 'ConfirmEdit' ) ) {
+		if ( !$this->captchaFactory ) {
 			 return false;
 		}
 		$config = $this->getConfig();
@@ -694,7 +693,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// NOTE: make sure we have a session. May be required for CAPTCHAs to work.
 		SessionManager::getGlobalSession()->persist();
 
-		$captcha = ConfirmEditHooks::getInstance();
+		$captcha = $this->captchaFactory->getGlobalInstance();
 		$captcha->setTrigger( 'contactpage' );
 		$captcha->setAction( 'contact' );
 

@@ -5,7 +5,6 @@ namespace MediaWiki\Extension\ContactPage\Tests\Integration;
 use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Extension\ConfirmEdit\SimpleCaptcha\SimpleCaptcha;
-use MediaWiki\Extension\ContactPage\SpecialContact;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\Request\WebResponse;
@@ -39,10 +38,7 @@ class SpecialContactTest extends SpecialPageTestBase {
 	}
 
 	protected function newSpecialPage() {
-		return new SpecialContact(
-			$this->getServiceContainer()->getUserOptionsLookup(),
-			$this->getServiceContainer()->getUserFactory()
-		);
+		return $this->getServiceContainer()->getSpecialPageFactory()->getPage( 'Contact' );
 	}
 
 	public function testWhenEnableEmailConfigDisabled() {
@@ -296,6 +292,23 @@ class SpecialContactTest extends SpecialPageTestBase {
 			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false ],
 			[],
 			[ 'wpFromName' ],
+			true
+		);
+	}
+
+	public function testViewShowsCaptchaFieldWhenConfirmEditNotInstalled(): void {
+		if ( $this->getServiceContainer()->has( 'ConfirmEditCaptchaFactory' ) ) {
+			// Simulate no ConfirmEdit by defining the CaptchaFactory service as null (which
+			// is the value of the service if provided via "optional_services")
+			$this->setService( 'ConfirmEditCaptchaFactory', null );
+		}
+		$this->clearHook( 'EmailUserForm' );
+
+		$this->testFormConfigurations(
+			'captcha-displayed',
+			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false ],
+			[],
+			[ 'wpCaptchaWord' ],
 			true
 		);
 	}

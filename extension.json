@@ -59,6 +59,9 @@
 			"services": [
 				"UserOptionsLookup",
 				"UserFactory"
+			],
+			"optional_services": [
+				"ConfirmEditCaptchaFactory"
 			]
 		}
 	},
