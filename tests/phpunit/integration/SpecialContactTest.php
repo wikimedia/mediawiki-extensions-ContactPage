@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\ContactPage\Tests\Integration;
 
 use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\Exception\UserBlockedError;
+use MediaWiki\Extension\ConfirmEdit\SimpleCaptcha\SimpleCaptcha;
 use MediaWiki\Extension\ContactPage\SpecialContact;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Request\FauxRequest;
@@ -297,6 +298,50 @@ class SpecialContactTest extends SpecialPageTestBase {
 			[ 'wpFromName' ],
 			true
 		);
+	}
+
+	public function testViewShowsCaptchaFieldWhenConfirmEditInstalled(): void {
+		$this->markTestSkippedIfExtensionNotLoaded( 'ConfirmEdit' );
+
+		$this->overrideConfigValue( 'CaptchaClass', SimpleCaptcha::class );
+		$this->overrideConfigValue( 'CaptchaTriggers', [
+			'contactpage' => true,
+		] );
+
+		$this->testFormConfigurations(
+			'captcha-displayed',
+			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false ],
+			[ 'wpCaptchaWord' ],
+			[],
+			true
+		);
+	}
+
+	public function testSubmitFailsForIncorrectCaptchaAnswer(): void {
+		$this->markTestSkippedIfExtensionNotLoaded( 'ConfirmEdit' );
+
+		$this->overrideConfigValue( 'CaptchaClass', SimpleCaptcha::class );
+		$this->overrideConfigValue( 'CaptchaTriggers', [
+			'contactpage' => true,
+		] );
+
+		$this->setFormConfig(
+			'captcha-failure',
+			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false, 'RequireDetails' => false ]
+		);
+
+		$request = new FauxRequest(
+			[
+				'wpCaptchaWord' => 'incorrect',
+				'wpCaptchaId' => 'captcha-id',
+				'wpText' => 'testing',
+			],
+			true
+		);
+
+		$html = $this->executeSpecialPage( 'captcha-failure', $request, 'qqx' )[ 0 ];
+
+		$this->assertStringContainsString( 'contactpage-captcha-error', $html );
 	}
 
 	private function getFormFields( $formName, $config ) {
