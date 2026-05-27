@@ -15,5 +15,14 @@
 	"contactpage-subject-and-sender-withip": "$1 (laga bilaabo $2 ilaa $3 )",
 	"contactpage-fromname": "Magacaaga:",
 	"contactpage-fromaddress": "Cinwaanka emailkaaga:",
-	"contactpage-usermailererror": "Walaxda boostadu waxay soo celisay qalad: $1"
+	"contactpage-formfootnotes": "(looga baahan yahay haddii aad rabto jawaab)",
+	"contactpage-includeip": "Ku dar cinwaanka IP-gaaga fariintan.",
+	"contactpage-usermailererror": "Walaxda boostadu waxay soo celisay qalad: $1",
+	"contactpage-captcha-error": "Khalad CAPTCHA",
+	"contactpage-config-error-title": "Khalad foomka xiriirka",
+	"contactpage-config-error": "Foomka xiriirka lama dejin boggan ama si khaldan ayaa loo dejiyay.",
+	"contactpage-mustbeloggedin": "Fadlan soo gal si aad u dirto foomka xiriirka.",
+	"contactpage-mustbeloggedin-for-temp-user": "Fadlan samee akoon si aad u dirto foomka xiriirka.",
+	"contactpage-musthaveemail-error-title": "Iimayl aan la xaqiijin ayaa maqan",
+	"contactpage-musthaveemail-error": "Fadlan ku dar iimayl la xaqiijiyay gudaha [[Special:Preferences|dooqyadaada]] si aad u dirto foomka xiriirka."
 }
