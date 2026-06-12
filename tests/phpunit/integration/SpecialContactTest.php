@@ -49,7 +49,7 @@ class SpecialContactTest extends SpecialPageTestBase {
 	}
 
 	public function testWhenConfigDefinesRedirect() {
-		$testPageUrl = Title::newFromText( 'Test' )->getFullURL();
+		$testPageUrl = Title::makeTitle( NS_MAIN, 'Test' )->getFullURL();
 
 		$this->setFormConfig( 'redirect', [ 'Redirect' => $testPageUrl ] );
 
