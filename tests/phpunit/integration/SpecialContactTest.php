@@ -2,12 +2,14 @@
 
 namespace MediaWiki\Extension\ContactPage\Tests\Integration;
 
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Extension\ConfirmEdit\SimpleCaptcha\SimpleCaptcha;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\Request\WebResponse;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Tests\Specials\SpecialPageTestBase;
 use MediaWiki\Tests\Unit\Permissions\MockAuthorityTrait;
 use MediaWiki\Title\Title;
@@ -31,6 +33,7 @@ class SpecialContactTest extends SpecialPageTestBase {
 		// For now we must redefine the config variable with the same
 		// values as in extension.json because of T381662
 		$this->overrideConfigValue( 'ContactConfig', self::getDefaults() );
+		RequestContext::getMain()->setTitle( SpecialPage::getTitleFor( 'Contact' ) );
 	}
 
 	public function addDBDataOnce() {
@@ -326,6 +329,25 @@ class SpecialContactTest extends SpecialPageTestBase {
 			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false ],
 			[ 'wpCaptchaWord' ],
 			[],
+			true
+		);
+	}
+
+	public function testViewShowsCaptchaFieldUsingContactPageSpecificClassWhenDefined(): void {
+		$this->markTestSkippedIfExtensionNotLoaded( 'ConfirmEdit' );
+
+		$this->overrideConfigValue( 'CaptchaClass', SimpleCaptcha::class );
+		$this->overrideConfigValue( 'CaptchaTriggers', [ 'contactpage' => [
+			'class' => 'HCaptcha',
+			'trigger' => true,
+		] ] );
+
+		// Should see the h-captcha field if the contactpage config specifies the use of hCaptcha
+		$this->testFormConfigurations(
+			'captcha-displayed',
+			[ 'RecipientEmail' => 'test@test.com', 'UseCustomBlockMessage' => false ],
+			[ 'h-captcha' ],
+			[ 'wpCaptchaWord' ],
 			true
 		);
 	}

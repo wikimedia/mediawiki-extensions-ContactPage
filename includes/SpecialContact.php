@@ -428,7 +428,7 @@ class SpecialContact extends UnlistedSpecialPage {
 
 		if (
 			$this->useCaptcha() &&
-			!$this->captchaFactory->getGlobalInstance()->passCaptchaFromRequest( $request, $user )
+			!$this->captchaFactory->getGlobalInstance( 'contactpage' )->passCaptchaFromRequest( $request, $user )
 		) {
 			return [ 'contactpage-captcha-error' ];
 		}
@@ -691,7 +691,7 @@ class SpecialContact extends UnlistedSpecialPage {
 		// NOTE: make sure we have a session. May be required for CAPTCHAs to work.
 		SessionManager::getGlobalSession()->persist();
 
-		$captcha = $this->captchaFactory->getGlobalInstance();
+		$captcha = $this->captchaFactory->getGlobalInstance( 'contactpage' );
 		$captcha->setTrigger( 'contactpage' );
 		$captcha->setAction( 'contact' );
 
