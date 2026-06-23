@@ -65,6 +65,14 @@
 			]
 		}
 	},
+	"HookHandlers": {
+		"ConfirmEditHooks": {
+			"class": "MediaWiki\\Extension\\ContactPage\\Hooks\\Handlers\\ConfirmEditHandler"
+		}
+	},
+	"Hooks": {
+		"ConfirmEditGetGlobalInstanceFromContext": "ConfirmEditHooks"
+	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ContactPage\\": "includes/"
 	},
