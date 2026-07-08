@@ -31,6 +31,7 @@ use MediaWiki\Status\Status;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
+use Wikimedia\ArrayUtils\ArrayUtils;
 
 /**
  * Provides the contact form
@@ -404,7 +405,7 @@ class SpecialContact extends UnlistedSpecialPage {
 				]
 			];
 
-			$formFields = wfArrayInsertAfter( $formFields, $fromInfo, 'FromAddress' );
+			$formFields = ArrayUtils::insertAfter( $formFields, $fromInfo, 'FromAddress' );
 
 		}
 
