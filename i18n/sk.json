@@ -4,7 +4,8 @@
 			"DannyS712",
 			"Helix84",
 			"Teslaton",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
 	"contactpage": "Kontaktná stránka",
@@ -19,5 +20,13 @@
 	"contactpage-fromaddress": "Vaša e-mailová adresa:",
 	"contactpage-formfootnotes": "(potrebné ak chcete odpoveď)",
 	"contactpage-includeip": "Vložiť k tejto správe moju IP adresu.",
-	"contactpage-usermailererror": "E-mailový program vrátil chybu: $1"
+	"contactpage-usermailererror": "E-mailový program vrátil chybu: $1",
+	"contactpage-captcha-error": "Chyba CAPTCHA",
+	"contactpage-config-error-title": "Chyba kontaktného formulára",
+	"contactpage-config-error": "Kontaktný formulár pre túto stránku buď nie je nakonfigurovaný, alebo je nakonfigurovaný nesprávne.",
+	"contactpage-mustbeloggedin": "Ak chcete odoslať kontaktný formulár, prihláste sa, prosím.",
+	"contactpage-mustbeloggedin-for-temp-user": "Ak chcete odoslať kontaktný formulár, vytvorte si, prosím, účet.",
+	"contactpage-musthaveemail-error-title": "Chýba potvrdená e-mailová adresa",
+	"contactpage-musthaveemail-error": "Ak chcete odoslať kontaktný formulár, nastavte si, prosím, vo svojich [[Special:Preferences|nastaveniach]] potvrdenú e-mailovú adresu.",
+	"contactpage-sender-address": "E-mailová adresa odosielateľa: $1"
 }
