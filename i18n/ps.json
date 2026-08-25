@@ -12,7 +12,17 @@
 	"contactpage-legend": "برېښليک لېږل",
 	"contactpage-defsubject": "د اړيکې پيغام",
 	"contactpage-subject-and-sender": "$1 (د $2 لخوا )",
+	"contactpage-subject-and-sender-withip": "$1 (له $2 په $3 کې)",
 	"contactpage-fromname": "ستاسې نوم:",
 	"contactpage-fromaddress": "ستاسې برېښليک‌پته:",
-	"contactpage-formfootnotes": "(ورته اړتيا ده که يو ځواب غواړئ)"
+	"contactpage-formfootnotes": "(ورته اړتيا ده که يو ځواب غواړئ)",
+	"contactpage-includeip": "دې پيغام کې زما وېب پته راونغاړه.",
+	"contactpage-usermailererror": "د برېښليک څيز راگرځېدنې تېروتنه: $1",
+	"contactpage-captcha-error": "کپچا تېروتنه",
+	"contactpage-config-error-title": "د اړيکې فورمې تېروتنه",
+	"contactpage-config-error": "د اړيکې فورمه يا د دې مخ لپاره ترتيب شوې نه ده يا په ناسم ډول ترتيب شوې ده.",
+	"contactpage-mustbeloggedin": "د اړيکې فورمې سپارلو لپاره مهرباني وکړئ ننوځئ.",
+	"contactpage-mustbeloggedin-for-temp-user": "د اړيکې فورمې سپارلو لپاره مهرباني وکړئ يو گڼون جوړ کړئ.",
+	"contactpage-musthaveemail-error-title": "تاييد شوې برېښليک پته ورکه ده",
+	"contactpage-musthaveemail-error": "مهرباني وکړئ د اړيکې فورمې سپارلو لپاره په خپل [[Special:Preferences|غوره‌توبونه]] کې يوه تاييډ شوې برېښليک پته وليکئ."
 }
