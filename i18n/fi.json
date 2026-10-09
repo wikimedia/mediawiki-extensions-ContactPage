@@ -10,7 +10,8 @@
 			"Nike",
 			"Samoasambia",
 			"Silvonen",
-			"Vililikku"
+			"Vililikku",
+			"Jack Phoenix"
 		]
 	},
 	"contactpage": "Yhteydenottosivu",
@@ -32,5 +33,6 @@
 	"contactpage-mustbeloggedin": "Kirjaudu sisään lähettääksesi yhteydenottolomakkeen.",
 	"contactpage-mustbeloggedin-for-temp-user": "Luo tunnus lähettääksesi yhteydenottolomakkeen.",
 	"contactpage-musthaveemail-error-title": "Vahvistettu sähköpostiosoite puuttuu",
-	"contactpage-musthaveemail-error": "Vahvista sähköpostiosoite [[Special:Preferences|asetuksissasi]] lähettääksesi yhteydenottolomakkeen."
+	"contactpage-musthaveemail-error": "Vahvista sähköpostiosoite [[Special:Preferences|asetuksissasi]] lähettääksesi yhteydenottolomakkeen.",
+	"contactpage-sender-address": "Lähettäjän sähköpostiosoite: $1"
 }
